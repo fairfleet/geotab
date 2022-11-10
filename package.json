@@ -32,7 +32,8 @@
     "build": "pnpm build:types && pnpm build:vite && pnpm build:copy-files",
     "build:vite": "vite build",
     "build:types": "node tools/generate.js",
-    "build:copy-files": "node tools/copyFiles.js"
+    "build:copy-files": "node tools/copyFiles.js",
+    "postpublish": "node tools/postPublish.js"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^9.0.2",
