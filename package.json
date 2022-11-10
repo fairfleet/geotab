@@ -3,9 +3,8 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "author": "Fairfleet Gmbh",
-  "module": "./index.mjs",
   "license": "MIT",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "keywords": [
     "geotab",
     "api",
