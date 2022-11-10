@@ -43,9 +43,13 @@ async function writeTypesIndex() {
 
   const paths = await glob("src/types/**/*.ts");
   const imports = paths.map((file) => file.replace(/^src\/types\//, "").replace(/\.ts$/, ""));
-  const exports = imports.map((file) => `export * from "./${file}";`).join("\n");
+  const exports = imports
+    .filter((file) => file !== "index")
+    .map((file) => `export * from "./${file}";`);
 
-  await writeFile("src/types/index.ts", exports);
+  exports.sort();
+
+  await writeFile("src/types/index.ts", exports.join("\n"));
 }
 
 void main();
