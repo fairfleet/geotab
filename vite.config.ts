@@ -6,6 +6,9 @@ import { sync as glob } from "fast-glob";
 export default defineConfig({
   test: {
     globals: true,
+    coverage: {
+      reporter: "lcov",
+    },
   },
   build: {
     lib: {
