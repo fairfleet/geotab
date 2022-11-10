@@ -39,13 +39,7 @@ jobs:
         run: pnpm install
 
       - name: Test
-        run: pnpm test -- --reporter=junit --outputFile.junit=./junit.xml --coverage
-
-      - uses: actions/upload-artifact@v2
-        if: success() || failure() # run this step even if previous step failed
-        with:
-          name: test-results
-          path: junit.xml
+        run: pnpm test -- --coverage
 
       - uses: codecov/codecov-action@v3
         with:
