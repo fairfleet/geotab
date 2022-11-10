@@ -28,9 +28,10 @@
   ],
   "scripts": {
     "test": "vitest",
-    "build": "vite build",
-    "generate": "node tools/generate.js",
-    "prepublish": "node tools/prepublish.js"
+    "build": "pnpm build:types && pnpm build:vite && pnpm build:copy-files",
+    "build:vite": "vite build",
+    "build:types": "node tools/generate.js",
+    "build:copy-files": "node tools/copyFiles.js"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^9.0.2",
