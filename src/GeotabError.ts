@@ -32,7 +32,7 @@ interface RpcErrorData {
  * @param error - The error to validate.
  * @returns The error data.
  */
-export function getErrorData(error: unknown): RpcErrorData {
+function getErrorData(error: unknown): RpcErrorData {
   if (typeof error !== "object") {
     return {
       code: 0,
