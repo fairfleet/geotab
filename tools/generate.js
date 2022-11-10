@@ -8,7 +8,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const glob = require("fast-glob");
 const { writeFile, rmdir } = require("fs/promises");
-const { exec } = require("child_process");
+const { sh } = require("./utils/sh");
 
 async function main() {
   await clean();
@@ -46,30 +46,6 @@ async function writeTypesIndex() {
   const exports = imports.map((file) => `export * from "./${file}";`).join("\n");
 
   await writeFile("src/types/index.ts", exports);
-}
-
-async function sh(command) {
-  return new Promise((resolve, reject) => {
-    let stderr = "";
-
-    const child = exec(command, (error) => {
-      if (error) {
-        return reject(error);
-      }
-    });
-
-    child.stderr.on("data", (data) => (stderr += data));
-    child.stdout.pipe(process.stdout);
-    child.stderr.pipe(process.stderr);
-
-    child.on("close", (code) => {
-      if (code !== 0) {
-        return reject(new Error(stderr));
-      }
-
-      resolve();
-    });
-  });
 }
 
 void main();
