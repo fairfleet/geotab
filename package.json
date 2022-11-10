@@ -26,6 +26,7 @@
   "contributors": [
     "Marvin Countryman <me@maar.vin>"
   ],
+  "sideEffects": false,
   "scripts": {
     "test": "vitest",
     "build": "pnpm build:types && pnpm build:vite && pnpm build:copy-files",
