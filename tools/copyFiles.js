@@ -7,15 +7,10 @@
 const { copyFile, mkdir } = require("fs/promises");
 
 async function main() {
-  await mkdir("./dist/tools").catch(() => {
-    // noop
-  });
-
   await Promise.all([
     copyFile("README.md", "dist/README.md"),
     copyFile("LICENSE.md", "dist/LICENSE.md"),
     copyFile("package.json", "dist/package.json"),
-    copyFile("tools/postPublish.js", "dist/tools/postPublish.js"),
   ]);
 }
 

@@ -50,10 +50,11 @@ jobs:
       - name: Publish
         run: pnpm publish dist/
 
-      - name: Configure git
+      - name: Create git tag
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          pnpm create-git-tag
 
       - name: Push changes
         uses: ad-m/github-push-action@master
