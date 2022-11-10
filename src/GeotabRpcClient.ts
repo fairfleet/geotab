@@ -97,6 +97,10 @@ export class GeotabRpcClient {
     const queue = this.callQueue;
     this.callQueue = [];
 
+    if (queue.length === 0) {
+      return;
+    }
+
     try {
       const request = this.getBody(queue);
       const json = await this.postJsonRpcRequest(request);
@@ -155,11 +159,6 @@ export class GeotabRpcClient {
   }
 
   private getBody(queue: Call[]) {
-    const first = queue[0];
-    if (!first) {
-      throw new Error("The queue is empty");
-    }
-
     if (queue.length > 1) {
       return {
         id: nanoid(),
@@ -172,6 +171,7 @@ export class GeotabRpcClient {
       };
     }
 
+    const first = queue[0];
     return {
       id: nanoid(),
       method: first.method,
@@ -199,18 +199,11 @@ export class GeotabRpcClient {
   }
 
   private handleResponse(response: unknown, queue: Call[]) {
-    const first = queue[0];
-    const isMultiCall = queue.length > 1;
-
-    if (!first) {
-      throw new Error("The queue is empty");
-    }
-
-    if (isMultiCall) {
+    if (queue.length > 1) {
       return this.handleResponseMulti(response, queue);
     }
 
-    return this.handleResponseSingle(response, first);
+    return this.handleResponseSingle(response, queue[0]);
   }
 
   private handleResponseSingle(response: unknown, call: Call) {

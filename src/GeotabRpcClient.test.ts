@@ -94,15 +94,110 @@ describe("GeotabRpcClient", () => {
       await expect(call1).rejects.toThrow(error);
       await expect(call2).rejects.toThrow(error);
     });
+
+    test("When a response contains invalid JSON object, should throw error", async () => {
+      const client = new GeotabRpcClient({ url: "" });
+
+      vi.spyOn(client, "postJsonRpcRequest").mockImplementation(() => Promise.resolve(`"hello"`));
+
+      await expect(client.call("Get", {})).rejects.toThrow();
+    });
+
+    test("When a response contains a JSONRPC error, should throw error", async () => {
+      const client = new GeotabRpcClient({ url: "" });
+
+      vi.spyOn(client, "postJsonRpcRequest").mockImplementation(() =>
+        Promise.resolve(`{"error": { "message": "test" }}`)
+      );
+
+      await expect(client.call("Get", {})).rejects.toThrow("test");
+    });
+
+    test("When multi call response is non-array type, should throw error", async () => {
+      const client = new GeotabRpcClient({ url: "" });
+
+      vi.spyOn(client, "postJsonRpcRequest").mockImplementation(() =>
+        Promise.resolve(`{ "result": "hello" }`)
+      );
+
+      client.call("Get", {}).catch(() => {
+        // noop
+      });
+
+      client.call("Get", {}).catch(() => {
+        // noop
+      });
+
+      await expect(client.call("Get", {})).rejects.toThrow();
+    });
+
+    test("When multi call response returns array of unequal size to batch, should throw error", async () => {
+      const client = new GeotabRpcClient({ url: "" });
+
+      vi.spyOn(client, "postJsonRpcRequest").mockImplementation(() =>
+        Promise.resolve(`{ "result": [0, 1, 2, 3] }`)
+      );
+
+      client.call("Get", {}).catch(() => {
+        // noop
+      });
+
+      client.call("Get", {}).catch(() => {
+        // noop
+      });
+
+      await expect(client.call("Get", {})).rejects.toThrow();
+    });
+
+    test("Given credentials for a single call, should post credentials in params", async () => {
+      const client = new GeotabRpcClient({ url: "" });
+      const credentials = { database: "test", userName: "test", password: "test", sessionId: "" };
+      const postJsonRpcRequest = vi
+        .spyOn(client, "postJsonRpcRequest")
+        .mockImplementation(() => Promise.resolve(`{ "result": 0 }`));
+
+      client.setCredentials(credentials);
+
+      await client.call("Get", {});
+
+      expect(postJsonRpcRequest).toHaveBeenCalledWith(
+        expect.objectContaining({
+          params: expect.objectContaining({ credentials }),
+        })
+      );
+    });
+
+    test("Given credentials for a multi call, should post credentials in params", async () => {
+      const client = new GeotabRpcClient({ url: "" });
+      const credentials = { database: "test", userName: "test", password: "test", sessionId: "" };
+      const postJsonRpcRequest = vi
+        .spyOn(client, "postJsonRpcRequest")
+        .mockImplementation(() => Promise.resolve(`{ "result": [0, 1, 2] }`));
+
+      client.setCredentials(credentials);
+
+      client.call("Get", {});
+      client.call("Get", {});
+      await client.call("Get", {});
+
+      expect(postJsonRpcRequest).toHaveBeenCalledWith(
+        expect.objectContaining({
+          params: expect.objectContaining({ credentials }),
+        })
+      );
+    });
   });
 
   describe("flushCallQueue", () => {
-    test("Given an empty queue, should not throw", async () => {
+    test("Given an empty queue, should not send request", async () => {
       const client = new GeotabRpcClient({ url: "" });
 
-      vi.spyOn(client, "postJsonRpcRequest").mockImplementation(() => Promise.resolve(""));
+      const postJsonRpcRequest = vi
+        .spyOn(client, "postJsonRpcRequest")
+        .mockImplementation(() => Promise.resolve("{}"));
 
       await expect(client.flushCallQueue()).resolves.toBeUndefined();
+      expect(postJsonRpcRequest).toBeCalledTimes(0);
     });
 
     test("Given a single call, should post a normal JSONRPC request", async () => {
