@@ -16,10 +16,6 @@
     ".": {
       "import": "./index.mjs",
       "require": "./index.js"
-    },
-    "./**": {
-      "import": "./**.mjs",
-      "require": "./**.js"
     }
   },
   "description": "An unofficial Geotab API client written in TypeScript",
