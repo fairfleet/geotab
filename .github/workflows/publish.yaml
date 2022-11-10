@@ -43,7 +43,7 @@ jobs:
         run: pnpm build
 
       - name: Publish
-        run: pnpm publish
+        run: pnpm publish dist/
 
       - name: Configure git
         run: |
