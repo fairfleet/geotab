@@ -5,45 +5,21 @@ export class GeotabError extends Error {
   public readonly data?: unknown;
 
   constructor(error: unknown) {
-    const data = getErrorData(error);
+    let code = 0;
+    let data: unknown;
+    let message = String(error);
 
-    super(data.message);
+    if (typeof error === "object" && error !== null) {
+      const errorRecord = error as Record<string, unknown>;
 
-    this.code = data.code;
-    this.data = data.data;
+      code = Number(errorRecord.code) || 0;
+      data = errorRecord.data;
+      message = String(errorRecord.message) || message;
+    }
+
+    super(message);
+
+    this.code = code;
+    this.data = data;
   }
-}
-
-/**
- * Contains the JSONRPC error data.
- */
-interface RpcErrorData {
-  /** The data associated with the error. */
-  data?: unknown;
-  /** The error code that indicates the error that occurred. */
-  code: number;
-  /** The error message. */
-  message: string;
-}
-
-/**
- * Validates the given error and returns the error data.
- *
- * @param error - The error to validate.
- * @returns The error data.
- */
-function getErrorData(error: unknown): RpcErrorData {
-  if (typeof error !== "object") {
-    return {
-      code: 0,
-      message: String(error),
-    };
-  }
-
-  const data = error as Record<string, unknown>;
-  return {
-    data: data.data,
-    code: data.code as number,
-    message: data.message as string,
-  };
 }
