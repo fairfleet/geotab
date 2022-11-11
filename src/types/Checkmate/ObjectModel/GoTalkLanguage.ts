@@ -3,15 +3,9 @@
 //     the code is regenerated.
 
 /** The language used by a GoTalk attached to a. {@link GoDevice} */
-export enum GoTalkLanguage {
-  /** English */
-  English = "English",
-  /** French */
-  French = "French",
-  /** Spanish */
-  Spanish = "Spanish",
-  /** German */
-  German = "German",
-  /** Italian */
-  Italian = "Italian",
-}
+export type GoTalkLanguage =
+  | "English"
+  | "French"
+  | "Spanish"
+  | "German"
+  | "Italian";

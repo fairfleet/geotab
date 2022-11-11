@@ -3,33 +3,18 @@
 //     the code is regenerated.
 
 /** Indicates the JSON-RPC error type that occurred. Derived from JSON-RPC 2.0 specification. */
-export enum JsonRpcErrorCode {
-  /** The default value. */
-  None = "None",
-  /** Invalid JSON was received by the server. An error occurred on the server while parsing the JSON text. */
-  ParseError = "ParseError",
-  /** Internal JSON-RPC error. */
-  InternalError = "InternalError",
-  /** Invalid method parameter(s). */
-  InvalidParams = "InvalidParams",
-  /** The method does not exist / is not available. */
-  MethodNotFound = "MethodNotFound",
-  /** The JSON sent is not a valid Request object. */
-  InvalidRequest = "InvalidRequest",
-  /** The server responded with {@link GroupRelationViolatedException}. */
-  GroupRelationViolatedError = "GroupRelationViolatedError",
-  /** The server responded with {@link DbUnavailableException}, State= {@link DbUnavailableState.None}. */
-  DbUnavailableGeneralError = "DbUnavailableGeneralError",
-  /** The server responded with {@link DbUnavailableException}, State= {@link DbUnavailableState.ConnectionFailure}. */
-  DbUnavailableConnectionFailure = "DbUnavailableConnectionFailure",
-  /** The server responded with {@link DbUnavailableException}, State= {@link DbUnavailableState.UnknownDatabase}. */
-  DbUnavailableUnknownDatabase = "DbUnavailableUnknownDatabase",
-  /** The server responded with {@link DbUnavailableException}, State= {@link DbUnavailableState.Initializing}. */
-  DbUnavailableInitializing = "DbUnavailableInitializing",
-  /** The server responded with {@link DbUnavailableException}, State= {@link DbUnavailableState.OperationAborted}. */
-  DbUnavailableOperationAborted = "DbUnavailableOperationAborted",
-  /** Invalid certificate error. */
-  InvalidCertificateException = "InvalidCertificateException",
-  /** Internal server error. */
-  InternalServerError = "InternalServerError",
-}
+export type JsonRpcErrorCode =
+  | "None"
+  | "ParseError"
+  | "InternalError"
+  | "InvalidParams"
+  | "MethodNotFound"
+  | "InvalidRequest"
+  | "GroupRelationViolatedError"
+  | "DbUnavailableGeneralError"
+  | "DbUnavailableConnectionFailure"
+  | "DbUnavailableUnknownDatabase"
+  | "DbUnavailableInitializing"
+  | "DbUnavailableOperationAborted"
+  | "InvalidCertificateException"
+  | "InternalServerError";

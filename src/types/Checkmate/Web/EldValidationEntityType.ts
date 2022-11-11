@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** ELD output validation message types. */
-export enum EldValidationEntityType {
-  /** The error entity type cannot be determined or was not provided. */
-  None = "None",
-  /** The error entity type is a {@link Device}. */
-  Vehicle = "Vehicle",
-  /** The error entity type is a {@link Driver}. */
-  Driver = "Driver",
-}
+export type EldValidationEntityType = "None" | "Vehicle" | "Driver";

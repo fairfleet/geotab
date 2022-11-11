@@ -3,9 +3,6 @@
 //     the code is regenerated.
 
 /** The purpose of a notification template */
-export enum NotificationTemplatePurpose {
-  /** User template for exceptionEvents */
-  ExceptionEvent = "ExceptionEvent",
-  /** User template for maintenance notification reminders */
-  MaintenanceNotification = "MaintenanceNotification",
-}
+export type NotificationTemplatePurpose =
+  | "ExceptionEvent"
+  | "MaintenanceNotification";

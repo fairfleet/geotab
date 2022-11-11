@@ -2,7 +2,6 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
-/** System defined identifiers. */
 export enum KnownId {
   /** Gets the controller parking brake controller identifier. */
   ControllerParkingBrakeControllerId = "ControllerParkingBrakeControllerId",
@@ -1668,7 +1667,7 @@ export enum KnownId {
   DisplayMeasurementProfileAfricaId = "DisplayMeasurementProfileAfricaId",
   /**
    * Gets the securityId, Unknown identifier is not used for security purposes. It's used internally to indicate a particular type could not be translated into
-   *                 a security identifier. This always yields in access denied.
+   *  a security identifier. This always yields in access denied.
    */
   SecurityIdUnknownId = "SecurityIdUnknownId",
   /** Gets the securityId, Access to Everything. */
@@ -1783,7 +1782,7 @@ export enum KnownId {
   SecurityIdSecurityClearanceListId = "SecurityIdSecurityClearanceListId",
   /**
    * Gets the securityId, required to support WATERMARK and is only applicable if their custom
-   *               code has been configured.
+   *  code has been configured.
    */
   SecurityIdTrackHistoricDataId = "SecurityIdTrackHistoricDataId",
   /** Gets the securityId, "SecurityIdServices" settings tab. */
@@ -1828,8 +1827,8 @@ export enum KnownId {
   SecurityIdFuelUsageReportId = "SecurityIdFuelUsageReportId",
   /**
    * Gets the securityId, required to support ENGCO and is only applicable if their custom
-   *                 code has been configured.
-   *                 Allow user to configure driver blacklist on devices.
+   *  code has been configured.
+   *  Allow user to configure driver blacklist on devices.
    */
   SecurityIdDriverBlacklistId = "SecurityIdDriverBlacklistId",
   /** Gets the securityId, Allow user to edit an exception rule using the wizard. */
@@ -1926,7 +1925,7 @@ export enum KnownId {
   SecurityIdViewGroupsId = "SecurityIdViewGroupsId",
   /** Gets the securityId, Allow user to view the wifi settings tab and view/modify the wifi hotspot SSID and password. */
   SecurityIdAdministerWiFiHotspotSettingsId = "SecurityIdAdministerWiFiHotspotSettingsId",
-  /** Gets the securityId, Allow user  to view the wifi hotspot SSID and password. */
+  /** Gets the securityId, Allow user to view the wifi hotspot SSID and password. */
   SecurityIdViewWiFiHotspotSettingsId = "SecurityIdViewWiFiHotspotSettingsId",
   /** Gets the securityId, Access to Material Management. */
   SecurityIdMaterialManagementReportId = "SecurityIdMaterialManagementReportId",
@@ -1980,9 +1979,9 @@ export enum KnownId {
   SecurityIdViewSharedDeviceId = "SecurityIdViewSharedDeviceId",
   /** Gets the securityId, Allowed to edit device groups. */
   SecurityIdManageDriverActivityGroupId = "SecurityIdManageDriverActivityGroupId",
-  /** Gets the securityId which allows viewing <see cref="T:Geotab.Checkmate.ObjectModel.TripAnnotation" />s. */
+  /** Gets the securityId which allows viewing {@link TripAnnotation}s. */
   SecurityIdViewTripAnnotationId = "SecurityIdViewTripAnnotationId",
-  /** Gets the securityId which allows editing <see cref="T:Geotab.Checkmate.ObjectModel.TripAnnotation" />s. */
+  /** Gets the securityId which allows editing {@link TripAnnotation}s. */
   SecurityIdManageTripAnnotationId = "SecurityIdManageTripAnnotationId",
   /** Gets the securityId, insert UserDisplayProfile. */
   SecurityIdUserDisplayProfileInsertId = "SecurityIdUserDisplayProfileInsertId",

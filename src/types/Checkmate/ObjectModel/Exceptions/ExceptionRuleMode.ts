@@ -3,17 +3,10 @@
 //     the code is regenerated.
 
 /** The mode of the {@link Rule}. */
-export enum ExceptionRuleMode {
-  /** Checked inside a zone. */
-  Inside = "Inside",
-  /** Checked outside a zone. */
-  Outside = "Outside",
-  /** Check for stop inside a zone. */
-  StopInside = "StopInside",
-  /** Check for stop outside a zone. */
-  StopOutside = "StopOutside",
-  /** Entering a zone. */
-  EnteringZone = "EnteringZone",
-  /** Exiting a zone. */
-  ExitingZone = "ExitingZone",
-}
+export type ExceptionRuleMode =
+  | "Inside"
+  | "Outside"
+  | "StopInside"
+  | "StopOutside"
+  | "EnteringZone"
+  | "ExitingZone";

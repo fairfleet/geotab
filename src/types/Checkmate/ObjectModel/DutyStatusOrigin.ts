@@ -5,13 +5,8 @@
 /**
  *  The origin of a {@link DutyStatusLog}.
  */
-export enum DutyStatusOrigin {
-  /** Automatic recorded by device */
-  Automatic = "Automatic",
-  /** Manual entry by driver. */
-  Manual = "Manual",
-  /** Other authenticated user. */
-  OtherUser = "OtherUser",
-  /** Unassigned driver. */
-  Unassigned = "Unassigned",
-}
+export type DutyStatusOrigin =
+  | "Automatic"
+  | "Manual"
+  | "OtherUser"
+  | "Unassigned";

@@ -3,17 +3,10 @@
 //     the code is regenerated.
 
 /** Defines different rule monitor types. */
-export enum RuleMonitorType {
-  /** None */
-  None = "None",
-  /** Represents rule monitor type Zone. */
-  Zone = "Zone",
-  /** Represents rule monitor type Diagnostic. */
-  Diagnostic = "Diagnostic",
-  /** Represents rule monitor type Status Statistics (based on the Diagnostic values). */
-  StatusStatistics = "StatusStatistics",
-  /** Represents rule monitor type Percentage Over Speed Limit. */
-  PercentageOverSpeedLimit = "PercentageOverSpeedLimit",
-  /** Represents exception location type */
-  Location = "Location",
-}
+export type RuleMonitorType =
+  | "None"
+  | "Zone"
+  | "Diagnostic"
+  | "StatusStatistics"
+  | "PercentageOverSpeedLimit"
+  | "Location";

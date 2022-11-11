@@ -5,11 +5,4 @@
 /**
  *  The Repair Status for {@link DVIRDefect}.
  */
-export enum RepairStatusType {
-  /** Defect has not been repaired yet */
-  NotRepaired = "NotRepaired",
-  /** Defect has been Repaired */
-  Repaired = "Repaired",
-  /** Defect has identified as Not Necessary to repair */
-  NotNecessary = "NotNecessary",
-}
+export type RepairStatusType = "NotRepaired" | "Repaired" | "NotNecessary";

@@ -3,15 +3,9 @@
 //     the code is regenerated.
 
 /** The type of a {@link MediaFile}. */
-export enum MediaType {
-  /** Unknown file type. */
-  Unknown = "Unknown",
-  /** Video file type. */
-  Video = "Video",
-  /** Image file type. */
-  Image = "Image",
-  /** Application file type. */
-  Application = "Application",
-  /** Binary file type used for messages. */
-  BinaryData = "BinaryData",
-}
+export type MediaType =
+  | "Unknown"
+  | "Video"
+  | "Image"
+  | "Application"
+  | "BinaryData";

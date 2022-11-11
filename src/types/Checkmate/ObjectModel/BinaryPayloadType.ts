@@ -3,9 +3,4 @@
 //     the code is regenerated.
 
 /** The {@link BinaryPayload} type. */
-export enum BinaryPayloadType {
-  /** BinaryPayload has no type. */
-  None = "None",
-  /** Represents a payload of type {@link RequestLocation}. */
-  RequestLocation = "RequestLocation",
-}
+export type BinaryPayloadType = "None" | "RequestLocation";

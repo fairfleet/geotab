@@ -3,7 +3,4 @@
 //     the code is regenerated.
 
 /** Features that can be toggled for {@link Device}s that trigger different behaviour in MyGeotab. */
-export enum DeviceCustomFeature {
-  /** Represents automatic generation of {@link DutyStatusLog}s for a {@link Device}. */
-  AutoHos = "AutoHos",
-}
+export type DeviceCustomFeature = "AutoHos";

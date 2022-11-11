@@ -3,9 +3,4 @@
 //     the code is regenerated.
 
 /** An enum specifying to what resolution to serialize a DateTime to in the ISO 8601 format. */
-export enum Iso8601Resolution {
-  /** Serialize down to the millisecond (ie yyyy-MM-ddTHH:mm:ss.fffZ) */
-  Millisecond = "Millisecond",
-  /** Serialize in the full ISO 8601 resolution (ie ie yyyy-MM-ddTHH:mm:ss.fffffffZ) */
-  Full = "Full",
-}
+export type Iso8601Resolution = "Millisecond" | "Full";

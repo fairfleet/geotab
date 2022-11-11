@@ -3,9 +3,4 @@
 //     the code is regenerated.
 
 /** Specify whether the fault resets automatically or manually. */
-export enum FaultResetMode {
-  /** The engine {@link FaultData} data {@link ExceptionEvent} for this kind of {@link Diagnostic} can contain a number of sequential {@link FaultData} instances. These instances will continue to grow until the fault condition ends. */
-  None = "None",
-  /** The engine {@link FaultData} data {@link ExceptionEvent} for this kind of {@link Diagnostic} will always contain single {@link FaultData} instance. */
-  AutoReset = "AutoReset",
-}
+export type FaultResetMode = "None" | "AutoReset";

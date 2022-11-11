@@ -3,19 +3,11 @@
 //     the code is regenerated.
 
 /** An enum that describes possible types of {@link User} changes that require {@link NotificationUserModifiedData} to be created. */
-export enum UserModification {
-  /** A {@link User} was created. */
-  Created = "Created",
-  /** A {@link User} was removed. */
-  Removed = "Removed",
-  /** A {@link User} was enabled (moved from archived mode back to regular/active mode). */
-  Enabled = "Enabled",
-  /** A {@link User} was disabled (moved from regular/active mode to archived mode). */
-  Disabled = "Disabled",
-  /** A {@link User} had their {@link Group} properties changed. */
-  GroupsChanged = "GroupsChanged",
-  /** A {@link User} had their {@link SecurityClearance} properties changed. */
-  ClearancesChanged = "ClearancesChanged",
-  /** A {@link User} was modified. */
-  ModifiedGeneral = "ModifiedGeneral",
-}
+export type UserModification =
+  | "Created"
+  | "Removed"
+  | "Enabled"
+  | "Disabled"
+  | "GroupsChanged"
+  | "ClearancesChanged"
+  | "ModifiedGeneral";

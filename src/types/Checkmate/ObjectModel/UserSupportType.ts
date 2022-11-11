@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** A type of {@link User} support contact. User contact can be call, training or procurement support */
-export enum UserSupportType {
-  /** A {@link User} support contact whom will be redirected all calls. */
-  Call = "Call",
-  /** A {@link User} as a training support contact. */
-  Training = "Training",
-  /** A {@link User} as a procurement support contact. */
-  Procurement = "Procurement",
-}
+export type UserSupportType = "Call" | "Training" | "Procurement";

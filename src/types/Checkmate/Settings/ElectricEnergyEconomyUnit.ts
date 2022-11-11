@@ -5,29 +5,16 @@
 /**
  *  Various Electric Energy Economy units Geotab supports. Currently supported units: L-e/100 km, km/L-e, kWh/100 km, Wh/km, km/kWh, MPG-e (US), MPG-e (Imp), kWh/100 miles, Wh/mile and mile/kWh.
  */
-export enum ElectricEnergyEconomyUnit {
-  /** The liters-e per 100 km unit. */
-  LitersEPer100Km = "LitersEPer100Km",
-  /** The km per liter-e unit. */
-  KmPerLitersE = "KmPerLitersE",
-  /** The kilowatt hour per 100 km unit. */
-  KiloWhPer100Km = "KiloWhPer100Km",
-  /** The watt hour per km unit. */
-  WhPerKm = "WhPerKm",
-  /** The km per kilowatt hour unit. */
-  KmPerKiloWh = "KmPerKiloWh",
-  /** The miles per gallon-e (US) unit. */
-  MPGEUS = "MPGEUS",
-  /** The miles per gallon-e (Imperial) unit. */
-  MPGEImperial = "MPGEImperial",
-  /** The kilowatt hour per 100 miles unit. */
-  KiloWhPer100Miles = "KiloWhPer100Miles",
-  /** The watt hour per mile unit. */
-  WhPerMile = "WhPerMile",
-  /** The mile per kilowatt hour unit. */
-  MilePerKiloWh = "MilePerKiloWh",
-  /** The kilo watt hour per kilometer. */
-  KiloWhPerKm = "KiloWhPerKm",
-  /** The kilo watt hour per mile. */
-  KiloWhPerMile = "KiloWhPerMile",
-}
+export type ElectricEnergyEconomyUnit =
+  | "LitersEPer100Km"
+  | "KmPerLitersE"
+  | "KiloWhPer100Km"
+  | "WhPerKm"
+  | "KmPerKiloWh"
+  | "MPGEUS"
+  | "MPGEImperial"
+  | "KiloWhPer100Miles"
+  | "WhPerMile"
+  | "MilePerKiloWh"
+  | "KiloWhPerKm"
+  | "KiloWhPerMile";

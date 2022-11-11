@@ -3,55 +3,29 @@
 //     the code is regenerated.
 
 /** The supported currency */
-export enum Currency {
-  /** Canadian Dollar */
-  Cad = "Cad",
-  /** Hong Kong Dollar */
-  Hkd = "Hkd",
-  /** US Dollar */
-  Usd = "Usd",
-  /** Australian Dollar */
-  Aud = "Aud",
-  /** Brazilian Real */
-  Brl = "Brl",
-  /** Chinese Yuan Renminbi */
-  Cny = "Cny",
-  /** European Euro */
-  Eur = "Eur",
-  /** Indian Rupee */
-  Inr = "Inr",
-  /** Indonesian Rupiah */
-  Idr = "Idr",
-  /** Japanese Yen */
-  Jpy = "Jpy",
-  /** Mexican Peso */
-  Mxn = "Mxn",
-  /** New Zealand Dollar */
-  Nzd = "Nzd",
-  /** Norwegian Krone */
-  Nok = "Nok",
-  /** Peruvian New Sol */
-  Pen = "Pen",
-  /** Russian Ruble */
-  Rub = "Rub",
-  /** Saudi Riyal */
-  Sar = "Sar",
-  /** Singapore Dollar */
-  Sgd = "Sgd",
-  /** South African Rand */
-  Zar = "Zar",
-  /** South Korean Won */
-  Krw = "Krw",
-  /** Swedish Krona */
-  Sek = "Sek",
-  /** Swiss Franc */
-  Chf = "Chf",
-  /** Thai Baht */
-  Thb = "Thb",
-  /** Taiwanese Dollar */
-  Twd = "Twd",
-  /** Turkish Lira */
-  Try = "Try",
-  /** Pound Sterling */
-  Gbp = "Gbp",
-}
+export type Currency =
+  | "Cad"
+  | "Hkd"
+  | "Usd"
+  | "Aud"
+  | "Brl"
+  | "Cny"
+  | "Eur"
+  | "Inr"
+  | "Idr"
+  | "Jpy"
+  | "Mxn"
+  | "Nzd"
+  | "Nok"
+  | "Pen"
+  | "Rub"
+  | "Sar"
+  | "Sgd"
+  | "Zar"
+  | "Krw"
+  | "Sek"
+  | "Chf"
+  | "Thb"
+  | "Twd"
+  | "Try"
+  | "Gbp";

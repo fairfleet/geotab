@@ -5,13 +5,4 @@
 /**
  *  The type of {@link DVIRLog}.
  */
-export enum DVIRLogType {
-  /** Unknown log type */
-  Unknown = "Unknown",
-  /** Pre-trip log type */
-  PreTrip = "PreTrip",
-  /** Post-trip log type */
-  PostTrip = "PostTrip",
-  /** In-trip log type */
-  InTrip = "InTrip",
-}
+export type DVIRLogType = "Unknown" | "PreTrip" | "PostTrip" | "InTrip";

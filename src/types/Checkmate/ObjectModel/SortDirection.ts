@@ -3,9 +3,4 @@
 //     the code is regenerated.
 
 /** Sort direction. */
-export enum SortDirection {
-  /** Ascending order. */
-  Asc = "Asc",
-  /** Descending order. */
-  Desc = "Desc",
-}
+export type SortDirection = "Asc" | "Desc";

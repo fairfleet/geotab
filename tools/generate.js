@@ -7,21 +7,21 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
 const glob = require("fast-glob");
-const { writeFile, rmdir } = require("fs/promises");
+const { writeFile, rm, stat } = require("fs/promises");
 const { sh } = require("./utils/sh");
 
 async function main() {
   await clean();
   await generate();
-  await format();
   await writeTypesIndex();
+  await format();
 }
 
 async function clean() {
   console.info("* Cleaning `src/types/**`");
 
-  for (const dir of await glob("src/types/**/")) {
-    await rmdir(dir);
+  for (const dir of await glob("src/types/**", { onlyDirectories: true })) {
+    await rm(dir, { recursive: true, force: true });
   }
 }
 
@@ -42,8 +42,8 @@ async function writeTypesIndex() {
   console.info("* Generating `src/types/index.ts`");
 
   const paths = await glob("src/types/**/*.ts");
-  const imports = paths.map((file) => file.replace(/^src\/types\//, "").replace(/\.ts$/, ""));
-  const exports = imports
+  const exports = paths
+    .map((file) => file.replace(/^src\/types\//, "").replace(/\.ts$/, ""))
     .filter((file) => file !== "index")
     .map((file) => `export * from "./${file}";`);
 

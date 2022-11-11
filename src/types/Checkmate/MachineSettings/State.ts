@@ -2,9 +2,4 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
-export enum State {
-  Key = "Key",
-  Equals = "Equals",
-  WaitingForEol = "WaitingForEol",
-  Eol = "Eol",
-}
+export type State = "Key" | "Equals" | "WaitingForEol" | "Eol";

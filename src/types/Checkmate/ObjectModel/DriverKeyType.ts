@@ -3,15 +3,9 @@
 //     the code is regenerated.
 
 /** The types of identification keys that can be assigned to a. {@link Driver}{@link Key} */
-export enum DriverKeyType {
-  /** USB blue driver ID Key */
-  Usb = "Usb",
-  /** NFC driver ID Key */
-  Nfc = "Nfc",
-  /** CustomNfc driver ID Key */
-  CustomNfc = "CustomNfc",
-  /** Tachograph driver ID Key */
-  Tachograph = "Tachograph",
-  /** Custom driver ID Key */
-  Custom = "Custom",
-}
+export type DriverKeyType =
+  | "Usb"
+  | "Nfc"
+  | "CustomNfc"
+  | "Tachograph"
+  | "Custom";

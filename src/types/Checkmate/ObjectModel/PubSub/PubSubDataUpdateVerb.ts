@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** Indicates the type of operation delivered by {@link PubSubDataUpdateData`1}. */
-export enum PubSubDataUpdateVerb {
-  /** Data was added. */
-  Add = "Add",
-  /** Data was updated. */
-  Set = "Set",
-  /** Data was removed. */
-  Remove = "Remove",
-}
+export type PubSubDataUpdateVerb = "Add" | "Set" | "Remove";

@@ -3,13 +3,4 @@
 //     the code is regenerated.
 
 /** Used to represent different Google Map styles. */
-export enum GoogleMapStyle {
-  /** Google map road map view. */
-  Roadmap = "Roadmap",
-  /** Google map hybrid view. */
-  Hybrid = "Hybrid",
-  /** Google map terrain view. */
-  Terrain = "Terrain",
-  /** Google map satellite view. */
-  Satellite = "Satellite",
-}
+export type GoogleMapStyle = "Roadmap" | "Hybrid" | "Terrain" | "Satellite";

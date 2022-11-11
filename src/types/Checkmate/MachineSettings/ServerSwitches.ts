@@ -3,9 +3,4 @@
 //     the code is regenerated.
 
 /** The server flags. */
-export enum ServerSwitches {
-  /** None. */
-  None = "None",
-  /** Allows third party logging. */
-  AllowThirdPartyLogging = "AllowThirdPartyLogging",
-}
+export type ServerSwitches = "None" | "AllowThirdPartyLogging";

@@ -3,15 +3,9 @@
 //     the code is regenerated.
 
 /** Installation type for the device. - e.g. "New Installation" in case of first time install. */
-export enum InstallationType {
-  /** Default installation type which can be used in case of reading in old version from the updated database. */
-  Unknown = "Unknown",
-  /** Type of installation is New Installation. */
-  NewInstallation = "NewInstallation",
-  /** Type of Installation is Swap Devices */
-  SwapDevices = "SwapDevices",
-  /** Type of Installation is Service Device */
-  ServiceDevice = "ServiceDevice",
-  /** Type of Installation is Remove Device */
-  RemoveDevice = "RemoveDevice",
-}
+export type InstallationType =
+  | "Unknown"
+  | "NewInstallation"
+  | "SwapDevices"
+  | "ServiceDevice"
+  | "RemoveDevice";

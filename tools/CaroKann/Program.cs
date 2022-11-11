@@ -1,4 +1,6 @@
-﻿using Geotab.Checkmate.ObjectModel;
+﻿using CaroKann.Generators;
+using CaroKann.Visitors;
+using Geotab.Checkmate.ObjectModel;
 using Geotab.Checkmate.ObjectModel.Fuel;
 using Reinforced.Typings;
 using Reinforced.Typings.Ast.TypeNames;
@@ -19,6 +21,7 @@ new TsExporter(
     {
       builder.Global(conf => conf
         .TabSymbol("  ")
+        .UseVisitor<CaroKannExportVisitor>()
         .UseModules(true, true)
         .ReorderMembers(true)
         .UnresolvedToUnknown(true)
@@ -46,20 +49,18 @@ new TsExporter(
           .Substitute(typeof(DateTime), new RtSimpleTypeName("Date"))
           .Substitute(typeof(TimeSpan), new RtSimpleTypeName("string"))
           .WithAllProperties()
-          .WithCodeGenerator<InterfaceDocumentationBeautifier>()
       );
 
       builder.ExportAsEnums(
         types.GetEnumTypes(),
-        conf => conf
-          .UseString(true)
-          .WithCodeGenerator<EnumDocumentationBeautifier>()
+        conf => conf.UseString(true)
       );
 
       builder
-        .ExportAsEnum<KnownIdPlaceholder>()
-        .WithCodeGenerator<KnownIdGenerator>()
-        .OverrideName("KnownId");
+        .ExportAsEnum<KnownIdsEnumPlaceholder>()
+        .WithCodeGenerator<KnownIdsEnumGenerator>()
+        .OverrideName("KnownId")
+        .OverrideNamespace("Geotab.Checkmate.ObjectModel");
 
     },
   }

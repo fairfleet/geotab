@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** Represents the current type of the charge. */
-export enum ChargeType {
-  /** Alternating Current. */
-  AC = "AC",
-  /** Direct Current. */
-  DC = "DC",
-  /** Charge type is unknown. */
-  Unknown = "Unknown",
-}
+export type ChargeType = "AC" | "DC" | "Unknown";

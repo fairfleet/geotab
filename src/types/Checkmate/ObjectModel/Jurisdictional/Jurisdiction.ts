@@ -3,23 +3,13 @@
 //     the code is regenerated.
 
 /** Mapping of jurisdiction regions. */
-export enum Jurisdiction {
-  /** The default value. */
-  None = "None",
-  /** No jurisdiction. */
-  NoJurisdiction = "NoJurisdiction",
-  /** Australia. */
-  AU = "AU",
-  /** Brazil. */
-  BR = "BR",
-  /** Canada. */
-  CA = "CA",
-  /** United States of America. */
-  US = "US",
-  /** Asia. */
-  AS = "AS",
-  /** Europe. */
-  EU = "EU",
-  /** United States of America commercial government. */
-  USGov = "USGov",
-}
+export type Jurisdiction =
+  | "None"
+  | "NoJurisdiction"
+  | "AU"
+  | "BR"
+  | "CA"
+  | "US"
+  | "AS"
+  | "EU"
+  | "USGov";

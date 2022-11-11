@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** A specific type of StoreForward exception. */
-export enum StoreForwardExceptionType {
-  /** No diagnostic */
-  None = "None",
-  /** A general exception occurred. */
-  Exception = "Exception",
-  /** The server is not configured as a sync source. */
-  SyncNotAllowed = "SyncNotAllowed",
-}
+export type StoreForwardExceptionType = "None" | "Exception" | "SyncNotAllowed";

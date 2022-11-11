@@ -3,15 +3,9 @@
 //     the code is regenerated.
 
 /** Report template type for {@link ReportTemplate}. */
-export enum ReportTemplateType {
-  /** Uploaded user reports */
-  Custom = "Custom",
-  /** Exportable report view with simplified columns */
-  Report = "Report",
-  /** Exportable report views with all columns */
-  Advanced = "Advanced",
-  /** Default dashboard */
-  Dashboard = "Dashboard",
-  /** Used for other preloaded templates */
-  Preloaded = "Preloaded",
-}
+export type ReportTemplateType =
+  | "Custom"
+  | "Report"
+  | "Advanced"
+  | "Dashboard"
+  | "Preloaded";

@@ -3,9 +3,4 @@
 //     the code is regenerated.
 
 /** Search the groups */
-export enum GroupSearchRelation {
-  /** Must belong to all the groups */
-  And = "And",
-  /** Belongs to any of the groups */
-  Or = "Or",
-}
+export type GroupSearchRelation = "And" | "Or";

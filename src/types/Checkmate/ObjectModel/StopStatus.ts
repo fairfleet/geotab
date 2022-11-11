@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** Route Stop status */
-export enum StopStatus {
-  /** The stop is not visited yet. */
-  Pending = "Pending",
-  /** The stop was visited by assigned vehicle */
-  Visited = "Visited",
-  /** The stop was missed by assigned vehicle */
-  Missed = "Missed",
-}
+export type StopStatus = "Pending" | "Visited" | "Missed";

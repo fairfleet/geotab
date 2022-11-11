@@ -5,17 +5,10 @@
 /**
  *  Various Fuel Economy units Geotab supports. Currently supported units: L/100 km, km/L, MPG (US) and MPG (Imperial).
  */
-export enum FuelEconomyUnit {
-  /** The liters per 100 km unit. */
-  LitersPer100Km = "LitersPer100Km",
-  /** The km per liter unit. */
-  KmPerLiter = "KmPerLiter",
-  /** The miles per gallon (US). */
-  MPGUS = "MPGUS",
-  /** The miles per gallon (Imperial). */
-  MPGImperial = "MPGImperial",
-  /** The km per gallon (US) unit. */
-  KmPerGallon = "KmPerGallon",
-  /** The gallon per 100 km unit. */
-  GallonPer100Km = "GallonPer100Km",
-}
+export type FuelEconomyUnit =
+  | "LitersPer100Km"
+  | "KmPerLiter"
+  | "MPGUS"
+  | "MPGImperial"
+  | "KmPerGallon"
+  | "GallonPer100Km";

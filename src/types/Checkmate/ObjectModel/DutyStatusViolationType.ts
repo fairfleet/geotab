@@ -5,33 +5,18 @@
 /**
  *  The different types of {@link DutyStatusViolation}.
  */
-export enum DutyStatusViolationType {
-  /** Driving limits. */
-  Driving = "Driving",
-  /** Rest requirements. */
-  Rest = "Rest",
-  /** On-duty limits. */
-  Duty = "Duty",
-  /** Work day limits */
-  Workday = "Workday",
-  /** Cycle limits. */
-  Cycle = "Cycle",
-  /** Daily driving limits. */
-  DailyDriving = "DailyDriving",
-  /** Daily rest requirements. */
-  DailyRest = "DailyRest",
-  /** Daily duty limits. */
-  DailyDuty = "DailyDuty",
-  /** Daily off-duty requirements. */
-  DailyOff = "DailyOff",
-  /** Cycle rest requirements. */
-  CycleRest = "CycleRest",
-  /** On-duty since cycle rest limit. */
-  DutySinceCycleRest = "DutySinceCycleRest",
-  /** Ewd rest requirements. */
-  EwdRest = "EwdRest",
-  /** Ewd work limits. */
-  EwdWork = "EwdWork",
-  /** Ewd work exemption limits. */
-  EwdWorkExemption = "EwdWorkExemption",
-}
+export type DutyStatusViolationType =
+  | "Driving"
+  | "Rest"
+  | "Duty"
+  | "Workday"
+  | "Cycle"
+  | "DailyDriving"
+  | "DailyRest"
+  | "DailyDuty"
+  | "DailyOff"
+  | "CycleRest"
+  | "DutySinceCycleRest"
+  | "EwdRest"
+  | "EwdWork"
+  | "EwdWorkExemption";

@@ -3,7 +3,4 @@
 //     the code is regenerated.
 
 /** The type of the Import Task. */
-export enum ImportTaskType {
-  /** Route Completion Import Task. */
-  RouteCompletion = "RouteCompletion",
-}
+export type ImportTaskType = "RouteCompletion";

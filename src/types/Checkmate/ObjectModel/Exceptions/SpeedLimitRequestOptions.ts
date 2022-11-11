@@ -3,17 +3,10 @@
 //     the code is regenerated.
 
 /** Defines options for a map server request. */
-export enum SpeedLimitRequestOptions {
-  /** No special options, use all available road data. */
-  None = "None",
-  /** Do not use any road data that is defined as an "estimate". */
-  NoEstimates = "NoEstimates",
-  /** Do not use community data. */
-  NoCommunity = "NoCommunity",
-  /** Do not use commercial data. */
-  NoCommercial = "NoCommercial",
-  /** Use simplified snapping algorithm. */
-  NoSnapping = "NoSnapping",
-  /** Use truck road speed limits. */
-  Truck = "Truck",
-}
+export type SpeedLimitRequestOptions =
+  | "None"
+  | "NoEstimates"
+  | "NoCommunity"
+  | "NoCommercial"
+  | "NoSnapping"
+  | "Truck";

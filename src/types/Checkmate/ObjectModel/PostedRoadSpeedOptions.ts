@@ -3,13 +3,8 @@
 //     the code is regenerated.
 
 /** Defines options for a posted road speed request. */
-export enum PostedRoadSpeedOptions {
-  /** No special options, use all available posted road speed data. */
-  None = "None",
-  /** Do not use any posted road speed data that is defined as an "estimate". */
-  NoEstimates = "NoEstimates",
-  /** Do not use community data. */
-  NoCommunity = "NoCommunity",
-  /** Do not use commercial data. */
-  NoCommercial = "NoCommercial",
-}
+export type PostedRoadSpeedOptions =
+  | "None"
+  | "NoEstimates"
+  | "NoCommunity"
+  | "NoCommercial";

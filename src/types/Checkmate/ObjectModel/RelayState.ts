@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** Enum for the possible relay states. */
-export enum RelayState {
-  /** Off. */
-  Off = "Off",
-  /** On. */
-  On = "On",
-  /** Driver key controlled. */
-  DriverKey = "DriverKey",
-}
+export type RelayState = "Off" | "On" | "DriverKey";

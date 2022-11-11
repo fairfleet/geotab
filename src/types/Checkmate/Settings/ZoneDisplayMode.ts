@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** The {@link Zone}s which will be displayed to a given user on the map. */
-export enum ZoneDisplayMode {
-  /** Do not show zones on the map. */
-  None = "None",
-  /** Always show zones on the map. */
-  All = "All",
-  /** Use {@link Zone}'s "Displayed" property to determine whether to show the zone on the map. */
-  Default = "Default",
-}
+export type ZoneDisplayMode = "None" | "All" | "Default";

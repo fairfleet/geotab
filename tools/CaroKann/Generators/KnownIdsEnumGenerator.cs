@@ -1,18 +1,11 @@
-using System.Reflection;
 using Geotab.Checkmate.ObjectModel;
 using Reinforced.Typings;
 using Reinforced.Typings.Ast;
-using Reinforced.Typings.Ast.TypeNames;
 using Reinforced.Typings.Generators;
 
-namespace Geotab.Checkmate.ObjectModel
-{
-  public enum KnownIdPlaceholder
-  {
-  }
-}
+namespace CaroKann.Generators;
 
-internal class KnownIdGenerator : EnumGenerator
+public class KnownIdsEnumGenerator : EnumGenerator
 {
   public override RtEnum? GenerateNode(Type element, RtEnum result, TypeResolver resolver)
   {
@@ -24,20 +17,26 @@ internal class KnownIdGenerator : EnumGenerator
 
     var knownId = typeof(KnownId);
 
-    rt.Documentation = new RtJsdocNode();
-    rt.Documentation.Description = "System defined identifiers.";
+    var doc = Context.Documentation.GetDocumentationMember(element);
+    if (doc != null)
+    {
+      var docNode = new RtJsdocNode();
+      if (doc.InheritDoc != null) docNode.AddTag(DocTag.Inheritdoc);
+      if (doc.Summary != null) docNode.Description = doc.Summary.Text;
+      result.Documentation = docNode;
+    }
 
     foreach (var property in knownId.GetProperties())
     {
       var value = new RtEnumValue();
 
-      var doc = Context.Documentation.GetDocumentationMember(property);
-      if (doc != null)
+      var propertyDoc = Context.Documentation.GetDocumentationMember(property);
+      if (propertyDoc != null)
       {
         var jsDoc = new RtJsdocNode();
 
-        if (!string.IsNullOrEmpty(doc?.Summary?.Text ?? ""))
-          jsDoc.Description = doc?.Summary.Text;
+        if (!string.IsNullOrEmpty(propertyDoc?.Summary?.Text ?? ""))
+          jsDoc.Description = propertyDoc?.Summary.Text;
 
         value.Documentation = jsDoc;
       }

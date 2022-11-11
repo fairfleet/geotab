@@ -3,15 +3,9 @@
 //     the code is regenerated.
 
 /** The currently supported Sql Database types. */
-export enum SqlType {
-  /** Empty type not yet set. */
-  Empty = "Empty",
-  /** Unknown database type. */
-  Unknown = "Unknown",
-  /** Microsoft SQL Server database. */
-  MSSqlServer2000 = "MSSqlServer2000",
-  /** Postgres database. */
-  Postgres = "Postgres",
-  /** Google Cloud Spanner database. */
-  Spanner = "Spanner",
-}
+export type SqlType =
+  | "Empty"
+  | "Unknown"
+  | "MSSqlServer2000"
+  | "Postgres"
+  | "Spanner";

@@ -3,7 +3,4 @@
 //     the code is regenerated.
 
 /** The type of {@link VehicleConfiguration}. */
-export enum VehicleConfigurationType {
-  /** WiFi Hotspot */
-  Hotspot = "Hotspot",
-}
+export type VehicleConfigurationType = "Hotspot";

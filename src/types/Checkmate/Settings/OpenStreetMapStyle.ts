@@ -3,15 +3,9 @@
 //     the code is regenerated.
 
 /** Used to represent different Open Street Map (OSM) styles. */
-export enum OpenStreetMapStyle {
-  /** No style applied. */
-  None = "None",
-  /** Slippy map layer view for OSM. */
-  MapBox = "MapBox",
-  /** OSM cycle view. */
-  Cycle = "Cycle",
-  /** OSM transport view. */
-  Transport = "Transport",
-  /** Geotab satellite view. */
-  Satellite = "Satellite",
-}
+export type OpenStreetMapStyle =
+  | "None"
+  | "MapBox"
+  | "Cycle"
+  | "Transport"
+  | "Satellite";

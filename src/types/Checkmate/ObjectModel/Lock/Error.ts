@@ -7,11 +7,4 @@
  *
  * @deprecated
  */
-export enum Error {
-  /** No lock error */
-  None = "None",
-  /** The unauthorized error */
-  Unauthorized = "Unauthorized",
-  /** The database unavailable error */
-  DbUnavailable = "DbUnavailable",
-}
+export type Error = "None" | "Unauthorized" | "DbUnavailable";

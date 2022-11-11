@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** The type of asset for which the {@link Defect  list applies.}. */
-export enum DefectAssetType {
-  /** Defect list that applies to any asset. */
-  All = "All",
-  /** Defect list for a {@link Device}. */
-  Device = "Device",
-  /** Defect list for a {@link Trailer}. */
-  Trailer = "Trailer",
-}
+export type DefectAssetType = "All" | "Device" | "Trailer";

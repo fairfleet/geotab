@@ -3,16 +3,4 @@
 //     the code is regenerated.
 
 /** The state that the database is currently operating in. */
-export enum DatabaseState {
-  /**
-   * The default state of a database. (The database should be in this state until the DatabaseActiveStateWatcher
-   *  determines otherwise)
-   */
-  Unknown = "Unknown",
-  /** The state that a database enters when it is determined to be inactive. */
-  Inactive = "Inactive",
-  /** The state that a database enters when it is determined to be active. */
-  Active = "Active",
-  /** The state that a database enters when it is determined to be deleted. */
-  Deletion = "Deletion",
-}
+export type DatabaseState = "Unknown" | "Inactive" | "Active" | "Deletion";

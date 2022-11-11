@@ -5,15 +5,9 @@
 /**
  *  Various supported Electric Energy units Geotab supports.
  */
-export enum ElectricEnergyUnit {
-  /** The fuel liter equivalent energy unit. */
-  LitersE = "LitersE",
-  /** The fuel gallon US equivalent energy unit. */
-  GallonUSE = "GallonUSE",
-  /** The fuel gallon Imperial equivalent energy unit. */
-  GallonImpE = "GallonImpE",
-  /** The kilowatt hour energy unit. */
-  KilowattHour = "KilowattHour",
-  /** The watt hour energy unit. */
-  WattHour = "WattHour",
-}
+export type ElectricEnergyUnit =
+  | "LitersE"
+  | "GallonUSE"
+  | "GallonImpE"
+  | "KilowattHour"
+  | "WattHour";

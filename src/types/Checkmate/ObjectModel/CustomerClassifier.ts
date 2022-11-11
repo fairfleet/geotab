@@ -3,9 +3,4 @@
 //     the code is regenerated.
 
 /** The classifier for customers */
-export enum CustomerClassifier {
-  /** None or unknown. */
-  None = "None",
-  /** Government customer type */
-  Government = "Government",
-}
+export type CustomerClassifier = "None" | "Government";

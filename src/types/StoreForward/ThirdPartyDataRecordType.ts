@@ -7,33 +7,18 @@
  *
  * @deprecated
  */
-export enum ThirdPartyDataRecordType {
-  /** No record type */
-  None = "None",
-  /** The third-party GPS record */
-  ThirdPartyGpsRecord = "ThirdPartyGpsRecord",
-  /** The third-party status record */
-  ThirdPartyStatusRecord = "ThirdPartyStatusRecord",
-  /** The third-party generic status record */
-  ThirdPartyGenericStatusRecord = "ThirdPartyGenericStatusRecord",
-  /** The third-party acceleration record */
-  ThirdPartyAccelerationRecord = "ThirdPartyAccelerationRecord",
-  /** The third-party VIN record */
-  ThirdPartyVinRecord = "ThirdPartyVinRecord",
-  /** The third-party J1939 fault record */
-  ThirdPartyJ1939FaultRecord = "ThirdPartyJ1939FaultRecord",
-  /** The third-party OBD-II fault record */
-  ThirdPartyObdiiFaultRecord = "ThirdPartyObdiiFaultRecord",
-  /** The third-party J1708 fault record */
-  ThirdPartyJ1708FaultRecord = "ThirdPartyJ1708FaultRecord",
-  /** The third-party generic fault record */
-  ThirdPartyGenericFaultRecord = "ThirdPartyGenericFaultRecord",
-  /** The Insights status record */
-  InsightsStatusRecord = "InsightsStatusRecord",
-  /** The third-party driver change record */
-  ThirdPartyDriverChangeRecord = "ThirdPartyDriverChangeRecord",
-  /** The third-party binary record */
-  ThirdPartyBinaryRecord = "ThirdPartyBinaryRecord",
-  /** The third-party bluetooth record */
-  ThirdPartyBluetoothRecord = "ThirdPartyBluetoothRecord",
-}
+export type ThirdPartyDataRecordType =
+  | "None"
+  | "ThirdPartyGpsRecord"
+  | "ThirdPartyStatusRecord"
+  | "ThirdPartyGenericStatusRecord"
+  | "ThirdPartyAccelerationRecord"
+  | "ThirdPartyVinRecord"
+  | "ThirdPartyJ1939FaultRecord"
+  | "ThirdPartyObdiiFaultRecord"
+  | "ThirdPartyJ1708FaultRecord"
+  | "ThirdPartyGenericFaultRecord"
+  | "InsightsStatusRecord"
+  | "ThirdPartyDriverChangeRecord"
+  | "ThirdPartyBinaryRecord"
+  | "ThirdPartyBluetoothRecord";

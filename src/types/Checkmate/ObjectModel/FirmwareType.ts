@@ -3,9 +3,4 @@
 //     the code is regenerated.
 
 /** The type of firmware. */
-export enum FirmwareType {
-  /** The firmware is used for Ethernet Radio Downloaders */
-  EthernetRadioDownloader = "EthernetRadioDownloader",
-  /** The firmware is used for USB Radio Downloaders */
-  UsbRadioDownloader = "UsbRadioDownloader",
-}
+export type FirmwareType = "EthernetRadioDownloader" | "UsbRadioDownloader";

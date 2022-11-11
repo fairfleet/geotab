@@ -3,77 +3,40 @@
 //     the code is regenerated.
 
 /** The period being used in database maintenance. */
-export enum DatabaseMaintenancePeriod {
-  /** Not set. */
-  Unknown = "Unknown",
-  /** Disabled. */
-  None = "None",
-  /** Once a day. */
-  Day = "Day",
-  /** Once a week. */
-  Week = "Week",
-  /** Once every two weeks. */
-  TwoWeeks = "TwoWeeks",
-  /** Once a month. */
-  Month = "Month",
-  /** Once every two months. */
-  TwoMonths = "TwoMonths",
-  /** Once every three months. */
-  ThreeMonths = "ThreeMonths",
-  /** Once every 6 months. */
-  SixMonths = "SixMonths",
-  /** Once a year. */
-  Year = "Year",
-  /** Dont do it again. */
-  Forever = "Forever",
-  /** Do it continuously. */
-  Continuous = "Continuous",
-  /** Once every 3 years. */
-  ThreeYears = "ThreeYears",
-  /** Once every 13 months. */
-  ThirteenMonths = "ThirteenMonths",
-  /** Once every 14 months. */
-  FourteenMonths = "FourteenMonths",
-  /** Once every 15 months. */
-  FifteenMonths = "FifteenMonths",
-  /** Once every 16 months. */
-  SixteenMonths = "SixteenMonths",
-  /** Once every 17 months. */
-  SeventeenMonths = "SeventeenMonths",
-  /** Once every 18 months. */
-  EighteenMonths = "EighteenMonths",
-  /** Once every 19 months. */
-  NineteenMonths = "NineteenMonths",
-  /** Once every 20 months. */
-  TwentyMonths = "TwentyMonths",
-  /** Once every 21 months. */
-  TwentyOneMonths = "TwentyOneMonths",
-  /** Once every 22 months. */
-  TwentyTwoMonths = "TwentyTwoMonths",
-  /** Once every 23 months. */
-  TwentyThreeMonths = "TwentyThreeMonths",
-  /** Once every 2 years. */
-  TwoYears = "TwoYears",
-  /** Once every 7 months. */
-  SevenMonths = "SevenMonths",
-  /** Once every 8 months. */
-  EightMonths = "EightMonths",
-  /** Once every 9 months. */
-  NineMonths = "NineMonths",
-  /** Once every 10 months. */
-  TenMonths = "TenMonths",
-  /** Once every 11 months. */
-  ElevenMonths = "ElevenMonths",
-  /** Once every 12 months. */
-  TwelveMonths = "TwelveMonths",
-  /** Once every 2 days. */
-  TwoDays = "TwoDays",
-  /** Once every 3 days. */
-  ThreeDays = "ThreeDays",
-  /** Once every 4 days. */
-  FourDays = "FourDays",
-  /** Once every 5 days. */
-  FiveDays = "FiveDays",
-  /** Once every 6 days. */
-  SixDays = "SixDays",
-}
+export type DatabaseMaintenancePeriod =
+  | "Unknown"
+  | "None"
+  | "Day"
+  | "Week"
+  | "TwoWeeks"
+  | "Month"
+  | "TwoMonths"
+  | "ThreeMonths"
+  | "SixMonths"
+  | "Year"
+  | "Forever"
+  | "Continuous"
+  | "ThreeYears"
+  | "ThirteenMonths"
+  | "FourteenMonths"
+  | "FifteenMonths"
+  | "SixteenMonths"
+  | "SeventeenMonths"
+  | "EighteenMonths"
+  | "NineteenMonths"
+  | "TwentyMonths"
+  | "TwentyOneMonths"
+  | "TwentyTwoMonths"
+  | "TwentyThreeMonths"
+  | "TwoYears"
+  | "SevenMonths"
+  | "EightMonths"
+  | "NineMonths"
+  | "TenMonths"
+  | "ElevenMonths"
+  | "TwelveMonths"
+  | "TwoDays"
+  | "ThreeDays"
+  | "FourDays"
+  | "FiveDays"
+  | "SixDays";

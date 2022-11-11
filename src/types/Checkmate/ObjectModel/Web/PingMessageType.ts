@@ -7,15 +7,9 @@
  *
  * @deprecated
  */
-export enum PingMessageType {
-  /** Unknown ping message type */
-  Unknown = "Unknown",
-  /** The hello ping message type */
-  Hello = "Hello",
-  /** The keep alive ping message type */
-  KeepAlive = "KeepAlive",
-  /** The finish ping message type */
-  Finish = "Finish",
-  /** The error message type */
-  Error = "Error",
-}
+export type PingMessageType =
+  | "Unknown"
+  | "Hello"
+  | "KeepAlive"
+  | "Finish"
+  | "Error";

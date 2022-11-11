@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** Specifies a type of filter. */
-export enum FilterType {
-  /** Filter by Device. */
-  Devices = "Devices",
-  /** Filter by single Group. */
-  Groups = "Groups",
-  /** Filter by complex grouping logic using a {@link FilterType.DeviceSearch}. */
-  DeviceSearch = "DeviceSearch",
-}
+export type FilterType = "Devices" | "Groups" | "DeviceSearch";

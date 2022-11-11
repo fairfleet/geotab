@@ -3,15 +3,4 @@
 //     the code is regenerated.
 
 /** Represents a fault code state code from the engine system of the specific {@link Device}. This properties using this enum will be deprecated in the near future and replaced by a property of the {@link FaultStatus} type. */
-export enum FaultState {
-  /** None, FaultState Not Indicated (). */
-  None = "None",
-  /** Pending fault code. */
-  Pending = "Pending",
-  /** Active fault code. */
-  Active = "Active",
-  /** Inactive (or historically active) fault code. */
-  Inactive = "Inactive",
-  /** Cleared fault code. */
-  Cleared = "Cleared",
-}
+export type FaultState = "None" | "Pending" | "Active" | "Inactive" | "Cleared";

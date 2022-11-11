@@ -22,7 +22,7 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "test": "vitest",
+    "test": "vitest \"src/\"",
     "build": "pnpm build:types && pnpm build:vite && pnpm build:copy-files",
     "build:vite": "vite build",
     "build:types": "node tools/generate.js",

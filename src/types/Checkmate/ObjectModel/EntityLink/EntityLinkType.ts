@@ -3,13 +3,8 @@
 //     the code is regenerated.
 
 /** The type of {@link EntityLinkType}. */
-export enum EntityLinkType {
-  /** A device link type is specified. */
-  Device = "Device",
-  /** A device to driver link type is specified. */
-  DeviceDriver = "DeviceDriver",
-  /** A device to co-driver link type is specified. */
-  DeviceCoDriver = "DeviceCoDriver",
-  /** A device to passenger link type is specified. */
-  DevicePassenger = "DevicePassenger",
-}
+export type EntityLinkType =
+  | "Device"
+  | "DeviceDriver"
+  | "DeviceCoDriver"
+  | "DevicePassenger";

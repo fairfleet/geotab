@@ -3,9 +3,4 @@
 //     the code is regenerated.
 
 /** Defines the different types of {@link GroupZoneMetadata}(s). */
-export enum GroupZoneMetadataType {
-  /** None */
-  None = "None",
-  /** For a given group that represents a route, this metadata type represents the number of passes a given zone requires to be considered completed in this route. */
-  ExpectedPassCount = "ExpectedPassCount",
-}
+export type GroupZoneMetadataType = "None" | "ExpectedPassCount";

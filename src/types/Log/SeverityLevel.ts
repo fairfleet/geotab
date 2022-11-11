@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** Severity level. */
-export enum SeverityLevel {
-  /** Serious issue. Immediate actions may be required. */
-  Critical = "Critical",
-  /** Potential problem. Some actions may be required. */
-  Warning = "Warning",
-  /** FYI. No actions are required. */
-  Info = "Info",
-}
+export type SeverityLevel = "Critical" | "Warning" | "Info";

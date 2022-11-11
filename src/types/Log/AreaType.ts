@@ -3,47 +3,25 @@
 //     the code is regenerated.
 
 /** Exception area type. This must match to the Error Reporting areas for the MyGeotab project. */
-export enum AreaType {
-  /** Undefined area. */
-  None = "None",
-  /** Unspecified area. */
-  Unspecified = "Unspecified",
-  /** Customer specific */
-  CustomerSpecific = "CustomerSpecific",
-  /** Database error. */
-  Database = "Database",
-  /** Documentation */
-  Documentation = "Documentation",
-  /** Drive error. */
-  Drive = "Drive",
-  /** ELD */
-  Eld = "Eld",
-  /** IoxAddOns */
-  IoxAddOns = "IoxAddOns",
-  /** Language */
-  Language = "Language",
-  /** Logging error. */
-  Logging = "Logging",
-  /** Map server error. */
-  MapServer = "MapServer",
-  /** Notifications error. */
-  Notifications = "Notifications",
-  /** Object model related error. */
-  ObjectModel = "ObjectModel",
-  /** Optimization area. */
-  Optimization = "Optimization",
-  /** Reports error. */
-  Reports = "Reports",
-  /** Rules processor error. */
-  RulesProcessor = "RulesProcessor",
-  /** SDK error. */
-  Sdk = "Sdk",
-  /** Serializer error. */
-  Serializer = "Serializer",
-  /** UI \ Front-end error. */
-  UserInterface = "UserInterface",
-  /** Unit tests error. */
-  UnitTests = "UnitTests",
-  /** Web server error. */
-  WebServer = "WebServer",
-}
+export type AreaType =
+  | "None"
+  | "Unspecified"
+  | "CustomerSpecific"
+  | "Database"
+  | "Documentation"
+  | "Drive"
+  | "Eld"
+  | "IoxAddOns"
+  | "Language"
+  | "Logging"
+  | "MapServer"
+  | "Notifications"
+  | "ObjectModel"
+  | "Optimization"
+  | "Reports"
+  | "RulesProcessor"
+  | "Sdk"
+  | "Serializer"
+  | "UserInterface"
+  | "UnitTests"
+  | "WebServer";

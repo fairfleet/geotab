@@ -3,46 +3,23 @@
 //     the code is regenerated.
 
 /** The type of {@link TextMessage} content. */
-export enum MessageContentType {
-  /** Basic text message. See {@link TextContent}. */
-  Normal = "Normal",
-  /** Text message that also includes response options. See {@link CannedResponseContent}. */
-  CannedResponse = "CannedResponse",
-  /** Text message that includes a location. See {@link LocationContent}. */
-  Location = "Location",
-  /** Content Type for sending data to a component */
-  DataToComponent = "DataToComponent",
-  /** Content Type for a status data request */
-  StatusDataRequest = "StatusDataRequest",
-  /** Content Type for immobilization */
-  Immobilization = "Immobilization",
-  /** Text message that is converted to speech. Must have GOTalk. */
-  GoTalk = "GoTalk",
-  /** Text message that includes instructions to open or close an IOX-OUTPUT relay. See {@link IoxOutputContent}. */
-  IoxOutput = "IoxOutput",
-  /**
-   * for Iox devices.
-   *  Text message that causes the GoDevice to beep. See {@link BeepContent}.
-   */
-  Beep = "Beep",
-  /** Text message that contains bytes to give to a third-party IOX Add-On. See {@link SerialIoxContent}. */
-  SerialIox = "SerialIox",
-  /** Text message with information to add/remove a driver from a {@link GoDevice}'s white list. See {@link DriverWhiteListContent}. */
-  DriverWhiteList = "DriverWhiteList",
-  /** Text message that contains bytes in a predefined format that describes the MimeType to a third-party IOX Add-On over an RS232 connection. See {@link MimeContent}. */
-  MimeContent = "MimeContent",
-  /** Text message that contains bytes to give to a third-party IOX Add-On. See {@link CANMessageContent}. */
-  CAN = "CAN",
-  /** Text message that contains bytes to give to a third-party IOX Add-On. See {@link CANMessageContent}. */
-  PassthroughEnabledMessage = "PassthroughEnabledMessage",
-  /** Content used to issue commands to a vehicle (for example locking doors). */
-  VehicleCommand = "VehicleCommand",
-  /** Text message that contains bytes in a predefined format that describes the MimeType to a third-party IOX Add-On over an RS232 connection. See {@link OtauContent}. */
-  OtauContent = "OtauContent",
-  /** Content used to enable or disable device functionality that may interfere with vehicle maintenance. */
-  WorkshopMode = "WorkshopMode",
-  /** Content used to indicate that memory needs to be flashed. */
-  FlashMemory = "FlashMemory",
-  /** Content contains a file/offset reference and header data that can be dereferenced to content matching MimeContent */
-  MimeReferenceContent = "MimeReferenceContent",
-}
+export type MessageContentType =
+  | "Normal"
+  | "CannedResponse"
+  | "Location"
+  | "DataToComponent"
+  | "StatusDataRequest"
+  | "Immobilization"
+  | "GoTalk"
+  | "IoxOutput"
+  | "Beep"
+  | "SerialIox"
+  | "DriverWhiteList"
+  | "MimeContent"
+  | "CAN"
+  | "PassthroughEnabledMessage"
+  | "VehicleCommand"
+  | "OtauContent"
+  | "WorkshopMode"
+  | "FlashMemory"
+  | "MimeReferenceContent";

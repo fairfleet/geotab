@@ -7,15 +7,9 @@
  *
  * @deprecated
  */
-export enum EldTransferMode {
-  /** No value is present (not a valid value). */
-  None = "None",
-  /** Email ELD agency to transfer HOS data securely for drivers */
-  Email = "Email",
-  /** ELD agency web services to transfer HOS data securely */
-  WebServices = "WebServices",
-  /** Ping the ELD agency web services to test connectivity */
-  Ping = "Ping",
-  /** Email ELD agency to transfer HOS data securely for drivers in Canada Jurisdiction */
-  CanadaEmail = "CanadaEmail",
-}
+export type EldTransferMode =
+  | "None"
+  | "Email"
+  | "WebServices"
+  | "Ping"
+  | "CanadaEmail";

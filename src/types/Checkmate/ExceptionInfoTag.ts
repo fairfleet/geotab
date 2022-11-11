@@ -3,19 +3,11 @@
 //     the code is regenerated.
 
 /** The currently supported exception info tag key. */
-export enum ExceptionInfoTag {
-  /** The key used to identify the database tag value. */
-  Database = "Database",
-  /** The key used to identify the source tag value. */
-  Source = "Source",
-  /** The key used to identify the area tag value. */
-  Area = "Area",
-  /** The key used to identify the severitylevel tag value. */
-  SeverityLevel = "SeverityLevel",
-  /** The key used to identify the description tag value. */
-  Description = "Description",
-  /** The key used to identify the warning tag value. */
-  Warning = "Warning",
-  /** The key used to identify the username tag value. */
-  UserName = "UserName",
-}
+export type ExceptionInfoTag =
+  | "Database"
+  | "Source"
+  | "Area"
+  | "SeverityLevel"
+  | "Description"
+  | "Warning"
+  | "UserName";

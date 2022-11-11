@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** The state of the. {@link DeviceConnection} */
-export enum DeviceConnectionStatus {
-  /** The device is currently connected and active */
-  Active = "Active",
-  /** The connection is inactive and was terminated normally */
-  Disconnected = "Disconnected",
-  /** The device is currently connected but not active */
-  Inactive = "Inactive",
-}
+export type DeviceConnectionStatus = "Active" | "Disconnected" | "Inactive";

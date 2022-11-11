@@ -3,9 +3,4 @@
 //     the code is regenerated.
 
 /** The {@link DateTimeComparator}. */
-export enum DateTimeComparator {
-  /** DateTime is before the value. */
-  Before = "Before",
-  /** DateTime is after or equal to the value. */
-  AfterOrEqual = "AfterOrEqual",
-}
+export type DateTimeComparator = "Before" | "AfterOrEqual";

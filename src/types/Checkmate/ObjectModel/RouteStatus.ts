@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** Route plan status */
-export enum RouteStatus {
-  /** The route has not been started yet */
-  Pending = "Pending",
-  /** The route is in progress */
-  InProgress = "InProgress",
-  /** The route was completed by the assigned vehicle */
-  Completed = "Completed",
-}
+export type RouteStatus = "Pending" | "InProgress" | "Completed";

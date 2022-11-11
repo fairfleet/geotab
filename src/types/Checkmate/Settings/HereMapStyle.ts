@@ -3,13 +3,4 @@
 //     the code is regenerated.
 
 /** Here Map Style. */
-export enum HereMapStyle {
-  /** No map style */
-  None = "None",
-  /** The roadmap map style */
-  Roadmap = "Roadmap",
-  /** The satellite map style */
-  Satellite = "Satellite",
-  /** The terrain map style */
-  Terrain = "Terrain",
-}
+export type HereMapStyle = "None" | "Roadmap" | "Satellite" | "Terrain";

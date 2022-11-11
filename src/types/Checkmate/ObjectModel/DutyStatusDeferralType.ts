@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** The type of {@link DutyStatusLog}. */
-export enum DutyStatusDeferralType {
-  /** No deferral applied. */
-  None = "None",
-  /** Day one of deferral. */
-  DayOne = "DayOne",
-  /** Day two of deferral. */
-  DayTwo = "DayTwo",
-}
+export type DutyStatusDeferralType = "None" | "DayOne" | "DayTwo";

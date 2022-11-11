@@ -3,13 +3,4 @@
 //     the code is regenerated.
 
 /** The processing status of the Import Task. */
-export enum ImportTaskStatus {
-  /** Ready status */
-  Ready = "Ready",
-  /** Processing status */
-  Processing = "Processing",
-  /** Completed status */
-  Completed = "Completed",
-  /** Failed status */
-  Failed = "Failed",
-}
+export type ImportTaskStatus = "Ready" | "Processing" | "Completed" | "Failed";

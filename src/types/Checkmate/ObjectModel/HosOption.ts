@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** The HOS log generation options. */
-export enum HosOption {
-  /** HOS is disabled and generation of {@link DutyStatusLog} is disabled. */
-  OFF = "OFF",
-  /** HOS is enabled and generation of {@link DutyStatusLog} is enabled. */
-  ON = "ON",
-  /** If set to AUTO, {@link DutyStatusLog} will be automatically generated when the system determines the vehicle is using HOS features. */
-  AUTO = "AUTO",
-}
+export type HosOption = "OFF" | "ON" | "AUTO";

@@ -3,21 +3,12 @@
 //     the code is regenerated.
 
 /** Continents list. */
-export enum Continent {
-  /** Unknown */
-  Unknown = "Unknown",
-  /** Asia */
-  Asia = "Asia",
-  /** Africa */
-  Africa = "Africa",
-  /** North America */
-  NorthAmerica = "NorthAmerica",
-  /** South America */
-  SouthAmerica = "SouthAmerica",
-  /** Antarctica */
-  Antarctica = "Antarctica",
-  /** Europe */
-  Europe = "Europe",
-  /** Australia */
-  Australia = "Australia",
-}
+export type Continent =
+  | "Unknown"
+  | "Asia"
+  | "Africa"
+  | "NorthAmerica"
+  | "SouthAmerica"
+  | "Antarctica"
+  | "Europe"
+  | "Australia";

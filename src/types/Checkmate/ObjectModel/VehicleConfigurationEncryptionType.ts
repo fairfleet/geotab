@@ -3,9 +3,6 @@
 //     the code is regenerated.
 
 /** The type of encryption of {@link VehicleConfiguration}. */
-export enum VehicleConfigurationEncryptionType {
-  /** No encryption */
-  NoEncryption = "NoEncryption",
-  /** AES-256. Encrypted by key from credentials.xml */
-  AES256CredentialsKey = "AES256CredentialsKey",
-}
+export type VehicleConfigurationEncryptionType =
+  | "NoEncryption"
+  | "AES256CredentialsKey";

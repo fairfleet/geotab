@@ -3,11 +3,4 @@
 //     the code is regenerated.
 
 /** Denotes the supported types for a given {@link Property} . */
-export enum SupportedPropertyType {
-  /** Integer custom property. */
-  Integer = "Integer",
-  /** String custom property. */
-  String = "String",
-  /** Boolean custom property. */
-  Boolean = "Boolean",
-}
+export type SupportedPropertyType = "Integer" | "String" | "Boolean";

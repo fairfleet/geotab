@@ -5,11 +5,4 @@
 /**
  *  Various supported Volume units Geotab supports.
  */
-export enum VolumeUnit {
-  /** The liter volume unit. */
-  Liter = "Liter",
-  /** The gallon US volume unit. */
-  GallonUS = "GallonUS",
-  /** The gallon Imperial volume unit. */
-  GallonImp = "GallonImp",
-}
+export type VolumeUnit = "Liter" | "GallonUS" | "GallonImp";
