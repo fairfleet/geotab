@@ -12,6 +12,10 @@
     "sdk",
     "typescript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fairfleet/geotab.git"
+  },
   "description": "An unofficial Geotab API client written in TypeScript",
   "contributors": [
     "Marvin Countryman <me@maar.vin>"
