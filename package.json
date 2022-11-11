@@ -2,6 +2,7 @@
   "name": "@fairfleet/geotab",
   "main": "./index.js",
   "types": "./index.d.ts",
+  "module": "./esm/index.js",
   "author": "Fairfleet Gmbh",
   "license": "MIT",
   "version": "0.1.6",
@@ -11,12 +12,6 @@
     "sdk",
     "typescript"
   ],
-  "exports": {
-    ".": {
-      "import": "./index.mjs",
-      "require": "./index.js"
-    }
-  },
   "description": "An unofficial Geotab API client written in TypeScript",
   "contributors": [
     "Marvin Countryman <me@maar.vin>"
@@ -40,7 +35,6 @@
     "fast-glob": "^3.2.12",
     "nanoid": "^4.0.0",
     "prettier": "^2.7.1",
-    "rimraf": "^3.0.2",
     "terser": "^5.15.1",
     "typescript": "^4.7.3",
     "vite": "^3.2.3",

@@ -14,18 +14,24 @@ export default defineConfig({
     lib: {
       name: "geotab",
       entry: glob("src/**/*.ts")
+        // Ignore tests
+        .filter((path) => !path.match(/\.test\.ts$/))
         // Reduce to an object where the key is the file path relative to `src/` and the value is
         // the file path relative to $PWD.
         .reduce((map, entry) => ({ ...map, [getEntryName(entry)]: entry }), {}),
+
+      fileName(format, entryName) {
+        switch (format) {
+          case "es":
+            return `esm/${entryName}.js`;
+          case "cjs":
+            return `${entryName}.js`;
+        }
+      },
     },
+    minify: false,
     rollupOptions: {
       external: ["cross-fetch"],
-      output: {
-        globals: {
-          "cross-fetch": "fetch",
-          nanoid: "nanoid",
-        },
-      },
       plugins: [
         typescript({
           target: "es2020",
