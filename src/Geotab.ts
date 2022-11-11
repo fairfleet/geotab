@@ -1,9 +1,6 @@
 import { GeotabRpcClient, GeotabRpcClientOptions } from "./GeotabRpcClient";
-import { Coordinate } from "./types/Checkmate/ObjectModel/Coordinate";
-import { LoginResult } from "./types/Checkmate/ObjectModel/LoginResult";
-import { ReverseGeocodeAddress } from "./types/Checkmate/ObjectModel/ReverseGeocodeAddress";
-import { VersionInformation } from "./types/Checkmate/ObjectModel/VersionInformation";
 import parseJsonWithDates from "./parseJsonWithDates";
+import { LoginResult, VersionInformation, Coordinate, ReverseGeocodeAddress } from "./types";
 import { EntityTypes } from "./types/EntityTypes";
 import { FeedResult } from "./types/FeedResult";
 import { PartialDeep } from "./types/PartialDeep";
