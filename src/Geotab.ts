@@ -9,6 +9,8 @@ import { FeedResult } from "./types/FeedResult";
 import { PartialDeep } from "./types/PartialDeep";
 import { SearchTypes } from "./types/SearchTypes";
 
+const DEFAULT_URL = "https://my.geotab.com/apiv1";
+
 /**
  * The {@link Geotab} options.
  */
@@ -58,7 +60,7 @@ export interface GeotabOptions extends Omit<GeotabRpcClientOptions, "url" | "par
  */
 export class Geotab extends GeotabRpcClient {
   constructor(private readonly options: GeotabOptions = {}) {
-    const url = options.url ?? "https://my.geotab.com/apiv1";
+    const url = options.url ?? DEFAULT_URL;
     const parseJSON = options.parseJSON ?? parseJsonWithDates;
     const optionsComplete = { ...options, url, parseJSON };
 
@@ -88,7 +90,7 @@ export class Geotab extends GeotabRpcClient {
    */
   logout() {
     this.setCredentials(undefined);
-    this.url = this.options.url;
+    this.url = this.options.url ?? DEFAULT_URL;
   }
 
   /**
