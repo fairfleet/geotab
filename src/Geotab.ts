@@ -1,17 +1,22 @@
-import { GeotabRpcClient, GeotabRpcClientOptions } from "./GeotabRpcClient";
-import parseJsonWithDates from "./parseJsonWithDates";
-import { LoginResult, VersionInformation, Coordinate, ReverseGeocodeAddress } from "./types";
+import { parseJsonWithDates } from "./parseJsonWithDates";
+import { getCallMany } from "./rpc/getCallMany";
+import { getCallWithBatching } from "./rpc/getCallWithBatching";
+import {
+  Coordinate,
+  Credentials,
+  LoginResult,
+  ReverseGeocodeAddress,
+  VersionInformation,
+} from "./types";
 import { EntityTypes } from "./types/EntityTypes";
 import { FeedResult } from "./types/FeedResult";
-import { PartialDeep } from "./types/PartialDeep";
+import { O } from "ts-toolbelt";
 import { SearchTypes } from "./types/SearchTypes";
-
-const DEFAULT_URL = "https://my.geotab.com/apiv1";
 
 /**
  * The {@link Geotab} options.
  */
-export interface GeotabOptions extends Omit<GeotabRpcClientOptions, "url" | "parseJSON"> {
+export interface GeotabOptions {
   /**
    * The Geotab API url.
    *
@@ -19,51 +24,45 @@ export interface GeotabOptions extends Omit<GeotabRpcClientOptions, "url" | "par
    */
   url?: string;
 
+  /** The headers to supply for each POST request. */
+  headers?: HeadersInit;
+
+  /** The Geotab credentials to supply to each JSONRPC call. */
+  credentials?: Credentials;
+
+  /**
+   * The maximum number of calls to queue before flushing.
+   *
+   * @remarks Defaults to 100.
+   */
+  callQueueMaxSize?: number;
+  /**
+   * The number of milliseconds to wait before flushing the call queue.
+   *
+   * @remarks Defaults to 1500ms
+   */
+  callQueueBufferTime?: number;
+
   /**
    * The function that parses JSONRPC responses.
    *
    * @remarks Defaults to a function that parses dates in ISO 8601 format.
    */
-  parseJSON?(json: string): unknown;
+  parseJSON?: typeof JSON.parse;
 }
 
 /**
- * Provides methods for interacting with the Geotab API.
- *
- * @remarks
- *
- * The {@link Geotab} class is a wrapper around the {@link GeotabRpcClient} class. It provides typed
- * methods for calling documented Geotab API methods.  Additionally it provides methods for logging
- * in and out of the Geotab API while storing the session credentials in memory for subsequent calls.
- *
- * Because {@link Geotab} provides multiple ways to instantiate an authenticated session a method
- * {@link Geotab.useLoginResult} is provided to manually set the session credentials.
- *
- * No attempts are made to store the session credentials in a persistent manner as this is outside
- * the scope of this library.
- *
- * @example
- *
- * Authenticate with Geotab and fetch the current user's information.
- * ```typescript
- * import { Geotab } from "@fairfleet/geotab";
- *
- * const client = new Geotab();
- *
- * await client.login(process.env.GEOTAB_USERNAME, process.env.GEOTAB_PASSWORD);
- * await client.get("User", { userName: process.env.GEOTAB_USERNAME })
- *   .then((users) => console.log(users[0]));
- * ```
+ * A Geotab API client.
  */
-export class Geotab extends GeotabRpcClient {
-  constructor(private readonly options: GeotabOptions = {}) {
-    const url = options.url ?? DEFAULT_URL;
-    const parseJSON = options.parseJSON ?? parseJsonWithDates;
-    const optionsComplete = { ...options, url, parseJSON };
-
-    super(optionsComplete);
-    this.options = optionsComplete;
-  }
+export interface Geotab {
+  /**
+   * Executes a JSONRPC call and returns a {@link Promise} when the call is complete.
+   *
+   * @param method - The name of the method to call.
+   * @param params - The parameters to supply to the method.
+   * @returns - A {@link Promise} that resolves with the result of the call.
+   */
+  call<TResult>(method: string, params: Record<string, unknown>): Promise<TResult>;
 
   /**
    * Authenticates the user with the given login credentials and stores the session information for
@@ -74,21 +73,12 @@ export class Geotab extends GeotabRpcClient {
    * @param database - The name of the database to authenticate against.
    * @returns - The {@link LoginResult} object.
    */
-  async login(userName: string, password: string, database?: string): Promise<LoginResult> {
-    const resultPromise = this.authenticate(userName, password, database);
-    await this.flushCallQueue();
-    const result = await resultPromise;
-    this.useLoginResult(result);
-    return result;
-  }
+  login(userName: string, password: string, database?: string): Promise<LoginResult>;
 
   /**
    * Logs out the current user.
    */
-  logout() {
-    this.setCredentials(undefined);
-    this.url = this.options.url ?? DEFAULT_URL;
-  }
+  logout(): void;
 
   /**
    * Configures the {@link Geotab} client to use the credentials provided in the given
@@ -96,10 +86,7 @@ export class Geotab extends GeotabRpcClient {
    *
    * @param loginResult - The {@link LoginResult} containing the credentials to use.
    */
-  useLoginResult(loginResult: LoginResult) {
-    this.url = loginResult.path === "ThisServer" ? this.url : `https://${loginResult.path}/apiv1`;
-    this.setCredentials(loginResult.credentials);
-  }
+  useLoginResult(loginResult: LoginResult): void;
 
   /**
    * Adds a new entity to the Geotab database.
@@ -108,12 +95,10 @@ export class Geotab extends GeotabRpcClient {
    * @param entity The entity to add.
    * @returns The id of the added entity.
    */
-  add<TType extends keyof EntityTypes, TEntity = EntityTypes[TType]>(
+  add<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
     typeName: TType,
-    entity: PartialDeep<TEntity>
-  ): Promise<string> {
-    return this.call("Add", { typeName, entity });
-  }
+    entity: O.Partial<TEntity>
+  ): Promise<string>;
 
   /**
    * Authenticates a user and provides a {@link LoginResult} if successful.
@@ -125,9 +110,7 @@ export class Geotab extends GeotabRpcClient {
    * @param database - The name of the database to authenticate against.
    * @returns A {@link LoginResult} object.
    */
-  authenticate(userName: string, password: string, database?: string): Promise<LoginResult> {
-    return this.call("Authenticate", { userName, password, database });
-  }
+  authenticate(userName: string, password: string, database?: string): Promise<LoginResult>;
 
   /**
    * Gets collection of entities from the database that match the supplied search
@@ -136,25 +119,31 @@ export class Geotab extends GeotabRpcClient {
    * @param typeName The name of the entity type.
    * @param search The search criteria to use.
    * @param resultsLimit The maximum number of entities that will be returned.
+   * @param signal - The optional abort signal.
    * @returns The entities matching search criteria.
    */
   get<
     TType extends keyof EntityTypes & keyof SearchTypes,
     TEntity = EntityTypes[TType],
-    TSearch = SearchTypes[TType]
-  >(typeName: TType, search: PartialDeep<TSearch>, resultsLimit?: number): Promise<TEntity[]> {
-    return this.call("Get", { typeName, search, resultsLimit });
-  }
+    TSearch extends object = SearchTypes[TType]
+  >(
+    typeName: TType,
+    search: O.Partial<TSearch>,
+    resultsLimit?: number,
+    signal?: AbortSignal
+  ): Promise<TEntity[]>;
 
   /**
    * Gets the number of of entities in the database.
    *
    * @param typeName The name of the entity type.
+   * @param signal - The optional abort signal.
    * @returns The number of entities in the database.
    */
-  getCountOf<TType extends keyof EntityTypes>(typeName: TType): Promise<number> {
-    return this.call("GetCountOf", { typeName });
-  }
+  getCountOf<TType extends keyof EntityTypes>(
+    typeName: TType,
+    signal?: AbortSignal
+  ): Promise<number>;
 
   /**
    * Gets collection of entities from the database that have changed since the supplied
@@ -195,44 +184,45 @@ export class Geotab extends GeotabRpcClient {
    * @param search The search criteria to use.
    * @param fromVersion The version retrieved from the last {@link GetFeed} request.
    * @param resultsLimit The maximum number of entities that will be returned.
+   * @param signal - The optional abort signal.
    * @returns The feed result containing the entities matching supplied criteria.
    */
   getFeed<
     TType extends keyof EntityTypes & keyof SearchTypes,
     TEntity = EntityTypes[TType],
-    TSearch = SearchTypes[TType]
+    TSearch extends object = SearchTypes[TType]
   >(
     typeName: TType,
-    search: PartialDeep<TSearch>,
+    search: O.Partial<TSearch>,
     fromVersion?: string,
-    resultsLimit?: number
-  ): Promise<FeedResult<TEntity>> {
-    return this.call("GetFeed", { typeName, search, fromVersion, resultsLimit });
-  }
+    resultsLimit?: number,
+    signal?: AbortSignal
+  ): Promise<FeedResult<TEntity>>;
 
   /**
    * Gets the version of the server.
+   * @param signal - The optional abort signal.
    * @returns The string representation of the server version.
    */
-  getVersion(): Promise<string> {
-    return this.call("GetVersion", {});
-  }
+  getVersion(signal?: AbortSignal): Promise<string>;
 
   /**
    * Gets the version information of the server.
    *
+   * @param signal - The optional abort signal.
    * @returns The version information of the server.
    */
-  getVersionInformation(): Promise<VersionInformation> {
-    return this.call("GetVersionInformation", {});
-  }
+  getVersionInformation(signal?: AbortSignal): Promise<VersionInformation>;
 
-  remove<TType extends keyof EntityTypes, TEntity = EntityTypes[TType]>(
+  /**
+   * Removes the given entity from the database.
+   * @param typeName - The type of entity.
+   * @param entity - The entity to remove.
+   */
+  remove<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
     typeName: TType,
-    entity: PartialDeep<TEntity> & { id: string }
-  ) {
-    return this.call("Remove", { typeName, entity });
-  }
+    entity: O.Partial<TEntity> & { id: string }
+  ): Promise<void>;
 
   /**
    * Modifies an {@link TEntity}.
@@ -240,12 +230,10 @@ export class Geotab extends GeotabRpcClient {
    * @param typeName The name of the entity type.
    * @param entity The entity to modify.
    */
-  set<TType extends keyof EntityTypes, TEntity = EntityTypes[TType]>(
+  set<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
     typeName: TType,
-    entity: PartialDeep<TEntity>
-  ): Promise<void> {
-    return this.call("Set", { typeName, entity });
-  }
+    entity: O.Partial<TEntity>
+  ): Promise<void>;
 
   /**
    * Gets the addresses from the list of {@link Coordinate}, as well as any {@link Zone}s in the
@@ -255,13 +243,142 @@ export class Geotab extends GeotabRpcClient {
    * @param hosAddresses - If true, the direction and distance to the nearest city with a population
    * greater than 5000 will be returned.
    * @param movingAddresses - If true, the coordinates are being specified for a moving object.
+   * @param signal - The optional abort signal.
    * @returns A list of populated {@link ReverseGeocodeAddress}.
    */
   getAddresses(
     coordinates: Coordinate[],
-    hosAddresses = false,
-    movingAddresses = false
-  ): Promise<ReverseGeocodeAddress[]> {
-    return this.call("GetAddresses", { coordinates, hosAddresses, movingAddresses });
+    hosAddresses?: boolean,
+    movingAddresses?: boolean,
+    signal?: AbortSignal
+  ): Promise<ReverseGeocodeAddress[]>;
+}
+
+/**
+ * Creates a {@link Geotab} instance with the given options.
+ *
+ * @param options - The {@link GeotabOptions}.
+ * @returns A {@link Geotab} instance.
+ */
+export function geotab(options: GeotabOptions = {}): Geotab {
+  const urlInitial = options.url ?? "https://my.geotab.com/apiv1";
+  let url = urlInitial;
+  const headers = options.headers ?? {};
+  const callQueueMaxSize = options.callQueueMaxSize ?? 100;
+  const callQueueBufferTime = options.callQueueBufferTime ?? 1500;
+  const parseJson = options.parseJSON ?? parseJsonWithDates;
+
+  let callMany = getCallMany(url, headers, options.credentials, parseJson);
+  let callWithBatching = getCallWithBatching(callQueueMaxSize, callQueueBufferTime, callMany);
+
+  /**
+   * Executes a JSONRPC call and returns a {@link Promise} when the call is complete.
+   *
+   * @param method - The name of the method to call.
+   * @param params - The parameters to supply to the method.
+   * @returns - A {@link Promise} that resolves with the result of the call.
+   */
+  async function call<TResult>(method: string, params: Record<string, unknown>): Promise<TResult> {
+    return (await callMany([{ method, params }])) as TResult;
   }
+
+  return {
+    call,
+
+    async login(userName: string, password: string, database?: string): Promise<LoginResult> {
+      const result = await this.authenticate(userName, password, database);
+      this.useLoginResult(result);
+      return result;
+    },
+
+    logout() {
+      url = urlInitial;
+    },
+
+    useLoginResult(loginResult: LoginResult) {
+      url = loginResult.path === "ThisServer" ? url : `https://${loginResult.path}/apiv1`;
+      callMany = getCallMany(url, headers, loginResult.credentials, parseJson);
+      callWithBatching = getCallWithBatching(callQueueMaxSize, callQueueBufferTime, callMany);
+    },
+
+    add<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
+      typeName: TType,
+      entity: O.Partial<TEntity>
+    ): Promise<string> {
+      return call("Add", { typeName, entity });
+    },
+
+    authenticate(userName: string, password: string, database?: string): Promise<LoginResult> {
+      return call("Authenticate", { userName, password, database });
+    },
+
+    get<
+      TType extends keyof EntityTypes & keyof SearchTypes,
+      TEntity = EntityTypes[TType],
+      TSearch extends object = SearchTypes[TType]
+    >(
+      typeName: TType,
+      search: O.Partial<TSearch>,
+      resultsLimit?: number,
+      signal?: AbortSignal
+    ): Promise<TEntity[]> {
+      return callWithBatching("Get", { typeName, search, resultsLimit }, signal);
+    },
+
+    getCountOf<TType extends keyof EntityTypes>(
+      typeName: TType,
+      signal?: AbortSignal
+    ): Promise<number> {
+      return callWithBatching("GetCountOf", { typeName }, signal);
+    },
+
+    getFeed<
+      TType extends keyof EntityTypes & keyof SearchTypes,
+      TEntity = EntityTypes[TType],
+      TSearch extends object = SearchTypes[TType]
+    >(
+      typeName: TType,
+      search: O.Partial<TSearch>,
+      fromVersion?: string,
+      resultsLimit?: number,
+      signal?: AbortSignal
+    ): Promise<FeedResult<TEntity>> {
+      return callWithBatching("GetFeed", { typeName, search, fromVersion, resultsLimit }, signal);
+    },
+
+    getVersion(signal?: AbortSignal): Promise<string> {
+      return callWithBatching("GetVersion", {}, signal);
+    },
+
+    getVersionInformation(signal?: AbortSignal): Promise<VersionInformation> {
+      return callWithBatching("GetVersionInformation", {}, signal);
+    },
+
+    remove<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
+      typeName: TType,
+      entity: O.Partial<TEntity> & { id: string }
+    ): Promise<void> {
+      return call("Remove", { typeName, entity });
+    },
+
+    set<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
+      typeName: TType,
+      entity: O.Partial<TEntity>
+    ): Promise<void> {
+      return call("Set", { typeName, entity });
+    },
+
+    getAddresses(
+      coordinates: Coordinate[],
+      hosAddresses = false,
+      movingAddresses = false,
+      signal?: AbortSignal
+    ): Promise<ReverseGeocodeAddress[]> {
+      return callWithBatching(
+        "GetAddresses",
+        { coordinates, hosAddresses, movingAddresses },
+        signal
+      );
+    },
+  };
 }

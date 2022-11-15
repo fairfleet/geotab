@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "types": ["vitest/globals"],
-    "strict": true
+    "strict": true,
+    "target": "ES2015",
+    "module": "ESNext",
+    "moduleResolution": "node"
   },
   "include": ["src/**/*.ts"]
 }

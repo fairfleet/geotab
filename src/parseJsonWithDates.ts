@@ -9,7 +9,7 @@
  * @param text — A valid JSON string.
  * @returns The parsed JSON object.
  */
-export default function parseJsonWithDates<TResult>(text: string): TResult {
+export function parseJsonWithDates<TResult>(text: string): TResult {
   return JSON.parse(text, fixJsonDates);
 }
 
@@ -30,7 +30,7 @@ export function fixJsonDates(_: string, value: unknown): unknown {
   }
 
   if (Array.isArray(value)) {
-    return value.map(x => (typeof x === "string" ? tryGetIso8601Date(x) : x));
+    return value.map((x) => (typeof x === "string" ? tryGetIso8601Date(x) : x));
   }
 
   return value;

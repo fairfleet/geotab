@@ -12,12 +12,14 @@ specifiers:
   nanoid: ^4.0.0
   prettier: ^2.7.1
   terser: ^5.15.1
+  ts-toolbelt: ^9.6.0
   typescript: ^4.7.3
   vite: ^3.2.3
   vitest: ^0.25.1
 
 dependencies:
   cross-fetch: 3.1.5
+  ts-toolbelt: 9.6.0
 
 devDependencies:
   '@rollup/plugin-typescript': 9.0.2_typescript@4.8.4
@@ -1594,6 +1596,10 @@ packages:
 
   /tr46/0.0.3:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
+    dev: false
+
+  /ts-toolbelt/9.6.0:
+    resolution: {integrity: sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==}
     dev: false
 
   /tslib/1.14.1:
