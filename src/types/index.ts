@@ -415,7 +415,6 @@ export * from "./EntityTypes";
 export * from "./FeedResult";
 export * from "./Log/AreaType";
 export * from "./Log/SeverityLevel";
-export * from "./PartialDeep";
 export * from "./SearchTypes";
 export * from "./Serialization/Iso8601Resolution";
 export * from "./StoreForward/StoreForwardExceptionType";
