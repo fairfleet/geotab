@@ -1,7 +1,6 @@
 import { defineConfig } from "vitest/config";
 import { resolve } from "path";
 import typescript from "@rollup/plugin-typescript";
-import { sync as glob } from "fast-glob";
 
 export default defineConfig({
   test: {
@@ -13,14 +12,20 @@ export default defineConfig({
   build: {
     lib: {
       name: "geotab",
-      entry: "src/index.ts",
-      formats: ["es", "cjs", "umd"],
-      // entry: glob("src/**/*.ts")
-      //   // Ignore tests
-      //   .filter((path) => !path.match(/\.test\.ts$/))
-      //   // Reduce to an object where the key is the file path relative to `src/` and the value is
-      //   // the file path relative to $PWD.
-      //   .reduce((map, entry) => ({ ...map, [getEntryName(entry)]: entry }), {}),
+      entry: [
+        "src/index.ts",
+        "src/Geotab.ts",
+        "src/parseJsonWithDates.ts",
+        "src/GeotabError.ts",
+        "src/types/index.ts",
+        "src/types/Checkmate/ObjectModel/KnownId.ts",
+        "src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts",
+      ]
+        // Ignore tests
+        .filter((path) => !path.match(/\.test\.ts$/))
+        // Reduce to an object where the key is the file path relative to `src/` and the value is
+        // the file path relative to $PWD.
+        .reduce((map, entry) => ({ ...map, [getEntryName(entry)]: entry }), {}),
 
       fileName(format, entryName) {
         switch (format) {
@@ -35,9 +40,8 @@ export default defineConfig({
         throw new Error();
       },
     },
-    minify: true,
     rollupOptions: {
-      external: ["cross-fetch"],
+      external: ["cross-fetch", "ts-toolbelt", "nanoid"],
       plugins: [
         typescript({
           target: "es2020",

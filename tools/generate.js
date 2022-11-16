@@ -7,7 +7,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
 const glob = require("fast-glob");
-const { writeFile, rm, stat } = require("fs/promises");
+const { writeFile, rm } = require("fs/promises");
 const { sh } = require("./utils/sh");
 
 async function main() {
