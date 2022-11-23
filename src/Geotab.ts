@@ -49,6 +49,30 @@ export interface GeotabOptions {
    * @remarks Defaults to a function that parses dates in ISO 8601 format.
    */
   parseJSON?: typeof JSON.parse;
+
+  /**
+   * Called when the API is about to make a call to the server.
+   *
+   * @param method - The name of the method to call.
+   * @param params - The parameters to supply to the method.
+   */
+  onCall?(method: string, params: Record<string, unknown>): void;
+
+  /**
+   * Called when the API has received a response from the server.
+   * @param method - The name of the method that was called.
+   * @param params - The parameters that were supplied to the method.
+   * @param result - The result of the call.
+   */
+  onCallOk?(method: string, params: Record<string, unknown>, result: unknown): void;
+
+  /**
+   * Called when the API has received an error from the server.
+   * @param method - The name of the method that was called.
+   * @param params - The parameters that were supplied to the method.
+   * @param error - The error that was returned.
+   */
+  onCallError?(method: string, params: Record<string, unknown>, error: unknown): void;
 }
 
 /**
@@ -271,15 +295,32 @@ export function geotab(options: GeotabOptions = {}): Geotab {
   let callMany = getCallMany(url, headers, options.credentials, parseJson);
   let callWithBatching = getCallWithBatching(callQueueMaxSize, callQueueBufferTime, callMany);
 
-  /**
-   * Executes a JSONRPC call and returns a {@link Promise} when the call is complete.
-   *
-   * @param method - The name of the method to call.
-   * @param params - The parameters to supply to the method.
-   * @returns - A {@link Promise} that resolves with the result of the call.
-   */
   async function call<TResult>(method: string, params: Record<string, unknown>): Promise<TResult> {
-    return (await callMany([{ method, params }])) as TResult;
+    try {
+      options.onCall?.(method, params);
+      const result = await callMany([{ method, params }]);
+      options.onCallOk?.(method, params, result);
+      return result as TResult;
+    } catch (err) {
+      options.onCallError?.(method, params, err);
+      throw err;
+    }
+  }
+
+  async function callBatched<TResult>(
+    method: string,
+    params: Record<string, unknown>,
+    signal?: AbortSignal
+  ): Promise<TResult> {
+    try {
+      options.onCall?.(method, params);
+      const result = await callBatched(method, params, signal);
+      options.onCallOk?.(method, params, result);
+      return result as TResult;
+    } catch (err) {
+      options.onCallError?.(method, params, err);
+      throw err;
+    }
   }
 
   return {
@@ -322,14 +363,14 @@ export function geotab(options: GeotabOptions = {}): Geotab {
       resultsLimit?: number,
       signal?: AbortSignal
     ): Promise<TEntity[]> {
-      return callWithBatching("Get", { typeName, search, resultsLimit }, signal);
+      return callBatched("Get", { typeName, search, resultsLimit }, signal);
     },
 
     getCountOf<TType extends keyof EntityTypes>(
       typeName: TType,
       signal?: AbortSignal
     ): Promise<number> {
-      return callWithBatching("GetCountOf", { typeName }, signal);
+      return callBatched("GetCountOf", { typeName }, signal);
     },
 
     getFeed<
@@ -343,15 +384,15 @@ export function geotab(options: GeotabOptions = {}): Geotab {
       resultsLimit?: number,
       signal?: AbortSignal
     ): Promise<FeedResult<TEntity>> {
-      return callWithBatching("GetFeed", { typeName, search, fromVersion, resultsLimit }, signal);
+      return callBatched("GetFeed", { typeName, search, fromVersion, resultsLimit }, signal);
     },
 
     getVersion(signal?: AbortSignal): Promise<string> {
-      return callWithBatching("GetVersion", {}, signal);
+      return callBatched("GetVersion", {}, signal);
     },
 
     getVersionInformation(signal?: AbortSignal): Promise<VersionInformation> {
-      return callWithBatching("GetVersionInformation", {}, signal);
+      return callBatched("GetVersionInformation", {}, signal);
     },
 
     remove<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
@@ -374,11 +415,7 @@ export function geotab(options: GeotabOptions = {}): Geotab {
       movingAddresses = false,
       signal?: AbortSignal
     ): Promise<ReverseGeocodeAddress[]> {
-      return callWithBatching(
-        "GetAddresses",
-        { coordinates, hosAddresses, movingAddresses },
-        signal
-      );
+      return callBatched("GetAddresses", { coordinates, hosAddresses, movingAddresses }, signal);
     },
   };
 }

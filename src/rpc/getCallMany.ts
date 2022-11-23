@@ -11,7 +11,10 @@ export interface RpcCall {
 /**
  * Gets a function that can be used to POST JSONRPC calls.
  *
- * @param options - The {@link GetCallManyOptions} options.
+ * @param url - The URL to post to.
+ * @param headers - The headers to supply with the request.
+ * @param credentials - The credentials to use for authentication.
+ * @param parseJSON - The function to use to parse the JSON response.
  * @returns A function that can be used to post JSONRPC calls.
  */
 export function getCallMany(
