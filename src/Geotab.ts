@@ -314,7 +314,7 @@ export function geotab(options: GeotabOptions = {}): Geotab {
   ): Promise<TResult> {
     try {
       options.onCall?.(method, params);
-      const result = await callBatched(method, params, signal);
+      const result = await callWithBatching(method, params, signal);
       options.onCallOk?.(method, params, result);
       return result as TResult;
     } catch (err) {
