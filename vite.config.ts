@@ -6,7 +6,10 @@ export default defineConfig({
   test: {
     globals: true,
     coverage: {
+      all: true,
       reporter: ["lcov", "text"],
+      include: ["src/**/*.ts"],
+      exclude: ["src/**/*.test.ts", "node_modules/**", "src/types/**"],
     },
   },
   build: {
@@ -49,7 +52,11 @@ export default defineConfig({
           rootDir: resolve(__dirname, "./src"),
           declaration: true,
           declarationDir: resolve(__dirname, "./dist"),
-          exclude: resolve(__dirname, "./node_modules/**"),
+          exclude: [
+            resolve(__dirname, "./src/**/*.test.ts"),
+            resolve(__dirname, "./src/internal/**"),
+            resolve(__dirname, "./node_modules/**"),
+          ],
           allowSyntheticDefaultImports: true,
         }),
       ],

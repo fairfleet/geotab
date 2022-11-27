@@ -1,17 +1,17 @@
 import { O } from "ts-toolbelt";
+import { getCall } from "./internal/getCall";
+import { getCallQueued } from "./internal/getCallQueued";
+import { getExecuteMultiCall } from "./internal/getExecuteMultiCall";
 import {
+  Coordinate,
   EntityTypes,
   FeedResult,
-  SearchTypes,
-  Coordinate,
+  LoginResult,
   ReverseGeocodeAddress,
+  SearchTypes,
   VersionInformation,
 } from "./types";
-import { getCallQueued } from "./internal/getCallQueued";
-import { LoginResult } from "./types";
 import { Credentials } from "./types/Checkmate/ObjectModel/Credentials";
-import { getCall } from "./internal/getCall";
-import { getExecuteMultiCall } from "./internal/getExecuteMultiCall";
 
 /**
  * The {@link Geotab} options.
@@ -23,13 +23,6 @@ export interface GeotabOptions {
    * @remarks Defaults to "https://my.geotab.com/apiv1".
    */
   url?: string;
-
-  /**
-   * The optional fetch function.
-   *
-   * @remarks Defaults to the "cross-fetch" fetch implementation.
-   */
-  fetch?: typeof fetch;
 
   /** The headers to supply for each POST request. */
   headers?: HeadersInit;
@@ -86,7 +79,11 @@ export interface Geotab {
    * @param params - The parameters to supply to the method.
    * @returns - A {@link Promise} that resolves with the result of the call.
    */
-  callQueued: ReturnType<typeof getCallQueued>;
+  callQueued<TResult>(
+    method: string,
+    params: Record<string, unknown>,
+    signal?: AbortSignal
+  ): Promise<TResult>;
 
   /**
    * Adds a new entity to the Geotab database.
@@ -317,13 +314,17 @@ export function createGeotab(options: GeotabOptions = {}) {
 
 /**
  * Creates a {@link Geotab} instance from the given credentials.
+ *
+ * @remarks Calls made with the returned {@link Geotab} instance will have credentials supplied in
+ * the call parameters.
+ *
  * @param result - The {@link LoginResult} to use.
  * @param options - The options to use.
  * @returns - The {@link Geotab} instance.
  */
 export function createGeotabFromLoginResult(result: LoginResult, options: GeotabOptions = {}) {
-  // In the official Geotab API documentation it is noted that the URL should be derived from
-  // the LoginResult.path.  However, since the myxxx.geotab.com URL deprecation, the path no longer
+  // In the Geotab API documentation it is noted that the URL should be derived from the
+  // LoginResult.path.However, since the myxxx.geotab.com URL deprecation, the path no longer
   // appears to be necessary.
   return createGeotab({
     ...options,
