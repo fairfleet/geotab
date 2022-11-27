@@ -2,8 +2,7 @@ import { getCall, queue } from "./internal";
 import { Geotab, GeotabOptions } from "./types";
 
 export * from "./GeotabError";
-export * from "./types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure";
-export * from "./types/Checkmate/ObjectModel/KnownId";
+export * from "./types";
 
 /**
  * Creates a {@link Geotab} instance from the given options.
