@@ -14,12 +14,11 @@ export function createGeotab(options: GeotabOptions = {}) {
   const middleware = options.middleware ?? [];
 
   let call = getCall(options);
+  call = queue(options)(call);
 
   for (const setup of middleware) {
     call = setup(call);
   }
-
-  call = queue(options)(call);
 
   return {
     call(method, params, signal) {
