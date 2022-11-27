@@ -1,9 +1,9 @@
 import { queue } from "./queue";
 
 const getResult = vi.fn();
-const callQueueMaxSize = 5;
-const callQueueBufferTime = 9999_9999;
-const callQueued = queue({ callQueueMaxSize, callQueueBufferTime })(getResult);
+const queueMaxSize = 5;
+const queueBufferTime = 9999_9999;
+const callQueued = queue({ queueMethods: ["Test"], queueMaxSize, queueBufferTime })(getResult);
 
 beforeEach(() => {
   vi.useFakeTimers();
@@ -87,16 +87,16 @@ test("Should throw all on JSON-RPC error", async () => {
 });
 
 test("Should flush queue on overflow", async () => {
-  getResult.mockResolvedValueOnce(Array.from({ length: callQueueMaxSize }, () => "test"));
+  getResult.mockResolvedValueOnce(Array.from({ length: queueMaxSize }, () => "test"));
 
-  const calls = Array.from({ length: callQueueMaxSize }, () => callQueued({ method: "Test" }));
+  const calls = Array.from({ length: queueMaxSize }, () => callQueued({ method: "Test" }));
   const now = Date.now();
 
   for (const call of calls) {
     await expect(call).resolves.toBe("test");
   }
 
-  expect(Date.now() - now).toBeLessThan(callQueueMaxSize);
+  expect(Date.now() - now).toBeLessThan(queueMaxSize);
 });
 
 test("Should flush queue on overflow after timeout", async () => {
@@ -105,9 +105,9 @@ test("Should flush queue on overflow after timeout", async () => {
   vi.advanceTimersToNextTimer();
 
   // Flush queue using overflow
-  getResult.mockResolvedValueOnce(Array.from({ length: callQueueMaxSize }, () => "test"));
+  getResult.mockResolvedValueOnce(Array.from({ length: queueMaxSize }, () => "test"));
 
-  const calls = Array.from({ length: callQueueMaxSize }, () => callQueued({ method: "Test" }));
+  const calls = Array.from({ length: queueMaxSize }, () => callQueued({ method: "Test" }));
 
   for (const call of calls) {
     await expect(call).resolves.toBe("test");
@@ -116,8 +116,8 @@ test("Should flush queue on overflow after timeout", async () => {
 
 test("Should flush queue on timeout after overflow", async () => {
   // Flush queue using overflow
-  getResult.mockResolvedValueOnce(Array.from({ length: callQueueMaxSize }, () => "test"));
-  await Promise.all(Array.from({ length: callQueueMaxSize }, () => callQueued({ method: "Test" })));
+  getResult.mockResolvedValueOnce(Array.from({ length: queueMaxSize }, () => "test"));
+  await Promise.all(Array.from({ length: queueMaxSize }, () => callQueued({ method: "Test" })));
 
   // Flush queue using timeout
   getResult.mockResolvedValueOnce("test");
@@ -131,14 +131,14 @@ test("Should flush queue on timeout after overflow", async () => {
 test("Should flush queue on overflow with abort", async () => {
   const controller = new AbortController();
 
-  getResult.mockResolvedValueOnce(Array.from({ length: callQueueMaxSize }, () => "test"));
+  getResult.mockResolvedValueOnce(Array.from({ length: queueMaxSize }, () => "test"));
 
   // Call with an abort signal
   controller.abort();
   callQueued({ method: "Test", signal: controller.signal }).catch(noop);
 
   // Queue enough calls to trigger a flush
-  const calls = Array.from({ length: callQueueMaxSize - 1 }, () => callQueued({ method: "Test" }));
+  const calls = Array.from({ length: queueMaxSize - 1 }, () => callQueued({ method: "Test" }));
 
   for (const call of calls) {
     await expect(call).resolves.toBe("test");
@@ -161,6 +161,23 @@ test("Should flush queue on timeout with abort", async () => {
   vi.advanceTimersToNextTimer();
 
   await expect(call).resolves.toBe("test");
+});
+
+test("First request should define timeout", async () => {
+  getResult.mockResolvedValueOnce(["test1", "test2"]);
+
+  // Make a call and advance the timer
+  const call1 = callQueued({ method: "Test" });
+  expect(getResult).toHaveBeenCalledTimes(0);
+  vi.advanceTimersByTime(queueBufferTime / 2);
+
+  // Make a second call and advance the timer past the buffer time
+  const call2 = callQueued({ method: "Test" });
+  expect(getResult).toHaveBeenCalledTimes(0);
+  vi.advanceTimersByTime(queueBufferTime / 2);
+
+  await expect(call1).resolves.toBe("test1");
+  await expect(call2).resolves.toBe("test2");
 });
 
 function noop() {

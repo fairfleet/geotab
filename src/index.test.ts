@@ -2,7 +2,7 @@ import { createGeotab } from ".";
 
 const fn = vi.fn();
 const geotab = createGeotab({
-  callQueueMaxSize: 1,
+  queueMaxSize: 1,
   middleware: [() => fn],
 });
 
@@ -139,7 +139,7 @@ test("Calls Set", async () => {
 
 test("Utilizes middleware", async () => {
   const geotab = createGeotab({
-    callQueueMaxSize: 1,
+    queueMaxSize: 1,
     middleware: [
       () => async () => 1,
       (next) => async (call) => Number(await next(call)) + 1,

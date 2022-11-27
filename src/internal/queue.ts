@@ -9,8 +9,16 @@ interface CallQueueEntry<TResult = unknown> extends Call<TResult> {
 }
 
 export function queue(options: GeotabOptions) {
-  const callQueueMaxSize = options.callQueueMaxSize ?? 100;
-  const callQueueBufferTime = options.callQueueBufferTime ?? 1500;
+  const queueMaxSize = options.queueMaxSize ?? 100;
+  const queueBufferTime = options.queueBufferTime ?? 1500;
+  const queueMethods = options.queueMethods ?? [
+    "Get",
+    "GetAddresses",
+    "GetCountOf",
+    "GetFeed",
+    "GetVersion",
+    "GetVersionInformation",
+  ];
 
   return function setup(next: Next) {
     let queue: CallQueueEntry[] = [];
@@ -22,6 +30,9 @@ export function queue(options: GeotabOptions) {
     async function flushQueue() {
       const calls = queue;
       queue = [];
+
+      clearTimeout(timeout);
+      timeout = undefined;
 
       try {
         filterAborted(calls);
@@ -85,6 +96,10 @@ export function queue(options: GeotabOptions) {
     }
 
     return async function middleware(call: Call) {
+      if (!queueMethods.includes(call.method)) {
+        return await next(call);
+      }
+
       return new Promise((resolve, reject) => {
         queue.push({
           ...call,
@@ -92,15 +107,10 @@ export function queue(options: GeotabOptions) {
           reject,
         });
 
-        if (timeout) {
-          clearTimeout(timeout);
-          timeout = undefined;
-        }
-
-        if (queue.length >= callQueueMaxSize) {
+        if (queue.length >= queueMaxSize) {
           flushQueue();
         } else {
-          timeout = setTimeout(flushQueue, callQueueBufferTime);
+          timeout ??= setTimeout(flushQueue, queueBufferTime);
         }
       });
     };
