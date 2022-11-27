@@ -55,7 +55,7 @@ test("Should throw on abort", async () => {
 
   vi.advanceTimersToNextTimer();
 
-  await expect(call).rejects.toThrow("Call aborted");
+  await expect(call).rejects.toThrow();
 });
 
 test("Should return all results", async () => {
