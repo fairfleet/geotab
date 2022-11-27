@@ -17,9 +17,7 @@ export default defineConfig({
       name: "geotab",
       entry: [
         "src/index.ts",
-        "src/Geotab.ts",
         "src/GeotabError.ts",
-        "src/types/index.ts",
         "src/types/Checkmate/ObjectModel/KnownId.ts",
         "src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts",
       ]

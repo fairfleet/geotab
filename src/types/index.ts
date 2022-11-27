@@ -1,3 +1,4 @@
+export * from "./Call";
 export * from "./Checkmate/ExceptionInfoTag";
 export * from "./Checkmate/MachineSettings/ServerSwitches";
 export * from "./Checkmate/MachineSettings/State";
@@ -413,8 +414,11 @@ export * from "./Drawing/Color";
 export * from "./Drawing/RectangleF";
 export * from "./EntityTypes";
 export * from "./FeedResult";
+export * from "./Geotab";
+export * from "./GeotabOptions";
 export * from "./Log/AreaType";
 export * from "./Log/SeverityLevel";
+export * from "./Middleware";
 export * from "./SearchTypes";
 export * from "./Serialization/Iso8601Resolution";
 export * from "./StoreForward/StoreForwardExceptionType";

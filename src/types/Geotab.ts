@@ -1,7 +1,4 @@
 import { O } from "ts-toolbelt";
-import { getCall } from "./internal/getCall";
-import { getCallQueued } from "./internal/getCallQueued";
-import { getExecuteMultiCall } from "./internal/getExecuteMultiCall";
 import {
   Coordinate,
   EntityTypes,
@@ -10,46 +7,7 @@ import {
   ReverseGeocodeAddress,
   SearchTypes,
   VersionInformation,
-} from "./types";
-import { Credentials } from "./types/Checkmate/ObjectModel/Credentials";
-
-/**
- * The {@link Geotab} options.
- */
-export interface GeotabOptions {
-  /**
-   * The Geotab API url.
-   *
-   * @remarks Defaults to "https://my.geotab.com/apiv1".
-   */
-  url?: string;
-
-  /** The headers to supply for each POST request. */
-  headers?: HeadersInit;
-
-  /** The Geotab credentials to supply to each JSON-RPC call. */
-  credentials?: Credentials;
-
-  /**
-   * The maximum number of calls to queue before flushing.
-   *
-   * @remarks Defaults to 100.
-   */
-  callQueueMaxSize?: number;
-  /**
-   * The number of milliseconds to wait before flushing the call queue.
-   *
-   * @remarks Defaults to 1500ms
-   */
-  callQueueBufferTime?: number;
-
-  /**
-   * The function that parses JSON-RPC responses.
-   *
-   * @remarks Defaults to a function that parses dates in ISO 8601 format.
-   */
-  parseJSON?: typeof JSON.parse;
-}
+} from ".";
 
 /**
  * A Geotab API client.
@@ -66,20 +24,7 @@ export interface Geotab {
    * @throws {Error} If the HTTP status indicates a failure occurred.
    * @throws {GeotabError} If the JSONRPC response contains an error.
    */
-  call<TResult>(method: string, params: Record<string, unknown>): Promise<TResult>;
-
-  /**
-   * Sends a JSON-RPC call to the Geotab API and returns the result.
-   *
-   * @remarks Calls are queued and flushed based on the {@link GeotabOptions.callQueueMaxSize}
-   * and {@link GeotabOptions.callQueueBufferTime} options.  Multiple queued calls are sent as a
-   * single JSON-RPC call to the Geotab API to conserve network usage.
-   *
-   * @param method - The name of the method to call.
-   * @param params - The parameters to supply to the method.
-   * @returns - A {@link Promise} that resolves with the result of the call.
-   */
-  callQueued<TResult>(
+  call<TResult>(
     method: string,
     params: Record<string, unknown>,
     signal?: AbortSignal
@@ -90,11 +35,13 @@ export interface Geotab {
    *
    * @param typeName The name of the entity type.
    * @param entity The entity to add.
+   * @param signal - The optional abort signal.
    * @returns The id of the added entity.
    */
   add<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
     typeName: TType,
-    entity: O.Partial<TEntity>
+    entity: O.Partial<TEntity>,
+    signal?: AbortSignal
   ): Promise<string>;
 
   /**
@@ -105,9 +52,15 @@ export interface Geotab {
    * @param userName - The user name (typically an email address) that identifies the user.
    * @param password - The user's Geotab password.
    * @param database - The name of the database to authenticate against.
+   * @param signal - The optional abort signal.
    * @returns A {@link LoginResult} object.
    */
-  authenticate(userName: string, password: string, database?: string): Promise<LoginResult>;
+  authenticate(
+    userName: string,
+    password: string,
+    database?: string,
+    signal?: AbortSignal
+  ): Promise<LoginResult>;
 
   /**
    * Gets collection of entities from the database that match the supplied search
@@ -233,10 +186,12 @@ export interface Geotab {
    * Removes the given entity from the database.
    * @param typeName - The type of entity.
    * @param entity - The entity to remove.
+   * @param signal - The optional abort signal.
    */
   remove<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
     typeName: TType,
-    entity: O.Partial<TEntity> & { id: string }
+    entity: O.Partial<TEntity> & { id: string },
+    signal?: AbortSignal
   ): Promise<void>;
 
   /**
@@ -244,90 +199,11 @@ export interface Geotab {
    *
    * @param typeName The name of the entity type.
    * @param entity The entity to modify.
+   * @param signal - The optional abort signal.
    */
   set<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
     typeName: TType,
-    entity: O.Partial<TEntity>
+    entity: O.Partial<TEntity>,
+    signal?: AbortSignal
   ): Promise<void>;
-}
-
-/**
- * Creates a {@link Geotab} instance from the given options.
- *
- * @param options - The options to use.
- * @returns - The {@link Geotab} instance.
- */
-export function createGeotab(options: GeotabOptions = {}) {
-  const call = getCall(options);
-  const executeMultiCall = getExecuteMultiCall(call);
-  const callQueued = getCallQueued(call, executeMultiCall, options);
-
-  return {
-    call,
-    callQueued,
-
-    add(typeName, entity) {
-      return this.callQueued("Add", { typeName, entity });
-    },
-
-    authenticate(userName, password, database) {
-      return this.call("Authenticate", { userName, password, database });
-    },
-
-    get(typeName, search, resultLimit, signal) {
-      return this.callQueued("Get", { typeName, search, resultLimit }, signal);
-    },
-
-    getAddresses(coordinates, hosAddresses, movingAddresses, signal) {
-      return this.callQueued(
-        "GetAddresses",
-        { coordinates, hosAddresses, movingAddresses },
-        signal
-      );
-    },
-
-    getCountOf(typeName, signal?) {
-      return this.callQueued("GetCountOf", { typeName }, signal);
-    },
-
-    getFeed(typeName, search, fromVersion, resultsLimit, signal) {
-      return this.callQueued("GetFeed", { typeName, search, fromVersion, resultsLimit }, signal);
-    },
-
-    getVersion(signal) {
-      return this.callQueued("GetVersion", {}, signal);
-    },
-
-    getVersionInformation(signal) {
-      return this.callQueued("GetVersionInformation", {}, signal);
-    },
-
-    remove(typeName, entity) {
-      return this.call("Remove", { typeName, entity });
-    },
-
-    set(typeName, entity) {
-      return this.call("Set", { typeName, entity });
-    },
-  } as Geotab;
-}
-
-/**
- * Creates a {@link Geotab} instance from the given credentials.
- *
- * @remarks Calls made with the returned {@link Geotab} instance will have credentials supplied in
- * the call parameters.
- *
- * @param result - The {@link LoginResult} to use.
- * @param options - The options to use.
- * @returns - The {@link Geotab} instance.
- */
-export function createGeotabFromLoginResult(result: LoginResult, options: GeotabOptions = {}) {
-  // In the Geotab API documentation it is noted that the URL should be derived from the
-  // LoginResult.path.However, since the myxxx.geotab.com URL deprecation, the path no longer
-  // appears to be necessary.
-  return createGeotab({
-    ...options,
-    credentials: result.credentials,
-  });
 }

@@ -1,7 +1,8 @@
 export interface Call<TResult = unknown> {
   /** The JSON-RPC method to call. */
   method: string;
-
   /** The JSON-RPC method parameters. */
-  params: Record<string, unknown>;
+  params?: Record<string, unknown>;
+  /** The optional abort signal. */
+  signal?: AbortSignal;
 }
