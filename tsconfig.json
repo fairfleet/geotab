@@ -4,7 +4,9 @@
     "strict": true,
     "target": "ES2015",
     "module": "ESNext",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src/**/*.ts"]
 }

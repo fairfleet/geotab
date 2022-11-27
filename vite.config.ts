@@ -15,7 +15,6 @@ export default defineConfig({
       entry: [
         "src/index.ts",
         "src/Geotab.ts",
-        "src/parseJsonWithDates.ts",
         "src/GeotabError.ts",
         "src/types/index.ts",
         "src/types/Checkmate/ObjectModel/KnownId.ts",
@@ -26,6 +25,8 @@ export default defineConfig({
         // Reduce to an object where the key is the file path relative to `src/` and the value is
         // the file path relative to $PWD.
         .reduce((map, entry) => ({ ...map, [getEntryName(entry)]: entry }), {}),
+
+      formats: ["es", "cjs"],
 
       fileName(format, entryName) {
         switch (format) {
@@ -41,7 +42,7 @@ export default defineConfig({
       },
     },
     rollupOptions: {
-      external: ["cross-fetch", "ts-toolbelt", "nanoid"],
+      external: ["cross-fetch", "ts-toolbelt", "nanoid/non-secure"],
       plugins: [
         typescript({
           target: "es2020",
@@ -53,6 +54,8 @@ export default defineConfig({
         }),
       ],
     },
+
+    minify: true,
   },
 });
 

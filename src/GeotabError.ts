@@ -9,7 +9,7 @@ export class GeotabError extends Error {
     let data: unknown;
     let message = String(error);
 
-    if (typeof error === "object" && error !== null) {
+    if (typeof error === "object" && error) {
       const errorRecord = error as Record<string, unknown>;
 
       code = Number(errorRecord.code) || 0;

@@ -20,6 +20,18 @@ describe("GeotabError", () => {
       expect(error.data).toBeUndefined();
     });
 
+    test("Given a null type, the message should be `null`", () => {
+      const error = new GeotabError(null);
+
+      expect(error.message).toBe("null");
+    });
+
+    test("Given a undefined type, the message should be `undefined`", () => {
+      const error = new GeotabError(undefined);
+
+      expect(error.message).toBe("undefined");
+    });
+
     test("Given a JSONRPC error, the fields should match", () => {
       const error = new GeotabError({
         code: 1,

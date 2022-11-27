@@ -1,17 +1,17 @@
-import { parseJsonWithDates } from "./parseJsonWithDates";
-import { getCallMany } from "./rpc/getCallMany";
-import { getCallWithBatching } from "./rpc/getCallWithBatching";
+import { O } from "ts-toolbelt";
 import {
+  EntityTypes,
+  FeedResult,
+  SearchTypes,
   Coordinate,
-  Credentials,
-  LoginResult,
   ReverseGeocodeAddress,
   VersionInformation,
 } from "./types";
-import { EntityTypes } from "./types/EntityTypes";
-import { FeedResult } from "./types/FeedResult";
-import { O } from "ts-toolbelt";
-import { SearchTypes } from "./types/SearchTypes";
+import { getCallQueued } from "./internal/getCallQueued";
+import { LoginResult } from "./types";
+import { Credentials } from "./types/Checkmate/ObjectModel/Credentials";
+import { getCall } from "./internal/getCall";
+import { getExecuteMultiCall } from "./internal/getExecuteMultiCall";
 
 /**
  * The {@link Geotab} options.
@@ -24,10 +24,17 @@ export interface GeotabOptions {
    */
   url?: string;
 
+  /**
+   * The optional fetch function.
+   *
+   * @remarks Defaults to the "cross-fetch" fetch implementation.
+   */
+  fetch?: typeof fetch;
+
   /** The headers to supply for each POST request. */
   headers?: HeadersInit;
 
-  /** The Geotab credentials to supply to each JSONRPC call. */
+  /** The Geotab credentials to supply to each JSON-RPC call. */
   credentials?: Credentials;
 
   /**
@@ -44,35 +51,11 @@ export interface GeotabOptions {
   callQueueBufferTime?: number;
 
   /**
-   * The function that parses JSONRPC responses.
+   * The function that parses JSON-RPC responses.
    *
    * @remarks Defaults to a function that parses dates in ISO 8601 format.
    */
   parseJSON?: typeof JSON.parse;
-
-  /**
-   * Called when the API is about to make a call to the server.
-   *
-   * @param method - The name of the method to call.
-   * @param params - The parameters to supply to the method.
-   */
-  onCall?(method: string, params: Record<string, unknown>): void;
-
-  /**
-   * Called when the API has received a response from the server.
-   * @param method - The name of the method that was called.
-   * @param params - The parameters that were supplied to the method.
-   * @param result - The result of the call.
-   */
-  onCallOk?(method: string, params: Record<string, unknown>, result: unknown): void;
-
-  /**
-   * Called when the API has received an error from the server.
-   * @param method - The name of the method that was called.
-   * @param params - The parameters that were supplied to the method.
-   * @param error - The error that was returned.
-   */
-  onCallError?(method: string, params: Record<string, unknown>, error: unknown): void;
 }
 
 /**
@@ -80,37 +63,30 @@ export interface GeotabOptions {
  */
 export interface Geotab {
   /**
-   * Executes a JSONRPC call and returns a {@link Promise} when the call is complete.
+   * Sends a JSON-RPC call to the Geotab API and returns the result.
+   *
+   * @param geotab - The Geotab instance to use.
+   * @param method - The method to call.
+   * @param params - The parameters to pass to the method.
+   * @param signal - The optional abort signal.
+   * @returns - The result of the call.
+   * @throws {Error} If the HTTP status indicates a failure occurred.
+   * @throws {GeotabError} If the JSONRPC response contains an error.
+   */
+  call<TResult>(method: string, params: Record<string, unknown>): Promise<TResult>;
+
+  /**
+   * Sends a JSON-RPC call to the Geotab API and returns the result.
+   *
+   * @remarks Calls are queued and flushed based on the {@link GeotabOptions.callQueueMaxSize}
+   * and {@link GeotabOptions.callQueueBufferTime} options.  Multiple queued calls are sent as a
+   * single JSON-RPC call to the Geotab API to conserve network usage.
    *
    * @param method - The name of the method to call.
    * @param params - The parameters to supply to the method.
    * @returns - A {@link Promise} that resolves with the result of the call.
    */
-  call<TResult>(method: string, params: Record<string, unknown>): Promise<TResult>;
-
-  /**
-   * Authenticates the user with the given login credentials and stores the session information for
-   * future calls.
-   *
-   * @param userName - The user name (typically an email address) that identifies the user.
-   * @param password - The user's Geotab password.
-   * @param database - The name of the database to authenticate against.
-   * @returns - The {@link LoginResult} object.
-   */
-  login(userName: string, password: string, database?: string): Promise<LoginResult>;
-
-  /**
-   * Logs out the current user.
-   */
-  logout(): void;
-
-  /**
-   * Configures the {@link Geotab} client to use the credentials provided in the given
-   * {@link LoginResult} for future calls.
-   *
-   * @param loginResult - The {@link LoginResult} containing the credentials to use.
-   */
-  useLoginResult(loginResult: LoginResult): void;
+  callQueued: ReturnType<typeof getCallQueued>;
 
   /**
    * Adds a new entity to the Geotab database.
@@ -156,6 +132,24 @@ export interface Geotab {
     resultsLimit?: number,
     signal?: AbortSignal
   ): Promise<TEntity[]>;
+
+  /**
+   * Gets the addresses from the list of {@link Coordinate}, as well as any {@link Zone}s in the
+   * system that contain the given coordinates.
+   *
+   * @param coordinates - The array of {@link Coordinate} to get the addresses for.
+   * @param hosAddresses - If true, the direction and distance to the nearest city with a population
+   * greater than 5000 will be returned.
+   * @param movingAddresses - If true, the coordinates are being specified for a moving object.
+   * @param signal - The optional abort signal.
+   * @returns A list of populated {@link ReverseGeocodeAddress}.
+   */
+  getAddresses(
+    coordinates: Coordinate[],
+    hosAddresses?: boolean,
+    movingAddresses?: boolean,
+    signal?: AbortSignal
+  ): Promise<ReverseGeocodeAddress[]>;
 
   /**
    * Gets the number of of entities in the database.
@@ -258,164 +252,81 @@ export interface Geotab {
     typeName: TType,
     entity: O.Partial<TEntity>
   ): Promise<void>;
-
-  /**
-   * Gets the addresses from the list of {@link Coordinate}, as well as any {@link Zone}s in the
-   * system that contain the given coordinates.
-   *
-   * @param coordinates - The array of {@link Coordinate} to get the addresses for.
-   * @param hosAddresses - If true, the direction and distance to the nearest city with a population
-   * greater than 5000 will be returned.
-   * @param movingAddresses - If true, the coordinates are being specified for a moving object.
-   * @param signal - The optional abort signal.
-   * @returns A list of populated {@link ReverseGeocodeAddress}.
-   */
-  getAddresses(
-    coordinates: Coordinate[],
-    hosAddresses?: boolean,
-    movingAddresses?: boolean,
-    signal?: AbortSignal
-  ): Promise<ReverseGeocodeAddress[]>;
 }
 
 /**
- * Creates a {@link Geotab} instance with the given options.
+ * Creates a {@link Geotab} instance from the given options.
  *
- * @param options - The {@link GeotabOptions}.
- * @returns A {@link Geotab} instance.
+ * @param options - The options to use.
+ * @returns - The {@link Geotab} instance.
  */
-export function geotab(options: GeotabOptions = {}): Geotab {
-  const urlInitial = options.url ?? "https://my.geotab.com/apiv1";
-  let url = urlInitial;
-  const headers = options.headers ?? {};
-  const callQueueMaxSize = options.callQueueMaxSize ?? 100;
-  const callQueueBufferTime = options.callQueueBufferTime ?? 1500;
-  const parseJson = options.parseJSON ?? parseJsonWithDates;
-
-  let callMany = getCallMany(url, headers, options.credentials, parseJson);
-  let callWithBatching = getCallWithBatching(callQueueMaxSize, callQueueBufferTime, callMany);
-
-  async function call<TResult>(method: string, params: Record<string, unknown>): Promise<TResult> {
-    try {
-      options.onCall?.(method, params);
-      const result = await callMany([{ method, params }]);
-      options.onCallOk?.(method, params, result);
-      return result as TResult;
-    } catch (err) {
-      options.onCallError?.(method, params, err);
-      throw err;
-    }
-  }
-
-  async function callBatched<TResult>(
-    method: string,
-    params: Record<string, unknown>,
-    signal?: AbortSignal
-  ): Promise<TResult> {
-    try {
-      options.onCall?.(method, params);
-      const result = await callWithBatching(method, params, signal);
-      options.onCallOk?.(method, params, result);
-      return result as TResult;
-    } catch (err) {
-      options.onCallError?.(method, params, err);
-      throw err;
-    }
-  }
+export function createGeotab(options: GeotabOptions = {}) {
+  const call = getCall(options);
+  const executeMultiCall = getExecuteMultiCall(call);
+  const callQueued = getCallQueued(call, executeMultiCall, options);
 
   return {
     call,
+    callQueued,
 
-    async login(userName: string, password: string, database?: string): Promise<LoginResult> {
-      const result = await this.authenticate(userName, password, database);
-      this.useLoginResult(result);
-      return result;
+    add(typeName, entity) {
+      return this.callQueued("Add", { typeName, entity });
     },
 
-    logout() {
-      url = urlInitial;
+    authenticate(userName, password, database) {
+      return this.call("Authenticate", { userName, password, database });
     },
 
-    useLoginResult(loginResult: LoginResult) {
-      url = loginResult.path === "ThisServer" ? url : `https://${loginResult.path}/apiv1`;
-      callMany = getCallMany(url, headers, loginResult.credentials, parseJson);
-      callWithBatching = getCallWithBatching(callQueueMaxSize, callQueueBufferTime, callMany);
+    get(typeName, search, resultLimit, signal) {
+      return this.callQueued("Get", { typeName, search, resultLimit }, signal);
     },
 
-    add<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
-      typeName: TType,
-      entity: O.Partial<TEntity>
-    ): Promise<string> {
-      return call("Add", { typeName, entity });
+    getAddresses(coordinates, hosAddresses, movingAddresses, signal) {
+      return this.callQueued(
+        "GetAddresses",
+        { coordinates, hosAddresses, movingAddresses },
+        signal
+      );
     },
 
-    authenticate(userName: string, password: string, database?: string): Promise<LoginResult> {
-      return call("Authenticate", { userName, password, database });
+    getCountOf(typeName, signal?) {
+      return this.callQueued("GetCountOf", { typeName }, signal);
     },
 
-    get<
-      TType extends keyof EntityTypes & keyof SearchTypes,
-      TEntity = EntityTypes[TType],
-      TSearch extends object = SearchTypes[TType]
-    >(
-      typeName: TType,
-      search: O.Partial<TSearch>,
-      resultsLimit?: number,
-      signal?: AbortSignal
-    ): Promise<TEntity[]> {
-      return callBatched("Get", { typeName, search, resultsLimit }, signal);
+    getFeed(typeName, search, fromVersion, resultsLimit, signal) {
+      return this.callQueued("GetFeed", { typeName, search, fromVersion, resultsLimit }, signal);
     },
 
-    getCountOf<TType extends keyof EntityTypes>(
-      typeName: TType,
-      signal?: AbortSignal
-    ): Promise<number> {
-      return callBatched("GetCountOf", { typeName }, signal);
+    getVersion(signal) {
+      return this.callQueued("GetVersion", {}, signal);
     },
 
-    getFeed<
-      TType extends keyof EntityTypes & keyof SearchTypes,
-      TEntity = EntityTypes[TType],
-      TSearch extends object = SearchTypes[TType]
-    >(
-      typeName: TType,
-      search: O.Partial<TSearch>,
-      fromVersion?: string,
-      resultsLimit?: number,
-      signal?: AbortSignal
-    ): Promise<FeedResult<TEntity>> {
-      return callBatched("GetFeed", { typeName, search, fromVersion, resultsLimit }, signal);
+    getVersionInformation(signal) {
+      return this.callQueued("GetVersionInformation", {}, signal);
     },
 
-    getVersion(signal?: AbortSignal): Promise<string> {
-      return callBatched("GetVersion", {}, signal);
+    remove(typeName, entity) {
+      return this.call("Remove", { typeName, entity });
     },
 
-    getVersionInformation(signal?: AbortSignal): Promise<VersionInformation> {
-      return callBatched("GetVersionInformation", {}, signal);
+    set(typeName, entity) {
+      return this.call("Set", { typeName, entity });
     },
+  } as Geotab;
+}
 
-    remove<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
-      typeName: TType,
-      entity: O.Partial<TEntity> & { id: string }
-    ): Promise<void> {
-      return call("Remove", { typeName, entity });
-    },
-
-    set<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
-      typeName: TType,
-      entity: O.Partial<TEntity>
-    ): Promise<void> {
-      return call("Set", { typeName, entity });
-    },
-
-    getAddresses(
-      coordinates: Coordinate[],
-      hosAddresses = false,
-      movingAddresses = false,
-      signal?: AbortSignal
-    ): Promise<ReverseGeocodeAddress[]> {
-      return callBatched("GetAddresses", { coordinates, hosAddresses, movingAddresses }, signal);
-    },
-  };
+/**
+ * Creates a {@link Geotab} instance from the given credentials.
+ * @param result - The {@link LoginResult} to use.
+ * @param options - The options to use.
+ * @returns - The {@link Geotab} instance.
+ */
+export function createGeotabFromLoginResult(result: LoginResult, options: GeotabOptions = {}) {
+  // In the official Geotab API documentation it is noted that the URL should be derived from
+  // the LoginResult.path.  However, since the myxxx.geotab.com URL deprecation, the path no longer
+  // appears to be necessary.
+  return createGeotab({
+    ...options,
+    credentials: result.credentials,
+  });
 }
