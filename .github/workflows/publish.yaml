@@ -39,6 +39,14 @@ jobs:
       - name: Install app dependencies
         run: pnpm install
 
+      - name: Test
+        run: pnpm test -- --coverage
+
+      - uses: codecov/codecov-action@v3
+        with:
+          name: test-results
+          files: ./coverage/lcov.info
+
       - name: Build
         run: pnpm build
 

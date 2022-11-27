@@ -2,7 +2,6 @@ name: Build
 
 on:
   pull_request:
-  push:
 
 jobs:
   build:
@@ -40,8 +39,3 @@ jobs:
 
       - name: Test
         run: pnpm test -- --coverage
-
-      - uses: codecov/codecov-action@v3
-        with:
-          name: test-results
-          files: ./coverage/lcov.info
