@@ -38,7 +38,10 @@ export interface Geotab {
    * @param signal - The optional abort signal.
    * @returns The id of the added entity.
    */
-  add<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
+  add<
+    TType extends keyof EntityTypes,
+    TEntity extends object = EntityTypes[TType]
+  >(
     typeName: TType,
     entity: O.Partial<TEntity>,
     signal?: AbortSignal
@@ -188,7 +191,10 @@ export interface Geotab {
    * @param entity - The entity to remove.
    * @param signal - The optional abort signal.
    */
-  remove<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
+  remove<
+    TType extends keyof EntityTypes,
+    TEntity extends object = EntityTypes[TType]
+  >(
     typeName: TType,
     entity: O.Partial<TEntity> & { id: string },
     signal?: AbortSignal
@@ -201,7 +207,10 @@ export interface Geotab {
    * @param entity The entity to modify.
    * @param signal - The optional abort signal.
    */
-  set<TType extends keyof EntityTypes, TEntity extends object = EntityTypes[TType]>(
+  set<
+    TType extends keyof EntityTypes,
+    TEntity extends object = EntityTypes[TType]
+  >(
     typeName: TType,
     entity: O.Partial<TEntity>,
     signal?: AbortSignal
