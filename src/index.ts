@@ -1,4 +1,4 @@
-import { fetch, queue } from "./internal";
+import { getCall, queue } from "./internal";
 import { Geotab, GeotabOptions } from "./types";
 
 export * from "./GeotabError";
@@ -14,13 +14,13 @@ export * from "./types/Checkmate/ObjectModel/KnownId";
 export function createGeotab(options: GeotabOptions = {}) {
   const middleware = options.middleware ?? [];
 
-  let call = fetch(options);
+  let call = getCall(options);
 
-  middleware.push(queue(options));
-
-  for (let i = middleware.length - 1; i >= 0; i--) {
-    call = middleware[i](call);
+  for (const setup of middleware) {
+    call = setup(call);
   }
+
+  call = queue(options)(call);
 
   return {
     call(method, params, signal) {
@@ -52,11 +52,11 @@ export function createGeotab(options: GeotabOptions = {}) {
     },
 
     getVersion(signal) {
-      return this.call("GetVersion", {}, signal);
+      return this.call("GetVersion", undefined, signal);
     },
 
     getVersionInformation(signal) {
-      return this.call("GetVersionInformation", {}, signal);
+      return this.call("GetVersionInformation", undefined, signal);
     },
 
     remove(typeName, entity) {
