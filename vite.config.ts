@@ -43,7 +43,7 @@ export default defineConfig({
       },
     },
     rollupOptions: {
-      external: ["cross-fetch", "ts-toolbelt", "nanoid/non-secure"],
+      external: ["cross-fetch", "ts-toolbelt", "nanoid"],
       plugins: [
         typescript({
           target: "es2020",
