@@ -1,5 +1,5 @@
 import { fetch } from "cross-fetch";
-import { nanoid } from "nanoid";
+import { nanoid } from "nanoid/non-secure";
 import { GeotabOptions } from "../types/GeotabOptions";
 import { GeotabError } from "../GeotabError";
 import { parseJsonWithDates } from "./parseJsonWithDates";
