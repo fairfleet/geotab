@@ -33,8 +33,8 @@ export function createGeotab(options: GeotabOptions = {}) {
       return this.call("Authenticate", { userName, password, database });
     },
 
-    get(typeName, search, resultLimit, signal) {
-      return this.call("Get", { typeName, search, resultLimit }, signal);
+    get(typeName, search, resultsLimit, signal) {
+      return this.call("Get", { typeName, search, resultsLimit }, signal);
     },
 
     getAddresses(coordinates, hosAddresses, movingAddresses, signal) {

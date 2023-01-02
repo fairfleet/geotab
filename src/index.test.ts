@@ -38,7 +38,7 @@ test("Calls Get", async () => {
   expect(fn).toBeCalledWith(
     expect.objectContaining({
       method: "Get",
-      params: { typeName: "Device", search: { name: "Test" }, resultLimit: 10 },
+      params: { typeName: "Device", search: { name: "Test" }, resultsLimit: 10 },
     })
   );
 });
