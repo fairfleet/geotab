@@ -56,7 +56,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish
-        run: pnpm publish dist/ --no-git-checks
+        run: pnpm publish --no-git-checks dist/
 
       - name: Create git tag
         run: |
