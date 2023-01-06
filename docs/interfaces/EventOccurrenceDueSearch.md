@@ -43,7 +43,7 @@ Gets or sets a list of Device Ids to search by. [Device](Device.md)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L17)
 
 ___
 
@@ -60,7 +60,7 @@ Gets or sets search for [EventOccurrence](EventOccurrence.md)s matching this
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:26](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L26)
 
 ___
 
@@ -72,7 +72,7 @@ Gets or sets a value indicating the distance until due (in kilometers).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:28](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L28)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L28)
 
 ___
 
@@ -84,7 +84,7 @@ Gets or sets a value indicating the engine hours until due.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:30](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L30)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:30](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L30)
 
 ___
 
@@ -96,7 +96,7 @@ Gets or sets a value indicating the timespan from now in for which to search for
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:32](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L32)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:32](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L32)
 
 ___
 
@@ -108,7 +108,7 @@ Gets or sets a list of EventRule Ids to search by. [EventRule](EventRule.md)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:34](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L34)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:34](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L34)
 
 ___
 
@@ -125,7 +125,7 @@ Gets or sets search for [EventOccurrenceDue](EventOccurrenceDue.md)s matching th
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:43](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L43)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:43](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L43)
 
 ___
 
@@ -137,7 +137,7 @@ Gets or sets search for [EventOccurrenceDue](EventOccurrenceDue.md)s recorded at
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:45](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L45)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:45](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L45)
 
 ___
 
@@ -153,7 +153,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -165,7 +165,7 @@ Gets or sets gets maximum Id of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:47](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L47)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:47](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L47)
 
 ___
 
@@ -177,7 +177,7 @@ Gets or sets gets minimum Id of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:49](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L49)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:49](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L49)
 
 ___
 
@@ -193,7 +193,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -205,7 +205,7 @@ Gets or sets a value indicating the [EventOccurrenceDue](EventOccurrenceDue.md)s
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:51](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L51)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:51](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L51)
 
 ___
 
@@ -217,7 +217,7 @@ Gets or sets search for [EventOccurrenceDue](EventOccurrenceDue.md)s recorded at
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:53](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L53)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts:53](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDueSearch.ts#L53)
 
 ___
 
@@ -233,4 +233,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)

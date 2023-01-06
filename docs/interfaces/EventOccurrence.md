@@ -53,7 +53,7 @@ Gets or sets a value indicating whether this [EventOccurrence](EventOccurrence.m
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L19)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L19)
 
 ___
 
@@ -65,7 +65,7 @@ Gets or sets the adjusted engine hours.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L21)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L21)
 
 ___
 
@@ -77,7 +77,7 @@ Gets or sets the adjusted odometer.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L23)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L23)
 
 ___
 
@@ -89,7 +89,7 @@ Gets or sets free text field where any user information can be stored and refere
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:25](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L25)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L25)
 
 ___
 
@@ -101,7 +101,7 @@ Gets or sets the currency in which costs were entered.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L27)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L27)
 
 ___
 
@@ -113,7 +113,7 @@ Gets the code for CostCurrency
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:29](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L29)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L29)
 
 ___
 
@@ -125,7 +125,7 @@ Gets or sets the currency in which costs will be displayed.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:31](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L31)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L31)
 
 ___
 
@@ -137,7 +137,7 @@ Gets the code for CostCurrencyConverted
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:33](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L33)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L33)
 
 ___
 
@@ -149,7 +149,7 @@ Gets or sets a value indicating whether the currency conversionfailed
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:35](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L35)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L35)
 
 ___
 
@@ -161,7 +161,7 @@ Gets or sets the current engine hours.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:37](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L37)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L37)
 
 ___
 
@@ -173,7 +173,7 @@ Gets or sets the current odometer.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:39](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L39)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L39)
 
 ___
 
@@ -185,7 +185,7 @@ Gets or sets gets the [Device](Device.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:41](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L41)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L41)
 
 ___
 
@@ -197,7 +197,7 @@ Gets or sets the event date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:43](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L43)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:43](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L43)
 
 ___
 
@@ -209,7 +209,7 @@ Gets or sets the event rule.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:45](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L45)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:45](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L45)
 
 ___
 
@@ -221,7 +221,7 @@ Gets or sets the event type. Should only be set if EventRule is null
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:47](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L47)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:47](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L47)
 
 ___
 
@@ -237,7 +237,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -249,7 +249,7 @@ Gets or sets the amount paid for labor.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:49](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L49)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:49](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L49)
 
 ___
 
@@ -261,7 +261,7 @@ Gets or sets the amount paid for labor converted to UI Settings Currency.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:51](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L51)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:51](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L51)
 
 ___
 
@@ -273,7 +273,7 @@ Gets or sets the list of [MediaFile](MediaFile.md) for a event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:53](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L53)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:53](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L53)
 
 ___
 
@@ -285,7 +285,7 @@ Gets or sets the amount paid for parts.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:55](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L55)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:55](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L55)
 
 ___
 
@@ -297,7 +297,7 @@ Gets or sets the amount paid for Parts cost converted to UI Settings Currency.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:57](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L57)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:57](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L57)
 
 ___
 
@@ -309,7 +309,7 @@ Gets or sets the reference or work order number for the event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:59](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L59)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:59](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L59)
 
 ___
 
@@ -321,7 +321,7 @@ Gets or sets the amount paid in taxes.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:61](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L61)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:61](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L61)
 
 ___
 
@@ -333,7 +333,7 @@ Gets or sets the amount paid in taxes converted to UI Settings Currency.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:63](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L63)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:63](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L63)
 
 ___
 
@@ -345,7 +345,7 @@ Gets or sets the amount paid in taxes.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:65](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L65)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:65](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L65)
 
 ___
 
@@ -357,4 +357,4 @@ Gets or sets the amount paid in taxes.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrence.ts:67](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L67)
+[src/types/Checkmate/ObjectModel/EventOccurrence.ts:67](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrence.ts#L67)

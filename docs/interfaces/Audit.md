@@ -32,7 +32,7 @@ Gets or sets free text field where any user information can be stored and refere
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Audit.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Audit.ts#L11)
+[src/types/Checkmate/ObjectModel/Audit.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Audit.ts#L11)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets the date and time the audit was logged.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Audit.ts:13](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Audit.ts#L13)
+[src/types/Checkmate/ObjectModel/Audit.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Audit.ts#L13)
 
 ___
 
@@ -60,7 +60,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -76,7 +76,7 @@ Gets or sets the audit type name.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Audit.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Audit.ts#L15)
+[src/types/Checkmate/ObjectModel/Audit.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Audit.ts#L15)
 
 ___
 
@@ -88,7 +88,7 @@ Gets or sets the [User](User.md) the audit is in reference to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Audit.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Audit.ts#L17)
+[src/types/Checkmate/ObjectModel/Audit.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Audit.ts#L17)
 
 ___
 
@@ -100,7 +100,7 @@ Gets or sets the name of the user associated with the audit entry.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Audit.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Audit.ts#L19)
+[src/types/Checkmate/ObjectModel/Audit.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Audit.ts#L19)
 
 ___
 
@@ -116,4 +116,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)

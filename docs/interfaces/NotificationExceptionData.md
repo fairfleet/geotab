@@ -29,7 +29,7 @@ Gets or sets the exception event that holds the data for this notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionData.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationExceptionData.ts#L12)
+[src/types/Checkmate/ObjectModel/NotificationExceptionData.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationExceptionData.ts#L12)
 
 ___
 
@@ -45,7 +45,7 @@ NotificationData.id
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -57,7 +57,7 @@ Gets or sets the information for the notification exception data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionData.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationExceptionData.ts#L14)
+[src/types/Checkmate/ObjectModel/NotificationExceptionData.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationExceptionData.ts#L14)
 
 ___
 
@@ -69,4 +69,4 @@ Gets or sets the [NotificationType](../README.md#notificationtype) of the notifi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionData.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationExceptionData.ts#L16)
+[src/types/Checkmate/ObjectModel/NotificationExceptionData.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationExceptionData.ts#L16)

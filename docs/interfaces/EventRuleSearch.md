@@ -43,7 +43,7 @@ Gets or sets a value indicating whether to filter for EventRules that have the d
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L18)
 
 ___
 
@@ -55,7 +55,7 @@ Gets or sets a value indicating whether to filter for EventRules that are set to
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L20)
 
 ___
 
@@ -67,7 +67,7 @@ Gets or sets a value indicating whether to filter for EventRules by the event ty
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L22)
 
 ___
 
@@ -79,7 +79,7 @@ Gets or sets a value indicating a list of [EventType](../README.md#eventtype) Id
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:24](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L24)
 
 ___
 
@@ -91,7 +91,7 @@ Gets or sets the groups to find the event rules belonging to parents or children
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:26](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L26)
 
 ___
 
@@ -106,7 +106,7 @@ Gets or sets search for Event Rules that are members of these [GroupSearch](Grou
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:33](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L33)
+[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L33)
 
 ___
 
@@ -122,7 +122,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -134,7 +134,7 @@ Gets or sets a value indicating how to filter on Group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:35](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L35)
+[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L35)
 
 ___
 
@@ -146,7 +146,7 @@ Gets or sets a value indicating whether to filter for EventRules that have the k
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:37](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L37)
+[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L37)
 
 ___
 
@@ -158,7 +158,7 @@ Gets or sets a value indicating whether to filter for EventRules that have the m
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:39](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L39)
+[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L39)
 
 ___
 
@@ -170,7 +170,7 @@ Gets or sets search for all [EventRule](EventRule.md) matching this Name. Wildca
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:41](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L41)
+[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L41)
 
 ___
 
@@ -182,7 +182,7 @@ Gets or sets a value indicating whether to filter for EventRules that have the d
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:43](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L43)
+[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:43](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L43)
 
 ___
 
@@ -198,7 +198,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -210,7 +210,7 @@ Gets or sets a value indicating whether to filter for EventRules that are set to
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:45](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L45)
+[src/types/Checkmate/ObjectModel/EventRuleSearch.ts:45](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRuleSearch.ts#L45)
 
 ___
 
@@ -226,4 +226,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)

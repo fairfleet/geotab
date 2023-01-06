@@ -27,7 +27,7 @@ Gets or sets the address.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AddressLookupData.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L12)
+[src/types/Checkmate/ObjectModel/AddressLookupData.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L12)
 
 ___
 
@@ -39,7 +39,7 @@ Gets or sets the geocoder name.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AddressLookupData.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L14)
+[src/types/Checkmate/ObjectModel/AddressLookupData.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L14)
 
 ___
 
@@ -51,7 +51,7 @@ Gets or sets the exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AddressLookupData.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L16)
+[src/types/Checkmate/ObjectModel/AddressLookupData.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L16)
 
 ___
 
@@ -63,7 +63,7 @@ Gets or sets the location.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AddressLookupData.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L18)
+[src/types/Checkmate/ObjectModel/AddressLookupData.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L18)
 
 ___
 
@@ -75,7 +75,7 @@ Gets or sets the owner.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AddressLookupData.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L20)
+[src/types/Checkmate/ObjectModel/AddressLookupData.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L20)
 
 ___
 
@@ -87,7 +87,7 @@ Gets the zone external references.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AddressLookupData.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L22)
+[src/types/Checkmate/ObjectModel/AddressLookupData.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L22)
 
 ___
 
@@ -99,7 +99,7 @@ Gets the zone types.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AddressLookupData.ts:26](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L26)
+[src/types/Checkmate/ObjectModel/AddressLookupData.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L26)
 
 ___
 
@@ -111,4 +111,4 @@ Gets or sets gets the zones.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AddressLookupData.ts:24](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L24)
+[src/types/Checkmate/ObjectModel/AddressLookupData.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AddressLookupData.ts#L24)

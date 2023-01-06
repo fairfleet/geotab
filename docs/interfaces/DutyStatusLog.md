@@ -56,7 +56,7 @@ Gets or sets the list of [AnnotationLog](AnnotationLog.md)(s) which are associat
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:25](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L25)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L25)
 
 ___
 
@@ -68,7 +68,7 @@ Gets or sets the list of the co-driver [User](User.md)(s) for this log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L27)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L27)
 
 ___
 
@@ -80,7 +80,7 @@ Gets or sets the date and time the log was created.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:29](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L29)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L29)
 
 ___
 
@@ -92,7 +92,7 @@ Gets or sets the deferral minutes.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:31](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L31)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L31)
 
 ___
 
@@ -104,7 +104,7 @@ Gets or sets the [DutyStatusDeferralType](../README.md#dutystatusdeferraltype).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:33](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L33)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L33)
 
 ___
 
@@ -116,7 +116,7 @@ Gets or sets the [Device](Device.md) associated with this log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:35](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L35)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L35)
 
 ___
 
@@ -128,7 +128,7 @@ Gets or sets the distance since last valid coordinate measurement.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:37](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L37)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L37)
 
 ___
 
@@ -140,7 +140,7 @@ Gets or sets the [User](User.md) who created this log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:39](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L39)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L39)
 
 ___
 
@@ -152,7 +152,7 @@ Gets or sets the date and time the log was edited. If the log has not been edite
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:41](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L41)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L41)
 
 ___
 
@@ -164,7 +164,7 @@ Gets or sets the [User](User.md) that requested an edit to this log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:43](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L43)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:43](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L43)
 
 ___
 
@@ -176,7 +176,7 @@ Gets or sets the engine hours for the DutyStatusLog.Device at the DutyStatusLog.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:45](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L45)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:45](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L45)
 
 ___
 
@@ -188,7 +188,7 @@ Gets or sets the event checksum of this log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:47](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L47)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:47](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L47)
 
 ___
 
@@ -201,7 +201,7 @@ Gets or sets the event code of this log
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:52](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L52)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:52](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L52)
 
 ___
 
@@ -217,7 +217,7 @@ Gets the record status number of this log
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:60](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L60)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:60](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L60)
 
 ___
 
@@ -237,7 +237,7 @@ Gets or sets the event type number of this log
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:72](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L72)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:72](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L72)
 
 ___
 
@@ -253,7 +253,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:74](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L74)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:74](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L74)
 
 ___
 
@@ -265,7 +265,7 @@ Gets or sets if the log is hidden.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:76](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L76)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:76](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L76)
 
 ___
 
@@ -277,7 +277,7 @@ Gets or sets if the log is ignored. True means it will not affect the Driver's H
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:78](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L78)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:78](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L78)
 
 ___
 
@@ -289,7 +289,7 @@ Gets or sets a value indicating whether the log is in transitioning state.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:80](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L80)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:80](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L80)
 
 ___
 
@@ -301,7 +301,7 @@ Gets or sets an object with the location information for the log data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:82](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L82)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:82](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L82)
 
 ___
 
@@ -314,7 +314,7 @@ Gets or sets the [DutyStatusMalfunctionTypes](../README.md#dutystatusmalfunction
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:87](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L87)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:87](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L87)
 
 ___
 
@@ -326,7 +326,7 @@ Gets or sets the odometer in meters for the DutyStatusLog.Device at the DutyStat
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:89](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L89)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:89](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L89)
 
 ___
 
@@ -338,7 +338,7 @@ Gets or sets the [DutyStatusOrigin](../README.md#dutystatusorigin) from where th
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:91](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L91)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:91](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L91)
 
 ___
 
@@ -351,7 +351,7 @@ Gets or sets the DutyStatusLog.Id of the parent [DutyStatusLog](DutyStatusLog.md
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:96](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L96)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:96](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L96)
 
 ___
 
@@ -363,7 +363,7 @@ Gets or sets the sequence number, which is used to generate the sequence ID.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:98](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L98)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:98](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L98)
 
 ___
 
@@ -375,7 +375,7 @@ Gets or sets the [DutyStatusState](../README.md#dutystatusstate) of the [DutySta
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:100](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L100)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:100](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L100)
 
 ___
 
@@ -387,7 +387,7 @@ Gets or sets the [DutyStatusLogType](../README.md#dutystatuslogtype) representin
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:102](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L102)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:102](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L102)
 
 ___
 
@@ -400,7 +400,7 @@ Gets or sets the linked [UserHosRuleSet](UserHosRuleSet.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:107](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L107)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:107](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L107)
 
 ___
 
@@ -412,7 +412,7 @@ Gets or sets the date and time the log was verified. If the log is unverified, t
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:109](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L109)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:109](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L109)
 
 ___
 
@@ -428,4 +428,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:111](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L111)
+[src/types/Checkmate/ObjectModel/DutyStatusLog.ts:111](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLog.ts#L111)

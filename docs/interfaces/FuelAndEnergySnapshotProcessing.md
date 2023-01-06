@@ -31,7 +31,7 @@ Gets or sets the UTC date and time of the upper limit date for processing.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts#L11)
+[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts#L11)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets the [Device](Device.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts:13](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts#L13)
+[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts#L13)
 
 ___
 
@@ -55,7 +55,7 @@ Gets or sets the UTC date and time of the most recent processed date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts#L15)
+[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts#L15)
 
 ___
 
@@ -71,7 +71,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets a value indicating whether processing is completed.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts#L17)
+[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts#L17)
 
 ___
 
@@ -95,4 +95,4 @@ Gets or sets the type of snapshot that was processed.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts#L19)
+[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessing.ts#L19)

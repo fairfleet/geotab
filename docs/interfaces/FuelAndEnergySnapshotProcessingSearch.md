@@ -34,7 +34,7 @@ Gets or sets the device search criteria for the FuelAndEnergySnapshotProcessing 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts#L14)
 
 ___
 
@@ -46,7 +46,7 @@ Gets or sets the from date, which is used to search for Snapshot Processing reco
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts#L16)
 
 ___
 
@@ -62,7 +62,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -74,7 +74,7 @@ Gets or sets the IsProcessingComplete flag, which is used to search for Snapshot
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts#L18)
 
 ___
 
@@ -90,7 +90,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -102,7 +102,7 @@ Gets or sets the to snapshot type, which is used to search for Snapshot Processi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts#L20)
 
 ___
 
@@ -114,7 +114,7 @@ Gets or sets the to date, which is used to search for Snapshot Processing record
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Processing/FuelAndEnergySnapshotProcessingSearch.ts#L22)
 
 ___
 
@@ -130,4 +130,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)

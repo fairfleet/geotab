@@ -32,7 +32,7 @@ NotificationData.id
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets the exception event that holds the data for this notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationNewsData.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationNewsData.ts#L10)
+[src/types/Checkmate/ObjectModel/NotificationNewsData.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationNewsData.ts#L10)
 
 ___
 
@@ -56,4 +56,4 @@ Gets or sets what is the source of the news.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationNewsData.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationNewsData.ts#L12)
+[src/types/Checkmate/ObjectModel/NotificationNewsData.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationNewsData.ts#L12)

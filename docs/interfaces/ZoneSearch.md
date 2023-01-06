@@ -41,7 +41,7 @@ Gets or sets search for Zones with this External Reference. Wildcard can be used
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L21)
 
 ___
 
@@ -53,7 +53,7 @@ Gets or sets search for Zones that were active at this date or after. Set to UTC
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L23)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L23)
 
 ___
 
@@ -65,7 +65,7 @@ Gets or sets the zones that belong to groups that are combined with the and/or r
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:25](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L25)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L25)
 
 ___
 
@@ -80,7 +80,7 @@ Gets or sets search for Zones that are members of these [GroupSearch](GroupSearc
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:32](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L32)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:32](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L32)
 
 ___
 
@@ -96,7 +96,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -112,7 +112,7 @@ Gets or sets include zones that are in the in this hierarchy of the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:40](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L40)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:40](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L40)
 
 ___
 
@@ -124,7 +124,7 @@ Gets or sets search for entities that contain specific keywords in all wildcard 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:42](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L42)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:42](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L42)
 
 ___
 
@@ -136,7 +136,7 @@ Gets or sets exclude Zones whose radius is smaller than this size (meters).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:44](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L44)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:44](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L44)
 
 ___
 
@@ -149,7 +149,7 @@ Gets or sets search for Zones with this Name. Wildcard can be used by prepending
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:49](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L49)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:49](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L49)
 
 ___
 
@@ -165,7 +165,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -179,7 +179,7 @@ Gets or sets the [BoundingBox](BoundingBox.md) search for Zones in this area ext
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:55](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L55)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:55](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L55)
 
 ___
 
@@ -191,7 +191,7 @@ Gets or sets search for Zones that were active at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:57](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L57)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:57](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L57)
 
 ___
 
@@ -207,7 +207,7 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
 
 ___
 
@@ -223,7 +223,7 @@ Gets or sets search for Zones in this area extent, the zones being retrieved mus
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:65](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L65)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:65](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L65)
 
 ___
 
@@ -236,4 +236,4 @@ Gets or sets search for Zones that are of type [ZoneTypeSearch](ZoneTypeSearch.m
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:70](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L70)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:70](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L70)

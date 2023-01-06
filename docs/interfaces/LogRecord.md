@@ -32,7 +32,7 @@ Gets or sets the date and time the log was recorded.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecord.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/LogRecord.ts#L11)
+[src/types/Checkmate/ObjectModel/LogRecord.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LogRecord.ts#L11)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets the [Device](Device.md) this log belongs to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecord.ts:13](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/LogRecord.ts#L13)
+[src/types/Checkmate/ObjectModel/LogRecord.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LogRecord.ts#L13)
 
 ___
 
@@ -60,7 +60,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -73,7 +73,7 @@ Gets or sets a value indicating whether this instance is the last active record 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecord.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/LogRecord.ts#L18)
+[src/types/Checkmate/ObjectModel/LogRecord.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LogRecord.ts#L18)
 
 ___
 
@@ -85,7 +85,7 @@ Gets or sets the latitude of the log record.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecord.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/LogRecord.ts#L20)
+[src/types/Checkmate/ObjectModel/LogRecord.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LogRecord.ts#L20)
 
 ___
 
@@ -97,7 +97,7 @@ Gets or sets the longitude of the log record.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecord.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/LogRecord.ts#L22)
+[src/types/Checkmate/ObjectModel/LogRecord.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LogRecord.ts#L22)
 
 ___
 
@@ -109,4 +109,4 @@ Gets or sets the logged speed or an invalid speed (in km/h).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecord.ts:24](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/LogRecord.ts#L24)
+[src/types/Checkmate/ObjectModel/LogRecord.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LogRecord.ts#L24)

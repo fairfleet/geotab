@@ -30,7 +30,7 @@ Gets or sets what is the description for the application exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts#L10)
+[src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts#L10)
 
 ___
 
@@ -46,7 +46,7 @@ NotificationData.id
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -58,7 +58,7 @@ Gets or sets additional info related to the application exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts#L12)
+[src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts#L12)
 
 ___
 
@@ -70,7 +70,7 @@ Gets or sets the machine name where the application exception occurred.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts#L14)
+[src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts#L14)
 
 ___
 
@@ -82,4 +82,4 @@ Gets or sets what is the source of the application exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts#L16)
+[src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationApplicationExceptionData.ts#L16)

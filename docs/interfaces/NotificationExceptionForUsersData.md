@@ -32,7 +32,7 @@ Gets or sets what is the description for the exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L10)
+[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L10)
 
 ___
 
@@ -48,7 +48,7 @@ NotificationData.id
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -60,7 +60,7 @@ Gets or sets additional info related to the exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L12)
+[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L12)
 
 ___
 
@@ -72,7 +72,7 @@ Gets or sets the machine name where the exception occurred.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L14)
+[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L14)
 
 ___
 
@@ -84,4 +84,4 @@ Gets or sets what is the source of the exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L16)
+[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L16)

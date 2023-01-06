@@ -35,7 +35,7 @@ NotificationData.id
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets the information for the specific machine.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L11)
+[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L11)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets the instance of this particular notification eg. the particular dow
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:13](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L13)
+[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L13)
 
 ___
 
@@ -71,7 +71,7 @@ Gets or sets the machine name pertaining to the relevant information.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L15)
+[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L15)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets what is the source of the application exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L17)
+[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L17)
 
 ___
 
@@ -95,4 +95,4 @@ Gets or sets what is the current state for the application exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L19)
+[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L19)

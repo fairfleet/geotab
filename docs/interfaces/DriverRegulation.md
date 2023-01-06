@@ -37,7 +37,7 @@ Gets or sets the [DutyStatusAvailability](DutyStatusAvailability.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L15)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L15)
 
 ___
 
@@ -49,7 +49,7 @@ Gets or sets the latest duty status log type [DutyStatusLogType](../README.md#du
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L17)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L17)
 
 ___
 
@@ -61,7 +61,7 @@ Gets or sets the cycle summaries.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L19)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L19)
 
 ___
 
@@ -73,7 +73,7 @@ Gets or sets the day summaries.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L21)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L21)
 
 ___
 
@@ -85,7 +85,7 @@ Gets or sets the DriverRegulation.Driver.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L23)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L23)
 
 ___
 
@@ -99,7 +99,7 @@ Gets or sets the DriverRegulation.EwdAvailability.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:30](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L30)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:30](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L30)
 
 ___
 
@@ -115,7 +115,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -127,7 +127,7 @@ Gets or sets when off duty is needed.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:32](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L32)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:32](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L32)
 
 ___
 
@@ -139,7 +139,7 @@ Gets or sets when rest break is needed.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:34](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L34)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:34](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L34)
 
 ___
 
@@ -151,7 +151,7 @@ Gets or sets rulesets that cannot be changed currently.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:36](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L36)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:36](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L36)
 
 ___
 
@@ -163,7 +163,7 @@ Gets or sets the [DutyStatusViolation](DutyStatusViolation.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:38](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L38)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:38](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L38)
 
 ___
 
@@ -175,4 +175,4 @@ Gets or sets the workday summaries.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:40](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L40)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:40](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L40)

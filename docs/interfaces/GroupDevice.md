@@ -21,7 +21,7 @@ Gets or sets the date the user is active from. Default [UtcNow].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupDevice.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/GroupDevice.ts#L8)
+[src/types/Checkmate/ObjectModel/GroupDevice.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupDevice.ts#L8)
 
 ___
 
@@ -33,4 +33,4 @@ Gets or sets the date the user is active to. Default [MaxDate].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupDevice.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/GroupDevice.ts#L10)
+[src/types/Checkmate/ObjectModel/GroupDevice.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupDevice.ts#L10)

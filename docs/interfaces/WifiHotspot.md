@@ -35,7 +35,7 @@ Gets or sets the [Device](Device.md) associated with this VehicleConfiguration.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/VehicleConfiguration.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/VehicleConfiguration.ts#L11)
+[src/types/Checkmate/ObjectModel/VehicleConfiguration.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/VehicleConfiguration.ts#L11)
 
 ___
 
@@ -51,7 +51,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -63,7 +63,7 @@ Gets or sets the WiFi password.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WifiHotspot.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/WifiHotspot.ts#L10)
+[src/types/Checkmate/ObjectModel/WifiHotspot.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WifiHotspot.ts#L10)
 
 ___
 
@@ -75,7 +75,7 @@ Gets or sets the WiFi rate limit. If the WiFi data cap tier is exceeded (as prov
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WifiHotspot.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/WifiHotspot.ts#L12)
+[src/types/Checkmate/ObjectModel/WifiHotspot.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WifiHotspot.ts#L12)
 
 ___
 
@@ -87,7 +87,7 @@ Gets or sets the WiFi SSID.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WifiHotspot.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/WifiHotspot.ts#L14)
+[src/types/Checkmate/ObjectModel/WifiHotspot.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WifiHotspot.ts#L14)
 
 ___
 
@@ -103,4 +103,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

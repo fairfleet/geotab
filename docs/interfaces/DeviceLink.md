@@ -32,7 +32,7 @@ Gets the date the [Device](Device.md)s were linked. This is only present so that
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLink.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceLink.ts#L11)
+[src/types/Checkmate/ObjectModel/DeviceLink.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceLink.ts#L11)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets the linked [Device](Device.md) (destination).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLink.ts:13](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceLink.ts#L13)
+[src/types/Checkmate/ObjectModel/DeviceLink.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceLink.ts#L13)
 
 ___
 
@@ -56,7 +56,7 @@ Gets or sets the date and time the [Device](Device.md)s were linked. Default [Ut
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLink.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceLink.ts#L15)
+[src/types/Checkmate/ObjectModel/DeviceLink.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceLink.ts#L15)
 
 ___
 
@@ -72,7 +72,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -84,7 +84,7 @@ Gets or sets the [Device](Device.md) (source) which another [Device](Device.md) 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLink.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceLink.ts#L17)
+[src/types/Checkmate/ObjectModel/DeviceLink.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceLink.ts#L17)
 
 ___
 
@@ -96,7 +96,7 @@ Gets or sets the date and time the [Device](Device.md)s were delinked. Default [
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLink.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceLink.ts#L19)
+[src/types/Checkmate/ObjectModel/DeviceLink.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceLink.ts#L19)
 
 ___
 
@@ -112,4 +112,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

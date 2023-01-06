@@ -31,7 +31,7 @@ Gets a value indicating the timestamp of master flag.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts#L12)
+[src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts#L12)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts#L16)
+[src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts#L16)
 
 ___
 
@@ -55,7 +55,7 @@ Gets device id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts#L18)
+[src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts#L18)
 
 ___
 
@@ -67,7 +67,7 @@ Gets a value indicating whether master flag is enabled.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts#L20)
+[src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts#L20)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -95,4 +95,4 @@ Gets a value indicating device master flag.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts#L22)
+[src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceMasterFlag.ts#L22)

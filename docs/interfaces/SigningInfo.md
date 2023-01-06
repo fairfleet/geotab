@@ -24,7 +24,7 @@ Gets or sets the datetime when the report is approved.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/SigningInfo.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/SigningInfo.ts#L8)
+[src/types/Checkmate/ObjectModel/SigningInfo.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/SigningInfo.ts#L8)
 
 ___
 
@@ -36,7 +36,7 @@ Gets or sets the signatory, the person who approve the report.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/SigningInfo.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/SigningInfo.ts#L10)
+[src/types/Checkmate/ObjectModel/SigningInfo.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/SigningInfo.ts#L10)
 
 ___
 
@@ -48,7 +48,7 @@ Gets or sets the signature of the report.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/SigningInfo.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/SigningInfo.ts#L12)
+[src/types/Checkmate/ObjectModel/SigningInfo.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/SigningInfo.ts#L12)
 
 ___
 
@@ -60,7 +60,7 @@ Gets or sets the report binary.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/SigningInfo.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/SigningInfo.ts#L14)
+[src/types/Checkmate/ObjectModel/SigningInfo.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/SigningInfo.ts#L14)
 
 ___
 
@@ -72,4 +72,4 @@ Gets or sets the thumbprint.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/SigningInfo.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/SigningInfo.ts#L16)
+[src/types/Checkmate/ObjectModel/SigningInfo.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/SigningInfo.ts#L16)

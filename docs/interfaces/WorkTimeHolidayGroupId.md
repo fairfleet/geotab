@@ -22,4 +22,4 @@ Gets or sets the Id for the Group associated with the WorkHoliday and WorkTime.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WorkTimeHolidayGroupId.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/WorkTimeHolidayGroupId.ts#L12)
+[src/types/Checkmate/ObjectModel/WorkTimeHolidayGroupId.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WorkTimeHolidayGroupId.ts#L12)

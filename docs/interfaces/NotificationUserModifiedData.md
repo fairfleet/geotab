@@ -38,7 +38,7 @@ NotificationData.id
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -50,7 +50,7 @@ Gets the type of [UserModification](../README.md#usermodification) that occurred
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationUserModifiedData.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationUserModifiedData.ts#L17)
+[src/types/Checkmate/ObjectModel/NotificationUserModifiedData.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationUserModifiedData.ts#L17)
 
 ___
 
@@ -66,4 +66,4 @@ This info is JSON-serialized and stored in the "sInfo" column of the Notificatio
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationUserModifiedData.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationUserModifiedData.ts#L23)
+[src/types/Checkmate/ObjectModel/NotificationUserModifiedData.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationUserModifiedData.ts#L23)

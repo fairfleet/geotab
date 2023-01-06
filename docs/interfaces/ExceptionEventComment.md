@@ -30,7 +30,7 @@ Gets or sets the time when the comment was created.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts#L12)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts#L12)
 
 ___
 
@@ -42,7 +42,7 @@ Gets or sets the ExceptionEventComment.ExceptionEvent that this comment is in re
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts#L14)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts#L14)
 
 ___
 
@@ -58,7 +58,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -70,7 +70,7 @@ Gets or sets the text body of the comment.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts#L16)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts#L16)
 
 ___
 
@@ -82,4 +82,4 @@ Gets or sets the ExceptionEventComment.User who created the comment.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts#L18)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventComment.ts#L18)

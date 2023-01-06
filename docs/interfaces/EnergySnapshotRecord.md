@@ -48,7 +48,7 @@ Gets or sets the batter level in percentage. Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L11)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L11)
 
 ___
 
@@ -60,7 +60,7 @@ Gets or sets the UTC date and time of the snapshot.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:13](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L13)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L13)
 
 ___
 
@@ -72,7 +72,7 @@ Gets or sets the StatusData for the [Device](Device.md) specified.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L15)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L15)
 
 ___
 
@@ -88,7 +88,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -100,7 +100,7 @@ Gets or sets a value indicating whether the current record is waiting for data
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L17)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L17)
 
 ___
 
@@ -112,7 +112,7 @@ Gets or sets the ammount of driving energy in AC charging (kWh). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L19)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L19)
 
 ___
 
@@ -124,7 +124,7 @@ Gets or sets the ammount of driving energy in DC charging (kWh). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L21)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L21)
 
 ___
 
@@ -136,7 +136,7 @@ Gets or sets the ammount of driving energy out AC charging (kWh). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L23)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L23)
 
 ___
 
@@ -148,7 +148,7 @@ Gets or sets the ammount of driving energy out DC charging (kWh). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:25](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L25)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L25)
 
 ___
 
@@ -160,7 +160,7 @@ Gets or sets the amount of driving energy out (kWh). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L27)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L27)
 
 ___
 
@@ -172,7 +172,7 @@ Gets or sets the amount of driving energy out (kWh). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:29](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L29)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L29)
 
 ___
 
@@ -184,7 +184,7 @@ Gets or sets the Distance Driven in Km when Fuel or Energy was used.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:31](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L31)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L31)
 
 ___
 
@@ -196,7 +196,7 @@ Gets or sets the ammount of idling energy in (kWh). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:33](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L33)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L33)
 
 ___
 
@@ -208,7 +208,7 @@ Gets or sets the amount of idling energy out (kWh). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:35](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L35)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L35)
 
 ___
 
@@ -220,7 +220,7 @@ Gets or sets the onboard charger energy in DC charging (kwh). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:39](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L39)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L39)
 
 ___
 
@@ -232,7 +232,7 @@ Gets or sets the onboard charger energy in AC charging (kwh). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:37](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L37)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L37)
 
 ___
 
@@ -244,7 +244,7 @@ Gets or sets the amount of trip energy in (kWh). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:41](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L41)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L41)
 
 ___
 
@@ -256,7 +256,7 @@ Gets or sets the amount of trip energy out (kWh). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:43](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L43)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:43](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L43)
 
 ___
 
@@ -268,7 +268,7 @@ Gets or sets the reason for logging the snapshot.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:45](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L45)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:45](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L45)
 
 ___
 
@@ -280,7 +280,7 @@ Gets or sets the max electric vehicle battery power (watts). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:47](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L47)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:47](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L47)
 
 ___
 
@@ -292,7 +292,7 @@ Gets or sets the max onboard charger AC input power (watts). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:49](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L49)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:49](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L49)
 
 ___
 
@@ -304,7 +304,7 @@ Gets or sets the max onboard charger voltage (volts). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:51](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L51)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:51](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L51)
 
 ___
 
@@ -316,4 +316,4 @@ Gets or sets the max onboard charger DC output power (watts). Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:53](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L53)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts:53](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecord.ts#L53)

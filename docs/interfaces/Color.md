@@ -23,7 +23,7 @@ Gets returns the alpha component of the color space (opacity) in the range 0-255
 
 #### Defined in
 
-[src/types/Drawing/Color.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Drawing/Color.ts#L8)
+[src/types/Drawing/Color.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Drawing/Color.ts#L8)
 
 ___
 
@@ -35,7 +35,7 @@ Gets returns the blue component of the color space in the range 0-255 from the d
 
 #### Defined in
 
-[src/types/Drawing/Color.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Drawing/Color.ts#L10)
+[src/types/Drawing/Color.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Drawing/Color.ts#L10)
 
 ___
 
@@ -48,7 +48,7 @@ Gets returns the green component of the color space in the range 0-255 from the 
 
 #### Defined in
 
-[src/types/Drawing/Color.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Drawing/Color.ts#L15)
+[src/types/Drawing/Color.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Drawing/Color.ts#L15)
 
 ___
 
@@ -61,4 +61,4 @@ Gets returns the red component of the color space in the range 0-255 from the de
 
 #### Defined in
 
-[src/types/Drawing/Color.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Drawing/Color.ts#L20)
+[src/types/Drawing/Color.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Drawing/Color.ts#L20)

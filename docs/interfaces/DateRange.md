@@ -21,7 +21,7 @@ A date range.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DateRange.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DateRange.ts#L10)
+[src/types/Checkmate/ObjectModel/DateRange.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DateRange.ts#L10)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DateRange.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DateRange.ts#L14)
+[src/types/Checkmate/ObjectModel/DateRange.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DateRange.ts#L14)

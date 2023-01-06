@@ -34,7 +34,7 @@ Gets or sets the Identifier of the base unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts#L14)
+[src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts#L14)
 
 ___
 
@@ -46,7 +46,7 @@ Gets or sets the conversion factor from base units to the current unit.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts#L16)
+[src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts#L16)
 
 ___
 
@@ -62,7 +62,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -74,7 +74,7 @@ Gets or sets a value indicating whether gets or sets whether or not an inversion
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts#L18)
+[src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts#L18)
 
 ___
 
@@ -90,7 +90,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
 
 ___
 
@@ -102,7 +102,7 @@ Gets or sets the offset to convert from base unit to current unit.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts#L20)
+[src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DisplayDiagnostic/DisplayUnitOfMeasure.ts#L20)
 
 ___
 
@@ -118,4 +118,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)

@@ -35,7 +35,7 @@ Gets or sets free text field where any user information can be stored and refere
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Route.ts#L15)
+[src/types/Checkmate/ObjectModel/Route.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Route.ts#L15)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets the [Device](Device.md) linked to the route. Only applies to "Plan"
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Route.ts#L17)
+[src/types/Checkmate/ObjectModel/Route.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Route.ts#L17)
 
 ___
 
@@ -59,7 +59,7 @@ Gets the end date and time of the route which is the arrival time of the last st
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Route.ts#L19)
+[src/types/Checkmate/ObjectModel/Route.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Route.ts#L19)
 
 ___
 
@@ -75,7 +75,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Route.ts#L21)
+[src/types/Checkmate/ObjectModel/Route.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Route.ts#L21)
 
 ___
 
@@ -91,7 +91,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Route.ts#L23)
+[src/types/Checkmate/ObjectModel/Route.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Route.ts#L23)
 
 ___
 
@@ -103,7 +103,7 @@ Gets or sets the RoutePlanItem item collection (sequence of stops which make up 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:25](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Route.ts#L25)
+[src/types/Checkmate/ObjectModel/Route.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Route.ts#L25)
 
 ___
 
@@ -115,7 +115,7 @@ Gets or sets the [RouteType](../README.md#routetype). Default [Basic].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Route.ts#L27)
+[src/types/Checkmate/ObjectModel/Route.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Route.ts#L27)
 
 ___
 
@@ -127,7 +127,7 @@ Gets the start date and time or the route which is the arrival time of the 1st s
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:29](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Route.ts#L29)
+[src/types/Checkmate/ObjectModel/Route.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Route.ts#L29)
 
 ___
 
@@ -139,7 +139,7 @@ Gets or sets the [RouteStatus](../README.md#routestatus).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:31](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Route.ts#L31)
+[src/types/Checkmate/ObjectModel/Route.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Route.ts#L31)
 
 ___
 
@@ -155,4 +155,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)

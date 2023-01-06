@@ -27,7 +27,7 @@ The collection of entities returned by the feed.
 
 #### Defined in
 
-[src/types/FeedResult.ts:4](https://github.com/fairfleet/geotab/blob/d57d931/src/types/FeedResult.ts#L4)
+[src/types/FeedResult.ts:4](https://github.com/fairfleet/geotab/blob/b682f10/src/types/FeedResult.ts#L4)
 
 ___
 
@@ -42,4 +42,4 @@ data.
 
 #### Defined in
 
-[src/types/FeedResult.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/FeedResult.ts#L11)
+[src/types/FeedResult.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/FeedResult.ts#L11)

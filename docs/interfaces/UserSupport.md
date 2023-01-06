@@ -32,7 +32,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets type of support for current user.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSupport.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserSupport.ts#L12)
+[src/types/Checkmate/ObjectModel/UserSupport.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserSupport.ts#L12)
 
 ___
 
@@ -56,4 +56,4 @@ Gets or sets the user.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSupport.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserSupport.ts#L14)
+[src/types/Checkmate/ObjectModel/UserSupport.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserSupport.ts#L14)

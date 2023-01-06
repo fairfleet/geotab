@@ -37,7 +37,7 @@ Gets or sets search for Rules that are this
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L21)
 
 ___
 
@@ -50,7 +50,7 @@ Gets or sets search for Rules that are in this
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:26](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L26)
 
 ___
 
@@ -62,7 +62,7 @@ Gets or sets the groups to find the rules belonging to parents or children of th
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:28](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L28)
+[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L28)
 
 ___
 
@@ -77,7 +77,7 @@ Gets or sets search for Rules that are members of these [GroupSearch](GroupSearc
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:35](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L35)
+[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L35)
 
 ___
 
@@ -98,7 +98,7 @@ Id cannot be used with any other search properties.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:42](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L42)
+[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:42](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L42)
 
 ___
 
@@ -110,7 +110,7 @@ Gets or sets include zone stop rules. Default [false].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:44](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L44)
+[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:44](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L44)
 
 ___
 
@@ -123,7 +123,7 @@ Gets or sets search for Rules with this Name. Wildcard can be used by prepending
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:49](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L49)
+[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:49](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L49)
 
 ___
 
@@ -139,7 +139,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -155,7 +155,7 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
 
 ___
 
@@ -167,4 +167,4 @@ Gets or sets the list of [ZoneType](ZoneType.md) to search by.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:51](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L51)
+[src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts:51](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/RuleSearch.ts#L51)

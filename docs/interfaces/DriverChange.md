@@ -31,7 +31,7 @@ Gets or sets the date and time of the driver change.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChange.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverChange.ts#L15)
+[src/types/Checkmate/ObjectModel/DriverChange.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverChange.ts#L15)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets the [Device](Device.md) that had the driver change.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChange.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverChange.ts#L17)
+[src/types/Checkmate/ObjectModel/DriverChange.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverChange.ts#L17)
 
 ___
 
@@ -55,7 +55,7 @@ Gets or sets the [Driver](Driver.md) associated with the change.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChange.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverChange.ts#L19)
+[src/types/Checkmate/ObjectModel/DriverChange.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverChange.ts#L19)
 
 ___
 
@@ -71,7 +71,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets the [DriverChangeType](../README.md#driverchangetype).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChange.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverChange.ts#L21)
+[src/types/Checkmate/ObjectModel/DriverChange.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverChange.ts#L21)
 
 ___
 
@@ -99,4 +99,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

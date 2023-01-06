@@ -32,7 +32,7 @@ Gets or sets filter by the [DeviceSearch](DeviceSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripAnnotationSearch.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TripAnnotationSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/TripAnnotationSearch.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TripAnnotationSearch.ts#L14)
 
 ___
 
@@ -45,7 +45,7 @@ Gets or sets the DateTime to search for search for [TripAnnotation](TripAnnotati
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripAnnotationSearch.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TripAnnotationSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/TripAnnotationSearch.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TripAnnotationSearch.ts#L19)
 
 ___
 
@@ -61,7 +61,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -77,7 +77,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -90,7 +90,7 @@ Gets or sets the DateTime to search for search for [TripAnnotation](TripAnnotati
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripAnnotationSearch.ts:24](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TripAnnotationSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/TripAnnotationSearch.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TripAnnotationSearch.ts#L24)
 
 ___
 
@@ -106,4 +106,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)

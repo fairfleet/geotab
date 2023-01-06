@@ -54,7 +54,7 @@ Gets or sets the attributes.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:13](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L13)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L13)
 
 ___
 
@@ -66,7 +66,7 @@ Gets or sets the authority. 'None' by default.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L15)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L15)
 
 ___
 
@@ -78,7 +78,7 @@ Gets or sets the FuelTaxDetail.Device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L17)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L17)
 
 ___
 
@@ -90,7 +90,7 @@ Gets or sets the FuelTaxDetail.Driver.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L19)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L19)
 
 ___
 
@@ -102,7 +102,7 @@ Gets or sets the GPS odometer, in km, at the enter time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L21)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L21)
 
 ___
 
@@ -114,7 +114,7 @@ Gets or sets the latitude at the enter time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L23)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L23)
 
 ___
 
@@ -126,7 +126,7 @@ Gets or sets the longitude at the enter time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:25](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L25)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L25)
 
 ___
 
@@ -138,7 +138,7 @@ Gets or sets the odometer, in km, at the enter time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L27)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L27)
 
 ___
 
@@ -150,7 +150,7 @@ Gets or sets the time at which the detail begins.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:29](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L29)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L29)
 
 ___
 
@@ -162,7 +162,7 @@ Gets or sets the GPS odometer, in km, at the exit time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:31](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L31)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L31)
 
 ___
 
@@ -174,7 +174,7 @@ Gets or sets the latitude at the exit time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:33](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L33)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L33)
 
 ___
 
@@ -186,7 +186,7 @@ Gets or sets the longitude at the exit time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:35](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L35)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L35)
 
 ___
 
@@ -198,7 +198,7 @@ Gets or sets the odometer, in km, at the exit time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:37](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L37)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L37)
 
 ___
 
@@ -210,7 +210,7 @@ Gets or sets the time at which the detail ends.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:39](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L39)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L39)
 
 ___
 
@@ -222,7 +222,7 @@ Gets or sets the attributes.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:41](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L41)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L41)
 
 ___
 
@@ -234,7 +234,7 @@ Gets a value indicating whether the details has hourly data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:43](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L43)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:43](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L43)
 
 ___
 
@@ -246,7 +246,7 @@ Gets or sets the GPS odometer values, in km, at each hour within the detail's ti
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:45](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L45)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:45](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L45)
 
 ___
 
@@ -258,7 +258,7 @@ Gets or sets a list of values indicating whether the odometer at the correspondi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:47](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L47)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:47](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L47)
 
 ___
 
@@ -270,7 +270,7 @@ Gets or sets the latitude values at each hour within the detail's time interval.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:49](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L49)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:49](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L49)
 
 ___
 
@@ -282,7 +282,7 @@ Gets or sets the longitude values at each hour within the detail's time interval
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:51](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L51)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:51](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L51)
 
 ___
 
@@ -294,7 +294,7 @@ Gets or sets the odometer values, in km, at each hour within the detail's time i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:53](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L53)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:53](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L53)
 
 ___
 
@@ -310,7 +310,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -322,7 +322,7 @@ Gets or sets a value indicating whether the odometer values are based on engine 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:55](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L55)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:55](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L55)
 
 ___
 
@@ -334,7 +334,7 @@ Gets or sets a value indicating whether the odometer at enter time is interpolat
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:57](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L57)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:57](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L57)
 
 ___
 
@@ -346,7 +346,7 @@ Gets or sets a value indicating whether the odometer at exit time is interpolate
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:59](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L59)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:59](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L59)
 
 ___
 
@@ -358,7 +358,7 @@ Gets a value indicating whether the detail is negligible by time or distance.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:61](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L61)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:61](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L61)
 
 ___
 
@@ -370,7 +370,7 @@ Gets or sets the jurisdiction, such as a U.S. state or a Canadian province.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:63](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L63)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:63](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L63)
 
 ___
 
@@ -382,7 +382,7 @@ Gets or sets the toll road name. null by default.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:65](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L65)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:65](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L65)
 
 ___
 
@@ -394,4 +394,4 @@ Gets or sets the last processed record versions.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:67](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L67)
+[src/types/Checkmate/ObjectModel/FuelTaxDetail.ts:67](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxDetail.ts#L67)

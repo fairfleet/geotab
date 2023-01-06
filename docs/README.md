@@ -469,7 +469,7 @@ Creates a [Geotab](interfaces/Geotab.md) instance from the given options.
 
 #### Defined in
 
-[src/index.ts:13](https://github.com/fairfleet/geotab/blob/d57d931/src/index.ts#L13)
+[src/index.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/index.ts#L13)
 
 ## Type Aliases
 
@@ -481,7 +481,7 @@ Represents populated MyGeotab addin.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AddIns/AddIn.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AddIns/AddIn.ts#L8)
+[src/types/Checkmate/ObjectModel/AddIns/AddIn.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AddIns/AddIn.ts#L8)
 
 ___
 
@@ -493,7 +493,7 @@ The object used to specify the arguments when searching for [AddIn](README.md#ad
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AddIns/AddInSearch.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AddIns/AddInSearch.ts#L8)
+[src/types/Checkmate/ObjectModel/AddIns/AddInSearch.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AddIns/AddInSearch.ts#L8)
 
 ___
 
@@ -505,7 +505,7 @@ Exception area type. This must match to the Error Reporting areas for the MyGeot
 
 #### Defined in
 
-[src/types/Log/AreaType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Log/AreaType.ts#L6)
+[src/types/Log/AreaType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Log/AreaType.ts#L6)
 
 ___
 
@@ -517,7 +517,7 @@ Represents the specific binary format of data being stored in the [BinaryData](i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryDataType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/BinaryDataType.ts#L6)
+[src/types/Checkmate/ObjectModel/BinaryDataType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryDataType.ts#L6)
 
 ___
 
@@ -529,7 +529,7 @@ The BinaryPayload type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryPayloadType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/BinaryPayloadType.ts#L6)
+[src/types/Checkmate/ObjectModel/BinaryPayloadType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryPayloadType.ts#L6)
 
 ___
 
@@ -541,7 +541,7 @@ The business impact enum for support tickets.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DirectSupport/BusinessImpact.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DirectSupport/BusinessImpact.ts#L6)
+[src/types/Checkmate/ObjectModel/DirectSupport/BusinessImpact.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DirectSupport/BusinessImpact.ts#L6)
 
 ___
 
@@ -553,7 +553,7 @@ Represents the current type of the charge.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeType.ts#L6)
+[src/types/Checkmate/ObjectModel/Charging/ChargeType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeType.ts#L6)
 
 ___
 
@@ -565,7 +565,7 @@ Defines the different types of [Condition](interfaces/Condition.md)(s).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ConditionType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/ConditionType.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/ConditionType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ConditionType.ts#L6)
 
 ___
 
@@ -577,7 +577,7 @@ Continents list.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Continent.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Continent.ts#L6)
+[src/types/Checkmate/ObjectModel/Continent.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Continent.ts#L6)
 
 ___
 
@@ -589,7 +589,7 @@ The type of [CubeType](README.md#cubetype).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CubeType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/CubeType.ts#L6)
+[src/types/Checkmate/ObjectModel/CubeType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/CubeType.ts#L6)
 
 ___
 
@@ -601,7 +601,7 @@ The supported currency
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Currencies/Currency.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Currencies/Currency.ts#L6)
+[src/types/Checkmate/ObjectModel/Currencies/Currency.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Currencies/Currency.ts#L6)
 
 ___
 
@@ -613,7 +613,7 @@ The Custom Data Section enumeration. Custom data can be made up of three separat
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomDataSections.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/CustomDataSections.ts#L6)
+[src/types/Checkmate/ObjectModel/CustomDataSections.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/CustomDataSections.ts#L6)
 
 ___
 
@@ -625,7 +625,7 @@ The classifier for customers
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomerClassifier.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/CustomerClassifier.ts#L6)
+[src/types/Checkmate/ObjectModel/CustomerClassifier.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/CustomerClassifier.ts#L6)
 
 ___
 
@@ -637,7 +637,7 @@ The type of [DVIRLog](interfaces/DVIRLog.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogType.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DVIRLogType.ts#L8)
+[src/types/Checkmate/ObjectModel/DVIRLogType.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DVIRLogType.ts#L8)
 
 ___
 
@@ -649,7 +649,7 @@ Kinds of data sources for [Condition](interfaces/Condition.md)s.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/DataSourceKind.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/DataSourceKind.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/DataSourceKind.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/DataSourceKind.ts#L6)
 
 ___
 
@@ -661,7 +661,7 @@ Components for info and performance evaluation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Web/DatabaseInfoComponent.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Web/DatabaseInfoComponent.ts#L6)
+[src/types/Checkmate/ObjectModel/Web/DatabaseInfoComponent.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Web/DatabaseInfoComponent.ts#L6)
 
 ___
 
@@ -673,7 +673,7 @@ The period being used in database maintenance.
 
 #### Defined in
 
-[src/types/Checkmate/Settings/DatabaseMaintenancePeriod.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Settings/DatabaseMaintenancePeriod.ts#L6)
+[src/types/Checkmate/Settings/DatabaseMaintenancePeriod.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/DatabaseMaintenancePeriod.ts#L6)
 
 ___
 
@@ -685,7 +685,7 @@ The state that the database is currently operating in.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DatabaseState.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DatabaseState.ts#L6)
+[src/types/Checkmate/ObjectModel/DatabaseState.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DatabaseState.ts#L6)
 
 ___
 
@@ -697,7 +697,7 @@ The current database transfer status.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Database/DatabaseTransferStatus.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Database/DatabaseTransferStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/Database/DatabaseTransferStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Database/DatabaseTransferStatus.ts#L6)
 
 ___
 
@@ -709,7 +709,7 @@ The [DateTimeComparator](README.md#datetimecomparator).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DateTimeComparator.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DateTimeComparator.ts#L6)
+[src/types/Checkmate/ObjectModel/DateTimeComparator.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DateTimeComparator.ts#L6)
 
 ___
 
@@ -722,7 +722,7 @@ This Enum provides additional information about the reason for a database reques
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DbUnavailableState.ts:9](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DbUnavailableState.ts#L9)
+[src/types/Checkmate/ObjectModel/DbUnavailableState.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DbUnavailableState.ts#L9)
 
 ___
 
@@ -735,7 +735,7 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DebugReason.ts:9](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DebugReason.ts#L9)
+[src/types/Checkmate/ObjectModel/DebugReason.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DebugReason.ts#L9)
 
 ___
 
@@ -747,7 +747,7 @@ The type of asset for which the [list applies.](interfaces/Defect.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectAssetType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DefectAssetType.ts#L6)
+[src/types/Checkmate/ObjectModel/DefectAssetType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DefectAssetType.ts#L6)
 
 ___
 
@@ -759,7 +759,7 @@ The severity of a defect for a [DVIRLog](interfaces/DVIRLog.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectSeverity.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DefectSeverity.ts#L8)
+[src/types/Checkmate/ObjectModel/DefectSeverity.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DefectSeverity.ts#L8)
 
 ___
 
@@ -772,7 +772,7 @@ The supported ComponentType values for DataToComponentContent Messages DataToCom
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceComponentType.ts:9](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceComponentType.ts#L9)
+[src/types/Checkmate/ObjectModel/DeviceComponentType.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceComponentType.ts#L9)
 
 ___
 
@@ -784,7 +784,7 @@ The state of the. DeviceConnection
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceConnectionStatus.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceConnectionStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceConnectionStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceConnectionStatus.ts#L6)
 
 ___
 
@@ -796,7 +796,7 @@ Features that can be toggled for [Device](interfaces/Device.md)s that trigger di
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceCustomFeature.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceCustomFeature.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceCustomFeature.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceCustomFeature.ts#L6)
 
 ___
 
@@ -809,7 +809,7 @@ The Plans for Devices.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DevicePlan.ts:9](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DevicePlan.ts#L9)
+[src/types/Checkmate/ObjectModel/DevicePlan.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DevicePlan.ts#L9)
 
 ___
 
@@ -821,7 +821,7 @@ The master flags for Devices.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DevicePlanMasterFlag.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DevicePlanMasterFlag.ts#L6)
+[src/types/Checkmate/ObjectModel/DevicePlanMasterFlag.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DevicePlanMasterFlag.ts#L6)
 
 ___
 
@@ -833,7 +833,7 @@ The charging state as reported by the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/DeviceReportedChargingState.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/DeviceReportedChargingState.ts#L6)
+[src/types/Checkmate/ObjectModel/Charging/DeviceReportedChargingState.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/DeviceReportedChargingState.ts#L6)
 
 ___
 
@@ -845,7 +845,7 @@ The various statuses that a [DeviceShare](interfaces/DeviceShare.md) can have.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareStatus.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceShareStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceShareStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShareStatus.ts#L6)
 
 ___
 
@@ -857,7 +857,7 @@ Represents the data flow type for a [DeviceShare](interfaces/DeviceShare.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceShareType.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceShareType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShareType.ts#L6)
 
 ___
 
@@ -869,7 +869,7 @@ The device status level. Used to indicate the "level" of severity for a device's
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusLevel.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceStatusLevel.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceStatusLevel.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusLevel.ts#L6)
 
 ___
 
@@ -881,7 +881,7 @@ The Geotab GO device type enumeration. Geotab has produced various types of trac
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceType.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceType.ts#L6)
 
 ___
 
@@ -893,7 +893,7 @@ Diagnostic source type of the diagnostic.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DiagnosticType.ts#L6)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DiagnosticType.ts#L6)
 
 ___
 
@@ -905,7 +905,7 @@ Supported Driver Change Types.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChangeType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverChangeType.ts#L6)
+[src/types/Checkmate/ObjectModel/DriverChangeType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverChangeType.ts#L6)
 
 ___
 
@@ -917,7 +917,7 @@ The types of identification keys that can be assigned to a. [Driver](interfaces/
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverKeyType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DriverKeyType.ts#L6)
+[src/types/Checkmate/ObjectModel/DriverKeyType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverKeyType.ts#L6)
 
 ___
 
@@ -929,7 +929,7 @@ The current driving state of a vehicle.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DrivingState.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DrivingState.ts#L6)
+[src/types/Checkmate/ObjectModel/DrivingState.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DrivingState.ts#L6)
 
 ___
 
@@ -941,7 +941,7 @@ Represents a severity/class code from the engine system of the specific [Device]
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DtcClass.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DtcClass.ts#L6)
+[src/types/Checkmate/ObjectModel/Engine/DtcClass.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DtcClass.ts#L6)
 
 ___
 
@@ -953,7 +953,7 @@ Represents a severity/class code from the engine system of the specific [Device]
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DtcSeverity.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DtcSeverity.ts#L6)
+[src/types/Checkmate/ObjectModel/Engine/DtcSeverity.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DtcSeverity.ts#L6)
 
 ___
 
@@ -965,7 +965,7 @@ The type of [DutyStatusLog](interfaces/DutyStatusLog.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusDeferralType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusDeferralType.ts#L6)
+[src/types/Checkmate/ObjectModel/DutyStatusDeferralType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusDeferralType.ts#L6)
 
 ___
 
@@ -977,7 +977,7 @@ The type of [DutyStatusLog](interfaces/DutyStatusLog.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogType.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogType.ts#L8)
+[src/types/Checkmate/ObjectModel/DutyStatusLogType.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogType.ts#L8)
 
 ___
 
@@ -989,7 +989,7 @@ Malfunction or Diagnostic type of the [DutyStatusLog](interfaces/DutyStatusLog.m
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusMalfunctionTypes.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusMalfunctionTypes.ts#L6)
+[src/types/Checkmate/ObjectModel/DutyStatusMalfunctionTypes.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusMalfunctionTypes.ts#L6)
 
 ___
 
@@ -1001,7 +1001,7 @@ The origin of a [DutyStatusLog](interfaces/DutyStatusLog.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusOrigin.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusOrigin.ts#L8)
+[src/types/Checkmate/ObjectModel/DutyStatusOrigin.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusOrigin.ts#L8)
 
 ___
 
@@ -1013,7 +1013,7 @@ The state of the [DutyStatusLog](interfaces/DutyStatusLog.md) record.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusState.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusState.ts#L8)
+[src/types/Checkmate/ObjectModel/DutyStatusState.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusState.ts#L8)
 
 ___
 
@@ -1025,7 +1025,7 @@ The different types of [DutyStatusViolation](interfaces/DutyStatusViolation.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolationType.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusViolationType.ts#L8)
+[src/types/Checkmate/ObjectModel/DutyStatusViolationType.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusViolationType.ts#L8)
 
 ___
 
@@ -1037,7 +1037,7 @@ Different types of responses that can come from EldPingResponse, EldSubmitRespon
 
 #### Defined in
 
-[src/types/Checkmate/Web/EldResponseStatus.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Web/EldResponseStatus.ts#L6)
+[src/types/Checkmate/Web/EldResponseStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Web/EldResponseStatus.ts#L6)
 
 ___
 
@@ -1051,7 +1051,7 @@ The type of [EldTransferMode](README.md#eldtransfermode).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EldTransferMode.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EldTransferMode.ts#L10)
+[src/types/Checkmate/ObjectModel/EldTransferMode.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EldTransferMode.ts#L10)
 
 ___
 
@@ -1063,7 +1063,7 @@ ELD output validation message types.
 
 #### Defined in
 
-[src/types/Checkmate/Web/EldValidationEntityType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Web/EldValidationEntityType.ts#L6)
+[src/types/Checkmate/Web/EldValidationEntityType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Web/EldValidationEntityType.ts#L6)
 
 ___
 
@@ -1075,7 +1075,7 @@ ELD output validation message types.
 
 #### Defined in
 
-[src/types/Checkmate/Web/EldValidationType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Web/EldValidationType.ts#L6)
+[src/types/Checkmate/Web/EldValidationType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Web/EldValidationType.ts#L6)
 
 ___
 
@@ -1087,7 +1087,7 @@ Various Electric Energy Economy units Geotab supports. Currently supported units
 
 #### Defined in
 
-[src/types/Checkmate/Settings/ElectricEnergyEconomyUnit.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Settings/ElectricEnergyEconomyUnit.ts#L8)
+[src/types/Checkmate/Settings/ElectricEnergyEconomyUnit.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/ElectricEnergyEconomyUnit.ts#L8)
 
 ___
 
@@ -1099,7 +1099,7 @@ Various supported Electric Energy units Geotab supports.
 
 #### Defined in
 
-[src/types/Checkmate/Settings/ElectricEnergyUnit.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Settings/ElectricEnergyUnit.ts#L8)
+[src/types/Checkmate/Settings/ElectricEnergyUnit.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/ElectricEnergyUnit.ts#L8)
 
 ___
 
@@ -1112,7 +1112,7 @@ The object used to specify the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/EngineTypeSearch.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/EngineTypeSearch.ts#L11)
+[src/types/Checkmate/ObjectModel/Engine/EngineTypeSearch.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/EngineTypeSearch.ts#L11)
 
 ___
 
@@ -1124,7 +1124,7 @@ The type of [EntityLinkType](README.md#entitylinktype).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkType.ts#L6)
+[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkType.ts#L6)
 
 ___
 
@@ -1139,7 +1139,7 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/Settings/EntitySelectionType.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Settings/EntitySelectionType.ts#L11)
+[src/types/Checkmate/Settings/EntitySelectionType.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/EntitySelectionType.ts#L11)
 
 ___
 
@@ -1261,7 +1261,7 @@ ___
 
 #### Defined in
 
-[src/types/EntityTypes.ts:107](https://github.com/fairfleet/geotab/blob/d57d931/src/types/EntityTypes.ts#L107)
+[src/types/EntityTypes.ts:107](https://github.com/fairfleet/geotab/blob/b682f10/src/types/EntityTypes.ts#L107)
 
 ___
 
@@ -1275,7 +1275,7 @@ Defines the result of process locking for ServiceLock.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Lock/Error.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Lock/Error.ts#L10)
+[src/types/Checkmate/ObjectModel/Lock/Error.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Lock/Error.ts#L10)
 
 ___
 
@@ -1287,7 +1287,7 @@ The type of an event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventType.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventType.ts#L8)
+[src/types/Checkmate/ObjectModel/EventType.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventType.ts#L8)
 
 ___
 
@@ -1299,7 +1299,7 @@ The currently supported exception info tag key.
 
 #### Defined in
 
-[src/types/Checkmate/ExceptionInfoTag.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ExceptionInfoTag.ts#L6)
+[src/types/Checkmate/ExceptionInfoTag.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ExceptionInfoTag.ts#L6)
 
 ___
 
@@ -1313,7 +1313,7 @@ When exceptions are created based on built-in rules, the base type is always set
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleBaseType.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleBaseType.ts#L10)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleBaseType.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleBaseType.ts#L10)
 
 ___
 
@@ -1325,7 +1325,7 @@ Specific categories to which the exception rules belong.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleCategory.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleCategory.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleCategory.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleCategory.ts#L6)
 
 ___
 
@@ -1337,7 +1337,7 @@ The mode of the [Rule](interfaces/Rule.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleMode.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleMode.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleMode.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleMode.ts#L6)
 
 ___
 
@@ -1350,7 +1350,7 @@ This enumerated type allows designating rules to be of a certain type to assist 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleType.ts:9](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleType.ts#L9)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleType.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleType.ts#L9)
 
 ___
 
@@ -1363,7 +1363,7 @@ The object used to specify the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FailureModeSearch.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/FailureModeSearch.ts#L11)
+[src/types/Checkmate/ObjectModel/Engine/FailureModeSearch.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FailureModeSearch.ts#L11)
 
 ___
 
@@ -1375,7 +1375,7 @@ Represents the lamp status of a J1939 fault, see [FaultData](interfaces/FaultDat
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultLampState.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/FaultLampState.ts#L6)
+[src/types/Checkmate/ObjectModel/Engine/FaultLampState.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultLampState.ts#L6)
 
 ___
 
@@ -1387,7 +1387,7 @@ Specify whether the fault resets automatically or manually.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultResetMode.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/FaultResetMode.ts#L6)
+[src/types/Checkmate/ObjectModel/Engine/FaultResetMode.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultResetMode.ts#L6)
 
 ___
 
@@ -1399,7 +1399,7 @@ Represents a fault code state code from the engine system of the specific [Devic
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultState.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/FaultState.ts#L6)
+[src/types/Checkmate/ObjectModel/Engine/FaultState.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultState.ts#L6)
 
 ___
 
@@ -1411,7 +1411,7 @@ The object used to specify the arguments when searching for a [FillUp](interface
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUpSearch.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FillUpSearch.ts#L8)
+[src/types/Checkmate/ObjectModel/Fuel/FillUpSearch.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FillUpSearch.ts#L8)
 
 ___
 
@@ -1423,7 +1423,7 @@ Specifies a type of filter.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/FilterType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Reprocessing/FilterType.ts#L6)
+[src/types/Checkmate/ObjectModel/Reprocessing/FilterType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Reprocessing/FilterType.ts#L6)
 
 ___
 
@@ -1435,7 +1435,7 @@ The type of firmware.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FirmwareType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FirmwareType.ts#L6)
+[src/types/Checkmate/ObjectModel/FirmwareType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FirmwareType.ts#L6)
 
 ___
 
@@ -1447,7 +1447,7 @@ Various Fuel Economy units Geotab supports. Currently supported units: L/100 km,
 
 #### Defined in
 
-[src/types/Checkmate/Settings/FuelEconomyUnit.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Settings/FuelEconomyUnit.ts#L8)
+[src/types/Checkmate/Settings/FuelEconomyUnit.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/FuelEconomyUnit.ts#L8)
 
 ___
 
@@ -1459,7 +1459,7 @@ The source from which tank capacity was derived.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTankCapacitySource.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelTankCapacitySource.ts#L6)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTankCapacitySource.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTankCapacitySource.ts#L6)
 
 ___
 
@@ -1471,7 +1471,7 @@ Fuel tax road type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxRoadType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/FuelTaxRoadType.ts#L6)
+[src/types/Checkmate/ObjectModel/FuelTaxRoadType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxRoadType.ts#L6)
 
 ___
 
@@ -1483,7 +1483,7 @@ Represents the type of product purchased in a [FuelTransaction](interfaces/FuelT
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProductType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProductType.ts#L6)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProductType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProductType.ts#L6)
 
 ___
 
@@ -1495,7 +1495,7 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProvider.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProvider.ts#L6)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProvider.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProvider.ts#L6)
 
 ___
 
@@ -1508,7 +1508,7 @@ Confidence of the fuel event data, derived from how many data points successfull
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelUpEventConfidences.ts:9](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelUpEventConfidences.ts#L9)
+[src/types/Checkmate/ObjectModel/Fuel/FuelUpEventConfidences.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelUpEventConfidences.ts#L9)
 
 ___
 
@@ -1520,7 +1520,7 @@ The language used by a GoTalk attached to a. GoDevice
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GoTalkLanguage.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/GoTalkLanguage.ts#L6)
+[src/types/Checkmate/ObjectModel/GoTalkLanguage.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GoTalkLanguage.ts#L6)
 
 ___
 
@@ -1532,7 +1532,7 @@ Used to represent different Google Map styles.
 
 #### Defined in
 
-[src/types/Checkmate/Settings/GoogleMapStyle.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Settings/GoogleMapStyle.ts#L6)
+[src/types/Checkmate/Settings/GoogleMapStyle.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/GoogleMapStyle.ts#L6)
 
 ___
 
@@ -1544,7 +1544,7 @@ Search the groups
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupSearchRelation.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/GroupSearchRelation.ts#L6)
+[src/types/Checkmate/ObjectModel/GroupSearchRelation.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupSearchRelation.ts#L6)
 
 ___
 
@@ -1556,7 +1556,7 @@ Defines the different types of [GroupZoneMetadata](interfaces/GroupZoneMetadata.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupZoneMetadataType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/GroupZoneMetadataType.ts#L6)
+[src/types/Checkmate/ObjectModel/GroupZoneMetadataType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupZoneMetadataType.ts#L6)
 
 ___
 
@@ -1568,7 +1568,7 @@ Here Map Style.
 
 #### Defined in
 
-[src/types/Checkmate/Settings/HereMapStyle.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Settings/HereMapStyle.ts#L6)
+[src/types/Checkmate/Settings/HereMapStyle.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/HereMapStyle.ts#L6)
 
 ___
 
@@ -1580,7 +1580,7 @@ The HOS log generation options.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosOption.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/HosOption.ts#L6)
+[src/types/Checkmate/ObjectModel/HosOption.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/HosOption.ts#L6)
 
 ___
 
@@ -1592,7 +1592,7 @@ HOS rulesets for the [User](interfaces/User.md).
 
 #### Defined in
 
-[src/types/Checkmate/Settings/HosRuleSet.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Settings/HosRuleSet.ts#L6)
+[src/types/Checkmate/Settings/HosRuleSet.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/HosRuleSet.ts#L6)
 
 ___
 
@@ -1604,7 +1604,7 @@ Hos Ruleset.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRuleSet2.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/HosRuleSet2.ts#L8)
+[src/types/Checkmate/ObjectModel/HosRuleSet2.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/HosRuleSet2.ts#L8)
 
 ___
 
@@ -1616,7 +1616,7 @@ The processing status of the Import Task.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Import/ImportTaskStatus.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Import/ImportTaskStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/Import/ImportTaskStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Import/ImportTaskStatus.ts#L6)
 
 ___
 
@@ -1628,7 +1628,7 @@ The type of the Import Task.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Import/ImportTaskType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Import/ImportTaskType.ts#L6)
+[src/types/Checkmate/ObjectModel/Import/ImportTaskType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Import/ImportTaskType.ts#L6)
 
 ___
 
@@ -1640,7 +1640,7 @@ The IncludeGroups enum provides a method of querying for entities relative to th
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/IncludeGroups.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/IncludeGroups.ts#L6)
+[src/types/Checkmate/ObjectModel/IncludeGroups.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/IncludeGroups.ts#L6)
 
 ___
 
@@ -1652,7 +1652,7 @@ Status of the installation for the device. User can choose to accept or ignore t
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InstallRecords/InstallStatus.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/InstallRecords/InstallStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/InstallRecords/InstallStatus.ts#L6)
 
 ___
 
@@ -1664,7 +1664,7 @@ Installation type for the device. - e.g. "New Installation" in case of first tim
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InstallRecords/InstallationType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/InstallRecords/InstallationType.ts#L6)
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallationType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/InstallRecords/InstallationType.ts#L6)
 
 ___
 
@@ -1676,7 +1676,7 @@ An enum representing invalid user exception types.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InvalidUserType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/InvalidUserType.ts#L6)
+[src/types/Checkmate/ObjectModel/InvalidUserType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/InvalidUserType.ts#L6)
 
 ___
 
@@ -1688,7 +1688,7 @@ An enum specifying to what resolution to serialize a DateTime to in the ISO 8601
 
 #### Defined in
 
-[src/types/Serialization/Iso8601Resolution.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Serialization/Iso8601Resolution.ts#L6)
+[src/types/Serialization/Iso8601Resolution.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Serialization/Iso8601Resolution.ts#L6)
 
 ___
 
@@ -1700,7 +1700,7 @@ Indicates the JSON-RPC error type that occurred. Derived from JSON-RPC 2.0 speci
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Web/JsonRpcErrorCode.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Web/JsonRpcErrorCode.ts#L6)
+[src/types/Checkmate/ObjectModel/Web/JsonRpcErrorCode.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Web/JsonRpcErrorCode.ts#L6)
 
 ___
 
@@ -1712,7 +1712,7 @@ Mapping of jurisdiction regions.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Jurisdictional/Jurisdiction.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Jurisdictional/Jurisdiction.ts#L6)
+[src/types/Checkmate/ObjectModel/Jurisdictional/Jurisdiction.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Jurisdictional/Jurisdiction.ts#L6)
 
 ___
 
@@ -1726,7 +1726,7 @@ Supported Legacy Key Types.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KeyType.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/KeyType.ts#L10)
+[src/types/Checkmate/ObjectModel/KeyType.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/KeyType.ts#L10)
 
 ___
 
@@ -1738,7 +1738,7 @@ Sources for which a limit should be applied.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Limits/LimitSource.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Limits/LimitSource.ts#L6)
+[src/types/Checkmate/ObjectModel/Limits/LimitSource.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Limits/LimitSource.ts#L6)
 
 ___
 
@@ -1750,7 +1750,7 @@ GPSData and DebugData Log Reason codes.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogReason.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/LogReason.ts#L6)
+[src/types/Checkmate/ObjectModel/LogReason.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LogReason.ts#L6)
 
 ___
 
@@ -1764,7 +1764,7 @@ Target app for SSO authentication redirect.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LoginRedirectTarget.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/LoginRedirectTarget.ts#L10)
+[src/types/Checkmate/ObjectModel/LoginRedirectTarget.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LoginRedirectTarget.ts#L10)
 
 ___
 
@@ -1776,7 +1776,7 @@ The type of the media file.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MediaFileType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/MediaFileType.ts#L6)
+[src/types/Checkmate/ObjectModel/MediaFileType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MediaFileType.ts#L6)
 
 ___
 
@@ -1788,7 +1788,7 @@ The type of a [MediaFile](interfaces/MediaFile.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Files/MediaType.ts#L6)
+[src/types/Checkmate/ObjectModel/Files/MediaType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/MediaType.ts#L6)
 
 ___
 
@@ -1800,7 +1800,7 @@ The type of [TextMessage](interfaces/TextMessage.md) content.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MessageContentType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/MessageContentType.ts#L6)
+[src/types/Checkmate/ObjectModel/MessageContentType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MessageContentType.ts#L6)
 
 ___
 
@@ -1826,7 +1826,7 @@ A function that returns a middleware function.
 
 #### Defined in
 
-[src/types/Middleware.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Middleware.ts#L8)
+[src/types/Middleware.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Middleware.ts#L8)
 
 ___
 
@@ -1838,7 +1838,7 @@ Defines the different types of rule monitor predicates.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/MonitorPredicate.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/MonitorPredicate.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/MonitorPredicate.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/MonitorPredicate.ts#L6)
 
 ___
 
@@ -1864,7 +1864,7 @@ A function that executes the given JSON-RPC call and returns the call results.
 
 #### Defined in
 
-[src/types/Middleware.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Middleware.ts#L11)
+[src/types/Middleware.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Middleware.ts#L11)
 
 ___
 
@@ -1876,7 +1876,7 @@ The type of the data stored in NotificationBinary.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationBinaryFileType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationBinaryFileType.ts#L6)
+[src/types/Checkmate/ObjectModel/NotificationBinaryFileType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationBinaryFileType.ts#L6)
 
 ___
 
@@ -1888,7 +1888,7 @@ The class represents data that is associated with a notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationData.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationData.ts#L8)
+[src/types/Checkmate/ObjectModel/NotificationData.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationData.ts#L8)
 
 ___
 
@@ -1900,7 +1900,7 @@ The status of the notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationStatus.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/NotificationStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationStatus.ts#L6)
 
 ___
 
@@ -1912,7 +1912,7 @@ The purpose of a notification template
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationTemplatePurpose.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationTemplatePurpose.ts#L6)
+[src/types/Checkmate/ObjectModel/NotificationTemplatePurpose.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationTemplatePurpose.ts#L6)
 
 ___
 
@@ -1924,7 +1924,7 @@ Current available tokens to use in templates such as email template
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationTokenType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationTokenType.ts#L6)
+[src/types/Checkmate/ObjectModel/NotificationTokenType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationTokenType.ts#L6)
 
 ___
 
@@ -1936,7 +1936,7 @@ The type of [Notification](interfaces/Notification.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NotificationType.ts#L6)
+[src/types/Checkmate/ObjectModel/NotificationType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationType.ts#L6)
 
 ___
 
@@ -1948,7 +1948,7 @@ Used to represent different Open Street Map (OSM) styles.
 
 #### Defined in
 
-[src/types/Checkmate/Settings/OpenStreetMapStyle.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Settings/OpenStreetMapStyle.ts#L6)
+[src/types/Checkmate/Settings/OpenStreetMapStyle.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/OpenStreetMapStyle.ts#L6)
 
 ___
 
@@ -1961,7 +1961,7 @@ The object used to specify the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/ParameterGroupSearch.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/ParameterGroupSearch.ts#L11)
+[src/types/Checkmate/ObjectModel/Engine/ParameterGroupSearch.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/ParameterGroupSearch.ts#L11)
 
 ___
 
@@ -1975,7 +1975,7 @@ The message type of a ping message.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Web/PingMessageType.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Web/PingMessageType.ts#L10)
+[src/types/Checkmate/ObjectModel/Web/PingMessageType.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Web/PingMessageType.ts#L10)
 
 ___
 
@@ -1987,7 +1987,7 @@ Defines options for a posted road speed request.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/PostedRoadSpeedOptions.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/PostedRoadSpeedOptions.ts#L6)
+[src/types/Checkmate/ObjectModel/PostedRoadSpeedOptions.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/PostedRoadSpeedOptions.ts#L6)
 
 ___
 
@@ -1999,7 +1999,7 @@ An enum that indicates the uploader status.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Web/ProcessingStatus.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Web/ProcessingStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/Web/ProcessingStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Web/ProcessingStatus.ts#L6)
 
 ___
 
@@ -2011,7 +2011,7 @@ Indicates the type of operation delivered by PubSubDataUpdateData`1.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/PubSub/PubSubDataUpdateVerb.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/PubSub/PubSubDataUpdateVerb.ts#L6)
+[src/types/Checkmate/ObjectModel/PubSub/PubSubDataUpdateVerb.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/PubSub/PubSubDataUpdateVerb.ts#L6)
 
 ___
 
@@ -2023,7 +2023,7 @@ The type of notification message that is generated for a [Recipient](interfaces/
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RecipientType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/RecipientType.ts#L6)
+[src/types/Checkmate/ObjectModel/RecipientType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/RecipientType.ts#L6)
 
 ___
 
@@ -2035,7 +2035,7 @@ Enum denoting registration states between MyG and the Gateway.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Registration/Gateway/RegistrationStatus.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Registration/Gateway/RegistrationStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/Registration/Gateway/RegistrationStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Registration/Gateway/RegistrationStatus.ts#L6)
 
 ___
 
@@ -2047,7 +2047,7 @@ Enum for the possible relay states.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RelayState.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/RelayState.ts#L6)
+[src/types/Checkmate/ObjectModel/RelayState.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/RelayState.ts#L6)
 
 ___
 
@@ -2059,7 +2059,7 @@ The Repair Status for [DVIRDefect](interfaces/DVIRDefect.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RepairStatusType.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/RepairStatusType.ts#L8)
+[src/types/Checkmate/ObjectModel/RepairStatusType.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/RepairStatusType.ts#L8)
 
 ___
 
@@ -2071,7 +2071,7 @@ Replacement type for the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceReplacement/ReplacementType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceReplacement/ReplacementType.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceReplacement/ReplacementType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceReplacement/ReplacementType.ts#L6)
 
 ___
 
@@ -2083,7 +2083,7 @@ Used to specify the type of the report template.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportDataSource.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReportDataSource.ts#L6)
+[src/types/Checkmate/ObjectModel/ReportDataSource.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportDataSource.ts#L6)
 
 ___
 
@@ -2095,7 +2095,7 @@ Used to specify where the destination of the scheduled report.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportDestination.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReportDestination.ts#L6)
+[src/types/Checkmate/ObjectModel/ReportDestination.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportDestination.ts#L6)
 
 ___
 
@@ -2107,7 +2107,7 @@ The frequency with which reports can be generated.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportFrequency.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReportFrequency.ts#L6)
+[src/types/Checkmate/ObjectModel/ReportFrequency.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportFrequency.ts#L6)
 
 ___
 
@@ -2119,7 +2119,7 @@ The report heading.
 
 #### Defined in
 
-[src/types/Checkmate/Reports/ReportHeading.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Reports/ReportHeading.ts#L6)
+[src/types/Checkmate/Reports/ReportHeading.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Reports/ReportHeading.ts#L6)
 
 ___
 
@@ -2131,7 +2131,7 @@ Used to represent the duration for which the report is generated.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportPeriod.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReportPeriod.ts#L6)
+[src/types/Checkmate/ObjectModel/ReportPeriod.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportPeriod.ts#L6)
 
 ___
 
@@ -2143,7 +2143,7 @@ The way to treat nodes in report schedule.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportScheduleGroupType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReportScheduleGroupType.ts#L6)
+[src/types/Checkmate/ObjectModel/ReportScheduleGroupType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportScheduleGroupType.ts#L6)
 
 ___
 
@@ -2155,7 +2155,7 @@ Report template type for [ReportTemplate](interfaces/ReportTemplate.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportTemplateType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReportTemplateType.ts#L6)
+[src/types/Checkmate/ObjectModel/ReportTemplateType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportTemplateType.ts#L6)
 
 ___
 
@@ -2167,7 +2167,7 @@ Describes the state of a ReprocessRequest or a [DeviceReprocessRequest](interfac
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/ReprocessRequestStatus.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Reprocessing/ReprocessRequestStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/Reprocessing/ReprocessRequestStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Reprocessing/ReprocessRequestStatus.ts#L6)
 
 ___
 
@@ -2179,7 +2179,7 @@ Indicates whether administrator of data base requires training or not
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Registration/RequireTraining.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Registration/RequireTraining.ts#L6)
+[src/types/Checkmate/ObjectModel/Registration/RequireTraining.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Registration/RequireTraining.ts#L6)
 
 ___
 
@@ -2191,7 +2191,7 @@ Route plan status
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteStatus.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/RouteStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/RouteStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/RouteStatus.ts#L6)
 
 ___
 
@@ -2203,7 +2203,7 @@ A type of [Route](interfaces/Route.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/RouteType.ts#L6)
+[src/types/Checkmate/ObjectModel/RouteType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/RouteType.ts#L6)
 
 ___
 
@@ -2215,7 +2215,7 @@ Defines different rule monitor types.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/RuleMonitorType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/RuleMonitorType.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/RuleMonitorType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/RuleMonitorType.ts#L6)
 
 ___
 
@@ -2337,7 +2337,7 @@ ___
 
 #### Defined in
 
-[src/types/SearchTypes.ts:109](https://github.com/fairfleet/geotab/blob/d57d931/src/types/SearchTypes.ts#L109)
+[src/types/SearchTypes.ts:109](https://github.com/fairfleet/geotab/blob/b682f10/src/types/SearchTypes.ts#L109)
 
 ___
 
@@ -2349,7 +2349,7 @@ The list of identifiers that gives a security identity to something whose access
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/SecurityIdentifier.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/SecurityIdentifier.ts#L6)
+[src/types/Checkmate/ObjectModel/SecurityIdentifier.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/SecurityIdentifier.ts#L6)
 
 ___
 
@@ -2361,7 +2361,7 @@ The security rights a user has. These are also used in [Audit](interfaces/Audit.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/SecurityRole.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/SecurityRole.ts#L6)
+[src/types/Checkmate/ObjectModel/SecurityRole.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/SecurityRole.ts#L6)
 
 ___
 
@@ -2373,7 +2373,7 @@ The server flags.
 
 #### Defined in
 
-[src/types/Checkmate/MachineSettings/ServerSwitches.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/MachineSettings/ServerSwitches.ts#L6)
+[src/types/Checkmate/MachineSettings/ServerSwitches.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/MachineSettings/ServerSwitches.ts#L6)
 
 ___
 
@@ -2385,7 +2385,7 @@ The state of a service persisted as json.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ServiceState.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ServiceState.ts#L8)
+[src/types/Checkmate/ObjectModel/ServiceState.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ServiceState.ts#L8)
 
 ___
 
@@ -2397,7 +2397,7 @@ Severity level.
 
 #### Defined in
 
-[src/types/Log/SeverityLevel.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Log/SeverityLevel.ts#L6)
+[src/types/Log/SeverityLevel.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Log/SeverityLevel.ts#L6)
 
 ___
 
@@ -2409,7 +2409,7 @@ Sort direction.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/SortDirection.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/SortDirection.ts#L6)
+[src/types/Checkmate/ObjectModel/SortDirection.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/SortDirection.ts#L6)
 
 ___
 
@@ -2421,7 +2421,7 @@ Defines options for a map server request.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/SpeedLimitRequestOptions.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/SpeedLimitRequestOptions.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/SpeedLimitRequestOptions.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/SpeedLimitRequestOptions.ts#L6)
 
 ___
 
@@ -2433,7 +2433,7 @@ The currently supported Sql Database types.
 
 #### Defined in
 
-[src/types/Checkmate/SqlType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/SqlType.ts#L6)
+[src/types/Checkmate/SqlType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/SqlType.ts#L6)
 
 ___
 
@@ -2443,7 +2443,7 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/MachineSettings/State.ts:5](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/MachineSettings/State.ts#L5)
+[src/types/Checkmate/MachineSettings/State.ts:5](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/MachineSettings/State.ts#L5)
 
 ___
 
@@ -2455,7 +2455,7 @@ The status of an uploaded file.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/Status.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Files/Status.ts#L6)
+[src/types/Checkmate/ObjectModel/Files/Status.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/Status.ts#L6)
 
 ___
 
@@ -2467,7 +2467,7 @@ Route Stop status
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/StopStatus.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/StopStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/StopStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/StopStatus.ts#L6)
 
 ___
 
@@ -2479,7 +2479,7 @@ A specific type of StoreForward exception.
 
 #### Defined in
 
-[src/types/StoreForward/StoreForwardExceptionType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/StoreForward/StoreForwardExceptionType.ts#L6)
+[src/types/StoreForward/StoreForwardExceptionType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/StoreForward/StoreForwardExceptionType.ts#L6)
 
 ___
 
@@ -2491,7 +2491,7 @@ Denotes the supported types for a given [Property](interfaces/Property.md) .
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/SupportedPropertyType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/SupportedPropertyType.ts#L6)
+[src/types/Checkmate/ObjectModel/SupportedPropertyType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/SupportedPropertyType.ts#L6)
 
 ___
 
@@ -2505,7 +2505,7 @@ The ThirdPartyDataRecord type.
 
 #### Defined in
 
-[src/types/StoreForward/ThirdPartyDataRecordType.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/StoreForward/ThirdPartyDataRecordType.ts#L10)
+[src/types/StoreForward/ThirdPartyDataRecordType.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/StoreForward/ThirdPartyDataRecordType.ts#L10)
 
 ___
 
@@ -2517,7 +2517,7 @@ An enum indicating the type of a trip.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TripType.ts#L6)
+[src/types/Checkmate/ObjectModel/TripType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TripType.ts#L6)
 
 ___
 
@@ -2530,7 +2530,7 @@ The user authentication type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserAuthenticationType.ts:9](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserAuthenticationType.ts#L9)
+[src/types/Checkmate/ObjectModel/UserAuthenticationType.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserAuthenticationType.ts#L9)
 
 ___
 
@@ -2542,7 +2542,7 @@ An enum that describes possible types of [User](interfaces/User.md) changes that
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserModification.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserModification.ts#L6)
+[src/types/Checkmate/ObjectModel/UserModification.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserModification.ts#L6)
 
 ___
 
@@ -2554,7 +2554,7 @@ The type of [UserSearchType](README.md#usersearchtype) to search for.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearchType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserSearchType.ts#L6)
+[src/types/Checkmate/ObjectModel/UserSearchType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserSearchType.ts#L6)
 
 ___
 
@@ -2566,7 +2566,7 @@ A type of [User](interfaces/User.md) support contact. User contact can be call, 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSupportType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserSupportType.ts#L6)
+[src/types/Checkmate/ObjectModel/UserSupportType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserSupportType.ts#L6)
 
 ___
 
@@ -2578,7 +2578,7 @@ The interval in which a [Diagnostic](interfaces/Diagnostic.md) reading is monito
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ValidLoggingPeriod.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ValidLoggingPeriod.ts#L6)
+[src/types/Checkmate/ObjectModel/ValidLoggingPeriod.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ValidLoggingPeriod.ts#L6)
 
 ___
 
@@ -2590,7 +2590,7 @@ An enum with a list of commands that can be sent to a vehicle via a VehicleComma
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/VehicleCommand.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/VehicleCommand.ts#L6)
+[src/types/Checkmate/ObjectModel/VehicleCommand.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/VehicleCommand.ts#L6)
 
 ___
 
@@ -2602,7 +2602,7 @@ The type of encryption of [VehicleConfiguration](interfaces/VehicleConfiguration
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/VehicleConfigurationEncryptionType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/VehicleConfigurationEncryptionType.ts#L6)
+[src/types/Checkmate/ObjectModel/VehicleConfigurationEncryptionType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/VehicleConfigurationEncryptionType.ts#L6)
 
 ___
 
@@ -2614,7 +2614,7 @@ The type of [VehicleConfiguration](interfaces/VehicleConfiguration.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/VehicleConfigurationType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/VehicleConfigurationType.ts#L6)
+[src/types/Checkmate/ObjectModel/VehicleConfigurationType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/VehicleConfigurationType.ts#L6)
 
 ___
 
@@ -2626,7 +2626,7 @@ The names of vehicle feature categories, including external devices detected by 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/VehicleFeatureCategory.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/VehicleFeatureCategory.ts#L6)
+[src/types/Checkmate/ObjectModel/VehicleFeatureCategory.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/VehicleFeatureCategory.ts#L6)
 
 ___
 
@@ -2639,7 +2639,7 @@ The object used to specify the arguments when searching for [VirtualExceptionEve
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/VirtualExceptionEventSearch.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/VirtualExceptionEventSearch.ts#L11)
+[src/types/Checkmate/ObjectModel/Exceptions/VirtualExceptionEventSearch.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/VirtualExceptionEventSearch.ts#L11)
 
 ___
 
@@ -2651,7 +2651,7 @@ Various supported Volume units Geotab supports.
 
 #### Defined in
 
-[src/types/Checkmate/Settings/VolumeUnit.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Settings/VolumeUnit.ts#L8)
+[src/types/Checkmate/Settings/VolumeUnit.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/VolumeUnit.ts#L8)
 
 ___
 
@@ -2663,7 +2663,7 @@ WebRequest Template Http Verb.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WebRequestTemplateHttpVerb.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/WebRequestTemplateHttpVerb.ts#L6)
+[src/types/Checkmate/ObjectModel/WebRequestTemplateHttpVerb.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WebRequestTemplateHttpVerb.ts#L6)
 
 ___
 
@@ -2675,7 +2675,7 @@ An enum indicating the type of a widget.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WidgetType.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/WidgetType.ts#L6)
+[src/types/Checkmate/ObjectModel/WidgetType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WidgetType.ts#L6)
 
 ___
 
@@ -2687,7 +2687,7 @@ The object used to specify the arguments when searching for a [WifiHotspot](inte
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WifiHotspotSearch.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/WifiHotspotSearch.ts#L8)
+[src/types/Checkmate/ObjectModel/WifiHotspotSearch.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WifiHotspotSearch.ts#L8)
 
 ___
 
@@ -2699,4 +2699,4 @@ The [Zone](interfaces/Zone.md)s which will be displayed to a given user on the m
 
 #### Defined in
 
-[src/types/Checkmate/Settings/ZoneDisplayMode.ts:6](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/Settings/ZoneDisplayMode.ts#L6)
+[src/types/Checkmate/Settings/ZoneDisplayMode.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/ZoneDisplayMode.ts#L6)

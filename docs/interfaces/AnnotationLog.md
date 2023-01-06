@@ -31,7 +31,7 @@ Gets or sets the annotation text associated with the log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AnnotationLog.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AnnotationLog.ts#L12)
+[src/types/Checkmate/ObjectModel/AnnotationLog.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AnnotationLog.ts#L12)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets the date and time the log was created.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AnnotationLog.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AnnotationLog.ts#L14)
+[src/types/Checkmate/ObjectModel/AnnotationLog.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AnnotationLog.ts#L14)
 
 ___
 
@@ -55,7 +55,7 @@ Gets or sets the [User](User.md) who created the log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AnnotationLog.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AnnotationLog.ts#L16)
+[src/types/Checkmate/ObjectModel/AnnotationLog.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AnnotationLog.ts#L16)
 
 ___
 
@@ -67,7 +67,7 @@ Gets or sets the AnnotationLog.DutyStatusLog which this log belongs to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AnnotationLog.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AnnotationLog.ts#L18)
+[src/types/Checkmate/ObjectModel/AnnotationLog.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AnnotationLog.ts#L18)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -99,4 +99,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

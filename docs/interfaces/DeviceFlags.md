@@ -30,7 +30,7 @@ Gets a list of features currently active on the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceFlags.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L10)
+[src/types/Checkmate/ObjectModel/DeviceFlags.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L10)
 
 ___
 
@@ -43,7 +43,7 @@ Gets a value indicating whether the device has access to the active tracking
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceFlags.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L15)
+[src/types/Checkmate/ObjectModel/DeviceFlags.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L15)
 
 ___
 
@@ -55,7 +55,7 @@ Gets a value indicating whether a Boolean indicating if the device has access to
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceFlags.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L17)
+[src/types/Checkmate/ObjectModel/DeviceFlags.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L17)
 
 ___
 
@@ -67,7 +67,7 @@ Gets a value indicating whether the device has access to Garmin functionality.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceFlags.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L19)
+[src/types/Checkmate/ObjectModel/DeviceFlags.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L19)
 
 ___
 
@@ -79,7 +79,7 @@ Gets a value indicating whether the device has access to HOS functionality.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceFlags.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L21)
+[src/types/Checkmate/ObjectModel/DeviceFlags.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L21)
 
 ___
 
@@ -91,7 +91,7 @@ Gets a value indicating whether the device has access to Iridium functionality.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceFlags.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L23)
+[src/types/Checkmate/ObjectModel/DeviceFlags.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L23)
 
 ___
 
@@ -103,7 +103,7 @@ Gets a value indicating whether the device has access to odometer functionality.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceFlags.ts:25](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L25)
+[src/types/Checkmate/ObjectModel/DeviceFlags.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L25)
 
 ___
 
@@ -115,7 +115,7 @@ Gets a value indicating whether the device has access to trip detail functionali
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceFlags.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L27)
+[src/types/Checkmate/ObjectModel/DeviceFlags.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L27)
 
 ___
 
@@ -127,7 +127,7 @@ Gets a value indicating whether the device can be viewed in MyGeotab.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceFlags.ts:29](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L29)
+[src/types/Checkmate/ObjectModel/DeviceFlags.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L29)
 
 ___
 
@@ -139,7 +139,7 @@ Gets a value indicating whether the device has access to VIN functionality.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceFlags.ts:31](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L31)
+[src/types/Checkmate/ObjectModel/DeviceFlags.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L31)
 
 ___
 
@@ -151,4 +151,4 @@ Gets the rate plans. Has been replaced by ActiveFeatures. Kept around for legacy
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceFlags.ts:33](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L33)
+[src/types/Checkmate/ObjectModel/DeviceFlags.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceFlags.ts#L33)

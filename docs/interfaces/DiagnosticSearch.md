@@ -35,7 +35,7 @@ Gets or sets search for a Diagnostic by the code number.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L17)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets the [DiagnosticType](../README.md#diagnostictype) to search for in 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L19)
 
 ___
 
@@ -62,7 +62,7 @@ Gets or sets search for [Diagnostic](Diagnostic.md)(s) with this
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:26](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L26)
 
 ___
 
@@ -74,7 +74,7 @@ Gets or sets the [FaultResetMode](../README.md#faultresetmode) to search by.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:28](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L28)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L28)
 
 ___
 
@@ -90,7 +90,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -103,7 +103,7 @@ Gets or sets search for Diagnostics with this Name. Wildcard can be used by prep
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:33](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L33)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L33)
 
 ___
 
@@ -119,7 +119,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -134,7 +134,7 @@ Gets or sets the [SourceSearch](SourceSearch.md) Id to search for in
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:40](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L40)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:40](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L40)
 
 ___
 
@@ -152,4 +152,4 @@ Gets or sets the row version of the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:46](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L46)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:46](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L46)

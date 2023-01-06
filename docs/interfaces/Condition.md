@@ -54,7 +54,7 @@ Gets or sets child condition(s) of this condition.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:32](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L32)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:32](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L32)
 
 ___
 
@@ -66,7 +66,7 @@ Gets or sets the [ConditionType](../README.md#conditiontype) defines the meaning
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:34](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L34)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:34](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L34)
 
 ___
 
@@ -78,7 +78,7 @@ Gets or sets specified [Device](Device.md) associated with the condition.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:36](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L36)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:36](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L36)
 
 ___
 
@@ -90,7 +90,7 @@ Gets or sets the [Diagnostic](Diagnostic.md) to compare the value of.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:38](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L38)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:38](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L38)
 
 ___
 
@@ -102,7 +102,7 @@ Gets or sets specified [Driver](Driver.md) associated with the condition.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:40](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L40)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:40](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L40)
 
 ___
 
@@ -118,7 +118,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -130,7 +130,7 @@ Gets or sets the Condition that this Condition is a link of.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:42](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L42)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:42](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L42)
 
 ___
 
@@ -142,7 +142,7 @@ Gets or sets the parent Condition for this Condition. Null for root condition.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:44](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L44)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:44](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L44)
 
 ___
 
@@ -154,7 +154,7 @@ Gets or sets the [Rule](Rule.md) that this condition applies to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:46](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L46)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:46](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L46)
 
 ___
 
@@ -166,7 +166,7 @@ Gets or sets the sequence that defines the [Condition](Condition.md)'s relative 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:48](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L48)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:48](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L48)
 
 ___
 
@@ -178,7 +178,7 @@ Gets the name of the metric used.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:50](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L50)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:50](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L50)
 
 ___
 
@@ -190,7 +190,7 @@ Gets or sets the specified value to evaluate against.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:52](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L52)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:52](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L52)
 
 ___
 
@@ -202,7 +202,7 @@ Gets or sets the [WorkTime](WorkTime.md) that the event must occur inside/outsid
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:54](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L54)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:54](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L54)
 
 ___
 
@@ -214,7 +214,7 @@ Gets or sets specified [Zone](Zone.md) associated with the condition.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:56](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L56)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:56](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L56)
 
 ___
 
@@ -226,4 +226,4 @@ Gets or sets specified [ZoneType](ZoneType.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:58](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L58)
+[src/types/Checkmate/ObjectModel/Exceptions/Condition.ts:58](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/Condition.ts#L58)

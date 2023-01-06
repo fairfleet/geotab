@@ -29,7 +29,7 @@ Gets or sets the TripAnnotation.DateTime of the annotation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripAnnotation.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TripAnnotation.ts#L11)
+[src/types/Checkmate/ObjectModel/TripAnnotation.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TripAnnotation.ts#L11)
 
 ___
 
@@ -41,7 +41,7 @@ Gets or sets the TripAnnotation.Device of the annotation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripAnnotation.ts:13](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TripAnnotation.ts#L13)
+[src/types/Checkmate/ObjectModel/TripAnnotation.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TripAnnotation.ts#L13)
 
 ___
 
@@ -57,7 +57,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -69,4 +69,4 @@ Gets or sets the text of the annotation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripAnnotation.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TripAnnotation.ts#L15)
+[src/types/Checkmate/ObjectModel/TripAnnotation.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TripAnnotation.ts#L15)

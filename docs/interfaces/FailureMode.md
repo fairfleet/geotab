@@ -30,7 +30,7 @@ Gets or sets the specific FMI code number.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L14)
+[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L14)
 
 ___
 
@@ -46,7 +46,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L16)
+[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L16)
 
 ___
 
@@ -62,7 +62,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L18)
+[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L18)
 
 ___
 
@@ -74,4 +74,4 @@ Gets or sets the [Source](Source.md) type for the FMI.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L20)
+[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L20)

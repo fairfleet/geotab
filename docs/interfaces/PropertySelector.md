@@ -21,4 +21,4 @@ Gets the [PropertySelector](PropertySelector.md) value that represents all field
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/PropertySelector.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/PropertySelector.ts#L11)
+[src/types/Checkmate/ObjectModel/PropertySelector.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/PropertySelector.ts#L11)

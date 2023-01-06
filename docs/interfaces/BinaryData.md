@@ -32,7 +32,7 @@ Gets or sets the [BinaryDataType](../README.md#binarydatatype).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryData.ts:13](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/BinaryData.ts#L13)
+[src/types/Checkmate/ObjectModel/BinaryData.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryData.ts#L13)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets the [Controller](Controller.md) for the [BinaryData](BinaryData.md)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryData.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/BinaryData.ts#L15)
+[src/types/Checkmate/ObjectModel/BinaryData.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryData.ts#L15)
 
 ___
 
@@ -56,7 +56,7 @@ Gets the binary data for the [BinaryData](BinaryData.md) object.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryData.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/BinaryData.ts#L17)
+[src/types/Checkmate/ObjectModel/BinaryData.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryData.ts#L17)
 
 ___
 
@@ -68,7 +68,7 @@ Gets or sets the date and time of the logging of the data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryData.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/BinaryData.ts#L19)
+[src/types/Checkmate/ObjectModel/BinaryData.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryData.ts#L19)
 
 ___
 
@@ -80,7 +80,7 @@ Gets or sets the [Device](Device.md) on which the binary data was recorded.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryData.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/BinaryData.ts#L21)
+[src/types/Checkmate/ObjectModel/BinaryData.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryData.ts#L21)
 
 ___
 
@@ -96,7 +96,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -112,4 +112,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

@@ -53,7 +53,7 @@ Gets or sets the date and time the text message is active from.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L27)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L27)
 
 ___
 
@@ -65,7 +65,7 @@ Gets or sets the date and time the text message is active to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:29](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L29)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L29)
 
 ___
 
@@ -77,7 +77,7 @@ Gets or sets the date and time the message was delivered. Default [MaxDate].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:31](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L31)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L31)
 
 ___
 
@@ -89,7 +89,7 @@ Gets or sets the [Device](Device.md) the message was sent to. Default [Null].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:33](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L33)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L33)
 
 ___
 
@@ -105,7 +105,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -117,7 +117,7 @@ Gets or sets if message is going to or from vehicle.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:35](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L35)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L35)
 
 ___
 
@@ -129,7 +129,7 @@ Gets or sets the [User](User.md) who read the message or null if the message has
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:37](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L37)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L37)
 
 ___
 
@@ -145,7 +145,7 @@ Gets or sets the message content. A basic message can be sent via a
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:45](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L45)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:45](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L45)
 
 ___
 
@@ -159,7 +159,7 @@ Gets or sets the message length.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:52](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L52)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:52](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L52)
 
 ___
 
@@ -171,7 +171,7 @@ Gets or sets the text message that this is the reply to. Only a reply message wi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:54](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L54)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:54](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L54)
 
 ___
 
@@ -183,7 +183,7 @@ Gets or sets the date and time the message was read or null if the message has n
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:56](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L56)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:56](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L56)
 
 ___
 
@@ -195,7 +195,7 @@ Gets or sets the [User](User.md) the message was sent to. Default [Null].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:58](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L58)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:58](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L58)
 
 ___
 
@@ -207,7 +207,7 @@ Gets or sets the text message reply to this message. A text message should only 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:60](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L60)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:60](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L60)
 
 ___
 
@@ -219,7 +219,7 @@ Gets or sets the date and time the message was sent. Default [MaxDate].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:62](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L62)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:62](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L62)
 
 ___
 
@@ -231,7 +231,7 @@ Gets or sets the [User](User.md) that the message was sent from or null. If the 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessage.ts:64](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TextMessage.ts#L64)
+[src/types/Checkmate/ObjectModel/TextMessage.ts:64](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessage.ts#L64)
 
 ___
 
@@ -247,4 +247,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

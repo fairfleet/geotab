@@ -51,7 +51,7 @@ The id of the added entity.
 
 #### Defined in
 
-[src/types/Geotab.ts:41](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Geotab.ts#L41)
+[src/types/Geotab.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Geotab.ts#L41)
 
 ___
 
@@ -82,7 +82,7 @@ A [LoginResult](LoginResult.md) object.
 
 #### Defined in
 
-[src/types/Geotab.ts:61](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Geotab.ts#L61)
+[src/types/Geotab.ts:61](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Geotab.ts#L61)
 
 ___
 
@@ -122,7 +122,7 @@ If the JSONRPC response contains an error.
 
 #### Defined in
 
-[src/types/Geotab.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Geotab.ts#L27)
+[src/types/Geotab.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Geotab.ts#L27)
 
 ___
 
@@ -158,7 +158,7 @@ The entities matching search criteria.
 
 #### Defined in
 
-[src/types/Geotab.ts:78](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Geotab.ts#L78)
+[src/types/Geotab.ts:78](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Geotab.ts#L78)
 
 ___
 
@@ -186,7 +186,7 @@ A list of populated [ReverseGeocodeAddress](ReverseGeocodeAddress.md).
 
 #### Defined in
 
-[src/types/Geotab.ts:100](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Geotab.ts#L100)
+[src/types/Geotab.ts:100](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Geotab.ts#L100)
 
 ___
 
@@ -217,7 +217,7 @@ The number of entities in the database.
 
 #### Defined in
 
-[src/types/Geotab.ts:114](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Geotab.ts#L114)
+[src/types/Geotab.ts:114](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Geotab.ts#L114)
 
 ___
 
@@ -285,7 +285,7 @@ The feed result containing the entities matching supplied criteria.
 
 #### Defined in
 
-[src/types/Geotab.ts:161](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Geotab.ts#L161)
+[src/types/Geotab.ts:161](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Geotab.ts#L161)
 
 ___
 
@@ -309,7 +309,7 @@ The string representation of the server version.
 
 #### Defined in
 
-[src/types/Geotab.ts:178](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Geotab.ts#L178)
+[src/types/Geotab.ts:178](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Geotab.ts#L178)
 
 ___
 
@@ -333,7 +333,7 @@ The version information of the server.
 
 #### Defined in
 
-[src/types/Geotab.ts:186](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Geotab.ts#L186)
+[src/types/Geotab.ts:186](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Geotab.ts#L186)
 
 ___
 
@@ -364,7 +364,7 @@ Removes the given entity from the database.
 
 #### Defined in
 
-[src/types/Geotab.ts:194](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Geotab.ts#L194)
+[src/types/Geotab.ts:194](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Geotab.ts#L194)
 
 ___
 
@@ -395,4 +395,4 @@ Modifies an TEntity.
 
 #### Defined in
 
-[src/types/Geotab.ts:210](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Geotab.ts#L210)
+[src/types/Geotab.ts:210](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Geotab.ts#L210)

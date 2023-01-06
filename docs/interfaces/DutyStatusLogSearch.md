@@ -49,7 +49,7 @@ UserSearch is always applied first if both DeviceSearch and UserSearch are provi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:25](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L25)
+[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L25)
 
 ___
 
@@ -61,7 +61,7 @@ Gets or sets search for DutyStatusLogs that were recorded at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L27)
+[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L27)
 
 ___
 
@@ -77,7 +77,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -90,7 +90,7 @@ Gets or sets search for DutyStatusLogs and include boundary logs outside the fro
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:32](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L32)
+[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:32](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L32)
 
 ___
 
@@ -102,7 +102,7 @@ Gets or sets search for DutyStatusLogs and include compliance properties (e.g. O
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:34](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L34)
+[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:34](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L34)
 
 ___
 
@@ -114,7 +114,7 @@ Gets or sets whether to populate locations for DutyStatusLogs. This can be expen
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:36](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L36)
+[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:36](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L36)
 
 ___
 
@@ -126,7 +126,7 @@ Gets or sets include modification history of the [DutyStatusLog](DutyStatusLog.m
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:38](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L38)
+[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:38](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L38)
 
 ___
 
@@ -138,7 +138,7 @@ Gets or sets search for DutyStatusLogs based on [DutyStatusMalfunctionTypes](../
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:40](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L40)
+[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:40](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L40)
 
 ___
 
@@ -150,7 +150,7 @@ Gets or sets search for [DutyStatusLog](DutyStatusLog.md)s with a maximum of thi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:42](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L42)
+[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:42](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L42)
 
 ___
 
@@ -162,7 +162,7 @@ Gets or sets search for [DutyStatusLog](DutyStatusLog.md)s with a minimum of thi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:44](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L44)
+[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:44](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L44)
 
 ___
 
@@ -174,7 +174,7 @@ Gets or sets search for DutyStatusLogs based on [DutyStatusOrigin](../README.md#
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:46](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L46)
+[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:46](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L46)
 
 ___
 
@@ -190,7 +190,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -202,7 +202,7 @@ Gets or sets search for DutyStatusLogs with the provided [DutyStatusLogType](../
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:48](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L48)
+[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:48](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L48)
 
 ___
 
@@ -214,7 +214,7 @@ Gets or sets search for DutyStatusLogs that were recorded at this date or before
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:50](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L50)
+[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:50](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L50)
 
 ___
 
@@ -228,7 +228,7 @@ Gets or sets search for DutyStatusLogs with this [UserSearch](UserSearch.md) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:56](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L56)
+[src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts:56](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogSearch.ts#L56)
 
 ___
 
@@ -244,4 +244,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)

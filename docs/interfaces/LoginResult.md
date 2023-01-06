@@ -21,7 +21,7 @@ Gets or sets the [Credentials](Credentials.md) to be used when making calls to M
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LoginResult.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/LoginResult.ts#L10)
+[src/types/Checkmate/ObjectModel/LoginResult.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LoginResult.ts#L10)
 
 ___
 
@@ -34,4 +34,4 @@ Gets or sets the path of server hosting the database. "ThisServer" if successful
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LoginResult.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/LoginResult.ts#L15)
+[src/types/Checkmate/ObjectModel/LoginResult.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LoginResult.ts#L15)

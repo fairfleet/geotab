@@ -35,7 +35,7 @@ Gets or sets the date the dashboard is active from. Default [UtcNow].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Dashboard.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Dashboard.ts#L12)
+[src/types/Checkmate/ObjectModel/Dashboard.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Dashboard.ts#L12)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets the date the dashboard is active to. Default [MaxDate].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Dashboard.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Dashboard.ts#L14)
+[src/types/Checkmate/ObjectModel/Dashboard.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Dashboard.ts#L14)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets the comment of the dashboard. Default [""].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Dashboard.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Dashboard.ts#L16)
+[src/types/Checkmate/ObjectModel/Dashboard.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Dashboard.ts#L16)
 
 ___
 
@@ -75,7 +75,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -87,7 +87,7 @@ Gets or sets the details of the dashboard. The details are in json format. Defau
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Dashboard.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Dashboard.ts#L18)
+[src/types/Checkmate/ObjectModel/Dashboard.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Dashboard.ts#L18)
 
 ___
 
@@ -103,7 +103,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
 
 ___
 
@@ -115,7 +115,7 @@ Gets or sets the [User](User.md) who is the owner of the dashboard.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Dashboard.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Dashboard.ts#L20)
+[src/types/Checkmate/ObjectModel/Dashboard.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Dashboard.ts#L20)
 
 ___
 
@@ -127,7 +127,7 @@ Gets or sets the [ReportPeriod](../README.md#reportperiod) of scheduled report.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Dashboard.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Dashboard.ts#L22)
+[src/types/Checkmate/ObjectModel/Dashboard.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Dashboard.ts#L22)
 
 ___
 
@@ -139,7 +139,7 @@ Gets or sets the date from when the dashboard data starts.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Dashboard.ts:24](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Dashboard.ts#L24)
+[src/types/Checkmate/ObjectModel/Dashboard.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Dashboard.ts#L24)
 
 ___
 
@@ -151,4 +151,4 @@ Gets or sets the date to when the dashboard data ends.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Dashboard.ts:26](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Dashboard.ts#L26)
+[src/types/Checkmate/ObjectModel/Dashboard.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Dashboard.ts#L26)

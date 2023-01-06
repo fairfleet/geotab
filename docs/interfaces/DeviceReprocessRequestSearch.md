@@ -33,7 +33,7 @@ Gets or sets the Id of the [Device](Device.md) to search by. Mutually exclusive 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L14)
 
 ___
 
@@ -49,7 +49,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -61,7 +61,7 @@ Gets a value indicating whether any search criteria have been specified.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L16)
 
 ___
 
@@ -77,7 +77,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -89,7 +89,7 @@ Gets or sets the Id of the parent ReprocessRequest to search by.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L18)
 
 ___
 
@@ -101,7 +101,7 @@ Gets or sets the [ReprocessRequestStatus](../README.md#reprocessrequeststatus) t
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L20)
 
 ___
 
@@ -117,4 +117,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)

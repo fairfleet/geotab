@@ -41,7 +41,7 @@ Gets or sets a value indicating whether the charge values were estimated.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L12)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L12)
 
 ___
 
@@ -53,7 +53,7 @@ Gets or sets the charging type provided by the external power source.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L14)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L14)
 
 ___
 
@@ -65,7 +65,7 @@ Gets or sets the device which created the charge event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L16)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L16)
 
 ___
 
@@ -77,7 +77,7 @@ Gets or sets the length of time the vehicle was charging in seconds.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L18)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L18)
 
 ___
 
@@ -89,7 +89,7 @@ Gets or sets the distance traveled since the previous charge event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L20)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L20)
 
 ___
 
@@ -101,7 +101,7 @@ Gets or sets the ending state of charge for this charge event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L22)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L22)
 
 ___
 
@@ -113,7 +113,7 @@ Gets or sets the energy consumed during the charge event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:24](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L24)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L24)
 
 ___
 
@@ -125,7 +125,7 @@ Gets or sets the amount of energy drawn from the battery since the last charge e
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:26](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L26)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L26)
 
 ___
 
@@ -141,7 +141,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -153,7 +153,7 @@ Gets or sets the location where the charge event occurred.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:28](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L28)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L28)
 
 ___
 
@@ -165,7 +165,7 @@ Gets or sets the maximum AC Voltage over the charge event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:30](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L30)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:30](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L30)
 
 ___
 
@@ -177,7 +177,7 @@ Gets or sets the peak power used during the charge event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:32](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L32)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:32](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L32)
 
 ___
 
@@ -189,7 +189,7 @@ Gets or sets the starting state of charge for this charge event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:34](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L34)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:34](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L34)
 
 ___
 
@@ -201,7 +201,7 @@ Gets or sets the time the charge event started.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:36](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L36)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:36](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L36)
 
 ___
 
@@ -213,7 +213,7 @@ Gets or sets the time of the Trip.Stop from the trip this charge event occurred 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:38](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L38)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts:38](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEvent.ts#L38)
 
 ___
 
@@ -229,4 +229,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

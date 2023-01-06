@@ -32,7 +32,7 @@ Gets or sets the type of the trip.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts#L12)
+[src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts#L12)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets the date time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts#L14)
+[src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts#L14)
 
 ___
 
@@ -56,7 +56,7 @@ Gets or sets the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts#L16)
+[src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts#L16)
 
 ___
 
@@ -72,7 +72,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -84,7 +84,7 @@ Gets a value indicating whether the privacy mode is private.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts#L18)
+[src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts#L18)
 
 ___
 
@@ -96,7 +96,7 @@ Gets a value indicating whether the privacy mode is public.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts#L20)
+[src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts#L20)
 
 ___
 
@@ -108,4 +108,4 @@ Gets a value indicating whether the privacy mode is private strict.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts#L22)
+[src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceDataPrivacyChange.ts#L22)

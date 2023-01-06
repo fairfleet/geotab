@@ -33,7 +33,7 @@ Gets or sets the DVIRDefect.Defect which this DVIRDefect belongs to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRDefect.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DVIRDefect.ts#L18)
+[src/types/Checkmate/ObjectModel/DVIRDefect.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DVIRDefect.ts#L18)
 
 ___
 
@@ -45,7 +45,7 @@ Gets or sets the [DefectRemark](DefectRemark.md)s which this DVIRDefect has.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRDefect.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DVIRDefect.ts#L20)
+[src/types/Checkmate/ObjectModel/DVIRDefect.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DVIRDefect.ts#L20)
 
 ___
 
@@ -61,7 +61,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -73,7 +73,7 @@ Gets or sets the date and time the DVIRDefect was repaired.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRDefect.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DVIRDefect.ts#L22)
+[src/types/Checkmate/ObjectModel/DVIRDefect.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DVIRDefect.ts#L22)
 
 ___
 
@@ -85,7 +85,7 @@ Gets or sets the [RepairStatusType](../README.md#repairstatustype) of this DVIRD
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRDefect.ts:24](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DVIRDefect.ts#L24)
+[src/types/Checkmate/ObjectModel/DVIRDefect.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DVIRDefect.ts#L24)
 
 ___
 
@@ -97,4 +97,4 @@ Gets or sets the [User](User.md) who repaired the DVIRDefect.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRDefect.ts:26](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DVIRDefect.ts#L26)
+[src/types/Checkmate/ObjectModel/DVIRDefect.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DVIRDefect.ts#L26)

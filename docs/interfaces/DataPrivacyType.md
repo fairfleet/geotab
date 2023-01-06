@@ -35,7 +35,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DataPrivacyType.ts:13](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DataPrivacyType.ts#L13)
+[src/types/Checkmate/ObjectModel/DataPrivacyType.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DataPrivacyType.ts#L13)
 
 ___
 
@@ -47,7 +47,7 @@ Gets a value indicating whether the privacy mode is private.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DataPrivacyType.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DataPrivacyType.ts#L15)
+[src/types/Checkmate/ObjectModel/DataPrivacyType.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DataPrivacyType.ts#L15)
 
 ___
 
@@ -59,7 +59,7 @@ Gets a value indicating whether the privacy mode is public.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DataPrivacyType.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DataPrivacyType.ts#L17)
+[src/types/Checkmate/ObjectModel/DataPrivacyType.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DataPrivacyType.ts#L17)
 
 ___
 
@@ -71,7 +71,7 @@ Gets a value indicating whether the privacy mode is private strict.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DataPrivacyType.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DataPrivacyType.ts#L19)
+[src/types/Checkmate/ObjectModel/DataPrivacyType.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DataPrivacyType.ts#L19)
 
 ___
 
@@ -87,4 +87,4 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DataPrivacyType.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DataPrivacyType.ts#L21)
+[src/types/Checkmate/ObjectModel/DataPrivacyType.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DataPrivacyType.ts#L21)

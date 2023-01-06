@@ -32,7 +32,7 @@ Gets or sets free text field where any user information can be stored and refere
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WorkTime.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/WorkTime.ts#L15)
+[src/types/Checkmate/ObjectModel/WorkTime.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WorkTime.ts#L15)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets the list of WorkTimeDetail(s).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WorkTime.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/WorkTime.ts#L17)
+[src/types/Checkmate/ObjectModel/WorkTime.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WorkTime.ts#L17)
 
 ___
 
@@ -56,7 +56,7 @@ Gets or sets the [WorkTimeHolidayGroupId](WorkTimeHolidayGroupId.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WorkTime.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/WorkTime.ts#L19)
+[src/types/Checkmate/ObjectModel/WorkTime.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WorkTime.ts#L19)
 
 ___
 
@@ -72,7 +72,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -88,4 +88,4 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WorkTime.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/WorkTime.ts#L21)
+[src/types/Checkmate/ObjectModel/WorkTime.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WorkTime.ts#L21)

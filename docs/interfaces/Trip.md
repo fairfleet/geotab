@@ -63,7 +63,7 @@ Gets the distance the vehicle was driven after work hours (in km).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L19)
+[src/types/Checkmate/ObjectModel/Trip.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L19)
 
 ___
 
@@ -75,7 +75,7 @@ Gets the duration the vehicle was driven after work hours.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L21)
+[src/types/Checkmate/ObjectModel/Trip.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L21)
 
 ___
 
@@ -87,7 +87,7 @@ Gets or sets whether the trip ends after hours.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L23)
+[src/types/Checkmate/ObjectModel/Trip.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L23)
 
 ___
 
@@ -99,7 +99,7 @@ Gets or sets whether the trip starts after hours.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:25](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L25)
+[src/types/Checkmate/ObjectModel/Trip.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L25)
 
 ___
 
@@ -111,7 +111,7 @@ Gets the duration the vehicle was stopped after work hours.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L27)
+[src/types/Checkmate/ObjectModel/Trip.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L27)
 
 ___
 
@@ -123,7 +123,7 @@ Gets average speed in km/h. This only includes the average speed while driving.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:29](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L29)
+[src/types/Checkmate/ObjectModel/Trip.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L29)
 
 ___
 
@@ -137,7 +137,7 @@ Gets the trip date time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:35](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L35)
+[src/types/Checkmate/ObjectModel/Trip.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L35)
 
 ___
 
@@ -149,7 +149,7 @@ Gets or sets the [Device](Device.md) associated with the trip.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:37](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L37)
+[src/types/Checkmate/ObjectModel/Trip.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L37)
 
 ___
 
@@ -161,7 +161,7 @@ Gets or sets the distance the vehicle was driven during this trip (in km).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:39](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L39)
+[src/types/Checkmate/ObjectModel/Trip.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L39)
 
 ___
 
@@ -173,7 +173,7 @@ Gets or sets the [Driver](Driver.md) for the trip.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:41](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L41)
+[src/types/Checkmate/ObjectModel/Trip.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L41)
 
 ___
 
@@ -185,7 +185,7 @@ Gets or sets the duration between the start and stop of the trip.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:43](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L43)
+[src/types/Checkmate/ObjectModel/Trip.ts:43](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L43)
 
 ___
 
@@ -197,7 +197,7 @@ Gets or sets a value indicating the engine hours as of the end of the trip.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:45](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L45)
+[src/types/Checkmate/ObjectModel/Trip.ts:45](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L45)
 
 ___
 
@@ -209,7 +209,7 @@ Gets the "From" Date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:47](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L47)
+[src/types/Checkmate/ObjectModel/Trip.ts:47](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L47)
 
 ___
 
@@ -225,7 +225,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -238,7 +238,7 @@ Gets or sets total end of trip idling (idling is defined as speed is 0 and ignit
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:52](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L52)
+[src/types/Checkmate/ObjectModel/Trip.ts:52](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L52)
 
 ___
 
@@ -250,7 +250,7 @@ Gets or sets a value indicating if this trip have a seat belt off incident.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:54](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L54)
+[src/types/Checkmate/ObjectModel/Trip.ts:54](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L54)
 
 ___
 
@@ -262,7 +262,7 @@ Gets or sets the maximum speed of the vehicle during this trip (in km/h).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:56](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L56)
+[src/types/Checkmate/ObjectModel/Trip.ts:56](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L56)
 
 ___
 
@@ -274,7 +274,7 @@ Gets the start date of the next trip.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:58](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L58)
+[src/types/Checkmate/ObjectModel/Trip.ts:58](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L58)
 
 ___
 
@@ -286,7 +286,7 @@ Gets or sets a value indicating the vehicle odometer value as of the end of the 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:60](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L60)
+[src/types/Checkmate/ObjectModel/Trip.ts:60](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L60)
 
 ___
 
@@ -298,7 +298,7 @@ Gets or sets the number of incidents where the vehicle reached the first range o
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:62](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L62)
+[src/types/Checkmate/ObjectModel/Trip.ts:62](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L62)
 
 ___
 
@@ -310,7 +310,7 @@ Gets or sets the duration where the vehicle drove in the first range of speeding
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:64](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L64)
+[src/types/Checkmate/ObjectModel/Trip.ts:64](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L64)
 
 ___
 
@@ -322,7 +322,7 @@ Gets or sets the number of incidents where the vehicle reached the second range 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:66](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L66)
+[src/types/Checkmate/ObjectModel/Trip.ts:66](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L66)
 
 ___
 
@@ -334,7 +334,7 @@ Gets or sets the duration where the vehicle drove in the second range of speedin
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:68](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L68)
+[src/types/Checkmate/ObjectModel/Trip.ts:68](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L68)
 
 ___
 
@@ -346,7 +346,7 @@ Gets or sets the number of incidents where the vehicle reached the third range o
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:70](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L70)
+[src/types/Checkmate/ObjectModel/Trip.ts:70](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L70)
 
 ___
 
@@ -358,7 +358,7 @@ Gets or sets the duration where the vehicle drove in the third range of speeding
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:72](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L72)
+[src/types/Checkmate/ObjectModel/Trip.ts:72](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L72)
 
 ___
 
@@ -370,7 +370,7 @@ Gets or sets the date and time that the trip started.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:74](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L74)
+[src/types/Checkmate/ObjectModel/Trip.ts:74](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L74)
 
 ___
 
@@ -382,7 +382,7 @@ Gets or sets the date and time the trip stopped.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:76](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L76)
+[src/types/Checkmate/ObjectModel/Trip.ts:76](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L76)
 
 ___
 
@@ -394,7 +394,7 @@ Gets or sets the duration the vehicle was stopped at the end of the trip. This a
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:78](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L78)
+[src/types/Checkmate/ObjectModel/Trip.ts:78](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L78)
 
 ___
 
@@ -406,7 +406,7 @@ Gets or sets the [Coordinate](Coordinate.md) associated with this Trip's stop.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:80](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L80)
+[src/types/Checkmate/ObjectModel/Trip.ts:80](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L80)
 
 ___
 
@@ -418,7 +418,7 @@ Gets the "To" Date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:82](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L82)
+[src/types/Checkmate/ObjectModel/Trip.ts:82](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L82)
 
 ___
 
@@ -430,7 +430,7 @@ Gets or sets the distance the vehicle was driven during work hours.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:84](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L84)
+[src/types/Checkmate/ObjectModel/Trip.ts:84](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L84)
 
 ___
 
@@ -442,7 +442,7 @@ Gets or sets the duration the vehicle was driven during work hours.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:86](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L86)
+[src/types/Checkmate/ObjectModel/Trip.ts:86](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L86)
 
 ___
 
@@ -454,4 +454,4 @@ Gets or sets the duration the vehicle was stopped during work hours.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trip.ts:88](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Trip.ts#L88)
+[src/types/Checkmate/ObjectModel/Trip.ts:88](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trip.ts#L88)

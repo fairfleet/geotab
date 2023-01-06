@@ -23,7 +23,7 @@ Gets or sets the bottom latitude. Minimum value [-90]. Maximum value [90]. Defau
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts#L8)
+[src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts#L8)
 
 ___
 
@@ -35,7 +35,7 @@ Gets or sets the left longitude. Minimum value [-180]. Maximum value [180]. Defa
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts#L10)
+[src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts#L10)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets the right longitude. Minimum value [-180]. Maximum value [180]. Def
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts#L12)
+[src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts#L12)
 
 ___
 
@@ -59,4 +59,4 @@ Gets or sets the top latitude. Minimum value [-90]. Maximum value [90]. Default 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts#L14)
+[src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Geographical/BoundingBox.ts#L14)

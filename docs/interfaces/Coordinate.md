@@ -21,7 +21,7 @@ Gets or sets specify x for the longitude.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Coordinate.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Coordinate.ts#L8)
+[src/types/Checkmate/ObjectModel/Coordinate.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Coordinate.ts#L8)
 
 ___
 
@@ -33,4 +33,4 @@ Gets or sets specify y for the latitude.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Coordinate.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Coordinate.ts#L10)
+[src/types/Checkmate/ObjectModel/Coordinate.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Coordinate.ts#L10)

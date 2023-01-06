@@ -33,7 +33,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -49,7 +49,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
 
 ___
 
@@ -62,7 +62,7 @@ Gets or sets a list of recipients that will be notified when the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DistributionList.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DistributionList.ts#L17)
+[src/types/Checkmate/ObjectModel/DistributionList.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DistributionList.ts#L17)
 
 ___
 
@@ -75,4 +75,4 @@ Gets or sets the list of [Rule](Rule.md)(s) that the [Recipient](Recipient.md)(s
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DistributionList.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DistributionList.ts#L22)
+[src/types/Checkmate/ObjectModel/DistributionList.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DistributionList.ts#L22)

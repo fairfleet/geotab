@@ -34,7 +34,7 @@ Gets or sets the [Controller](Controller.md) for the [Device](Device.md) specifi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/StatusData.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/StatusData.ts#L16)
+[src/types/Checkmate/ObjectModel/Engine/StatusData.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/StatusData.ts#L16)
 
 ___
 
@@ -46,7 +46,7 @@ Gets or sets the recorded value of the diagnostic parameter.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/StatusData.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/StatusData.ts#L18)
+[src/types/Checkmate/ObjectModel/Engine/StatusData.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/StatusData.ts#L18)
 
 ___
 
@@ -58,7 +58,7 @@ Gets or sets the date and time of the logged event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/StatusData.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/StatusData.ts#L20)
+[src/types/Checkmate/ObjectModel/Engine/StatusData.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/StatusData.ts#L20)
 
 ___
 
@@ -70,7 +70,7 @@ Gets or sets the StatusData for the [Device](Device.md) specified.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/StatusData.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/StatusData.ts#L22)
+[src/types/Checkmate/ObjectModel/Engine/StatusData.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/StatusData.ts#L22)
 
 ___
 
@@ -82,7 +82,7 @@ Gets or sets the [Diagnostic](Diagnostic.md) for the [Device](Device.md) specifi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/StatusData.ts:24](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/StatusData.ts#L24)
+[src/types/Checkmate/ObjectModel/Engine/StatusData.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/StatusData.ts#L24)
 
 ___
 
@@ -98,7 +98,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -111,7 +111,7 @@ Gets or sets a value indicating whether this instance is the last active record 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/StatusData.ts:29](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/StatusData.ts#L29)
+[src/types/Checkmate/ObjectModel/Engine/StatusData.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/StatusData.ts#L29)
 
 ___
 
@@ -127,4 +127,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

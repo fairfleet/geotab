@@ -35,7 +35,7 @@ Gets or sets the maximum number of Devices to search for when specifying a "Posi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:13](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L13)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L13)
 
 ___
 
@@ -50,7 +50,7 @@ Gets or sets search for [DeviceStatusInfo](DeviceStatusInfo.md)(s) from a device
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L20)
 
 ___
 
@@ -62,7 +62,7 @@ Gets or sets a value indicating whether to exclude exception events. Default [fa
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L22)
 
 ___
 
@@ -78,7 +78,7 @@ Gets or sets [DeviceStatusInfo](DeviceStatusInfo.md)Id search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:24](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L24)
 
 ___
 
@@ -90,7 +90,7 @@ Gets or sets the maximum Id of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:26](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L26)
 
 ___
 
@@ -102,7 +102,7 @@ Gets or sets the maximum search radius centre at Position when looking for neare
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:28](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L28)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L28)
 
 ___
 
@@ -117,7 +117,7 @@ Gets or sets search for Status Info for Devices in the vicinity of the provided
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:35](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L35)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L35)
 
 ___
 
@@ -133,7 +133,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -147,7 +147,7 @@ Gets or sets search for Device Status Info associated with this [UserSearch](Use
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:41](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L41)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L41)
 
 ___
 
@@ -163,4 +163,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)

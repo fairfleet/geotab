@@ -36,7 +36,7 @@ Gets or sets filter by the [DeviceSearch](DeviceSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts#L19)
 
 ___
 
@@ -48,7 +48,7 @@ Gets or sets search for [TripTypeChange](TripTypeChange.md)s recorded at this da
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts#L21)
 
 ___
 
@@ -64,7 +64,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -76,7 +76,7 @@ Gets or sets a value indicating whether gets or sets a value to include the firs
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts#L23)
+[src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts#L23)
 
 ___
 
@@ -92,7 +92,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -104,7 +104,7 @@ Gets or sets search for [TripTypeChange](TripTypeChange.md)s recorded at this da
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts:25](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts#L25)
+[src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TripTypeChangeSearch.ts#L25)
 
 ___
 
@@ -120,4 +120,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)

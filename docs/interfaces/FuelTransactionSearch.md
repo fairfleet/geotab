@@ -40,7 +40,7 @@ Gets or sets search for FuelTransactions for this [DeviceSearch](DeviceSearch.md
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L17)
 
 ___
 
@@ -52,7 +52,7 @@ Gets or sets the DriverName.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L19)
 
 ___
 
@@ -64,7 +64,7 @@ Gets or sets search for Fuel Transactions with this External Reference. Wildcard
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L21)
 
 ___
 
@@ -76,7 +76,7 @@ Gets or sets the from date, which is used to search for FuelTransactions that oc
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L23)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L23)
 
 ___
 
@@ -92,7 +92,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -104,7 +104,7 @@ Gets or sets a value indicating whether to include source data with transaction.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:25](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L25)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L25)
 
 ___
 
@@ -116,7 +116,7 @@ Gets or sets the maximum version for which FuelTransactions should be searched.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L27)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L27)
 
 ___
 
@@ -132,7 +132,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -144,7 +144,7 @@ Gets or sets search by the [FuelTransactionProvider](../README.md#fueltransactio
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:29](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L29)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L29)
 
 ___
 
@@ -156,7 +156,7 @@ Gets or sets the to date, which is used to search for FuelTransactions that occu
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:31](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L31)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L31)
 
 ___
 
@@ -170,7 +170,7 @@ Gets or sets search for FuelTransactions for this [UserSearch](UserSearch.md) Id
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:37](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L37)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L37)
 
 ___
 
@@ -182,7 +182,7 @@ Gets or sets the VehicleIdentificationNumber.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:39](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L39)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionSearch.ts#L39)
 
 ___
 
@@ -198,4 +198,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)

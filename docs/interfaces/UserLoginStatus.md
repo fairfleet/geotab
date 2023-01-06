@@ -31,7 +31,7 @@ Gets or sets updated time of this record.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserLoginStatus.ts:11](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserLoginStatus.ts#L11)
+[src/types/Checkmate/ObjectModel/UserLoginStatus.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserLoginStatus.ts#L11)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets user's first failure authentication time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserLoginStatus.ts:13](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserLoginStatus.ts#L13)
+[src/types/Checkmate/ObjectModel/UserLoginStatus.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserLoginStatus.ts#L13)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -71,7 +71,7 @@ Gets or sets user's lockout time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserLoginStatus.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserLoginStatus.ts#L15)
+[src/types/Checkmate/ObjectModel/UserLoginStatus.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserLoginStatus.ts#L15)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets user's failure count.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserLoginStatus.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserLoginStatus.ts#L17)
+[src/types/Checkmate/ObjectModel/UserLoginStatus.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserLoginStatus.ts#L17)
 
 ___
 
@@ -95,4 +95,4 @@ Gets or sets the user.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserLoginStatus.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserLoginStatus.ts#L19)
+[src/types/Checkmate/ObjectModel/UserLoginStatus.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserLoginStatus.ts#L19)

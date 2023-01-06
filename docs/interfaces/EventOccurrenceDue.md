@@ -36,7 +36,7 @@ Gets or sets the number of days the event is due in.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L15)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L15)
 
 ___
 
@@ -48,7 +48,7 @@ Gets or sets the engine hours the event is due.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L17)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L17)
 
 ___
 
@@ -60,7 +60,7 @@ Gets or sets the odometer the event is due.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L19)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L19)
 
 ___
 
@@ -72,7 +72,7 @@ Gets or sets the date the event is due.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L21)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L21)
 
 ___
 
@@ -84,7 +84,7 @@ Gets or sets the event that is due or overdue.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L23)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L23)
 
 ___
 
@@ -100,7 +100,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L27)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L27)
 
 ___
 
@@ -112,7 +112,7 @@ Gets or sets the number of days the event is overdue by.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:29](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L29)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L29)
 
 ___
 
@@ -124,7 +124,7 @@ Gets or sets the engine hours the event is overdue by.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:31](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L31)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L31)
 
 ___
 
@@ -136,4 +136,4 @@ Gets or sets the odometer the event is overdue by.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:33](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L33)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L33)

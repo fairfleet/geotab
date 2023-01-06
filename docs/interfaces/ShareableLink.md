@@ -35,7 +35,7 @@ Gets or sets the comments.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShareableLink.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ShareableLink.ts#L17)
+[src/types/Checkmate/ObjectModel/ShareableLink.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShareableLink.ts#L17)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets the location.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShareableLink.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ShareableLink.ts#L19)
+[src/types/Checkmate/ObjectModel/ShareableLink.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShareableLink.ts#L19)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShareableLink.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ShareableLink.ts#L21)
+[src/types/Checkmate/ObjectModel/ShareableLink.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShareableLink.ts#L21)
 
 ___
 
@@ -71,7 +71,7 @@ Gets or sets the expiry date time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShareableLink.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ShareableLink.ts#L23)
+[src/types/Checkmate/ObjectModel/ShareableLink.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShareableLink.ts#L23)
 
 ___
 
@@ -87,7 +87,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -99,7 +99,7 @@ Gets or sets the link to share.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShareableLink.ts:25](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ShareableLink.ts#L25)
+[src/types/Checkmate/ObjectModel/ShareableLink.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShareableLink.ts#L25)
 
 ___
 
@@ -111,7 +111,7 @@ Gets or sets the start date time of the shareable link.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShareableLink.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ShareableLink.ts#L27)
+[src/types/Checkmate/ObjectModel/ShareableLink.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShareableLink.ts#L27)
 
 ___
 
@@ -123,4 +123,4 @@ Gets or sets the user.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShareableLink.ts:29](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ShareableLink.ts#L29)
+[src/types/Checkmate/ObjectModel/ShareableLink.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShareableLink.ts#L29)

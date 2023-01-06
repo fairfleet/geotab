@@ -30,4 +30,4 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceReplacement/ReplacementStatus.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceReplacement/ReplacementStatus.ts#L12)
+[src/types/Checkmate/ObjectModel/DeviceReplacement/ReplacementStatus.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceReplacement/ReplacementStatus.ts#L12)

@@ -32,7 +32,7 @@ Gets or sets the [Device](Device.md) associated with this user device link.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserDeviceLink.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserDeviceLink.ts#L15)
+[src/types/Checkmate/ObjectModel/UserDeviceLink.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserDeviceLink.ts#L15)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets the [User](User.md) who created the user device linkage.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserDeviceLink.ts:17](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserDeviceLink.ts#L17)
+[src/types/Checkmate/ObjectModel/UserDeviceLink.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserDeviceLink.ts#L17)
 
 ___
 
@@ -56,7 +56,7 @@ Gets or sets the link type
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserDeviceLink.ts:19](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserDeviceLink.ts#L19)
+[src/types/Checkmate/ObjectModel/UserDeviceLink.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserDeviceLink.ts#L19)
 
 ___
 
@@ -68,7 +68,7 @@ Gets or sets the date when the link was added.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserDeviceLink.ts:21](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserDeviceLink.ts#L21)
+[src/types/Checkmate/ObjectModel/UserDeviceLink.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserDeviceLink.ts#L21)
 
 ___
 
@@ -84,7 +84,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -96,7 +96,7 @@ Gets or sets the date when the link was removed.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserDeviceLink.ts:23](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/UserDeviceLink.ts#L23)
+[src/types/Checkmate/ObjectModel/UserDeviceLink.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserDeviceLink.ts#L23)
 
 ___
 
@@ -112,4 +112,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

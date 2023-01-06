@@ -35,7 +35,7 @@ Gets or sets the External Reference of the Property.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Property.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Property.ts#L12)
+[src/types/Checkmate/ObjectModel/Property.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Property.ts#L12)
 
 ___
 
@@ -51,7 +51,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -63,7 +63,7 @@ Gets or sets a value indicating whether the Property needs to be populated or no
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Property.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Property.ts#L14)
+[src/types/Checkmate/ObjectModel/Property.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Property.ts#L14)
 
 ___
 
@@ -75,7 +75,7 @@ Gets or sets a value indicating whether the Property is visible or not to the UI
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Property.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Property.ts#L16)
+[src/types/Checkmate/ObjectModel/Property.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Property.ts#L16)
 
 ___
 
@@ -87,7 +87,7 @@ Gets or sets the maximum length of the Property.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Property.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Property.ts#L18)
+[src/types/Checkmate/ObjectModel/Property.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Property.ts#L18)
 
 ___
 
@@ -99,7 +99,7 @@ Gets or sets the minimum length of the Property.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Property.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Property.ts#L20)
+[src/types/Checkmate/ObjectModel/Property.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Property.ts#L20)
 
 ___
 
@@ -111,7 +111,7 @@ Gets or sets the Name of the Property.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Property.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Property.ts#L22)
+[src/types/Checkmate/ObjectModel/Property.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Property.ts#L22)
 
 ___
 
@@ -123,7 +123,7 @@ Gets or sets the Property.PropertySet that this Property belongs to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Property.ts:24](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Property.ts#L24)
+[src/types/Checkmate/ObjectModel/Property.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Property.ts#L24)
 
 ___
 
@@ -135,7 +135,7 @@ Gets or sets the support type of the Property.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Property.ts:26](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Property.ts#L26)
+[src/types/Checkmate/ObjectModel/Property.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Property.ts#L26)
 
 ___
 
@@ -151,4 +151,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

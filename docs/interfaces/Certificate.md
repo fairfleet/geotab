@@ -35,7 +35,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets a value indicating whether certificate is a root certificate that i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Certificate.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Certificate.ts#L10)
+[src/types/Checkmate/ObjectModel/Certificate.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Certificate.ts#L10)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets the issuer of the [Certificate](Certificate.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Certificate.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Certificate.ts#L12)
+[src/types/Checkmate/ObjectModel/Certificate.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Certificate.ts#L12)
 
 ___
 
@@ -71,7 +71,7 @@ Gets or sets the public key of the [Certificate](Certificate.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Certificate.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Certificate.ts#L14)
+[src/types/Checkmate/ObjectModel/Certificate.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Certificate.ts#L14)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets the Uri to go to when a [User](User.md) with this [Certificate](Cer
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Certificate.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Certificate.ts#L16)
+[src/types/Checkmate/ObjectModel/Certificate.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Certificate.ts#L16)
 
 ___
 
@@ -95,4 +95,4 @@ Gets or sets the Uri to go to when a [User](User.md) with this [Certificate](Cer
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Certificate.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Certificate.ts#L18)
+[src/types/Checkmate/ObjectModel/Certificate.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Certificate.ts#L18)

@@ -31,7 +31,7 @@ Gets or sets the city name. In some cases there is a suburb and city and these a
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L16)
+[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L16)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets the country name.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L18)
+[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L18)
 
 ___
 
@@ -55,7 +55,7 @@ Gets or sets the full formatted address, containing all the available informatio
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L20)
+[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L20)
 
 ___
 
@@ -68,7 +68,7 @@ Gets or sets the secondary or other city name. In some cases there is a suburb a
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:25](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L25)
+[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L25)
 
 ___
 
@@ -80,7 +80,7 @@ Gets or sets the postal code (ZIP code in USA).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L27)
+[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L27)
 
 ___
 
@@ -92,7 +92,7 @@ Gets or sets the Region name. This is typically a province, state, region or con
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:29](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L29)
+[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L29)
 
 ___
 
@@ -104,7 +104,7 @@ Gets or sets the street name of the address; this will not always include the st
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:31](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L31)
+[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L31)
 
 ___
 
@@ -116,7 +116,7 @@ Gets or sets the street name of the address.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:33](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L33)
+[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L33)
 
 ___
 
@@ -128,7 +128,7 @@ Gets or sets the street number of the address.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:35](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L35)
+[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L35)
 
 ___
 
@@ -140,4 +140,4 @@ Gets or sets the collection of [Zone](Zone.md)(s) the address is within.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:37](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L37)
+[src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReverseGeocodeAddress.ts#L37)

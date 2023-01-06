@@ -44,7 +44,7 @@ Gets or sets filter by the [DeviceSearch](DeviceSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts:27](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts#L27)
+[src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts#L27)
 
 ___
 
@@ -58,7 +58,7 @@ Gets or sets search for StatusData with this [DiagnosticSearch](DiagnosticSearch
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts:33](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts#L33)
+[src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts#L33)
 
 ___
 
@@ -70,7 +70,7 @@ Gets or sets search for StatusData records that were logged at this date or afte
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts:35](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts#L35)
+[src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts#L35)
 
 ___
 
@@ -86,7 +86,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -98,7 +98,7 @@ Gets or sets a value indicating whether [observe active state].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts:37](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts#L37)
+[src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts#L37)
 
 ___
 
@@ -114,7 +114,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -126,7 +126,7 @@ Gets or sets search for StatusData records that were logged at this date or befo
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts:39](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts#L39)
+[src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts#L39)
 
 ___
 
@@ -142,4 +142,4 @@ Gets or sets the row version of the [StatusData](StatusData.md) search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts:41](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts#L41)
+[src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/StatusDataSearch.ts#L41)

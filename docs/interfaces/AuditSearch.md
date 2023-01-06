@@ -33,7 +33,7 @@ Gets or sets search for audit entries that were recorded at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AuditSearch.ts:10](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AuditSearch.ts#L10)
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AuditSearch.ts#L10)
 
 ___
 
@@ -49,7 +49,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -61,7 +61,7 @@ Gets or sets search for entities that contain specific keywords in all wildcard 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AuditSearch.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AuditSearch.ts#L12)
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AuditSearch.ts#L12)
 
 ___
 
@@ -73,7 +73,7 @@ Gets or sets search for audit entries with this Name. Wildcard can be used by pr
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AuditSearch.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AuditSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AuditSearch.ts#L14)
 
 ___
 
@@ -89,7 +89,7 @@ Gets or sets Search.PropertySelector of the searched value fields to include or 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
 
 ___
 
@@ -101,7 +101,7 @@ Gets or sets search for audit entries that were recorded before this date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AuditSearch.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AuditSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AuditSearch.ts#L16)
 
 ___
 
@@ -113,7 +113,7 @@ Gets or sets search for audit entries with this User Name. Wildcard can be used 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AuditSearch.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AuditSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AuditSearch.ts#L18)
 
 ___
 
@@ -129,4 +129,4 @@ Gets or sets the row version of the [Audit](Audit.md) search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AuditSearch.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/AuditSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AuditSearch.ts#L20)

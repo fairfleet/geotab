@@ -35,7 +35,7 @@ Gets or sets the actual registration state.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:12](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L12)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L12)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets the record creation date time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:14](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L14)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L14)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets the device ID.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:16](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L16)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L16)
 
 ___
 
@@ -71,7 +71,7 @@ Gets or sets the exception message.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:18](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L18)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L18)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets the exception type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:20](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L20)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L20)
 
 ___
 
@@ -95,7 +95,7 @@ Gets or sets the hardware ID.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:22](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L22)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L22)
 
 ___
 
@@ -111,7 +111,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
 
 ___
 
@@ -123,7 +123,7 @@ Gets or sets the intended registration state.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:24](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L24)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L24)
 
 ___
 
@@ -135,7 +135,7 @@ Gets or sets the flag indicating this record is the most recent, compared to his
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:26](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L26)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L26)
 
 ___
 
@@ -147,4 +147,4 @@ Gets or sets the jurisdiction.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:28](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L28)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationState.ts#L28)

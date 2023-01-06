@@ -20,4 +20,4 @@ Gets or sets the value of the destination count condition.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleConditions.ts:8](https://github.com/fairfleet/geotab/blob/d57d931/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleConditions.ts#L8)
+[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleConditions.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleConditions.ts#L8)
