@@ -51,12 +51,12 @@ jobs:
         run: pnpm build
 
       - name: Set publishing config
-        run: pnpm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
+        run: pnpm config set '//registry.npmjs.org/:_authToken' '${NPM_TOKEN}'
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish
-        run: pnpm publish --no-git-checks dist/
+        run: pnpm publish dist/
 
       - name: Create git tag
         run: |
