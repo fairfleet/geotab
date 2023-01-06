@@ -8,5 +8,37 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts"],
+  "typedocOptions": {
+    "out": "docs",
+    "readme": "none",
+    "entryPoints": ["src/index.ts"],
+    "entryPointStrategy": "expand",
+    "kindSortOrder": [
+      "Function",
+      "Reference",
+      "Project",
+      "Module",
+      "Namespace",
+      "Enum",
+      "EnumMember",
+      "Class",
+      "Interface",
+      "TypeAlias",
+      "Constructor",
+      "Property",
+      "Variable",
+      "Accessor",
+      "Method",
+      "ObjectLiteral",
+      "Parameter",
+      "TypeParameter",
+      "TypeLiteral",
+      "CallSignature",
+      "ConstructorSignature",
+      "IndexSignature",
+      "GetSignature",
+      "SetSignature"
+    ]
+  }
 }

@@ -5,7 +5,7 @@
   "module": "./esm/index.js",
   "author": "Fairfleet Gmbh",
   "license": "MIT",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "keywords": [
     "geotab",
     "api",
@@ -26,7 +26,8 @@
     "bench": "vitest bench --dir \"src\"",
     "lint": "eslint --ext .ts,.tsx .",
     "test:examples": "vitest \"examples/src/\"",
-    "build": "pnpm build:types && pnpm build:vite && pnpm build:copy-files",
+    "build": "pnpm build:types && pnpm build:vite && pnpm build:copy-files && pnpm build:docs",
+    "build:docs": "typedoc --plugin typedoc-plugin-markdown",
     "build:vite": "vite build",
     "build:types": "node tools/generate.js",
     "build:copy-files": "node tools/copyFiles.js",
@@ -42,13 +43,15 @@
     "fast-glob": "^3.2.12",
     "prettier": "^2.7.1",
     "terser": "^5.15.1",
+    "typedoc": "^0.23.23",
+    "typedoc-plugin-markdown": "^3.14.0",
     "typescript": "^4.7.3",
     "vite": "^3.2.3",
     "vitest": "^0.25.3"
   },
   "dependencies": {
-    "nanoid": "^4.0.0",
     "cross-fetch": "^3.1.5",
+    "nanoid": "^4.0.0",
     "ts-toolbelt": "^9.6.0"
   }
 }
