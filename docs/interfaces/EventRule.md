@@ -14,8 +14,12 @@ The rule describing an event.
 
 ### Properties
 
+- [assetCount](EventRule.md#assetcount)
 - [comment](EventRule.md#comment)
 - [dateTime](EventRule.md#datetime)
+- [dayOfMonth](EventRule.md#dayofmonth)
+- [dayOfWeek](EventRule.md#dayofweek)
+- [dayOfWeekName](EventRule.md#dayofweekname)
 - [days](EventRule.md#days)
 - [engineHours](EventRule.md#enginehours)
 - [eventDate](EventRule.md#eventdate)
@@ -26,8 +30,21 @@ The rule describing an event.
 - [months](EventRule.md#months)
 - [name](EventRule.md#name)
 - [notificationTemplate](EventRule.md#notificationtemplate)
+- [weeks](EventRule.md#weeks)
 
 ## Properties
+
+### assetCount
+
+• **assetCount**: `number`
+
+Gets or sets the number of assets associated with this event rule.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/EventRule.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L13)
+
+___
 
 ### comment
 
@@ -37,7 +54,7 @@ Gets or sets free text field where any user information can be stored and refere
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRule.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRule.ts#L13)
+[src/types/Checkmate/ObjectModel/EventRule.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L15)
 
 ___
 
@@ -49,7 +66,43 @@ Gets or sets the EventRule.DateTime of the event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRule.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRule.ts#L15)
+[src/types/Checkmate/ObjectModel/EventRule.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L17)
+
+___
+
+### dayOfMonth
+
+• **dayOfMonth**: `number`
+
+Gets or sets the day of month.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/EventRule.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L19)
+
+___
+
+### dayOfWeek
+
+• **dayOfWeek**: `number`
+
+Gets or sets the day of week.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/EventRule.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L21)
+
+___
+
+### dayOfWeekName
+
+• **dayOfWeekName**: `string`
+
+Gets or sets the day of week name.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/EventRule.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L23)
 
 ___
 
@@ -61,7 +114,7 @@ Gets or sets the days.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRule.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRule.ts#L17)
+[src/types/Checkmate/ObjectModel/EventRule.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L25)
 
 ___
 
@@ -73,7 +126,7 @@ Gets or sets the engine hours.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRule.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRule.ts#L19)
+[src/types/Checkmate/ObjectModel/EventRule.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L27)
 
 ___
 
@@ -85,19 +138,19 @@ Gets or sets the event date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRule.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRule.ts#L21)
+[src/types/Checkmate/ObjectModel/EventRule.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L29)
 
 ___
 
 ### eventType
 
-• **eventType**: [`NameEntity`](NameEntity.md)
+• **eventType**: [`EventType`](EventType.md)
 
 Gets or sets the type of the event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRule.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRule.ts#L23)
+[src/types/Checkmate/ObjectModel/EventRule.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L31)
 
 ___
 
@@ -109,7 +162,7 @@ Gets or sets a list of [Group](Group.md)(s) assigned to the event rule.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRule.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRule.ts#L25)
+[src/types/Checkmate/ObjectModel/EventRule.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L33)
 
 ___
 
@@ -125,7 +178,7 @@ Gets or sets gets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRule.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRule.ts#L27)
+[src/types/Checkmate/ObjectModel/EventRule.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L35)
 
 ___
 
@@ -137,7 +190,7 @@ Gets or sets the kilometers.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRule.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRule.ts#L29)
+[src/types/Checkmate/ObjectModel/EventRule.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L37)
 
 ___
 
@@ -149,7 +202,7 @@ Gets or sets the months.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRule.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRule.ts#L31)
+[src/types/Checkmate/ObjectModel/EventRule.ts:39](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L39)
 
 ___
 
@@ -165,7 +218,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRule.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRule.ts#L33)
+[src/types/Checkmate/ObjectModel/EventRule.ts:41](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L41)
 
 ___
 
@@ -177,4 +230,16 @@ Gets or sets the notification template [NotificationBinaryFile](NotificationBina
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventRule.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventRule.ts#L35)
+[src/types/Checkmate/ObjectModel/EventRule.ts:43](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L43)
+
+___
+
+### weeks
+
+• **weeks**: `number`
+
+Gets or sets the weeks.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/EventRule.ts:45](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventRule.ts#L45)

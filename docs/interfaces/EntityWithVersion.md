@@ -16,8 +16,6 @@ An Entity with a version.
 
   ↳↳ [`ChargeEvent`](ChargeEvent.md)
 
-  ↳↳ [`DVIRLog`](DVIRLog.md)
-
   ↳↳ [`DeviceLink`](DeviceLink.md)
 
   ↳↳ [`DeviceStatusInfo`](DeviceStatusInfo.md)
@@ -26,7 +24,7 @@ An Entity with a version.
 
   ↳↳ [`DutyStatusLog`](DutyStatusLog.md)
 
-  ↳↳ [`EnergyConsumed`](EnergyConsumed.md)
+  ↳↳ [`DVIRLog`](DVIRLog.md)
 
   ↳↳ [`DisplayMeasurementProfileDetail`](DisplayMeasurementProfileDetail.md)
 
@@ -40,9 +38,9 @@ An Entity with a version.
 
   ↳↳ [`InstallRecord`](InstallRecord.md)
 
-  ↳↳ [`Notification`](Notification.md)
+  ↳↳ [`IoxAddOnStatus`](IoxAddOnStatus.md)
 
-  ↳↳ [`EnergyConsumedProcessing`](EnergyConsumedProcessing.md)
+  ↳↳ [`Notification`](Notification.md)
 
   ↳↳ [`Property`](Property.md)
 
@@ -52,6 +50,8 @@ An Entity with a version.
 
   ↳↳ [`ShipmentLog`](ShipmentLog.md)
 
+  ↳↳ [`TachographDataFile`](TachographDataFile.md)
+
   ↳↳ [`TextMessage`](TextMessage.md)
 
   ↳↳ [`TrailerAttachment`](TrailerAttachment.md)
@@ -59,8 +59,6 @@ An Entity with a version.
   ↳↳ [`UserDeviceLink`](UserDeviceLink.md)
 
   ↳↳ [`UserHosRuleSet`](UserHosRuleSet.md)
-
-  ↳↳ [`VehicleConfiguration`](VehicleConfiguration.md)
 
 ## Table of contents
 
@@ -83,7 +81,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -95,4 +93,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

@@ -6,7 +6,7 @@ The notification data pertaining to Maintenance Reminders.
 
 ## Hierarchy
 
-- [`NotificationData`](../README.md#notificationdata)
+- [`NotificationData`](NotificationData.md)
 
   ↳ **`NotificationMaintenanceReminderData`**
 
@@ -33,7 +33,7 @@ Gets or sets the device serial nubmer for this notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L13)
+[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L13)
 
 ___
 
@@ -45,7 +45,7 @@ Gets or sets the maintenance reminder that holds the data for this notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L15)
+[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L15)
 
 ___
 
@@ -57,11 +57,11 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Inherited from
 
-NotificationData.id
+[NotificationData](NotificationData.md).[id](NotificationData.md#id)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -73,7 +73,7 @@ Gets or sets the information for the notification maintenance reminder data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L17)
+[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L17)
 
 ___
 
@@ -85,7 +85,7 @@ Gets or sets the event rule that holds the data for this notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L19)
+[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L19)
 
 ___
 
@@ -97,7 +97,7 @@ Gets or sets the event rule that holds the data for this notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L21)
+[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L21)
 
 ___
 
@@ -109,7 +109,7 @@ Gets or sets the event rule that holds the data for this notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L23)
+[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L23)
 
 ___
 
@@ -121,4 +121,4 @@ Gets or sets the [NotificationType](../README.md#notificationtype) of the notifi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L25)
+[src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationMaintenanceReminderData.ts#L25)

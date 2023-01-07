@@ -20,7 +20,6 @@ The object used to specify the arguments when searching for
 - [activeOnly](NotificationSearch.md#activeonly)
 - [id](NotificationSearch.md#id)
 - [notificationData](NotificationSearch.md#notificationdata)
-- [propertySelector](NotificationSearch.md#propertyselector)
 - [recipientSearch](NotificationSearch.md#recipientsearch)
 - [version](NotificationSearch.md#version)
 
@@ -34,7 +33,7 @@ Gets or sets a value indicating whether to search for active notifications only
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationSearch.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/NotificationSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationSearch.ts#L17)
 
 ___
 
@@ -50,35 +49,19 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
 ### notificationData
 
-• **notificationData**: [`Entity`](Entity.md)
+• **notificationData**: [`NotificationData`](NotificationData.md)
 
-Gets or sets search for Notifications with this [NotificationData](../README.md#notificationdata) Id.
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/NotificationSearch.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationSearch.ts#L19)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
+Gets or sets search for Notifications with this [NotificationData](NotificationData.md) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/NotificationSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationSearch.ts#L19)
 
 ___
 
@@ -90,7 +73,7 @@ Gets or sets search for Notifications with this [RecipientSearch](RecipientSearc
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationSearch.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/NotificationSearch.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationSearch.ts#L21)
 
 ___
 
@@ -106,4 +89,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

@@ -20,4 +20,4 @@ Gets or sets the type of message. See [MessageContentType](../README.md#messagec
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageContentType.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TextMessageContentType.ts#L10)
+[src/types/Checkmate/ObjectModel/TextMessageContentType.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageContentType.ts#L10)

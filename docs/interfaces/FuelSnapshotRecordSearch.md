@@ -19,7 +19,6 @@ The object used to specify the arguments when searching for a [FuelSnapshotRecor
 - [id](FuelSnapshotRecordSearch.md#id)
 - [includeAdjacent](FuelSnapshotRecordSearch.md#includeadjacent)
 - [isWaitingForData](FuelSnapshotRecordSearch.md#iswaitingfordata)
-- [propertySelector](FuelSnapshotRecordSearch.md#propertyselector)
 - [toDate](FuelSnapshotRecordSearch.md#todate)
 - [version](FuelSnapshotRecordSearch.md#version)
 
@@ -34,7 +33,7 @@ Gets or sets the device search criteria for the [FuelSnapshotRecord](FuelSnapsho
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts#L14)
 
 ___
 
@@ -46,7 +45,7 @@ Gets or sets the from date, which is used to search for [FuelSnapshotRecord](Fue
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts#L16)
 
 ___
 
@@ -62,7 +61,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -74,7 +73,7 @@ Gets or sets the IncludeAdjacent flag which, when true, includes the [FuelSnapsh
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts#L18)
 
 ___
 
@@ -86,23 +85,7 @@ Gets or sets the isWaitingForData flag which is used to search for [FuelSnapshot
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts#L20)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts#L20)
 
 ___
 
@@ -114,7 +97,7 @@ Gets or sets the to date, which is used to search for [FuelSnapshotRecord](FuelS
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelSnapshotRecordSearch.ts#L22)
 
 ___
 
@@ -130,4 +113,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

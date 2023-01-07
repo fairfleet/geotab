@@ -23,7 +23,7 @@ The recipient for a specific notification. A recipient is linked to
 ### Properties
 
 - [address](Recipient.md#address)
-- [dataPrivacyType](Recipient.md#dataprivacytype)
+- [dataModeType](Recipient.md#datamodetype)
 - [group](Recipient.md#group)
 - [id](Recipient.md#id)
 - [notificationBinaryFile](Recipient.md#notificationbinaryfile)
@@ -41,19 +41,19 @@ Gets or sets the email address used when sending notifications via Email.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Recipient.ts#L26)
+[src/types/Checkmate/ObjectModel/Recipient.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L26)
 
 ___
 
-### dataPrivacyType
+### dataModeType
 
-• **dataPrivacyType**: [`DataPrivacyType`](DataPrivacyType.md)
+• **dataModeType**: [`DataModeType`](DataModeType.md)
 
-Gets or sets the [DataPrivacyType](DataPrivacyType.md) to assign the related device to.
+Gets or sets the [DataModeType](DataModeType.md) to assign the related device to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Recipient.ts#L28)
+[src/types/Checkmate/ObjectModel/Recipient.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L28)
 
 ___
 
@@ -65,7 +65,7 @@ Gets or sets the [Group](Group.md) to assign the related device to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:30](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Recipient.ts#L30)
+[src/types/Checkmate/ObjectModel/Recipient.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L30)
 
 ___
 
@@ -81,7 +81,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -93,7 +93,7 @@ Gets or sets the NotificationBinaryFile to notify with.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:32](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Recipient.ts#L32)
+[src/types/Checkmate/ObjectModel/Recipient.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L32)
 
 ___
 
@@ -105,7 +105,7 @@ Gets or sets the [RecipientType](../README.md#recipienttype) (type of notificati
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:34](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Recipient.ts#L34)
+[src/types/Checkmate/ObjectModel/Recipient.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L34)
 
 ___
 
@@ -117,7 +117,7 @@ Gets or sets the [TripType](../README.md#triptype) to assign the related device 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:36](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Recipient.ts#L36)
+[src/types/Checkmate/ObjectModel/Recipient.ts:36](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L36)
 
 ___
 
@@ -129,4 +129,4 @@ Gets or sets the [User](User.md) to receive notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:38](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Recipient.ts#L38)
+[src/types/Checkmate/ObjectModel/Recipient.ts:38](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L38)

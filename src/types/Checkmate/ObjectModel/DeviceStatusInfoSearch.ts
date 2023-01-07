@@ -4,8 +4,10 @@
 
 import { Search } from "./Search";
 import { DeviceSearch } from "./DeviceSearch";
+import { DeviceStatusFilterCondition } from "./DeviceStatusFilterCondition";
 import { Coordinate } from "./Coordinate";
 import { UserSearch } from "./UserSearch";
+import { Diagnostic } from "./Engine/Diagnostic";
 
 /** The object used to specify the arguments when searching for {@link DeviceStatusInfo}(s). */
 export interface DeviceStatusInfoSearch extends Search {
@@ -18,10 +20,33 @@ export interface DeviceStatusInfoSearch extends Search {
    *  <list><item><description>Id</description></item><item><description>Groups</description></item></list>
    */
   deviceSearch: DeviceSearch;
+  /**
+   * Gets or sets devices based on current status, IsDriving and IsDeviceCommunicating.
+   *  And/Or filtering.
+   */
+  deviceStatusFilterCondition: DeviceStatusFilterCondition;
+  /**
+   * Gets or sets a list of diagnostics when looking for the latest values for those diagnostics.
+   *  Available Diagnostics options are:.
+   *  <list><item><description>Id</description></item></list>
+   */
+  diagnostics: Diagnostic[];
   /** Gets or sets a value indicating whether to exclude exception events. Default [false]. */
   excludeExceptionEvents: boolean;
   /** Gets or sets {@link DeviceStatusInfo}{@link Id} search criteria. */
   id: string;
+  /**
+   * Gets or sets search for devices based on their current communicating status.
+   *  A device is communicating:
+   *  - When the vehicle is driving and has communicated within the past 10 minutes.
+   *  - When the vehicle is not driving and has communicated within the past 24 hours.
+   */
+  isDeviceCommunicating: boolean;
+  /**
+   * Gets or sets a 'single' search filter for devices that are 'driving'.
+   *  Cannot be driving if not communicating.
+   */
+  isDriving: boolean;
   /** Gets or sets the maximum Id of the search criteria. */
   maxId: string;
   /** Gets or sets the maximum search radius centre at Position when looking for nearest Devices in kilometers. */

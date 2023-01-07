@@ -16,7 +16,6 @@ The object used to specify the arguments when searching for [Controller](Control
 
 - [id](ControllerSearch.md#id)
 - [name](ControllerSearch.md#name)
-- [propertySelector](ControllerSearch.md#propertyselector)
 - [sourceSearch](ControllerSearch.md#sourcesearch)
 - [version](ControllerSearch.md#version)
 
@@ -34,7 +33,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -46,23 +45,7 @@ Gets or sets search for Controllers with this Name. Wildcard can be used by prep
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/ControllerSearch.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/ControllerSearch.ts#L11)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Engine/ControllerSearch.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/ControllerSearch.ts#L11)
 
 ___
 
@@ -76,7 +59,7 @@ Gets or sets search for Controllers with this [SourceSearch](SourceSearch.md) Id
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/ControllerSearch.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/ControllerSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/Engine/ControllerSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/ControllerSearch.ts#L17)
 
 ___
 
@@ -92,4 +75,4 @@ Gets or sets the row version of the [Controller](Controller.md) search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/ControllerSearch.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/ControllerSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/Engine/ControllerSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/ControllerSearch.ts#L19)

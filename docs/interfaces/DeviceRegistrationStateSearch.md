@@ -20,7 +20,6 @@ The object used to specify the arguments when searching for a [DeviceRegistratio
 - [id](DeviceRegistrationStateSearch.md#id)
 - [intendedStates](DeviceRegistrationStateSearch.md#intendedstates)
 - [onlyCurrentState](DeviceRegistrationStateSearch.md#onlycurrentstate)
-- [propertySelector](DeviceRegistrationStateSearch.md#propertyselector)
 - [version](DeviceRegistrationStateSearch.md#version)
 
 ## Properties
@@ -33,7 +32,7 @@ Gets or sets the actual registration states to search for.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts#L11)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts#L11)
 
 ___
 
@@ -45,7 +44,7 @@ Gets or sets the device ID's to search for.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts#L13)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts#L13)
 
 ___
 
@@ -57,7 +56,7 @@ Gets or sets the hardware ID's to search for.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts#L15)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts#L15)
 
 ___
 
@@ -73,7 +72,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -85,7 +84,7 @@ Gets or sets the intended registration states to search for.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts#L17)
 
 ___
 
@@ -97,23 +96,7 @@ Gets or sets a value indicating only current states are to be searched.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts#L19)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceRegistration/DeviceRegistrationStateSearch.ts#L19)
 
 ___
 
@@ -129,4 +112,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

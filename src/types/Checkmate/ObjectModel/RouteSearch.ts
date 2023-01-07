@@ -23,11 +23,16 @@ export interface RouteSearch extends Search {
   /** Gets or sets search for Routes that were active at this date or after. */
   fromDate: Date;
   /**
-   * Gets or sets search for ONLY Route Completion ({@link RouteSearch.RouteType}.Service) routes that are members of these {@link GroupSearch}(s) in the Service Group hierarchy.
+   * Gets or sets search for ONLY Route Completion ({@link RouteSearch.RouteType}.Service) routes that are members of these {@link GroupSearch}(s).
    *  Available GroupSearch options are:
    *  <list><item><description>Id</description></item></list>
    */
   groups: GroupSearch[];
+  /**
+   * Gets or sets status for the routes.
+   *  The default value is [false].
+   */
+  includeRouteStatus: boolean;
   /** Gets or sets maximum version of the search criteria. */
   maxVersion: number;
   /** Gets or sets minimum version of the search criteria. */
@@ -39,6 +44,12 @@ export interface RouteSearch extends Search {
   name: string;
   /** Gets or sets search for Routes with this {@link RouteType}. */
   routeType: RouteType;
+  /**
+   * Gets or sets search for ONLY Route Completion ({@link RouteSearch.RouteType}.Service) routes that are members of these {@link GroupSearch}(s) in the Service Group hierarchy.
+   *  Available GroupSearch options are:
+   *  <list><item><description>Id</description></item></list>
+   */
+  serviceGroups: GroupSearch[];
   /** Gets or sets search for Routes that were active at this date or before. */
   toDate: Date;
   /**

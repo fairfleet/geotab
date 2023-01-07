@@ -22,6 +22,8 @@ export interface DeviceStatusInfo extends EntityWithVersion {
   dateTime: Date;
   /** Gets or sets the {@link Device} this DeviceStatusInfo belongs to. */
   device: Device;
+  /** Gets or sets a dictionary for latest {@link IDeviceStatusInfoDiagnostic}(s) of current {@link Device}. */
+  diagnostics: { [key: string]: unknown };
   /** Gets or sets the {@link Driver} associated to the current {@link Device}. */
   driver: Driver;
   /** Gets or sets the {@link ExceptionEvent}(s) that are currently active. */

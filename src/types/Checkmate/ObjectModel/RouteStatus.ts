@@ -3,4 +3,9 @@
 //     the code is regenerated.
 
 /** Route plan status */
-export type RouteStatus = "Pending" | "InProgress" | "Completed";
+export type RouteStatus =
+  | "Unplanned"
+  | "Planned"
+  | "EnRoute"
+  | "Completed"
+  | "Incomplete";

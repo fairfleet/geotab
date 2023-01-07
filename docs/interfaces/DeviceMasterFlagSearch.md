@@ -19,7 +19,6 @@ The object used to specify the arguments when searching for [DeviceMasterFlag](D
 - [fromDate](DeviceMasterFlagSearch.md#fromdate)
 - [id](DeviceMasterFlagSearch.md#id)
 - [includeFromDateOverlap](DeviceMasterFlagSearch.md#includefromdateoverlap)
-- [propertySelector](DeviceMasterFlagSearch.md#propertyselector)
 - [toDate](DeviceMasterFlagSearch.md#todate)
 - [version](DeviceMasterFlagSearch.md#version)
 
@@ -33,7 +32,7 @@ Gets or sets search for [DeviceMasterFlag](DeviceMasterFlag.md)s with this Devic
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts#L14)
 
 ___
 
@@ -45,7 +44,7 @@ Gets or sets search for [DeviceMasterFlag](DeviceMasterFlag.md)s with this Devic
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts#L16)
 
 ___
 
@@ -57,7 +56,7 @@ Gets or sets search for [DeviceMasterFlag](DeviceMasterFlag.md)s recorded at thi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts#L18)
 
 ___
 
@@ -73,7 +72,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -85,23 +84,7 @@ Gets or sets a value indicating whether gets or sets a value to include the firs
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts#L20)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts#L20)
 
 ___
 
@@ -113,7 +96,7 @@ Gets or sets search for [DeviceMasterFlag](DeviceMasterFlag.md)s recorded at thi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceMasterFlagSearch.ts#L22)
 
 ___
 
@@ -129,4 +112,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

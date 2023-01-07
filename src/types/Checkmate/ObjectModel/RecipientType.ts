@@ -28,4 +28,6 @@ export type RecipientType =
   | "EmailToGroup"
   | "HosEnabled"
   | "HosDisabled"
-  | "DeviceDataPrivacy";
+  | "RestrictedDataMode"
+  | "ExpireShareableLink"
+  | "DeviceShareFailure";

@@ -8,4 +8,4 @@ import { Search } from "../Search";
  *  The object used to specify the
  *  arguments when searching for {@link EngineType}(s).
  */
-export type EngineTypeSearch = Search
+export interface EngineTypeSearch extends Search {}

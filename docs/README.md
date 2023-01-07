@@ -19,13 +19,19 @@
 
 ### Interfaces
 
+- [ActivityTimestampBetweenSearch](interfaces/ActivityTimestampBetweenSearch.md)
+- [AddIn](interfaces/AddIn.md)
+- [AddInConfiguration](interfaces/AddInConfiguration.md)
 - [AddInData](interfaces/AddInData.md)
 - [AddInDataSearch](interfaces/AddInDataSearch.md)
+- [AddInSearch](interfaces/AddInSearch.md)
 - [AddressLookupData](interfaces/AddressLookupData.md)
 - [AnnotationLog](interfaces/AnnotationLog.md)
 - [AnnotationLogSearch](interfaces/AnnotationLogSearch.md)
 - [Audit](interfaces/Audit.md)
 - [AuditSearch](interfaces/AuditSearch.md)
+- [BackfillStatus](interfaces/BackfillStatus.md)
+- [BackfillStatusSearch](interfaces/BackfillStatusSearch.md)
 - [BinaryData](interfaces/BinaryData.md)
 - [BinaryDataSearch](interfaces/BinaryDataSearch.md)
 - [BoundingBox](interfaces/BoundingBox.md)
@@ -49,7 +55,7 @@
 - [DVIRLogSearch](interfaces/DVIRLogSearch.md)
 - [Dashboard](interfaces/Dashboard.md)
 - [DashboardSearch](interfaces/DashboardSearch.md)
-- [DataPrivacyType](interfaces/DataPrivacyType.md)
+- [DataModeType](interfaces/DataModeType.md)
 - [DateRange](interfaces/DateRange.md)
 - [DateTimeWithTimeZone](interfaces/DateTimeWithTimeZone.md)
 - [DebugData](interfaces/DebugData.md)
@@ -59,8 +65,6 @@
 - [DefectRemarkSearch](interfaces/DefectRemarkSearch.md)
 - [DefectSearch](interfaces/DefectSearch.md)
 - [Device](interfaces/Device.md)
-- [DeviceDataPrivacyChange](interfaces/DeviceDataPrivacyChange.md)
-- [DeviceDataPrivacyChangeSearch](interfaces/DeviceDataPrivacyChangeSearch.md)
 - [DeviceFlags](interfaces/DeviceFlags.md)
 - [DeviceLink](interfaces/DeviceLink.md)
 - [DeviceLinkSearch](interfaces/DeviceLinkSearch.md)
@@ -77,9 +81,12 @@
 - [DeviceShare](interfaces/DeviceShare.md)
 - [DeviceShareOptions](interfaces/DeviceShareOptions.md)
 - [DeviceShareSearch](interfaces/DeviceShareSearch.md)
+- [DeviceStatusFilterCondition](interfaces/DeviceStatusFilterCondition.md)
 - [DeviceStatusInfo](interfaces/DeviceStatusInfo.md)
 - [DeviceStatusInfoSearch](interfaces/DeviceStatusInfoSearch.md)
 - [Diagnostic](interfaces/Diagnostic.md)
+- [DiagnosticMapping](interfaces/DiagnosticMapping.md)
+- [DiagnosticMappingSearch](interfaces/DiagnosticMappingSearch.md)
 - [DiagnosticSearch](interfaces/DiagnosticSearch.md)
 - [DisplayMeasurementProfile](interfaces/DisplayMeasurementProfile.md)
 - [DisplayMeasurementProfileDetail](interfaces/DisplayMeasurementProfileDetail.md)
@@ -104,24 +111,26 @@
 - [Employee](interfaces/Employee.md)
 - [EmployeeRoutePlan](interfaces/EmployeeRoutePlan.md)
 - [EmployeeRoutePlanSearch](interfaces/EmployeeRoutePlanSearch.md)
-- [EnergyConsumed](interfaces/EnergyConsumed.md)
-- [EnergyConsumedProcessing](interfaces/EnergyConsumedProcessing.md)
-- [EnergyConsumedProcessingSearch](interfaces/EnergyConsumedProcessingSearch.md)
-- [EnergyConsumedSearch](interfaces/EnergyConsumedSearch.md)
 - [EnergySnapshotRecord](interfaces/EnergySnapshotRecord.md)
 - [EnergySnapshotRecordSearch](interfaces/EnergySnapshotRecordSearch.md)
 - [EngineType](interfaces/EngineType.md)
+- [EngineTypeSearch](interfaces/EngineTypeSearch.md)
 - [Entity](interfaces/Entity.md)
 - [EntityLinkRule](interfaces/EntityLinkRule.md)
 - [EntityLinkRuleConditions](interfaces/EntityLinkRuleConditions.md)
 - [EntityLinkRuleSearch](interfaces/EntityLinkRuleSearch.md)
+- [EntitySetting](interfaces/EntitySetting.md)
+- [EntitySettingSearch](interfaces/EntitySettingSearch.md)
 - [EntityWithVersion](interfaces/EntityWithVersion.md)
+- [EventDeviation](interfaces/EventDeviation.md)
+- [EventDeviationSearch](interfaces/EventDeviationSearch.md)
 - [EventOccurrence](interfaces/EventOccurrence.md)
 - [EventOccurrenceDue](interfaces/EventOccurrenceDue.md)
 - [EventOccurrenceDueSearch](interfaces/EventOccurrenceDueSearch.md)
 - [EventOccurrenceSearch](interfaces/EventOccurrenceSearch.md)
 - [EventRule](interfaces/EventRule.md)
 - [EventRuleSearch](interfaces/EventRuleSearch.md)
+- [EventType](interfaces/EventType.md)
 - [ExceptionEvent](interfaces/ExceptionEvent.md)
 - [ExceptionEventAttachment](interfaces/ExceptionEventAttachment.md)
 - [ExceptionEventAttachmentSearch](interfaces/ExceptionEventAttachmentSearch.md)
@@ -130,6 +139,7 @@
 - [ExceptionEventSearch](interfaces/ExceptionEventSearch.md)
 - [ExceptionEventState](interfaces/ExceptionEventState.md)
 - [FailureMode](interfaces/FailureMode.md)
+- [FailureModeSearch](interfaces/FailureModeSearch.md)
 - [FaultData](interfaces/FaultData.md)
 - [FaultDataSearch](interfaces/FaultDataSearch.md)
 - [FeedResult](interfaces/FeedResult.md)
@@ -137,9 +147,9 @@
 - [FeedVersionTrackingDataSearch](interfaces/FeedVersionTrackingDataSearch.md)
 - [FillUp](interfaces/FillUp.md)
 - [FillUpExtrema](interfaces/FillUpExtrema.md)
+- [FillUpSearch](interfaces/FillUpSearch.md)
 - [FlashCode](interfaces/FlashCode.md)
-- [FuelAndEnergySnapshotProcessing](interfaces/FuelAndEnergySnapshotProcessing.md)
-- [FuelAndEnergySnapshotProcessingSearch](interfaces/FuelAndEnergySnapshotProcessingSearch.md)
+- [FloorToCeilingTimestampSearch](interfaces/FloorToCeilingTimestampSearch.md)
 - [FuelEvent](interfaces/FuelEvent.md)
 - [FuelSnapshotRecord](interfaces/FuelSnapshotRecord.md)
 - [FuelSnapshotRecordSearch](interfaces/FuelSnapshotRecordSearch.md)
@@ -164,6 +174,7 @@
 - [GroupSearch](interfaces/GroupSearch.md)
 - [GroupZoneMetadata](interfaces/GroupZoneMetadata.md)
 - [GroupZoneMetadataSearch](interfaces/GroupZoneMetadataSearch.md)
+- [HosRuleSet2](interfaces/HosRuleSet2.md)
 - [HosRulesetConfig](interfaces/HosRulesetConfig.md)
 - [HosRulesetConfigParameters](interfaces/HosRulesetConfigParameters.md)
 - [HosRulesetConfigSearch](interfaces/HosRulesetConfigSearch.md)
@@ -172,6 +183,10 @@
 - [InstallRecordSearch](interfaces/InstallRecordSearch.md)
 - [IoxAddOn](interfaces/IoxAddOn.md)
 - [IoxAddOnSearch](interfaces/IoxAddOnSearch.md)
+- [IoxAddOnStatus](interfaces/IoxAddOnStatus.md)
+- [IoxAddOnStatusSearch](interfaces/IoxAddOnStatusSearch.md)
+- [LiveCompletionMapConfig](interfaces/LiveCompletionMapConfig.md)
+- [LiveCompletionMapConfigSearch](interfaces/LiveCompletionMapConfigSearch.md)
 - [LogRecord](interfaces/LogRecord.md)
 - [LogRecordSearch](interfaces/LogRecordSearch.md)
 - [LogRecordZoneDistance](interfaces/LogRecordZoneDistance.md)
@@ -181,6 +196,7 @@
 - [MaintenanceNotificationRuleSearch](interfaces/MaintenanceNotificationRuleSearch.md)
 - [MaintenanceNotificationState](interfaces/MaintenanceNotificationState.md)
 - [MaintenanceNotificationStateSearch](interfaces/MaintenanceNotificationStateSearch.md)
+- [MappedDiagnostic](interfaces/MappedDiagnostic.md)
 - [MediaFile](interfaces/MediaFile.md)
 - [MediaFileSearch](interfaces/MediaFileSearch.md)
 - [MimeTask](interfaces/MimeTask.md)
@@ -191,6 +207,8 @@
 - [Notification](interfaces/Notification.md)
 - [NotificationApplicationExceptionData](interfaces/NotificationApplicationExceptionData.md)
 - [NotificationBinaryFile](interfaces/NotificationBinaryFile.md)
+- [NotificationData](interfaces/NotificationData.md)
+- [NotificationDeviceShareData](interfaces/NotificationDeviceShareData.md)
 - [NotificationExceptionData](interfaces/NotificationExceptionData.md)
 - [NotificationExceptionForUsersData](interfaces/NotificationExceptionForUsersData.md)
 - [NotificationForAdminUsersData](interfaces/NotificationForAdminUsersData.md)
@@ -198,12 +216,13 @@
 - [NotificationMaintenanceReminderData](interfaces/NotificationMaintenanceReminderData.md)
 - [NotificationMessageData](interfaces/NotificationMessageData.md)
 - [NotificationNewsData](interfaces/NotificationNewsData.md)
+- [NotificationReportProcessorData](interfaces/NotificationReportProcessorData.md)
 - [NotificationSearch](interfaces/NotificationSearch.md)
 - [NotificationUserModifiedData](interfaces/NotificationUserModifiedData.md)
 - [ParameterGroup](interfaces/ParameterGroup.md)
+- [ParameterGroupSearch](interfaces/ParameterGroupSearch.md)
 - [Property](interfaces/Property.md)
 - [PropertySearch](interfaces/PropertySearch.md)
-- [PropertySelector](interfaces/PropertySelector.md)
 - [PropertySet](interfaces/PropertySet.md)
 - [PropertySetSearch](interfaces/PropertySetSearch.md)
 - [Recipient](interfaces/Recipient.md)
@@ -215,6 +234,8 @@
 - [ReportStorageSearch](interfaces/ReportStorageSearch.md)
 - [ReportTemplate](interfaces/ReportTemplate.md)
 - [ReportTemplateSearch](interfaces/ReportTemplateSearch.md)
+- [RestrictedDataModeChange](interfaces/RestrictedDataModeChange.md)
+- [RestrictedDataModeChangeSearch](interfaces/RestrictedDataModeChangeSearch.md)
 - [ReverseGeocodeAddress](interfaces/ReverseGeocodeAddress.md)
 - [Route](interfaces/Route.md)
 - [RouteExtract](interfaces/RouteExtract.md)
@@ -222,9 +243,11 @@
 - [RouteSearch](interfaces/RouteSearch.md)
 - [Rule](interfaces/Rule.md)
 - [RuleSearch](interfaces/RuleSearch.md)
+- [Schedule](interfaces/Schedule.md)
 - [Search](interfaces/Search.md)
 - [SecurityId](interfaces/SecurityId.md)
 - [SecurityIdSearch](interfaces/SecurityIdSearch.md)
+- [ServiceState](interfaces/ServiceState.md)
 - [ServiceStateSearch](interfaces/ServiceStateSearch.md)
 - [ShareableLink](interfaces/ShareableLink.md)
 - [ShareableLinkSearch](interfaces/ShareableLinkSearch.md)
@@ -235,6 +258,15 @@
 - [SourceSearch](interfaces/SourceSearch.md)
 - [StatusData](interfaces/StatusData.md)
 - [StatusDataSearch](interfaces/StatusDataSearch.md)
+- [TachographActivitiesCertificate](interfaces/TachographActivitiesCertificate.md)
+- [TachographActivitiesCertificateSearch](interfaces/TachographActivitiesCertificateSearch.md)
+- [TachographCompanyCard](interfaces/TachographCompanyCard.md)
+- [TachographCompanyCardSearch](interfaces/TachographCompanyCardSearch.md)
+- [TachographDataFile](interfaces/TachographDataFile.md)
+- [TachographDataFileSearch](interfaces/TachographDataFileSearch.md)
+- [TachographInspection](interfaces/TachographInspection.md)
+- [TachographVehicleInspection](interfaces/TachographVehicleInspection.md)
+- [TachographVehicleInspectionSearch](interfaces/TachographVehicleInspectionSearch.md)
 - [TextMessage](interfaces/TextMessage.md)
 - [TextMessageContentType](interfaces/TextMessageContentType.md)
 - [TextMessageSearch](interfaces/TextMessageSearch.md)
@@ -264,13 +296,14 @@
 - [UserSearch](interfaces/UserSearch.md)
 - [UserSupport](interfaces/UserSupport.md)
 - [UserSupportSearch](interfaces/UserSupportSearch.md)
-- [VehicleConfiguration](interfaces/VehicleConfiguration.md)
-- [VehicleConfigurationSearch](interfaces/VehicleConfigurationSearch.md)
 - [VersionInformation](interfaces/VersionInformation.md)
 - [VirtualExceptionEvent](interfaces/VirtualExceptionEvent.md)
+- [VirtualExceptionEventSearch](interfaces/VirtualExceptionEventSearch.md)
 - [Widget](interfaces/Widget.md)
 - [WidgetSearch](interfaces/WidgetSearch.md)
 - [WifiHotspot](interfaces/WifiHotspot.md)
+- [WifiHotspotData](interfaces/WifiHotspotData.md)
+- [WifiHotspotSearch](interfaces/WifiHotspotSearch.md)
 - [WorkHoliday](interfaces/WorkHoliday.md)
 - [WorkHolidaySearch](interfaces/WorkHolidaySearch.md)
 - [WorkTime](interfaces/WorkTime.md)
@@ -283,8 +316,6 @@
 
 ### Type Aliases
 
-- [AddIn](README.md#addin)
-- [AddInSearch](README.md#addinsearch)
 - [AreaType](README.md#areatype)
 - [BinaryDataType](README.md#binarydatatype)
 - [BinaryPayloadType](README.md#binarypayloadtype)
@@ -295,7 +326,9 @@
 - [CubeType](README.md#cubetype)
 - [Currency](README.md#currency)
 - [CustomDataSections](README.md#customdatasections)
+- [CustomPropertyEntityType](README.md#custompropertyentitytype)
 - [CustomerClassifier](README.md#customerclassifier)
+- [DDISDebugLogArea](README.md#ddisdebuglogarea)
 - [DVIRLogType](README.md#dvirlogtype)
 - [DataSourceKind](README.md#datasourcekind)
 - [DatabaseInfoComponent](README.md#databaseinfocomponent)
@@ -335,22 +368,23 @@
 - [EldValidationType](README.md#eldvalidationtype)
 - [ElectricEnergyEconomyUnit](README.md#electricenergyeconomyunit)
 - [ElectricEnergyUnit](README.md#electricenergyunit)
-- [EngineTypeSearch](README.md#enginetypesearch)
+- [EncryptionType](README.md#encryptiontype)
+- [EntityBackfillStatus](README.md#entitybackfillstatus)
 - [EntityLinkType](README.md#entitylinktype)
 - [EntitySelectionType](README.md#entityselectiontype)
+- [EntityType](README.md#entitytype)
 - [EntityTypes](README.md#entitytypes)
 - [Error](README.md#error)
-- [EventType](README.md#eventtype)
+- [EulaAcceptanceLevel](README.md#eulaacceptancelevel)
 - [ExceptionInfoTag](README.md#exceptioninfotag)
 - [ExceptionRuleBaseType](README.md#exceptionrulebasetype)
 - [ExceptionRuleCategory](README.md#exceptionrulecategory)
 - [ExceptionRuleMode](README.md#exceptionrulemode)
 - [ExceptionRuleType](README.md#exceptionruletype)
-- [FailureModeSearch](README.md#failuremodesearch)
 - [FaultLampState](README.md#faultlampstate)
 - [FaultResetMode](README.md#faultresetmode)
 - [FaultState](README.md#faultstate)
-- [FillUpSearch](README.md#fillupsearch)
+- [FilterComparison](README.md#filtercomparison)
 - [FilterType](README.md#filtertype)
 - [FirmwareType](README.md#firmwaretype)
 - [FuelEconomyUnit](README.md#fueleconomyunit)
@@ -361,17 +395,16 @@
 - [FuelUpEventConfidences](README.md#fuelupeventconfidences)
 - [GoTalkLanguage](README.md#gotalklanguage)
 - [GoogleMapStyle](README.md#googlemapstyle)
-- [GroupSearchRelation](README.md#groupsearchrelation)
 - [GroupZoneMetadataType](README.md#groupzonemetadatatype)
 - [HereMapStyle](README.md#heremapstyle)
 - [HosOption](README.md#hosoption)
 - [HosRuleSet](README.md#hosruleset)
-- [HosRuleSet2](README.md#hosruleset2)
 - [ImportTaskStatus](README.md#importtaskstatus)
 - [ImportTaskType](README.md#importtasktype)
 - [IncludeGroups](README.md#includegroups)
 - [InstallStatus](README.md#installstatus)
 - [InstallationType](README.md#installationtype)
+- [InvalidGroupFilterType](README.md#invalidgroupfiltertype)
 - [InvalidUserType](README.md#invalidusertype)
 - [Iso8601Resolution](README.md#iso8601resolution)
 - [JsonRpcErrorCode](README.md#jsonrpcerrorcode)
@@ -387,13 +420,11 @@
 - [MonitorPredicate](README.md#monitorpredicate)
 - [Next](README.md#next)
 - [NotificationBinaryFileType](README.md#notificationbinaryfiletype)
-- [NotificationData](README.md#notificationdata)
 - [NotificationStatus](README.md#notificationstatus)
 - [NotificationTemplatePurpose](README.md#notificationtemplatepurpose)
 - [NotificationTokenType](README.md#notificationtokentype)
 - [NotificationType](README.md#notificationtype)
 - [OpenStreetMapStyle](README.md#openstreetmapstyle)
-- [ParameterGroupSearch](README.md#parametergroupsearch)
 - [PingMessageType](README.md#pingmessagetype)
 - [PostedRoadSpeedOptions](README.md#postedroadspeedoptions)
 - [ProcessingStatus](README.md#processingstatus)
@@ -403,11 +434,13 @@
 - [RelayState](README.md#relaystate)
 - [RepairStatusType](README.md#repairstatustype)
 - [ReplacementType](README.md#replacementtype)
+- [ReportArgumentType](README.md#reportargumenttype)
 - [ReportDataSource](README.md#reportdatasource)
 - [ReportDestination](README.md#reportdestination)
 - [ReportFrequency](README.md#reportfrequency)
 - [ReportHeading](README.md#reportheading)
 - [ReportPeriod](README.md#reportperiod)
+- [ReportProcessingStatus](README.md#reportprocessingstatus)
 - [ReportScheduleGroupType](README.md#reportschedulegrouptype)
 - [ReportTemplateType](README.md#reporttemplatetype)
 - [ReprocessRequestStatus](README.md#reprocessrequeststatus)
@@ -415,11 +448,12 @@
 - [RouteStatus](README.md#routestatus)
 - [RouteType](README.md#routetype)
 - [RuleMonitorType](README.md#rulemonitortype)
+- [ScheduleFrequency](README.md#schedulefrequency)
+- [SearchRelation](README.md#searchrelation)
 - [SearchTypes](README.md#searchtypes)
 - [SecurityIdentifier](README.md#securityidentifier)
 - [SecurityRole](README.md#securityrole)
 - [ServerSwitches](README.md#serverswitches)
-- [ServiceState](README.md#servicestate)
 - [SeverityLevel](README.md#severitylevel)
 - [SortDirection](README.md#sortdirection)
 - [SpeedLimitRequestOptions](README.md#speedlimitrequestoptions)
@@ -429,6 +463,8 @@
 - [StopStatus](README.md#stopstatus)
 - [StoreForwardExceptionType](README.md#storeforwardexceptiontype)
 - [SupportedPropertyType](README.md#supportedpropertytype)
+- [TachographCompanyCardStatus](README.md#tachographcompanycardstatus)
+- [TachographFileType](README.md#tachographfiletype)
 - [ThirdPartyDataRecordType](README.md#thirdpartydatarecordtype)
 - [TripType](README.md#triptype)
 - [UserAuthenticationType](README.md#userauthenticationtype)
@@ -437,14 +473,11 @@
 - [UserSupportType](README.md#usersupporttype)
 - [ValidLoggingPeriod](README.md#validloggingperiod)
 - [VehicleCommand](README.md#vehiclecommand)
-- [VehicleConfigurationEncryptionType](README.md#vehicleconfigurationencryptiontype)
 - [VehicleConfigurationType](README.md#vehicleconfigurationtype)
 - [VehicleFeatureCategory](README.md#vehiclefeaturecategory)
-- [VirtualExceptionEventSearch](README.md#virtualexceptioneventsearch)
 - [VolumeUnit](README.md#volumeunit)
 - [WebRequestTemplateHttpVerb](README.md#webrequesttemplatehttpverb)
 - [WidgetType](README.md#widgettype)
-- [WifiHotspotSearch](README.md#wifihotspotsearch)
 - [ZoneDisplayMode](README.md#zonedisplaymode)
 
 ## Functions
@@ -469,33 +502,9 @@ Creates a [Geotab](interfaces/Geotab.md) instance from the given options.
 
 #### Defined in
 
-[src/index.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/index.ts#L13)
+[src/index.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/index.ts#L13)
 
 ## Type Aliases
-
-### AddIn
-
-Ƭ **AddIn**: [`Entity`](interfaces/Entity.md)
-
-Represents populated MyGeotab addin.
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/AddIns/AddIn.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AddIns/AddIn.ts#L8)
-
-___
-
-### AddInSearch
-
-Ƭ **AddInSearch**: [`Search`](interfaces/Search.md)
-
-The object used to specify the arguments when searching for [AddIn](README.md#addin).
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/AddIns/AddInSearch.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/AddIns/AddInSearch.ts#L8)
-
-___
 
 ### AreaType
 
@@ -505,7 +514,7 @@ Exception area type. This must match to the Error Reporting areas for the MyGeot
 
 #### Defined in
 
-[src/types/Log/AreaType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Log/AreaType.ts#L6)
+[src/types/Log/AreaType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Log/AreaType.ts#L6)
 
 ___
 
@@ -517,7 +526,7 @@ Represents the specific binary format of data being stored in the [BinaryData](i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryDataType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryDataType.ts#L6)
+[src/types/Checkmate/ObjectModel/BinaryDataType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/BinaryDataType.ts#L6)
 
 ___
 
@@ -529,7 +538,7 @@ The BinaryPayload type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryPayloadType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryPayloadType.ts#L6)
+[src/types/Checkmate/ObjectModel/BinaryPayloadType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/BinaryPayloadType.ts#L6)
 
 ___
 
@@ -541,7 +550,7 @@ The business impact enum for support tickets.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DirectSupport/BusinessImpact.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DirectSupport/BusinessImpact.ts#L6)
+[src/types/Checkmate/ObjectModel/DirectSupport/BusinessImpact.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DirectSupport/BusinessImpact.ts#L6)
 
 ___
 
@@ -553,19 +562,19 @@ Represents the current type of the charge.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeType.ts#L6)
+[src/types/Checkmate/ObjectModel/Charging/ChargeType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Charging/ChargeType.ts#L6)
 
 ___
 
 ### ConditionType
 
-Ƭ **ConditionType**: ``"None"`` \| ``"And"`` \| ``"Or"`` \| ``"Fault"`` \| ``"ActiveOrInactiveFault"`` \| ``"InsideArea"`` \| ``"OutsideArea"`` \| ``"Stop"`` \| ``"ZoneStop"`` \| ``"EnteringArea"`` \| ``"ExitingArea"`` \| ``"Aux1"`` \| ``"Aux2"`` \| ``"Aux3"`` \| ``"Aux4"`` \| ``"Aux5"`` \| ``"Aux6"`` \| ``"Aux7"`` \| ``"Aux8"`` \| ``"Ignition"`` \| ``"DurationLongerThan"`` \| ``"DurationShorterThan"`` \| ``"DistanceLongerThan"`` \| ``"DistanceShorterThan"`` \| ``"DeviceWorkHours"`` \| ``"AfterDeviceWorkHours"`` \| ``"RuleWorkHours"`` \| ``"AfterRuleWorkHours"`` \| ``"Device"`` \| ``"Driver"`` \| ``"ApplicationException"`` \| ``"InvertResult"`` \| ``"FilterStatusDataByDiagnostic"`` \| ``"IsValueMoreThan"`` \| ``"IsValueLessThan"`` \| ``"IsValueEqualTo"`` \| ``"AnyData"`` \| ``"ExpectedDuration"`` \| ``"ExpectedDistance"`` \| ``"TripDuration"`` \| ``"Speed"`` \| ``"TripDistance"`` \| ``"Link"`` \| ``"SpeedLimit"`` \| ``"IsDriving"`` \| ``"SpeedLimitExcludingEstimates"`` \| ``"DurationBetweenGps"`` \| ``"DistanceBetweenGps"`` \| ``"SpeedLimitCommunity"`` \| ``"SpeedLimitCommunityExcludingEstimates"`` \| ``"SpeedLimitCommercial"`` \| ``"SpeedLimitCommercialExcludingEstimates"`` \| ``"ReferenceDate"`` \| ``"DVIRDefect"`` \| ``"NoDVIRCheck"`` \| ``"EntireTrip"`` \| ``"Inclusive"`` \| ``"SpeedLimitAsMeasurement"`` \| ``"NoPreDVIRCheck"`` \| ``"NoPostDVIRCheck"`` \| ``"IsValueMoreThanPercent"`` \| ``"IsValueLessThanPercent"`` \| ``"AverageRoadSpeed"`` \| ``"SpeedLimitTruck"`` \| ``"SpeedLimitTruckExcludingEstimates"`` \| ``"SpeedLimitTruckCommunity"`` \| ``"SpeedLimitTruckCommunityExcludingEstimates"`` \| ``"SpeedLimitTruckCommercial"`` \| ``"SpeedLimitTruckCommercialExcludingEstimates"`` \| ``"InsideEachArea"`` \| ``"WiFiTierUsage"`` \| ``"WiFiMaxTierUsage"``
+Ƭ **ConditionType**: ``"None"`` \| ``"And"`` \| ``"Or"`` \| ``"Fault"`` \| ``"ActiveOrInactiveFault"`` \| ``"InsideArea"`` \| ``"OutsideArea"`` \| ``"Stop"`` \| ``"ZoneStop"`` \| ``"EnteringArea"`` \| ``"ExitingArea"`` \| ``"Aux1"`` \| ``"Aux2"`` \| ``"Aux3"`` \| ``"Aux4"`` \| ``"Aux5"`` \| ``"Aux6"`` \| ``"Aux7"`` \| ``"Aux8"`` \| ``"Ignition"`` \| ``"DurationLongerThan"`` \| ``"DurationShorterThan"`` \| ``"DistanceLongerThan"`` \| ``"DistanceShorterThan"`` \| ``"DeviceWorkHours"`` \| ``"AfterDeviceWorkHours"`` \| ``"RuleWorkHours"`` \| ``"AfterRuleWorkHours"`` \| ``"Device"`` \| ``"Driver"`` \| ``"ApplicationException"`` \| ``"InvertResult"`` \| ``"FilterStatusDataByDiagnostic"`` \| ``"IsValueMoreThan"`` \| ``"IsValueLessThan"`` \| ``"IsValueEqualTo"`` \| ``"AnyData"`` \| ``"ExpectedDuration"`` \| ``"ExpectedDistance"`` \| ``"TripDuration"`` \| ``"Speed"`` \| ``"TripDistance"`` \| ``"Link"`` \| ``"SpeedLimit"`` \| ``"IsDriving"`` \| ``"SpeedLimitExcludingEstimates"`` \| ``"DurationBetweenGps"`` \| ``"DistanceBetweenGps"`` \| ``"SpeedLimitCommunity"`` \| ``"SpeedLimitCommunityExcludingEstimates"`` \| ``"SpeedLimitCommercial"`` \| ``"SpeedLimitCommercialExcludingEstimates"`` \| ``"ReferenceDate"`` \| ``"DVIRDefect"`` \| ``"NoDVIRCheck"`` \| ``"EntireTrip"`` \| ``"Inclusive"`` \| ``"SpeedLimitAsMeasurement"`` \| ``"NoPreDVIRCheck"`` \| ``"NoPostDVIRCheck"`` \| ``"IsValueMoreThanPercent"`` \| ``"IsValueLessThanPercent"`` \| ``"AverageRoadSpeed"`` \| ``"SpeedLimitTruck"`` \| ``"SpeedLimitTruckExcludingEstimates"`` \| ``"SpeedLimitTruckCommunity"`` \| ``"SpeedLimitTruckCommunityExcludingEstimates"`` \| ``"SpeedLimitTruckCommercial"`` \| ``"SpeedLimitTruckCommercialExcludingEstimates"`` \| ``"InsideEachArea"`` \| ``"WiFiTierUsage"`` \| ``"WiFiMaxTierUsage"`` \| ``"Group"``
 
 Defines the different types of [Condition](interfaces/Condition.md)(s).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ConditionType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ConditionType.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/ConditionType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ConditionType.ts#L6)
 
 ___
 
@@ -577,7 +586,7 @@ Continents list.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Continent.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Continent.ts#L6)
+[src/types/Checkmate/ObjectModel/Continent.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Continent.ts#L6)
 
 ___
 
@@ -589,19 +598,19 @@ The type of [CubeType](README.md#cubetype).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CubeType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/CubeType.ts#L6)
+[src/types/Checkmate/ObjectModel/CubeType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CubeType.ts#L6)
 
 ___
 
 ### Currency
 
-Ƭ **Currency**: ``"Cad"`` \| ``"Hkd"`` \| ``"Usd"`` \| ``"Aud"`` \| ``"Brl"`` \| ``"Cny"`` \| ``"Eur"`` \| ``"Inr"`` \| ``"Idr"`` \| ``"Jpy"`` \| ``"Mxn"`` \| ``"Nzd"`` \| ``"Nok"`` \| ``"Pen"`` \| ``"Rub"`` \| ``"Sar"`` \| ``"Sgd"`` \| ``"Zar"`` \| ``"Krw"`` \| ``"Sek"`` \| ``"Chf"`` \| ``"Thb"`` \| ``"Twd"`` \| ``"Try"`` \| ``"Gbp"``
+Ƭ **Currency**: ``"Cad"`` \| ``"Hkd"`` \| ``"Usd"`` \| ``"Aud"`` \| ``"Brl"`` \| ``"Cny"`` \| ``"Eur"`` \| ``"Inr"`` \| ``"Idr"`` \| ``"Jpy"`` \| ``"Myr"`` \| ``"Mxn"`` \| ``"Nzd"`` \| ``"Nok"`` \| ``"Pen"`` \| ``"Php"`` \| ``"Rub"`` \| ``"Sar"`` \| ``"Sgd"`` \| ``"Zar"`` \| ``"Krw"`` \| ``"Sek"`` \| ``"Chf"`` \| ``"Thb"`` \| ``"Twd"`` \| ``"Try"`` \| ``"Gbp"``
 
 The supported currency
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Currencies/Currency.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Currencies/Currency.ts#L6)
+[src/types/Checkmate/ObjectModel/Currencies/Currency.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Currencies/Currency.ts#L6)
 
 ___
 
@@ -613,7 +622,19 @@ The Custom Data Section enumeration. Custom data can be made up of three separat
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomDataSections.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/CustomDataSections.ts#L6)
+[src/types/Checkmate/ObjectModel/CustomDataSections.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CustomDataSections.ts#L6)
+
+___
+
+### CustomPropertyEntityType
+
+Ƭ **CustomPropertyEntityType**: ``"Device"`` \| ``"User"``
+
+The entity types supported for Custom Properties
+
+#### Defined in
+
+src/types/Checkmate/ObjectModel/CustomPropertyEntityType.ts:6
 
 ___
 
@@ -625,7 +646,19 @@ The classifier for customers
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomerClassifier.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/CustomerClassifier.ts#L6)
+[src/types/Checkmate/ObjectModel/CustomerClassifier.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CustomerClassifier.ts#L6)
+
+___
+
+### DDISDebugLogArea
+
+Ƭ **DDISDebugLogArea**: ``"CacheWindow"`` \| ``"RecordCount"`` \| ``"Trips"`` \| ``"ExceptionCalculation"``
+
+Level of debug to be controlled by DDISLoggingServiceState.
+
+#### Defined in
+
+src/types/Checkmate/Database/DDISDebugLogArea.ts:6
 
 ___
 
@@ -637,7 +670,7 @@ The type of [DVIRLog](interfaces/DVIRLog.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogType.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DVIRLogType.ts#L8)
+[src/types/Checkmate/ObjectModel/DVIRLogType.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogType.ts#L8)
 
 ___
 
@@ -649,7 +682,7 @@ Kinds of data sources for [Condition](interfaces/Condition.md)s.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/DataSourceKind.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/DataSourceKind.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/DataSourceKind.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/DataSourceKind.ts#L6)
 
 ___
 
@@ -661,19 +694,19 @@ Components for info and performance evaluation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Web/DatabaseInfoComponent.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Web/DatabaseInfoComponent.ts#L6)
+[src/types/Checkmate/ObjectModel/Web/DatabaseInfoComponent.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Web/DatabaseInfoComponent.ts#L6)
 
 ___
 
 ### DatabaseMaintenancePeriod
 
-Ƭ **DatabaseMaintenancePeriod**: ``"Unknown"`` \| ``"None"`` \| ``"Day"`` \| ``"Week"`` \| ``"TwoWeeks"`` \| ``"Month"`` \| ``"TwoMonths"`` \| ``"ThreeMonths"`` \| ``"SixMonths"`` \| ``"Year"`` \| ``"Forever"`` \| ``"Continuous"`` \| ``"ThreeYears"`` \| ``"ThirteenMonths"`` \| ``"FourteenMonths"`` \| ``"FifteenMonths"`` \| ``"SixteenMonths"`` \| ``"SeventeenMonths"`` \| ``"EighteenMonths"`` \| ``"NineteenMonths"`` \| ``"TwentyMonths"`` \| ``"TwentyOneMonths"`` \| ``"TwentyTwoMonths"`` \| ``"TwentyThreeMonths"`` \| ``"TwoYears"`` \| ``"SevenMonths"`` \| ``"EightMonths"`` \| ``"NineMonths"`` \| ``"TenMonths"`` \| ``"ElevenMonths"`` \| ``"TwelveMonths"`` \| ``"TwoDays"`` \| ``"ThreeDays"`` \| ``"FourDays"`` \| ``"FiveDays"`` \| ``"SixDays"``
+Ƭ **DatabaseMaintenancePeriod**: ``"Unknown"`` \| ``"None"`` \| ``"Day"`` \| ``"Week"`` \| ``"TwoWeeks"`` \| ``"Month"`` \| ``"TwoMonths"`` \| ``"ThreeMonths"`` \| ``"SixMonths"`` \| ``"Year"`` \| ``"Forever"`` \| ``"Continuous"`` \| ``"ThreeYears"`` \| ``"ThirteenMonths"`` \| ``"FourteenMonths"`` \| ``"FifteenMonths"`` \| ``"SixteenMonths"`` \| ``"SeventeenMonths"`` \| ``"EighteenMonths"`` \| ``"NineteenMonths"`` \| ``"TwentyMonths"`` \| ``"TwentyOneMonths"`` \| ``"TwentyTwoMonths"`` \| ``"TwentyThreeMonths"`` \| ``"TwoYears"`` \| ``"SevenMonths"`` \| ``"EightMonths"`` \| ``"NineMonths"`` \| ``"TenMonths"`` \| ``"ElevenMonths"`` \| ``"TwelveMonths"`` \| ``"TwoDays"`` \| ``"ThreeDays"`` \| ``"FourDays"`` \| ``"FiveDays"`` \| ``"SixDays"`` \| ``"FourYears"`` \| ``"EightYears"``
 
 The period being used in database maintenance.
 
 #### Defined in
 
-[src/types/Checkmate/Settings/DatabaseMaintenancePeriod.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/DatabaseMaintenancePeriod.ts#L6)
+[src/types/Checkmate/Settings/DatabaseMaintenancePeriod.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Settings/DatabaseMaintenancePeriod.ts#L6)
 
 ___
 
@@ -685,7 +718,7 @@ The state that the database is currently operating in.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DatabaseState.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DatabaseState.ts#L6)
+[src/types/Checkmate/ObjectModel/DatabaseState.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DatabaseState.ts#L6)
 
 ___
 
@@ -697,7 +730,7 @@ The current database transfer status.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Database/DatabaseTransferStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Database/DatabaseTransferStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/Database/DatabaseTransferStatus.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Database/DatabaseTransferStatus.ts#L6)
 
 ___
 
@@ -709,7 +742,7 @@ The [DateTimeComparator](README.md#datetimecomparator).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DateTimeComparator.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DateTimeComparator.ts#L6)
+[src/types/Checkmate/ObjectModel/DateTimeComparator.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DateTimeComparator.ts#L6)
 
 ___
 
@@ -722,7 +755,7 @@ This Enum provides additional information about the reason for a database reques
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DbUnavailableState.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DbUnavailableState.ts#L9)
+[src/types/Checkmate/ObjectModel/DbUnavailableState.ts:9](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DbUnavailableState.ts#L9)
 
 ___
 
@@ -735,7 +768,7 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DebugReason.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DebugReason.ts#L9)
+[src/types/Checkmate/ObjectModel/DebugReason.ts:9](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DebugReason.ts#L9)
 
 ___
 
@@ -747,7 +780,7 @@ The type of asset for which the [list applies.](interfaces/Defect.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectAssetType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DefectAssetType.ts#L6)
+[src/types/Checkmate/ObjectModel/DefectAssetType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectAssetType.ts#L6)
 
 ___
 
@@ -759,7 +792,7 @@ The severity of a defect for a [DVIRLog](interfaces/DVIRLog.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectSeverity.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DefectSeverity.ts#L8)
+[src/types/Checkmate/ObjectModel/DefectSeverity.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectSeverity.ts#L8)
 
 ___
 
@@ -772,7 +805,7 @@ The supported ComponentType values for DataToComponentContent Messages DataToCom
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceComponentType.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceComponentType.ts#L9)
+[src/types/Checkmate/ObjectModel/DeviceComponentType.ts:9](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceComponentType.ts#L9)
 
 ___
 
@@ -784,7 +817,7 @@ The state of the. DeviceConnection
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceConnectionStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceConnectionStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceConnectionStatus.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceConnectionStatus.ts#L6)
 
 ___
 
@@ -796,20 +829,20 @@ Features that can be toggled for [Device](interfaces/Device.md)s that trigger di
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceCustomFeature.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceCustomFeature.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceCustomFeature.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceCustomFeature.ts#L6)
 
 ___
 
 ### DevicePlan
 
-Ƭ **DevicePlan**: ``"Unknown"`` \| ``"Pro"`` \| ``"Passive"`` \| ``"Base"`` \| ``"VinOdometer"`` \| ``"HOS"`` \| ``"BaseEngine"`` \| ``"ProPlus"`` \| ``"ProNoGps"`` \| ``"EnterpriseStandard"`` \| ``"RentalMode1"`` \| ``"ApiSafety"`` \| ``"ApiMaintenance"`` \| ``"ApiBase"`` \| ``"ApiPro"`` \| ``"SafetyOdo"`` \| ``"Maintenance"`` \| ``"BaseFuel"`` \| ``"ProPlusWinterOps"`` \| ``"ProPlusCarShare"`` \| ``"ProPlusWifi"`` \| ``"BaseEngineDtc"`` \| ``"Safety"`` \| ``"Suspend"`` \| ``"Terminate"`` \| ``"Sb"`` \| ``"FuelBIStandard"`` \| ``"ZenduMaint"`` \| ``"D2GODriverChallengeStandard"`` \| ``"OFHMaintTriage"`` \| ``"OFHMaintStayfit"`` \| ``"R4MeNotify4MeBase"`` \| ``"R4MeNotify4MePro"`` \| ``"R4MeDispatch4MeBase"`` \| ``"R4MeDispatch4MePro"`` \| ``"R4MeOptimization4MeBase"`` \| ``"R4MeOptimization4MePro"`` \| ``"ZenduMaintBasic"`` \| ``"ZenduMaintPro"`` \| ``"R4MeBasic"`` \| ``"GeotabDataSciencePackage"`` \| ``"SawatchezEV"`` \| ``"SurfsightON1"``
+Ƭ **DevicePlan**: ``"Unknown"`` \| ``"Pro"`` \| ``"Passive"`` \| ``"Base"`` \| ``"VinOdometer"`` \| ``"HOS"`` \| ``"BaseEngine"`` \| ``"ProPlus"`` \| ``"ProNoGps"`` \| ``"EnterpriseStandard"`` \| ``"RentalMode1"`` \| ``"ApiSafety"`` \| ``"ApiMaintenance"`` \| ``"ApiBase"`` \| ``"ApiPro"`` \| ``"SafetyOdo"`` \| ``"Maintenance"`` \| ``"BaseFuel"`` \| ``"ProPlusWinterOps"`` \| ``"ProPlusCarShare"`` \| ``"ProPlusWifi"`` \| ``"BaseEngineDtc"`` \| ``"Safety"`` \| ``"Suspend"`` \| ``"Terminate"`` \| ``"Sb"`` \| ``"FuelBIStandard"`` \| ``"ZenduMaint"`` \| ``"D2GODriverChallengeStandard"`` \| ``"OFHMaintTriage"`` \| ``"OFHMaintStayfit"`` \| ``"R4MeNotify4MeBase"`` \| ``"R4MeNotify4MePro"`` \| ``"R4MeDispatch4MeBase"`` \| ``"R4MeDispatch4MePro"`` \| ``"R4MeOptimization4MeBase"`` \| ``"R4MeOptimization4MePro"`` \| ``"ZenduMaintBasic"`` \| ``"ZenduMaintPro"`` \| ``"R4MeBasic"`` \| ``"GeotabDataSciencePackage"`` \| ``"SawatchezEV"`` \| ``"SurfsightON1"`` \| ``"SurfsightON2"`` \| ``"DataConnector0"`` \| ``"DataConnector50"`` \| ``"DataConnector100"`` \| ``"DataConnector125"`` \| ``"DataConnector150"``
 
 The Plans for Devices.
  Obsolete. Please use [DevicePlanBillingInfo](interfaces/DevicePlanBillingInfo.md) instead.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DevicePlan.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DevicePlan.ts#L9)
+[src/types/Checkmate/ObjectModel/DevicePlan.ts:9](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DevicePlan.ts#L9)
 
 ___
 
@@ -821,7 +854,7 @@ The master flags for Devices.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DevicePlanMasterFlag.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DevicePlanMasterFlag.ts#L6)
+[src/types/Checkmate/ObjectModel/DevicePlanMasterFlag.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DevicePlanMasterFlag.ts#L6)
 
 ___
 
@@ -833,19 +866,19 @@ The charging state as reported by the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/DeviceReportedChargingState.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/DeviceReportedChargingState.ts#L6)
+[src/types/Checkmate/ObjectModel/Charging/DeviceReportedChargingState.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Charging/DeviceReportedChargingState.ts#L6)
 
 ___
 
 ### DeviceShareStatus
 
-Ƭ **DeviceShareStatus**: ``"Pending"`` \| ``"Active"`` \| ``"Rejected"`` \| ``"Cancelled"`` \| ``"Terminated"`` \| ``"Error"`` \| ``"RequestTerminated"`` \| ``"RequestApproved"`` \| ``"RequestDeclined"`` \| ``"RequestCancelled"``
+Ƭ **DeviceShareStatus**: ``"Pending"`` \| ``"Active"`` \| ``"Rejected"`` \| ``"Cancelled"`` \| ``"Terminated"`` \| ``"Error"`` \| ``"RequestTerminated"`` \| ``"RequestApproved"`` \| ``"RequestDeclined"`` \| ``"RequestCancelled"`` \| ``"RequestPending"``
 
 The various statuses that a [DeviceShare](interfaces/DeviceShare.md) can have.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShareStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceShareStatus.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareStatus.ts#L6)
 
 ___
 
@@ -857,7 +890,7 @@ Represents the data flow type for a [DeviceShare](interfaces/DeviceShare.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShareType.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceShareType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareType.ts#L6)
 
 ___
 
@@ -869,7 +902,7 @@ The device status level. Used to indicate the "level" of severity for a device's
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusLevel.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusLevel.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceStatusLevel.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusLevel.ts#L6)
 
 ___
 
@@ -881,7 +914,7 @@ The Geotab GO device type enumeration. Geotab has produced various types of trac
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceType.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceType.ts#L6)
 
 ___
 
@@ -893,7 +926,7 @@ Diagnostic source type of the diagnostic.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DiagnosticType.ts#L6)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/DiagnosticType.ts#L6)
 
 ___
 
@@ -905,7 +938,7 @@ Supported Driver Change Types.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChangeType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverChangeType.ts#L6)
+[src/types/Checkmate/ObjectModel/DriverChangeType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverChangeType.ts#L6)
 
 ___
 
@@ -917,7 +950,7 @@ The types of identification keys that can be assigned to a. [Driver](interfaces/
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverKeyType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DriverKeyType.ts#L6)
+[src/types/Checkmate/ObjectModel/DriverKeyType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverKeyType.ts#L6)
 
 ___
 
@@ -929,7 +962,7 @@ The current driving state of a vehicle.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DrivingState.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DrivingState.ts#L6)
+[src/types/Checkmate/ObjectModel/DrivingState.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DrivingState.ts#L6)
 
 ___
 
@@ -941,7 +974,7 @@ Represents a severity/class code from the engine system of the specific [Device]
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DtcClass.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DtcClass.ts#L6)
+[src/types/Checkmate/ObjectModel/Engine/DtcClass.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/DtcClass.ts#L6)
 
 ___
 
@@ -953,7 +986,7 @@ Represents a severity/class code from the engine system of the specific [Device]
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DtcSeverity.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/DtcSeverity.ts#L6)
+[src/types/Checkmate/ObjectModel/Engine/DtcSeverity.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/DtcSeverity.ts#L6)
 
 ___
 
@@ -965,19 +998,19 @@ The type of [DutyStatusLog](interfaces/DutyStatusLog.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusDeferralType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusDeferralType.ts#L6)
+[src/types/Checkmate/ObjectModel/DutyStatusDeferralType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusDeferralType.ts#L6)
 
 ___
 
 ### DutyStatusLogType
 
-Ƭ **DutyStatusLogType**: ``"ON"`` \| ``"OFF"`` \| ``"D"`` \| ``"SB"`` \| ``"Exemption16H"`` \| ``"AdverseWeather"`` \| ``"Connected"`` \| ``"Disconnected"`` \| ``"PC"`` \| ``"YM"`` \| ``"WT"`` \| ``"Authority"`` \| ``"Login"`` \| ``"Logoff"`` \| ``"Certify"`` \| ``"EnginePowerup"`` \| ``"EngineShutdown"`` \| ``"EnginePowerupPC"`` \| ``"EngineShutdownPC"`` \| ``"PowerCompliance"`` \| ``"EngineSyncCompliance"`` \| ``"TimingCompliance"`` \| ``"PositioningCompliance"`` \| ``"DataRecordingCompliance"`` \| ``"DataTransferCompliance"`` \| ``"OtherCompliance"`` \| ``"MissingElementCompliance"`` \| ``"UnidentifiedDrivingCompliance"`` \| ``"INT_PC"`` \| ``"INT_D"`` \| ``"SituationalDrivingClear"`` \| ``"ExemptionOffDutyDeferral"`` \| ``"HosEnabled"`` \| ``"HosDisabled"`` \| ``"PC_Exempted"`` \| ``"CanadaCycleOne"`` \| ``"CanadaCycleTwo"`` \| ``"OperatingZoneCanadaSouthOf60"`` \| ``"OperatingZoneCanadaNorthOf60"`` \| ``"OperatingZoneAmerica"`` \| ``"INT_CoDriver"`` \| ``"Work"`` \| ``"Rest"`` \| ``"WorkExemption"``
+Ƭ **DutyStatusLogType**: ``"ON"`` \| ``"OFF"`` \| ``"D"`` \| ``"SB"`` \| ``"Exemption16H"`` \| ``"AdverseWeather"`` \| ``"Connected"`` \| ``"Disconnected"`` \| ``"PC"`` \| ``"YM"`` \| ``"WT"`` \| ``"Authority"`` \| ``"Login"`` \| ``"Logoff"`` \| ``"Certify"`` \| ``"EnginePowerup"`` \| ``"EngineShutdown"`` \| ``"EnginePowerupPC"`` \| ``"EngineShutdownPC"`` \| ``"PowerCompliance"`` \| ``"EngineSyncCompliance"`` \| ``"TimingCompliance"`` \| ``"PositioningCompliance"`` \| ``"DataRecordingCompliance"`` \| ``"DataTransferCompliance"`` \| ``"OtherCompliance"`` \| ``"MissingElementCompliance"`` \| ``"UnidentifiedDrivingCompliance"`` \| ``"INT_PC"`` \| ``"INT_D"`` \| ``"SituationalDrivingClear"`` \| ``"ExemptionOffDutyDeferral"`` \| ``"HosEnabled"`` \| ``"HosDisabled"`` \| ``"PC_Exempted"`` \| ``"CanadaCycleOne"`` \| ``"CanadaCycleTwo"`` \| ``"OperatingZoneCanadaSouthOf60"`` \| ``"OperatingZoneCanadaNorthOf60"`` \| ``"OperatingZoneAmerica"`` \| ``"INT_CoDriver"`` \| ``"Work"`` \| ``"Rest"`` \| ``"WorkExemption"`` \| ``"RailroadExemption"``
 
 The type of [DutyStatusLog](interfaces/DutyStatusLog.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusLogType.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusLogType.ts#L8)
+[src/types/Checkmate/ObjectModel/DutyStatusLogType.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusLogType.ts#L8)
 
 ___
 
@@ -989,7 +1022,7 @@ Malfunction or Diagnostic type of the [DutyStatusLog](interfaces/DutyStatusLog.m
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusMalfunctionTypes.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusMalfunctionTypes.ts#L6)
+[src/types/Checkmate/ObjectModel/DutyStatusMalfunctionTypes.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusMalfunctionTypes.ts#L6)
 
 ___
 
@@ -1001,7 +1034,7 @@ The origin of a [DutyStatusLog](interfaces/DutyStatusLog.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusOrigin.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusOrigin.ts#L8)
+[src/types/Checkmate/ObjectModel/DutyStatusOrigin.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusOrigin.ts#L8)
 
 ___
 
@@ -1013,7 +1046,7 @@ The state of the [DutyStatusLog](interfaces/DutyStatusLog.md) record.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusState.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusState.ts#L8)
+[src/types/Checkmate/ObjectModel/DutyStatusState.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusState.ts#L8)
 
 ___
 
@@ -1025,7 +1058,7 @@ The different types of [DutyStatusViolation](interfaces/DutyStatusViolation.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolationType.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusViolationType.ts#L8)
+[src/types/Checkmate/ObjectModel/DutyStatusViolationType.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolationType.ts#L8)
 
 ___
 
@@ -1037,7 +1070,7 @@ Different types of responses that can come from EldPingResponse, EldSubmitRespon
 
 #### Defined in
 
-[src/types/Checkmate/Web/EldResponseStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Web/EldResponseStatus.ts#L6)
+[src/types/Checkmate/Web/EldResponseStatus.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Web/EldResponseStatus.ts#L6)
 
 ___
 
@@ -1051,7 +1084,7 @@ The type of [EldTransferMode](README.md#eldtransfermode).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EldTransferMode.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EldTransferMode.ts#L10)
+[src/types/Checkmate/ObjectModel/EldTransferMode.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EldTransferMode.ts#L10)
 
 ___
 
@@ -1063,7 +1096,7 @@ ELD output validation message types.
 
 #### Defined in
 
-[src/types/Checkmate/Web/EldValidationEntityType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Web/EldValidationEntityType.ts#L6)
+[src/types/Checkmate/Web/EldValidationEntityType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Web/EldValidationEntityType.ts#L6)
 
 ___
 
@@ -1075,7 +1108,7 @@ ELD output validation message types.
 
 #### Defined in
 
-[src/types/Checkmate/Web/EldValidationType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Web/EldValidationType.ts#L6)
+[src/types/Checkmate/Web/EldValidationType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Web/EldValidationType.ts#L6)
 
 ___
 
@@ -1087,7 +1120,7 @@ Various Electric Energy Economy units Geotab supports. Currently supported units
 
 #### Defined in
 
-[src/types/Checkmate/Settings/ElectricEnergyEconomyUnit.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/ElectricEnergyEconomyUnit.ts#L8)
+[src/types/Checkmate/Settings/ElectricEnergyEconomyUnit.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Settings/ElectricEnergyEconomyUnit.ts#L8)
 
 ___
 
@@ -1099,32 +1132,43 @@ Various supported Electric Energy units Geotab supports.
 
 #### Defined in
 
-[src/types/Checkmate/Settings/ElectricEnergyUnit.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/ElectricEnergyUnit.ts#L8)
+[src/types/Checkmate/Settings/ElectricEnergyUnit.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Settings/ElectricEnergyUnit.ts#L8)
 
 ___
 
-### EngineTypeSearch
+### EncryptionType
 
-Ƭ **EngineTypeSearch**: [`Search`](interfaces/Search.md)
+Ƭ **EncryptionType**: ``"NoEncryption"`` \| ``"AES256CredentialsKey"`` \| ``"AES256VaultKey"``
 
-The object used to specify the
- arguments when searching for [EngineType](interfaces/EngineType.md)(s).
+The type of encryption.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/EngineTypeSearch.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/EngineTypeSearch.ts#L11)
+src/types/Checkmate/ObjectModel/EncryptionType.ts:6
+
+___
+
+### EntityBackfillStatus
+
+Ƭ **EntityBackfillStatus**: ``"Unknown"`` \| ``"Initialising"`` \| ``"Running"`` \| ``"Stopped"``
+
+Options for entity backfill status
+
+#### Defined in
+
+src/types/Checkmate/ObjectModel/EntityBackfillStatus.ts:6
 
 ___
 
 ### EntityLinkType
 
-Ƭ **EntityLinkType**: ``"Device"`` \| ``"DeviceDriver"`` \| ``"DeviceCoDriver"`` \| ``"DevicePassenger"``
+Ƭ **EntityLinkType**: ``"Device"`` \| ``"DeviceDriver"`` \| ``"DeviceCoDriver"`` \| ``"DevicePassenger"`` \| ``"TachographCoDriver"``
 
 The type of [EntityLinkType](README.md#entitylinktype).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkType.ts#L6)
+[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkType.ts#L6)
 
 ___
 
@@ -1139,7 +1183,19 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/Settings/EntitySelectionType.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/EntitySelectionType.ts#L11)
+[src/types/Checkmate/Settings/EntitySelectionType.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Settings/EntitySelectionType.ts#L11)
+
+___
+
+### EntityType
+
+Ƭ **EntityType**: ``"Device"`` \| ``"User"`` \| ``"TachographCompanyCard"`` \| ``"Global"``
+
+Represents the type of entity a [EntitySetting](interfaces/EntitySetting.md) is linked to.
+
+#### Defined in
+
+src/types/Checkmate/ObjectModel/EntitySettings/EntityType.ts:6
 
 ___
 
@@ -1151,11 +1207,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `AddIn` | [`AddIn`](README.md#addin) |
+| `AddIn` | [`AddIn`](interfaces/AddIn.md) |
 | `AddInData` | [`AddInData`](interfaces/AddInData.md) |
 | `AnnotationLog` | [`AnnotationLog`](interfaces/AnnotationLog.md) |
 | `Audit` | [`Audit`](interfaces/Audit.md) |
-| `BinaryData` | `BinaryData` |
+| `BackfillStatus` | [`BackfillStatus`](interfaces/BackfillStatus.md) |
+| `BinaryData` | [`BinaryData`](interfaces/BinaryData.md) |
 | `Certificate` | [`Certificate`](interfaces/Certificate.md) |
 | `ChargeEvent` | [`ChargeEvent`](interfaces/ChargeEvent.md) |
 | `Controller` | [`Controller`](interfaces/Controller.md) |
@@ -1167,7 +1224,6 @@ ___
 | `Defect` | [`Defect`](interfaces/Defect.md) |
 | `DefectRemark` | [`DefectRemark`](interfaces/DefectRemark.md) |
 | `Device` | [`Device`](interfaces/Device.md) |
-| `DeviceDataPrivacyChange` | [`DeviceDataPrivacyChange`](interfaces/DeviceDataPrivacyChange.md) |
 | `DeviceLink` | [`DeviceLink`](interfaces/DeviceLink.md) |
 | `DeviceMasterFlag` | [`DeviceMasterFlag`](interfaces/DeviceMasterFlag.md) |
 | `DeviceRegistrationState` | [`DeviceRegistrationState`](interfaces/DeviceRegistrationState.md) |
@@ -1176,6 +1232,7 @@ ___
 | `DeviceShare` | [`DeviceShare`](interfaces/DeviceShare.md) |
 | `DeviceStatusInfo` | [`DeviceStatusInfo`](interfaces/DeviceStatusInfo.md) |
 | `Diagnostic` | [`Diagnostic`](interfaces/Diagnostic.md) |
+| `DiagnosticMapping` | [`DiagnosticMapping`](interfaces/DiagnosticMapping.md) |
 | `DisplayMeasurementProfile` | [`DisplayMeasurementProfile`](interfaces/DisplayMeasurementProfile.md) |
 | `DisplayMeasurementProfileDetail` | [`DisplayMeasurementProfileDetail`](interfaces/DisplayMeasurementProfileDetail.md) |
 | `DisplayUnitOfMeasure` | [`DisplayUnitOfMeasure`](interfaces/DisplayUnitOfMeasure.md) |
@@ -1186,11 +1243,11 @@ ___
 | `DutyStatusLog` | [`DutyStatusLog`](interfaces/DutyStatusLog.md) |
 | `DutyStatusViolation` | [`DutyStatusViolation`](interfaces/DutyStatusViolation.md) |
 | `EmployeeRoutePlan` | [`EmployeeRoutePlan`](interfaces/EmployeeRoutePlan.md) |
-| `EnergyConsumed` | [`EnergyConsumed`](interfaces/EnergyConsumed.md) |
-| `EnergyConsumedProcessing` | [`EnergyConsumedProcessing`](interfaces/EnergyConsumedProcessing.md) |
 | `EnergySnapshotRecord` | [`EnergySnapshotRecord`](interfaces/EnergySnapshotRecord.md) |
 | `EngineType` | [`EngineType`](interfaces/EngineType.md) |
 | `EntityLinkRule` | [`EntityLinkRule`](interfaces/EntityLinkRule.md) |
+| `EntitySetting` | [`EntitySetting`](interfaces/EntitySetting.md) |
+| `EventDeviation` | [`EventDeviation`](interfaces/EventDeviation.md) |
 | `EventOccurrence` | [`EventOccurrence`](interfaces/EventOccurrence.md) |
 | `EventOccurrenceDue` | [`EventOccurrenceDue`](interfaces/EventOccurrenceDue.md) |
 | `EventRule` | [`EventRule`](interfaces/EventRule.md) |
@@ -1201,7 +1258,6 @@ ___
 | `FaultData` | [`FaultData`](interfaces/FaultData.md) |
 | `FeedVersionTrackingData` | [`FeedVersionTrackingData`](interfaces/FeedVersionTrackingData.md) |
 | `FillUp` | [`FillUp`](interfaces/FillUp.md) |
-| `FuelAndEnergySnapshotProcessing` | [`FuelAndEnergySnapshotProcessing`](interfaces/FuelAndEnergySnapshotProcessing.md) |
 | `FuelSnapshotRecord` | [`FuelSnapshotRecord`](interfaces/FuelSnapshotRecord.md) |
 | `FuelTaxDetail` | [`FuelTaxDetail`](interfaces/FuelTaxDetail.md) |
 | `FuelTransaction` | [`FuelTransaction`](interfaces/FuelTransaction.md) |
@@ -1214,28 +1270,35 @@ ___
 | `HosRulesetConfig` | [`HosRulesetConfig`](interfaces/HosRulesetConfig.md) |
 | `InstallRecord` | [`InstallRecord`](interfaces/InstallRecord.md) |
 | `IoxAddOn` | [`IoxAddOn`](interfaces/IoxAddOn.md) |
+| `IoxAddOnStatus` | [`IoxAddOnStatus`](interfaces/IoxAddOnStatus.md) |
+| `LiveCompletionMapConfig` | [`LiveCompletionMapConfig`](interfaces/LiveCompletionMapConfig.md) |
 | `LogRecord` | [`LogRecord`](interfaces/LogRecord.md) |
 | `LogRecordZoneDistance` | [`LogRecordZoneDistance`](interfaces/LogRecordZoneDistance.md) |
 | `MaintenanceNotificationRule` | [`MaintenanceNotificationRule`](interfaces/MaintenanceNotificationRule.md) |
 | `MaintenanceNotificationState` | [`MaintenanceNotificationState`](interfaces/MaintenanceNotificationState.md) |
 | `MediaFile` | [`MediaFile`](interfaces/MediaFile.md) |
 | `MimeTask` | [`MimeTask`](interfaces/MimeTask.md) |
-| `Notification` | `Notification` |
+| `Notification` | [`Notification`](interfaces/Notification.md) |
 | `ParameterGroup` | [`ParameterGroup`](interfaces/ParameterGroup.md) |
 | `Property` | [`Property`](interfaces/Property.md) |
 | `PropertySet` | [`PropertySet`](interfaces/PropertySet.md) |
 | `Recipient` | [`Recipient`](interfaces/Recipient.md) |
 | `ReportStorage` | [`ReportStorage`](interfaces/ReportStorage.md) |
 | `ReportTemplate` | [`ReportTemplate`](interfaces/ReportTemplate.md) |
+| `RestrictedDataModeChange` | [`RestrictedDataModeChange`](interfaces/RestrictedDataModeChange.md) |
 | `Route` | [`Route`](interfaces/Route.md) |
 | `RouteExtract` | [`RouteExtract`](interfaces/RouteExtract.md) |
 | `Rule` | [`Rule`](interfaces/Rule.md) |
 | `SecurityId` | [`SecurityId`](interfaces/SecurityId.md) |
-| `ServiceState` | [`ServiceState`](README.md#servicestate) |
+| `ServiceState` | [`ServiceState`](interfaces/ServiceState.md) |
 | `ShareableLink` | [`ShareableLink`](interfaces/ShareableLink.md) |
 | `ShipmentLog` | [`ShipmentLog`](interfaces/ShipmentLog.md) |
 | `Source` | [`Source`](interfaces/Source.md) |
 | `StatusData` | [`StatusData`](interfaces/StatusData.md) |
+| `TachographActivitiesCertificate` | [`TachographActivitiesCertificate`](interfaces/TachographActivitiesCertificate.md) |
+| `TachographCompanyCard` | [`TachographCompanyCard`](interfaces/TachographCompanyCard.md) |
+| `TachographDataFile` | [`TachographDataFile`](interfaces/TachographDataFile.md) |
+| `TachographVehicleInspection` | [`TachographVehicleInspection`](interfaces/TachographVehicleInspection.md) |
 | `TextMessage` | [`TextMessage`](interfaces/TextMessage.md) |
 | `Trailer` | [`Trailer`](interfaces/Trailer.md) |
 | `TrailerAttachment` | [`TrailerAttachment`](interfaces/TrailerAttachment.md) |
@@ -1250,7 +1313,6 @@ ___
 | `UserHosRuleSet` | [`UserHosRuleSet`](interfaces/UserHosRuleSet.md) |
 | `UserLoginStatus` | [`UserLoginStatus`](interfaces/UserLoginStatus.md) |
 | `UserSupport` | [`UserSupport`](interfaces/UserSupport.md) |
-| `VehicleConfiguration` | [`VehicleConfiguration`](interfaces/VehicleConfiguration.md) |
 | `VirtualExceptionEvent` | [`VirtualExceptionEvent`](interfaces/VirtualExceptionEvent.md) |
 | `Widget` | [`Widget`](interfaces/Widget.md) |
 | `WifiHotspot` | [`WifiHotspot`](interfaces/WifiHotspot.md) |
@@ -1261,7 +1323,7 @@ ___
 
 #### Defined in
 
-[src/types/EntityTypes.ts:107](https://github.com/fairfleet/geotab/blob/b682f10/src/types/EntityTypes.ts#L107)
+[src/types/EntityTypes.ts:115](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/EntityTypes.ts#L115)
 
 ___
 
@@ -1275,19 +1337,19 @@ Defines the result of process locking for ServiceLock.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Lock/Error.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Lock/Error.ts#L10)
+[src/types/Checkmate/ObjectModel/Lock/Error.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Lock/Error.ts#L10)
 
 ___
 
-### EventType
+### EulaAcceptanceLevel
 
-Ƭ **EventType**: [`NameEntity`](interfaces/NameEntity.md)
+Ƭ **EulaAcceptanceLevel**: ``"CompanyWide"``
 
-The type of an event.
+Indicates which level a EULA should be accepted at (e.g. once-per-company, once-per-user).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventType.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EventType.ts#L8)
+src/types/Checkmate/ObjectModel/EulaAcceptanceLevel.ts:6
 
 ___
 
@@ -1299,7 +1361,7 @@ The currently supported exception info tag key.
 
 #### Defined in
 
-[src/types/Checkmate/ExceptionInfoTag.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ExceptionInfoTag.ts#L6)
+[src/types/Checkmate/ExceptionInfoTag.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ExceptionInfoTag.ts#L6)
 
 ___
 
@@ -1313,7 +1375,7 @@ When exceptions are created based on built-in rules, the base type is always set
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleBaseType.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleBaseType.ts#L10)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleBaseType.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleBaseType.ts#L10)
 
 ___
 
@@ -1325,7 +1387,7 @@ Specific categories to which the exception rules belong.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleCategory.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleCategory.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleCategory.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleCategory.ts#L6)
 
 ___
 
@@ -1337,7 +1399,7 @@ The mode of the [Rule](interfaces/Rule.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleMode.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleMode.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleMode.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleMode.ts#L6)
 
 ___
 
@@ -1350,20 +1412,7 @@ This enumerated type allows designating rules to be of a certain type to assist 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleType.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleType.ts#L9)
-
-___
-
-### FailureModeSearch
-
-Ƭ **FailureModeSearch**: [`Search`](interfaces/Search.md)
-
-The object used to specify the
- arguments when searching for a [FailureMode](interfaces/FailureMode.md).
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Engine/FailureModeSearch.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FailureModeSearch.ts#L11)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleType.ts:9](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionRuleType.ts#L9)
 
 ___
 
@@ -1375,7 +1424,7 @@ Represents the lamp status of a J1939 fault, see [FaultData](interfaces/FaultDat
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultLampState.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultLampState.ts#L6)
+[src/types/Checkmate/ObjectModel/Engine/FaultLampState.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultLampState.ts#L6)
 
 ___
 
@@ -1387,7 +1436,7 @@ Specify whether the fault resets automatically or manually.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultResetMode.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultResetMode.ts#L6)
+[src/types/Checkmate/ObjectModel/Engine/FaultResetMode.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultResetMode.ts#L6)
 
 ___
 
@@ -1399,19 +1448,19 @@ Represents a fault code state code from the engine system of the specific [Devic
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultState.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultState.ts#L6)
+[src/types/Checkmate/ObjectModel/Engine/FaultState.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultState.ts#L6)
 
 ___
 
-### FillUpSearch
+### FilterComparison
 
-Ƭ **FillUpSearch**: [`FuelUpEventSearch`](interfaces/FuelUpEventSearch.md)
+Ƭ **FilterComparison**: ``"LessThan"`` \| ``"GreaterThan"`` \| ``"EqualTo"`` \| ``"IsNull"`` \| ``"IsNotNull"`` \| ``"LessThanOrEqualTo"`` \| ``"GreaterThanOrEqualTo"``
 
-The object used to specify the arguments when searching for a [FillUp](interfaces/FillUp.md).
+Filter comparison type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUpSearch.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FillUpSearch.ts#L8)
+src/types/Checkmate/ObjectModel/FilterComparison.ts:6
 
 ___
 
@@ -1423,7 +1472,7 @@ Specifies a type of filter.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/FilterType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Reprocessing/FilterType.ts#L6)
+[src/types/Checkmate/ObjectModel/Reprocessing/FilterType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/FilterType.ts#L6)
 
 ___
 
@@ -1435,7 +1484,7 @@ The type of firmware.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FirmwareType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FirmwareType.ts#L6)
+[src/types/Checkmate/ObjectModel/FirmwareType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/FirmwareType.ts#L6)
 
 ___
 
@@ -1447,7 +1496,7 @@ Various Fuel Economy units Geotab supports. Currently supported units: L/100 km,
 
 #### Defined in
 
-[src/types/Checkmate/Settings/FuelEconomyUnit.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/FuelEconomyUnit.ts#L8)
+[src/types/Checkmate/Settings/FuelEconomyUnit.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Settings/FuelEconomyUnit.ts#L8)
 
 ___
 
@@ -1459,7 +1508,7 @@ The source from which tank capacity was derived.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTankCapacitySource.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTankCapacitySource.ts#L6)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTankCapacitySource.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTankCapacitySource.ts#L6)
 
 ___
 
@@ -1471,31 +1520,31 @@ Fuel tax road type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxRoadType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/FuelTaxRoadType.ts#L6)
+[src/types/Checkmate/ObjectModel/FuelTaxRoadType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/FuelTaxRoadType.ts#L6)
 
 ___
 
 ### FuelTransactionProductType
 
-Ƭ **FuelTransactionProductType**: ``"Unknown"`` \| ``"NonFuel"`` \| ``"Regular"`` \| ``"Midgrade"`` \| ``"Premium"`` \| ``"Super"`` \| ``"Diesel"`` \| ``"E85"`` \| ``"CNG"`` \| ``"LPG"`` \| ``"Hydrogen"`` \| ``"DieselExhaustFluid"``
+Ƭ **FuelTransactionProductType**: ``"Unknown"`` \| ``"NonFuel"`` \| ``"Regular"`` \| ``"Midgrade"`` \| ``"Premium"`` \| ``"Super"`` \| ``"Diesel"`` \| ``"E85"`` \| ``"CNG"`` \| ``"LPG"`` \| ``"Hydrogen"`` \| ``"DieselExhaustFluid"`` \| ``"Electric"``
 
 Represents the type of product purchased in a [FuelTransaction](interfaces/FuelTransaction.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProductType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProductType.ts#L6)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProductType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProductType.ts#L6)
 
 ___
 
 ### FuelTransactionProvider
 
-Ƭ **FuelTransactionProvider**: ``"Unknown"`` \| ``"WexLegacy"`` \| ``"WexCustomer"`` \| ``"Drive"`` \| ``"FuelTracker"`` \| ``"Comdata"`` \| ``"Fuelman"`` \| ``"Wex"`` \| ``"Voyager"`` \| ``"UltramarCST"`` \| ``"GFN"`` \| ``"WexCanada"``
+Ƭ **FuelTransactionProvider**: ``"Unknown"`` \| ``"WexLegacy"`` \| ``"WexCustomer"`` \| ``"Drive"`` \| ``"FuelTracker"`` \| ``"Comdata"`` \| ``"Fuelman"`` \| ``"Wex"`` \| ``"Voyager"`` \| ``"UltramarCST"`` \| ``"GFN"`` \| ``"WexCanada"`` \| ``"Allstar"`` \| ``"Keyfuels"`` \| ``"TFC"``
 
 [FuelTransaction](interfaces/FuelTransaction.md) data providers.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProvider.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProvider.ts#L6)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProvider.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransactionProvider.ts#L6)
 
 ___
 
@@ -1508,7 +1557,7 @@ Confidence of the fuel event data, derived from how many data points successfull
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelUpEventConfidences.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FuelUpEventConfidences.ts#L9)
+[src/types/Checkmate/ObjectModel/Fuel/FuelUpEventConfidences.ts:9](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelUpEventConfidences.ts#L9)
 
 ___
 
@@ -1520,7 +1569,7 @@ The language used by a GoTalk attached to a. GoDevice
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GoTalkLanguage.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GoTalkLanguage.ts#L6)
+[src/types/Checkmate/ObjectModel/GoTalkLanguage.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GoTalkLanguage.ts#L6)
 
 ___
 
@@ -1532,19 +1581,7 @@ Used to represent different Google Map styles.
 
 #### Defined in
 
-[src/types/Checkmate/Settings/GoogleMapStyle.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/GoogleMapStyle.ts#L6)
-
-___
-
-### GroupSearchRelation
-
-Ƭ **GroupSearchRelation**: ``"And"`` \| ``"Or"``
-
-Search the groups
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/GroupSearchRelation.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupSearchRelation.ts#L6)
+[src/types/Checkmate/Settings/GoogleMapStyle.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Settings/GoogleMapStyle.ts#L6)
 
 ___
 
@@ -1556,7 +1593,7 @@ Defines the different types of [GroupZoneMetadata](interfaces/GroupZoneMetadata.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupZoneMetadataType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupZoneMetadataType.ts#L6)
+[src/types/Checkmate/ObjectModel/GroupZoneMetadataType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupZoneMetadataType.ts#L6)
 
 ___
 
@@ -1568,7 +1605,7 @@ Here Map Style.
 
 #### Defined in
 
-[src/types/Checkmate/Settings/HereMapStyle.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/HereMapStyle.ts#L6)
+[src/types/Checkmate/Settings/HereMapStyle.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Settings/HereMapStyle.ts#L6)
 
 ___
 
@@ -1580,31 +1617,19 @@ The HOS log generation options.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosOption.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/HosOption.ts#L6)
+[src/types/Checkmate/ObjectModel/HosOption.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosOption.ts#L6)
 
 ___
 
 ### HosRuleSet
 
-Ƭ **HosRuleSet**: ``"None"`` \| ``"NoneCanada"`` \| ``"America7Day"`` \| ``"America7DaySleeper"`` \| ``"America7DayBig"`` \| ``"America7DayBigSleeper"`` \| ``"America8Day"`` \| ``"America8DaySleeper"`` \| ``"America8DayBig"`` \| ``"America8DayBigSleeper"`` \| ``"America7DayPassenger"`` \| ``"America8DayPassenger"`` \| ``"AmericaShortHaul"`` \| ``"AmericaShortHaul8Day"`` \| ``"AmericaShortHaul14hrWorkday"`` \| ``"AmericaShortHaul8Day14hrWorkday"`` \| ``"AmericaShortHaulPassenger"`` \| ``"AmericaShortHaulPassenger8Day"`` \| ``"CanadaCycleOne"`` \| ``"CanadaCycleTwo"`` \| ``"CaliforniaProperty"`` \| ``"CaliforniaFlammableLiquid"`` \| ``"CaliforniaFlammableLiquidWithRestRequirement"`` \| ``"CaliforniaSchoolPupil"`` \| ``"CaliforniaSchoolPupilWithRestRequirement"`` \| ``"CaliforniaFarmProduct"`` \| ``"CaliforniaFarmProductWithRestRequirement"`` \| ``"CaliforniaPassenger"`` \| ``"OilTransport7Day"`` \| ``"OilTransport7DaySleeper"`` \| ``"OilTransport7DayBig"`` \| ``"OilTransport7DayBigSleeper"`` \| ``"OilTransport8Day"`` \| ``"OilTransport8DaySleeper"`` \| ``"OilTransport8DayBig"`` \| ``"OilTransport8DayBigSleeper"`` \| ``"OilTransportShortHaul"`` \| ``"OilTransportShortHaul8Day"`` \| ``"OilTransportShortHaul14hrWorkday"`` \| ``"OilTransportShortHaul8Day14hrWorkday"`` \| ``"OilTransportCalifornia8day"`` \| ``"OilWellCalifornia8day"`` \| ``"OilTransportCaliforniaProperty"`` \| ``"OilWellCaliforniaProperty"`` \| ``"OilWell7Day"`` \| ``"OilWell7DaySleeper"`` \| ``"OilWell7DayBig"`` \| ``"OilWell7DayBigSleeper"`` \| ``"OilWell8Day"`` \| ``"OilWell8DaySleeper"`` \| ``"OilWell8DayBig"`` \| ``"OilWell8DayBigSleeper"`` \| ``"AmericaSalesperson"`` \| ``"AmericaSalespersonNonCdlShortHaul"`` \| ``"AmericaTexas"`` \| ``"AmericaTexasShortHaul"`` \| ``"AmericaTexasShortHaul8Day"`` \| ``"OilTransportTexas"`` \| ``"OilWellTexas"`` \| ``"Florida7Day"`` \| ``"Florida8Day"`` \| ``"FloridaShortHaul7Day"`` \| ``"FloridaShortHaul8Day"`` \| ``"America7DayNo34h"`` \| ``"America7DayNo34hSleeper"`` \| ``"America8DayNo34h"`` \| ``"America8DayNo34hSleeper"`` \| ``"AmericaShortHaulNo34h"`` \| ``"AmericaShortHaul8DayNo34h"`` \| ``"BrazilShortHaul"`` \| ``"CarrierExemption"`` \| ``"AmericaNonCdlShortHaul7Day"`` \| ``"AmericaNonCdlShortHaul8Day"`` \| ``"WashingtonIntrastate7Day"`` \| ``"WashingtonIntrastate8Day"`` \| ``"AmericaNoRestRequirement7Day"`` \| ``"AmericaNoRestRequirement7DaySleeper"`` \| ``"AmericaNoRestRequirement7DayBig"`` \| ``"AmericaNoRestRequirement7DayBigSleeper"`` \| ``"AmericaNoRestRequirement8Day"`` \| ``"AmericaNoRestRequirement8DaySleeper"`` \| ``"AmericaNoRestRequirement8DayBig"`` \| ``"AmericaNoRestRequirement8DayBigSleeper"`` \| ``"OilTransportNoRestRequirement7Day"`` \| ``"OilTransportNoRestRequirement7DaySleeper"`` \| ``"OilTransportNoRestRequirement7DayBig"`` \| ``"OilTransportNoRestRequirement7DayBigSleeper"`` \| ``"OilTransportNoRestRequirement8Day"`` \| ``"OilTransportNoRestRequirement8DaySleeper"`` \| ``"OilTransportNoRestRequirement8DayBig"`` \| ``"OilTransportNoRestRequirement8DayBigSleeper"`` \| ``"OilWellNoRestRequirement7Day"`` \| ``"OilWellNoRestRequirement7DaySleeper"`` \| ``"OilWellNoRestRequirement7DayBig"`` \| ``"OilWellNoRestRequirement7DayBigSleeper"`` \| ``"OilWellNoRestRequirement8Day"`` \| ``"OilWellNoRestRequirement8DaySleeper"`` \| ``"OilWellNoRestRequirement8DayBig"`` \| ``"OilWellNoRestRequirement8DayBigSleeper"`` \| ``"NorthDakota7Day"`` \| ``"SouthCarolina7Day"`` \| ``"SouthCarolina8Day"`` \| ``"MarylandShortHaul7Day"`` \| ``"MarylandShortHaul8Day"`` \| ``"NorthDakotaShortHaul7Day"`` \| ``"AlaskaPassenger7Day"`` \| ``"AlaskaPassenger8Day"`` \| ``"AlaskaProperty7Day"`` \| ``"AlaskaProperty7DaySleeper"`` \| ``"AlaskaProperty8Day"`` \| ``"AlaskaProperty8DaySleeper"`` \| ``"Nebraska7day"`` \| ``"Nebraska8day"`` \| ``"California8day"`` \| ``"Oregon7day"`` \| ``"Oregon8day"`` \| ``"None8Day"`` \| ``"CanadaCycleOneTeam"`` \| ``"CanadaCycleTwoTeam"`` \| ``"CanadaNorthOf60CycleOne"`` \| ``"CanadaNorthOf60CycleTwo"`` \| ``"CanadaNorthOf60CycleOneTeam"`` \| ``"CanadaNorthOf60CycleTwoTeam"`` \| ``"NoneCanadaNorthOf60"`` \| ``"AustraliaStandardHoursSoloExemptionHours"`` \| ``"CaliforniaPropertyShortHaul"`` \| ``"CaliforniaPropertyShortHaulWithRest"`` \| ``"CanadaOil"`` \| ``"CanadaNorthOf60Oil"`` \| ``"CanadaOilTeam"`` \| ``"CanadaNorthOf60OilTeam"``
+Ƭ **HosRuleSet**: ``"None"`` \| ``"NoneCanada"`` \| ``"America7Day"`` \| ``"America7DaySleeper"`` \| ``"America7DayBig"`` \| ``"America7DayBigSleeper"`` \| ``"America8Day"`` \| ``"America8DaySleeper"`` \| ``"America8DayBig"`` \| ``"America8DayBigSleeper"`` \| ``"America7DayPassenger"`` \| ``"America8DayPassenger"`` \| ``"AmericaShortHaul"`` \| ``"AmericaShortHaul8Day"`` \| ``"AmericaShortHaul14hrWorkday"`` \| ``"AmericaShortHaul8Day14hrWorkday"`` \| ``"AmericaShortHaulPassenger"`` \| ``"AmericaShortHaulPassenger8Day"`` \| ``"CanadaCycleOne"`` \| ``"CanadaCycleTwo"`` \| ``"CaliforniaProperty"`` \| ``"CaliforniaFlammableLiquid"`` \| ``"CaliforniaFlammableLiquidWithRestRequirement"`` \| ``"CaliforniaSchoolPupil"`` \| ``"CaliforniaSchoolPupilWithRestRequirement"`` \| ``"CaliforniaFarmProduct"`` \| ``"CaliforniaFarmProductWithRestRequirement"`` \| ``"CaliforniaPassenger"`` \| ``"OilTransport7Day"`` \| ``"OilTransport7DaySleeper"`` \| ``"OilTransport7DayBig"`` \| ``"OilTransport7DayBigSleeper"`` \| ``"OilTransport8Day"`` \| ``"OilTransport8DaySleeper"`` \| ``"OilTransport8DayBig"`` \| ``"OilTransport8DayBigSleeper"`` \| ``"OilTransportShortHaul"`` \| ``"OilTransportShortHaul8Day"`` \| ``"OilTransportShortHaul14hrWorkday"`` \| ``"OilTransportShortHaul8Day14hrWorkday"`` \| ``"OilTransportCalifornia8day"`` \| ``"OilWellCalifornia8day"`` \| ``"OilTransportCaliforniaProperty"`` \| ``"OilWellCaliforniaProperty"`` \| ``"OilWell7Day"`` \| ``"OilWell7DaySleeper"`` \| ``"OilWell7DayBig"`` \| ``"OilWell7DayBigSleeper"`` \| ``"OilWell8Day"`` \| ``"OilWell8DaySleeper"`` \| ``"OilWell8DayBig"`` \| ``"OilWell8DayBigSleeper"`` \| ``"AmericaSalesperson"`` \| ``"AmericaSalespersonNonCdlShortHaul"`` \| ``"AmericaTexas"`` \| ``"AmericaTexasShortHaul"`` \| ``"AmericaTexasShortHaul8Day"`` \| ``"OilTransportTexas"`` \| ``"OilWellTexas"`` \| ``"Florida7Day"`` \| ``"Florida8Day"`` \| ``"FloridaShortHaul7Day"`` \| ``"FloridaShortHaul8Day"`` \| ``"America7DayNo34h"`` \| ``"America7DayNo34hSleeper"`` \| ``"America8DayNo34h"`` \| ``"America8DayNo34hSleeper"`` \| ``"AmericaShortHaulNo34h"`` \| ``"AmericaShortHaul8DayNo34h"`` \| ``"BrazilShortHaul"`` \| ``"CarrierExemption"`` \| ``"AmericaNonCdlShortHaul7Day"`` \| ``"AmericaNonCdlShortHaul8Day"`` \| ``"WashingtonIntrastate7Day"`` \| ``"WashingtonIntrastate8Day"`` \| ``"AmericaNoRestRequirement7Day"`` \| ``"AmericaNoRestRequirement7DaySleeper"`` \| ``"AmericaNoRestRequirement7DayBig"`` \| ``"AmericaNoRestRequirement7DayBigSleeper"`` \| ``"AmericaNoRestRequirement8Day"`` \| ``"AmericaNoRestRequirement8DaySleeper"`` \| ``"AmericaNoRestRequirement8DayBig"`` \| ``"AmericaNoRestRequirement8DayBigSleeper"`` \| ``"OilTransportNoRestRequirement7Day"`` \| ``"OilTransportNoRestRequirement7DaySleeper"`` \| ``"OilTransportNoRestRequirement7DayBig"`` \| ``"OilTransportNoRestRequirement7DayBigSleeper"`` \| ``"OilTransportNoRestRequirement8Day"`` \| ``"OilTransportNoRestRequirement8DaySleeper"`` \| ``"OilTransportNoRestRequirement8DayBig"`` \| ``"OilTransportNoRestRequirement8DayBigSleeper"`` \| ``"OilWellNoRestRequirement7Day"`` \| ``"OilWellNoRestRequirement7DaySleeper"`` \| ``"OilWellNoRestRequirement7DayBig"`` \| ``"OilWellNoRestRequirement7DayBigSleeper"`` \| ``"OilWellNoRestRequirement8Day"`` \| ``"OilWellNoRestRequirement8DaySleeper"`` \| ``"OilWellNoRestRequirement8DayBig"`` \| ``"OilWellNoRestRequirement8DayBigSleeper"`` \| ``"NorthDakota7Day"`` \| ``"SouthCarolina7Day"`` \| ``"SouthCarolina8Day"`` \| ``"MarylandShortHaul7Day"`` \| ``"MarylandShortHaul8Day"`` \| ``"NorthDakotaShortHaul7Day"`` \| ``"AlaskaPassenger7Day"`` \| ``"AlaskaPassenger8Day"`` \| ``"AlaskaProperty7Day"`` \| ``"AlaskaProperty7DaySleeper"`` \| ``"AlaskaProperty8Day"`` \| ``"AlaskaProperty8DaySleeper"`` \| ``"Nebraska7day"`` \| ``"Nebraska8day"`` \| ``"California8day"`` \| ``"Oregon7day"`` \| ``"Oregon8day"`` \| ``"None8Day"`` \| ``"CanadaCycleOneTeam"`` \| ``"CanadaCycleTwoTeam"`` \| ``"CanadaNorthOf60CycleOne"`` \| ``"CanadaNorthOf60CycleTwo"`` \| ``"CanadaNorthOf60CycleOneTeam"`` \| ``"CanadaNorthOf60CycleTwoTeam"`` \| ``"NoneCanadaNorthOf60"`` \| ``"AustraliaStandardHoursSoloExemptionHours"`` \| ``"CaliforniaPropertyShortHaul"`` \| ``"CaliforniaPropertyShortHaulWithRest"`` \| ``"CanadaOil"`` \| ``"CanadaNorthOf60Oil"`` \| ``"CanadaOilTeam"`` \| ``"CanadaNorthOf60OilTeam"`` \| ``"America7DayRailroad"`` \| ``"America8DayRailroad"``
 
 HOS rulesets for the [User](interfaces/User.md).
 
 #### Defined in
 
-[src/types/Checkmate/Settings/HosRuleSet.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/HosRuleSet.ts#L6)
-
-___
-
-### HosRuleSet2
-
-Ƭ **HosRuleSet2**: [`Entity`](interfaces/Entity.md)
-
-Hos Ruleset.
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/HosRuleSet2.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/HosRuleSet2.ts#L8)
+[src/types/Checkmate/Settings/HosRuleSet.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Settings/HosRuleSet.ts#L6)
 
 ___
 
@@ -1616,7 +1641,7 @@ The processing status of the Import Task.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Import/ImportTaskStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Import/ImportTaskStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/Import/ImportTaskStatus.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Import/ImportTaskStatus.ts#L6)
 
 ___
 
@@ -1628,7 +1653,7 @@ The type of the Import Task.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Import/ImportTaskType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Import/ImportTaskType.ts#L6)
+[src/types/Checkmate/ObjectModel/Import/ImportTaskType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Import/ImportTaskType.ts#L6)
 
 ___
 
@@ -1640,7 +1665,7 @@ The IncludeGroups enum provides a method of querying for entities relative to th
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/IncludeGroups.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/IncludeGroups.ts#L6)
+[src/types/Checkmate/ObjectModel/IncludeGroups.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/IncludeGroups.ts#L6)
 
 ___
 
@@ -1652,7 +1677,7 @@ Status of the installation for the device. User can choose to accept or ignore t
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InstallRecords/InstallStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/InstallRecords/InstallStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallStatus.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/InstallRecords/InstallStatus.ts#L6)
 
 ___
 
@@ -1664,19 +1689,31 @@ Installation type for the device. - e.g. "New Installation" in case of first tim
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InstallRecords/InstallationType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/InstallRecords/InstallationType.ts#L6)
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallationType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/InstallRecords/InstallationType.ts#L6)
+
+___
+
+### InvalidGroupFilterType
+
+Ƭ **InvalidGroupFilterType**: ``"ToManyEvaluations"``
+
+An enum representing invalid group filter exception types.
+
+#### Defined in
+
+src/types/Checkmate/ObjectModel/InvalidGroupFilterType.ts:6
 
 ___
 
 ### InvalidUserType
 
-Ƭ **InvalidUserType**: ``"Default"`` \| ``"SessionExpired"`` \| ``"UserLockout"`` \| ``"SessionInvalid"``
+Ƭ **InvalidUserType**: ``"Default"`` \| ``"SessionExpired"`` \| ``"UserLockout"`` \| ``"SessionInvalid"`` \| ``"UserArchived"`` \| ``"UserSuspended"`` \| ``"RefreshTokenExpired"`` \| ``"RefreshTokenUsed"`` \| ``"RefreshTokenDoesNotExist"``
 
 An enum representing invalid user exception types.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InvalidUserType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/InvalidUserType.ts#L6)
+[src/types/Checkmate/ObjectModel/InvalidUserType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/InvalidUserType.ts#L6)
 
 ___
 
@@ -1688,7 +1725,7 @@ An enum specifying to what resolution to serialize a DateTime to in the ISO 8601
 
 #### Defined in
 
-[src/types/Serialization/Iso8601Resolution.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Serialization/Iso8601Resolution.ts#L6)
+[src/types/Serialization/Iso8601Resolution.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Serialization/Iso8601Resolution.ts#L6)
 
 ___
 
@@ -1700,7 +1737,7 @@ Indicates the JSON-RPC error type that occurred. Derived from JSON-RPC 2.0 speci
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Web/JsonRpcErrorCode.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Web/JsonRpcErrorCode.ts#L6)
+[src/types/Checkmate/ObjectModel/Web/JsonRpcErrorCode.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Web/JsonRpcErrorCode.ts#L6)
 
 ___
 
@@ -1712,13 +1749,13 @@ Mapping of jurisdiction regions.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Jurisdictional/Jurisdiction.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Jurisdictional/Jurisdiction.ts#L6)
+[src/types/Checkmate/ObjectModel/Jurisdictional/Jurisdiction.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Jurisdictional/Jurisdiction.ts#L6)
 
 ___
 
 ### KeyType
 
-Ƭ **KeyType**: ``"Unknown"`` \| ``"DriverId"`` \| ``"DriverIdAndData"`` \| ``"AccidentData"`` \| ``"LoggingParameters"`` \| ``"GoFirmware"`` \| ``"ToggleDebug"`` \| ``"ResetPointers"`` \| ``"ResetProductId"`` \| ``"LatestTripData"`` \| ``"ToggleRFPing"`` \| ``"GSMParameters"`` \| ``"ToggleJ1708Ignition"`` \| ``"Go3Firmware"`` \| ``"WifiParameters"`` \| ``"WiFiSecurity"`` \| ``"Go5Firmware"`` \| ``"WifiLive"`` \| ``"DevicePowerUpReset"`` \| ``"IgnitionTimeout"`` \| ``"NFCDriverId"`` \| ``"NFCCdmaReset"`` \| ``"NFCDebugMode"`` \| ``"NFCPassengerId"`` \| ``"GenericNFCDriverId"`` \| ``"CustomNFCDriverId"`` \| ``"TachographDriverId"`` \| ``"TachographPassengerId"`` \| ``"CustomDriverId"``
+Ƭ **KeyType**: ``"Unknown"`` \| ``"DriverId"`` \| ``"DriverIdAndData"`` \| ``"AccidentData"`` \| ``"LoggingParameters"`` \| ``"GoFirmware"`` \| ``"ToggleDebug"`` \| ``"ResetPointers"`` \| ``"ResetProductId"`` \| ``"LatestTripData"`` \| ``"ToggleRFPing"`` \| ``"GSMParameters"`` \| ``"ToggleJ1708Ignition"`` \| ``"Go3Firmware"`` \| ``"WifiParameters"`` \| ``"WiFiSecurity"`` \| ``"Go5Firmware"`` \| ``"WifiLive"`` \| ``"DevicePowerUpReset"`` \| ``"IgnitionTimeout"`` \| ``"NFCDriverId"`` \| ``"NFCCdmaReset"`` \| ``"NFCDebugMode"`` \| ``"NFCPassengerId"`` \| ``"GenericNFCDriverId"`` \| ``"CustomNFCDriverId"`` \| ``"TachographDriverId"`` \| ``"TachographCoDriverId"`` \| ``"CustomDriverId"``
 
 Supported Legacy Key Types.
 
@@ -1726,7 +1763,7 @@ Supported Legacy Key Types.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KeyType.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/KeyType.ts#L10)
+[src/types/Checkmate/ObjectModel/KeyType.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KeyType.ts#L10)
 
 ___
 
@@ -1738,7 +1775,7 @@ Sources for which a limit should be applied.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Limits/LimitSource.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Limits/LimitSource.ts#L6)
+[src/types/Checkmate/ObjectModel/Limits/LimitSource.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Limits/LimitSource.ts#L6)
 
 ___
 
@@ -1750,7 +1787,7 @@ GPSData and DebugData Log Reason codes.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogReason.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LogReason.ts#L6)
+[src/types/Checkmate/ObjectModel/LogReason.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/LogReason.ts#L6)
 
 ___
 
@@ -1764,7 +1801,7 @@ Target app for SSO authentication redirect.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LoginRedirectTarget.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LoginRedirectTarget.ts#L10)
+[src/types/Checkmate/ObjectModel/LoginRedirectTarget.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/LoginRedirectTarget.ts#L10)
 
 ___
 
@@ -1776,7 +1813,7 @@ The type of the media file.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MediaFileType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MediaFileType.ts#L6)
+[src/types/Checkmate/ObjectModel/MediaFileType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MediaFileType.ts#L6)
 
 ___
 
@@ -1788,19 +1825,19 @@ The type of a [MediaFile](interfaces/MediaFile.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/MediaType.ts#L6)
+[src/types/Checkmate/ObjectModel/Files/MediaType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaType.ts#L6)
 
 ___
 
 ### MessageContentType
 
-Ƭ **MessageContentType**: ``"Normal"`` \| ``"CannedResponse"`` \| ``"Location"`` \| ``"DataToComponent"`` \| ``"StatusDataRequest"`` \| ``"Immobilization"`` \| ``"GoTalk"`` \| ``"IoxOutput"`` \| ``"Beep"`` \| ``"SerialIox"`` \| ``"DriverWhiteList"`` \| ``"MimeContent"`` \| ``"CAN"`` \| ``"PassthroughEnabledMessage"`` \| ``"VehicleCommand"`` \| ``"OtauContent"`` \| ``"WorkshopMode"`` \| ``"FlashMemory"`` \| ``"MimeReferenceContent"``
+Ƭ **MessageContentType**: ``"Normal"`` \| ``"CannedResponse"`` \| ``"Location"`` \| ``"DataToComponent"`` \| ``"StatusDataRequest"`` \| ``"Immobilization"`` \| ``"GoTalk"`` \| ``"IoxOutput"`` \| ``"Beep"`` \| ``"SerialIox"`` \| ``"DriverAuthList"`` \| ``"MimeContent"`` \| ``"CAN"`` \| ``"PassthroughEnabledMessage"`` \| ``"VehicleCommand"`` \| ``"OtauContent"`` \| ``"WorkshopMode"`` \| ``"FlashMemory"`` \| ``"MimeReferenceContent"``
 
 The type of [TextMessage](interfaces/TextMessage.md) content.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MessageContentType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MessageContentType.ts#L6)
+[src/types/Checkmate/ObjectModel/MessageContentType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MessageContentType.ts#L6)
 
 ___
 
@@ -1826,7 +1863,7 @@ A function that returns a middleware function.
 
 #### Defined in
 
-[src/types/Middleware.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Middleware.ts#L8)
+[src/types/Middleware.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Middleware.ts#L8)
 
 ___
 
@@ -1838,7 +1875,7 @@ Defines the different types of rule monitor predicates.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/MonitorPredicate.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/MonitorPredicate.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/MonitorPredicate.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/MonitorPredicate.ts#L6)
 
 ___
 
@@ -1864,7 +1901,7 @@ A function that executes the given JSON-RPC call and returns the call results.
 
 #### Defined in
 
-[src/types/Middleware.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Middleware.ts#L11)
+[src/types/Middleware.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Middleware.ts#L11)
 
 ___
 
@@ -1876,19 +1913,7 @@ The type of the data stored in NotificationBinary.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationBinaryFileType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationBinaryFileType.ts#L6)
-
-___
-
-### NotificationData
-
-Ƭ **NotificationData**: [`Entity`](interfaces/Entity.md)
-
-The class represents data that is associated with a notification.
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/NotificationData.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationData.ts#L8)
+[src/types/Checkmate/ObjectModel/NotificationBinaryFileType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationBinaryFileType.ts#L6)
 
 ___
 
@@ -1900,7 +1925,7 @@ The status of the notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/NotificationStatus.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationStatus.ts#L6)
 
 ___
 
@@ -1912,7 +1937,7 @@ The purpose of a notification template
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationTemplatePurpose.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationTemplatePurpose.ts#L6)
+[src/types/Checkmate/ObjectModel/NotificationTemplatePurpose.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationTemplatePurpose.ts#L6)
 
 ___
 
@@ -1924,19 +1949,19 @@ Current available tokens to use in templates such as email template
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationTokenType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationTokenType.ts#L6)
+[src/types/Checkmate/ObjectModel/NotificationTokenType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationTokenType.ts#L6)
 
 ___
 
 ### NotificationType
 
-Ƭ **NotificationType**: ``"Info"`` \| ``"ApplicationException"`` \| ``"Exception"`` \| ``"News"`` \| ``"ExceptionToBeProcessed"`` \| ``"ApplicationExceptionForUsers"`` \| ``"MessageForUser"`` \| ``"UserModified"`` \| ``"ApplicationNotificationForAdmins"`` \| ``"MaintenanceNotification"``
+Ƭ **NotificationType**: ``"Info"`` \| ``"ApplicationException"`` \| ``"Exception"`` \| ``"News"`` \| ``"ExceptionToBeProcessed"`` \| ``"ApplicationExceptionForUsers"`` \| ``"MessageForUser"`` \| ``"UserModified"`` \| ``"ApplicationNotificationForAdmins"`` \| ``"MaintenanceNotification"`` \| ``"DeviceShareNotification"`` \| ``"Report"``
 
 The type of [Notification](interfaces/Notification.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationType.ts#L6)
+[src/types/Checkmate/ObjectModel/NotificationType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationType.ts#L6)
 
 ___
 
@@ -1948,20 +1973,7 @@ Used to represent different Open Street Map (OSM) styles.
 
 #### Defined in
 
-[src/types/Checkmate/Settings/OpenStreetMapStyle.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/OpenStreetMapStyle.ts#L6)
-
-___
-
-### ParameterGroupSearch
-
-Ƭ **ParameterGroupSearch**: [`Search`](interfaces/Search.md)
-
-The object used to specify the
- arguments when searching for a [ParameterGroup](interfaces/ParameterGroup.md).
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Engine/ParameterGroupSearch.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/ParameterGroupSearch.ts#L11)
+[src/types/Checkmate/Settings/OpenStreetMapStyle.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Settings/OpenStreetMapStyle.ts#L6)
 
 ___
 
@@ -1975,7 +1987,7 @@ The message type of a ping message.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Web/PingMessageType.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Web/PingMessageType.ts#L10)
+[src/types/Checkmate/ObjectModel/Web/PingMessageType.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Web/PingMessageType.ts#L10)
 
 ___
 
@@ -1987,7 +1999,7 @@ Defines options for a posted road speed request.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/PostedRoadSpeedOptions.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/PostedRoadSpeedOptions.ts#L6)
+[src/types/Checkmate/ObjectModel/PostedRoadSpeedOptions.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/PostedRoadSpeedOptions.ts#L6)
 
 ___
 
@@ -1999,7 +2011,7 @@ An enum that indicates the uploader status.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Web/ProcessingStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Web/ProcessingStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/Web/ProcessingStatus.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Web/ProcessingStatus.ts#L6)
 
 ___
 
@@ -2011,19 +2023,19 @@ Indicates the type of operation delivered by PubSubDataUpdateData`1.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/PubSub/PubSubDataUpdateVerb.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/PubSub/PubSubDataUpdateVerb.ts#L6)
+[src/types/Checkmate/ObjectModel/PubSub/PubSubDataUpdateVerb.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/PubSub/PubSubDataUpdateVerb.ts#L6)
 
 ___
 
 ### RecipientType
 
-Ƭ **RecipientType**: ``"LogOnly"`` \| ``"Email"`` \| ``"LogPopup"`` \| ``"LogUrgentPopup"`` \| ``"Alarm"`` \| ``"WebService"`` \| ``"TextMessage"`` \| ``"ChangeStatus"`` \| ``"BeepThreeTimesRapidly"`` \| ``"BeepThreeTimes"`` \| ``"BeepTenTimesRapidly"`` \| ``"LogPopupInfo"`` \| ``"WebRequest"`` \| ``"AssignToGroup"`` \| ``"TextToSpeech"`` \| ``"LogNewsPopup"`` \| ``"BeepThreeTimesRapidlyAllowDelay"`` \| ``"BeepThreeTimesAllowDelay"`` \| ``"BeepTenTimesRapidlyAllowDelay"`` \| ``"TextToSpeechAllowDelay"`` \| ``"TripTypeChange"`` \| ``"EmailToGroup"`` \| ``"HosEnabled"`` \| ``"HosDisabled"`` \| ``"DeviceDataPrivacy"``
+Ƭ **RecipientType**: ``"LogOnly"`` \| ``"Email"`` \| ``"LogPopup"`` \| ``"LogUrgentPopup"`` \| ``"Alarm"`` \| ``"WebService"`` \| ``"TextMessage"`` \| ``"ChangeStatus"`` \| ``"BeepThreeTimesRapidly"`` \| ``"BeepThreeTimes"`` \| ``"BeepTenTimesRapidly"`` \| ``"LogPopupInfo"`` \| ``"WebRequest"`` \| ``"AssignToGroup"`` \| ``"TextToSpeech"`` \| ``"LogNewsPopup"`` \| ``"BeepThreeTimesRapidlyAllowDelay"`` \| ``"BeepThreeTimesAllowDelay"`` \| ``"BeepTenTimesRapidlyAllowDelay"`` \| ``"TextToSpeechAllowDelay"`` \| ``"TripTypeChange"`` \| ``"EmailToGroup"`` \| ``"HosEnabled"`` \| ``"HosDisabled"`` \| ``"RestrictedDataMode"`` \| ``"ExpireShareableLink"`` \| ``"DeviceShareFailure"``
 
 The type of notification message that is generated for a [Recipient](interfaces/Recipient.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RecipientType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/RecipientType.ts#L6)
+[src/types/Checkmate/ObjectModel/RecipientType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RecipientType.ts#L6)
 
 ___
 
@@ -2035,7 +2047,7 @@ Enum denoting registration states between MyG and the Gateway.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Registration/Gateway/RegistrationStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Registration/Gateway/RegistrationStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/Registration/Gateway/RegistrationStatus.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Registration/Gateway/RegistrationStatus.ts#L6)
 
 ___
 
@@ -2047,7 +2059,7 @@ Enum for the possible relay states.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RelayState.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/RelayState.ts#L6)
+[src/types/Checkmate/ObjectModel/RelayState.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RelayState.ts#L6)
 
 ___
 
@@ -2059,7 +2071,7 @@ The Repair Status for [DVIRDefect](interfaces/DVIRDefect.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RepairStatusType.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/RepairStatusType.ts#L8)
+[src/types/Checkmate/ObjectModel/RepairStatusType.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RepairStatusType.ts#L8)
 
 ___
 
@@ -2071,19 +2083,31 @@ Replacement type for the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceReplacement/ReplacementType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceReplacement/ReplacementType.ts#L6)
+[src/types/Checkmate/ObjectModel/DeviceReplacement/ReplacementType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceReplacement/ReplacementType.ts#L6)
+
+___
+
+### ReportArgumentType
+
+Ƭ **ReportArgumentType**: ``"DebugReport"`` \| ``"DeviceActivityDetail"`` \| ``"DriverActivityDetail"`` \| ``"RouteActivityDetail"`` \| ``"DeviceActivitySummary"`` \| ``"DriverActivitySummary"`` \| ``"RouteActivitySummary"`` \| ``"ExceptionsByDevice"`` \| ``"ExceptionsByDriver"`` \| ``"ExceptionsSummaryGraph"`` \| ``"RiskManagement"`` \| ``"AuditLog"`` \| ``"UserList"`` \| ``"DiagnosticList"`` \| ``"Congregation"`` \| ``"Reminder"`` \| ``"EventRules"`` \| ``"RouteSummaryReport"`` \| ``"UnassignedRouteReport"`` \| ``"FuelTaxDeviceReport"`` \| ``"FuelTaxDriverReport"`` \| ``"EngineStatusSummary"`` \| ``"EngineStatusFault"`` \| ``"EngineStatusStatus"`` \| ``"TimeCardCalculator"`` \| ``"ZoneList"`` \| ``"DeviceReportCalculator"`` \| ``"EventOccurrences"`` \| ``"Notifications"`` \| ``"GroupCalculator"`` \| ``"DeviceInstallHistory"`` \| ``"RouteDirection"`` \| ``"EngineStatusStatistics"`` \| ``"TextMessages"`` \| ``"RouteComparisonDetailReport"`` \| ``"HosLog"`` \| ``"HosViolation"`` \| ``"HosAvailability"`` \| ``"DVIRLogs"`` \| ``"TripsIdlingSummaryGraph"`` \| ``"TripsDensitySummaryGraph"`` \| ``"FleetSummaryGraph"`` \| ``"CustomerStopGraph"`` \| ``"FillUps"`` \| ``"ChargeEvent"`` \| ``"MaterialManagement"`` \| ``"RouteCompletion"`` \| ``"EVBatteryHealth"`` \| ``"DummyReportCalculator"``
+
+Enum to specify the type of the argument.
+
+#### Defined in
+
+src/types/Checkmate/ObjectModel/ReportArgumentType.ts:6
 
 ___
 
 ### ReportDataSource
 
-Ƭ **ReportDataSource**: ``"TripsDetail"`` \| ``"RiskManagement"`` \| ``"ExceptionsDetail"`` \| ``"Debug"`` \| ``"ExceptionsSummary"`` \| ``"TripsSummary"`` \| ``"TimeCard"`` \| ``"AuditLog"`` \| ``"UserList"`` \| ``"DiagnosticList"`` \| ``"ZoneVisitsDetail"`` \| ``"ZoneVisitsSummary"`` \| ``"RouteSummary"`` \| ``"UnassignedRoute"`` \| ``"Notification"`` \| ``"FuelTax"`` \| ``"ZoneList"`` \| ``"Congregation"`` \| ``"EngineSummary"`` \| ``"EngineFault"`` \| ``"EngineStatus"`` \| ``"Device"`` \| ``"RouteDirections"`` \| ``"Reminder"`` \| ``"EventRuleDevice"`` \| ``"EventHistory"`` \| ``"GroupsList"`` \| ``"DeviceInstallHistory"`` \| ``"EngineStatusStatistics"`` \| ``"TextMessage"`` \| ``"RouteComparisonDetail"`` \| ``"HosLog"`` \| ``"DVIRLog"`` \| ``"HosViolation"`` \| ``"ExceptionsSummaryGraph"`` \| ``"TripsIdlingSummaryGraph"`` \| ``"FleetSummaryGraph"`` \| ``"CustomerStopGraph"`` \| ``"TripsDensitySummaryGraph"`` \| ``"FillUps"`` \| ``"HosAvailability"`` \| ``"ChargeEvent"`` \| ``"MaterialManagement"`` \| ``"RouteCompletion"``
+Ƭ **ReportDataSource**: ``"TripsDetail"`` \| ``"RiskManagement"`` \| ``"ExceptionsDetail"`` \| ``"Debug"`` \| ``"ExceptionsSummary"`` \| ``"TripsSummary"`` \| ``"TimeCard"`` \| ``"AuditLog"`` \| ``"UserList"`` \| ``"DiagnosticList"`` \| ``"ZoneVisitsDetail"`` \| ``"ZoneVisitsSummary"`` \| ``"RouteSummary"`` \| ``"UnassignedRoute"`` \| ``"Notification"`` \| ``"FuelTax"`` \| ``"ZoneList"`` \| ``"Congregation"`` \| ``"EngineSummary"`` \| ``"EngineFault"`` \| ``"EngineStatus"`` \| ``"Device"`` \| ``"RouteDirections"`` \| ``"Reminder"`` \| ``"EventRuleDevice"`` \| ``"EventHistory"`` \| ``"GroupsList"`` \| ``"DeviceInstallHistory"`` \| ``"EngineStatusStatistics"`` \| ``"TextMessage"`` \| ``"RouteComparisonDetail"`` \| ``"HosLog"`` \| ``"DVIRLog"`` \| ``"HosViolation"`` \| ``"ExceptionsSummaryGraph"`` \| ``"TripsIdlingSummaryGraph"`` \| ``"FleetSummaryGraph"`` \| ``"CustomerStopGraph"`` \| ``"TripsDensitySummaryGraph"`` \| ``"FillUps"`` \| ``"HosAvailability"`` \| ``"ChargeEvent"`` \| ``"MaterialManagement"`` \| ``"RouteCompletion"`` \| ``"EVBatteryHealth"``
 
 Used to specify the type of the report template.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportDataSource.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportDataSource.ts#L6)
+[src/types/Checkmate/ObjectModel/ReportDataSource.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportDataSource.ts#L6)
 
 ___
 
@@ -2095,7 +2119,7 @@ Used to specify where the destination of the scheduled report.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportDestination.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportDestination.ts#L6)
+[src/types/Checkmate/ObjectModel/ReportDestination.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportDestination.ts#L6)
 
 ___
 
@@ -2107,19 +2131,19 @@ The frequency with which reports can be generated.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportFrequency.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportFrequency.ts#L6)
+[src/types/Checkmate/ObjectModel/ReportFrequency.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportFrequency.ts#L6)
 
 ___
 
 ### ReportHeading
 
-Ƭ **ReportHeading**: ``"DeviceName"`` \| ``"DeviceId"`` \| ``"DeviceComment"`` \| ``"DeviceGroup"`` \| ``"DriverGroup"`` \| ``"WorkTimeName"`` \| ``"TripDetailMaximumSpeed"`` \| ``"TripDetailStopDuration"`` \| ``"TripDetailRouteName"`` \| ``"TripDetailIdlingDuration"`` \| ``"TripDetailStopDateTime"`` \| ``"TripDetailStartDateTime"`` \| ``"TripDetailDrivingDuraion"`` \| ``"TripDetailDistance"`` \| ``"TripDetailLatitude"`` \| ``"TripDetailLongitude"`` \| ``"TripDetailLocation"`` \| ``"TripDetailStartLocation"`` \| ``"TripDetailSpeedRange1"`` \| ``"TripDetailSpeedRange1Duration"`` \| ``"TripDetailSpeedRange2"`` \| ``"TripDetailSpeedRange2Duration"`` \| ``"TripDetailSpeedRange3"`` \| ``"TripDetailSpeedRange3Duration"`` \| ``"TripDetailIsStartDriveWorkHours"`` \| ``"TripDetailIsStopDriveWorkHours"`` \| ``"TripDetailWorkHoursDistance"`` \| ``"TripDetailWorkHoursTripTime"`` \| ``"TripDetailWorkHoursStopTime"`` \| ``"TripDetailOdometerAtStart"`` \| ``"TripDetailOdometerAtEnd"`` \| ``"TripDetailExceptionRule1Duration"`` \| ``"TripDetailExceptionRule1Count"`` \| ``"TripDetailExceptionRule1Distance"`` \| ``"TripDetailExceptionRule2Duration"`` \| ``"TripDetailExceptionRule2Count"`` \| ``"TripDetailExceptionRule2Distance"`` \| ``"TripDetailExceptionRule3Duration"`` \| ``"TripDetailExceptionRule3Count"`` \| ``"TripDetailExceptionRule3Distance"`` \| ``"TripDetailExceptionRule4Duration"`` \| ``"TripDetailExceptionRule4Count"`` \| ``"TripDetailExceptionRule4Distance"`` \| ``"TripDetailExceptionRule5Duration"`` \| ``"TripDetailExceptionRule5Count"`` \| ``"TripDetailExceptionRule5Distance"`` \| ``"TripDetailExceptionRule6Duration"`` \| ``"TripDetailExceptionRule6Count"`` \| ``"TripDetailExceptionRule6Distance"`` \| ``"TripDetailExceptionRule7Duration"`` \| ``"TripDetailExceptionRule7Count"`` \| ``"TripDetailExceptionRule7Distance"`` \| ``"TripDetailExceptionRule8Duration"`` \| ``"TripDetailExceptionRule8Count"`` \| ``"TripDetailExceptionRule8Distance"`` \| ``"TripDetailPrivateTrip"`` \| ``"TripDetailCategory"`` \| ``"TripDetailAnnotation"`` \| ``"TripSummaryName"`` \| ``"TripSummaryGroupName"`` \| ``"TripSummaryCustomerDuration"`` \| ``"TripSummaryNonCustomerDuration"`` \| ``"TripSummaryDrivingDuration"`` \| ``"TripSummaryOfficeDepotDuration"`` \| ``"TripSummaryHomeDuration"`` \| ``"TripSummaryCustomerStopsCount"`` \| ``"TripSummaryStopCount"`` \| ``"TripSummaryCustomerDurationPercentage"`` \| ``"TripSummaryNonCustomerDurationPercentage"`` \| ``"TripSummaryDrivingDurationPercentage"`` \| ``"TripSummaryOfficeDepotDurationPercentage"`` \| ``"TripSummaryHomeDurationPercentage"`` \| ``"TripSummaryDistance"`` \| ``"TripSummaryIdlingDuration"`` \| ``"TripSummaryIdlingDurationPercentage"`` \| ``"TripSummaryPeriodStartDate"`` \| ``"TripSummaryPeriodEndDate"`` \| ``"TripSummaryPeriodNumber"`` \| ``"TripSummaryVocation"`` \| ``"TripSummaryMaximumSpeed"`` \| ``"TripSummaryOdometerAtEnd"`` \| ``"TripSummaryDaysDriven"`` \| ``"DebugDateTime"`` \| ``"DebugRecordType"`` \| ``"DebugSpeed"`` \| ``"DebugLongitude"`` \| ``"DebugLatitude"`` \| ``"DebugLocation"`` \| ``"DebugRecordReason"`` \| ``"DebugRecordDataInHex"`` \| ``"DebugIgnition"`` \| ``"DebugAux1"`` \| ``"DebugAux2"`` \| ``"DebugAux3"`` \| ``"DebugAux4"`` \| ``"DebugAux5"`` \| ``"DebugAux6"`` \| ``"DebugAux7"`` \| ``"DebugAux8"`` \| ``"DebugPositionValid"`` \| ``"DebugPositionValidAtUnit"`` \| ``"DebugLoadedSection"`` \| ``"DebugDataLength"`` \| ``"DebugStatusDataValue"`` \| ``"DiagnosticName"`` \| ``"DiagnosticId"`` \| ``"DiagnosticCode"`` \| ``"ControllerName"`` \| ``"ControllerId"`` \| ``"ControllerCode"`` \| ``"FailureModeName"`` \| ``"FailureModeId"`` \| ``"FailureModeCode"`` \| ``"UnitOfMeasureName"`` \| ``"UnitOfMeasureId"`` \| ``"GroupName"`` \| ``"GroupId"`` \| ``"GroupComment"`` \| ``"NodeDetailParents"`` \| ``"RiskManagementSpeedLimit1Count"`` \| ``"RiskManagementSpeedLimit2Count"`` \| ``"RiskManagementSpeedLimit3Count"`` \| ``"RiskManagementAverageSpeed"`` \| ``"RiskManagementStopUnder10Count"`` \| ``"RiskManagementStopOver10Count"`` \| ``"RiskManagementStopOver20Count"`` \| ``"RiskManagementStopOver30Count"`` \| ``"RiskManagementStopOver40Count"`` \| ``"RiskManagementStopOver50Count"`` \| ``"RiskManagementIdlingOver5Count"`` \| ``"RiskManagementIdlingDuration"`` \| ``"RiskManagementAfterHoursTripCount"`` \| ``"RiskManagementTotalDistance"`` \| ``"RiskManagementTotalStopsCount"`` \| ``"RiskManagementAux1"`` \| ``"RiskManagementExceptionRule1"`` \| ``"RiskManagementExceptionRule1Duration"`` \| ``"RiskManagementExceptionRule1Count"`` \| ``"RiskManagementExceptionRule1Distance"`` \| ``"RiskManagementExceptionRule2"`` \| ``"RiskManagementExceptionRule2Duration"`` \| ``"RiskManagementExceptionRule2Count"`` \| ``"RiskManagementExceptionRule2Distance"`` \| ``"RiskManagementExceptionRule3"`` \| ``"RiskManagementExceptionRule3Duration"`` \| ``"RiskManagementExceptionRule3Count"`` \| ``"RiskManagementExceptionRule3Distance"`` \| ``"RiskManagementExceptionRule4"`` \| ``"RiskManagementExceptionRule4Duration"`` \| ``"RiskManagementExceptionRule4Count"`` \| ``"RiskManagementExceptionRule4Distance"`` \| ``"RiskManagementExceptionRule5"`` \| ``"RiskManagementExceptionRule5Duration"`` \| ``"RiskManagementExceptionRule5Count"`` \| ``"RiskManagementExceptionRule5Distance"`` \| ``"RiskManagementExceptionRule6"`` \| ``"RiskManagementExceptionRule6Duration"`` \| ``"RiskManagementExceptionRule6Count"`` \| ``"RiskManagementExceptionRule6Distance"`` \| ``"RiskManagementTotalDrivingDuration"`` \| ``"RiskManagementPeriodStartDate"`` \| ``"RiskManagementPeriodEndDate"`` \| ``"RiskManagementPeriodNumber"`` \| ``"RiskManagementMaxSpeed"`` \| ``"ExceptionDetailLongitude"`` \| ``"ExceptionDetailLatitude"`` \| ``"ExceptionDetailLocation"`` \| ``"ExceptionDetailStartTime"`` \| ``"ExceptionDetailEndTime"`` \| ``"ExceptionDuration"`` \| ``"ExceptionTripDistance"`` \| ``"ExceptionDistance"`` \| ``"ExceptionDetailDetails"`` \| ``"ExceptionDetailExtraInfo"`` \| ``"LegacyExceptionDetailExtraInfo"`` \| ``"ExceptionSummaryFirstIncident"`` \| ``"ExceptionSummaryLastIncident"`` \| ``"ExceptionSummaryIncidentCount"`` \| ``"ExceptionRuleName"`` \| ``"ExceptionRuleId"`` \| ``"ExceptionRuleComment"`` \| ``"ExceptionRuleGroup"`` \| ``"TimeCardFirstDepartDate"`` \| ``"TimeCardLastArriveDate"`` \| ``"TimeCardLocation"`` \| ``"TimeCardNonCustomerStopTime"`` \| ``"TimeCardCustomerStopTime"`` \| ``"TimeCardTripTime"`` \| ``"TimeCardIdleTime"`` \| ``"TimeCardMaxSpeed"`` \| ``"TimeCardLatitude"`` \| ``"TimeCardLongitude"`` \| ``"DriverKeyId"`` \| ``"DriverKeySerialNumber"`` \| ``"DriverkeyType"`` \| ``"UserDesignation"`` \| ``"UserAuthorityName"`` \| ``"UserAuthorityAddress"`` \| ``"UserEmployeeNo"`` \| ``"UserActiveFrom"`` \| ``"UserActiveTo"`` \| ``"UserCompanyName"`` \| ``"UserCompanyAddress"`` \| ``"DriverLicenseNumber"`` \| ``"DriverLicenseProvince"`` \| ``"UserCarrierNumber"`` \| ``"UserLastAccessDate"`` \| ``"UserTimeZone"`` \| ``"AuditName"`` \| ``"AuditUserName"`` \| ``"AuditDateTime"`` \| ``"AuditComment"`` \| ``"DisplayUserGroups"`` \| ``"DisplayUserReportGroups"`` \| ``"DisplayUserSecurityLevel"`` \| ``"UserComment"`` \| ``"UserId"`` \| ``"UserName"`` \| ``"UserFirstName"`` \| ``"UserLastName"`` \| ``"UserAuthenticationType"`` \| ``"UserHosRuleSet"`` \| ``"ServiceStatusDatabase"`` \| ``"ServiceStatusSource"`` \| ``"ServiceStatusInfo"`` \| ``"ServiceStatusLastUpdate"`` \| ``"ServiceStatusPC"`` \| ``"ServiceStatusStatus"`` \| ``"SourceName"`` \| ``"SourceId"`` \| ``"EngineTypeName"`` \| ``"EngineTypeId"`` \| ``"DataDiagnosticDataLength"`` \| ``"DataDiagnosticConversion"`` \| ``"DataDiagnosticOffset"`` \| ``"ParameterGroupName"`` \| ``"ParameterGroupId"`` \| ``"ExceptionInstanceDateTime"`` \| ``"RouteName"`` \| ``"RouteId"`` \| ``"RouteComment"`` \| ``"RouteDeviceLocalStartDate"`` \| ``"VehicleDayRouteDriveTime"`` \| ``"VehicleDayRouteDistance"`` \| ``"VehicleDayRouteOfficeTime"`` \| ``"VehicleDayRouteCustomerTimeOverThreshold"`` \| ``"VehicleDayRouteCustomerTimeUnderThreshold"`` \| ``"VehicleDayRouteHomeTime"`` \| ``"VehicleDayRouteUndefinedStopTimeOverThreshold"`` \| ``"VehicleDayRouteUndefinedStopTimeUnderThreshold"`` \| ``"VehicleDayRouteTotalStops"`` \| ``"VehicleDayRouteOfficeStops"`` \| ``"VehicleDayRouteHomeStops"`` \| ``"VehicleDayRouteCustomerStopsOverThreshold"`` \| ``"VehicleDayRouteCustomerStopsUnderThreshold"`` \| ``"VehicleDayRouteUndefinedStopsOverThreshold"`` \| ``"VehicleDayRouteUndefinedStopsUnderThreshold"`` \| ``"VehicleDayRouteLocalFirstDepartureTime"`` \| ``"VehicleDayRouteLocalLastArrivalTime"`` \| ``"VehicleDayRouteEmployeeList"`` \| ``"VehicleDayRoutePercentageSpeeding"`` \| ``"VehicleDayRouteIdleTime"`` \| ``"VehicleDayRouteSeatbeltViolations"`` \| ``"VehicleDayRouteSpeedingViolations"`` \| ``"VehicleDayRouteJackRabbitStarts"`` \| ``"VehicleDayRouteSpeedingViolationTime"`` \| ``"NotificationDateTime"`` \| ``"NotificationApplicationExceptionDataSource"`` \| ``"NotificationApplicationExceptionDataDescription"`` \| ``"NotificationApplicationExceptionDataInfo"`` \| ``"NotificationInfoDataInstance"`` \| ``"NotificationInfoDataSource"`` \| ``"NotificationInfoDataInfo"`` \| ``"NotificationNewsTextFullInfo"`` \| ``"FuelTaxCountry"`` \| ``"FuelTaxJurisdiction"`` \| ``"FuelTaxUpdatesAvailable"`` \| ``"FuelTaxEnterTime"`` \| ``"FuelTaxExitTime"`` \| ``"FuelTaxEnterOdometer"`` \| ``"FuelTaxExitOdometer"`` \| ``"FuelTaxDistance"`` \| ``"FuelTaxGpsDistance"`` \| ``"FuelTaxOdometerOffset"`` \| ``"FuelTaxLatitude"`` \| ``"FuelTaxLongitude"`` \| ``"FuelTaxVin"`` \| ``"FuelTaxLicensePlate"`` \| ``"FuelTaxIsIftaJurisdiction"`` \| ``"FuelTaxFuelType"`` \| ``"FuelTaxFuelPurchased"`` \| ``"FuelTaxFuelUsed"`` \| ``"FuelTaxNetTaxableFuel"`` \| ``"FuelTaxFuelEconomy"`` \| ``"FuelTaxAuthority"`` \| ``"FuelTaxTollRoad"`` \| ``"FuelTaxRoadType"`` \| ``"ZoneZoneTypes"`` \| ``"ZoneGroup"`` \| ``"ZoneName"`` \| ``"ZoneId"`` \| ``"ZoneComment"`` \| ``"ZoneStartTime"`` \| ``"ZoneEndTime"`` \| ``"ZoneDisplayed"`` \| ``"ZoneIsStopExceptionRequired"`` \| ``"ZoneExternalReference"`` \| ``"ZoneFillColor"`` \| ``"ZoneCentroidLongitude"`` \| ``"ZoneCentroidLatitude"`` \| ``"CongregationStart"`` \| ``"CongregationEnd"`` \| ``"StopStart"`` \| ``"StopEnd"`` \| ``"StopLocation"`` \| ``"DeviceStatusLastHeartBeat"`` \| ``"DeviceStatusLastFaultData"`` \| ``"DeviceStatusLastEngineData"`` \| ``"FaultDataId"`` \| ``"FaultDataDateTime"`` \| ``"FaultDataFaultLampState"`` \| ``"FaultDataFaultState"`` \| ``"FaultDataCount"`` \| ``"FaultDataDismissDateTime"`` \| ``"FaultDataClass"`` \| ``"FaultDataSeverity"`` \| ``"FaultDataSourceAddress"`` \| ``"FlashCodeName"`` \| ``"FlashCodeId"`` \| ``"FlashCodeCircuitIndex"`` \| ``"FlashCodeFlashCodeIndex"`` \| ``"FlashCodeHelpUrl"`` \| ``"FlashCodePriorityLevel"`` \| ``"FlashCodePageReference"`` \| ``"FaultDataAmberWarningLamp"`` \| ``"FaultDataRedStopLamp"`` \| ``"FaultDataMalfunctionLamp"`` \| ``"FaultDataProtectWarningLamp"`` \| ``"StatusDataDateTime"`` \| ``"StatusDataData"`` \| ``"SensorDataAddress"`` \| ``"DeviceDetailsCurrentOdometer"`` \| ``"DeviceDetailsLastStopLongitude"`` \| ``"DeviceDetailsLastStopLatitude"`` \| ``"DeviceDetailsLocation"`` \| ``"DeviceDetailsCurrentEngineHours"`` \| ``"DeviceDeviceType"`` \| ``"DeviceProductId"`` \| ``"DeviceMajor"`` \| ``"DeviceMinor"`` \| ``"DeviceSerialNumber"`` \| ``"DeviceLicensePlate"`` \| ``"DeviceLicenseState"`` \| ``"DeviceVIN"`` \| ``"DeviceEngineVIN"`` \| ``"DeviceDetailsMake"`` \| ``"DeviceDetailsModel"`` \| ``"DeviceDetailsYear"`` \| ``"DeviceDetailsExtra"`` \| ``"DeviceTimeZoneId"`` \| ``"DeviceStatusLastTrip"`` \| ``"DeviceStatusLastGpsRecord"`` \| ``"DeviceStatusLastStatusData"`` \| ``"DeviceStatusAnalysisTroubleDownloadStatus"`` \| ``"DeviceDetailsDrivingState"`` \| ``"DeviceDetailsPrivacyMode"`` \| ``"RouteItemRouteName"`` \| ``"RouteItemLegName"`` \| ``"RouteItemTurnNumber"`` \| ``"RouteItemTurnText"`` \| ``"RouteItemDistance"`` \| ``"RouteItemDuration"`` \| ``"EventRuleKilometers"`` \| ``"EventRuleMonths"`` \| ``"EventRuleDays"`` \| ``"EventRuleGroups"`` \| ``"EventRuleDateTime"`` \| ``"EventRuleEngineHours"`` \| ``"EventRuleComment"`` \| ``"ReminderEventCurrentOdometer"`` \| ``"EventOccuranceEventDate"`` \| ``"EventOccuranceAdjustedOdometer"`` \| ``"EventOccuranceComment"`` \| ``"EventOccurrenceReference"`` \| ``"EventOccurrenceLaborCostInput"`` \| ``"EventOccurrenceLaborCostConverted"`` \| ``"EventOccurrencePartsCostInput"`` \| ``"EventOccurrencePartsCostConverted"`` \| ``"EventOccurrenceTaxInput"`` \| ``"EventOccurrenceTaxConverted"`` \| ``"EventOccurrenceTotalCostInput"`` \| ``"EventOccurrenceTotalCostConverted"`` \| ``"EventOccurrenceCostCurrencyInput"`` \| ``"EventOccurrenceCostCurrencyConverted"`` \| ``"ReminderEventEventRuleType"`` \| ``"ReminderEventDueDate"`` \| ``"ReminderEventDueDistance"`` \| ``"ReminderEventDueEngineHours"`` \| ``"EventRuleName"`` \| ``"EventRuleId"`` \| ``"EventOccuranceCurrentOdometer"`` \| ``"EventOccuranceCurrentEngineHours"`` \| ``"EventOccuranceAdjustedEngineHours"`` \| ``"KeyInsertDataLogDate"`` \| ``"DeviceInstallResultDate"`` \| ``"DeviceInstallResultAllDownload"`` \| ``"DeviceInstallResultLastGpsRecord"`` \| ``"DeviceInstallResultLastEngineRecord"`` \| ``"DeviceInstallResultSimNumber"`` \| ``"DeviceInstallResultSimActive"`` \| ``"DeviceInstallResultComments"`` \| ``"DeviceInstallRequestSerialNumber"`` \| ``"DeviceInstallRequestHardwareId"`` \| ``"DeviceInstallRequestDate"`` \| ``"DeviceInstallRequestInstallerName"`` \| ``"DeviceInstallRequestInstallerCompany"`` \| ``"DeviceInstallRequestOdometer"`` \| ``"DeviceInstallRequestAsset"`` \| ``"DeviceInstallRequestComments"`` \| ``"DeviceInstallHistoryRecordType"`` \| ``"DeviceInstallHistoryStatus"`` \| ``"DeviceInstallMakeAndModel"`` \| ``"DeviceInstallIox"`` \| ``"DeviceInstallHarness"`` \| ``"DeviceInstallHarnessComments"`` \| ``"DeviceInstallAuxPorts"`` \| ``"DeviceInstallComment"`` \| ``"DeviceInstallWorkReference"`` \| ``"DeviceInstallEngineHours"`` \| ``"DeviceInstallEngineProtocol"`` \| ``"DeviceInstallLastDeviceCommunication"`` \| ``"DeviceInstallPossibleIssues"`` \| ``"DeviceInstallPhoto1"`` \| ``"DeviceInstallPhoto2"`` \| ``"DeviceInstallPhoto3"`` \| ``"DeviceInstallPhoto4"`` \| ``"PerformanceDateTime"`` \| ``"PerformanceProcessContext"`` \| ``"PerformanceSource"`` \| ``"PerformanceLevel1Action"`` \| ``"PerformanceLevel2Action"`` \| ``"PerformanceLevel3Action"`` \| ``"PerformanceCpuSeconds"`` \| ``"PerformanceSeconds"`` \| ``"PerformanceLevel1Count"`` \| ``"PerformanceLevel2Count"`` \| ``"PerformanceLevel3Count"`` \| ``"PerformanceTotalCpuSeconds"`` \| ``"PerformanceTotalSeconds"`` \| ``"PerformanceAction"`` \| ``"PerformanceLastValue"`` \| ``"PerformanceMinValue"`` \| ``"PerformanceMaxValue"`` \| ``"PerformanceTotalValue"`` \| ``"PerformanceAverageValue"`` \| ``"PerformanceCount"`` \| ``"DeviceProgrammingImmobilizeArming"`` \| ``"DeviceProgrammingSpeedingOn"`` \| ``"DeviceProgrammingSpeedingOff"`` \| ``"DeviceProgrammingIdleMinutes"`` \| ``"DeviceProgrammingRpmValue"`` \| ``"DeviceProgrammingHarshBrakeWarning"`` \| ``"DeviceProgrammingOdometerOffset"`` \| ``"DeviceProgrammingEngineHourOffset"`` \| ``"EngineStatusStatisticsPeriodStartDate"`` \| ``"EngineStatusStatisticsPeriodEndDate"`` \| ``"EngineStatusStatisticsDistance"`` \| ``"EngineStatusStatisticsFuelUsed"`` \| ``"EngineStatusStatisticsZeroSpeedFuelUsed"`` \| ``"EngineStatusStatisticsFuelEconomyMetric"`` \| ``"EngineStatusStatisticsFuelEconomyUS"`` \| ``"EngineStatusStatisticsIdling"`` \| ``"EngineStatusStatisticsPeriodNumber"`` \| ``"EngineStatusStatisticsFuelEconomy"`` \| ``"EngineStatusStatisticsElectricEnergyUsed"`` \| ``"EngineStatusStatisticsElectricEnergyUsedFuelEquivalent"`` \| ``"EngineStatusStatisticsElectricEnergyEconomy"`` \| ``"EngineStatusStatisticsFuelAndElectricEconomy"`` \| ``"EngineStatusStatisticsElectricEnergyUsedPercentage"`` \| ``"EngineStatusStatisticsGpsDistance"`` \| ``"TextMessageSentDate"`` \| ``"TextMessageDeliveredDate"`` \| ``"TextMessageDirectionToVehicle"`` \| ``"TextMessageReadDate"`` \| ``"TextMessageContentMessage"`` \| ``"LocationContentLatitude"`` \| ``"LocationContentLongitude"`` \| ``"LocationContentAddress"`` \| ``"CannedResponseOptionsString"`` \| ``"RouteComparisonDetailExpectedSequence"`` \| ``"RouteComparisonDetailActualSequence"`` \| ``"RouteComparisonDetailExpectedArrivalTime"`` \| ``"RouteComparisonDetailActualArrivalTime"`` \| ``"RouteComparisonDetailLatitude"`` \| ``"RouteComparisonDetailLongitude"`` \| ``"RouteComparisonDetailExpectedStopDuration"`` \| ``"RouteComparisonDetailActualStopDuration"`` \| ``"RouteComparisonDetailIdling"`` \| ``"RouteComparisonDetailLocation"`` \| ``"RouteComparisonDetailStartDateTime"`` \| ``"RouteComparisonDetailEndDateTime"`` \| ``"RouteComparisonDetailOfficeName"`` \| ``"RouteComparisonDetailExpectedDrivingDistance"`` \| ``"RouteComparisonDetailActualDrivingDistance"`` \| ``"RouteComparisonDetailExpectedDrivingTimeSpan"`` \| ``"RouteComparisonDetailActualDrivingTimeSpan"`` \| ``"DVIRLogDateTimeCreated"`` \| ``"DVIRLogDriverRemark"`` \| ``"DVIRLogRepairDate"`` \| ``"DVIRLogRepairRemark"`` \| ``"DVIRDefects"`` \| ``"DVIRLogCertifyDate"`` \| ``"DVIRLogCertifyRemark"`` \| ``"DVIRLogIsSafeToOperate"`` \| ``"DVIRLogLogType"`` \| ``"DVIRDetailOdometer"`` \| ``"DVIRDetailHubometer"`` \| ``"DVIRLogDetailInspector"`` \| ``"DVIRLogDetailOperator"`` \| ``"DVIRLogLoadHeight"`` \| ``"DVIRLogLoadWidth"`` \| ``"DVIRLogAuthorityName"`` \| ``"DVIRLogAuthorityAddress"`` \| ``"DVIRLogDeviceVin"`` \| ``"DVIRDetailAddress"`` \| ``"DVIRDetailDefects"`` \| ``"DVIRDetailNormalDefects"`` \| ``"DVIRDetailUnregulatedDefects"`` \| ``"DVIRDetailCriticalDefects"`` \| ``"DVIRDetailDefectName"`` \| ``"DVIRDetailDefectSeverityLevel"`` \| ``"DVIRDetailDefectRepairStatus"`` \| ``"DVIRDefectRepairDateTime"`` \| ``"DVIRDetailDefectRemark"`` \| ``"DutyStatusId"`` \| ``"DutyStatusFromPreviousPeriod"`` \| ``"DutyStatusDateTime"`` \| ``"DutyStatusStatus"`` \| ``"DutyStatusVerifyDateTime"`` \| ``"DutyStatusEditDateTime"`` \| ``"DutyStatusCoDrivers"`` \| ``"DutyStatusLocation"`` \| ``"DutyStatusOrigin"`` \| ``"DutyStatusParentId"`` \| ``"DutyStatusState"`` \| ``"DutyStatusVersion"`` \| ``"DutyStatusDetailOdometer"`` \| ``"DutyStatusDetailLatitude"`` \| ``"DutyStatusDetailLongitude"`` \| ``"DutyStatusDetailDistance"`` \| ``"DutyStatusDetailTrailers"`` \| ``"DutyStatusDetailShipments"`` \| ``"DutyStatusDetailHosRuleSet"`` \| ``"DutyStatusDetailAnnotations"`` \| ``"DutyStatusDetailDuration"`` \| ``"DutyStatusSequence"`` \| ``"DutyStatusMalfunctionType"`` \| ``"HosViolationDrivingDuration"`` \| ``"HosViolationStartDateTime"`` \| ``"HosViolationEndDateTime"`` \| ``"HosViolationReason"`` \| ``"HosViolationHoursLimit"`` \| ``"HosViolationDaysLimit"`` \| ``"HosViolationType"`` \| ``"HosAvailabilityRest"`` \| ``"HosAvailabilityDriving"`` \| ``"HosAvailabilityDuty"`` \| ``"HosAvailabilityWorkday"`` \| ``"HosAvailabilityCycle"`` \| ``"TrailerComment"`` \| ``"TrailerId"`` \| ``"TrailerName"`` \| ``"TrailerGroups"`` \| ``"DeviceActiveFrom"`` \| ``"DeviceActiveTo"`` \| ``"DeviceDetailsDevicePlan"`` \| ``"DeviceDetailsCurrentExceptions"`` \| ``"DeviceTimeToDownload"`` \| ``"DeviceIgnoreDownloadsUntil"`` \| ``"DeviceProgrammingImmobilizeUnit"`` \| ``"DeviceProgrammingSpeedIndicator"`` \| ``"DeviceProgrammingSpeedWarning"`` \| ``"DeviceProgrammingBeepOnIdle"`` \| ``"DeviceProgrammingBeepOnRpm"`` \| ``"DeviceProgrammingAux1Warning"`` \| ``"DeviceProgrammingAux2Warning"`` \| ``"DeviceProgrammingAux3Warning"`` \| ``"DeviceProgrammingAux4Warning"`` \| ``"DeviceProgrammingAux5Warning"`` \| ``"DeviceProgrammingAux6Warning"`` \| ``"DeviceProgrammingAux7Warning"`` \| ``"DeviceProgrammingAux8Warning"`` \| ``"DeviceProgrammingAux1WarningSpeed"`` \| ``"DeviceProgrammingAux2WarningSpeed"`` \| ``"DeviceProgrammingAux3WarningSpeed"`` \| ``"DeviceProgrammingAux4WarningSpeed"`` \| ``"DeviceProgrammingAux5WarningSpeed"`` \| ``"DeviceProgrammingAux6WarningSpeed"`` \| ``"DeviceProgrammingAux7WarningSpeed"`` \| ``"DeviceProgrammingAux8WarningSpeed"`` \| ``"NotificationRowRecipientType"`` \| ``"FuelEventDateTime"`` \| ``"FuelEventProductType"`` \| ``"FuelEventVolume"`` \| ``"FuelEventOdometer"`` \| ``"FuelEventCost"`` \| ``"FuelEventCurrencyCode"`` \| ``"FuelUsedEventDistance"`` \| ``"FuelUpEventTotalFuelUsed"`` \| ``"FuelUpEventTankCapacity"`` \| ``"FuelUpEventTankCapacitySource"`` \| ``"FuelUpEventTankLevelLow"`` \| ``"FuelUpEventTankLevelHigh"`` \| ``"FuelTransacationVin"`` \| ``"FuelTransacationDriverName"`` \| ``"FuelTransaction1Latitude"`` \| ``"FuelTransaction1Longitude"`` \| ``"FuelTransaction2Latitude"`` \| ``"FuelTransaction2Longitude"`` \| ``"FuelTransaction3Latitude"`` \| ``"FuelTransaction3Longitude"`` \| ``"FuelTransaction4Latitude"`` \| ``"FuelTransaction4Longitude"`` \| ``"FuelUpEventRiskIsLocationMatch"`` \| ``"FuelUpEventRiskIsCapacityMatch"`` \| ``"FuelUpEventRiskIsEngineFuelMatch"`` \| ``"FuelUpEventRiskIsDerivedVolumeMatch"`` \| ``"FillUpRecordLocation"`` \| ``"FillUpRecordLatitude"`` \| ``"FillUpRecordLongitude"`` \| ``"FillUpRecordTransaction1Driver"`` \| ``"FillUpRecordTransaction1DateTime"`` \| ``"FillUpRecordTransaction1Cost"`` \| ``"FillUpRecordTransaction1CurrencyCode"`` \| ``"FillUpRecordTransaction1Odometer"`` \| ``"FillUpRecordTransaction1Vin"`` \| ``"FillUpRecordTransaction1ProductType"`` \| ``"FillUpRecordTransaction1ProductDescription"`` \| ``"FillUpRecordTransaction1CardNumber"`` \| ``"FillUpRecordTransaction1SiteName"`` \| ``"FillUpRecordTransaction2Driver"`` \| ``"FillUpRecordTransaction2DateTime"`` \| ``"FillUpRecordTransaction2Cost"`` \| ``"FillUpRecordTransaction2CurrencyCode"`` \| ``"FillUpRecordTransaction2Odometer"`` \| ``"FillUpRecordTransaction2Vin"`` \| ``"FillUpRecordTransaction2ProductType"`` \| ``"FillUpRecordTransaction2ProductDescription"`` \| ``"FillUpRecordTransaction2CardNumber"`` \| ``"FillUpRecordTransaction2SiteName"`` \| ``"FillUpRecordTransaction3Driver"`` \| ``"FillUpRecordTransaction3DateTime"`` \| ``"FillUpRecordTransaction3Cost"`` \| ``"FillUpRecordTransaction3CurrencyCode"`` \| ``"FillUpRecordTransaction3Odometer"`` \| ``"FillUpRecordTransaction3Vin"`` \| ``"FillUpRecordTransaction3ProductType"`` \| ``"FillUpRecordTransaction3ProductDescription"`` \| ``"FillUpRecordTransaction3CardNumber"`` \| ``"FillUpRecordTransaction3SiteName"`` \| ``"FillUpRecordTransaction4Driver"`` \| ``"FillUpRecordTransaction4DateTime"`` \| ``"FillUpRecordTransaction4Cost"`` \| ``"FillUpRecordTransaction4CurrencyCode"`` \| ``"FillUpRecordTransaction4Odometer"`` \| ``"FillUpRecordTransaction4Vin"`` \| ``"FillUpRecordTransaction4ProductType"`` \| ``"FillUpRecordTransaction4ProductDescription"`` \| ``"FillUpRecordTransaction4CardNumber"`` \| ``"FillUpRecordTransaction4SiteName"`` \| ``"FillUpRecordFuelEconomy"`` \| ``"ChargeEventStartDate"`` \| ``"ChargeEventDuration"`` \| ``"ChargeEventLocation"`` \| ``"ChargeEventZones"`` \| ``"ChargeEventStartCharge"`` \| ``"ChargeEventEndCharge"`` \| ``"ChargeEventSessionStartCharge"`` \| ``"ChargeEventSessionEndCharge"`` \| ``"ChargeEventDeviceAverageStartCharge"`` \| ``"ChargeEventDeviceAverageEndCharge"`` \| ``"ChargeEventEnergyAdded"`` \| ``"ChargeEventElectricEconomy"`` \| ``"ChargeEventMaxPower"`` \| ``"ChargeEventElectricCurrentType"`` \| ``"ChargeEventACVoltage"`` \| ``"ChargeSessionTripStopTime"`` \| ``"EngineFaultSummaryActiveFaultDataCount"`` \| ``"EngineFaultSummaryFaultDataCount"`` \| ``"EngineFaultSummaryLastFault"`` \| ``"DVIRLogId"`` \| ``"DeviceDetailsVocation"`` \| ``"DeviceDetailsElectricalSystemRating"`` \| ``"StartOfWorkday"`` \| ``"AutoVehicleManagement"`` \| ``"HosSettings"`` \| ``"DutyStatusIgnoredLog"`` \| ``"MaterialManagementStartDate"`` \| ``"MaterialManagementEndDate"`` \| ``"MaterialManagementSolidType"`` \| ``"MaterialManagementPreWetType"`` \| ``"MaterialManagementAntiIceType"`` \| ``"MaterialManagementSolidTotal"`` \| ``"MaterialManagementPreWetTotal"`` \| ``"MaterialManagementAntiIceTotal"`` \| ``"MaterialManagementSpreadTime"`` \| ``"MaterialManagementPlowTime"`` \| ``"MaterialManagementDeadheadTime"`` \| ``"MaterialManagementTravelTime"`` \| ``"MaterialManagementIdleTime"`` \| ``"MaterialManagementTotalTime"`` \| ``"MaterialManagementSpreadDistance"`` \| ``"MaterialManagementPlowDistance"`` \| ``"MaterialManagementDeadheadDistance"`` \| ``"MaterialManagementTotalDistance"`` \| ``"MaterialManagementAvgSolidRate"`` \| ``"MaterialManagementAvgPreWetRate"`` \| ``"MaterialManagementAvgAntiIceRate"`` \| ``"TransactionFuelVolume"`` \| ``"EngineDataFuelVolume"`` \| ``"OBDAlertStatus"`` \| ``"RouteCompletionPassCount"`` \| ``"RouteCompletionExpectedPassCount"`` \| ``"RouteCompletionCompletionPercentage"`` \| ``"RouteCompletionDevices"`` \| ``"FaultDataStatus"`` \| ``"StatusDataRecordDisplayData"`` \| ``"StatusDataRecordUnitOfMeasureName"`` \| ``"DebuggingStatusRecordDisplayData"`` \| ``"DebuggingStatusRecordUnitOfMeasureName"`` \| ``"TripStartEVBatteryCharge"`` \| ``"TripEndEVBatteryCharge"`` \| ``"TripElectricEnergyUsedWhileDriving"`` \| ``"TripElectricEnergyUsedWhileIdling"`` \| ``"TripElectricEnergyUsed"`` \| ``"TripElectricEnergyEconomy"`` \| ``"DVIRDetailNeedsCertify"`` \| ``"EVBatteryHealthMake"`` \| ``"EVBatteryHealthModel"`` \| ``"EVBatteryHealthYear"`` \| ``"EVBatteryHealthEVType"`` \| ``"EVBatteryHealthDetectionDate"`` \| ``"EVBatteryHealth90DayRollingAverageDataCollectionStartDate"`` \| ``"EVBatteryHealth90DayRollingAverageDataCollectionEndDate"`` \| ``"EVBatteryHealthDetectionDateOdometer"`` \| ``"EVBatteryHealthEVBatteryHealth"`` \| ``"EVBatteryHealthLower90ConfidenceInterval"`` \| ``"EVBatteryHealthUpper90ConfidenceInterval"`` \| ``"EVBatteryHealthUsableDetectedCapacity"`` \| ``"EVBatteryHealthUsableDetectedCapacity90ConfidenceInterval"`` \| ``"EVBatteryHealthUsableOriginalCapacity"`` \| ``"EVBatteryHealthUsableOriginalCapacity90ConfidenceInterval"`` \| ``"EVBatteryHealthUsableDetectedCapacitySource"`` \| ``"EVBatteryHealthUsableOriginalCapacitySource"`` \| ``"EVBatteryHealthUsableDetectedCapacityLower90ConfidenceInterval"`` \| ``"EVBatteryHealthUsableDetectedCapacityUpper90ConfidenceInterval"`` \| ``"EVBatteryHealthUsableOriginalCapacityLower90ConfidenceInterval"`` \| ``"EVBatteryHealthUsableOriginalCapacityUpper90ConfidenceInterval"``
+Ƭ **ReportHeading**: ``"DummyColumnOne"`` \| ``"DummyColumnTwo"`` \| ``"DummyColumnThree"`` \| ``"DummyCustomProperty"`` \| ``"DummyName"`` \| ``"DeviceName"`` \| ``"DeviceId"`` \| ``"DeviceComment"`` \| ``"DeviceGroup"`` \| ``"DeviceParentGroup"`` \| ``"DriverGroup"`` \| ``"WorkTimeName"`` \| ``"TripDetailMaximumSpeed"`` \| ``"TripDetailStopDuration"`` \| ``"TripDetailRouteName"`` \| ``"TripDetailIdlingDuration"`` \| ``"TripDetailStopDateTime"`` \| ``"TripDetailStartDateTime"`` \| ``"TripDetailDrivingDuraion"`` \| ``"TripDetailDistance"`` \| ``"TripDetailLatitude"`` \| ``"TripDetailLongitude"`` \| ``"TripDetailLocation"`` \| ``"TripDetailStartLocation"`` \| ``"TripDetailSpeedRange1"`` \| ``"TripDetailSpeedRange1Duration"`` \| ``"TripDetailSpeedRange2"`` \| ``"TripDetailSpeedRange2Duration"`` \| ``"TripDetailSpeedRange3"`` \| ``"TripDetailSpeedRange3Duration"`` \| ``"TripDetailIsStartDriveWorkHours"`` \| ``"TripDetailIsStopDriveWorkHours"`` \| ``"TripDetailWorkHoursDistance"`` \| ``"TripDetailWorkHoursTripTime"`` \| ``"TripDetailWorkHoursStopTime"`` \| ``"TripDetailOdometerAtStart"`` \| ``"TripDetailOdometerAtEnd"`` \| ``"TripDetailExceptionRule1Duration"`` \| ``"TripDetailExceptionRule1Count"`` \| ``"TripDetailExceptionRule1Distance"`` \| ``"TripDetailExceptionRule2Duration"`` \| ``"TripDetailExceptionRule2Count"`` \| ``"TripDetailExceptionRule2Distance"`` \| ``"TripDetailExceptionRule3Duration"`` \| ``"TripDetailExceptionRule3Count"`` \| ``"TripDetailExceptionRule3Distance"`` \| ``"TripDetailExceptionRule4Duration"`` \| ``"TripDetailExceptionRule4Count"`` \| ``"TripDetailExceptionRule4Distance"`` \| ``"TripDetailExceptionRule5Duration"`` \| ``"TripDetailExceptionRule5Count"`` \| ``"TripDetailExceptionRule5Distance"`` \| ``"TripDetailExceptionRule6Duration"`` \| ``"TripDetailExceptionRule6Count"`` \| ``"TripDetailExceptionRule6Distance"`` \| ``"TripDetailExceptionRule7Duration"`` \| ``"TripDetailExceptionRule7Count"`` \| ``"TripDetailExceptionRule7Distance"`` \| ``"TripDetailExceptionRule8Duration"`` \| ``"TripDetailExceptionRule8Count"`` \| ``"TripDetailExceptionRule8Distance"`` \| ``"TripDetailPrivateTrip"`` \| ``"TripDetailCategory"`` \| ``"TripDetailAnnotation"`` \| ``"TripSummaryName"`` \| ``"TripSummaryGroupName"`` \| ``"TripSummaryCustomerDuration"`` \| ``"TripSummaryNonCustomerDuration"`` \| ``"TripSummaryDrivingDuration"`` \| ``"TripSummaryOfficeDepotDuration"`` \| ``"TripSummaryHomeDuration"`` \| ``"TripSummaryCustomerStopsCount"`` \| ``"TripSummaryStopCount"`` \| ``"TripSummaryCustomerDurationPercentage"`` \| ``"TripSummaryNonCustomerDurationPercentage"`` \| ``"TripSummaryDrivingDurationPercentage"`` \| ``"TripSummaryOfficeDepotDurationPercentage"`` \| ``"TripSummaryHomeDurationPercentage"`` \| ``"TripSummaryDistance"`` \| ``"TripSummaryIdlingDuration"`` \| ``"TripSummaryIdlingDurationPercentage"`` \| ``"TripSummaryPeriodStartDate"`` \| ``"TripSummaryPeriodEndDate"`` \| ``"TripSummaryPeriodNumber"`` \| ``"TripSummaryVocation"`` \| ``"TripSummaryMaximumSpeed"`` \| ``"TripSummaryOdometerAtStart"`` \| ``"TripSummaryOdometerAtEnd"`` \| ``"TripSummaryDaysDriven"`` \| ``"RestrictedDataModeDistance"`` \| ``"DebugDateTime"`` \| ``"DebugRecordType"`` \| ``"DebugSpeed"`` \| ``"DebugLongitude"`` \| ``"DebugLatitude"`` \| ``"DebugLocation"`` \| ``"DebugRecordReason"`` \| ``"DebugRecordDataInHex"`` \| ``"DebugIgnition"`` \| ``"DebugAux1"`` \| ``"DebugAux2"`` \| ``"DebugAux3"`` \| ``"DebugAux4"`` \| ``"DebugAux5"`` \| ``"DebugAux6"`` \| ``"DebugAux7"`` \| ``"DebugAux8"`` \| ``"DebugPositionValid"`` \| ``"DebugPositionValidAtUnit"`` \| ``"DebugLoadedSection"`` \| ``"DebugDataLength"`` \| ``"DebugStatusDataValue"`` \| ``"DiagnosticName"`` \| ``"DiagnosticId"`` \| ``"DiagnosticCode"`` \| ``"ControllerName"`` \| ``"ControllerId"`` \| ``"ControllerCode"`` \| ``"FailureModeName"`` \| ``"FailureModeId"`` \| ``"FailureModeCode"`` \| ``"UnitOfMeasureName"`` \| ``"UnitOfMeasureId"`` \| ``"GroupName"`` \| ``"GroupId"`` \| ``"GroupComment"`` \| ``"NodeDetailParents"`` \| ``"RiskManagementSpeedLimit1Count"`` \| ``"RiskManagementSpeedLimit2Count"`` \| ``"RiskManagementSpeedLimit3Count"`` \| ``"RiskManagementAverageSpeed"`` \| ``"RiskManagementStopUnder10Count"`` \| ``"RiskManagementStopOver10Count"`` \| ``"RiskManagementStopOver20Count"`` \| ``"RiskManagementStopOver30Count"`` \| ``"RiskManagementStopOver40Count"`` \| ``"RiskManagementStopOver50Count"`` \| ``"RiskManagementIdlingOver5Count"`` \| ``"RiskManagementIdlingDuration"`` \| ``"RiskManagementAfterHoursTripCount"`` \| ``"RiskManagementTotalDistance"`` \| ``"RiskManagementTotalStopsCount"`` \| ``"RiskManagementAux1"`` \| ``"RiskManagementExceptionRule1"`` \| ``"RiskManagementExceptionRule1Duration"`` \| ``"RiskManagementExceptionRule1Count"`` \| ``"RiskManagementExceptionRule1Distance"`` \| ``"RiskManagementExceptionRule2"`` \| ``"RiskManagementExceptionRule2Duration"`` \| ``"RiskManagementExceptionRule2Count"`` \| ``"RiskManagementExceptionRule2Distance"`` \| ``"RiskManagementExceptionRule3"`` \| ``"RiskManagementExceptionRule3Duration"`` \| ``"RiskManagementExceptionRule3Count"`` \| ``"RiskManagementExceptionRule3Distance"`` \| ``"RiskManagementExceptionRule4"`` \| ``"RiskManagementExceptionRule4Duration"`` \| ``"RiskManagementExceptionRule4Count"`` \| ``"RiskManagementExceptionRule4Distance"`` \| ``"RiskManagementExceptionRule5"`` \| ``"RiskManagementExceptionRule5Duration"`` \| ``"RiskManagementExceptionRule5Count"`` \| ``"RiskManagementExceptionRule5Distance"`` \| ``"RiskManagementExceptionRule6"`` \| ``"RiskManagementExceptionRule6Duration"`` \| ``"RiskManagementExceptionRule6Count"`` \| ``"RiskManagementExceptionRule6Distance"`` \| ``"RiskManagementTotalDrivingDuration"`` \| ``"RiskManagementPeriodStartDate"`` \| ``"RiskManagementPeriodEndDate"`` \| ``"RiskManagementPeriodNumber"`` \| ``"RiskManagementMaxSpeed"`` \| ``"ExceptionDetailLongitude"`` \| ``"ExceptionDetailLatitude"`` \| ``"ExceptionDetailLocation"`` \| ``"ExceptionDetailStartTime"`` \| ``"ExceptionDetailEndTime"`` \| ``"ExceptionDuration"`` \| ``"ExceptionTripDistance"`` \| ``"ExceptionStatus"`` \| ``"ExceptionDistance"`` \| ``"ExceptionDetailDetails"`` \| ``"ExceptionDetailExtraInfo"`` \| ``"LegacyExceptionDetailExtraInfo"`` \| ``"ExceptionSummaryFirstIncident"`` \| ``"ExceptionSummaryLastIncident"`` \| ``"ExceptionSummaryIncidentCount"`` \| ``"ExceptionSummaryTripDistance"`` \| ``"ExceptionRuleName"`` \| ``"ExceptionRuleId"`` \| ``"ExceptionRuleComment"`` \| ``"ExceptionRuleGroup"`` \| ``"TimeCardFirstDepartDate"`` \| ``"TimeCardLastArriveDate"`` \| ``"TimeCardLocation"`` \| ``"TimeCardNonCustomerStopTime"`` \| ``"TimeCardCustomerStopTime"`` \| ``"TimeCardTripTime"`` \| ``"TimeCardIdleTime"`` \| ``"TimeCardMaxSpeed"`` \| ``"TimeCardLatitude"`` \| ``"TimeCardLongitude"`` \| ``"DriverKeyId"`` \| ``"DriverKeySerialNumber"`` \| ``"DriverkeyType"`` \| ``"UserDesignation"`` \| ``"UserAuthorityName"`` \| ``"UserAuthorityAddress"`` \| ``"UserEmployeeNo"`` \| ``"UserActiveFrom"`` \| ``"UserActiveTo"`` \| ``"UserCompanyName"`` \| ``"UserCompanyAddress"`` \| ``"DriverLicenseNumber"`` \| ``"DriverLicenseProvince"`` \| ``"UserCarrierNumber"`` \| ``"UserLastAccessDate"`` \| ``"UserTimeZone"`` \| ``"AuditName"`` \| ``"AuditUserName"`` \| ``"AuditDateTime"`` \| ``"AuditComment"`` \| ``"DisplayUserGroups"`` \| ``"DisplayUserReportGroups"`` \| ``"DisplayUserSecurityLevel"`` \| ``"UserComment"`` \| ``"UserId"`` \| ``"UserName"`` \| ``"UserFirstName"`` \| ``"UserLastName"`` \| ``"UserAuthenticationType"`` \| ``"UserHosRuleSet"`` \| ``"ServiceStatusDatabase"`` \| ``"ServiceStatusSource"`` \| ``"ServiceStatusInfo"`` \| ``"ServiceStatusLastUpdate"`` \| ``"ServiceStatusPC"`` \| ``"ServiceStatusStatus"`` \| ``"SourceName"`` \| ``"SourceId"`` \| ``"EngineTypeName"`` \| ``"EngineTypeId"`` \| ``"DataDiagnosticDataLength"`` \| ``"DataDiagnosticConversion"`` \| ``"DataDiagnosticOffset"`` \| ``"ParameterGroupName"`` \| ``"ParameterGroupId"`` \| ``"ExceptionInstanceDateTime"`` \| ``"RouteName"`` \| ``"RouteId"`` \| ``"RouteComment"`` \| ``"RouteDeviceLocalStartDate"`` \| ``"VehicleDayRouteDriveTime"`` \| ``"VehicleDayRouteDistance"`` \| ``"VehicleDayRouteOfficeTime"`` \| ``"VehicleDayRouteCustomerTimeOverThreshold"`` \| ``"VehicleDayRouteCustomerTimeUnderThreshold"`` \| ``"VehicleDayRouteHomeTime"`` \| ``"VehicleDayRouteUndefinedStopTimeOverThreshold"`` \| ``"VehicleDayRouteUndefinedStopTimeUnderThreshold"`` \| ``"VehicleDayRouteTotalStops"`` \| ``"VehicleDayRouteOfficeStops"`` \| ``"VehicleDayRouteHomeStops"`` \| ``"VehicleDayRouteCustomerStopsOverThreshold"`` \| ``"VehicleDayRouteCustomerStopsUnderThreshold"`` \| ``"VehicleDayRouteUndefinedStopsOverThreshold"`` \| ``"VehicleDayRouteUndefinedStopsUnderThreshold"`` \| ``"VehicleDayRouteLocalFirstDepartureTime"`` \| ``"VehicleDayRouteLocalLastArrivalTime"`` \| ``"VehicleDayRouteEmployeeList"`` \| ``"VehicleDayRoutePercentageSpeeding"`` \| ``"VehicleDayRouteIdleTime"`` \| ``"VehicleDayRouteSeatbeltViolations"`` \| ``"VehicleDayRouteSpeedingViolations"`` \| ``"VehicleDayRouteJackRabbitStarts"`` \| ``"VehicleDayRouteSpeedingViolationTime"`` \| ``"NotificationDateTime"`` \| ``"NotificationApplicationExceptionDataSource"`` \| ``"NotificationApplicationExceptionDataDescription"`` \| ``"NotificationApplicationExceptionDataInfo"`` \| ``"NotificationInfoDataInstance"`` \| ``"NotificationInfoDataSource"`` \| ``"NotificationInfoDataInfo"`` \| ``"NotificationNewsTextFullInfo"`` \| ``"FuelTaxCountry"`` \| ``"FuelTaxJurisdiction"`` \| ``"FuelTaxUpdatesAvailable"`` \| ``"FuelTaxEnterTime"`` \| ``"FuelTaxExitTime"`` \| ``"FuelTaxEnterOdometer"`` \| ``"FuelTaxExitOdometer"`` \| ``"FuelTaxDistance"`` \| ``"FuelTaxGpsDistance"`` \| ``"FuelTaxOdometerOffset"`` \| ``"FuelTaxLatitude"`` \| ``"FuelTaxLongitude"`` \| ``"FuelTaxVin"`` \| ``"FuelTaxLicensePlate"`` \| ``"FuelTaxIsIftaJurisdiction"`` \| ``"FuelTaxFuelType"`` \| ``"FuelTaxFuelPurchased"`` \| ``"FuelTaxFuelUsed"`` \| ``"FuelTaxNetTaxableFuel"`` \| ``"FuelTaxFuelEconomy"`` \| ``"FuelTaxAuthority"`` \| ``"FuelTaxTollRoad"`` \| ``"FuelTaxRoadType"`` \| ``"ZoneZoneTypes"`` \| ``"ZoneGroup"`` \| ``"ZoneName"`` \| ``"ZoneId"`` \| ``"ZoneComment"`` \| ``"ZoneStartTime"`` \| ``"ZoneEndTime"`` \| ``"ZoneDisplayed"`` \| ``"ZoneIsStopExceptionRequired"`` \| ``"ZoneExternalReference"`` \| ``"ZoneFillColor"`` \| ``"ZoneCentroidLongitude"`` \| ``"ZoneCentroidLatitude"`` \| ``"CongregationStart"`` \| ``"CongregationEnd"`` \| ``"StopStart"`` \| ``"StopEnd"`` \| ``"StopLocation"`` \| ``"DeviceStatusLastHeartBeat"`` \| ``"DeviceStatusLastFaultData"`` \| ``"DeviceStatusLastEngineData"`` \| ``"FaultDataId"`` \| ``"FaultDataDateTime"`` \| ``"FaultDataFaultLampState"`` \| ``"FaultDataFaultState"`` \| ``"FaultDataCount"`` \| ``"FaultDataDismissDateTime"`` \| ``"FaultDataClass"`` \| ``"FaultDataSeverity"`` \| ``"FaultDataSourceAddress"`` \| ``"FlashCodeName"`` \| ``"FlashCodeId"`` \| ``"FlashCodeCircuitIndex"`` \| ``"FlashCodeFlashCodeIndex"`` \| ``"FlashCodeHelpUrl"`` \| ``"FlashCodePriorityLevel"`` \| ``"FlashCodePageReference"`` \| ``"FaultDataAmberWarningLamp"`` \| ``"FaultDataRedStopLamp"`` \| ``"FaultDataMalfunctionLamp"`` \| ``"FaultDataProtectWarningLamp"`` \| ``"StatusDataDateTime"`` \| ``"StatusDataData"`` \| ``"SensorDataAddress"`` \| ``"DeviceDetailsCurrentOdometer"`` \| ``"DeviceDetailsLastStopLongitude"`` \| ``"DeviceDetailsLastStopLatitude"`` \| ``"DeviceDetailsLocation"`` \| ``"DeviceDetailsCurrentEngineHours"`` \| ``"DeviceDeviceType"`` \| ``"DeviceProductId"`` \| ``"DeviceMajor"`` \| ``"DeviceMinor"`` \| ``"DeviceSerialNumber"`` \| ``"DeviceLicensePlate"`` \| ``"DeviceLicenseState"`` \| ``"DeviceVIN"`` \| ``"DeviceEngineVIN"`` \| ``"DeviceSleeperBerth"`` \| ``"DeviceDetailsMake"`` \| ``"DeviceDetailsModel"`` \| ``"DeviceDetailsYear"`` \| ``"DeviceDetailsExtra"`` \| ``"DeviceTimeZoneId"`` \| ``"DeviceStatusLastTrip"`` \| ``"DeviceStatusLastGpsRecord"`` \| ``"DeviceStatusLastStatusData"`` \| ``"DeviceStatusAnalysisTroubleDownloadStatus"`` \| ``"DeviceDetailsDrivingState"`` \| ``"DeviceDetailsPrivacyMode"`` \| ``"RouteItemRouteName"`` \| ``"RouteItemLegName"`` \| ``"RouteItemTurnNumber"`` \| ``"RouteItemTurnText"`` \| ``"RouteItemDistance"`` \| ``"RouteItemDuration"`` \| ``"EventRuleKilometers"`` \| ``"EventRuleMonths"`` \| ``"EventRuleDayOfMonthSelect"`` \| ``"EventRuleWeeks"`` \| ``"EventRuleDayOfWeekSelect"`` \| ``"EventRuleDays"`` \| ``"EventRuleGroups"`` \| ``"EventRuleDateTime"`` \| ``"EventRuleEngineHours"`` \| ``"EventRuleComment"`` \| ``"ReminderEventCurrentOdometer"`` \| ``"EventOccuranceEventDate"`` \| ``"EventOccuranceAdjustedOdometer"`` \| ``"EventOccuranceComment"`` \| ``"EventOccurrenceReference"`` \| ``"EventOccurrenceLaborCostInput"`` \| ``"EventOccurrenceLaborCostConverted"`` \| ``"EventOccurrencePartsCostInput"`` \| ``"EventOccurrencePartsCostConverted"`` \| ``"EventOccurrenceTaxInput"`` \| ``"EventOccurrenceTaxConverted"`` \| ``"EventOccurrenceTotalCostInput"`` \| ``"EventOccurrenceTotalCostConverted"`` \| ``"EventOccurrenceCostCurrencyInput"`` \| ``"EventOccurrenceCostCurrencyConverted"`` \| ``"ReminderEventEventRuleType"`` \| ``"ReminderEventDueDate"`` \| ``"ReminderEventDueDistance"`` \| ``"ReminderEventDueEngineHours"`` \| ``"EventRuleName"`` \| ``"EventRuleId"`` \| ``"EventOccuranceCurrentOdometer"`` \| ``"EventOccuranceCurrentEngineHours"`` \| ``"EventOccuranceAdjustedEngineHours"`` \| ``"KeyInsertDataLogDate"`` \| ``"DeviceInstallResultDate"`` \| ``"DeviceInstallResultAllDownload"`` \| ``"DeviceInstallResultLastGpsRecord"`` \| ``"DeviceInstallResultLastEngineRecord"`` \| ``"DeviceInstallResultSimNumber"`` \| ``"DeviceInstallResultSimActive"`` \| ``"DeviceInstallResultComments"`` \| ``"DeviceInstallRequestSerialNumber"`` \| ``"DeviceInstallRequestHardwareId"`` \| ``"DeviceInstallRequestDate"`` \| ``"DeviceInstallRequestInstallerName"`` \| ``"DeviceInstallRequestInstallerCompany"`` \| ``"DeviceInstallRequestOdometer"`` \| ``"DeviceInstallRequestAsset"`` \| ``"DeviceInstallRequestComments"`` \| ``"DeviceInstallHistoryRecordType"`` \| ``"DeviceInstallHistoryStatus"`` \| ``"DeviceInstallMakeAndModel"`` \| ``"DeviceInstallIox"`` \| ``"DeviceInstallHarness"`` \| ``"DeviceInstallHarnessComments"`` \| ``"DeviceInstallAuxPorts"`` \| ``"DeviceInstallComment"`` \| ``"DeviceInstallWorkReference"`` \| ``"DeviceInstallEngineHours"`` \| ``"DeviceInstallEngineProtocol"`` \| ``"DeviceInstallLastDeviceCommunication"`` \| ``"DeviceInstallPossibleIssues"`` \| ``"DeviceInstallPhoto1"`` \| ``"DeviceInstallPhoto2"`` \| ``"DeviceInstallPhoto3"`` \| ``"DeviceInstallPhoto4"`` \| ``"PerformanceDateTime"`` \| ``"PerformanceProcessContext"`` \| ``"PerformanceSource"`` \| ``"PerformanceLevel1Action"`` \| ``"PerformanceLevel2Action"`` \| ``"PerformanceLevel3Action"`` \| ``"PerformanceCpuSeconds"`` \| ``"PerformanceSeconds"`` \| ``"PerformanceLevel1Count"`` \| ``"PerformanceLevel2Count"`` \| ``"PerformanceLevel3Count"`` \| ``"PerformanceTotalCpuSeconds"`` \| ``"PerformanceTotalSeconds"`` \| ``"PerformanceAction"`` \| ``"PerformanceLastValue"`` \| ``"PerformanceMinValue"`` \| ``"PerformanceMaxValue"`` \| ``"PerformanceTotalValue"`` \| ``"PerformanceAverageValue"`` \| ``"PerformanceCount"`` \| ``"DeviceProgrammingImmobilizeArming"`` \| ``"DeviceProgrammingSpeedingOn"`` \| ``"DeviceProgrammingSpeedingOff"`` \| ``"DeviceProgrammingIdleMinutes"`` \| ``"DeviceProgrammingRpmValue"`` \| ``"DeviceProgrammingHarshBrakeWarning"`` \| ``"DeviceProgrammingOdometerOffset"`` \| ``"DeviceProgrammingEngineHourOffset"`` \| ``"EngineStatusStatisticsPeriodStartDate"`` \| ``"EngineStatusStatisticsPeriodEndDate"`` \| ``"EngineStatusStatisticsDistance"`` \| ``"EngineStatusStatisticsFuelUsed"`` \| ``"EngineStatusStatisticsZeroSpeedFuelUsed"`` \| ``"EngineStatusStatisticsFuelEconomyMetric"`` \| ``"EngineStatusStatisticsFuelEconomyUS"`` \| ``"EngineStatusStatisticsIdling"`` \| ``"EngineStatusStatisticsPeriodNumber"`` \| ``"EngineStatusStatisticsFuelEconomy"`` \| ``"EngineStatusStatisticsElectricEnergyUsed"`` \| ``"EngineStatusStatisticsElectricEnergyUsedFuelEquivalent"`` \| ``"EngineStatusStatisticsElectricEnergyEconomy"`` \| ``"EngineStatusStatisticsFuelAndElectricEconomy"`` \| ``"EngineStatusStatisticsElectricEnergyUsedPercentage"`` \| ``"EngineStatusStatisticsGpsDistance"`` \| ``"TextMessageSentDate"`` \| ``"TextMessageDeliveredDate"`` \| ``"TextMessageDirectionToVehicle"`` \| ``"TextMessageReadDate"`` \| ``"TextMessageContentMessage"`` \| ``"LocationContentLatitude"`` \| ``"LocationContentLongitude"`` \| ``"LocationContentAddress"`` \| ``"CannedResponseOptionsString"`` \| ``"RouteComparisonDetailExpectedSequence"`` \| ``"RouteComparisonDetailActualSequence"`` \| ``"RouteComparisonDetailExpectedArrivalTime"`` \| ``"RouteComparisonDetailActualArrivalTime"`` \| ``"RouteComparisonDetailLatitude"`` \| ``"RouteComparisonDetailLongitude"`` \| ``"RouteComparisonDetailExpectedStopDuration"`` \| ``"RouteComparisonDetailActualStopDuration"`` \| ``"RouteComparisonDetailIdling"`` \| ``"RouteComparisonDetailLocation"`` \| ``"RouteComparisonDetailStartDateTime"`` \| ``"RouteComparisonDetailEndDateTime"`` \| ``"RouteComparisonDetailOfficeName"`` \| ``"RouteComparisonDetailExpectedDrivingDistance"`` \| ``"RouteComparisonDetailActualDrivingDistance"`` \| ``"RouteComparisonDetailExpectedDrivingTimeSpan"`` \| ``"RouteComparisonDetailActualDrivingTimeSpan"`` \| ``"DVIRLogDateTimeCreated"`` \| ``"DVIRLogDriverRemark"`` \| ``"DVIRLogRepairDate"`` \| ``"DVIRLogRepairRemark"`` \| ``"DVIRDefects"`` \| ``"DVIRLogCertifyDate"`` \| ``"DVIRLogCertifyRemark"`` \| ``"DVIRLogIsSafeToOperate"`` \| ``"DVIRLogLogType"`` \| ``"DVIRDetailOdometer"`` \| ``"DVIRDetailHubometer"`` \| ``"DVIRLogDetailInspector"`` \| ``"DVIRLogDetailOperator"`` \| ``"DVIRLogLoadHeight"`` \| ``"DVIRLogLoadWidth"`` \| ``"DVIRLogAuthorityName"`` \| ``"DVIRLogAuthorityAddress"`` \| ``"DVIRLogDeviceVin"`` \| ``"DVIRDetailAddress"`` \| ``"DVIRDetailDefects"`` \| ``"DVIRDetailNormalDefects"`` \| ``"DVIRDetailUnregulatedDefects"`` \| ``"DVIRDetailCriticalDefects"`` \| ``"DVIRDetailDefectName"`` \| ``"DVIRDetailDefectSeverityLevel"`` \| ``"DVIRDetailDefectRepairStatus"`` \| ``"DVIRDefectRepairDateTime"`` \| ``"DVIRDetailDefectRemark"`` \| ``"DutyStatusId"`` \| ``"DutyStatusFromPreviousPeriod"`` \| ``"DutyStatusDateTime"`` \| ``"DutyStatusStatus"`` \| ``"DutyStatusVerifyDateTime"`` \| ``"DutyStatusEditDateTime"`` \| ``"DutyStatusCoDrivers"`` \| ``"DutyStatusLocation"`` \| ``"DutyStatusOrigin"`` \| ``"DutyStatusParentId"`` \| ``"DutyStatusState"`` \| ``"DutyStatusVersion"`` \| ``"DutyStatusDetailOdometer"`` \| ``"DutyStatusDetailLatitude"`` \| ``"DutyStatusDetailLongitude"`` \| ``"DutyStatusDetailDistance"`` \| ``"DutyStatusDetailTrailers"`` \| ``"DutyStatusDetailShipments"`` \| ``"DutyStatusDetailHosRuleSet"`` \| ``"DutyStatusDetailAnnotations"`` \| ``"DutyStatusDetailDuration"`` \| ``"DutyStatusSequence"`` \| ``"DutyStatusMalfunctionType"`` \| ``"HosViolationDrivingDuration"`` \| ``"HosViolationStartDateTime"`` \| ``"HosViolationEndDateTime"`` \| ``"HosViolationReason"`` \| ``"HosViolationHoursLimit"`` \| ``"HosViolationDaysLimit"`` \| ``"HosViolationType"`` \| ``"HosAvailabilityRest"`` \| ``"HosAvailabilityDriving"`` \| ``"HosAvailabilityDuty"`` \| ``"HosAvailabilityWorkday"`` \| ``"HosAvailabilityCycle"`` \| ``"TrailerComment"`` \| ``"TrailerId"`` \| ``"TrailerName"`` \| ``"TrailerGroups"`` \| ``"DeviceActiveFrom"`` \| ``"DeviceActiveTo"`` \| ``"DeviceDetailsDevicePlan"`` \| ``"DeviceDetailsCurrentExceptions"`` \| ``"DeviceTimeToDownload"`` \| ``"DeviceIgnoreDownloadsUntil"`` \| ``"DeviceProgrammingImmobilizeUnit"`` \| ``"DeviceProgrammingSpeedIndicator"`` \| ``"DeviceProgrammingSpeedWarning"`` \| ``"DeviceProgrammingBeepOnIdle"`` \| ``"DeviceProgrammingBeepOnRpm"`` \| ``"DeviceProgrammingAux1Warning"`` \| ``"DeviceProgrammingAux2Warning"`` \| ``"DeviceProgrammingAux3Warning"`` \| ``"DeviceProgrammingAux4Warning"`` \| ``"DeviceProgrammingAux5Warning"`` \| ``"DeviceProgrammingAux6Warning"`` \| ``"DeviceProgrammingAux7Warning"`` \| ``"DeviceProgrammingAux8Warning"`` \| ``"DeviceProgrammingAux1WarningSpeed"`` \| ``"DeviceProgrammingAux2WarningSpeed"`` \| ``"DeviceProgrammingAux3WarningSpeed"`` \| ``"DeviceProgrammingAux4WarningSpeed"`` \| ``"DeviceProgrammingAux5WarningSpeed"`` \| ``"DeviceProgrammingAux6WarningSpeed"`` \| ``"DeviceProgrammingAux7WarningSpeed"`` \| ``"DeviceProgrammingAux8WarningSpeed"`` \| ``"NotificationRowRecipientType"`` \| ``"FuelEventDateTime"`` \| ``"FuelEventProductType"`` \| ``"FuelEventVolume"`` \| ``"FuelEventOdometer"`` \| ``"FuelEventCost"`` \| ``"FuelEventCurrencyCode"`` \| ``"FuelUsedEventDistance"`` \| ``"FuelUpEventTotalFuelUsed"`` \| ``"FuelUpEventTankCapacity"`` \| ``"FuelUpEventTankCapacitySource"`` \| ``"FuelUpEventTankLevelLow"`` \| ``"FuelUpEventTankLevelHigh"`` \| ``"FuelTransacationVin"`` \| ``"FuelTransacationDriverName"`` \| ``"FuelTransaction1Latitude"`` \| ``"FuelTransaction1Longitude"`` \| ``"FuelTransaction2Latitude"`` \| ``"FuelTransaction2Longitude"`` \| ``"FuelTransaction3Latitude"`` \| ``"FuelTransaction3Longitude"`` \| ``"FuelTransaction4Latitude"`` \| ``"FuelTransaction4Longitude"`` \| ``"FuelUpEventRiskIsLocationMatch"`` \| ``"FuelUpEventRiskIsCapacityMatch"`` \| ``"FuelUpEventRiskIsEngineFuelMatch"`` \| ``"FuelUpEventRiskIsDerivedVolumeMatch"`` \| ``"FillUpRecordLocation"`` \| ``"FillUpRecordLatitude"`` \| ``"FillUpRecordLongitude"`` \| ``"FillUpRecordTransaction1Driver"`` \| ``"FillUpRecordTransaction1DateTime"`` \| ``"FillUpRecordTransaction1Cost"`` \| ``"FillUpRecordTransaction1CurrencyCode"`` \| ``"FillUpRecordTransaction1Odometer"`` \| ``"FillUpRecordTransaction1Vin"`` \| ``"FillUpRecordTransaction1ProductType"`` \| ``"FillUpRecordTransaction1ProductDescription"`` \| ``"FillUpRecordTransaction1CardNumber"`` \| ``"FillUpRecordTransaction1SiteName"`` \| ``"FillUpRecordTransaction2Driver"`` \| ``"FillUpRecordTransaction2DateTime"`` \| ``"FillUpRecordTransaction2Cost"`` \| ``"FillUpRecordTransaction2CurrencyCode"`` \| ``"FillUpRecordTransaction2Odometer"`` \| ``"FillUpRecordTransaction2Vin"`` \| ``"FillUpRecordTransaction2ProductType"`` \| ``"FillUpRecordTransaction2ProductDescription"`` \| ``"FillUpRecordTransaction2CardNumber"`` \| ``"FillUpRecordTransaction2SiteName"`` \| ``"FillUpRecordTransaction3Driver"`` \| ``"FillUpRecordTransaction3DateTime"`` \| ``"FillUpRecordTransaction3Cost"`` \| ``"FillUpRecordTransaction3CurrencyCode"`` \| ``"FillUpRecordTransaction3Odometer"`` \| ``"FillUpRecordTransaction3Vin"`` \| ``"FillUpRecordTransaction3ProductType"`` \| ``"FillUpRecordTransaction3ProductDescription"`` \| ``"FillUpRecordTransaction3CardNumber"`` \| ``"FillUpRecordTransaction3SiteName"`` \| ``"FillUpRecordTransaction4Driver"`` \| ``"FillUpRecordTransaction4DateTime"`` \| ``"FillUpRecordTransaction4Cost"`` \| ``"FillUpRecordTransaction4CurrencyCode"`` \| ``"FillUpRecordTransaction4Odometer"`` \| ``"FillUpRecordTransaction4Vin"`` \| ``"FillUpRecordTransaction4ProductType"`` \| ``"FillUpRecordTransaction4ProductDescription"`` \| ``"FillUpRecordTransaction4CardNumber"`` \| ``"FillUpRecordTransaction4SiteName"`` \| ``"FillUpRecordFuelEconomy"`` \| ``"ChargeEventStartDate"`` \| ``"ChargeEventDuration"`` \| ``"ChargeEventLocation"`` \| ``"ChargeEventZones"`` \| ``"ChargeEventStartCharge"`` \| ``"ChargeEventEndCharge"`` \| ``"ChargeEventSessionStartCharge"`` \| ``"ChargeEventSessionEndCharge"`` \| ``"ChargeEventDeviceAverageStartCharge"`` \| ``"ChargeEventDeviceAverageEndCharge"`` \| ``"ChargeEventEnergyAdded"`` \| ``"ChargeEventElectricEconomy"`` \| ``"ChargeEventMaxPower"`` \| ``"ChargeEventElectricCurrentType"`` \| ``"ChargeEventACVoltage"`` \| ``"ChargeEventStartOdometer"`` \| ``"ChargeSessionTripStopTime"`` \| ``"EngineFaultSummaryActiveFaultDataCount"`` \| ``"EngineFaultSummaryFaultDataCount"`` \| ``"EngineFaultSummaryLastFault"`` \| ``"DVIRLogId"`` \| ``"DeviceDetailsVocation"`` \| ``"DeviceDetailsElectricalSystemRating"`` \| ``"StartOfWorkday"`` \| ``"AutoVehicleManagement"`` \| ``"HosSettings"`` \| ``"DutyStatusIgnoredLog"`` \| ``"MaterialManagementStartDate"`` \| ``"MaterialManagementEndDate"`` \| ``"MaterialManagementSolidType"`` \| ``"MaterialManagementPreWetType"`` \| ``"MaterialManagementAntiIceType"`` \| ``"MaterialManagementSolidTotal"`` \| ``"MaterialManagementPreWetTotal"`` \| ``"MaterialManagementAntiIceTotal"`` \| ``"MaterialManagementSpreadTime"`` \| ``"MaterialManagementPlowTime"`` \| ``"MaterialManagementDeadheadTime"`` \| ``"MaterialManagementTravelTime"`` \| ``"MaterialManagementIdleTime"`` \| ``"MaterialManagementTotalTime"`` \| ``"MaterialManagementSpreadDistance"`` \| ``"MaterialManagementPlowDistance"`` \| ``"MaterialManagementDeadheadDistance"`` \| ``"MaterialManagementTotalDistance"`` \| ``"MaterialManagementAvgSolidRate"`` \| ``"MaterialManagementAvgPreWetRate"`` \| ``"MaterialManagementAvgAntiIceRate"`` \| ``"TransactionFuelVolume"`` \| ``"EngineDataFuelVolume"`` \| ``"OBDAlertStatus"`` \| ``"RouteCompletionPassCount"`` \| ``"RouteCompletionExpectedPassCount"`` \| ``"RouteCompletionCompletionPercentage"`` \| ``"RouteCompletionDevices"`` \| ``"FaultDataStatus"`` \| ``"StatusDataRecordDisplayData"`` \| ``"StatusDataRecordUnitOfMeasureName"`` \| ``"DebuggingStatusRecordDisplayData"`` \| ``"DebuggingStatusRecordUnitOfMeasureName"`` \| ``"TripStartEVBatteryCharge"`` \| ``"TripEndEVBatteryCharge"`` \| ``"TripElectricEnergyUsedWhileDriving"`` \| ``"TripElectricEnergyUsedWhileIdling"`` \| ``"TripElectricEnergyUsed"`` \| ``"TripElectricEnergyEconomy"`` \| ``"DVIRDetailNeedsCertify"`` \| ``"EVBatteryHealthMake"`` \| ``"EVBatteryHealthModel"`` \| ``"EVBatteryHealthYear"`` \| ``"EVBatteryHealthEVType"`` \| ``"EVBatteryHealthDetectionDate"`` \| ``"EVBatteryHealth90DayRollingAverageDataCollectionStartDate"`` \| ``"EVBatteryHealth90DayRollingAverageDataCollectionEndDate"`` \| ``"EVBatteryHealthDetectionDateOdometer"`` \| ``"EVBatteryHealthEVBatteryHealth"`` \| ``"EVBatteryHealthLower90ConfidenceInterval"`` \| ``"EVBatteryHealthLower90ConfidenceIntervalDelta"`` \| ``"EVBatteryHealthUpper90ConfidenceInterval"`` \| ``"EVBatteryHealthUpper90ConfidenceIntervalDelta"`` \| ``"EVBatteryHealthUsableDetectedCapacity"`` \| ``"EVBatteryHealthUsableDetectedCapacity90ConfidenceInterval"`` \| ``"EVBatteryHealthUsableOriginalCapacity"`` \| ``"EVBatteryHealthUsableOriginalCapacity90ConfidenceInterval"`` \| ``"EVBatteryHealthUsableDetectedCapacitySource"`` \| ``"EVBatteryHealthUsableOriginalCapacitySource"`` \| ``"EVBatteryHealthUsableDetectedCapacityLower90ConfidenceInterval"`` \| ``"EVBatteryHealthUsableDetectedCapacityUpper90ConfidenceInterval"`` \| ``"EVBatteryHealthUsableOriginalCapacityLower90ConfidenceInterval"`` \| ``"EVBatteryHealthUsableOriginalCapacityUpper90ConfidenceInterval"``
 
 The report heading.
 
 #### Defined in
 
-[src/types/Checkmate/Reports/ReportHeading.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Reports/ReportHeading.ts#L6)
+[src/types/Checkmate/Reports/ReportHeading.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Reports/ReportHeading.ts#L6)
 
 ___
 
@@ -2131,7 +2155,19 @@ Used to represent the duration for which the report is generated.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportPeriod.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportPeriod.ts#L6)
+[src/types/Checkmate/ObjectModel/ReportPeriod.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportPeriod.ts#L6)
+
+___
+
+### ReportProcessingStatus
+
+Ƭ **ReportProcessingStatus**: ``"Initialized"`` \| ``"Processing"`` \| ``"Successful"`` \| ``"Error"``
+
+The enum representing all the report processing statuses.
+
+#### Defined in
+
+src/types/Checkmate/ObjectModel/ReportProcessingStatus.ts:6
 
 ___
 
@@ -2143,7 +2179,7 @@ The way to treat nodes in report schedule.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportScheduleGroupType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportScheduleGroupType.ts#L6)
+[src/types/Checkmate/ObjectModel/ReportScheduleGroupType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportScheduleGroupType.ts#L6)
 
 ___
 
@@ -2155,7 +2191,7 @@ Report template type for [ReportTemplate](interfaces/ReportTemplate.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportTemplateType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportTemplateType.ts#L6)
+[src/types/Checkmate/ObjectModel/ReportTemplateType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportTemplateType.ts#L6)
 
 ___
 
@@ -2167,7 +2203,7 @@ Describes the state of a ReprocessRequest or a [DeviceReprocessRequest](interfac
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/ReprocessRequestStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Reprocessing/ReprocessRequestStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/Reprocessing/ReprocessRequestStatus.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/ReprocessRequestStatus.ts#L6)
 
 ___
 
@@ -2179,19 +2215,19 @@ Indicates whether administrator of data base requires training or not
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Registration/RequireTraining.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Registration/RequireTraining.ts#L6)
+[src/types/Checkmate/ObjectModel/Registration/RequireTraining.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Registration/RequireTraining.ts#L6)
 
 ___
 
 ### RouteStatus
 
-Ƭ **RouteStatus**: ``"Pending"`` \| ``"InProgress"`` \| ``"Completed"``
+Ƭ **RouteStatus**: ``"Unplanned"`` \| ``"Planned"`` \| ``"EnRoute"`` \| ``"Completed"`` \| ``"Incomplete"``
 
 Route plan status
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/RouteStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/RouteStatus.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteStatus.ts#L6)
 
 ___
 
@@ -2203,7 +2239,7 @@ A type of [Route](interfaces/Route.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/RouteType.ts#L6)
+[src/types/Checkmate/ObjectModel/RouteType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteType.ts#L6)
 
 ___
 
@@ -2215,7 +2251,31 @@ Defines different rule monitor types.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/RuleMonitorType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/RuleMonitorType.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/RuleMonitorType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/RuleMonitorType.ts#L6)
+
+___
+
+### ScheduleFrequency
+
+Ƭ **ScheduleFrequency**: ``"Daily"`` \| ``"Weekly"``
+
+Schedule Frequency.
+
+#### Defined in
+
+src/types/Checkmate/ObjectModel/ScheduleFrequency.ts:6
+
+___
+
+### SearchRelation
+
+Ƭ **SearchRelation**: ``"And"`` \| ``"Or"``
+
+Search the groups
+
+#### Defined in
+
+src/types/Checkmate/ObjectModel/SearchRelation.ts:6
 
 ___
 
@@ -2227,10 +2287,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `AddIn` | [`AddInSearch`](README.md#addinsearch) |
+| `AddIn` | [`AddInSearch`](interfaces/AddInSearch.md) |
 | `AddInData` | [`AddInDataSearch`](interfaces/AddInDataSearch.md) |
 | `AnnotationLog` | [`AnnotationLogSearch`](interfaces/AnnotationLogSearch.md) |
 | `Audit` | [`AuditSearch`](interfaces/AuditSearch.md) |
+| `BackfillStatus` | [`BackfillStatusSearch`](interfaces/BackfillStatusSearch.md) |
 | `BinaryData` | [`BinaryDataSearch`](interfaces/BinaryDataSearch.md) |
 | `Certificate` | [`CertificateSearch`](interfaces/CertificateSearch.md) |
 | `ChargeEvent` | [`ChargeEventSearch`](interfaces/ChargeEventSearch.md) |
@@ -2243,7 +2304,6 @@ ___
 | `Defect` | [`DefectSearch`](interfaces/DefectSearch.md) |
 | `DefectRemark` | [`DefectRemarkSearch`](interfaces/DefectRemarkSearch.md) |
 | `Device` | [`DeviceSearch`](interfaces/DeviceSearch.md) |
-| `DeviceDataPrivacyChange` | [`DeviceDataPrivacyChangeSearch`](interfaces/DeviceDataPrivacyChangeSearch.md) |
 | `DeviceLink` | [`DeviceLinkSearch`](interfaces/DeviceLinkSearch.md) |
 | `DeviceMasterFlag` | [`DeviceMasterFlagSearch`](interfaces/DeviceMasterFlagSearch.md) |
 | `DeviceRegistrationState` | [`DeviceRegistrationStateSearch`](interfaces/DeviceRegistrationStateSearch.md) |
@@ -2252,6 +2312,7 @@ ___
 | `DeviceShare` | [`DeviceShareSearch`](interfaces/DeviceShareSearch.md) |
 | `DeviceStatusInfo` | [`DeviceStatusInfoSearch`](interfaces/DeviceStatusInfoSearch.md) |
 | `Diagnostic` | [`DiagnosticSearch`](interfaces/DiagnosticSearch.md) |
+| `DiagnosticMapping` | [`DiagnosticMappingSearch`](interfaces/DiagnosticMappingSearch.md) |
 | `DisplayMeasurementProfile` | [`DisplayMeasurementProfileSearch`](interfaces/DisplayMeasurementProfileSearch.md) |
 | `DisplayMeasurementProfileDetail` | [`DisplayMeasurementProfileDetailSearch`](interfaces/DisplayMeasurementProfileDetailSearch.md) |
 | `DisplayUnitOfMeasure` | [`DisplayUnitOfMeasureSearch`](interfaces/DisplayUnitOfMeasureSearch.md) |
@@ -2262,22 +2323,21 @@ ___
 | `DutyStatusLog` | [`DutyStatusLogSearch`](interfaces/DutyStatusLogSearch.md) |
 | `DutyStatusViolation` | [`DutyStatusViolationSearch`](interfaces/DutyStatusViolationSearch.md) |
 | `EmployeeRoutePlan` | [`EmployeeRoutePlanSearch`](interfaces/EmployeeRoutePlanSearch.md) |
-| `EnergyConsumed` | [`EnergyConsumedSearch`](interfaces/EnergyConsumedSearch.md) |
-| `EnergyConsumedProcessing` | [`EnergyConsumedProcessingSearch`](interfaces/EnergyConsumedProcessingSearch.md) |
 | `EnergySnapshotRecord` | [`EnergySnapshotRecordSearch`](interfaces/EnergySnapshotRecordSearch.md) |
-| `EngineType` | [`EngineTypeSearch`](README.md#enginetypesearch) |
+| `EngineType` | [`EngineTypeSearch`](interfaces/EngineTypeSearch.md) |
 | `EntityLinkRule` | [`EntityLinkRuleSearch`](interfaces/EntityLinkRuleSearch.md) |
+| `EntitySetting` | [`EntitySettingSearch`](interfaces/EntitySettingSearch.md) |
+| `EventDeviation` | [`EventDeviationSearch`](interfaces/EventDeviationSearch.md) |
 | `EventOccurrence` | [`EventOccurrenceSearch`](interfaces/EventOccurrenceSearch.md) |
 | `EventOccurrenceDue` | [`EventOccurrenceDueSearch`](interfaces/EventOccurrenceDueSearch.md) |
 | `EventRule` | [`EventRuleSearch`](interfaces/EventRuleSearch.md) |
 | `ExceptionEvent` | [`ExceptionEventSearch`](interfaces/ExceptionEventSearch.md) |
 | `ExceptionEventAttachment` | [`ExceptionEventAttachmentSearch`](interfaces/ExceptionEventAttachmentSearch.md) |
 | `ExceptionEventComment` | [`ExceptionEventCommentSearch`](interfaces/ExceptionEventCommentSearch.md) |
-| `FailureMode` | [`FailureModeSearch`](README.md#failuremodesearch) |
+| `FailureMode` | [`FailureModeSearch`](interfaces/FailureModeSearch.md) |
 | `FaultData` | [`FaultDataSearch`](interfaces/FaultDataSearch.md) |
 | `FeedVersionTrackingData` | [`FeedVersionTrackingDataSearch`](interfaces/FeedVersionTrackingDataSearch.md) |
-| `FillUp` | [`FillUpSearch`](README.md#fillupsearch) |
-| `FuelAndEnergySnapshotProcessing` | [`FuelAndEnergySnapshotProcessingSearch`](interfaces/FuelAndEnergySnapshotProcessingSearch.md) |
+| `FillUp` | [`FillUpSearch`](interfaces/FillUpSearch.md) |
 | `FuelSnapshotRecord` | [`FuelSnapshotRecordSearch`](interfaces/FuelSnapshotRecordSearch.md) |
 | `FuelTaxDetail` | [`FuelTaxDetailSearch`](interfaces/FuelTaxDetailSearch.md) |
 | `FuelTransaction` | [`FuelTransactionSearch`](interfaces/FuelTransactionSearch.md) |
@@ -2290,6 +2350,8 @@ ___
 | `HosRulesetConfig` | [`HosRulesetConfigSearch`](interfaces/HosRulesetConfigSearch.md) |
 | `InstallRecord` | [`InstallRecordSearch`](interfaces/InstallRecordSearch.md) |
 | `IoxAddOn` | [`IoxAddOnSearch`](interfaces/IoxAddOnSearch.md) |
+| `IoxAddOnStatus` | [`IoxAddOnStatusSearch`](interfaces/IoxAddOnStatusSearch.md) |
+| `LiveCompletionMapConfig` | [`LiveCompletionMapConfigSearch`](interfaces/LiveCompletionMapConfigSearch.md) |
 | `LogRecord` | [`LogRecordSearch`](interfaces/LogRecordSearch.md) |
 | `LogRecordZoneDistance` | [`LogRecordZoneDistanceSearch`](interfaces/LogRecordZoneDistanceSearch.md) |
 | `MaintenanceNotificationRule` | [`MaintenanceNotificationRuleSearch`](interfaces/MaintenanceNotificationRuleSearch.md) |
@@ -2297,12 +2359,13 @@ ___
 | `MediaFile` | [`MediaFileSearch`](interfaces/MediaFileSearch.md) |
 | `MimeTask` | [`MimeTaskSearch`](interfaces/MimeTaskSearch.md) |
 | `Notification` | [`NotificationSearch`](interfaces/NotificationSearch.md) |
-| `ParameterGroup` | [`ParameterGroupSearch`](README.md#parametergroupsearch) |
+| `ParameterGroup` | [`ParameterGroupSearch`](interfaces/ParameterGroupSearch.md) |
 | `Property` | [`PropertySearch`](interfaces/PropertySearch.md) |
 | `PropertySet` | [`PropertySetSearch`](interfaces/PropertySetSearch.md) |
 | `Recipient` | [`RecipientSearch`](interfaces/RecipientSearch.md) |
 | `ReportStorage` | [`ReportStorageSearch`](interfaces/ReportStorageSearch.md) |
 | `ReportTemplate` | [`ReportTemplateSearch`](interfaces/ReportTemplateSearch.md) |
+| `RestrictedDataModeChange` | [`RestrictedDataModeChangeSearch`](interfaces/RestrictedDataModeChangeSearch.md) |
 | `Route` | [`RouteSearch`](interfaces/RouteSearch.md) |
 | `RouteExtract` | [`RouteExtractSearch`](interfaces/RouteExtractSearch.md) |
 | `Rule` | [`RuleSearch`](interfaces/RuleSearch.md) |
@@ -2312,6 +2375,10 @@ ___
 | `ShipmentLog` | [`ShipmentLogSearch`](interfaces/ShipmentLogSearch.md) |
 | `Source` | [`SourceSearch`](interfaces/SourceSearch.md) |
 | `StatusData` | [`StatusDataSearch`](interfaces/StatusDataSearch.md) |
+| `TachographActivitiesCertificate` | [`TachographActivitiesCertificateSearch`](interfaces/TachographActivitiesCertificateSearch.md) |
+| `TachographCompanyCard` | [`TachographCompanyCardSearch`](interfaces/TachographCompanyCardSearch.md) |
+| `TachographDataFile` | [`TachographDataFileSearch`](interfaces/TachographDataFileSearch.md) |
+| `TachographVehicleInspection` | [`TachographVehicleInspectionSearch`](interfaces/TachographVehicleInspectionSearch.md) |
 | `TextMessage` | [`TextMessageSearch`](interfaces/TextMessageSearch.md) |
 | `Trailer` | [`TrailerSearch`](interfaces/TrailerSearch.md) |
 | `TrailerAttachment` | [`TrailerAttachmentSearch`](interfaces/TrailerAttachmentSearch.md) |
@@ -2326,10 +2393,9 @@ ___
 | `UserHosRuleSet` | [`UserHosRuleSetSearch`](interfaces/UserHosRuleSetSearch.md) |
 | `UserLoginStatus` | [`UserLoginStatusSearch`](interfaces/UserLoginStatusSearch.md) |
 | `UserSupport` | [`UserSupportSearch`](interfaces/UserSupportSearch.md) |
-| `VehicleConfiguration` | [`VehicleConfigurationSearch`](interfaces/VehicleConfigurationSearch.md) |
-| `VirtualExceptionEvent` | [`VirtualExceptionEventSearch`](README.md#virtualexceptioneventsearch) |
+| `VirtualExceptionEvent` | [`VirtualExceptionEventSearch`](interfaces/VirtualExceptionEventSearch.md) |
 | `Widget` | [`WidgetSearch`](interfaces/WidgetSearch.md) |
-| `WifiHotspot` | [`WifiHotspotSearch`](README.md#wifihotspotsearch) |
+| `WifiHotspot` | [`WifiHotspotSearch`](interfaces/WifiHotspotSearch.md) |
 | `WorkHoliday` | [`WorkHolidaySearch`](interfaces/WorkHolidaySearch.md) |
 | `WorkTime` | [`WorkTimeSearch`](interfaces/WorkTimeSearch.md) |
 | `Zone` | [`ZoneSearch`](interfaces/ZoneSearch.md) |
@@ -2337,31 +2403,31 @@ ___
 
 #### Defined in
 
-[src/types/SearchTypes.ts:109](https://github.com/fairfleet/geotab/blob/b682f10/src/types/SearchTypes.ts#L109)
+[src/types/SearchTypes.ts:115](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/SearchTypes.ts#L115)
 
 ___
 
 ### SecurityIdentifier
 
-Ƭ **SecurityIdentifier**: ``"Unknown"`` \| ``"Everything"`` \| ``"SystemSettings"`` \| ``"ImportFromOtherDatabase"`` \| ``"AuditLog"`` \| ``"UserList"`` \| ``"UserAdmin"`` \| ``"PurgeData"`` \| ``"DeviceList"`` \| ``"EngineManagementReport"`` \| ``"ZoneTypeList"`` \| ``"ReprocessData"`` \| ``"WorkTimeList"`` \| ``"WorkHolidayList"`` \| ``"ZoneList"`` \| ``"ZoneAdmin"`` \| ``"ExceptionsList"`` \| ``"ReminderReport"`` \| ``"EventOccurrenceList"`` \| ``"NodesList"`` \| ``"ReminderRuleList"`` \| ``"ChangePassword"`` \| ``"CreateExtractKey"`` \| ``"CreateTestKey"`` \| ``"CreateFirmwareKey"`` \| ``"CreateProgrammingKey"`` \| ``"CreateKeyBackup"`` \| ``"RestoreKeyBackup"`` \| ``"CreateWifiKey"`` \| ``"ImportZones"`` \| ``"NotificationList"`` \| ``"OrganizeViews"`` \| ``"RouteList"`` \| ``"UserSettings"`` \| ``"EngineDiagnosticList"`` \| ``"EngineTypeList"`` \| ``"EngineFailureModeList"`` \| ``"EngineFlashCodelist"`` \| ``"EngineUnitOfMeasureList"`` \| ``"TripsActivityReport"`` \| ``"CongregationReport"`` \| ``"CustomerVisitsReport"`` \| ``"SpeedProfileReport"`` \| ``"TimeCardReport"`` \| ``"EngineStatusDataGraph"`` \| ``"ExceptionsReport"`` \| ``"RiskManagementReport"`` \| ``"RouteSummaryReport"`` \| ``"UnassignedRouteReport"`` \| ``"AccidentDebugReport"`` \| ``"DeviceInstallHistoryReport"`` \| ``"LaunchAddIn"`` \| ``"DeviceAdmin"`` \| ``"DeviceAdminDeleteUnplugReplace"`` \| ``"KeyInformation"`` \| ``"SecurityClearanceList"`` \| ``"TrackHistoricData"`` \| ``"ServicesSettings"`` \| ``"MileageSummaryDashboard"`` \| ``"AccidentWizard"`` \| ``"FuelTax"`` \| ``"ManageReportTemplates"`` \| ``"ViewReportTemplate"`` \| ``"ExportFromOtherDatabase"`` \| ``"ViewGpsTextMessage"`` \| ``"SendGpsTextMessage"`` \| ``"DeleteGpsTextMessage"`` \| ``"RequestDeviceLocation"`` \| ``"DisplayMap"`` \| ``"StartFullVersion"`` \| ``"EditNotificationEmailTemplate"`` \| ``"DeviceAdminAdvanced"`` \| ``"DeviceAdminDriverFeedback"`` \| ``"EditDeviceOdometer"`` \| ``"SendExternalRelayInstruction"`` \| ``"AboutCheckmate"`` \| ``"FuelUsageReport"`` \| ``"DriverBlacklist"`` \| ``"EditException"`` \| ``"EditDistributionList"`` \| ``"RouteComparisonReport"`` \| ``"ManageHOSLogs"`` \| ``"ViewHOSLogs"`` \| ``"ViewDVIRLogs"`` \| ``"ManageDVIRLogs"`` \| ``"ViewTrailers"`` \| ``"ManageTrailers"`` \| ``"ViewAdvancedHelp"`` \| ``"EditRoadSpeeds"`` \| ``"FuelTransactionList"`` \| ``"FuelTransactionAdmin"`` \| ``"ViewMarketplacePaidItems"`` \| ``"ViewCertificates"`` \| ``"ManageCertificates"`` \| ``"RepairDVIR"`` \| ``"PurchaseMarketplacePaidItems"`` \| ``"ManageAddInData"`` \| ``"ViewAddInData"`` \| ``"ViewBinaryData"`` \| ``"DriverIdentificationClearance"`` \| ``"AccelerometerDataClearance"`` \| ``"ServicePlansClearance"`` \| ``"AuxiliaryClearance"`` \| ``"EngineStatusDataClearance"`` \| ``"ResellerControlClearance"`` \| ``"GoTalkClearance"`` \| ``"StatusGroupsClearance"`` \| ``"ProductGuideClearance"`` \| ``"FeaturePreviewClearance"`` \| ``"NewsNotificationsClearance"`` \| ``"ManageAddinsClearance"`` \| ``"DeviceCurrentStatusClearance"`` \| ``"ViewTripTypeChangeData"`` \| ``"EditTripTypeChangeData"`` \| ``"DirectSupportAdmin"`` \| ``"ViewBusinessIntelligence"`` \| ``"ActiveTrackingClearance"`` \| ``"CertifyDVIR"`` \| ``"InspectDVIR"`` \| ``"ViewMedia"`` \| ``"ManageMedia"`` \| ``"ViewGroups"`` \| ``"AdministerWiFiHotspotSettings"`` \| ``"ViewWiFiHotspotSettings"`` \| ``"MaterialManagementReport"`` \| ``"ViewDeviceShare"`` \| ``"EditDeviceShare"`` \| ``"InstallRecord"`` \| ``"ViewUserDeviceLink"`` \| ``"EditUserDeviceLink"`` \| ``"RouteCompletionReport"`` \| ``"ViewActiveInsights"`` \| ``"ViewAnalyticsLab"`` \| ``"ViewShareableLink"`` \| ``"CreateShareableLink"`` \| ``"DeleteShareableLink"`` \| ``"ViewDeviceDataPrivacyChangeData"`` \| ``"EditDeviceDataPrivacyChangeData"`` \| ``"IgnoreHOSLogs"`` \| ``"AdministerPropertySet"`` \| ``"ViewPropertySet"`` \| ``"AdministerProperty"`` \| ``"ViewProperty"`` \| ``"ViewSharedDevice"`` \| ``"ManageDriverActivityGroup"`` \| ``"ViewTripAnnotation"`` \| ``"ManageTripAnnotation"`` \| ``"ExceptionEventReviewer"`` \| ``"ExceptionEventReviewParticipant"`` \| ``"ViewBinaryDataFiles"`` \| ``"ManageBinaryDataFiles"`` \| ``"ModifyGroupFilter"`` \| ``"ViewGroupFilter"``
+Ƭ **SecurityIdentifier**: ``"Unknown"`` \| ``"Everything"`` \| ``"SystemSettings"`` \| ``"ImportFromOtherDatabase"`` \| ``"AuditLog"`` \| ``"UserList"`` \| ``"UserAdmin"`` \| ``"PurgeData"`` \| ``"DeviceList"`` \| ``"EngineManagementReport"`` \| ``"ZoneTypeList"`` \| ``"ReprocessData"`` \| ``"WorkTimeList"`` \| ``"WorkHolidayList"`` \| ``"ZoneList"`` \| ``"ZoneAdmin"`` \| ``"ExceptionsList"`` \| ``"ReminderReport"`` \| ``"EventOccurrenceList"`` \| ``"NodesList"`` \| ``"ReminderRuleList"`` \| ``"ChangePassword"`` \| ``"CreateExtractKey"`` \| ``"CreateTestKey"`` \| ``"CreateFirmwareKey"`` \| ``"CreateProgrammingKey"`` \| ``"CreateKeyBackup"`` \| ``"RestoreKeyBackup"`` \| ``"CreateWifiKey"`` \| ``"ImportZones"`` \| ``"NotificationList"`` \| ``"OrganizeViews"`` \| ``"RouteList"`` \| ``"UserSettings"`` \| ``"EngineDiagnosticList"`` \| ``"EngineTypeList"`` \| ``"EngineFailureModeList"`` \| ``"EngineFlashCodelist"`` \| ``"EngineUnitOfMeasureList"`` \| ``"TripsActivityReport"`` \| ``"CongregationReport"`` \| ``"CustomerVisitsReport"`` \| ``"SpeedProfileReport"`` \| ``"TimeCardReport"`` \| ``"EngineStatusDataGraph"`` \| ``"ExceptionsReport"`` \| ``"RiskManagementReport"`` \| ``"RouteSummaryReport"`` \| ``"UnassignedRouteReport"`` \| ``"AccidentDebugReport"`` \| ``"DeviceInstallHistoryReport"`` \| ``"LaunchAddIn"`` \| ``"DeviceAdmin"`` \| ``"DeviceAdminDeleteUnplugReplace"`` \| ``"KeyInformation"`` \| ``"SecurityClearanceList"`` \| ``"TrackHistoricData"`` \| ``"ServicesSettings"`` \| ``"MileageSummaryDashboard"`` \| ``"AccidentWizard"`` \| ``"FuelTax"`` \| ``"ManageReportTemplates"`` \| ``"ViewReportTemplate"`` \| ``"ExportFromOtherDatabase"`` \| ``"ViewGpsTextMessage"`` \| ``"SendGpsTextMessage"`` \| ``"DeleteGpsTextMessage"`` \| ``"RequestDeviceLocation"`` \| ``"DisplayMap"`` \| ``"StartFullVersion"`` \| ``"EditNotificationEmailTemplate"`` \| ``"DeviceAdminAdvanced"`` \| ``"DeviceAdminDriverFeedback"`` \| ``"EditDeviceOdometer"`` \| ``"SendExternalRelayInstruction"`` \| ``"AboutCheckmate"`` \| ``"FuelUsageReport"`` \| ``"DriverBlacklist"`` \| ``"EditException"`` \| ``"EditDistributionList"`` \| ``"RouteComparisonReport"`` \| ``"ManageHOSLogs"`` \| ``"ViewHOSLogs"`` \| ``"ViewDVIRLogs"`` \| ``"ManageDVIRLogs"`` \| ``"ViewTrailers"`` \| ``"ManageTrailers"`` \| ``"ViewShipments"`` \| ``"ManageShipments"`` \| ``"ViewAdvancedHelp"`` \| ``"EditRoadSpeeds"`` \| ``"FuelTransactionList"`` \| ``"FuelTransactionAdmin"`` \| ``"ViewMarketplacePaidItems"`` \| ``"ViewCertificates"`` \| ``"ManageCertificates"`` \| ``"RepairDVIR"`` \| ``"PurchaseMarketplacePaidItems"`` \| ``"ManageAddInData"`` \| ``"ViewAddInData"`` \| ``"ViewBinaryData"`` \| ``"DriverIdentificationClearance"`` \| ``"AccelerometerDataClearance"`` \| ``"ServicePlansClearance"`` \| ``"AuxiliaryClearance"`` \| ``"EngineStatusDataClearance"`` \| ``"ResellerControlClearance"`` \| ``"GoTalkClearance"`` \| ``"StatusGroupsClearance"`` \| ``"ProductGuideClearance"`` \| ``"FeaturePreviewClearance"`` \| ``"NewsNotificationsClearance"`` \| ``"ManageAddinsClearance"`` \| ``"DeviceCurrentStatusClearance"`` \| ``"ViewTripTypeChangeData"`` \| ``"EditTripTypeChangeData"`` \| ``"DirectSupportAdmin"`` \| ``"ViewBusinessIntelligence"`` \| ``"ActiveTrackingClearance"`` \| ``"ContinuousConnectClearance"`` \| ``"CertifyDVIR"`` \| ``"InspectDVIR"`` \| ``"ViewMedia"`` \| ``"ManageMedia"`` \| ``"ViewGroups"`` \| ``"AdministerWiFiHotspotSettings"`` \| ``"ViewWiFiHotspotSettings"`` \| ``"MaterialManagementReport"`` \| ``"ViewDeviceShare"`` \| ``"EditDeviceShare"`` \| ``"InstallRecord"`` \| ``"ViewUserDeviceLink"`` \| ``"EditUserDeviceLink"`` \| ``"RouteCompletionReport"`` \| ``"ViewActiveInsights"`` \| ``"ViewAnalyticsLab"`` \| ``"ViewShareableLink"`` \| ``"CreateShareableLink"`` \| ``"DeleteShareableLink"`` \| ``"ViewDeviceDataPrivacyChangeData"`` \| ``"EditDeviceDataPrivacyChangeData"`` \| ``"IgnoreHOSLogs"`` \| ``"AdministerPropertySet"`` \| ``"ViewPropertySet"`` \| ``"AdministerProperty"`` \| ``"ViewProperty"`` \| ``"ViewSharedDevice"`` \| ``"ManageDriverActivityGroup"`` \| ``"ViewTripAnnotation"`` \| ``"ManageTripAnnotation"`` \| ``"ExceptionEventReviewer"`` \| ``"ExceptionEventReviewParticipant"`` \| ``"ViewBinaryDataFiles"`` \| ``"ManageBinaryDataFiles"`` \| ``"ModifyGroupFilter"`` \| ``"ViewGroupFilter"`` \| ``"AdministerLiveMap"`` \| ``"ViewLiveMap"`` \| ``"EVBatteryHealthReport"`` \| ``"ManageTachographInspection"`` \| ``"ViewTachographInspection"`` \| ``"ManageTachographCompanyCards"`` \| ``"ViewTachographCompanyCards"`` \| ``"TachographDownloadAndUploadFiles"`` \| ``"ViewTachographRemoteDownloadData"`` \| ``"ViewTachographDrivingTimeData"`` \| ``"ViewTachographInfringementData"`` \| ``"SendColdChainCommand"`` \| ``"EditStockRules"`` \| ``"ResetPassword"``
 
 The list of identifiers that gives a security identity to something whose access can be controlled.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/SecurityIdentifier.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/SecurityIdentifier.ts#L6)
+[src/types/Checkmate/ObjectModel/SecurityIdentifier.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/SecurityIdentifier.ts#L6)
 
 ___
 
 ### SecurityRole
 
-Ƭ **SecurityRole**: ``"Unknown"`` \| ``"UserView"`` \| ``"UserRemove"`` \| ``"UserSet"`` \| ``"UserInsert"`` \| ``"DeviceView"`` \| ``"DeviceRemove"`` \| ``"DeviceInsert"`` \| ``"DeviceSet"`` \| ``"ZoneView"`` \| ``"ZoneRemove"`` \| ``"ZoneInsert"`` \| ``"ZoneSet"`` \| ``"ZoneTypeView"`` \| ``"ZoneTypeRemove"`` \| ``"ZoneTypeInsert"`` \| ``"ZoneTypeSet"`` \| ``"RouteView"`` \| ``"RouteRemove"`` \| ``"RouteInsert"`` \| ``"RouteSet"`` \| ``"DatabaseUpgrade"`` \| ``"DatabaseMigrate"`` \| ``"ExportDatabase"`` \| ``"ImportDatabase"`` \| ``"ServerUpgrade"`` \| ``"SysSetCompanyGUID"`` \| ``"SysSettingsSetAll"`` \| ``"EventRemove"`` \| ``"EventInsert"`` \| ``"EventSet"`` \| ``"EventRuleRemove"`` \| ``"EventRuleInsert"`` \| ``"EventRuleSet"`` \| ``"EventRuleView"`` \| ``"EventTypeRemove"`` \| ``"EventTypeInsert"`` \| ``"EventTypeSet"`` \| ``"ExceptionRuleView"`` \| ``"ExceptionRuleRemove"`` \| ``"ExceptionRuleInsert"`` \| ``"ExceptionRuleSet"`` \| ``"DistributionListView"`` \| ``"DistributionListRemove"`` \| ``"DistributionListInsert"`` \| ``"DistributionListSet"`` \| ``"UomRemove"`` \| ``"UomInsert"`` \| ``"UomSet"`` \| ``"DiagnosticView"`` \| ``"DiagnosticRemove"`` \| ``"DiagnosticInsert"`` \| ``"DiagnosticSet"`` \| ``"FailureModeView"`` \| ``"FailureModeRemove"`` \| ``"FailureModeInsert"`` \| ``"FailureModeSet"`` \| ``"WorkTimesView"`` \| ``"WorkTimesRemove"`` \| ``"WorkTimesInsert"`` \| ``"WorkTimesSet"`` \| ``"WorkHolidaysView"`` \| ``"WorkHolidaysRemove"`` \| ``"WorkHolidaysInsert"`` \| ``"WorkHolidaysSet"`` \| ``"EngineTypeView"`` \| ``"EngineTypeRemove"`` \| ``"EngineTypeInsert"`` \| ``"EngineTypeSet"`` \| ``"FlashCodeRemove"`` \| ``"FlashCodeInsert"`` \| ``"FlashCodeSet"`` \| ``"HistoricDeviceRemove"`` \| ``"HistoricDeviceInsert"`` \| ``"HistoricDeviceSet"`` \| ``"HistoricDeviceMakeHistoric"`` \| ``"HistoricDeviceUnMakeHistoric"`` \| ``"HosLogRemove"`` \| ``"HosLogAdd"`` \| ``"HosLogEdit"`` \| ``"DvirLogAdd"`` \| ``"DvirLogSet"`` \| ``"DvirLogRemove"`` \| ``"ProcessManualUpdate"`` \| ``"ReportAuditLog"`` \| ``"ReportSpeedProfile"`` \| ``"ReportCongregation"`` \| ``"ReportZoneVisitsDetail"`` \| ``"ReportZoneVisitsSummary"`` \| ``"ReportDVIRLog"`` \| ``"ReportDebug"`` \| ``"ReportDeviceInstallHistory"`` \| ``"ReportDevice"`` \| ``"ReportDiagnosticList"`` \| ``"ReportEngineFault"`` \| ``"ReportEngineStatus"`` \| ``"ReportEngineSummary"`` \| ``"ReportEventHistory"`` \| ``"ReportEventRuleDevice"`` \| ``"ReportExceptionsDetail"`` \| ``"ReportExceptionsSummary"`` \| ``"ReportFillUps"`` \| ``"ReportFuelTax"`` \| ``"ReportEngineStatusStatistics"`` \| ``"ReportGroupsList"`` \| ``"ReportHosLogs"`` \| ``"ReportHosViolation"`` \| ``"ReportNotification"`` \| ``"ReportReminders"`` \| ``"ReportRiskManagement"`` \| ``"ReportRouteComparisonDetail"`` \| ``"ReportRouteDirection"`` \| ``"ReportRouteSummary"`` \| ``"ReportTextMessage"`` \| ``"ReportTimeCard"`` \| ``"ReportTripsDetail"`` \| ``"ReportTripsSummary"`` \| ``"ReportUnassignedRoute"`` \| ``"ReportUserList"`` \| ``"ReportZoneList"`` \| ``"ReportExceptionsSummaryGraph"`` \| ``"ReportTripsIdlingSummaryGraph"`` \| ``"ReportFleetSummaryGraph"`` \| ``"ReportCustomerStopGraph"`` \| ``"ReportTripsDensitySummaryGraph"`` \| ``"ShowMap"`` \| ``"Purge"`` \| ``"ExcelReportView"`` \| ``"ExcelReportRemove"`` \| ``"ExcelReportEdit"`` \| ``"ExcelReportInsert"`` \| ``"KeyCreate"`` \| ``"KeyBackup"`` \| ``"KeyRestore"`` \| ``"KeyDataDownload"`` \| ``"UserLogin"`` \| ``"UserLogoff"`` \| ``"UserLoginFailure"`` \| ``"UserLockout"`` \| ``"UserUnlocked"`` \| ``"RequestLocation"`` \| ``"GpsTextMessageSend"`` \| ``"GpsTextMessageDelete"`` \| ``"GpsTextMessageView"`` \| ``"NotificationView"`` \| ``"NotificationsDismiss"`` \| ``"NotificationTemplateView"`` \| ``"NotificationTemplateRemove"`` \| ``"NotificationTemplateSet"`` \| ``"NotificationTemplateInsert"`` \| ``"NodeView"`` \| ``"NodeRemove"`` \| ``"NodeSet"`` \| ``"NodeInsert"`` \| ``"SecurityGroupView"`` \| ``"KeyInsert"`` \| ``"TrailerView"`` \| ``"TrailerRemove"`` \| ``"TrailerSet"`` \| ``"TrailerInsert"`` \| ``"DriverChangeRemove"`` \| ``"DriverChangeInsert"`` \| ``"CustomReportScheduleInsert"`` \| ``"CustomReportScheduleSet"`` \| ``"CustomReportScheduleRemove"`` \| ``"CustomReportSendError"`` \| ``"FuelTransactionView"`` \| ``"FuelTransactionRemove"`` \| ``"FuelTransactionInsert"`` \| ``"FuelTransactionSet"`` \| ``"PostedRoadSpeedSet"`` \| ``"FillUpsGraph"`` \| ``"MiscPageView"`` \| ``"AboutView"`` \| ``"DashboardView"`` \| ``"RadioDownloaderView"`` \| ``"FuelTransactionImport"`` \| ``"DriveLockUserCleared"`` \| ``"PasswordResetRequest"`` \| ``"DefectGroupView"`` \| ``"CertificateInsert"`` \| ``"CertificateRemove"`` \| ``"CertificateSet"`` \| ``"ReportHosAvailability"`` \| ``"TripTypeChangeInsert"`` \| ``"TripTypeChangeRemove"`` \| ``"ShipmentLogInsert"`` \| ``"ShipmentLogSet"`` \| ``"ShipmentLogRemove"`` \| ``"TrailerAttachmentInsert"`` \| ``"TrailerAttachmentSet"`` \| ``"TrailerAttachmentRemove"`` \| ``"SupportTicketInsert"`` \| ``"TrainingTicketInsert"`` \| ``"SupportTicketSet"`` \| ``"TrainingTicketSet"`` \| ``"EmailSent"`` \| ``"SkipHosVerify"`` \| ``"SkipHosClaimUnassigned"`` \| ``"SkipDvirInspect"`` \| ``"ELDDataTransfer"`` \| ``"CreditsView"`` \| ``"ReportChargeEvent"`` \| ``"HardwarePurchase"`` \| ``"MediaFileView"`` \| ``"MediaFileRemove"`` \| ``"MediaFileInsert"`` \| ``"MediaFileSet"`` \| ``"MediaFileUpload"`` \| ``"WiFiView"`` \| ``"WiFiRemove"`` \| ``"WiFiSet"`` \| ``"WiFiInsert"`` \| ``"UserSupportInsert"`` \| ``"UserSupportRemove"`` \| ``"MaterialManagement"`` \| ``"OverTheAirUpdate"`` \| ``"DeviceShareViewed"`` \| ``"DeviceShareInsert"`` \| ``"DeviceShareSet"`` \| ``"DeviceShareRemove"`` \| ``"RouteCompletion"`` \| ``"ReprocessRequestInsert"`` \| ``"ReprocessRequestSet"`` \| ``"ReprocessRequestRemove"`` \| ``"DeviceReprocessRequestInsert"`` \| ``"DeviceReprocessRequestRemove"`` \| ``"DeviceReprocessRequestSet"`` \| ``"DeleteDatabase"`` \| ``"UserHosRuleSetInsert"`` \| ``"UserHosRuleSetRemove"`` \| ``"UserHosRuleSetSet"`` \| ``"DeviceDataPrivacyChangeInsert"`` \| ``"StatusDataInsert"`` \| ``"StatusDataSet"`` \| ``"UserDisplayProfileInsert"`` \| ``"UserDisplayProfileRemove"`` \| ``"UserDisplayProfileSet"`` \| ``"DisplayMeasurementProfileInsert"`` \| ``"DisplayMeasurementProfileRemove"`` \| ``"DisplayMeasurementProfileSet"`` \| ``"DisplayMeasurementProfileDetailInsert"`` \| ``"DisplayMeasurementProfileDetailRemove"`` \| ``"DisplayMeasurementProfileDetailSet"`` \| ``"TripAnnotationInsert"`` \| ``"TripAnnotationSet"`` \| ``"TripAnnotationRemove"`` \| ``"ExceptionEventAttachmentAdd"`` \| ``"ExceptionEventAttachmentRemove"`` \| ``"ExceptionEventCommentAdd"`` \| ``"ExceptionEventEdit"`` \| ``"AcceptSupportService"`` \| ``"BinaryDataFileView"`` \| ``"BinaryDataFileRemove"`` \| ``"BinaryDataFileInsert"`` \| ``"BinaryDataFileSet"`` \| ``"BinaryDataFileUpload"`` \| ``"MaintenanceNotificationRuleRemove"`` \| ``"MaintenanceNotificationRuleInsert"`` \| ``"MaintenanceNotificationRuleSet"`` \| ``"MaintenanceNotificationRuleView"``
+Ƭ **SecurityRole**: ``"Unknown"`` \| ``"UserView"`` \| ``"UserRemove"`` \| ``"UserSet"`` \| ``"UserInsert"`` \| ``"DeviceView"`` \| ``"DeviceRemove"`` \| ``"DeviceInsert"`` \| ``"DeviceSet"`` \| ``"ZoneView"`` \| ``"ZoneRemove"`` \| ``"ZoneInsert"`` \| ``"ZoneSet"`` \| ``"ZoneTypeView"`` \| ``"ZoneTypeRemove"`` \| ``"ZoneTypeInsert"`` \| ``"ZoneTypeSet"`` \| ``"RouteView"`` \| ``"RouteRemove"`` \| ``"RouteInsert"`` \| ``"RouteSet"`` \| ``"DatabaseUpgrade"`` \| ``"DatabaseMigrate"`` \| ``"ExportDatabase"`` \| ``"ImportDatabase"`` \| ``"ServerUpgrade"`` \| ``"SysSetCompanyGUID"`` \| ``"SysSettingsSetAll"`` \| ``"EventRemove"`` \| ``"EventInsert"`` \| ``"EventSet"`` \| ``"EventRuleRemove"`` \| ``"EventRuleInsert"`` \| ``"EventRuleSet"`` \| ``"EventRuleView"`` \| ``"EventTypeRemove"`` \| ``"EventTypeInsert"`` \| ``"EventTypeSet"`` \| ``"ExceptionRuleView"`` \| ``"ExceptionRuleRemove"`` \| ``"ExceptionRuleInsert"`` \| ``"ExceptionRuleSet"`` \| ``"DistributionListView"`` \| ``"DistributionListRemove"`` \| ``"DistributionListInsert"`` \| ``"DistributionListSet"`` \| ``"UomRemove"`` \| ``"UomInsert"`` \| ``"UomSet"`` \| ``"DiagnosticView"`` \| ``"DiagnosticRemove"`` \| ``"DiagnosticInsert"`` \| ``"DiagnosticSet"`` \| ``"MappedDiagnosticRemove"`` \| ``"MappedDiagnosticInsert"`` \| ``"MappedDiagnosticSet"`` \| ``"DiagnosticMappingRemove"`` \| ``"DiagnosticMappingInsert"`` \| ``"DiagnosticMappingSet"`` \| ``"FailureModeView"`` \| ``"FailureModeRemove"`` \| ``"FailureModeInsert"`` \| ``"FailureModeSet"`` \| ``"WorkTimesView"`` \| ``"WorkTimesRemove"`` \| ``"WorkTimesInsert"`` \| ``"WorkTimesSet"`` \| ``"WorkHolidaysView"`` \| ``"WorkHolidaysRemove"`` \| ``"WorkHolidaysInsert"`` \| ``"WorkHolidaysSet"`` \| ``"EngineTypeView"`` \| ``"EngineTypeRemove"`` \| ``"EngineTypeInsert"`` \| ``"EngineTypeSet"`` \| ``"FlashCodeRemove"`` \| ``"FlashCodeInsert"`` \| ``"FlashCodeSet"`` \| ``"HistoricDeviceRemove"`` \| ``"HistoricDeviceInsert"`` \| ``"HistoricDeviceSet"`` \| ``"HistoricDeviceMakeHistoric"`` \| ``"HistoricDeviceUnMakeHistoric"`` \| ``"HosLogRemove"`` \| ``"HosLogAdd"`` \| ``"HosLogEdit"`` \| ``"DvirLogAdd"`` \| ``"DvirLogSet"`` \| ``"DvirLogRemove"`` \| ``"ProcessManualUpdate"`` \| ``"ReportAuditLog"`` \| ``"ReportSpeedProfile"`` \| ``"ReportCongregation"`` \| ``"ReportZoneVisitsDetail"`` \| ``"ReportZoneVisitsSummary"`` \| ``"ReportDVIRLog"`` \| ``"ReportDebug"`` \| ``"ReportDeviceInstallHistory"`` \| ``"ReportDevice"`` \| ``"ReportDiagnosticList"`` \| ``"ReportEngineFault"`` \| ``"ReportEngineStatus"`` \| ``"ReportEngineSummary"`` \| ``"ReportEventHistory"`` \| ``"ReportEventRuleDevice"`` \| ``"ReportExceptionsDetail"`` \| ``"ReportExceptionsSummary"`` \| ``"ReportFillUps"`` \| ``"ReportFuelTax"`` \| ``"ReportEngineStatusStatistics"`` \| ``"ReportGroupsList"`` \| ``"ReportHosLogs"`` \| ``"ReportHosViolation"`` \| ``"ReportNotification"`` \| ``"ReportReminders"`` \| ``"ReportRiskManagement"`` \| ``"ReportRouteComparisonDetail"`` \| ``"ReportRouteDirection"`` \| ``"ReportRouteSummary"`` \| ``"ReportTextMessage"`` \| ``"ReportTimeCard"`` \| ``"ReportTripsDetail"`` \| ``"ReportTripsSummary"`` \| ``"ReportUnassignedRoute"`` \| ``"ReportUserList"`` \| ``"ReportZoneList"`` \| ``"ReportExceptionsSummaryGraph"`` \| ``"ReportTripsIdlingSummaryGraph"`` \| ``"ReportFleetSummaryGraph"`` \| ``"ReportCustomerStopGraph"`` \| ``"ReportTripsDensitySummaryGraph"`` \| ``"ReportEVBatteryHealth"`` \| ``"ShowMap"`` \| ``"Purge"`` \| ``"ExcelReportView"`` \| ``"ExcelReportRemove"`` \| ``"ExcelReportEdit"`` \| ``"ExcelReportInsert"`` \| ``"KeyCreate"`` \| ``"KeyBackup"`` \| ``"KeyRestore"`` \| ``"KeyDataDownload"`` \| ``"UserLogin"`` \| ``"UserLogoff"`` \| ``"UserLoginFailure"`` \| ``"UserLockout"`` \| ``"UserUnlocked"`` \| ``"RequestLocation"`` \| ``"GpsTextMessageSend"`` \| ``"GpsTextMessageDelete"`` \| ``"GpsTextMessageView"`` \| ``"NotificationView"`` \| ``"NotificationsDismiss"`` \| ``"NotificationTemplateView"`` \| ``"NotificationTemplateRemove"`` \| ``"NotificationTemplateSet"`` \| ``"NotificationTemplateInsert"`` \| ``"NodeView"`` \| ``"NodeRemove"`` \| ``"NodeSet"`` \| ``"NodeInsert"`` \| ``"SecurityGroupView"`` \| ``"KeyInsert"`` \| ``"TrailerView"`` \| ``"TrailerRemove"`` \| ``"TrailerSet"`` \| ``"TrailerInsert"`` \| ``"DriverChangeRemove"`` \| ``"DriverChangeInsert"`` \| ``"CustomReportScheduleInsert"`` \| ``"CustomReportScheduleSet"`` \| ``"CustomReportScheduleRemove"`` \| ``"CustomReportSendError"`` \| ``"FuelTransactionView"`` \| ``"FuelTransactionRemove"`` \| ``"FuelTransactionInsert"`` \| ``"FuelTransactionSet"`` \| ``"PostedRoadSpeedSet"`` \| ``"FillUpsGraph"`` \| ``"MiscPageView"`` \| ``"AboutView"`` \| ``"DashboardView"`` \| ``"RadioDownloaderView"`` \| ``"FuelTransactionImport"`` \| ``"DriveLockUserCleared"`` \| ``"PasswordResetRequest"`` \| ``"DefectGroupView"`` \| ``"CertificateInsert"`` \| ``"CertificateRemove"`` \| ``"CertificateSet"`` \| ``"ReportHosAvailability"`` \| ``"TripTypeChangeInsert"`` \| ``"TripTypeChangeRemove"`` \| ``"ShipmentLogInsert"`` \| ``"ShipmentLogSet"`` \| ``"ShipmentLogRemove"`` \| ``"TrailerAttachmentInsert"`` \| ``"TrailerAttachmentSet"`` \| ``"TrailerAttachmentRemove"`` \| ``"SupportTicketInsert"`` \| ``"TrainingTicketInsert"`` \| ``"SupportTicketSet"`` \| ``"TrainingTicketSet"`` \| ``"EmailSent"`` \| ``"SkipHosVerify"`` \| ``"SkipHosClaimUnassigned"`` \| ``"SkipDvirInspect"`` \| ``"ELDDataTransfer"`` \| ``"CreditsView"`` \| ``"ReportChargeEvent"`` \| ``"HardwarePurchase"`` \| ``"MediaFileView"`` \| ``"MediaFileRemove"`` \| ``"MediaFileInsert"`` \| ``"MediaFileSet"`` \| ``"MediaFileUpload"`` \| ``"WiFiView"`` \| ``"WiFiRemove"`` \| ``"WiFiSet"`` \| ``"WiFiInsert"`` \| ``"UserSupportInsert"`` \| ``"UserSupportRemove"`` \| ``"MaterialManagement"`` \| ``"OverTheAirUpdate"`` \| ``"DeviceShareViewed"`` \| ``"DeviceShareInsert"`` \| ``"DeviceShareSet"`` \| ``"DeviceShareRemove"`` \| ``"RouteCompletion"`` \| ``"LiveCompletionConfigSet"`` \| ``"ReprocessRequestInsert"`` \| ``"ReprocessRequestSet"`` \| ``"ReprocessRequestRemove"`` \| ``"DeviceReprocessRequestInsert"`` \| ``"DeviceReprocessRequestRemove"`` \| ``"DeviceReprocessRequestSet"`` \| ``"DeleteDatabase"`` \| ``"UserHosRuleSetInsert"`` \| ``"UserHosRuleSetRemove"`` \| ``"UserHosRuleSetSet"`` \| ``"DeviceDataPrivacyChangeInsert"`` \| ``"DeviceDataPrivacyChangeSet"`` \| ``"DeviceDataPrivacyChangeRemove"`` \| ``"StatusDataInsert"`` \| ``"StatusDataSet"`` \| ``"UserDisplayProfileInsert"`` \| ``"UserDisplayProfileRemove"`` \| ``"UserDisplayProfileSet"`` \| ``"DisplayMeasurementProfileInsert"`` \| ``"DisplayMeasurementProfileRemove"`` \| ``"DisplayMeasurementProfileSet"`` \| ``"DisplayMeasurementProfileDetailInsert"`` \| ``"DisplayMeasurementProfileDetailRemove"`` \| ``"DisplayMeasurementProfileDetailSet"`` \| ``"TripAnnotationInsert"`` \| ``"TripAnnotationSet"`` \| ``"TripAnnotationRemove"`` \| ``"ExceptionEventAttachmentAdd"`` \| ``"ExceptionEventAttachmentRemove"`` \| ``"ExceptionEventCommentAdd"`` \| ``"ExceptionEventEdit"`` \| ``"AcceptSupportService"`` \| ``"BinaryDataFileView"`` \| ``"BinaryDataFileRemove"`` \| ``"BinaryDataFileInsert"`` \| ``"BinaryDataFileSet"`` \| ``"BinaryDataFileUpload"`` \| ``"MaintenanceNotificationRuleRemove"`` \| ``"MaintenanceNotificationRuleInsert"`` \| ``"MaintenanceNotificationRuleSet"`` \| ``"MaintenanceNotificationRuleView"`` \| ``"EntitySettingRemove"`` \| ``"EntitySettingInsert"`` \| ``"EntitySettingSet"`` \| ``"TachographInspectionRemove"`` \| ``"TachographInspectionInsert"`` \| ``"TachographInspectionSet"`` \| ``"TachographActivitiesCertificateRemove"`` \| ``"TachographActivitiesCertificateInsert"`` \| ``"TachographActivitiesCertificateSet"`` \| ``"TachographVehicleInspectionRemove"`` \| ``"TachographVehicleInspectionInsert"`` \| ``"TachographCompanyCardRemove"`` \| ``"TachographCompanyCardInsert"`` \| ``"TachographCompanyCardSet"`` \| ``"AssetMonitoring"`` \| ``"PresetRemove"`` \| ``"PresetInsert"`` \| ``"PresetSet"`` \| ``"TachographDataFileInsert"``
 
 The security rights a user has. These are also used in [Audit](interfaces/Audit.md)(s) as the action being audited.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/SecurityRole.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/SecurityRole.ts#L6)
+[src/types/Checkmate/ObjectModel/SecurityRole.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/SecurityRole.ts#L6)
 
 ___
 
@@ -2373,31 +2439,19 @@ The server flags.
 
 #### Defined in
 
-[src/types/Checkmate/MachineSettings/ServerSwitches.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/MachineSettings/ServerSwitches.ts#L6)
-
-___
-
-### ServiceState
-
-Ƭ **ServiceState**: [`NameEntityWithVersion`](interfaces/NameEntityWithVersion.md)
-
-The state of a service persisted as json.
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/ServiceState.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ServiceState.ts#L8)
+[src/types/Checkmate/MachineSettings/ServerSwitches.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/MachineSettings/ServerSwitches.ts#L6)
 
 ___
 
 ### SeverityLevel
 
-Ƭ **SeverityLevel**: ``"Critical"`` \| ``"Warning"`` \| ``"Info"``
+Ƭ **SeverityLevel**: ``"None"`` \| ``"Info"`` \| ``"Warning"`` \| ``"Critical"``
 
-Severity level.
+Severity level, indicates the severity of the Exception
 
 #### Defined in
 
-[src/types/Log/SeverityLevel.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Log/SeverityLevel.ts#L6)
+[src/types/Log/SeverityLevel.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Log/SeverityLevel.ts#L6)
 
 ___
 
@@ -2409,7 +2463,7 @@ Sort direction.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/SortDirection.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/SortDirection.ts#L6)
+[src/types/Checkmate/ObjectModel/SortDirection.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/SortDirection.ts#L6)
 
 ___
 
@@ -2421,7 +2475,7 @@ Defines options for a map server request.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/SpeedLimitRequestOptions.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/SpeedLimitRequestOptions.ts#L6)
+[src/types/Checkmate/ObjectModel/Exceptions/SpeedLimitRequestOptions.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/SpeedLimitRequestOptions.ts#L6)
 
 ___
 
@@ -2433,7 +2487,7 @@ The currently supported Sql Database types.
 
 #### Defined in
 
-[src/types/Checkmate/SqlType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/SqlType.ts#L6)
+[src/types/Checkmate/SqlType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/SqlType.ts#L6)
 
 ___
 
@@ -2443,7 +2497,7 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/MachineSettings/State.ts:5](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/MachineSettings/State.ts#L5)
+[src/types/Checkmate/MachineSettings/State.ts:5](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/MachineSettings/State.ts#L5)
 
 ___
 
@@ -2455,19 +2509,19 @@ The status of an uploaded file.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/Status.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/Status.ts#L6)
+[src/types/Checkmate/ObjectModel/Files/Status.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/Status.ts#L6)
 
 ___
 
 ### StopStatus
 
-Ƭ **StopStatus**: ``"Pending"`` \| ``"Visited"`` \| ``"Missed"``
+Ƭ **StopStatus**: ``"Pending"`` \| ``"Missed"`` \| ``"EnRoute"`` \| ``"Completed"`` \| ``"LateArrival"`` \| ``"LateDeparture"`` \| ``"Late"``
 
 Route Stop status
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/StopStatus.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/StopStatus.ts#L6)
+[src/types/Checkmate/ObjectModel/StopStatus.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/StopStatus.ts#L6)
 
 ___
 
@@ -2479,7 +2533,7 @@ A specific type of StoreForward exception.
 
 #### Defined in
 
-[src/types/StoreForward/StoreForwardExceptionType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/StoreForward/StoreForwardExceptionType.ts#L6)
+[src/types/StoreForward/StoreForwardExceptionType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/StoreForward/StoreForwardExceptionType.ts#L6)
 
 ___
 
@@ -2491,7 +2545,31 @@ Denotes the supported types for a given [Property](interfaces/Property.md) .
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/SupportedPropertyType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/SupportedPropertyType.ts#L6)
+[src/types/Checkmate/ObjectModel/SupportedPropertyType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/SupportedPropertyType.ts#L6)
+
+___
+
+### TachographCompanyCardStatus
+
+Ƭ **TachographCompanyCardStatus**: ``"Offline"`` \| ``"Available"`` \| ``"Busy"``
+
+Represents the status of a [TachographCompanyCard](interfaces/TachographCompanyCard.md).
+
+#### Defined in
+
+src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCardStatus.ts:6
+
+___
+
+### TachographFileType
+
+Ƭ **TachographFileType**: ``"Driver"`` \| ``"Device"``
+
+A type for filter [TachographDataFileSearch](interfaces/TachographDataFileSearch.md) by file type.
+
+#### Defined in
+
+src/types/Checkmate/ObjectModel/Tachograph/Files/TachographFileType.ts:6
 
 ___
 
@@ -2505,7 +2583,7 @@ The ThirdPartyDataRecord type.
 
 #### Defined in
 
-[src/types/StoreForward/ThirdPartyDataRecordType.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/StoreForward/ThirdPartyDataRecordType.ts#L10)
+[src/types/StoreForward/ThirdPartyDataRecordType.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/StoreForward/ThirdPartyDataRecordType.ts#L10)
 
 ___
 
@@ -2517,7 +2595,7 @@ An enum indicating the type of a trip.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/TripType.ts#L6)
+[src/types/Checkmate/ObjectModel/TripType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TripType.ts#L6)
 
 ___
 
@@ -2530,7 +2608,7 @@ The user authentication type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserAuthenticationType.ts:9](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserAuthenticationType.ts#L9)
+[src/types/Checkmate/ObjectModel/UserAuthenticationType.ts:9](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserAuthenticationType.ts#L9)
 
 ___
 
@@ -2542,7 +2620,7 @@ An enum that describes possible types of [User](interfaces/User.md) changes that
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserModification.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserModification.ts#L6)
+[src/types/Checkmate/ObjectModel/UserModification.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserModification.ts#L6)
 
 ___
 
@@ -2554,7 +2632,7 @@ The type of [UserSearchType](README.md#usersearchtype) to search for.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearchType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserSearchType.ts#L6)
+[src/types/Checkmate/ObjectModel/UserSearchType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearchType.ts#L6)
 
 ___
 
@@ -2566,7 +2644,7 @@ A type of [User](interfaces/User.md) support contact. User contact can be call, 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSupportType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserSupportType.ts#L6)
+[src/types/Checkmate/ObjectModel/UserSupportType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSupportType.ts#L6)
 
 ___
 
@@ -2578,7 +2656,7 @@ The interval in which a [Diagnostic](interfaces/Diagnostic.md) reading is monito
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ValidLoggingPeriod.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ValidLoggingPeriod.ts#L6)
+[src/types/Checkmate/ObjectModel/ValidLoggingPeriod.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ValidLoggingPeriod.ts#L6)
 
 ___
 
@@ -2590,19 +2668,7 @@ An enum with a list of commands that can be sent to a vehicle via a VehicleComma
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/VehicleCommand.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/VehicleCommand.ts#L6)
-
-___
-
-### VehicleConfigurationEncryptionType
-
-Ƭ **VehicleConfigurationEncryptionType**: ``"NoEncryption"`` \| ``"AES256CredentialsKey"``
-
-The type of encryption of [VehicleConfiguration](interfaces/VehicleConfiguration.md).
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/VehicleConfigurationEncryptionType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/VehicleConfigurationEncryptionType.ts#L6)
+[src/types/Checkmate/ObjectModel/VehicleCommand.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/VehicleCommand.ts#L6)
 
 ___
 
@@ -2610,36 +2676,23 @@ ___
 
 Ƭ **VehicleConfigurationType**: ``"Hotspot"``
 
-The type of [VehicleConfiguration](interfaces/VehicleConfiguration.md).
+The type of <see><cref>VehicleConfiguration</cref></see>.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/VehicleConfigurationType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/VehicleConfigurationType.ts#L6)
+[src/types/Checkmate/ObjectModel/VehicleConfigurationType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/VehicleConfigurationType.ts#L6)
 
 ___
 
 ### VehicleFeatureCategory
 
-Ƭ **VehicleFeatureCategory**: ``"UnknownDevice"`` \| ``"Garmin"`` \| ``"Iridium"`` \| ``"Hos"`` \| ``"Nfc"`` \| ``"GoTalk"`` \| ``"Mobileye"`` \| ``"Valor"`` \| ``"WiFi"`` \| ``"SaltSpreader"`` \| ``"GoActive"`` \| ``"OBDPresent"`` \| ``"OBDEnabled"`` \| ``"GarminHos"`` \| ``"GeotabDriveHos"``
+Ƭ **VehicleFeatureCategory**: ``"UnknownDevice"`` \| ``"Garmin"`` \| ``"Iridium"`` \| ``"Hos"`` \| ``"Nfc"`` \| ``"GoTalk"`` \| ``"Mobileye"`` \| ``"Valor"`` \| ``"WiFi"`` \| ``"SaltSpreader"`` \| ``"GoActive"`` \| ``"OBDPresent"`` \| ``"OBDEnabled"`` \| ``"ContinuousConnect"`` \| ``"IOX_CarShare"`` \| ``"GarminHos"`` \| ``"GeotabDriveHos"``
 
 The names of vehicle feature categories, including external devices detected by the device and features that are manually activated by the server.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/VehicleFeatureCategory.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/VehicleFeatureCategory.ts#L6)
-
-___
-
-### VirtualExceptionEventSearch
-
-Ƭ **VirtualExceptionEventSearch**: [`ExceptionEventSearch`](interfaces/ExceptionEventSearch.md)
-
-The object used to specify the arguments when searching for [VirtualExceptionEvent](interfaces/VirtualExceptionEvent.md).
- This search has been designed to work efficiently with these combinations of parameters:<list><item><description>Id</description></item><item><description>DeviceSearch + RuleSearch + FromDate and/or ToDate</description></item></list>
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Exceptions/VirtualExceptionEventSearch.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/VirtualExceptionEventSearch.ts#L11)
+[src/types/Checkmate/ObjectModel/VehicleFeatureCategory.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/VehicleFeatureCategory.ts#L6)
 
 ___
 
@@ -2651,7 +2704,7 @@ Various supported Volume units Geotab supports.
 
 #### Defined in
 
-[src/types/Checkmate/Settings/VolumeUnit.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/VolumeUnit.ts#L8)
+[src/types/Checkmate/Settings/VolumeUnit.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Settings/VolumeUnit.ts#L8)
 
 ___
 
@@ -2663,7 +2716,7 @@ WebRequest Template Http Verb.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WebRequestTemplateHttpVerb.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WebRequestTemplateHttpVerb.ts#L6)
+[src/types/Checkmate/ObjectModel/WebRequestTemplateHttpVerb.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/WebRequestTemplateHttpVerb.ts#L6)
 
 ___
 
@@ -2675,19 +2728,7 @@ An enum indicating the type of a widget.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WidgetType.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WidgetType.ts#L6)
-
-___
-
-### WifiHotspotSearch
-
-Ƭ **WifiHotspotSearch**: [`VehicleConfigurationSearch`](interfaces/VehicleConfigurationSearch.md)
-
-The object used to specify the arguments when searching for a [WifiHotspot](interfaces/WifiHotspot.md).
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/WifiHotspotSearch.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WifiHotspotSearch.ts#L8)
+[src/types/Checkmate/ObjectModel/WidgetType.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/WidgetType.ts#L6)
 
 ___
 
@@ -2699,4 +2740,4 @@ The [Zone](interfaces/Zone.md)s which will be displayed to a given user on the m
 
 #### Defined in
 
-[src/types/Checkmate/Settings/ZoneDisplayMode.ts:6](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/Settings/ZoneDisplayMode.ts#L6)
+[src/types/Checkmate/Settings/ZoneDisplayMode.ts:6](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/Settings/ZoneDisplayMode.ts#L6)

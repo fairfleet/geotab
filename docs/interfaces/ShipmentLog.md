@@ -35,7 +35,7 @@ Gets or sets the date the shipment was started. Default [UtcNow].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLog.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L14)
+[src/types/Checkmate/ObjectModel/ShipmentLog.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L14)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets the date the shipment was ended. Default [MaxDate].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLog.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L16)
+[src/types/Checkmate/ObjectModel/ShipmentLog.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L16)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets the commodity shipped. Maximum length [255] Default [""].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLog.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L18)
+[src/types/Checkmate/ObjectModel/ShipmentLog.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L18)
 
 ___
 
@@ -71,7 +71,7 @@ Gets or sets the date and time the log was created.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLog.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L20)
+[src/types/Checkmate/ObjectModel/ShipmentLog.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L20)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets the [Device](Device.md) associated with this log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLog.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L22)
+[src/types/Checkmate/ObjectModel/ShipmentLog.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L22)
 
 ___
 
@@ -95,7 +95,7 @@ Gets or sets the identifier of the shipment document. Default [""].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLog.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L24)
+[src/types/Checkmate/ObjectModel/ShipmentLog.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L24)
 
 ___
 
@@ -107,7 +107,7 @@ Gets or sets the [User](User.md) who created this log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLog.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L26)
+[src/types/Checkmate/ObjectModel/ShipmentLog.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L26)
 
 ___
 
@@ -123,7 +123,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -135,7 +135,7 @@ Gets or sets the name of the shipper. Default [""].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLog.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L28)
+[src/types/Checkmate/ObjectModel/ShipmentLog.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLog.ts#L28)
 
 ___
 
@@ -151,4 +151,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

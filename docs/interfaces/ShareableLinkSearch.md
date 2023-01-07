@@ -19,7 +19,6 @@ The object used to specify the arguments when searching for
 
 - [deviceSearch](ShareableLinkSearch.md#devicesearch)
 - [id](ShareableLinkSearch.md#id)
-- [propertySelector](ShareableLinkSearch.md#propertyselector)
 - [userSearch](ShareableLinkSearch.md#usersearch)
 - [validBefore](ShareableLinkSearch.md#validbefore)
 - [version](ShareableLinkSearch.md#version)
@@ -36,7 +35,7 @@ Gets or sets search for ShipmentLogs for this [DeviceSearch](DeviceSearch.md) Id
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShareableLinkSearch.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShareableLinkSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/ShareableLinkSearch.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShareableLinkSearch.ts#L21)
 
 ___
 
@@ -52,23 +51,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -82,7 +65,7 @@ Gets or sets search for ShipmentLogs with this [UserSearch](UserSearch.md) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShareableLinkSearch.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShareableLinkSearch.ts#L27)
+[src/types/Checkmate/ObjectModel/ShareableLinkSearch.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShareableLinkSearch.ts#L27)
 
 ___
 
@@ -94,7 +77,7 @@ Gets or sets search for shareable link that is valid before this date time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShareableLinkSearch.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShareableLinkSearch.ts#L29)
+[src/types/Checkmate/ObjectModel/ShareableLinkSearch.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShareableLinkSearch.ts#L29)
 
 ___
 
@@ -110,4 +93,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

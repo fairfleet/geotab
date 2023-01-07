@@ -2,14 +2,5 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
-import { VehicleConfiguration } from "./VehicleConfiguration";
-
 /** WifiHotspot is used to configure WiFi hotspot settings on telematics devices. */
-export interface WifiHotspot extends VehicleConfiguration {
-  /** Gets or sets the WiFi password. */
-  password: string;
-  /** Gets or sets the WiFi rate limit. If the WiFi data cap tier is exceeded (as provided by plan or 3GB), this rate limit will be imposed to reduce the data usage. */
-  rateLimitKbps: number;
-  /** Gets or sets the WiFi SSID. */
-  ssid: string;
-}
+export interface WifiHotspot {}

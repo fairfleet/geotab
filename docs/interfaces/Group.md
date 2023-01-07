@@ -42,7 +42,7 @@ Gets or sets the Children of this group. A list of Group(s).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Group.ts#L20)
+[src/types/Checkmate/ObjectModel/Group.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L20)
 
 ___
 
@@ -54,7 +54,7 @@ Gets or sets the [Color](Color.md) used to render assets belonging to this group
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Group.ts#L22)
+[src/types/Checkmate/ObjectModel/Group.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L22)
 
 ___
 
@@ -66,7 +66,7 @@ Gets or sets the free text field where any user information can be stored and re
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Group.ts#L24)
+[src/types/Checkmate/ObjectModel/Group.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L24)
 
 ___
 
@@ -82,7 +82,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Group.ts#L26)
+[src/types/Checkmate/ObjectModel/Group.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L26)
 
 ___
 
@@ -98,7 +98,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Group.ts#L28)
+[src/types/Checkmate/ObjectModel/Group.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L28)
 
 ___
 
@@ -110,7 +110,7 @@ Gets or sets the parent Group of the selected group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:30](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Group.ts#L30)
+[src/types/Checkmate/ObjectModel/Group.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L30)
 
 ___
 
@@ -122,7 +122,7 @@ Gets or sets the ltree path of the group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:32](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Group.ts#L32)
+[src/types/Checkmate/ObjectModel/Group.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L32)
 
 ___
 
@@ -134,4 +134,4 @@ Gets or sets the string reference to add to the database entry for this group. M
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:34](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Group.ts#L34)
+[src/types/Checkmate/ObjectModel/Group.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L34)

@@ -35,5 +35,5 @@ export type KeyType =
   | "GenericNFCDriverId"
   | "CustomNFCDriverId"
   | "TachographDriverId"
-  | "TachographPassengerId"
+  | "TachographCoDriverId"
   | "CustomDriverId";

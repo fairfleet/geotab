@@ -4,7 +4,7 @@
 
 import { Entity } from "./Entity";
 import { TripType } from "./TripType";
-import { DataPrivacyType } from "./DataPrivacyType";
+import { DataModeType } from "./DataModeType";
 import { Group } from "./Group";
 import { NotificationBinaryFile } from "./NotificationBinaryFile";
 import { RecipientType } from "./RecipientType";
@@ -24,8 +24,8 @@ import { User } from "./User";
 export interface Recipient extends Entity {
   /** Gets or sets the email address used when sending notifications via Email. */
   address: string;
-  /** Gets or sets the {@link DataPrivacyType} to assign the related device to. */
-  dataPrivacyType: DataPrivacyType;
+  /** Gets or sets the {@link DataModeType} to assign the related device to. */
+  dataModeType: DataModeType;
   /** Gets or sets the {@link Group} to assign the related device to. */
   group: Group;
   /** Gets or sets the NotificationBinaryFile to notify with. */

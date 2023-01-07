@@ -16,7 +16,6 @@ The object used to specify the arguments when searching for a [GroupZoneMetadata
 
 - [groups](GroupZoneMetadataSearch.md#groups)
 - [id](GroupZoneMetadataSearch.md#id)
-- [propertySelector](GroupZoneMetadataSearch.md#propertyselector)
 - [version](GroupZoneMetadataSearch.md#version)
 - [zoneSearch](GroupZoneMetadataSearch.md#zonesearch)
 
@@ -33,7 +32,7 @@ Gets or sets search for group zone metadata that are members of these [GroupSear
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupZoneMetadataSearch.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupZoneMetadataSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/GroupZoneMetadataSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupZoneMetadataSearch.ts#L17)
 
 ___
 
@@ -49,23 +48,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -81,7 +64,7 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -93,4 +76,4 @@ Gets or sets search for group zone metadata related to this [ZoneSearch](ZoneSea
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupZoneMetadataSearch.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupZoneMetadataSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/GroupZoneMetadataSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupZoneMetadataSearch.ts#L19)

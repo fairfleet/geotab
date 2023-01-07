@@ -30,7 +30,7 @@ Gets or sets value of the metadata.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts#L13)
+[src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts#L13)
 
 ___
 
@@ -42,7 +42,7 @@ Gets or sets the group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts#L15)
+[src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts#L15)
 
 ___
 
@@ -58,7 +58,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -70,7 +70,7 @@ Gets or sets the metadata type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts#L17)
+[src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts#L17)
 
 ___
 
@@ -82,4 +82,4 @@ Gets or sets the zone.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts#L19)
+[src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupZoneMetadata.ts#L19)

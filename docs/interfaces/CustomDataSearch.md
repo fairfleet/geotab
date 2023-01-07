@@ -19,7 +19,6 @@ The object used to specify the arguments when searching for [CustomData](CustomD
 - [id](CustomDataSearch.md#id)
 - [maxId](CustomDataSearch.md#maxid)
 - [minId](CustomDataSearch.md#minid)
-- [propertySelector](CustomDataSearch.md#propertyselector)
 - [toDate](CustomDataSearch.md#todate)
 - [version](CustomDataSearch.md#version)
 
@@ -35,7 +34,7 @@ Gets or sets search for CustomData recorded for this [DeviceSearch](DeviceSearch
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomDataSearch.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/CustomDataSearch.ts#L15)
+[src/types/Checkmate/ObjectModel/CustomDataSearch.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CustomDataSearch.ts#L15)
 
 ___
 
@@ -47,7 +46,7 @@ Gets or sets search for CustomData that was recorded at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomDataSearch.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/CustomDataSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/CustomDataSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CustomDataSearch.ts#L17)
 
 ___
 
@@ -63,7 +62,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -75,7 +74,7 @@ Gets or sets the maximum Id of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomDataSearch.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/CustomDataSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/CustomDataSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CustomDataSearch.ts#L19)
 
 ___
 
@@ -87,23 +86,7 @@ Gets or sets the minimum Id of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomDataSearch.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/CustomDataSearch.ts#L21)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/CustomDataSearch.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CustomDataSearch.ts#L21)
 
 ___
 
@@ -115,7 +98,7 @@ Gets or sets search for CustomData that was recorded at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomDataSearch.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/CustomDataSearch.ts#L23)
+[src/types/Checkmate/ObjectModel/CustomDataSearch.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CustomDataSearch.ts#L23)
 
 ___
 
@@ -131,4 +114,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

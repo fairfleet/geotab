@@ -33,7 +33,7 @@ Gets or sets the Excel binary data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportTemplate.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportTemplate.ts#L13)
+[src/types/Checkmate/ObjectModel/ReportTemplate.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportTemplate.ts#L13)
 
 ___
 
@@ -49,7 +49,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -61,7 +61,7 @@ Gets or sets whether the ReportTemplate is System.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportTemplate.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportTemplate.ts#L15)
+[src/types/Checkmate/ObjectModel/ReportTemplate.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportTemplate.ts#L15)
 
 ___
 
@@ -77,7 +77,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
 
 ___
 
@@ -89,7 +89,7 @@ Gets or sets the [ReportDataSource](../README.md#reportdatasource).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportTemplate.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportTemplate.ts#L17)
+[src/types/Checkmate/ObjectModel/ReportTemplate.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportTemplate.ts#L17)
 
 ___
 
@@ -101,7 +101,7 @@ Gets or sets the [ReportTemplateType](../README.md#reporttemplatetype).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportTemplate.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportTemplate.ts#L19)
+[src/types/Checkmate/ObjectModel/ReportTemplate.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportTemplate.ts#L19)
 
 ___
 
@@ -113,7 +113,7 @@ Gets or sets whether the ReportTemplate is shown in the report dropdowns.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportTemplate.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportTemplate.ts#L21)
+[src/types/Checkmate/ObjectModel/ReportTemplate.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportTemplate.ts#L21)
 
 ___
 
@@ -125,4 +125,4 @@ Gets or sets the ReportTemplate.SigningInfo.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportTemplate.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportTemplate.ts#L23)
+[src/types/Checkmate/ObjectModel/ReportTemplate.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportTemplate.ts#L23)

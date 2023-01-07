@@ -31,7 +31,7 @@ Gets or sets the vehicle object to which the last date of the extract applies.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteExtract.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/RouteExtract.ts#L16)
+[src/types/Checkmate/ObjectModel/RouteExtract.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteExtract.ts#L16)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -59,4 +59,4 @@ Gets or sets the date when the extract has been completed for this vehicle.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteExtract.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/RouteExtract.ts#L18)
+[src/types/Checkmate/ObjectModel/RouteExtract.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteExtract.ts#L18)

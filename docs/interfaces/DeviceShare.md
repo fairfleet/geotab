@@ -20,6 +20,7 @@ A device share represents the sharing of steaming data from a device into multip
 - [devicePlan](DeviceShare.md#deviceplan)
 - [devicePlanBillingInfo](DeviceShare.md#deviceplanbillinginfo)
 - [id](DeviceShare.md#id)
+- [lastUpdatedBy](DeviceShare.md#lastupdatedby)
 - [myAdminId](DeviceShare.md#myadminid)
 - [name](DeviceShare.md#name)
 - [options](DeviceShare.md#options)
@@ -42,7 +43,7 @@ Gets or sets the date that the [DeviceShare](DeviceShare.md) was accepted.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShare.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShare.ts#L18)
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L19)
 
 ___
 
@@ -54,7 +55,7 @@ Gets or sets the date time of when the [DeviceShare](DeviceShare.md) was created
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShare.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShare.ts#L20)
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L21)
 
 ___
 
@@ -66,7 +67,7 @@ Gets or sets the [DevicePlan](../README.md#deviceplan) for this DeviceShare.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShare.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShare.ts#L22)
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L23)
 
 ___
 
@@ -78,7 +79,7 @@ Gets or sets the DeviceShare.DevicePlanBillingInfo of this DeviceShare.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShare.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShare.ts#L24)
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L25)
 
 ___
 
@@ -94,7 +95,19 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+
+___
+
+### lastUpdatedBy
+
+• **lastUpdatedBy**: [`User`](User.md)
+
+Gets or sets the [User](User.md) that last updated this DeviceShare.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L27)
 
 ___
 
@@ -106,7 +119,7 @@ Gets or sets the Int32 id that MyAdmin associates with this [DeviceShare](Device
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShare.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShare.ts#L26)
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L29)
 
 ___
 
@@ -122,7 +135,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
 
 ___
 
@@ -134,7 +147,7 @@ Gets or sets the [DeviceShareOptions](DeviceShareOptions.md) of this DeviceShare
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShare.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShare.ts#L28)
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L31)
 
 ___
 
@@ -146,7 +159,7 @@ Gets or sets the String serial number of the device associated with this [Device
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShare.ts:30](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShare.ts#L30)
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L33)
 
 ___
 
@@ -158,7 +171,7 @@ Gets or sets the [DeviceShareStatus](../README.md#devicesharestatus) of this Dev
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShare.ts:32](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShare.ts#L32)
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L35)
 
 ___
 
@@ -170,7 +183,7 @@ Gets or sets the [DeviceShareType](../README.md#devicesharetype) of this DeviceS
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShare.ts:34](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShare.ts#L34)
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L37)
 
 ___
 
@@ -183,7 +196,7 @@ Gets or sets the name of the source database for this device share. This is the 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShare.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShare.ts#L39)
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:42](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L42)
 
 ___
 
@@ -196,7 +209,7 @@ Gets or sets the name of the target database for this device share. This is the 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShare.ts:44](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShare.ts#L44)
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:47](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L47)
 
 ___
 
@@ -208,7 +221,7 @@ Gets or sets the date that the [DeviceShare](DeviceShare.md) was terminated.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShare.ts:46](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShare.ts#L46)
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:49](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L49)
 
 ___
 
@@ -221,7 +234,7 @@ Gets or sets the date time of when the [DeviceShare](DeviceShare.md) status was 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShare.ts:51](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceShare.ts#L51)
+[src/types/Checkmate/ObjectModel/DeviceShare.ts:54](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShare.ts#L54)
 
 ___
 
@@ -237,4 +250,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)

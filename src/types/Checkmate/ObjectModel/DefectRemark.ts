@@ -15,7 +15,7 @@ export interface DefectRemark extends Entity {
   dateTime: Date;
   /** Gets or sets the {@link DefectRemark.DVIRDefect} which this DefectRemark belongs to. */
   dvirDefect: DVIRDefect;
-  /** Gets or sets the list of {@link MediaFile} for a defect remark. */
+  /** Gets or sets the list of {@link MediaFile}(s) for a defect remark. */
   mediaFiles: MediaFile[];
   /** Gets or sets the DVIR text associated with the log. */
   remark: string;

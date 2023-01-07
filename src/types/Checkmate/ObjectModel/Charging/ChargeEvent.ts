@@ -12,6 +12,8 @@ export interface ChargeEvent extends EntityWithVersion {
   chargeIsEstimated: boolean;
   /** Gets or sets the charging type provided by the external power source. */
   chargeType: ChargeType;
+  /** Gets or sets the odometer in km at charge start event. */
+  chargingStartedOdometerKm: number;
   /** Gets or sets the device which created the charge event. */
   device: Device;
   /** Gets or sets the length of time the vehicle was charging in seconds. */

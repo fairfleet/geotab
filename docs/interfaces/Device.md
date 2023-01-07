@@ -6,7 +6,7 @@ A Device represents the physical tracking device installed in
  the vehicle. A device and vehicle is typically synonymous since the GO tracking device is
  installed in a vehicle. In the case where there is no device; this is represented by "NoDeviceId". The device
  types that are supported are:.
- <list><item><description>Go9</description></item><item><description>Go8</description></item><item><description>Go7</description></item><item><description>Go6</description></item><item><description>Go5</description></item><item><description>Go4v3</description></item><item><description>CustomDevice</description></item><item><description>A1</description></item><item><description>U1</description></item></list>
+ <list><item><description>Go9</description></item><item><description>Go8</description></item><item><description>Go7</description></item><item><description>Go6</description></item><item><description>Go5</description></item><item><description>Go4v3</description></item><item><description>CustomDevice</description></item></list>
 
 ## Hierarchy
 
@@ -33,6 +33,7 @@ A Device represents the physical tracking device installed in
 - [id](Device.md#id)
 - [ignoreDownloadsUntil](Device.md#ignoredownloadsuntil)
 - [maxSecondsBetweenLogs](Device.md#maxsecondsbetweenlogs)
+- [mediaFiles](Device.md#mediafiles)
 - [minSecondsBetweenLogs](Device.md#minsecondsbetweenlogs)
 - [name](Device.md#name)
 - [productId](Device.md#productid)
@@ -40,6 +41,7 @@ A Device represents the physical tracking device installed in
 - [serialNumber](Device.md#serialnumber)
 - [timeToDownload](Device.md#timetodownload)
 - [timeZoneId](Device.md#timezoneid)
+- [tmpTrailerId](Device.md#tmptrailerid)
 - [version](Device.md#version)
 - [workTime](Device.md#worktime)
 
@@ -53,7 +55,7 @@ Gets or sets the date the device is active from. Default [MinDate].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L25)
+[src/types/Checkmate/ObjectModel/Device.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L26)
 
 ___
 
@@ -65,7 +67,7 @@ Gets or sets the date that the device is active to. Default [MaxDate].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L27)
+[src/types/Checkmate/ObjectModel/Device.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L28)
 
 ___
 
@@ -77,7 +79,7 @@ Gets or sets free text field where any user information can be stored and refere
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L29)
+[src/types/Checkmate/ObjectModel/Device.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L30)
 
 ___
 
@@ -95,7 +97,7 @@ Gets or sets a list of [DeviceCustomFeature](../README.md#devicecustomfeature)s 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L31)
+[src/types/Checkmate/ObjectModel/Device.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L32)
 
 ___
 
@@ -107,7 +109,7 @@ Gets or sets the set of dynamic, user created, custom properties.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L33)
+[src/types/Checkmate/ObjectModel/Device.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L34)
 
 ___
 
@@ -119,7 +121,7 @@ Gets or sets the device features which have been enabled whether the feature is 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L35)
+[src/types/Checkmate/ObjectModel/Device.ts:36](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L36)
 
 ___
 
@@ -131,7 +133,7 @@ Gets or sets the Device.DevicePlanBillingInfo that has been purchased for this d
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L37)
+[src/types/Checkmate/ObjectModel/Device.ts:38](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L38)
 
 ___
 
@@ -143,7 +145,7 @@ Gets or sets the Geotab DevicePlan that has been purchased for this device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L39)
+[src/types/Checkmate/ObjectModel/Device.ts:40](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L40)
 
 ___
 
@@ -155,7 +157,7 @@ Gets or sets the device replacement information.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L41)
+[src/types/Checkmate/ObjectModel/Device.ts:42](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L42)
 
 ___
 
@@ -167,7 +169,7 @@ Gets specifies the GO or Custom [DeviceType](../README.md#devicetype).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:43](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L43)
+[src/types/Checkmate/ObjectModel/Device.ts:44](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L44)
 
 ___
 
@@ -179,7 +181,7 @@ Gets or sets the list of [Group](Group.md)(s) the device belongs to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:45](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L45)
+[src/types/Checkmate/ObjectModel/Device.ts:46](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L46)
 
 ___
 
@@ -191,7 +193,7 @@ Gets or sets the unique hardware identifier for the Device. This is a 4 byte uni
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:47](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L47)
+[src/types/Checkmate/ObjectModel/Device.ts:48](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L48)
 
 ___
 
@@ -207,7 +209,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:49](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L49)
+[src/types/Checkmate/ObjectModel/Device.ts:50](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L50)
 
 ___
 
@@ -219,7 +221,7 @@ Gets or sets The date that tells the system at what moment should it start check
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:51](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L51)
+[src/types/Checkmate/ObjectModel/Device.ts:52](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L52)
 
 ___
 
@@ -232,7 +234,19 @@ Gets or sets the maximum allowed time between logs when the ignition is on in se
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:56](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L56)
+[src/types/Checkmate/ObjectModel/Device.ts:57](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L57)
+
+___
+
+### mediaFiles
+
+• **mediaFiles**: [`MediaFile`](MediaFile.md)[]
+
+Gets or sets the list of [MediaFile](MediaFile.md) photos of this asset. Maximum length [1].
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Device.ts:59](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L59)
 
 ___
 
@@ -244,7 +258,7 @@ Gets the minimum allowable value for Device.MaxSecondsBetweenLogs. Defaults to 0
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:58](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L58)
+[src/types/Checkmate/ObjectModel/Device.ts:61](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L61)
 
 ___
 
@@ -260,7 +274,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:60](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L60)
+[src/types/Checkmate/ObjectModel/Device.ts:63](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L63)
 
 ___
 
@@ -272,7 +286,7 @@ Gets or sets the product id. Each device is assigned a unique hardware product i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:62](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L62)
+[src/types/Checkmate/ObjectModel/Device.ts:65](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L65)
 
 ___
 
@@ -284,7 +298,7 @@ Gets or sets a value indicating the current registration status of the device to
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:64](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L64)
+[src/types/Checkmate/ObjectModel/Device.ts:67](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L67)
 
 ___
 
@@ -296,7 +310,7 @@ Gets or sets the Serial Number of the device. Maximum length [12].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:66](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L66)
+[src/types/Checkmate/ObjectModel/Device.ts:69](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L69)
 
 ___
 
@@ -311,7 +325,7 @@ Gets or sets the expected time between downloads, i.e. how frequently the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:73](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L73)
+[src/types/Checkmate/ObjectModel/Device.ts:76](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L76)
 
 ___
 
@@ -319,11 +333,23 @@ ___
 
 • **timeZoneId**: `string`
 
-Gets or sets the IANA time zone Id of the device used to determine local work times. This is typically the "home location" of the device. Default ["America/New_York"].
+Gets or sets the IANA Timezone Id of the device used to determine local work times. This is typically the "home location" of the device. Default ["America/New_York"].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:75](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L75)
+[src/types/Checkmate/ObjectModel/Device.ts:78](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L78)
+
+___
+
+### tmpTrailerId
+
+• **tmpTrailerId**: `string`
+
+Gets or sets the trailerId for the assets of type trailer.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Device.ts:80](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L80)
 
 ___
 
@@ -339,7 +365,7 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
 
 ___
 
@@ -351,4 +377,4 @@ Gets or sets the [WorkTime](WorkTime.md) rules to apply to the device. Default [
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Device.ts:77](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Device.ts#L77)
+[src/types/Checkmate/ObjectModel/Device.ts:82](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Device.ts#L82)

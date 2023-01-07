@@ -57,6 +57,10 @@ export interface EventOccurrence extends Entity {
   partsCostConverted: number;
   /** Gets or sets the reference or work order number for the event. */
   reference: string;
+  /** Gets or sets a value indicating whether the event isn't being completed */
+  skipped: boolean;
+  /** Gets or sets a value indicating whether the event has been delayed */
+  snoozed: boolean;
   /** Gets or sets the amount paid in taxes. */
   taxCost: number;
   /** Gets or sets the amount paid in taxes converted to UI Settings Currency. */

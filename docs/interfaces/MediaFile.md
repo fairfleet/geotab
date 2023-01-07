@@ -38,7 +38,7 @@ Gets or sets the [Device](Device.md) associated with the file.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L14)
+[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L14)
 
 ___
 
@@ -50,7 +50,7 @@ Gets or sets the [Driver](Driver.md) associated with the file.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L16)
+[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L16)
 
 ___
 
@@ -62,7 +62,7 @@ Gets or sets the from date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L18)
+[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L18)
 
 ___
 
@@ -78,7 +78,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -90,7 +90,7 @@ Gets or sets the [MediaType](../README.md#mediatype).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L20)
+[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L20)
 
 ___
 
@@ -102,7 +102,7 @@ Gets or sets file metadata in JSON format.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L22)
+[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L22)
 
 ___
 
@@ -118,7 +118,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
 
 ___
 
@@ -130,7 +130,7 @@ Gets or sets the Id of the solution which added the data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L24)
+[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L24)
 
 ___
 
@@ -142,7 +142,7 @@ Gets or sets the file processing [Status](../README.md#status).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L26)
+[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L26)
 
 ___
 
@@ -154,7 +154,7 @@ Gets or sets the list of tags to provide context to the file.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L28)
+[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L28)
 
 ___
 
@@ -166,7 +166,7 @@ Gets or sets the list of files which serve as the thumbnail for this file.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:30](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L30)
+[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L30)
 
 ___
 
@@ -178,7 +178,7 @@ Gets or sets the to date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:32](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L32)
+[src/types/Checkmate/ObjectModel/Files/MediaFile.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFile.ts#L32)
 
 ___
 
@@ -194,4 +194,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)

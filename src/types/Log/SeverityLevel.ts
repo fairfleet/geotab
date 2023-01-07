@@ -2,5 +2,5 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
-/** Severity level. */
-export type SeverityLevel = "Critical" | "Warning" | "Info";
+/** Severity level, indicates the severity of the Exception */
+export type SeverityLevel = "None" | "Info" | "Warning" | "Critical";

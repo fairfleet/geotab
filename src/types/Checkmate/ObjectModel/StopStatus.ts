@@ -3,4 +3,11 @@
 //     the code is regenerated.
 
 /** Route Stop status */
-export type StopStatus = "Pending" | "Visited" | "Missed";
+export type StopStatus =
+  | "Pending"
+  | "Missed"
+  | "EnRoute"
+  | "Completed"
+  | "LateArrival"
+  | "LateDeparture"
+  | "Late";

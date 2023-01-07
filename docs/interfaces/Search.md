@@ -10,6 +10,8 @@ Search that implements IEntity for search objects.
 
   ↳ [`AddInDataSearch`](AddInDataSearch.md)
 
+  ↳ [`AddInSearch`](AddInSearch.md)
+
   ↳ [`AnnotationLogSearch`](AnnotationLogSearch.md)
 
   ↳ [`AuditSearch`](AuditSearch.md)
@@ -24,17 +26,11 @@ Search that implements IEntity for search objects.
 
   ↳ [`CustomPropertySearch`](CustomPropertySearch.md)
 
-  ↳ [`DVIRDefectSearch`](DVIRDefectSearch.md)
-
-  ↳ [`DVIRLogSearch`](DVIRLogSearch.md)
-
   ↳ [`DashboardSearch`](DashboardSearch.md)
 
   ↳ [`DebugDataSearch`](DebugDataSearch.md)
 
   ↳ [`DefectRemarkSearch`](DefectRemarkSearch.md)
-
-  ↳ [`DeviceDataPrivacyChangeSearch`](DeviceDataPrivacyChangeSearch.md)
 
   ↳ [`DeviceLinkSearch`](DeviceLinkSearch.md)
 
@@ -47,6 +43,8 @@ Search that implements IEntity for search objects.
   ↳ [`DeviceSearch`](DeviceSearch.md)
 
   ↳ [`DeviceShareSearch`](DeviceShareSearch.md)
+
+  ↳ [`DeviceStatusFilterCondition`](DeviceStatusFilterCondition.md)
 
   ↳ [`DeviceStatusInfoSearch`](DeviceStatusInfoSearch.md)
 
@@ -62,13 +60,17 @@ Search that implements IEntity for search objects.
 
   ↳ [`DutyStatusViolationSearch`](DutyStatusViolationSearch.md)
 
-  ↳ [`EmployeeRoutePlanSearch`](EmployeeRoutePlanSearch.md)
+  ↳ [`DVIRDefectSearch`](DVIRDefectSearch.md)
 
-  ↳ [`EnergyConsumedSearch`](EnergyConsumedSearch.md)
+  ↳ [`DVIRLogSearch`](DVIRLogSearch.md)
+
+  ↳ [`EmployeeRoutePlanSearch`](EmployeeRoutePlanSearch.md)
 
   ↳ [`EnergySnapshotRecordSearch`](EnergySnapshotRecordSearch.md)
 
   ↳ [`ControllerSearch`](ControllerSearch.md)
+
+  ↳ [`DiagnosticMappingSearch`](DiagnosticMappingSearch.md)
 
   ↳ [`DiagnosticSearch`](DiagnosticSearch.md)
 
@@ -80,7 +82,13 @@ Search that implements IEntity for search objects.
 
   ↳ [`UserDisplayProfileSearch`](UserDisplayProfileSearch.md)
 
+  ↳ [`EngineTypeSearch`](EngineTypeSearch.md)
+
+  ↳ [`FailureModeSearch`](FailureModeSearch.md)
+
   ↳ [`FaultDataSearch`](FaultDataSearch.md)
+
+  ↳ [`ParameterGroupSearch`](ParameterGroupSearch.md)
 
   ↳ [`SourceSearch`](SourceSearch.md)
 
@@ -89,6 +97,10 @@ Search that implements IEntity for search objects.
   ↳ [`UnitOfMeasureSearch`](UnitOfMeasureSearch.md)
 
   ↳ [`EntityLinkRuleSearch`](EntityLinkRuleSearch.md)
+
+  ↳ [`EntitySettingSearch`](EntitySettingSearch.md)
+
+  ↳ [`EventDeviationSearch`](EventDeviationSearch.md)
 
   ↳ [`EventOccurrenceDueSearch`](EventOccurrenceDueSearch.md)
 
@@ -134,6 +146,10 @@ Search that implements IEntity for search objects.
 
   ↳ [`IoxAddOnSearch`](IoxAddOnSearch.md)
 
+  ↳ [`IoxAddOnStatusSearch`](IoxAddOnStatusSearch.md)
+
+  ↳ [`LiveCompletionMapConfigSearch`](LiveCompletionMapConfigSearch.md)
+
   ↳ [`LogRecordSearch`](LogRecordSearch.md)
 
   ↳ [`LogRecordZoneDistanceSearch`](LogRecordZoneDistanceSearch.md)
@@ -146,9 +162,7 @@ Search that implements IEntity for search objects.
 
   ↳ [`NotificationSearch`](NotificationSearch.md)
 
-  ↳ [`EnergyConsumedProcessingSearch`](EnergyConsumedProcessingSearch.md)
-
-  ↳ [`FuelAndEnergySnapshotProcessingSearch`](FuelAndEnergySnapshotProcessingSearch.md)
+  ↳ [`BackfillStatusSearch`](BackfillStatusSearch.md)
 
   ↳ [`PropertySearch`](PropertySearch.md)
 
@@ -162,6 +176,8 @@ Search that implements IEntity for search objects.
 
   ↳ [`DeviceReprocessRequestSearch`](DeviceReprocessRequestSearch.md)
 
+  ↳ [`RestrictedDataModeChangeSearch`](RestrictedDataModeChangeSearch.md)
+
   ↳ [`RouteExtractSearch`](RouteExtractSearch.md)
 
   ↳ [`RouteSearch`](RouteSearch.md)
@@ -173,6 +189,14 @@ Search that implements IEntity for search objects.
   ↳ [`ShareableLinkSearch`](ShareableLinkSearch.md)
 
   ↳ [`ShipmentLogSearch`](ShipmentLogSearch.md)
+
+  ↳ [`TachographActivitiesCertificateSearch`](TachographActivitiesCertificateSearch.md)
+
+  ↳ [`TachographCompanyCardSearch`](TachographCompanyCardSearch.md)
+
+  ↳ [`TachographDataFileSearch`](TachographDataFileSearch.md)
+
+  ↳ [`TachographVehicleInspectionSearch`](TachographVehicleInspectionSearch.md)
 
   ↳ [`TextMessageSearch`](TextMessageSearch.md)
 
@@ -198,8 +222,6 @@ Search that implements IEntity for search objects.
 
   ↳ [`UserSupportSearch`](UserSupportSearch.md)
 
-  ↳ [`VehicleConfigurationSearch`](VehicleConfigurationSearch.md)
-
   ↳ [`WidgetSearch`](WidgetSearch.md)
 
   ↳ [`WorkHolidaySearch`](WorkHolidaySearch.md)
@@ -215,7 +237,6 @@ Search that implements IEntity for search objects.
 ### Properties
 
 - [id](Search.md#id)
-- [propertySelector](Search.md#propertyselector)
 - [version](Search.md#version)
 
 ## Properties
@@ -228,19 +249,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -252,4 +261,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

@@ -36,7 +36,7 @@ Gets or sets the circuit index reference to the flash code.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L16)
+[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L16)
 
 ___
 
@@ -48,7 +48,7 @@ Gets or sets the associated [Diagnostic](Diagnostic.md) to the flash code.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L18)
+[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L18)
 
 ___
 
@@ -60,7 +60,7 @@ Gets or sets the associated [FailureMode](FailureMode.md) to the flash code.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L20)
+[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L20)
 
 ___
 
@@ -72,7 +72,7 @@ Gets or sets the flash code index.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L22)
+[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L22)
 
 ___
 
@@ -84,7 +84,7 @@ Gets or sets an optional URL which points to the associated documentation for th
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L24)
+[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L24)
 
 ___
 
@@ -100,7 +100,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L26)
+[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L26)
 
 ___
 
@@ -116,7 +116,7 @@ Gets or sets the name of this entity that both uniquely identifies it and is use
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L28)
+[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L28)
 
 ___
 
@@ -128,7 +128,7 @@ Gets or sets the page reference, if applicable.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:30](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L30)
+[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L30)
 
 ___
 
@@ -140,4 +140,4 @@ Gets or sets the priority level of the fault flash code.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:32](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L32)
+[src/types/Checkmate/ObjectModel/Engine/FlashCode.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FlashCode.ts#L32)

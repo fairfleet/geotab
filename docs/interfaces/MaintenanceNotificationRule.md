@@ -33,7 +33,7 @@ Gets or sets the number of days before the maintenance rule becomes overdue to t
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts#L16)
+[src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts#L16)
 
 ___
 
@@ -45,7 +45,7 @@ Gets or sets the amount of engine hours before the maintenance rule becomes over
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts#L18)
+[src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts#L18)
 
 ___
 
@@ -57,7 +57,7 @@ Gets or sets the maintenance event rule MaintenanceNotificationRule.EventRule fo
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts#L20)
+[src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts#L20)
 
 ___
 
@@ -73,7 +73,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -85,7 +85,7 @@ Gets or sets the number of kilometers before the maintenance rule becomes overdu
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts#L22)
+[src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts#L22)
 
 ___
 
@@ -97,4 +97,4 @@ Gets or sets the recipient MaintenanceNotificationRule.Recipient of the notifica
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts#L24)
+[src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MaintenanceNotificationRule.ts#L24)

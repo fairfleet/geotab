@@ -24,10 +24,10 @@ export interface FaultDataSearch extends Search {
    */
   controllerSearch: ControllerSearch;
   /**
-   * Gets or sets the search options which are used to search for fault data for a device
-   *  {@link DeviceSearch}
-   *  by Id. Available DeviceSearch options are:.
-   *  <list><item><description>Id</description></item></list>
+   * Gets or sets search for {@link FaultData}(s) from a device that matches the
+   *  {@link DeviceSearch} Id or in the Groups specified. This includes archived and deleted devices.
+   *  Available DeviceSearch options are:.
+   *  <list><item><description>Id</description></item><item><description>Groups</description></item></list>
    */
   deviceSearch: DeviceSearch;
   /**

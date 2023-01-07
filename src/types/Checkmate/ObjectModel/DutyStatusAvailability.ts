@@ -28,10 +28,14 @@ export interface DutyStatusAvailability {
   id: string;
   /** Gets or sets if 16 hour exemption is available. */
   is16HourExemptionAvailable: boolean;
+  /** Gets or sets if adverse driving exemption is applied. */
+  isAdverseDrivingApplied: boolean;
   /** Gets or sets if adverse driving exemption is available. */
   isAdverseDrivingExemptionAvailable: boolean;
   /** Gets or sets if off-duty deferral exemption is available. */
   isOffDutyDeferralExemptionAvailable: boolean;
+  /** Gets or sets if railroad exemption is available. */
+  isRailroadExemptionAvailable: boolean;
   /** Gets or sets chronological array representing each day's On-duty time since beginning of cycle. */
   recap: unknown[];
   /** Gets or sets the duration left before rest break must be taken. */

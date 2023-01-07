@@ -13,7 +13,7 @@ import { UserSearch } from "./UserSearch";
  */
 export interface UserLoginStatusSearch extends Search {
   /** Gets or sets a value indicating whether the users are locked at this moment. */
-  onlyCurrentyLockedOut: boolean;
+  onlyCurrentlyLockedOut: boolean;
   /**
    * Gets or sets search for UserloginStatus with this {@link UserSearch} Id
    *  Available UserSearch options are:.

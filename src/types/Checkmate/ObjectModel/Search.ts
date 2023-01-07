@@ -2,16 +2,12 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
-import { PropertySelector } from "./PropertySelector";
-
 /**
  *  Search that implements IEntity for search objects.
  */
 export interface Search {
   /** Gets or sets search for an entry based on the specific {@link Id}. */
   id: string;
-  /** Gets or sets {@link Search.PropertySelector} of the searched value fields to include or exclude from the result. */
-  propertySelector: PropertySelector;
   /** Gets or sets the row version of the search criteria. */
   version: number;
 }

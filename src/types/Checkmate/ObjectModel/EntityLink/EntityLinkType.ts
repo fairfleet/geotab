@@ -7,4 +7,5 @@ export type EntityLinkType =
   | "Device"
   | "DeviceDriver"
   | "DeviceCoDriver"
-  | "DevicePassenger";
+  | "DevicePassenger"
+  | "TachographCoDriver";

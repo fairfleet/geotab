@@ -7,4 +7,9 @@ export type InvalidUserType =
   | "Default"
   | "SessionExpired"
   | "UserLockout"
-  | "SessionInvalid";
+  | "SessionInvalid"
+  | "UserArchived"
+  | "UserSuspended"
+  | "RefreshTokenExpired"
+  | "RefreshTokenUsed"
+  | "RefreshTokenDoesNotExist";

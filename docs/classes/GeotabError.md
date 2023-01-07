@@ -46,7 +46,7 @@ Error.constructor
 
 #### Defined in
 
-[src/GeotabError.ts:7](https://github.com/fairfleet/geotab/blob/b682f10/src/GeotabError.ts#L7)
+[src/GeotabError.ts:7](https://github.com/fairfleet/geotab/blob/ff38bfc/src/GeotabError.ts#L7)
 
 ## Properties
 
@@ -58,7 +58,7 @@ The error code that indicates the error that occurred.
 
 #### Defined in
 
-[src/GeotabError.ts:3](https://github.com/fairfleet/geotab/blob/b682f10/src/GeotabError.ts#L3)
+[src/GeotabError.ts:3](https://github.com/fairfleet/geotab/blob/ff38bfc/src/GeotabError.ts#L3)
 
 ___
 
@@ -70,7 +70,7 @@ The data associated with the error.
 
 #### Defined in
 
-[src/GeotabError.ts:5](https://github.com/fairfleet/geotab/blob/b682f10/src/GeotabError.ts#L5)
+[src/GeotabError.ts:5](https://github.com/fairfleet/geotab/blob/ff38bfc/src/GeotabError.ts#L5)
 
 ___
 

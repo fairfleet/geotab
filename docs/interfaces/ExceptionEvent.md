@@ -40,7 +40,7 @@ Gets or sets the start date of the ExceptionEvent; at or after this date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L15)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L15)
 
 ___
 
@@ -52,7 +52,7 @@ Gets or sets the end date of the ExceptionEvent; at or before this date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L17)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L17)
 
 ___
 
@@ -64,7 +64,7 @@ Gets or sets the [Device](Device.md) specified for the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L19)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L19)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L23)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L23)
 
 ___
 
@@ -88,7 +88,7 @@ Gets or sets the km distance traveled since the start of the ExceptionEvent.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L25)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L25)
 
 ___
 
@@ -100,7 +100,7 @@ Gets or sets the [Driver](Driver.md) specified for the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L27)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L27)
 
 ___
 
@@ -112,7 +112,7 @@ Gets the duration of the violation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L29)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L29)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L33)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L33)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L37)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L37)
 
 ___
 
@@ -152,7 +152,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -164,7 +164,7 @@ Gets or sets the time this exception event was last updated. Default [MinDate].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L39)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:39](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L39)
 
 ___
 
@@ -176,7 +176,7 @@ Gets or sets the [Rule](Rule.md) which was violated.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L41)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:41](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L41)
 
 ___
 
@@ -188,7 +188,7 @@ Gets or sets the [ExceptionEventState](ExceptionEventState.md) of the exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:43](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L43)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:43](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L43)
 
 ___
 
@@ -200,7 +200,7 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:47](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L47)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts:47](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEvent.ts#L47)
 
 ___
 
@@ -216,4 +216,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

@@ -8,4 +8,4 @@ import { Search } from "../Search";
  *  The object used to specify the
  *  arguments when searching for a {@link FailureMode}.
  */
-export type FailureModeSearch = Search
+export interface FailureModeSearch extends Search {}

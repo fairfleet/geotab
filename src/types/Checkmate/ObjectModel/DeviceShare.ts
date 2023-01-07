@@ -8,6 +8,7 @@ import { DeviceShareType } from "./DeviceShareType";
 import { DevicePlan } from "./DevicePlan";
 import { DeviceShareOptions } from "./DeviceShareOptions";
 import { DevicePlanBillingInfo } from "./DevicePlanBillingInfo";
+import { User } from "./User";
 
 /**
  * A device share represents the sharing of steaming data from a device into multiple databases.
@@ -22,6 +23,8 @@ export interface DeviceShare extends NameEntityWithVersion {
   devicePlan: DevicePlan;
   /** Gets or sets the {@link DeviceShare.DevicePlanBillingInfo} of this DeviceShare. */
   devicePlanBillingInfo: DevicePlanBillingInfo;
+  /** Gets or sets the {@link User} that last updated this DeviceShare. */
+  lastUpdatedBy: User;
   /** Gets or sets the {@link Int32} id that MyAdmin associates with this {@link DeviceShare}. */
   myAdminId: number;
   /** Gets or sets the {@link DeviceShareOptions} of this DeviceShare. */

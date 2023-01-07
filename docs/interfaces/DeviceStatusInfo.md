@@ -18,6 +18,7 @@ Represents the current state of a vehicle by providing information such as the v
 - [currentStateDuration](DeviceStatusInfo.md#currentstateduration)
 - [dateTime](DeviceStatusInfo.md#datetime)
 - [device](DeviceStatusInfo.md#device)
+- [diagnostics](DeviceStatusInfo.md#diagnostics)
 - [driver](DeviceStatusInfo.md#driver)
 - [exceptionEvents](DeviceStatusInfo.md#exceptionevents)
 - [groups](DeviceStatusInfo.md#groups)
@@ -44,7 +45,7 @@ Valued between 0 and 359 inclusive. 0 represents North, 90 represents East, and 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L18)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L18)
 
 ___
 
@@ -56,7 +57,7 @@ Gets or sets the duration between the last Trip state change (i.e. driving or st
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L20)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L20)
 
 ___
 
@@ -68,7 +69,7 @@ Gets or sets the most recent DeviceStatusInfo.DateTime of the latest piece of st
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L22)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L22)
 
 ___
 
@@ -80,7 +81,23 @@ Gets or sets the [Device](Device.md) this DeviceStatusInfo belongs to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L24)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L24)
+
+___
+
+### diagnostics
+
+• **diagnostics**: `Object`
+
+Gets or sets a dictionary for latest IDeviceStatusInfoDiagnostic(s) of current [Device](Device.md).
+
+#### Index signature
+
+▪ [key: `string`]: `unknown`
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L26)
 
 ___
 
@@ -92,7 +109,7 @@ Gets or sets the [Driver](Driver.md) associated to the current [Device](Device.m
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L26)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L28)
 
 ___
 
@@ -104,7 +121,7 @@ Gets or sets the [ExceptionEvent](ExceptionEvent.md)(s) that are currently activ
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L28)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L30)
 
 ___
 
@@ -116,7 +133,7 @@ Gets or sets the [Group](Group.md)(s) that the [Device](Device.md) currently bel
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:30](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L30)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L32)
 
 ___
 
@@ -132,7 +149,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -144,7 +161,7 @@ Gets or sets a value indicating whether the [Device](Device.md) is communicating
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:32](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L32)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L34)
 
 ___
 
@@ -156,7 +173,7 @@ Gets or sets a value indicating whether the current [Device](Device.md) state. I
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:34](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L34)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:36](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L36)
 
 ___
 
@@ -168,7 +185,7 @@ Gets or sets a value indicating whether the [Device](Device.md) has been assigne
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:36](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L36)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:38](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L38)
 
 ___
 
@@ -180,7 +197,7 @@ Gets or sets the current latitude of the [Device](Device.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:38](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L38)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:40](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L40)
 
 ___
 
@@ -192,7 +209,7 @@ Gets or sets the current longitude of the [Device](Device.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:40](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L40)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:42](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L42)
 
 ___
 
@@ -204,7 +221,7 @@ Gets or sets the current vehicle speed.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:42](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L42)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts:44](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfo.ts#L44)
 
 ___
 
@@ -220,4 +237,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

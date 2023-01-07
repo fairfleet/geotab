@@ -15,4 +15,5 @@ export type FuelTransactionProductType =
   | "CNG"
   | "LPG"
   | "Hydrogen"
-  | "DieselExhaustFluid";
+  | "DieselExhaustFluid"
+  | "Electric";

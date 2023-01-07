@@ -493,6 +493,22 @@ export enum KnownId {
   DiagnosticFuelTankCapacityId = "DiagnosticFuelTankCapacityId",
   /** Gets the diagnostic fuel units identifier. */
   DiagnosticFuelUnitsId = "DiagnosticFuelUnitsId",
+  /** Gets the diagnostic fuel type for Gasoline */
+  DiagnosticFuelTypeGasId = "DiagnosticFuelTypeGasId",
+  /** Gets the diagnostic fuel type for Diesel */
+  DiagnosticFuelTypeDieselId = "DiagnosticFuelTypeDieselId",
+  /** Gets the diagnostic fuel type for Methanol */
+  DiagnosticFuelTypeMethanolId = "DiagnosticFuelTypeMethanolId",
+  /** Gets the diagnostic fuel type for Ethanol */
+  DiagnosticFuelTypeEthanolId = "DiagnosticFuelTypeEthanolId",
+  /** Gets the diagnostic fuel type for Liquified Petroleum Gas */
+  DiagnosticFuelTypeLiquifiedPetroleumGasId = "DiagnosticFuelTypeLiquifiedPetroleumGasId",
+  /** Gets the diagnostic fuel type for Compressed Natural Gas */
+  DiagnosticFuelTypeCompressedNaturalGasId = "DiagnosticFuelTypeCompressedNaturalGasId",
+  /** Gets the diagnostic fuel type for Propane */
+  DiagnosticFuelTypePropaneId = "DiagnosticFuelTypePropaneId",
+  /** Gets the diagnostic fuel type for Electric */
+  DiagnosticFuelTypeElectricId = "DiagnosticFuelTypeElectricId",
   /** Gets the diagnostic gear position identifier. */
   DiagnosticGearPositionId = "DiagnosticGearPositionId",
   /** Gets the diagnostic general vehicle warning light identifier. */
@@ -661,6 +677,8 @@ export enum KnownId {
   DiagnosticWiFiHotspotDataUsageId = "DiagnosticWiFiHotspotDataUsageId",
   /** Gets the diagnostic generic Adblue tank level. */
   DiagnosticGenericAdblueTankLevelId = "DiagnosticGenericAdblueTankLevelId",
+  /** Gets the ID of the diagnostic for EV Powertrain Type (Code 9, Source Ai Model). */
+  DiagnosticEvPowertrainTypeId = "DiagnosticEvPowertrainTypeId",
   /** Gets the diagnostic restarted the radio manager state machine identifier. */
   DiagnosticRestartedTheRadioManagerStateMachineId = "DiagnosticRestartedTheRadioManagerStateMachineId",
   /** Gets the diagnostic restarted the radio state machine identifier. */
@@ -872,13 +890,47 @@ export enum KnownId {
   /** Gets the shareable link group identifier. */
   GroupShareableLinkGroupId = "GroupShareableLinkGroupId",
   /** Gets the default Trailer group identifier. */
-  SystemTrailerGroupId = "SystemTrailerGroupId",
+  GroupTrailerId = "GroupTrailerId",
   /** Gets the driver activity group identifier. */
   GroupDriverActivityGroupId = "GroupDriverActivityGroupId",
   /** Gets the driver activity business group for trips identifier. */
   GroupBusinessGroupId = "GroupBusinessGroupId",
   /** Gets the driver activity personal group for trips identifier. */
   GroupPersonalGroupId = "GroupPersonalGroupId",
+  /** Gets the asset information group. */
+  GroupAssetInformationId = "GroupAssetInformationId",
+  /** Gets the powertrain and fuel type group under asset information. */
+  GroupPowertrainAndFuelTypeId = "GroupPowertrainAndFuelTypeId",
+  /** Gets the internal combustion engine group. */
+  GroupInternalCombustionEngineId = "GroupInternalCombustionEngineId",
+  /** Gets the gasoline/petrol group. */
+  GroupGasolinePetrolId = "GroupGasolinePetrolId",
+  /** Gets the diesel group. */
+  GroupDieselId = "GroupDieselId",
+  /** Gets the ehtanol group. */
+  GroupEthanolId = "GroupEthanolId",
+  /** Gets the biodiesel group. */
+  GroupBiodieselId = "GroupBiodieselId",
+  /** Gets the compressed natural gas group. */
+  GroupCompressedNaturalGasId = "GroupCompressedNaturalGasId",
+  /** Gets the other fuel group. */
+  GroupOtherFuelId = "GroupOtherFuelId",
+  /** Gets the propane/liquified petroleum gas group. */
+  GroupPropaneLiquifiedPetroleumGasId = "GroupPropaneLiquifiedPetroleumGasId",
+  /** Gets the eletric/hybrid plug-in group. */
+  GroupElectricHybridPluginId = "GroupElectricHybridPluginId",
+  /** Gets the battery electric vehicle group. */
+  GroupBatteryElectricVehicleId = "GroupBatteryElectricVehicleId",
+  /** Gets the plug-in hybrid electric vehicle group. */
+  GroupPluginHybridElectricVehicleId = "GroupPluginHybridElectricVehicleId",
+  /** Gets the manually classified powertrain group. */
+  GroupManuallyClassifiedPowertrainId = "GroupManuallyClassifiedPowertrainId",
+  /** Gets the fuel cell electric vehicle group. */
+  GroupFuelCellElectricVehicleId = "GroupFuelCellElectricVehicleId",
+  /** Gets the default Asset Type group identifier. */
+  GroupAssetTypeId = "GroupAssetTypeId",
+  /** Gets the default Vehicle group identifier. */
+  GroupVehicleId = "GroupVehicleId",
   /** Gets the no device identifier. */
   NoDeviceId = "NoDeviceId",
   /** Gets the no diagnostic identifier. */
@@ -937,6 +989,8 @@ export enum KnownId {
   ReportTemplateAdvancedExceptionsDetailId = "ReportTemplateAdvancedExceptionsDetailId",
   /** Gets the report template advanced exceptions summary identifier. */
   ReportTemplateAdvancedExceptionsSummaryId = "ReportTemplateAdvancedExceptionsSummaryId",
+  /** Gets the report template advanced EV battery health identifier. */
+  ReportTemplateAdvancedEVBatteryHealthId = "ReportTemplateAdvancedEVBatteryHealthId",
   /** Gets the report template advanced failure mode identifier. */
   ReportTemplateAdvancedFailureModeId = "ReportTemplateAdvancedFailureModeId",
   /** Gets the report template advanced fuel tax identifier. */
@@ -1027,6 +1081,8 @@ export enum KnownId {
   ReportTemplateExceptionsDetailId = "ReportTemplateExceptionsDetailId",
   /** Gets the report template exceptions summary identifier. */
   ReportTemplateExceptionsSummaryId = "ReportTemplateExceptionsSummaryId",
+  /** Gets the report template EV battery health identifier. */
+  ReportTemplateEVBatteryHealthId = "ReportTemplateEVBatteryHealthId",
   /** Gets the report template failure mode identifier. */
   ReportTemplateFailureModeId = "ReportTemplateFailureModeId",
   /** Gets the report template fuel tax identifier. */
@@ -1117,6 +1173,8 @@ export enum KnownId {
   ReportTemplateUnrepairedDefectsId = "ReportTemplateUnrepairedDefectsId",
   /** Gets the report template Unrepaired Defects identifier. */
   ReportTemplateTripCategorizationId = "ReportTemplateTripCategorizationId",
+  /** Gets the report template progress report identifier. */
+  ReportTemplateProgressReportId = "ReportTemplateProgressReportId",
   /** Gets the report template zones identifier. */
   ReportTemplateZonesId = "ReportTemplateZonesId",
   /** Gets the rule accident identifier. */
@@ -1408,13 +1466,13 @@ export enum KnownId {
   /** Gets the MimeTaskType application/mdf4 identifier. */
   MimeTaskTypeApplicationMdf4Id = "MimeTaskTypeApplicationMdf4Id",
   /** Gets the DatPrivacyType Unknown identifier. */
-  DataPrivacyTypeUnknownId = "DataPrivacyTypeUnknownId",
-  /** Gets the DataPrivacyType Public identifier. */
-  DataPrivacyTypePublicId = "DataPrivacyTypePublicId",
-  /** Gets the DataPrivacyType Private identifier. */
-  DataPrivacyTypePrivateId = "DataPrivacyTypePrivateId",
-  /** Gets the DataPrivacyType Private Strict identifier. */
-  DataPrivacyTypePrivateStrictId = "DataPrivacyTypePrivateStrictId",
+  UnknownRestrictedDataModeId = "UnknownRestrictedDataModeId",
+  /** Gets the DataModeType Public identifier. */
+  UnrestrictedDataModeId = "UnrestrictedDataModeId",
+  /** Gets the DataModeType Private identifier. */
+  RestrictedDataModeId = "RestrictedDataModeId",
+  /** Gets the DataModeType Private Strict identifier. */
+  UserRestrictedDataModeId = "UserRestrictedDataModeId",
   /** Gets the ExceptionEventState Valid identifier. */
   ExceptionEventStateValidId = "ExceptionEventStateValidId",
   /** Gets the ExceptionEventState Invalid identifier. */
@@ -1431,11 +1489,11 @@ export enum KnownId {
   HosRuleSetCanadaCycleTwoTeam = "HosRuleSetCanadaCycleTwoTeam",
   /** Gets hos Ruleset Id CanadaNorthOf60CycleOne. */
   HosRuleSetCanadaNorthOf60CycleOne = "HosRuleSetCanadaNorthOf60CycleOne",
-  /** Gets hos Ruleset Id Canada North of 60 Cycle Two. */
+  /** Gets hos Ruleset Id CanadaNorthOf60CycleTwo. */
   HosRuleSetCanadaNorthOf60CycleTwo = "HosRuleSetCanadaNorthOf60CycleTwo",
-  /** Gets hos Ruleset Id Canada North of 60 Cycle Two Team. */
+  /** Gets hos Ruleset Id CanadaNorthOf60CycleOneTeam. */
   HosRuleSetCanadaNorthOf60CycleOneTeam = "HosRuleSetCanadaNorthOf60CycleOneTeam",
-  /** Gets hos Ruleset Id Canada North of 60 Cycle Two Team. */
+  /** Gets hos Ruleset Id CanadaNorthOf60CycleTwoTeam. */
   HosRuleSetCanadaNorthOf60CycleTwoTeam = "HosRuleSetCanadaNorthOf60CycleTwoTeam",
   /** Gets hos Ruleset Id CaliforniaProperty. */
   HosRuleSetCaliforniaProperty = "HosRuleSetCaliforniaProperty",
@@ -1633,14 +1691,18 @@ export enum KnownId {
   HosRuleSetOregon7day = "HosRuleSetOregon7day",
   /** Gets Oregon 80-hour/8-day */
   HosRuleSetOregon8day = "HosRuleSetOregon8day",
-  /** Gets Canada South of 60 Oil Permit */
+  /** Gets hos Ruleset Id CanadaOil */
   HosRuleSetCanadaOil = "HosRuleSetCanadaOil",
-  /** Gets Canada North of 60 Oil Permit */
+  /** Gets hos Ruleset Id CanadaNorthOf60Oil */
   HosRuleSetCanadaNorthOf60Oil = "HosRuleSetCanadaNorthOf60Oil",
-  /** Gets Canada South of 60 Oil Permit Team */
+  /** Gets hos Ruleset Id CanadaOilTeam */
   HosRuleSetCanadaOilTeam = "HosRuleSetCanadaOilTeam",
-  /** Gets Canada North of 60 Oil Permit Team */
+  /** Gets hos Ruleset Id CanadaNorthOf60OilTeam */
   HosRuleSetCanadaNorthOf60OilTeam = "HosRuleSetCanadaNorthOf60OilTeam",
+  /** Gets America 7-day Railroad */
+  HosRuleSetAmerica7DayRailroad = "HosRuleSetAmerica7DayRailroad",
+  /** Gets America 8-day Railroad */
+  HosRuleSetAmerica8DayRailroad = "HosRuleSetAmerica8DayRailroad",
   /** Gets Identity DisplayUnitOfMeasure. */
   DisplayUnitOfMeasureIdentityId = "DisplayUnitOfMeasureIdentity",
   /** Gets the no display profile identifier. */
@@ -1849,6 +1911,10 @@ export enum KnownId {
   SecurityIdViewTrailersId = "SecurityIdViewTrailersId",
   /** Gets the securityId, All user to add/edit/remove trailers. */
   SecurityIdManageTrailersId = "SecurityIdManageTrailersId",
+  /** Gets the securityId, Allow user to view existing shipments. */
+  SecurityIdViewShipmentsId = "SecurityIdViewShipmentsId",
+  /** Gets the securityId, Allow user to add, edit, and remove shipments. */
+  SecurityIdManageShipmentsId = "SecurityIdManageShipmentsId",
   /** Gets the securityId, Allow user to view the advanced help items. */
   SecurityIdViewAdvancedHelpId = "SecurityIdViewAdvancedHelpId",
   /** Gets the securityId, Allow user to edit OSM road speeds. */
@@ -1913,6 +1979,8 @@ export enum KnownId {
   SecurityIdViewBusinessIntelligenceId = "SecurityIdViewBusinessIntelligenceId",
   /** Gets the securityId, Allow user to view turn on/off Active tracking feature. */
   SecurityIdActiveTrackingClearanceId = "SecurityIdActiveTrackingClearanceId",
+  /** Gets the securityId, Allow user to view turn on/off continuous connect feature. */
+  SecurityIdContinuousConnectClearanceId = "SecurityIdContinuousConnectClearanceId",
   /** Gets the securityId, Access to certify DVIR. */
   SecurityIdCertifyDVIRId = "SecurityIdCertifyDVIRId",
   /** Gets the securityId, Access to inspect DVIR. */
@@ -2007,6 +2075,78 @@ export enum KnownId {
   AddonInventureZone2ReturnTemp = "AddonInventureZone2ReturnTemp",
   /** Gets ADDON_INVENTURE_ZONE_3_RETURN_TEMP diagnostic Id. */
   AddonInventureZone3ReturnTemp = "AddonInventureZone3ReturnTemp",
+  /** Gets Remote probe 1 temperature diagnostic Id. */
+  RemoteProbe1TemperatureId = "RemoteProbe1TemperatureId",
+  /** Gets Remote probe 2 temperature diagnostic Id. */
+  RemoteProbe2TemperatureId = "RemoteProbe2TemperatureId",
+  /** Gets Remote probe 3 temperature diagnostic Id. */
+  RemoteProbe3TemperatureId = "RemoteProbe3TemperatureId",
+  /** Gets Remote probe 4 temperature diagnostic Id. */
+  RemoteProbe4TemperatureId = "RemoteProbe4TemperatureId",
+  /** Gets the Refrigeration unit status (1 = present). */
+  RefrigerationUnitStatusId = "RefrigerationUnitStatusId",
+  /** Gets the Refrigeration unit - return temperature zone 1 Id. */
+  RefrigerationUnitTemperatureZone1Id = "RefrigerationUnitTemperatureZone1Id",
+  /** Gets the Refrigeration unit - discharge temperature zone 1 Id. */
+  RefrigerationUnitDischargeTemperatureZone1Id = "RefrigerationUnitDischargeTemperatureZone1Id",
+  /** Gets the Refrigeration unit - evaporator coil temperature zone 1 Id. */
+  RefrigerationUnitEvaporatorCoilTemperatureZone1Id = "RefrigerationUnitEvaporatorCoilTemperatureZone1Id",
+  /** Gets the Refrigeration unit - set temperature zone 1 Id. */
+  RefrigerationUnitSetTemperatureZone1Id = "RefrigerationUnitSetTemperatureZone1Id",
+  /** Gets the Refrigeration unit - return temperature zone 2 Id. */
+  RefrigerationUnitTemperatureZone2Id = "RefrigerationUnitTemperatureZone2Id",
+  /** Gets the Refrigeration unit - discharge temperature zone 2 Id. */
+  RefrigerationUnitDischargeTemperatureZone2Id = "RefrigerationUnitDischargeTemperatureZone2Id",
+  /** Gets the Refrigeration unit - evaporator Coil temperature zone 2 Id. */
+  RefrigerationUnitEvaporatorCoilTemperatureZone2Id = "RefrigerationUnitEvaporatorCoilTemperatureZone2Id",
+  /** Gets the Refrigeration unit - set temperature zone 2 Id. */
+  RefrigerationUnitSetTemperatureZone2Id = "RefrigerationUnitSetTemperatureZone2Id",
+  /** Gets the Refrigeration unit - return temperature zone 3 Id. */
+  RefrigerationUnitTemperatureZone3Id = "RefrigerationUnitTemperatureZone3Id",
+  /** Gets the Refrigeration unit - discharge temperature zone 3 Id. */
+  RefrigerationUnitDischargeTemperatureZone3Id = "RefrigerationUnitDischargeTemperatureZone3Id",
+  /** Gets the Refrigeration unit - evaporator Coil temperature zone 3 Id. */
+  RefrigerationUnitEvaporatorCoilTemperatureZone3Id = "RefrigerationUnitEvaporatorCoilTemperatureZone3Id",
+  /** Gets the Refrigeration unit - set temperature zone 3 Id. */
+  RefrigerationUnitSetTemperatureZone3Id = "RefrigerationUnitSetTemperatureZone3Id",
+  /** Gets the Refrigeration unit - external Ambient Temperature Id. */
+  RefrigerationUnitExternalAmbientTemperatureId = "RefrigerationUnitExternalAmbientTemperatureId",
+  /** Gets the Refrigeration unit - fuel level Id. */
+  RefrigerationUnitFuelLevelId = "RefrigerationUnitFuelLevelId",
+  /** Gets the Refrigeration unit - engine Speed Id. */
+  RefrigerationUnitEngineSpeedId = "RefrigerationUnitEngineSpeedId",
+  /** Gets the Refrigeration unit - engine coolant temperature Id. */
+  RefrigerationUnitEngineCoolantTemperatureId = "RefrigerationUnitEngineCoolantTemperatureId",
+  /** Gets the Refrigeration unit - operating mode Id (0 = manual / 1 = auto) . */
+  RefrigerationUnitOperationModeId = "RefrigerationUnitOperationModeId",
+  /** Gets the Refrigeration unit - engine mode Id (0 = diesel / 1 = electric). */
+  RefrigerationUnitEngineModeId = "RefrigerationUnitEngineModeId",
+  /** Gets the Refrigeration unit - door status Id (0 = shut / 1 = open). */
+  RefrigerationUnitDoorStatusId = "RefrigerationUnitDoorStatusId",
+  /** Gets the Refrigeration unit - battery voltage Id. */
+  RefrigerationUnitBatteryVoltageId = "RefrigerationUnitBatteryVoltageId",
+  /** Gets the Refrigeration unit - total run hours for all energy type Id. */
+  RefrigerationUnitTotalRunHoursEnergyTypeId = "RefrigerationUnitTotalRunHoursEnergyTypeId",
+  /** Gets the Refrigeration unit - engine hours (diesel) Id. */
+  RefrigerationUnitEngineHoursDieselId = "RefrigerationUnitEngineHoursDieselId",
+  /** Gets the Refrigeration unit - engine hours (electric) Id. */
+  RefrigerationUnitEngineHoursElectricId = "RefrigerationUnitEngineHoursElectricId",
+  /** Gets the Refrigeration unit - Total number of alarms Id. */
+  RefrigerationUnitTotalNumberAlarmsId = "RefrigerationUnitTotalNumberAlarmsId",
+  /** Gets the Thermograph status Id (0 = absent / 1 = present). */
+  ThermographStatusId = "ThermographStatusId",
+  /** Gets the Thermograph temperature 1 Id. */
+  ThermographTemperature1Id = "ThermographTemperature1Id",
+  /** Gets the Thermograph temperature 2 Id. */
+  ThermographTemperature2Id = "ThermographTemperature2Id",
+  /** Gets the Thermograph temperature 3 Id. */
+  ThermographTemperature3Id = "ThermographTemperature3Id",
+  /** Gets the Thermograph temperature 4 Id. */
+  ThermographTemperature4Id = "ThermographTemperature4Id",
+  /** Gets the Thermograph temperature 5 Id. */
+  ThermographTemperature5Id = "ThermographTemperature5Id",
+  /** Gets the Thermograph temperature 6 Id. */
+  ThermographTemperature6Id = "ThermographTemperature6Id",
   /** Gets the securityId, get BinaryDataFile. */
   SecurityIdViewBinaryDataFilesId = "SecurityIdViewBinaryDataFilesId",
   /** Gets the securityId, add, set, or remove BinaryDataFile */
@@ -2015,8 +2155,36 @@ export enum KnownId {
   SecurityIdModifyGroupFilterId = "SecurityIdModifyGroupFilterId",
   /** Gets the securityId, see GroupFilter */
   SecurityIdViewGroupFilterId = "SecurityIdViewGroupFilterId",
-  /** Gets the MediaFile SolutionId associated with user profile pictures */
-  UserProfilePicturesSolutionId = "UserProfilePicturesSolutionId",
+  /** Gets the securityId, Access to EV Battery Health Report. */
+  SecurityIdEVBatteryHealthReportId = "SecurityIdEVBatteryHealthReportId",
+  /** Gets the MediaFile SolutionId associated with display pictures. */
+  DisplayPictureSolutionId = "DisplayPictureSolutionId",
+  /** Gets the securityId, administer Live Map */
+  SecurityIdAdministerLiveMapId = "SecurityIdAdministerLiveMapId",
+  /** Gets the securityId, view Live Map */
+  SecurityIdViewLiveMapId = "SecurityIdViewLiveMapId",
+  /** Gets the securityId, Manage Tachograph Inspection */
+  SecurityIdManageTachographInspectionId = "SecurityIdManageTachographInspectionId",
+  /** Gets the securityId, View Tachograph Inspection */
+  SecurityIdViewTachographInspectionId = "SecurityIdViewTachographInspectionId",
+  /** Gets the securityId, manage TachographCompanyCard */
+  SecurityIdManageTachographCompanyCardsId = "SecurityIdManageTachographCompanyCardsId",
+  /** Gets the securityId, view TachographCompanyCard */
+  SecurityIdViewTachographCompanyCardsId = "SecurityIdViewTachographCompanyCardsId",
+  /** Gets the securityId, tachograph download and upload files */
+  SecurityIdTachographDownloadAndUploadFilesId = "SecurityIdTachographDownloadAndUploadFilesId",
+  /** Gets the securityId, view tachograph remote download data */
+  SecurityIdViewTachographRemoteDownloadDataId = "SecurityIdViewTachographRemoteDownloadDataId",
+  /** Gets the securityId, view tachograph driving time data */
+  SecurityIdViewTachographDrivingTimeDataId = "SecurityIdViewTachographDrivingTimeDataId",
+  /** Gets the securityId, view tachograph infringement data */
+  SecurityIdViewTachographInfringementDataId = "SecurityIdViewTachographInfringementDataId",
+  /** Gets the securityId, Send cold chain command */
+  SecurityIdSendColdChainCommandId = "SecurityIdSendColdChainCommandId",
+  /** Gets the securityId, Edit stock rule */
+  SecurityIdEditStockRulesId = "SecurityIdEditStockRulesId",
+  /** Gets the securityId, Reset password. */
+  SecurityIdResetPasswordId = "SecurityIdResetPasswordId",
   /** Gets the controller aerodynamic control identifier. */
   ControllerAerodynamicControlId = "ControllerAerodynamicControlId",
   /** Gets the controller aerodynamic control unit identifier. */

@@ -18,7 +18,6 @@ The object used to specify the arguments when searching [InstallRecord](InstallR
 - [fromDate](InstallRecordSearch.md#fromdate)
 - [id](InstallRecordSearch.md#id)
 - [installStatus](InstallRecordSearch.md#installstatus)
-- [propertySelector](InstallRecordSearch.md#propertyselector)
 - [toDate](InstallRecordSearch.md#todate)
 - [version](InstallRecordSearch.md#version)
 
@@ -32,7 +31,7 @@ Gets or sets a Device Search to query for Install Records by device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts#L12)
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts#L12)
 
 ___
 
@@ -44,7 +43,7 @@ Gets or sets search for Install Records that occurred at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts#L14)
 
 ___
 
@@ -60,7 +59,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -72,23 +71,7 @@ Gets or sets a value indicating which install status type records to search.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts#L16)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts#L16)
 
 ___
 
@@ -100,7 +83,7 @@ Gets or sets search for Install Records that occurred at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecordSearch.ts#L18)
 
 ___
 
@@ -116,4 +99,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

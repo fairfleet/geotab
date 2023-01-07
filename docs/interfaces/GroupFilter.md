@@ -2,7 +2,8 @@
 
 # Interface: GroupFilter
 
-Advanced Group Filter
+GroupFilter can be used to specify the type of operator (AND and OR) to use when searching for entities.
+ The GroupsFilter option allows you to use more than one type of operator when searching for a specific group.
 
 ## Hierarchy
 
@@ -29,7 +30,7 @@ Gets or sets the comments
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupFilter.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupFilter.ts#L11)
+[src/types/Checkmate/ObjectModel/GroupFilter.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupFilter.ts#L14)
 
 ___
 
@@ -41,7 +42,7 @@ Gets or sets the GroupFilter
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupFilter.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupFilter.ts#L13)
+[src/types/Checkmate/ObjectModel/GroupFilter.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupFilter.ts#L16)
 
 ___
 
@@ -57,7 +58,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -73,4 +74,4 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)

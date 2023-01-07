@@ -49,4 +49,10 @@ export type DevicePlan =
   | "R4MeBasic"
   | "GeotabDataSciencePackage"
   | "SawatchezEV"
-  | "SurfsightON1";
+  | "SurfsightON1"
+  | "SurfsightON2"
+  | "DataConnector0"
+  | "DataConnector50"
+  | "DataConnector100"
+  | "DataConnector125"
+  | "DataConnector150";

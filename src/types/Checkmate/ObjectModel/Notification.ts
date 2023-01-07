@@ -8,10 +8,12 @@ import { NotificationExceptionForUsersData } from "./NotificationExceptionForUse
 import { NotificationExceptionData } from "./NotificationExceptionData";
 import { NotificationInfoData } from "./NotificationInfoData";
 import { NotificationNewsData } from "./NotificationNewsData";
+import { NotificationReportProcessorData } from "./NotificationReportProcessorData";
 import { NotificationMessageData } from "./NotificationMessageData";
 import { NotificationUserModifiedData } from "./NotificationUserModifiedData";
 import { NotificationForAdminUsersData } from "./NotificationForAdminUsersData";
 import { NotificationMaintenanceReminderData } from "./NotificationMaintenanceReminderData";
+import { NotificationDeviceShareData } from "./NotificationDeviceShareData";
 import { Recipient } from "./Recipient";
 import { NotificationData } from "./NotificationData";
 
@@ -35,6 +37,8 @@ export interface Notification extends EntityWithVersion {
   notificationApplicationExceptionData: NotificationApplicationExceptionData;
   /** Gets or sets the notification data. */
   notificationData: NotificationData;
+  /** Gets or sets the {@link Notification.NotificationDeviceShareData} data that provides the data for this notification. */
+  notificationDeviceShareData: NotificationDeviceShareData;
   /**
    * Gets or sets the {@link NotificationExceptionData} data that provides the data
    *  for this notification.
@@ -58,6 +62,8 @@ export interface Notification extends EntityWithVersion {
   notificationMessageData: NotificationMessageData;
   /** Gets or sets the {@link Notification.NotificationNewsData} data that provides the data for this notification. */
   notificationNewsData: NotificationNewsData;
+  /** Gets or sets the {@link Notification.NotificationReportDownloadData} data that provides the data for this notification. */
+  notificationReportDownloadData: NotificationReportProcessorData;
   /** Gets or sets the {@link Notification.NotificationUserModifiedData} data that provides the data for this notification. */
   notificationUserModifiedData: NotificationUserModifiedData;
   /** Gets or sets the recipient this notification belongs to. */

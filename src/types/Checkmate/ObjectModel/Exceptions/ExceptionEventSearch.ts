@@ -24,6 +24,8 @@ export interface ExceptionEventSearch extends Search {
   deviceSearch: DeviceSearch;
   /** Gets or sets search for Exception Events that occurred at this date or after. */
   fromDate: Date;
+  /** Gets or sets include dismissed events. */
+  includeDismissedEvents: boolean;
   /**
    * Gets or sets search for {@link ExceptionEvent}s that have been invalidated because of new data being processed.
    *  The default value is [false] using "Get" API and [true] using "GetFeed" API.

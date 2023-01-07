@@ -6,6 +6,7 @@ import { Entity } from "./Entity";
 import { Device } from "./Device";
 import { User } from "./User";
 import { Coordinate } from "./Coordinate";
+import { Zone } from "./Zone";
 
 /**
  *  Internal class with the shareable link.
@@ -27,4 +28,6 @@ export interface ShareableLink extends Entity {
   startDateTime: Date;
   /** Gets or sets the user. */
   user: User;
+  /** Gets or sets the zone. */
+  zone: Zone;
 }

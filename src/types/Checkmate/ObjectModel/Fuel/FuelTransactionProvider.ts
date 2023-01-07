@@ -15,4 +15,7 @@ export type FuelTransactionProvider =
   | "Voyager"
   | "UltramarCST"
   | "GFN"
-  | "WexCanada";
+  | "WexCanada"
+  | "Allstar"
+  | "Keyfuels"
+  | "TFC";

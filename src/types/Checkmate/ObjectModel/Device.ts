@@ -12,13 +12,14 @@ import { DevicePlan } from "./DevicePlan";
 import { DevicePlanBillingInfo } from "./DevicePlanBillingInfo";
 import { DeviceCustomFeature } from "./DeviceCustomFeature";
 import { DeviceReplacementInfo } from "./DeviceReplacement/DeviceReplacementInfo";
+import { MediaFile } from "./Files/MediaFile";
 
 /**
  *  A Device represents the physical tracking device installed in
  *  the vehicle. A device and vehicle is typically synonymous since the GO tracking device is
  *  installed in a vehicle. In the case where there is no device; this is represented by "NoDeviceId". The device
  *  types that are supported are:.
- *  <list><item><description>{@link Go9}</description></item><item><description>{@link Go8}</description></item><item><description>{@link Go7}</description></item><item><description>{@link Go6}</description></item><item><description>{@link Go5}</description></item><item><description>{@link Go4v3}</description></item><item><description>{@link CustomDevice}</description></item><item><description>{@link A1}</description></item><item><description>{@link U1}</description></item></list>
+ *  <list><item><description>{@link Go9}</description></item><item><description>{@link Go8}</description></item><item><description>{@link Go7}</description></item><item><description>{@link Go6}</description></item><item><description>{@link Go5}</description></item><item><description>{@link Go4v3}</description></item><item><description>{@link CustomDevice}</description></item></list>
  */
 export interface Device extends NameEntityWithVersion {
   /** Gets or sets the date the device is active from. Default [MinDate]. */
@@ -54,6 +55,8 @@ export interface Device extends NameEntityWithVersion {
    *  When the value is exceeded, data is considered to be missing. Default [200].
    */
   maxSecondsBetweenLogs: number;
+  /** Gets or sets the list of {@link MediaFile} photos of this asset. Maximum length [1]. */
+  mediaFiles: MediaFile[];
   /** Gets the minimum allowable value for {@link Device.MaxSecondsBetweenLogs}. Defaults to 0.0f. */
   minSecondsBetweenLogs: number;
   /** Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity. Maximum length [50]. */
@@ -71,8 +74,10 @@ export interface Device extends NameEntityWithVersion {
    *  frequently. This is used to check if the device is in good state.
    */
   timeToDownload: string;
-  /** Gets or sets the IANA time zone Id of the device used to determine local work times. This is typically the "home location" of the device. Default ["America/New_York"]. */
+  /** Gets or sets the IANA Timezone Id of the device used to determine local work times. This is typically the "home location" of the device. Default ["America/New_York"]. */
   timeZoneId: string;
+  /** Gets or sets the trailerId for the assets of type trailer. */
+  tmpTrailerId: string;
   /** Gets or sets the {@link WorkTime} rules to apply to the device. Default [WorkTimeStandardHours]. */
   workTime: WorkTime;
 }

@@ -32,7 +32,7 @@ Gets or sets the channel on which the Add-On is attached to the GO unit. This is
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/IoxAddOn.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/IoxAddOn.ts#L17)
+[src/types/Checkmate/ObjectModel/IoxAddOn.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/IoxAddOn.ts#L17)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets the DateTime this IoxAddOn was assigned it's IoxAddOn.Channel.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/IoxAddOn.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/IoxAddOn.ts#L19)
+[src/types/Checkmate/ObjectModel/IoxAddOn.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/IoxAddOn.ts#L19)
 
 ___
 
@@ -56,7 +56,7 @@ Gets or sets the [Device](Device.md) this IoxAddOn is connected to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/IoxAddOn.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/IoxAddOn.ts#L21)
+[src/types/Checkmate/ObjectModel/IoxAddOn.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/IoxAddOn.ts#L21)
 
 ___
 
@@ -72,7 +72,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -85,4 +85,4 @@ Gets or sets the unique identifier for this Iox Add-On type. Iox Add-On types ar
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/IoxAddOn.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/IoxAddOn.ts#L26)
+[src/types/Checkmate/ObjectModel/IoxAddOn.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/IoxAddOn.ts#L26)

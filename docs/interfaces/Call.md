@@ -26,7 +26,7 @@ The JSON-RPC method to call.
 
 #### Defined in
 
-[src/types/Call.ts:3](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Call.ts#L3)
+[src/types/Call.ts:3](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Call.ts#L3)
 
 ___
 
@@ -38,7 +38,7 @@ The JSON-RPC method parameters.
 
 #### Defined in
 
-[src/types/Call.ts:5](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Call.ts#L5)
+[src/types/Call.ts:5](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Call.ts#L5)
 
 ___
 
@@ -50,4 +50,4 @@ The optional abort signal.
 
 #### Defined in
 
-[src/types/Call.ts:7](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Call.ts#L7)
+[src/types/Call.ts:7](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Call.ts#L7)

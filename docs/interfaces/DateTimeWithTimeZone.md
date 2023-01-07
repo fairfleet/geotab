@@ -21,7 +21,7 @@ Gets the local. DateTime
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DateTimeWithTimeZone.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DateTimeWithTimeZone.ts#L8)
+[src/types/Checkmate/ObjectModel/DateTimeWithTimeZone.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DateTimeWithTimeZone.ts#L8)
 
 ___
 
@@ -33,4 +33,4 @@ Gets the TimeZoneInfo.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DateTimeWithTimeZone.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DateTimeWithTimeZone.ts#L10)
+[src/types/Checkmate/ObjectModel/DateTimeWithTimeZone.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DateTimeWithTimeZone.ts#L10)

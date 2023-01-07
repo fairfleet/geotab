@@ -41,16 +41,24 @@ export interface EventOccurrenceSearch extends Search {
   eventTypeIds: string[];
   /** Gets or sets search for {@link EventOccurrence}s recorded at this date or after. */
   fromDate: Date;
-  /** Gets or sets a value indicating whether searching for unplanned maintenance. */
+  /** Gets or sets a value indicating whether event has historic devices. */
+  includeHistoricDevices: boolean;
+  /** Gets or sets a value indicating whether event is skipped. */
+  includeSkipped: boolean;
+  /** Gets or sets a value indicating whether searching for 'skipped' maintenance. */
+  includeSkippedMaintenance: boolean;
+  /** Gets or sets a value indicating whether searching for 'unplanned maintenance'. */
   includeUnplannedMaintenance: boolean;
   /** Gets or sets search for entities that contain specific keywords in all wildcard string-searchable fields. */
   keywords: string[];
-  /** Gets or sets a value indicating whether gets or sets search for active {@link EventOccurrence}s recorded Only. */
+  /** Gets or sets a value indicating whether the search returns latest {@link EventOccurrence} records only. */
   latestRecordsOnly: boolean;
   /** Gets or sets gets maximum Id of the search criteria. */
   maxId: string;
   /** Gets or sets gets minimum Id of the search criteria. */
   minId: string;
+  /** Gets or sets a value indicating whether search returns linkage {@link EventOccurrence} records for once-off {@link EventRule}. */
+  returnLinkageEvents: boolean;
   /** Gets or sets search for {@link EventOccurrence}s recorded at this date or before. */
   toDate: Date;
 }

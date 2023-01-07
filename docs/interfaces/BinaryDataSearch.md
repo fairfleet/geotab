@@ -18,7 +18,6 @@ The object used to specify the arguments when searching for [BinaryData](BinaryD
 - [deviceSearch](BinaryDataSearch.md#devicesearch)
 - [fromDate](BinaryDataSearch.md#fromdate)
 - [id](BinaryDataSearch.md#id)
-- [propertySelector](BinaryDataSearch.md#propertyselector)
 - [toDate](BinaryDataSearch.md#todate)
 - [version](BinaryDataSearch.md#version)
 
@@ -32,7 +31,7 @@ Gets or sets search for BinaryData that has this [BinaryDataType](../README.md#b
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L12)
+[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L12)
 
 ___
 
@@ -48,7 +47,7 @@ Gets or sets filter by the [DeviceSearch](DeviceSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L20)
 
 ___
 
@@ -60,7 +59,7 @@ Gets or sets search for BinaryData records that were logged at this date or afte
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L22)
 
 ___
 
@@ -76,23 +75,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -104,7 +87,7 @@ Gets or sets search for BinaryData records that were logged at this date or befo
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L24)
 
 ___
 
@@ -122,4 +105,4 @@ Gets or sets the row version of the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:30](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L30)
+[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L30)

@@ -11,6 +11,7 @@ import { Driver } from "../Driver";
 import { WorkTime } from "../WorkTime";
 import { Zone } from "../Zone";
 import { ZoneType } from "../ZoneType";
+import { Group } from "../Group";
 
 /**
  *  Conditions model the logic that govern a {@link Rule} and can apply to many different types of data and entities. Conditions are structured in hierarchical tree. A condition's type (see {@link ConditionType}) defines the meaning of each condition in the tree and can be an operator, special operator, data or an asset.
@@ -38,6 +39,8 @@ export interface Condition extends Entity {
   diagnostic: Diagnostic;
   /** Gets or sets specified {@link Driver} associated with the condition. */
   driver: Driver;
+  /** Gets or sets specified {@link Group}. */
+  group: Group;
   /** Gets or sets the Condition that this Condition is a link of. */
   linkTarget: Condition;
   /** Gets or sets the parent Condition for this Condition. Null for root condition. */

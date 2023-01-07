@@ -22,7 +22,6 @@ The object used to specify the arguments when searching for [UserDeviceLink](Use
 - [id](UserDeviceLinkSearch.md#id)
 - [includeBoundaryLinks](UserDeviceLinkSearch.md#includeboundarylinks)
 - [linkTypes](UserDeviceLinkSearch.md#linktypes)
-- [propertySelector](UserDeviceLinkSearch.md#propertyselector)
 - [toDate](UserDeviceLinkSearch.md#todate)
 - [userSearch](UserDeviceLinkSearch.md#usersearch)
 - [version](UserDeviceLinkSearch.md#version)
@@ -37,7 +36,7 @@ Gets or sets search for UserDeviceLink that were recorded with this ToDate or af
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L17)
 
 ___
 
@@ -55,7 +54,7 @@ UserSearch is always applied first if both DeviceSearch and UserSearch are provi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L25)
+[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L25)
 
 ___
 
@@ -67,7 +66,7 @@ Gets or sets search for UserDeviceLink that were recorded at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L27)
+[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L27)
 
 ___
 
@@ -83,7 +82,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -95,7 +94,7 @@ Gets or sets a value indicating whether to include boundary links.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L29)
+[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L29)
 
 ___
 
@@ -107,23 +106,7 @@ Gets or sets search for UserDeviceLinks that match the specified [EntityLinkType
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L31)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L31)
 
 ___
 
@@ -135,7 +118,7 @@ Gets or sets search for UserDeviceLink that were recorded at this date or before
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L33)
+[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L33)
 
 ___
 
@@ -149,7 +132,7 @@ Gets or sets search for UserDeviceLink with this [UserSearch](UserSearch.md) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L39)
+[src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts:39](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserDeviceLinkSearch.ts#L39)
 
 ___
 
@@ -165,4 +148,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

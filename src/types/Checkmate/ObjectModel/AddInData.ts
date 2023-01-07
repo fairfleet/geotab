@@ -9,8 +9,6 @@ import { Group } from "./Group";
 export interface AddInData extends Entity {
   /** Gets or sets the add-in identifier. */
   addInId: string;
-  /** Gets or sets the data. */
-  data: string;
   /** Gets or sets the Details string as a serialized JSON object. */
   details: string;
   /** Gets or sets the list of {@link Group}(s) the {@link AddInData} belongs to. */

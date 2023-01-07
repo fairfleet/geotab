@@ -28,7 +28,7 @@ Gets the bottom (Y) of the rectangle.
 
 #### Defined in
 
-[src/types/Drawing/RectangleF.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Drawing/RectangleF.ts#L10)
+[src/types/Drawing/RectangleF.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Drawing/RectangleF.ts#L10)
 
 ___
 
@@ -40,7 +40,7 @@ Gets the height of the rectangle.
 
 #### Defined in
 
-[src/types/Drawing/RectangleF.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Drawing/RectangleF.ts#L12)
+[src/types/Drawing/RectangleF.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Drawing/RectangleF.ts#L12)
 
 ___
 
@@ -52,7 +52,7 @@ Gets the left (X) of the rectangle.
 
 #### Defined in
 
-[src/types/Drawing/RectangleF.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Drawing/RectangleF.ts#L14)
+[src/types/Drawing/RectangleF.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Drawing/RectangleF.ts#L14)
 
 ___
 
@@ -64,7 +64,7 @@ Gets the location (top left) of the rectangle.
 
 #### Defined in
 
-[src/types/Drawing/RectangleF.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Drawing/RectangleF.ts#L16)
+[src/types/Drawing/RectangleF.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Drawing/RectangleF.ts#L16)
 
 ___
 
@@ -76,7 +76,7 @@ Gets the right (X) of the rectangle.
 
 #### Defined in
 
-[src/types/Drawing/RectangleF.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Drawing/RectangleF.ts#L18)
+[src/types/Drawing/RectangleF.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Drawing/RectangleF.ts#L18)
 
 ___
 
@@ -88,7 +88,7 @@ Gets the top (Y) of the rectangle.
 
 #### Defined in
 
-[src/types/Drawing/RectangleF.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Drawing/RectangleF.ts#L20)
+[src/types/Drawing/RectangleF.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Drawing/RectangleF.ts#L20)
 
 ___
 
@@ -100,7 +100,7 @@ Gets the width of the rectangle.
 
 #### Defined in
 
-[src/types/Drawing/RectangleF.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Drawing/RectangleF.ts#L22)
+[src/types/Drawing/RectangleF.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Drawing/RectangleF.ts#L22)
 
 ___
 
@@ -112,7 +112,7 @@ Gets the X coordinate of the rectangle.
 
 #### Defined in
 
-[src/types/Drawing/RectangleF.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Drawing/RectangleF.ts#L24)
+[src/types/Drawing/RectangleF.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Drawing/RectangleF.ts#L24)
 
 ___
 
@@ -124,4 +124,4 @@ Gets the Y coordinate of the rectangle.
 
 #### Defined in
 
-[src/types/Drawing/RectangleF.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Drawing/RectangleF.ts#L26)
+[src/types/Drawing/RectangleF.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Drawing/RectangleF.ts#L26)

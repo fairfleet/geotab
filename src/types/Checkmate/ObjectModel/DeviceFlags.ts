@@ -13,6 +13,11 @@ export interface DeviceFlags {
    *  functionality.
    */
   isActiveTrackingAllowed: boolean;
+  /**
+   * Gets a value indicating whether the device has access to the continuous connect
+   *  functionality.
+   */
+  isContinuousConnectAllowed: boolean;
   /** Gets a value indicating whether a {@link Boolean} indicating if the device has access to engine functionality. */
   isEngineAllowed: boolean;
   /** Gets a value indicating whether the device has access to Garmin functionality. */

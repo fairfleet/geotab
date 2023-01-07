@@ -5,6 +5,7 @@
 import { NameEntityWithVersion } from "./NameEntityWithVersion";
 import { DisplayMeasurementProfile } from "./Engine/DisplayDiagnostic/DisplayMeasurementProfile";
 import { Group } from "./Group";
+import { MediaFile } from "./Files/MediaFile";
 import { GroupFilter } from "./GroupFilter";
 import { Currency } from "./Currencies/Currency";
 import { GoogleMapStyle } from "../Settings/GoogleMapStyle";
@@ -16,12 +17,13 @@ import { HosRuleSet } from "../Settings/HosRuleSet";
 import { UserAuthenticationType } from "./UserAuthenticationType";
 import { ZoneDisplayMode } from "../Settings/ZoneDisplayMode";
 import { Certificate } from "./Certificate";
-import { MediaFile } from "./Files/MediaFile";
 
 /** A user of the system. A user can be a MyGeotab user or a user that is a {@link Driver}. */
 export interface User extends NameEntityWithVersion {
-  /** Gets or sets a value indicating the user accepted EULA revision number. Default [null]. */
+  /** Gets or sets a value indicating the user accepted MyGeotab EULA revision number. Default [null]. */
   acceptedEULA: number;
+  /** Gets or sets the {@link GroupFilter} that the user belongs to, which is used to determine what the user can see within the database. */
+  accessGroupFilter: GroupFilter;
   /** Gets or sets the list of active dashboards for the user, displayed on the dashboard page. Default [empty]. */
   activeDashboardReports: string[];
   /** Gets or sets the date the user is active from. Default [UtcNow]. */
@@ -46,8 +48,6 @@ export interface User extends NameEntityWithVersion {
   comment: string;
   /** Gets or sets the company address for the user. Default [""]. */
   companyAddress: string;
-  /** Gets or sets the list of organization {@link GroupFilterCondition}(s) that the user belongs to. */
-  companyGroupFilter: GroupFilter;
   /** Gets or sets the list of organization {@link Group}(s) that the user belongs to. */
   companyGroups: Group[];
   /** Gets or sets the name of the company for the user. Default [""]. */
@@ -96,6 +96,8 @@ export interface User extends NameEntityWithVersion {
   hosRuleSet: HosRuleSet;
   /** Gets or sets the unique identifier for the User. See {@link Id}. */
   id: string;
+  /** Gets or sets a value indicating whether the user is allowed to Adverse Driving conditions exempt. Default [false]. */
+  isAdverseDrivingEnabled: boolean;
   /** Gets or sets the is driver toggle, if [true] the user is a driver, otherwise [false]. Default [false]. */
   isDriver: boolean;
   /** Gets or sets the isEmailReportEnabled, if [true] the user will receive the emailed report, otherwise [false]. Default [true]. */
@@ -124,12 +126,19 @@ export interface User extends NameEntityWithVersion {
   lastAccessDate: Date;
   /** Gets or sets the last name of the user. Maximum length [255]. */
   lastName: string;
-  /** Gets or sets the list of the of the available {@link MapView}s from the live map. Default [continent of the user's selected time zone]. */
+  /** Gets or sets the list of the of the available {@link MapView}s from the live map. Default [continent of the user's selected Timezone]. */
   mapViews: unknown[];
   /** Gets or sets a value indicating the maximum personal conveyance distance per day in meters. Default [0]. */
   maxPCDistancePerDay: number;
+  /**
+   * Gets or sets the list of {@link MediaFile}(s) photos of this user.
+   *  Currently, a user can only be associated with at most one photo.
+   */
+  mediaFiles: MediaFile[];
   /** Gets or sets the user's email address / login name. Maximum length [255]. */
   name: string;
+  /** Gets or sets a value to nullify AccessGroupFilter. */
+  nullifyAccessGroupFilter: boolean;
   /** Gets or sets the user's password. */
   password: string;
   /** Gets or sets the user phone number with space separated country phone code. Example +1 5555555555. Maximum length [20] Default [""] */
@@ -138,15 +147,13 @@ export interface User extends NameEntityWithVersion {
   phoneNumberExtension: string;
   /** Gets or sets the private {@link Group}(s) that the user belongs to. */
   privateUserGroups: Group[];
-  /** Gets or sets the media files to act as profile pictures of the user. Users can only have at most one profile picture. */
-  profilePictures: MediaFile[];
   /** Gets or sets the report {@link Group}(s) for reporting that this user belongs to. The selected reporting groups will allow the user to sort entities that are children of the selected groups. It will not allow them to see entities that are outside of their data access. Default [empty]. */
   reportGroups: Group[];
   /** Gets or sets the security {@link Group}(s) this user belongs to; which define the user's access. */
   securityGroups: Group[];
   /** Gets or sets a flag indicating whether to show ClickOnce support warning as the default page. (legacy) Default [false]. */
   showClickOnceWarning: boolean;
-  /** Gets or sets the IANA time zone Id of the user. All data will be displayed in this time zone. Default ["America/New_York"]. */
+  /** Gets or sets the IANA Timezone Id of the user. All data will be displayed in this Timezone. Default ["America/New_York"]. */
   timeZoneId: string;
   /** Gets or sets the {@link UserAuthenticationType}. Default [Basic]. */
   userAuthenticationType: UserAuthenticationType;

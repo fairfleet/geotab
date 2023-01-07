@@ -5,4 +5,4 @@
 import { Entity } from "./Entity";
 
 /** The class represents data that is associated with a notification. */
-export type NotificationData = Entity
+export interface NotificationData extends Entity {}

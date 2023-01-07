@@ -31,7 +31,7 @@ Gets or sets the date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts#L15)
+[src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts#L15)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets the [Device](Device.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts#L17)
+[src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts#L17)
 
 ___
 
@@ -55,7 +55,7 @@ Gets or sets nullable Single Distance.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts#L19)
+[src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts#L19)
 
 ___
 
@@ -71,7 +71,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -83,4 +83,4 @@ Gets or sets [Zone](Zone.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts#L21)
+[src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/LogRecordZoneDistance.ts#L21)

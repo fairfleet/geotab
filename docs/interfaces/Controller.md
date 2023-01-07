@@ -31,7 +31,7 @@ Gets the controller diagnostic code (if applicable).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Controller.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Controller.ts#L11)
+[src/types/Checkmate/ObjectModel/Engine/Controller.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Controller.ts#L11)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets the message identification code for the controller of the diagnosti
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Controller.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Controller.ts#L13)
+[src/types/Checkmate/ObjectModel/Engine/Controller.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Controller.ts#L13)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Controller.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Controller.ts#L15)
+[src/types/Checkmate/ObjectModel/Engine/Controller.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Controller.ts#L15)
 
 ___
 
@@ -75,7 +75,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Controller.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Controller.ts#L17)
+[src/types/Checkmate/ObjectModel/Engine/Controller.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Controller.ts#L17)
 
 ___
 
@@ -87,7 +87,7 @@ Gets or sets the standard (format) of the [Source](Source.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Controller.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Controller.ts#L19)
+[src/types/Checkmate/ObjectModel/Engine/Controller.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Controller.ts#L19)
 
 ___
 
@@ -103,4 +103,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)

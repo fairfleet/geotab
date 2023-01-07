@@ -20,7 +20,6 @@ The object used to specify the arguments when searching for a [EntityLinkRule](E
 - [isBidirectionalSearch](EntityLinkRuleSearch.md#isbidirectionalsearch)
 - [linkDate](EntityLinkRuleSearch.md#linkdate)
 - [onlyActiveRules](EntityLinkRuleSearch.md#onlyactiverules)
-- [propertySelector](EntityLinkRuleSearch.md#propertyselector)
 - [sourceGroups](EntityLinkRuleSearch.md#sourcegroups)
 - [validFrom](EntityLinkRuleSearch.md#validfrom)
 - [validTo](EntityLinkRuleSearch.md#validto)
@@ -36,7 +35,7 @@ Gets or sets the collection of destination groups to search for.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L12)
+[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L12)
 
 ___
 
@@ -48,7 +47,7 @@ Gets or sets the entity link type to search for.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L14)
 
 ___
 
@@ -64,7 +63,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -76,7 +75,7 @@ Gets or sets a value indicating rules from source to destination are unioned wit
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L16)
 
 ___
 
@@ -88,7 +87,7 @@ Gets or sets the link date, which is used to search for records that reside with
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L18)
 
 ___
 
@@ -100,23 +99,7 @@ Gets or sets a value indicating only active rules are to be searched.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L20)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L20)
 
 ___
 
@@ -128,7 +111,7 @@ Gets or sets the collection of source groups to search for.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L22)
 
 ___
 
@@ -140,7 +123,7 @@ Gets or sets the from date, which is used to search for records recorded on or a
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L24)
 
 ___
 
@@ -152,7 +135,7 @@ Gets or sets the to date, which is used to search for records recorded on or bef
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityLink/EntityLinkRuleSearch.ts#L26)
 
 ___
 
@@ -168,4 +151,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

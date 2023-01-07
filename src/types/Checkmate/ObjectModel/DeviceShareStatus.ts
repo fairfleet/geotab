@@ -13,4 +13,5 @@ export type DeviceShareStatus =
   | "RequestTerminated"
   | "RequestApproved"
   | "RequestDeclined"
-  | "RequestCancelled";
+  | "RequestCancelled"
+  | "RequestPending";

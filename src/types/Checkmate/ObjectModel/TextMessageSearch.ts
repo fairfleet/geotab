@@ -10,6 +10,8 @@ import { MessageContentType } from "./MessageContentType";
 
 /** The object used to specify the arguments when searching for a {@link TextMessage}. */
 export interface TextMessageSearch extends Search {
+  /** Gets or sets search for TextMessages with {@link DataToComponentContent} filtered based on the channelNumber. */
+  channelNumbers: number[];
   /** Gets or sets search for TextMessages filtered based on the {@link MessageContentType}. */
   contentTypes: MessageContentType[];
   /**
@@ -46,6 +48,13 @@ export interface TextMessageSearch extends Search {
    *  null, it will return both read and unread TextMessages.
    */
   isRead: boolean;
+  /**
+   * Gets or sets a value indicating whether when LatestMessageOnly is set to True; only a single most recent message that matches the search parameters
+   *  will be returned per device (using the date sent time to determine most recent).
+   */
+  latestMessageOnly: boolean;
+  /** Gets or sets search for TextMessages with {@link MimeContent} filtered based on the messages MIME type. */
+  mimeTypes: string[];
   /** Gets or sets search for TextMessages that were delivered/sent/read since this date. */
   modifiedSinceDate: Date;
   /** Gets or sets search for TextMessages that have parent id as this {@link Id}. */

@@ -17,7 +17,6 @@ The object used to specify the arguments when searching for [IoxAddOn](IoxAddOn.
 - [connectedOnly](IoxAddOnSearch.md#connectedonly)
 - [deviceSearch](IoxAddOnSearch.md#devicesearch)
 - [id](IoxAddOnSearch.md#id)
-- [propertySelector](IoxAddOnSearch.md#propertyselector)
 - [type](IoxAddOnSearch.md#type)
 - [version](IoxAddOnSearch.md#version)
 
@@ -31,7 +30,7 @@ Gets or sets if <c>true</c> only Iox Add-Ons that are currently connected to a d
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/IoxAddOnSearch.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/IoxAddOnSearch.ts#L13)
+[src/types/Checkmate/ObjectModel/IoxAddOnSearch.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/IoxAddOnSearch.ts#L13)
 
 ___
 
@@ -45,7 +44,7 @@ Gets or sets search for Iox Add-Ons that are or have been attached to this IoxAd
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/IoxAddOnSearch.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/IoxAddOnSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/IoxAddOnSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/IoxAddOnSearch.ts#L19)
 
 ___
 
@@ -61,23 +60,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -89,7 +72,7 @@ Gets or sets search for Iox Add-Ons of a specific type (Garmin, GoTalk etc). See
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/IoxAddOnSearch.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/IoxAddOnSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/IoxAddOnSearch.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/IoxAddOnSearch.ts#L21)
 
 ___
 
@@ -105,4 +88,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

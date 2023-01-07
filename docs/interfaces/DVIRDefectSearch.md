@@ -18,7 +18,6 @@ The object used to specify the arguments when searching for [DVIRDefect](DVIRDef
 - [dvirLogSearch](DVIRDefectSearch.md#dvirlogsearch)
 - [fromDate](DVIRDefectSearch.md#fromdate)
 - [id](DVIRDefectSearch.md#id)
-- [propertySelector](DVIRDefectSearch.md#propertyselector)
 - [toDate](DVIRDefectSearch.md#todate)
 - [userSearch](DVIRDefectSearch.md#usersearch)
 - [version](DVIRDefectSearch.md#version)
@@ -36,7 +35,7 @@ Gets or sets search for DVIRDefect that are a member of these defect [Group](Gro
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts#L18)
 
 ___
 
@@ -50,7 +49,7 @@ Gets or sets search for DVIRDefect with this [DVIRLogSearch](DVIRLogSearch.md) I
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts#L24)
 
 ___
 
@@ -62,7 +61,7 @@ Gets or sets search for DVIRDefect that were recorded at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts#L26)
 
 ___
 
@@ -78,23 +77,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -106,7 +89,7 @@ Gets or sets search for DVIRDefect that were recorded at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts#L28)
+[src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts#L28)
 
 ___
 
@@ -120,7 +103,7 @@ Gets or sets search for DVIRDefects with this [UserSearch](UserSearch.md) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts:34](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts#L34)
+[src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRDefectSearch.ts#L34)
 
 ___
 
@@ -136,4 +119,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

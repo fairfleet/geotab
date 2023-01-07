@@ -13,8 +13,8 @@ internal class Types
 
   public IEnumerable<Type> GetEntityAndSearchTypes()
   {
-    var entityTypes = this.GetEntityTypes();
-    var searchTypes = this.GetSearchTypes();
+    var entityTypes = GetEntityTypes();
+    var searchTypes = GetSearchTypes();
 
     return Enumerable.Concat(entityTypes, searchTypes)
       .Concat(entityTypes
@@ -35,6 +35,8 @@ internal class Types
         typeof(NameEntity),
         typeof(NameEntityWithVersion),
       })
+      .Distinct()
+      .OrderBy(type => type.Name)
       .ToList();
   }
 
@@ -50,27 +52,27 @@ internal class Types
           .Where(type => type.Namespace?.StartsWith("Geotab") == true)
           .Where(type => type.IsEnum);
 
-  bool IsEntityType(Type type) =>
-    this.IsValidNamedType(type) &&
+  public static bool IsEntityType(Type type) =>
+    IsValidNamedType(type) &&
     type.Namespace?.StartsWith("Geotab") == true &&
     type.IsClass &&
     type.IsAssignableTo(typeof(IEntity)) &&
     type.Assembly.GetType(string.Join('.', type.Namespace!, type.Name + "Search")) != null;
 
-  bool IsSearchType(Type type) =>
-    this.IsValidNamedType(type) &&
+  public static bool IsSearchType(Type type) =>
+    IsValidNamedType(type) &&
     type.Name.EndsWith("Search") &&
     type.IsClass &&
     type.Namespace?.StartsWith("Geotab") == true &&
     type.IsAssignableTo(typeof(Search)) &&
-    type.Assembly.GetType(string.Join('.', type.Namespace!, Regex.Replace(type.Name, "Search$", ""))) != null;
+    type.Assembly.GetType(string.Join('.', type.Namespace!, Regex.Replace(type.Name, "Search", ""))) != null;
 
-  bool IsCompanionType(Type type) =>
-    this.IsValidNamedType(type) &&
+  static bool IsCompanionType(Type type) =>
+    IsValidNamedType(type) &&
     type.IsClass &&
     type.Namespace?.StartsWith("Geotab") == true &&
     type.GetProperties().Length > 0;
 
-  bool IsValidNamedType(Type type) =>
+  public static bool IsValidNamedType(Type type) =>
     Regex.IsMatch(type.Name, @"^[$_\p{Lu}\p{Ll}\p{Lt}\p{Lm}\p{Lo}\p{Nl}]+[$_\p{Lu}\p{Ll}\p{Lt}\p{Lm}\p{Lo}\p{Nl}\p{Mn}\p{Mc}\p{Nd}\p{Pc}]*$");
 }

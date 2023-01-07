@@ -14,7 +14,7 @@ export type MessageContentType =
   | "IoxOutput"
   | "Beep"
   | "SerialIox"
-  | "DriverWhiteList"
+  | "DriverAuthList"
   | "MimeContent"
   | "CAN"
   | "PassthroughEnabledMessage"

@@ -29,6 +29,8 @@ export interface HosRulesetConfigParameters {
   logRetentionDays: number;
   /** Gets or sets a value indicating whether there is an oil well exemption or not. */
   oilwell: boolean;
+  /** Gets or sets a value indicating whether there is an railroad exemption or not. */
+  railroadExempt: boolean;
   /** Gets or sets a value indicating whether a reset previous cycle is true. */
   resetPreviousCycle: boolean;
   /** Gets or sets the {@link HosRulesetRestConfig}. */

@@ -7,7 +7,10 @@ import { DeviceSearch } from "./DeviceSearch";
 import { UserSearch } from "./UserSearch";
 import { DriverChangeType } from "./DriverChangeType";
 
-/** The object used to specify the arguments when searching for a {@link DriverChange}. */
+/**
+ * The object used to specify the arguments when searching for a {@link DriverChange}.
+ *  This search defaults to searching {@link DriverChange}(s) by {@link Driver} Id when no {@link DeviceSearch} is provided.
+ */
 export interface DriverChangeSearch extends Search {
   /**
    * Gets or sets filter by the {@link DeviceSearch} options. Providing a device ID will

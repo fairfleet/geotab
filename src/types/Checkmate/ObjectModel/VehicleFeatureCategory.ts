@@ -17,5 +17,7 @@ export type VehicleFeatureCategory =
   | "GoActive"
   | "OBDPresent"
   | "OBDEnabled"
+  | "ContinuousConnect"
+  | "IOX_CarShare"
   | "GarminHos"
   | "GeotabDriveHos";

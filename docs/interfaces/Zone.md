@@ -41,7 +41,7 @@ Gets or sets the date indicating when this zone begins it's active lifespan. Def
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L13)
+[src/types/Checkmate/ObjectModel/Zone.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L13)
 
 ___
 
@@ -53,7 +53,7 @@ Gets or sets the date indicating when this zone finishes it's active lifespan. D
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L15)
+[src/types/Checkmate/ObjectModel/Zone.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L15)
 
 ___
 
@@ -65,7 +65,7 @@ Gets the latitude coordinate of the zone's centroid.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L17)
+[src/types/Checkmate/ObjectModel/Zone.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L17)
 
 ___
 
@@ -77,7 +77,7 @@ Gets the longitude coordinate of the zone's centroid.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L19)
+[src/types/Checkmate/ObjectModel/Zone.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L19)
 
 ___
 
@@ -89,7 +89,7 @@ Gets or sets a free text field where any user information can be stored and refe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L21)
+[src/types/Checkmate/ObjectModel/Zone.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L21)
 
 ___
 
@@ -101,7 +101,7 @@ Gets or sets a value indicating whether this zone must be displayed when viewing
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L23)
+[src/types/Checkmate/ObjectModel/Zone.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L23)
 
 ___
 
@@ -113,7 +113,7 @@ Gets the zone's extent.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L25)
+[src/types/Checkmate/ObjectModel/Zone.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L25)
 
 ___
 
@@ -125,7 +125,7 @@ Gets or sets external Reference. Any type of external reference you would like t
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L27)
+[src/types/Checkmate/ObjectModel/Zone.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L27)
 
 ___
 
@@ -137,7 +137,7 @@ Gets or sets the [Color](Color.md) of the fill for this zone when showing on a m
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L29)
+[src/types/Checkmate/ObjectModel/Zone.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L29)
 
 ___
 
@@ -149,7 +149,7 @@ Gets or sets the group(s) this zone belongs to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L31)
+[src/types/Checkmate/ObjectModel/Zone.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L31)
 
 ___
 
@@ -165,7 +165,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L33)
+[src/types/Checkmate/ObjectModel/Zone.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L33)
 
 ___
 
@@ -177,7 +177,7 @@ Gets or sets whether this zone name must be shown when devices stop in this zone
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L35)
+[src/types/Checkmate/ObjectModel/Zone.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L35)
 
 ___
 
@@ -193,7 +193,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L37)
+[src/types/Checkmate/ObjectModel/Zone.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L37)
 
 ___
 
@@ -209,7 +209,7 @@ It is possible to add a zone with an unclosed set of points but the points will 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:43](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L43)
+[src/types/Checkmate/ObjectModel/Zone.ts:43](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L43)
 
 ___
 
@@ -225,7 +225,7 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
 
 ___
 
@@ -237,4 +237,4 @@ Gets or sets the list of [ZoneType](ZoneType.md)(s) this zone belongs to. Defaul
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Zone.ts:45](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Zone.ts#L45)
+[src/types/Checkmate/ObjectModel/Zone.ts:45](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Zone.ts#L45)

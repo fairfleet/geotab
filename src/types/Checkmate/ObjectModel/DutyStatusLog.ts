@@ -41,7 +41,10 @@ export interface DutyStatusLog extends EntityWithVersion {
   editDateTime: Date;
   /** Gets or sets the {@link User} that requested an edit to this log. */
   editRequestedByUser: User;
-  /** Gets or sets the engine hours for the {@link DutyStatusLog.Device} at the {@link DutyStatusLog.DateTime} of this log. */
+  /**
+   * Gets or sets the engine hours for the {@link DutyStatusLog.Device} at the {@link DutyStatusLog.DateTime} of this log. The unit
+   *  is seconds (not hours).
+   */
   engineHours: number;
   /** Gets or sets the event checksum of this log. */
   eventCheckSum: number;

@@ -18,7 +18,6 @@ The object used to specify the arguments when searching for [MimeTask](MimeTask.
 - [id](MimeTaskSearch.md#id)
 - [isComplete](MimeTaskSearch.md#iscomplete)
 - [mimeTaskType](MimeTaskSearch.md#mimetasktype)
-- [propertySelector](MimeTaskSearch.md#propertyselector)
 - [toDate](MimeTaskSearch.md#todate)
 - [version](MimeTaskSearch.md#version)
 
@@ -32,7 +31,7 @@ Gets or sets search for mime tasks that were recorded at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L11)
+[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L11)
 
 ___
 
@@ -48,7 +47,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -60,7 +59,7 @@ Gets or sets a value indicating whether the task is completed.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L13)
+[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L13)
 
 ___
 
@@ -72,23 +71,7 @@ Gets or sets search for mime tasks of a specific type (application/mdf4, etc). S
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L15)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L15)
 
 ___
 
@@ -100,7 +83,7 @@ Gets or sets search for mime tasks that were recorded before this date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L17)
 
 ___
 
@@ -116,4 +99,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

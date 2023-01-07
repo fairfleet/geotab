@@ -44,7 +44,7 @@ Gets or sets the diagnostic parameter code number.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L22)
+[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L22)
 
 ___
 
@@ -56,7 +56,7 @@ Gets or sets the applicable [Controller](Controller.md) for the diagnostic param
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L24)
+[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L24)
 
 ___
 
@@ -68,7 +68,7 @@ Gets or sets the [DiagnosticType](../README.md#diagnostictype) (source) of the d
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L26)
+[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L26)
 
 ___
 
@@ -81,7 +81,7 @@ Gets or sets the [EngineType](EngineType.md) for this diagnostic if
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L31)
+[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L31)
 
 ___
 
@@ -93,7 +93,7 @@ Gets or sets the [FaultResetMode](../README.md#faultresetmode) of the diagnostic
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L33)
+[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L33)
 
 ___
 
@@ -109,7 +109,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L35)
+[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L35)
 
 ___
 
@@ -121,7 +121,7 @@ Gets or sets the value which describes if the diagnostic guarantees it will log 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L37)
+[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L37)
 
 ___
 
@@ -133,7 +133,7 @@ Gets a value indicating whether the diagnostic is readonly
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L39)
+[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:39](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L39)
 
 ___
 
@@ -149,7 +149,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L41)
+[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:41](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L41)
 
 ___
 
@@ -161,7 +161,7 @@ Gets or sets the [Source](Source.md) for the diagnostic (the type of diagnostic 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:43](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L43)
+[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:43](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L43)
 
 ___
 
@@ -173,7 +173,7 @@ Gets the tampering diagnostic codes.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:45](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L45)
+[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:45](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L45)
 
 ___
 
@@ -185,7 +185,7 @@ Gets or sets the [UnitOfMeasure](UnitOfMeasure.md) applicable to the diagnostic 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:47](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L47)
+[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:47](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L47)
 
 ___
 
@@ -197,7 +197,7 @@ Gets or sets the Diagnostic.ValidLoggingPeriod. The diagnostic should only be in
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:49](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L49)
+[src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts:49](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/Diagnostic.ts#L49)
 
 ___
 
@@ -213,4 +213,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)

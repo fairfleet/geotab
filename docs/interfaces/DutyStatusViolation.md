@@ -29,7 +29,7 @@ Gets or sets the maximum or minimum days limit of the duty status violation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L13)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L13)
 
 ___
 
@@ -41,7 +41,7 @@ Gets or sets the [User](User.md) associated with the duty status violation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L15)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L15)
 
 ___
 
@@ -53,7 +53,7 @@ Gets or sets the driving duration of the duty status violation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L17)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L17)
 
 ___
 
@@ -65,7 +65,7 @@ Gets or sets the date and time that the duty status violation started.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L19)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L19)
 
 ___
 
@@ -77,7 +77,7 @@ Gets or sets the maximum or minimum hours limit of the duty status violation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L21)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L21)
 
 ___
 
@@ -89,7 +89,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L23)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L23)
 
 ___
 
@@ -101,7 +101,7 @@ Gets or sets the log Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L25)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L25)
 
 ___
 
@@ -113,7 +113,7 @@ Gets or sets the stated reason why the duty status violation occurred.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L27)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L27)
 
 ___
 
@@ -125,7 +125,7 @@ Gets or sets the date and time that the duty status violation ended.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L29)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L29)
 
 ___
 
@@ -137,4 +137,4 @@ Gets or sets the [DutyStatusViolationType](../README.md#dutystatusviolationtype)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L31)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L31)

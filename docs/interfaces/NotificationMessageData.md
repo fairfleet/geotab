@@ -6,7 +6,7 @@ The message data associated with a notification.
 
 ## Hierarchy
 
-- [`NotificationData`](../README.md#notificationdata)
+- [`NotificationData`](NotificationData.md)
 
   ↳ **`NotificationMessageData`**
 
@@ -29,11 +29,11 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Inherited from
 
-NotificationData.id
+[NotificationData](NotificationData.md).[id](NotificationData.md#id)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -45,7 +45,7 @@ Gets or sets the information.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationMessageData.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationMessageData.ts#L10)
+[src/types/Checkmate/ObjectModel/NotificationMessageData.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationMessageData.ts#L10)
 
 ___
 
@@ -57,7 +57,7 @@ Gets or sets the machine name pertaining to the relevant information.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationMessageData.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationMessageData.ts#L12)
+[src/types/Checkmate/ObjectModel/NotificationMessageData.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationMessageData.ts#L12)
 
 ___
 
@@ -69,4 +69,4 @@ Gets or sets what is the source of the application exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationMessageData.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationMessageData.ts#L14)
+[src/types/Checkmate/ObjectModel/NotificationMessageData.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationMessageData.ts#L14)

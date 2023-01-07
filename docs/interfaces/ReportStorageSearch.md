@@ -18,7 +18,6 @@ The object used to specify the arguments when searching for [ReportStorage](Repo
 - [id](ReportStorageSearch.md#id)
 - [includeBinaryData](ReportStorageSearch.md#includebinarydata)
 - [maxRowVersion](ReportStorageSearch.md#maxrowversion)
-- [propertySelector](ReportStorageSearch.md#propertyselector)
 - [version](ReportStorageSearch.md#version)
 
 ## Properties
@@ -31,7 +30,7 @@ Gets or sets a value indicating whether to retrieve the [ReportStorage](ReportSt
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorageSearch.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportStorageSearch.ts#L10)
+[src/types/Checkmate/ObjectModel/ReportStorageSearch.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorageSearch.ts#L10)
 
 ___
 
@@ -47,7 +46,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -59,7 +58,7 @@ Gets or sets a value indicating whether the binary data field of the report stor
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorageSearch.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportStorageSearch.ts#L12)
+[src/types/Checkmate/ObjectModel/ReportStorageSearch.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorageSearch.ts#L12)
 
 ___
 
@@ -71,23 +70,7 @@ Gets or sets the max row version to retrieve a [ReportStorage](ReportStorage.md)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorageSearch.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ReportStorageSearch.ts#L14)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/ReportStorageSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorageSearch.ts#L14)
 
 ___
 
@@ -103,4 +86,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

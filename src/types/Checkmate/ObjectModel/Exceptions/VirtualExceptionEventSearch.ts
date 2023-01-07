@@ -8,4 +8,4 @@ import { ExceptionEventSearch } from "./ExceptionEventSearch";
  *  The object used to specify the arguments when searching for {@link VirtualExceptionEvent}.
  *  This search has been designed to work efficiently with these combinations of parameters:<list><item><description>Id</description></item><item><description>DeviceSearch + RuleSearch + FromDate and/or ToDate</description></item></list>
  */
-export type VirtualExceptionEventSearch = ExceptionEventSearch
+export interface VirtualExceptionEventSearch extends ExceptionEventSearch {}

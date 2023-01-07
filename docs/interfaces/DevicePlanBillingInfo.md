@@ -21,7 +21,7 @@ Gets or sets the Billing Level.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DevicePlanBillingInfo.ts:8](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DevicePlanBillingInfo.ts#L8)
+[src/types/Checkmate/ObjectModel/DevicePlanBillingInfo.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DevicePlanBillingInfo.ts#L8)
 
 ___
 
@@ -33,4 +33,4 @@ Gets or sets the name of the Device Plan name.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DevicePlanBillingInfo.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DevicePlanBillingInfo.ts#L10)
+[src/types/Checkmate/ObjectModel/DevicePlanBillingInfo.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DevicePlanBillingInfo.ts#L10)

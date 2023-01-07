@@ -47,4 +47,5 @@ export type ReportDataSource =
   | "HosAvailability"
   | "ChargeEvent"
   | "MaterialManagement"
-  | "RouteCompletion";
+  | "RouteCompletion"
+  | "EVBatteryHealth";

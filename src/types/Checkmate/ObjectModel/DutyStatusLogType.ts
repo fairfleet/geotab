@@ -49,4 +49,5 @@ export type DutyStatusLogType =
   | "INT_CoDriver"
   | "Work"
   | "Rest"
-  | "WorkExemption";
+  | "WorkExemption"
+  | "RailroadExemption";

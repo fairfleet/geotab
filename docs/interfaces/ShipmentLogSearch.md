@@ -23,7 +23,6 @@ The object used to specify the arguments when searching for
 - [keywords](ShipmentLogSearch.md#keywords)
 - [maxVersion](ShipmentLogSearch.md#maxversion)
 - [minVersion](ShipmentLogSearch.md#minversion)
-- [propertySelector](ShipmentLogSearch.md#propertyselector)
 - [shipperName](ShipmentLogSearch.md#shippername)
 - [toDate](ShipmentLogSearch.md#todate)
 - [userSearch](ShipmentLogSearch.md#usersearch)
@@ -39,7 +38,7 @@ Gets or sets search for ShipmentLogs with this commodity. Wildcard can be used b
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L15)
+[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L15)
 
 ___
 
@@ -53,7 +52,7 @@ Gets or sets search for ShipmentLogs for this [DeviceSearch](DeviceSearch.md) Id
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L21)
 
 ___
 
@@ -65,7 +64,7 @@ Gets or sets search for ShipmentLogs with this document number. Wildcard can be 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L23)
+[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L23)
 
 ___
 
@@ -78,7 +77,7 @@ Gets or sets search for ShipmentLogs that were active at this date or after. Set
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:28](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L28)
+[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L28)
 
 ___
 
@@ -94,7 +93,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -106,7 +105,7 @@ Gets or sets search for entities that contain specific keywords in all wildcard 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:30](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L30)
+[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L30)
 
 ___
 
@@ -121,7 +120,7 @@ Gets or sets
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:37](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L37)
+[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L37)
 
 ___
 
@@ -136,23 +135,7 @@ Gets or sets
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:44](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L44)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:44](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L44)
 
 ___
 
@@ -164,7 +147,7 @@ Gets or sets search for ShipmentLogs with this shipper name. Wildcard can be use
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:46](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L46)
+[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:46](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L46)
 
 ___
 
@@ -176,7 +159,7 @@ Gets or sets search for ShipmentLogs that were active at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:48](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L48)
+[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:48](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L48)
 
 ___
 
@@ -190,7 +173,7 @@ Gets or sets search for ShipmentLogs with this [UserSearch](UserSearch.md) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:54](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L54)
+[src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts:54](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ShipmentLogSearch.ts#L54)
 
 ___
 
@@ -206,4 +189,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

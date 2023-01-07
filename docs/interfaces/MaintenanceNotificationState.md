@@ -35,7 +35,7 @@ Gets or sets the notification data attached to this state
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L17)
+[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L17)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets the date on which the notification was last issued.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L19)
+[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L19)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets the due days at the time the notification was last issued.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L21)
+[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L21)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L25)
+[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L25)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets the due engine hours at the time the notification was last issued.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L27)
+[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L27)
 
 ___
 
@@ -99,7 +99,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -111,7 +111,7 @@ Gets or sets the associated MaintenanceNotificaitonRule [MaintenanceNotification
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L29)
+[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L29)
 
 ___
 
@@ -123,4 +123,4 @@ Gets or sets the due kilometers at the time the notification was last issued.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L31)
+[src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MaintenanceNotificationState.ts#L31)

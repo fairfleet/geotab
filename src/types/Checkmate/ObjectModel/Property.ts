@@ -5,13 +5,14 @@
 import { EntityWithVersion } from "./EntityWithVersion";
 import { SupportedPropertyType } from "./SupportedPropertyType";
 import { PropertySet } from "./PropertySet";
+import { CustomPropertyEntityType } from "./CustomPropertyEntityType";
 
 /** The custom property of an entity that is customizable. */
 export interface Property extends EntityWithVersion {
+  /** Gets or sets the entity types supported by the Property. */
+  entityTypes: CustomPropertyEntityType[];
   /** Gets or sets the External Reference of the Property. */
   externalReference: string;
-  /** Gets or sets a value indicating whether the Property needs to be populated or not before the entity can be saved. */
-  isRequired: boolean;
   /** Gets or sets a value indicating whether the Property is visible or not to the UI. */
   isVisible: boolean;
   /** Gets or sets the maximum length of the Property. */

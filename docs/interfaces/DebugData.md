@@ -33,7 +33,7 @@ Gets or sets the binary data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DebugData.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DebugData.ts#L17)
+[src/types/Checkmate/ObjectModel/DebugData.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DebugData.ts#L17)
 
 ___
 
@@ -45,7 +45,7 @@ Gets or sets the date and time the DebugData log was created.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DebugData.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DebugData.ts#L19)
+[src/types/Checkmate/ObjectModel/DebugData.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DebugData.ts#L19)
 
 ___
 
@@ -57,7 +57,7 @@ Gets or sets the DebugReason; used for troubleshooting/debugging purposes only.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DebugData.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DebugData.ts#L21)
+[src/types/Checkmate/ObjectModel/DebugData.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DebugData.ts#L21)
 
 ___
 
@@ -69,7 +69,7 @@ Gets or sets the [Device](Device.md) associated with the vehicle.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DebugData.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DebugData.ts#L23)
+[src/types/Checkmate/ObjectModel/DebugData.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DebugData.ts#L23)
 
 ___
 
@@ -81,7 +81,7 @@ Gets or sets the [Driver](Driver.md) of the vehicle at the time the DebugData lo
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DebugData.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DebugData.ts#L25)
+[src/types/Checkmate/ObjectModel/DebugData.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DebugData.ts#L25)
 
 ___
 
@@ -97,4 +97,4 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)

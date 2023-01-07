@@ -31,8 +31,12 @@ export interface EventRuleSearch extends Search {
    *  <list><item><description>Id</description></item></list>
    */
   groups: GroupSearch[];
+  /** Gets or sets a value indicating whether to include vehicle asset counts for the returned event rules. */
+  includeAssetCounts: boolean;
   /** Gets or sets a value indicating how to filter on Group. */
   includeGroups: IncludeGroups;
+  /** Gets or sets a value indicating whether to include maintenance type information in the results. */
+  includeMaintenanceTypeInfo: boolean;
   /** Gets or sets a value indicating whether to filter for EventRules that have the kilometers recurrence field populated. */
   kilometers: boolean;
   /** Gets or sets a value indicating whether to filter for EventRules that have the months recurrence field populated. */
@@ -43,4 +47,6 @@ export interface EventRuleSearch extends Search {
   nonRepeating: boolean;
   /** Gets or sets a value indicating whether to filter for EventRules that are set to generate recurring events. */
   repeats: boolean;
+  /** Gets or sets a value indicating whether to filter for EventRules that have the weeks recurrence field populated. */
+  weeks: boolean;
 }

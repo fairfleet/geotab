@@ -17,7 +17,6 @@ The object used to specify the arguments when searching for a [ChargeEvent](Char
 - [deviceSearch](ChargeEventSearch.md#devicesearch)
 - [fromDate](ChargeEventSearch.md#fromdate)
 - [id](ChargeEventSearch.md#id)
-- [propertySelector](ChargeEventSearch.md#propertyselector)
 - [toDate](ChargeEventSearch.md#todate)
 - [version](ChargeEventSearch.md#version)
 
@@ -35,7 +34,7 @@ Gets or sets filter by the [DeviceSearch](DeviceSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L17)
 
 ___
 
@@ -47,7 +46,7 @@ Gets or sets the from date, which is used to search for ChargeEvent(s) recorded 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L19)
 
 ___
 
@@ -63,23 +62,7 @@ Gets or sets the id, which is used to search for a Event record. Id cannot be us
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L21)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L21)
 
 ___
 
@@ -91,7 +74,7 @@ Gets or sets the to date, which is used to search for ChargeEvent(s) recorded on
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L23)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L23)
 
 ___
 
@@ -107,4 +90,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

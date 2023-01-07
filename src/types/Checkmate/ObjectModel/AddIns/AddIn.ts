@@ -3,6 +3,14 @@
 //     the code is regenerated.
 
 import { Entity } from "../Entity";
+import { AddInConfiguration } from "./AddInConfiguration";
 
 /** Represents populated MyGeotab addin. */
-export type AddIn = Entity
+export interface AddIn extends Entity {
+  /** Gets or sets addin Configuration */
+  configuration: AddInConfiguration;
+  /** Gets or sets addin error message */
+  errorMessage: string;
+  /** Gets or sets addin Url */
+  url: string;
+}

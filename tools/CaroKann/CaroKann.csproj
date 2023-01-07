@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Reinforced.Typings" Version="1.6.1" />
-    <PackageReference Include="Geotab.Checkmate.ObjectModel" Version="7.0.0" GeneratePathProperty="true" />
+    <PackageReference Include="Geotab.Checkmate.ObjectModel" Version="10.0.0-preview1" GeneratePathProperty="true" />
   </ItemGroup>
 
   <ItemGroup>

@@ -6,7 +6,7 @@ The notification data pertaining to Exception Rules.
 
 ## Hierarchy
 
-- [`NotificationData`](../README.md#notificationdata)
+- [`NotificationData`](NotificationData.md)
 
   ↳ **`NotificationExceptionData`**
 
@@ -29,7 +29,7 @@ Gets or sets the exception event that holds the data for this notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionData.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationExceptionData.ts#L12)
+[src/types/Checkmate/ObjectModel/NotificationExceptionData.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationExceptionData.ts#L12)
 
 ___
 
@@ -41,11 +41,11 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Inherited from
 
-NotificationData.id
+[NotificationData](NotificationData.md).[id](NotificationData.md#id)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -57,7 +57,7 @@ Gets or sets the information for the notification exception data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionData.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationExceptionData.ts#L14)
+[src/types/Checkmate/ObjectModel/NotificationExceptionData.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationExceptionData.ts#L14)
 
 ___
 
@@ -69,4 +69,4 @@ Gets or sets the [NotificationType](../README.md#notificationtype) of the notifi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionData.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NotificationExceptionData.ts#L16)
+[src/types/Checkmate/ObjectModel/NotificationExceptionData.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationExceptionData.ts#L16)

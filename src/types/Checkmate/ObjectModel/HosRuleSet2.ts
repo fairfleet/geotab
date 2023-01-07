@@ -5,4 +5,4 @@
 import { Entity } from "./Entity";
 
 /** Hos Ruleset. */
-export type HosRuleSet2 = Entity
+export interface HosRuleSet2 extends Entity {}

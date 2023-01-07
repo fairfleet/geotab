@@ -9,10 +9,18 @@ import { NotificationBinaryFile } from "./NotificationBinaryFile";
 
 /** The rule describing an event. */
 export interface EventRule extends NameEntity {
+  /** Gets or sets the number of assets associated with this event rule. */
+  assetCount: number;
   /** Gets or sets free text field where any user information can be stored and referenced for this entity. */
   comment: string;
   /** Gets or sets the {@link EventRule.DateTime} of the event. */
   dateTime: Date;
+  /** Gets or sets the day of month. */
+  dayOfMonth: number;
+  /** Gets or sets the day of week. */
+  dayOfWeek: number;
+  /** Gets or sets the day of week name. */
+  dayOfWeekName: string;
   /** Gets or sets the days. */
   days: number;
   /** Gets or sets the engine hours. */
@@ -33,4 +41,6 @@ export interface EventRule extends NameEntity {
   name: string;
   /** Gets or sets the notification template {@link NotificationBinaryFile} for the event. */
   notificationTemplate: NotificationBinaryFile;
+  /** Gets or sets the weeks. */
+  weeks: number;
 }

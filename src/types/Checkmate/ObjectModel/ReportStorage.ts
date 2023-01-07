@@ -4,6 +4,8 @@
 
 import { EntityWithVersion } from "./EntityWithVersion";
 import { DateRange } from "./DateRange";
+import { ReportDestination } from "./ReportDestination";
+import { ReportProcessingStatus } from "./ReportProcessingStatus";
 
 /** Stores the binary data for a generate excel report. */
 export interface ReportStorage extends EntityWithVersion {
@@ -11,10 +13,25 @@ export interface ReportStorage extends EntityWithVersion {
   binaryData: number[];
   /** Gets or sets a {@link DateTime} of when the report was generated. */
   creationDate: Date;
-  /** Gets or sets the start of the reports date range. */
+  /** Gets or sets the dashboard instance of the drop down report request. */
+  dashboardInstance: any;
+  /** Gets or sets the expiry date of the report in the storage. */
+  expiry: Date;
+  /**
+   * Gets or sets the datetime when the report was known to be processing or finished processing.
+   *  This property is updated periodically like a heart beat when a report is getting processed by the service.
+   */
+  lastUpdated: Date;
+  /** Gets or sets the reports date range. */
   reportDateRange: DateRange;
   /** Gets or sets the name of the report. */
   reportName: string;
-  /** Gets or sets the type of the report. */
+  /** Gets or sets the source of the report whether it's dropdown or email {@link ReportDestination}. */
+  reportSource: ReportDestination;
+  /** Gets or sets the type of the report whether it's pdf or excel. */
   reportType: string;
+  /** Gets or sets the size (bytes) of the report. */
+  size: number;
+  /** Gets or sets the current status of the report which is being prepared, completed or failed {@link ReportProcessingStatus}. */
+  status: ReportProcessingStatus;
 }

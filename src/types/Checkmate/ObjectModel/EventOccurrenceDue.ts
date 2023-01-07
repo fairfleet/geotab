@@ -25,10 +25,20 @@ export interface EventOccurrenceDue extends Entity {
    * @inheritdoc
    */
   id: string;
+  /** Gets or sets if snoozed is currently active */
+  isActiveSnooze: boolean;
+  /** Gets or sets if snoozed has not been deactivated */
+  isSnoozed: boolean;
   /** Gets or sets the number of days the event is overdue by. */
   overdueByDays: number;
   /** Gets or sets the engine hours the event is overdue by. */
   overdueByEngineHours: string;
   /** Gets or sets the odometer the event is overdue by. */
   overdueByOdometer: number;
+  /** Gets or sets the date snoozed */
+  snoozedDate: Date;
+  /** Gets or sets the date the snoozed is due */
+  snoozedDueOn: Date;
+  /** Gets or sets the snoozed duration */
+  snoozeDuration: number;
 }

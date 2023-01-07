@@ -49,6 +49,8 @@ export interface DeviceSearch extends Search {
    *  Device, and will be updated whether it is classified as valid or invalid.
    */
   engineVehicleIdentificationNumber: string;
+  /** Gets or sets filter for {@link UntrackedAsset}. */
+  excludeUntrackedAssets: boolean;
   /**
    * Gets or sets search for Devices that were active at this date or after. Set to UTC now to search for
    *  only currently active (non-archived) devices.

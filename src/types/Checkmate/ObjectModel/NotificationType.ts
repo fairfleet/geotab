@@ -13,4 +13,6 @@ export type NotificationType =
   | "MessageForUser"
   | "UserModified"
   | "ApplicationNotificationForAdmins"
-  | "MaintenanceNotification";
+  | "MaintenanceNotification"
+  | "DeviceShareNotification"
+  | "Report";

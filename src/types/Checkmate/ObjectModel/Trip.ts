@@ -15,17 +15,17 @@ import { Driver } from "./Driver";
  *  driven again; which then starts the next trip.
  */
 export interface Trip extends Entity {
-  /** Gets the distance the vehicle was driven after work hours (in km). */
+  /** Gets or sets the distance the vehicle was driven after work hours (in km). */
   afterHoursDistance: number;
-  /** Gets the duration the vehicle was driven after work hours. */
+  /** Gets or sets the duration the vehicle was driven after work hours. */
   afterHoursDrivingDuration: string;
   /** Gets or sets whether the trip ends after hours. */
   afterHoursEnd: boolean;
   /** Gets or sets whether the trip starts after hours. */
   afterHoursStart: boolean;
-  /** Gets the duration the vehicle was stopped after work hours. */
+  /** Gets or sets the duration the vehicle was stopped after work hours. */
   afterHoursStopDuration: string;
-  /** Gets average speed in km/h. This only includes the average speed while driving. */
+  /** Gets or sets the average speed in km/h. This only includes the average speed while driving. */
   averageSpeed: number;
   /**
    * Gets the trip date time.
@@ -54,7 +54,7 @@ export interface Trip extends Entity {
   isSeatBeltOff: boolean;
   /** Gets or sets the maximum speed of the vehicle during this trip (in km/h). */
   maximumSpeed: number;
-  /** Gets the start date of the next trip. */
+  /** Gets or sets the start date of the next trip. */
   nextTripStart: Date;
   /** Gets or sets a value indicating the vehicle odometer value as of the end of the trip (in meters). */
   odometer: number;

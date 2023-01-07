@@ -23,7 +23,6 @@ The object used to specify the arguments when searching for a
 - [groupFilterCondition](FaultDataSearch.md#groupfiltercondition)
 - [groups](FaultDataSearch.md#groups)
 - [id](FaultDataSearch.md#id)
-- [propertySelector](FaultDataSearch.md#propertyselector)
 - [state](FaultDataSearch.md#state)
 - [toDate](FaultDataSearch.md#todate)
 - [version](FaultDataSearch.md#version)
@@ -41,7 +40,7 @@ Gets or sets the search options which are used to search for fault data for a co
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L25)
+[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L25)
 
 ___
 
@@ -49,14 +48,14 @@ ___
 
 • **deviceSearch**: [`DeviceSearch`](DeviceSearch.md)
 
-Gets or sets the search options which are used to search for fault data for a device
- [DeviceSearch](DeviceSearch.md)
- by Id. Available DeviceSearch options are:.
- <list><item><description>Id</description></item></list>
+Gets or sets search for [FaultData](FaultData.md)(s) from a device that matches the
+ [DeviceSearch](DeviceSearch.md) Id or in the Groups specified. This includes archived and deleted devices.
+ Available DeviceSearch options are:.
+ <list><item><description>Id</description></item><item><description>Groups</description></item></list>
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:32](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L32)
+[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L32)
 
 ___
 
@@ -71,7 +70,7 @@ Gets or sets search for FaultData recorded for the diagnostic code using the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:39](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L39)
+[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:39](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L39)
 
 ___
 
@@ -83,7 +82,7 @@ Gets or sets the from date. The FaultData logs are searched for events which wer
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L41)
+[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:41](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L41)
 
 ___
 
@@ -95,7 +94,7 @@ Gets or sets for fault data group list search.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:43](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L43)
+[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:43](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L43)
 
 ___
 
@@ -110,7 +109,7 @@ Gets or sets the groups which should be searched.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:50](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L50)
+[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:50](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L50)
 
 ___
 
@@ -126,23 +125,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -154,7 +137,7 @@ Gets or sets the to state of the fault. The Fault data logs are searched for eve
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:52](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L52)
+[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:52](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L52)
 
 ___
 
@@ -166,7 +149,7 @@ Gets or sets the to date. The Fault data logs are searched for events which were
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:54](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L54)
+[src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts:54](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultDataSearch.ts#L54)
 
 ___
 
@@ -182,4 +165,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

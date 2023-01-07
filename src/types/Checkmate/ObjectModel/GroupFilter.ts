@@ -5,7 +5,10 @@
 import { NameEntity } from "./NameEntity";
 import { GroupFilterCondition } from "./GroupFilterCondition";
 
-/** Advanced Group Filter */
+/**
+ * GroupFilter can be used to specify the type of operator (AND and OR) to use when searching for entities.
+ *  The GroupsFilter option allows you to use more than one type of operator when searching for a specific group.
+ */
 export interface GroupFilter extends NameEntity {
   /** Gets or sets the comments */
   comments: string;

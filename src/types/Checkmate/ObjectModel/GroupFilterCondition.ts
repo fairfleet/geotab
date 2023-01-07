@@ -3,21 +3,24 @@
 //     the code is regenerated.
 
 import { Search } from "./Search";
-import { GroupSearchRelation } from "./GroupSearchRelation";
+import { SearchRelation } from "./SearchRelation";
 import { IncludeGroups } from "./IncludeGroups";
 
-/** Group search list */
+/**
+ * GroupFilterCondition model the logic that govern a {@link GroupFilter} and can be used to specify the type of operator (AND and OR) to use when searching for entities.
+ *  GroupFilterCondition are structured in hierarchical tree.
+ */
 export interface GroupFilterCondition extends Search {
-  /** Gets or sets the groups */
+  /** Gets or sets the groups. */
   groupFilterConditions: GroupFilterCondition[];
-  /** Gets or sets Parent */
+  /** Gets or sets Parent. */
   groupFilterId: string;
-  /** Gets or sets group id */
+  /** Gets or sets group id. */
   groupId: string;
-  /** Gets or sets IncludeGroups for ZoneSearch only */
+  /** Gets or sets IncludeGroups for ZoneSearch only. */
   includeGroups: IncludeGroups;
-  /** Gets or sets Parent */
+  /** Gets or sets Parent. */
   parent: GroupFilterCondition;
-  /** Gets or sets how to search the group relations */
-  relation: GroupSearchRelation;
+  /** Gets or sets how to search the group relations. */
+  relation: SearchRelation;
 }

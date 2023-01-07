@@ -11,6 +11,8 @@ The object used to specify the arguments when searching for [ExceptionEvent](Exc
 
   ↳ **`ExceptionEventSearch`**
 
+  ↳↳ [`VirtualExceptionEventSearch`](VirtualExceptionEventSearch.md)
+
 ## Table of contents
 
 ### Properties
@@ -18,10 +20,10 @@ The object used to specify the arguments when searching for [ExceptionEvent](Exc
 - [deviceSearch](ExceptionEventSearch.md#devicesearch)
 - [fromDate](ExceptionEventSearch.md#fromdate)
 - [id](ExceptionEventSearch.md#id)
+- [includeDismissedEvents](ExceptionEventSearch.md#includedismissedevents)
 - [includeInvalidated](ExceptionEventSearch.md#includeinvalidated)
 - [includeMetadata](ExceptionEventSearch.md#includemetadata)
 - [maxVersion](ExceptionEventSearch.md#maxversion)
-- [propertySelector](ExceptionEventSearch.md#propertyselector)
 - [ruleSearch](ExceptionEventSearch.md#rulesearch)
 - [toDate](ExceptionEventSearch.md#todate)
 - [userSearch](ExceptionEventSearch.md#usersearch)
@@ -43,7 +45,7 @@ Gets or sets filter by the [DeviceSearch](DeviceSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:24](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L24)
 
 ___
 
@@ -55,7 +57,7 @@ Gets or sets search for Exception Events that occurred at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:26](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L26)
 
 ___
 
@@ -71,7 +73,19 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+
+___
+
+### includeDismissedEvents
+
+• **includeDismissedEvents**: `boolean`
+
+Gets or sets include dismissed events.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L28)
 
 ___
 
@@ -84,7 +98,7 @@ Gets or sets search for [ExceptionEvent](ExceptionEvent.md)s that have been inva
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:31](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L31)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L33)
 
 ___
 
@@ -96,7 +110,7 @@ Gets or sets the flag to include metadata.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L33)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L35)
 
 ___
 
@@ -109,23 +123,7 @@ Gets or sets the maximum row version of the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:38](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L38)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:40](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L40)
 
 ___
 
@@ -140,7 +138,7 @@ Gets or sets filter by the [RuleSearch](RuleSearch.md) options. Providing a Rule
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:45](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L45)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:47](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L47)
 
 ___
 
@@ -152,7 +150,7 @@ Gets or sets search for Exception Events that occurred at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:47](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L47)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:49](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L49)
 
 ___
 
@@ -170,7 +168,7 @@ Gets or sets the filter by the [UserSearch](UserSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:57](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L57)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:59](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L59)
 
 ___
 
@@ -187,7 +185,7 @@ Gets or sets the row version of the [ExceptionEvent](ExceptionEvent.md)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:62](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L62)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:64](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L64)
 
 ___
 
@@ -204,4 +202,4 @@ Gets or sets filter by the [ZoneSearch](ZoneSearch.md) options.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:71](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L71)
+[src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts:73](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/ExceptionEventSearch.ts#L73)

@@ -31,7 +31,7 @@ Gets or sets free text field where any user information can be stored and refere
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trailer.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trailer.ts#L14)
+[src/types/Checkmate/ObjectModel/Trailer.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Trailer.ts#L14)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets the list of trailer groups.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trailer.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trailer.ts#L16)
+[src/types/Checkmate/ObjectModel/Trailer.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Trailer.ts#L16)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets the unique Id of the trailer.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trailer.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trailer.ts#L18)
+[src/types/Checkmate/ObjectModel/Trailer.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Trailer.ts#L18)
 
 ___
 
@@ -75,7 +75,7 @@ Gets or sets the name of the trailer. Maximum length [255].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Trailer.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Trailer.ts#L20)
+[src/types/Checkmate/ObjectModel/Trailer.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Trailer.ts#L20)
 
 ___
 
@@ -91,4 +91,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)

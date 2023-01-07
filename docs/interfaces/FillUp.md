@@ -25,7 +25,7 @@ Gets or sets the volume derived from fuel tank capacity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUp.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FillUp.ts#L12)
+[src/types/Checkmate/ObjectModel/Fuel/FillUp.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUp.ts#L12)
 
 ___
 
@@ -37,7 +37,7 @@ Gets or sets the difference in fuel out vs fuel in.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUp.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FillUp.ts#L14)
+[src/types/Checkmate/ObjectModel/Fuel/FillUp.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUp.ts#L14)
 
 ___
 
@@ -49,7 +49,7 @@ Gets or sets the raw fuel transaction.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUp.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FillUp.ts#L16)
+[src/types/Checkmate/ObjectModel/Fuel/FillUp.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUp.ts#L16)
 
 ___
 
@@ -61,7 +61,7 @@ Gets or sets the fuel tank capacity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUp.ts:18](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FillUp.ts#L18)
+[src/types/Checkmate/ObjectModel/Fuel/FillUp.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUp.ts#L18)
 
 ___
 
@@ -73,7 +73,7 @@ Gets or sets the fuel tank level change.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUp.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FillUp.ts#L20)
+[src/types/Checkmate/ObjectModel/Fuel/FillUp.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUp.ts#L20)
 
 ___
 
@@ -85,4 +85,4 @@ Gets or sets the total fuel used up to this point in time.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUp.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FillUp.ts#L22)
+[src/types/Checkmate/ObjectModel/Fuel/FillUp.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUp.ts#L22)

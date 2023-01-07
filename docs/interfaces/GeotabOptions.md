@@ -27,7 +27,7 @@ The Geotab credentials to supply to each JSON-RPC call.
 
 #### Defined in
 
-[src/types/GeotabOptions.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/GeotabOptions.ts#L22)
+[src/types/GeotabOptions.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/GeotabOptions.ts#L22)
 
 ___
 
@@ -39,7 +39,7 @@ The headers to supply for each POST request.
 
 #### Defined in
 
-[src/types/GeotabOptions.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/GeotabOptions.ts#L19)
+[src/types/GeotabOptions.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/GeotabOptions.ts#L19)
 
 ___
 
@@ -51,7 +51,7 @@ The JSON-RPC call middleware to apply.
 
 #### Defined in
 
-[src/types/GeotabOptions.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/GeotabOptions.ts#L16)
+[src/types/GeotabOptions.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/GeotabOptions.ts#L16)
 
 ___
 
@@ -78,7 +78,7 @@ Converts a JavaScript Object Notation (JSON) string into an object.
 
 #### Defined in
 
-[src/types/GeotabOptions.ts:53](https://github.com/fairfleet/geotab/blob/b682f10/src/types/GeotabOptions.ts#L53)
+[src/types/GeotabOptions.ts:53](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/GeotabOptions.ts#L53)
 
 ___
 
@@ -94,7 +94,7 @@ Defaults to 1500ms
 
 #### Defined in
 
-[src/types/GeotabOptions.ts:46](https://github.com/fairfleet/geotab/blob/b682f10/src/types/GeotabOptions.ts#L46)
+[src/types/GeotabOptions.ts:46](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/GeotabOptions.ts#L46)
 
 ___
 
@@ -110,7 +110,7 @@ Defaults to 100.
 
 #### Defined in
 
-[src/types/GeotabOptions.ts:40](https://github.com/fairfleet/geotab/blob/b682f10/src/types/GeotabOptions.ts#L40)
+[src/types/GeotabOptions.ts:40](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/GeotabOptions.ts#L40)
 
 ___
 
@@ -129,7 +129,7 @@ executed immediately.
 
 #### Defined in
 
-[src/types/GeotabOptions.ts:33](https://github.com/fairfleet/geotab/blob/b682f10/src/types/GeotabOptions.ts#L33)
+[src/types/GeotabOptions.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/GeotabOptions.ts#L33)
 
 ___
 
@@ -145,4 +145,4 @@ Defaults to "https://my.geotab.com/apiv1".
 
 #### Defined in
 
-[src/types/GeotabOptions.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/GeotabOptions.ts#L13)
+[src/types/GeotabOptions.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/GeotabOptions.ts#L13)

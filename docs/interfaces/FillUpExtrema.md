@@ -19,11 +19,11 @@ Represents the extrema (minima/maxima) from a set of [StatusData](StatusData.md)
 
 • **maxima**: [`StatusData`](StatusData.md)
 
-Gets the maxima value.
+Gets or sets the maxima value.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L10)
+[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L10)
 
 ___
 
@@ -35,7 +35,7 @@ Gets or sets the maxima fuel data point for the fill up event
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L12)
+[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L12)
 
 ___
 
@@ -43,11 +43,11 @@ ___
 
 • **minima**: [`StatusData`](StatusData.md)
 
-Gets the minima value.
+Gets or sets the minima value.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L14)
+[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L14)
 
 ___
 
@@ -59,4 +59,4 @@ Gets or sets the minima fuel data point for the fill up event.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L16)
+[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L16)

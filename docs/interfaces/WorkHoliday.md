@@ -29,7 +29,7 @@ Gets or sets the midnight of the work holiday.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WorkHoliday.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WorkHoliday.ts#L12)
+[src/types/Checkmate/ObjectModel/WorkHoliday.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/WorkHoliday.ts#L12)
 
 ___
 
@@ -42,7 +42,7 @@ Gets or sets the holiday group for this holiday day. See
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/WorkHoliday.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/WorkHoliday.ts#L17)
+[src/types/Checkmate/ObjectModel/WorkHoliday.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/WorkHoliday.ts#L17)
 
 ___
 
@@ -58,7 +58,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -74,4 +74,4 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)

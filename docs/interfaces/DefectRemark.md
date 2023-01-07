@@ -31,7 +31,7 @@ Gets or sets the date and time the log was created.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectRemark.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DefectRemark.ts#L15)
+[src/types/Checkmate/ObjectModel/DefectRemark.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectRemark.ts#L15)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets the DefectRemark.DVIRDefect which this DefectRemark belongs to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectRemark.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DefectRemark.ts#L17)
+[src/types/Checkmate/ObjectModel/DefectRemark.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectRemark.ts#L17)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -67,11 +67,11 @@ ___
 
 • **mediaFiles**: [`MediaFile`](MediaFile.md)[]
 
-Gets or sets the list of [MediaFile](MediaFile.md) for a defect remark.
+Gets or sets the list of [MediaFile](MediaFile.md)(s) for a defect remark.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectRemark.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DefectRemark.ts#L19)
+[src/types/Checkmate/ObjectModel/DefectRemark.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectRemark.ts#L19)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets the DVIR text associated with the log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectRemark.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DefectRemark.ts#L21)
+[src/types/Checkmate/ObjectModel/DefectRemark.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectRemark.ts#L21)
 
 ___
 
@@ -95,4 +95,4 @@ Gets or sets the [User](User.md) who created the log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectRemark.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DefectRemark.ts#L23)
+[src/types/Checkmate/ObjectModel/DefectRemark.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectRemark.ts#L23)

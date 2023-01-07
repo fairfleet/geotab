@@ -2,5 +2,5 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
-/** The type of {@link VehicleConfiguration}. */
+/** The type of <see><cref>VehicleConfiguration</cref></see>. */
 export type VehicleConfigurationType = "Hotspot";

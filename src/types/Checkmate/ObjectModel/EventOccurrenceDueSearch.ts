@@ -47,6 +47,10 @@ export interface EventOccurrenceDueSearch extends Search {
   maxId: string;
   /** Gets or sets gets minimum Id of the search criteria. */
   minId: string;
+  /** Gets or sets a value indicating whether {@link EventOccurrenceDue}s engine hours is required. */
+  requireEngineHours: boolean;
+  /** Gets or sets a value indicating whether {@link EventOccurrenceDue}s odometer is required. */
+  requireOdometer: boolean;
   /** Gets or sets a value indicating the {@link EventOccurrenceDue}s status. */
   status: string;
   /** Gets or sets search for {@link EventOccurrenceDue}s recorded at this date or before. */

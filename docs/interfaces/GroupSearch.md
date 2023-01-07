@@ -20,7 +20,6 @@ The object used to specify the arguments when searching for a [Group](Group.md).
 - [includeAllTrees](GroupSearch.md#includealltrees)
 - [maxId](GroupSearch.md#maxid)
 - [name](GroupSearch.md#name)
-- [propertySelector](GroupSearch.md#propertyselector)
 - [reference](GroupSearch.md#reference)
 - [version](GroupSearch.md#version)
 
@@ -38,7 +37,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -50,7 +49,7 @@ Gets or sets include Groups from all trees, for example "Security Groups" and "P
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupSearch.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupSearch.ts#L10)
+[src/types/Checkmate/ObjectModel/GroupSearch.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupSearch.ts#L10)
 
 ___
 
@@ -62,7 +61,7 @@ Gets or sets gets maximum Id of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupSearch.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupSearch.ts#L12)
+[src/types/Checkmate/ObjectModel/GroupSearch.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupSearch.ts#L12)
 
 ___
 
@@ -74,23 +73,7 @@ Gets or sets search for Groups with this Name. Wildcard can be used by prependin
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupSearch.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupSearch.ts#L14)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/GroupSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupSearch.ts#L14)
 
 ___
 
@@ -102,7 +85,7 @@ Gets or sets search for Groups with this Reference. Wildcard can be used by prep
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupSearch.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/GroupSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/GroupSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupSearch.ts#L16)
 
 ___
 
@@ -118,4 +101,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

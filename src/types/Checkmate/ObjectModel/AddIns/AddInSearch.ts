@@ -5,4 +5,4 @@
 import { Search } from "../Search";
 
 /** The object used to specify the arguments when searching for {@link AddIn}. */
-export type AddInSearch = Search
+export interface AddInSearch extends Search {}

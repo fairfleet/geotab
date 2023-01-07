@@ -5,4 +5,4 @@
 import { NameEntity } from "./NameEntity";
 
 /** The type of an event. */
-export type EventType = NameEntity
+export interface EventType extends NameEntity {}

@@ -35,7 +35,7 @@ Gets or sets device replacement completion date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:11](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L11)
+[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L11)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets device replacement creation date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L13)
+[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L13)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets end date of eligibility of the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L15)
+[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L15)
 
 ___
 
@@ -75,7 +75,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -87,7 +87,7 @@ Gets or sets Serial Number of the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L17)
+[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L17)
 
 ___
 
@@ -99,7 +99,7 @@ Gets or sets start date of eligibility of the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L19)
+[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L19)
 
 ___
 
@@ -111,7 +111,7 @@ Gets or sets the status.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L21)
+[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L21)
 
 ___
 
@@ -123,7 +123,7 @@ Gets or sets device replacement termination date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L23)
+[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L23)
 
 ___
 
@@ -135,7 +135,7 @@ Gets or sets the type of replacement.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:25](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L25)
+[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L25)
 
 ___
 
@@ -147,4 +147,4 @@ Gets or sets device replacement info updated date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L27)
+[src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceReplacement/DeviceReplacementInfo.ts#L27)

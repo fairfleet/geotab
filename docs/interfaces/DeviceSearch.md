@@ -22,6 +22,7 @@ The object used to specify the arguments when searching for a [Device](Device.md
 - [deviceReplacementInfoSearch](DeviceSearch.md#devicereplacementinfosearch)
 - [deviceType](DeviceSearch.md#devicetype)
 - [engineVehicleIdentificationNumber](DeviceSearch.md#enginevehicleidentificationnumber)
+- [excludeUntrackedAssets](DeviceSearch.md#excludeuntrackedassets)
 - [fromDate](DeviceSearch.md#fromdate)
 - [groupFilterCondition](DeviceSearch.md#groupfiltercondition)
 - [groups](DeviceSearch.md#groups)
@@ -31,7 +32,6 @@ The object used to specify the arguments when searching for a [Device](Device.md
 - [keywords](DeviceSearch.md#keywords)
 - [licensePlate](DeviceSearch.md#licenseplate)
 - [name](DeviceSearch.md#name)
-- [propertySelector](DeviceSearch.md#propertyselector)
 - [serialNumber](DeviceSearch.md#serialnumber)
 - [toDate](DeviceSearch.md#todate)
 - [vehicleIdentificationNumber](DeviceSearch.md#vehicleidentificationnumber)
@@ -48,7 +48,7 @@ Gets or sets search for Devices with comments matching this value. Wildcard can 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:20](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L20)
 
 ___
 
@@ -60,7 +60,7 @@ Gets or sets search for Devices that contain certain [Property](Property.md) and
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:22](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L22)
 
 ___
 
@@ -73,7 +73,7 @@ Gets or sets search for Devices with these unique Id(s). Not Supported
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:27](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L27)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L27)
 
 ___
 
@@ -85,7 +85,7 @@ Gets or sets search for devices that have the DeviceSearch.DevicePlan speicified
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:29](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L29)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L29)
 
 ___
 
@@ -99,7 +99,7 @@ Gets or sets search for devices that have the DeviceSearch.DevicePlanBillingInfo
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:35](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L35)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L35)
 
 ___
 
@@ -113,7 +113,7 @@ Gets or sets search for devices that contain [DeviceReplacementInfo](DeviceRepla
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:41](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L41)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:41](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L41)
 
 ___
 
@@ -125,7 +125,7 @@ Gets or sets search for Devices of this [DeviceType](../README.md#devicetype).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:43](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L43)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:43](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L43)
 
 ___
 
@@ -141,7 +141,19 @@ Gets or sets search for a Device by Vehicle Identification Number (VIN) reported
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:51](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L51)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:51](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L51)
+
+___
+
+### excludeUntrackedAssets
+
+• **excludeUntrackedAssets**: `boolean`
+
+Gets or sets filter for UntrackedAsset.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:53](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L53)
 
 ___
 
@@ -154,7 +166,7 @@ Gets or sets search for Devices that were active at this date or after. Set to U
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:56](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L56)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:58](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L58)
 
 ___
 
@@ -166,7 +178,7 @@ Gets or sets for devices and asset types.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:58](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L58)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:60](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L60)
 
 ___
 
@@ -181,7 +193,7 @@ Gets or sets search for Devices that are a member of these [GroupSearch](GroupSe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:65](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L65)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:67](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L67)
 
 ___
 
@@ -193,7 +205,7 @@ Gets or sets search for a Device with this unique hardware ID.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:67](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L67)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:69](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L69)
 
 ___
 
@@ -209,7 +221,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -221,7 +233,7 @@ Gets or sets search for devices that contain [DeviceReplacementInfo](DeviceRepla
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:69](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L69)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:71](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L71)
 
 ___
 
@@ -233,7 +245,7 @@ Gets or sets search for entities that contain specific keywords in all wildcard 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:71](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L71)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:73](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L73)
 
 ___
 
@@ -246,7 +258,7 @@ Gets or sets search for Devices with a license plate matching this value. Wildca
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:76](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L76)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:78](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L78)
 
 ___
 
@@ -259,23 +271,7 @@ Gets or sets search for Devices with this Name. Name is the primary description 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:81](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L81)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:83](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L83)
 
 ___
 
@@ -288,7 +284,7 @@ Gets or sets search for a Device by its unique serial number. Wildcard can be
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:86](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L86)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:88](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L88)
 
 ___
 
@@ -300,7 +296,7 @@ Gets or sets search for Devices that were active at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:88](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L88)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:90](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L90)
 
 ___
 
@@ -316,7 +312,7 @@ Gets or sets search for a Device by Vehicle Identification Number (VIN). This is
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:96](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L96)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:98](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L98)
 
 ___
 
@@ -332,4 +328,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

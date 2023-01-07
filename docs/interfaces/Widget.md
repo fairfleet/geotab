@@ -33,7 +33,7 @@ Gets or sets the date the widget is active from. Default [UtcNow].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Widget.ts:13](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Widget.ts#L13)
+[src/types/Checkmate/ObjectModel/Widget.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Widget.ts#L13)
 
 ___
 
@@ -45,7 +45,7 @@ Gets or sets the date the widget is active to. Default [MaxDate].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Widget.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Widget.ts#L15)
+[src/types/Checkmate/ObjectModel/Widget.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Widget.ts#L15)
 
 ___
 
@@ -61,7 +61,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:15](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Entity.ts#L15)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -73,7 +73,7 @@ Gets or sets the details of the widget. The details are in json format. Default 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Widget.ts:17](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Widget.ts#L17)
+[src/types/Checkmate/ObjectModel/Widget.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Widget.ts#L17)
 
 ___
 
@@ -89,7 +89,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
 
 ___
 
@@ -101,7 +101,7 @@ Gets or sets the [User](User.md) who created the widget.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Widget.ts:19](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Widget.ts#L19)
+[src/types/Checkmate/ObjectModel/Widget.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Widget.ts#L19)
 
 ___
 
@@ -113,7 +113,7 @@ Gets or sets the [ReportPeriod](../README.md#reportperiod) of scheduled report.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Widget.ts:21](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Widget.ts#L21)
+[src/types/Checkmate/ObjectModel/Widget.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Widget.ts#L21)
 
 ___
 
@@ -125,4 +125,4 @@ Gets or sets the widget type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Widget.ts:23](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Widget.ts#L23)
+[src/types/Checkmate/ObjectModel/Widget.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Widget.ts#L23)

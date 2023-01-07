@@ -11,7 +11,10 @@ import { Driver } from "./Driver";
  *  Information about timing of a {@link Driver} change.
  */
 export interface DriverChange extends EntityWithVersion {
-  /** Gets or sets the date and time of the driver change. */
+  /**
+   * Gets or sets the date and time of the driver change.
+   *  Note: When adding a DriverChange through API, the DateTime must NOT be in the future.
+   */
   dateTime: Date;
   /** Gets or sets the {@link Device} that had the driver change. */
   device: Device;

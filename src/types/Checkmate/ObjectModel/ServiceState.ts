@@ -5,4 +5,4 @@
 import { NameEntityWithVersion } from "./NameEntityWithVersion";
 
 /** The state of a service persisted as json. */
-export type ServiceState = NameEntityWithVersion
+export interface ServiceState extends NameEntityWithVersion {}

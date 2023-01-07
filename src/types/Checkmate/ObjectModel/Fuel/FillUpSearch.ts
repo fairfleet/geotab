@@ -5,4 +5,4 @@
 import { FuelUpEventSearch } from "./FuelUpEventSearch";
 
 /** The object used to specify the arguments when searching for a {@link FillUp}. */
-export type FillUpSearch = FuelUpEventSearch
+export interface FillUpSearch extends FuelUpEventSearch {}

@@ -75,4 +75,5 @@ export type ConditionType =
   | "SpeedLimitTruckCommercialExcludingEstimates"
   | "InsideEachArea"
   | "WiFiTierUsage"
-  | "WiFiMaxTierUsage";
+  | "WiFiMaxTierUsage"
+  | "Group";

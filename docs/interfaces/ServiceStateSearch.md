@@ -2,7 +2,7 @@
 
 # Interface: ServiceStateSearch
 
-The object used to specify the arguments when searching for a [ServiceState](../README.md#servicestate).
+The object used to specify the arguments when searching for a [ServiceState](ServiceState.md).
 
 ## Hierarchy
 
@@ -16,7 +16,6 @@ The object used to specify the arguments when searching for a [ServiceState](../
 
 - [id](ServiceStateSearch.md#id)
 - [name](ServiceStateSearch.md#name)
-- [propertySelector](ServiceStateSearch.md#propertyselector)
 - [version](ServiceStateSearch.md#version)
 
 ## Properties
@@ -33,7 +32,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -45,23 +44,7 @@ Gets or sets search for ServiceState with this Name. Name is unique for each Ser
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ServiceStateSearch.ts:10](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/ServiceStateSearch.ts#L10)
-
-___
-
-### propertySelector
-
-• **propertySelector**: [`PropertySelector`](PropertySelector.md)
-
-Gets or sets Search.PropertySelector of the searched value fields to include or exclude from the result.
-
-#### Inherited from
-
-[Search](Search.md).[propertySelector](Search.md#propertyselector)
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/Search.ts:14](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L14)
+[src/types/Checkmate/ObjectModel/ServiceStateSearch.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ServiceStateSearch.ts#L10)
 
 ___
 
@@ -77,4 +60,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:16](https://github.com/fairfleet/geotab/blob/b682f10/src/types/Checkmate/ObjectModel/Search.ts#L16)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)

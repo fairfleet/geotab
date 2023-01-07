@@ -8,4 +8,4 @@ import { Search } from "../Search";
  *  The object used to specify the
  *  arguments when searching for a {@link ParameterGroup}.
  */
-export type ParameterGroupSearch = Search
+export interface ParameterGroupSearch extends Search {}
