@@ -7,4 +7,6 @@ export type MediaFileType =
   | "Wav"
   | "NotificationEmailTemplate"
   | "WebRequestTemplate"
-  | "TextTemplate";
+  | "TextTemplate"
+  | "SmsTemplate"
+  | "PushNotificationTemplate";

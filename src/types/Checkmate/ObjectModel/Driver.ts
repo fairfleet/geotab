@@ -6,7 +6,7 @@ import { User } from "./User";
 import { Group } from "./Group";
 
 /**
- *  A driver in the system, and it is derived from
+ * A driver in the system, and it is derived from
  *  {@link User},
  *  with key ids and driver groups. If the driver is unknown then the driver is
  *  represented by "UnknownDriver".

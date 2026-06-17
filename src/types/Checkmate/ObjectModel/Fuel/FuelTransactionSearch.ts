@@ -6,9 +6,18 @@ import { Search } from "../Search";
 import { FuelTransactionProvider } from "./FuelTransactionProvider";
 import { DeviceSearch } from "../DeviceSearch";
 import { UserSearch } from "../UserSearch";
+import { FuelTransactionAssignmentType } from "./FuelTransactionAssignmentType";
+import { FuelTransactionAssignmentStatus } from "./FuelTransactionAssignmentStatus";
 
 /** The object used to specify the arguments when searching for a {@link FuelTransaction}. */
 export interface FuelTransactionSearch extends Search {
+  /**
+   * Gets or sets search for FuelTransactions that are currently assigned or currently not assigned based on the
+   *  assignment setting.
+   */
+  assignmentStatus: FuelTransactionAssignmentStatus;
+  /** Gets or sets the assignment type used to filter fuel transactions. */
+  assignmentType: FuelTransactionAssignmentType;
   /**
    * Gets or sets search for FuelTransactions for this {@link DeviceSearch} Id.
    *  Available DeviceSearch options are:
@@ -17,14 +26,27 @@ export interface FuelTransactionSearch extends Search {
   deviceSearch: DeviceSearch;
   /** Gets or sets the DriverName. */
   driverName: string;
+  /**
+   * Gets or sets a value indicating whether to exclude non-fuel based transactions.
+   *  Non-Fuel product types include non-fuel, diesel exhaust fluid, electric and unknown when volume is 0.
+   */
+  excludeNonFuel: boolean;
   /** Gets or sets search for Fuel Transactions with this External Reference. Wildcard can be used by prepending/appending "%" to string. Example "%reference%". */
   externalReference: string;
   /** Gets or sets the from date, which is used to search for FuelTransactions that occur on or after this date. */
   fromDate: Date;
+  /** Gets or sets a value indicating whether search includes records that have the dtDeleted column set */
+  includeDeleted: boolean;
   /** Gets or sets a value indicating whether to include source data with transaction. Source data can be a large string, therefore, optionally exclude it from results. */
   includeSourceData: boolean;
+  /** Gets or sets the maximum cost to filter fuel transactions by. */
+  maxCost: number;
   /** Gets or sets the maximum version for which FuelTransactions should be searched. */
   maxVersion: number;
+  /** Gets or sets the minimum cost to filter fuel transactions by. */
+  minCost: number;
+  /** Gets or sets the product types used to filter fuel transactions. */
+  productTypes: string[];
   /** Gets or sets search by the {@link FuelTransactionProvider}. */
   provider: FuelTransactionProvider;
   /** Gets or sets the to date, which is used to search for FuelTransactions that occur on or before this date. */
@@ -37,4 +59,6 @@ export interface FuelTransactionSearch extends Search {
   userSearch: UserSearch;
   /** Gets or sets the VehicleIdentificationNumber. */
   vehicleIdentificationNumber: string;
+  /** Gets or sets the row version of the {@link FuelTransaction} search criteria. */
+  version: number;
 }

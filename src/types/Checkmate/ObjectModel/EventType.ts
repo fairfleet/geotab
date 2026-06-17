@@ -2,7 +2,34 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
-import { NameEntity } from "./NameEntity";
+import { User } from "./User";
+import { Defect } from "./Defect";
 
 /** The type of an event. */
-export interface EventType extends NameEntity {}
+export interface EventType {
+  /** Gets or sets the date the event type becomes active (inclusive). Default: time of construction. */
+  activeFrom: Date;
+  /**
+   * Gets or sets the date the event type is active to. If equal to {@link DateTime.MaxValue} it is considered active.
+   *  Setting to a value &lt; MaxValue archives the entity.
+   */
+  activeTo: Date;
+  /** Gets or sets the user that created the maintenance type. */
+  createdBy: User;
+  /** Gets or sets the custom source. */
+  customSource: string;
+  /** Gets or sets the group that's a defect related to the type. */
+  defect: Defect;
+  /**
+   * @inheritdoc
+   */
+  deletedDateTime: Date;
+  /** Gets or sets the unique identifier for this entity. See {@link Id}. */
+  id: string;
+  /**
+   * @inheritdoc
+   */
+  source: string;
+  /** Gets or sets the source description. */
+  sourceDescription: string;
+}

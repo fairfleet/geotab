@@ -4,21 +4,26 @@
 
 import { NameEntity } from "./NameEntity";
 import { ReportDataSource } from "./ReportDataSource";
-import { SigningInfo } from "./SigningInfo";
 import { ReportTemplateType } from "./ReportTemplateType";
+import { ReportExtensionType } from "./ReportExtensionType";
+import { ReportTag } from "./ReportTag";
 
 /** ReportTemplate class represents a template for reports that is an Excel file. */
 export interface ReportTemplate extends NameEntity {
   /** Gets or sets the Excel binary data. */
   binaryData: number[];
+  /** Gets or sets the description of the ReportTemplate. */
+  description: string;
   /** Gets or sets whether the ReportTemplate is System. */
   isSystem: boolean;
   /** Gets or sets the {@link ReportDataSource}. */
   reportDataSource: ReportDataSource;
+  /** Gets or sets the {@link ReportExtensionType}. */
+  reportExtensionType: ReportExtensionType;
   /** Gets or sets the {@link ReportTemplateType}. */
   reportTemplateType: ReportTemplateType;
   /** Gets or sets whether the ReportTemplate is shown in the report dropdowns. */
   showReport: boolean;
-  /** Gets or sets the {@link ReportTemplate.SigningInfo}. */
-  signingInfo: SigningInfo;
+  /** Gets or sets the {@link ReportTag} list associated with the {@link ReportTemplate}. */
+  tags: ReportTag[];
 }

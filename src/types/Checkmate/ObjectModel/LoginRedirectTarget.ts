@@ -7,4 +7,11 @@
  *
  * @deprecated
  */
-export type LoginRedirectTarget = "Manage" | "Drive" | "DriveCoDriver";
+export type LoginRedirectTarget =
+  | "Manage"
+  | "Drive"
+  | "DriveCoDriver"
+  | "DriveAS"
+  | "DriveCoDriverAS"
+  | "Iam"
+  | "ManageAS";

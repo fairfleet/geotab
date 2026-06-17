@@ -4,7 +4,7 @@
 
 import { Entity } from "./Entity";
 import { Recipient } from "./Recipient";
-import { EventRule } from "./EventRule";
+import { MaintenanceSchedule } from "./MaintenanceSchedule";
 
 /**
  *  An upcoming event related to ab {@link EventOccurrence}.
@@ -17,7 +17,7 @@ export interface MaintenanceNotificationRule extends Entity {
   /** Gets or sets the amount of engine hours before the maintenance rule becomes overdue to trigger the notification */
   engineHoursTrigger: string;
   /** Gets or sets the maintenance event rule {@link MaintenanceNotificationRule.EventRule} for this notification rule. */
-  eventRule: EventRule;
+  eventRule: MaintenanceSchedule;
   /** Gets or sets the number of kilometers before the maintenance rule becomes overdue to trigger the notification */
   odometerTrigger: number;
   /** Gets or sets the recipient {@link MaintenanceNotificationRule.Recipient} of the notification. */

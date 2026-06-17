@@ -17,6 +17,8 @@ import { HosRuleSet } from "../Settings/HosRuleSet";
 import { UserAuthenticationType } from "./UserAuthenticationType";
 import { ZoneDisplayMode } from "../Settings/ZoneDisplayMode";
 import { Certificate } from "./Certificate";
+import { IAMMetadata } from "./IAMMetadata";
+import { ReportTemplate } from "./ReportTemplate";
 
 /** A user of the system. A user can be a MyGeotab user or a user that is a {@link Driver}. */
 export interface User extends NameEntityWithVersion {
@@ -26,6 +28,8 @@ export interface User extends NameEntityWithVersion {
   accessGroupFilter: GroupFilter;
   /** Gets or sets the list of active dashboards for the user, displayed on the dashboard page. Default [empty]. */
   activeDashboardReports: string[];
+  /** Gets or sets the list of default dashboards which must show real data. Default [empty]. */
+  activeDefaultDashboards: string[];
   /** Gets or sets the date the user is active from. Default [UtcNow]. */
   activeFrom: Date;
   /** Gets or sets the date the user is active to. Default [MaxDate]. */
@@ -68,7 +72,7 @@ export interface User extends NameEntityWithVersion {
   defaultMapEngine: string;
   /** Gets or sets the default {@link OpenStreetMapStyle} tiles when using Open Street Maps. Default [MapBox]. */
   defaultOpenStreetMapStyle: OpenStreetMapStyle;
-  /** Gets or sets the default start page to view when login is complete. Maps to the hash portion of the web site URL (https://url/enpoint/[#page]). Default [helpGuide]. */
+  /** Gets or sets the default start page to view when login is complete. Maps to the hash portion of the web site URL (https://url/enpoint/[#page]). Default [map]. */
   defaultPage: string;
   /** Gets or sets the designation or title of the employee. Maximum length [50] Default [""]. */
   designation: string;
@@ -82,7 +86,9 @@ export interface User extends NameEntityWithVersion {
   electricEnergyEconomyUnit: ElectricEnergyEconomyUnit;
   /** Gets or sets the employee number or external identifier. Maximum length [50] Default [""]. */
   employeeNo: string;
-  /** Gets or sets a value indicating which features user enabled to preview. Default [""]. */
+  /** Gets or sets the list of favourite reports for the user. */
+  favouriteReports: ReportTemplate[];
+  /** Gets or sets a comma-separated string value indicating which features user enabled to preview. Default [""]. */
   featurePreview: string;
   /** Gets or sets the user's preferred day to represent the start of the week. Default ["Sunday"]. */
   firstDayOfWeek: number;
@@ -94,13 +100,21 @@ export interface User extends NameEntityWithVersion {
   groups: Group[];
   /** Gets or sets the {@link HosRuleSet} the user follows. Default [None]. */
   hosRuleSet: HosRuleSet;
+  /** Gets or sets the user's metadata in IAM. */
+  iamMetadata: IAMMetadata;
   /** Gets or sets the unique identifier for the User. See {@link Id}. */
   id: string;
-  /** Gets or sets a value indicating whether the user is allowed to Adverse Driving conditions exempt. Default [false]. */
+  /** Gets or sets the user's external IDP name */
+  identityProviderName: string;
+  /** Gets or sets a value indicating whether the ACE disclaimer is disabled for the user */
+  isAceDisclaimerDisabled: boolean;
+  /** Gets or sets a value indicating whether the user is allowed to Adverse Driving conditions exempt. Default [true]. */
   isAdverseDrivingEnabled: boolean;
-  /** Gets or sets the is driver toggle, if [true] the user is a driver, otherwise [false]. Default [false]. */
+  /** Gets or sets a value indicating whether the user was automatically added to the database */
+  isAutoAdded: boolean;
+  /** Gets or sets the isDriver toggle, if [true] the user is a driver, otherwise [false]. Default [false]. */
   isDriver: boolean;
-  /** Gets or sets the isEmailReportEnabled, if [true] the user will receive the emailed report, otherwise [false]. Default [true]. */
+  /** Gets or sets the isEmailReportEnabled toggle, if [true] the user will receive the emailed report, otherwise [false]. Default [true]. */
   isEmailReportEnabled: boolean;
   /** Gets a value indicating whether the old EULA has been accepted by the end user. Default [false]. */
   isEULAAccepted: boolean;
@@ -108,21 +122,25 @@ export interface User extends NameEntityWithVersion {
   isExemptHOSEnabled: boolean;
   /** Gets a value indicating whether labs are enabled for this user. When set to true this will enable experimental features that are still in the process of being developed. Default [false]. */
   isLabsEnabled: boolean;
+  /** Gets or sets a value indicating whether the user has opted into receiving Maintenance notifications */
+  isMaintenanceNotificationEnabled: boolean;
   /** Gets or sets whether the current regional settings is in metric units of measurement (or US/Imperial). Default [true]. */
   isMetric: boolean;
   /** Gets or sets a value that indicates whether news notifications are enabled for this user. Default [true]. */
   isNewsEnabled: boolean;
   /** Gets or sets a value indicating whether the user is allowed to HOS personal conveyance. Default [false]. */
   isPersonalConveyanceEnabled: boolean;
-  /** Gets or sets a value indicating whether are service update notifications enabled for this user. Default [false]. */
-  isServiceUpdatesEnabled: boolean;
+  /** Gets or sets a value indicating whether the user has opted into receiving Service disruption notifications */
+  isServiceDisruptionNotificationsEnabled: boolean;
   /** Gets or sets the issuer {@link Certificate} for the user. Will only be populated for users not using basic authentication. */
   issuerCertificate: Certificate;
   /** Gets or sets a value indicating whether the user is allowed to HOS yard move. Default [false]. */
   isYardMoveEnabled: boolean;
+  /** Gets or sets the list of selected job priorities. Default [empty]. */
+  jobPriorities: string[];
   /** Gets or sets the user's culture identifier as a predefined {@link CultureInfo} name, {@link CultureInfo.Name} of an existing System.Globalization.CultureInfo, or Windows-only culture name. Default: ["en"] for English. */
   language: string;
-  /** Gets or sets the user's Last access date of the system. */
+  /** Gets or sets the user's last access date of the system. */
   lastAccessDate: Date;
   /** Gets or sets the last name of the user. Maximum length [255]. */
   lastName: string;
@@ -151,12 +169,24 @@ export interface User extends NameEntityWithVersion {
   reportGroups: Group[];
   /** Gets or sets the security {@link Group}(s) this user belongs to; which define the user's access. */
   securityGroups: Group[];
+  /** Gets or sets a value indicating the user should receive a welcome email. */
+  sendWelcomeEmail: boolean;
   /** Gets or sets a flag indicating whether to show ClickOnce support warning as the default page. (legacy) Default [false]. */
   showClickOnceWarning: boolean;
+  /** Gets or sets a value indicating whether the user has opted into receiving SMS notifications */
+  smsNotificationsOptIn: boolean;
   /** Gets or sets the IANA Timezone Id of the user. All data will be displayed in this Timezone. Default ["America/New_York"]. */
   timeZoneId: string;
-  /** Gets or sets the {@link UserAuthenticationType}. Default [Basic]. */
+  /**
+   * Gets or sets the {@link UserAuthenticationType}. This value indicates the type of a
+   *  user's account. "BasicAuthentication" indicates a basic user. "MyAdmin" indicates a user with MyAdmin
+   *  credentials. "MyAdmin" users are not visible to "BasicAuthentication" users. Default [Basic].
+   */
   userAuthenticationType: UserAuthenticationType;
+  /** Gets or sets a value indicating whether the user has opted into receiving WhatsApp notifications */
+  whatsAppNotificationsOptIn: boolean;
+  /** Gets or sets the user's WhatsApp phone number with space separated country phone code. Example +1 5555555555 */
+  whatsAppPhoneNumber: string;
   /** Gets or sets a value indicating the user accepted Wifi specific EULA revision number. Default [0]. */
   wifiEULA: number;
   /**

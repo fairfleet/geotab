@@ -2,7 +2,7 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
-import { Entity } from "./Entity";
+import { EntityWithVersion } from "./EntityWithVersion";
 import { Device } from "./Device";
 import { Driver } from "./Driver";
 
@@ -14,7 +14,7 @@ import { Driver } from "./Driver";
  *  The trip continues after the vehicle has been stopped and ends at the time the vehicle restarts and begins being
  *  driven again; which then starts the next trip.
  */
-export interface Trip extends Entity {
+export interface Trip extends EntityWithVersion {
   /** Gets or sets the distance the vehicle was driven after work hours (in km). */
   afterHoursDistance: number;
   /** Gets or sets the duration the vehicle was driven after work hours. */
@@ -33,6 +33,10 @@ export interface Trip extends Entity {
    * @deprecated
    */
   dateTime: Date;
+  /**
+   * @inheritdoc
+   */
+  deletedDateTime: Date;
   /** Gets or sets the {@link Device} associated with the trip. */
   device: Device;
   /** Gets or sets the distance the vehicle was driven during this trip (in km). */
@@ -54,7 +58,7 @@ export interface Trip extends Entity {
   isSeatBeltOff: boolean;
   /** Gets or sets the maximum speed of the vehicle during this trip (in km/h). */
   maximumSpeed: number;
-  /** Gets or sets the start date of the next trip. */
+  /** Gets or sets the start date of the next trip, as well as the end of the current trip session. */
   nextTripStart: Date;
   /** Gets or sets a value indicating the vehicle odometer value as of the end of the trip (in meters). */
   odometer: number;
@@ -70,9 +74,9 @@ export interface Trip extends Entity {
   speedRange3: number;
   /** Gets or sets the duration where the vehicle drove in the third range of speeding triggers. */
   speedRange3Duration: string;
-  /** Gets or sets the date and time that the trip started. */
+  /** Gets or sets the date and time that the drive session started. This also signals the start of the trip. */
   start: Date;
-  /** Gets or sets the date and time the trip stopped. */
+  /** Gets or sets the date and time the trip drive session ended, and the vehicle stopped moving. Note that this doesn't correspond to end of the trip session. */
   stop: Date;
   /** Gets or sets the duration the vehicle was stopped at the end of the trip. This also includes any idling done at the end of a trip. */
   stopDuration: string;

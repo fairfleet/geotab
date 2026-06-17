@@ -2,12 +2,12 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
-import { Entity } from "./Entity";
+import { EntityWithVersion } from "./EntityWithVersion";
 import { Device } from "./Device";
 import { DataModeType } from "./DataModeType";
 
 /** Indicates when a {@link RestrictedDataModeChange.DataModeType} was changed. */
-export interface RestrictedDataModeChange extends Entity {
+export interface RestrictedDataModeChange extends EntityWithVersion {
   /** Gets or sets the type of the trip. */
   dataModeType: DataModeType;
   /** Gets or sets the date time. */

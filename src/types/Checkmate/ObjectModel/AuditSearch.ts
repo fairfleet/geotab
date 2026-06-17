@@ -6,6 +6,8 @@ import { Search } from "./Search";
 
 /** The object used to specify the arguments when searching {@link Audit} entries. */
 export interface AuditSearch extends Search {
+  /** Gets or sets a value indicating whether to exclude system log entries from the search. */
+  excludeSystemLog: boolean;
   /** Gets or sets search for audit entries that were recorded at this date or after. */
   fromDate: Date;
   /** Gets or sets search for entities that contain specific keywords in all wildcard string-searchable fields. */
@@ -16,6 +18,8 @@ export interface AuditSearch extends Search {
   toDate: Date;
   /** Gets or sets search for audit entries with this User Name. Wildcard can be used by prepending/appending "%" to string. Example "%name%". */
   userName: string;
+  /** Gets or sets search for audit entries with this User Name list. */
+  userNames: string[];
   /** Gets or sets the row version of the {@link Audit} search criteria. */
   version: number;
 }

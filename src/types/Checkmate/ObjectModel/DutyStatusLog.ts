@@ -14,15 +14,17 @@ import { DutyStatusMalfunctionTypes } from "./DutyStatusMalfunctionTypes";
 import { DutyStatusDeferralType } from "./DutyStatusDeferralType";
 import { UserHosRuleSet } from "./UserHosRuleSet";
 
-/**
- *  A DutyStatusLog is a record of duty status for Hours of Service regulations. The log is first required to have a driver, dateTime, status, and device. Location is not required and will be calculated from the device's data.
- */
+/** A DutyStatusLog is a record of duty status for Hours of Service regulations. The log is first required to have a driver, dateTime, status, and device. Location is not required and will be calculated from the device's data. */
 export interface DutyStatusLog extends EntityWithVersion {
+  /** Gets or sets the annotation comment associated with the log. */
+  annotationComment: string;
   /**
    * Gets or sets the list of {@link AnnotationLog}(s) which are associated with this
    *  log.
    */
   annotations: AnnotationLog[];
+  /** Gets or sets the {@link User} who annotated this log. */
+  annotationUser: User;
   /** Gets or sets the list of the co-driver {@link User}(s) for this log. */
   coDrivers: User[];
   /** Gets or sets the date and time the log was created. */
@@ -79,6 +81,8 @@ export interface DutyStatusLog extends EntityWithVersion {
   isHidden: boolean;
   /** Gets or sets if the log is ignored. True means it will not affect the Driver's HOS availability. */
   isIgnored: boolean;
+  /** Gets or sets a value indicating whether a removal of this log has been requested. */
+  isRequestedRemoval: boolean;
   /** Gets or sets a value indicating whether the log is in transitioning state. */
   isTransitioning: boolean;
   /** Gets or sets an object with the location information for the log data. */

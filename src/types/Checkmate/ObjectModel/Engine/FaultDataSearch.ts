@@ -27,7 +27,7 @@ export interface FaultDataSearch extends Search {
    * Gets or sets search for {@link FaultData}(s) from a device that matches the
    *  {@link DeviceSearch} Id or in the Groups specified. This includes archived and deleted devices.
    *  Available DeviceSearch options are:.
-   *  <list><item><description>Id</description></item><item><description>Groups</description></item></list>
+   *  <list><item><description>Id</description></item><item><description>DeviceIds</description></item><item><description>Groups</description></item></list>
    */
   deviceSearch: DeviceSearch;
   /**
@@ -37,6 +37,10 @@ export interface FaultDataSearch extends Search {
    *  <list><item><description>Id</description></item><item><description>Code</description></item><item><description>Name</description></item><item><description>SourceSearch.Name</description></item><item><description>SourceSearch.Id</description></item></list>
    */
   diagnosticSearch: DiagnosticSearch;
+  /** Gets or sets a value indicating whether the data should be completed with information form authorized vendors. */
+  enrichDataFromAuthorizedVendors: boolean;
+  /** Gets or sets a value indicating whether exclude Dismissed faults. */
+  excludeDismissed: boolean;
   /** Gets or sets the from date. The FaultData logs are searched for events which were recorded on or after this date. */
   fromDate: Date;
   /** Gets or sets for fault data group list search. */
@@ -48,8 +52,25 @@ export interface FaultDataSearch extends Search {
    *  <list><item><description>Id</description></item></list>
    */
   groups: GroupSearch[];
+  /** Gets or sets search for FaultData with these unique {@link Id}(s). */
+  ids: string[];
+  /** Gets or sets a value indicating whether entities details information should be included. */
+  includeDetails: boolean;
+  /** Gets or sets inclusive search flag. */
+  inclusiveSearch: boolean;
+  /** Gets or sets a value indicating whether only the last fault data record should be retrieved. */
+  onlyLast: boolean;
+  /** Gets or sets a value indicating the severity codes to search for. */
+  severityCodes: string[];
   /** Gets or sets the to state of the fault. The Fault data logs are searched for events which are under the this state. */
   state: FaultState;
   /** Gets or sets the to date. The Fault data logs are searched for events which were recorded on or before this date. */
   toDate: Date;
+  /**
+   * Gets or sets a value indicating whether to use DiagnosticData storage for fault data queries.
+   *  When true, retrieves fault data from diagnosticdata* tables instead of emfaultdata.
+   *  The legacy diagnostic ID is mapped to the new DiagnosticData diagnostic ID based on source type,
+   *  and results are filtered to match the specific fault using the diagnostic's keys.
+   */
+  useDiagnosticDataStorage: boolean;
 }

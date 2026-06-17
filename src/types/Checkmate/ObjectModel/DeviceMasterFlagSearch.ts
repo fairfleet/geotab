@@ -16,7 +16,7 @@ export interface DeviceMasterFlagSearch extends Search {
   deviceSearch: DeviceSearch;
   /** Gets or sets search for {@link DeviceMasterFlag}s recorded at this date or after. */
   fromDate: Date;
-  /** Gets or sets a value indicating whether gets or sets a value to include the first {@link DeviceMasterFlag} before the {@link DeviceMasterFlagSearch.FromDate}. If {@link DeviceMasterFlagSearch.FromDate} is <c>null</c> this has no effect. */
+  /** Gets or sets a value indicating whether gets or sets a value to include the first {@link DeviceMasterFlag} before the {@link DeviceMasterFlagSearch.FromDate}. If {@link DeviceMasterFlagSearch.FromDate" /> is <see langword="null} this has no effect. */
   includeFromDateOverlap: boolean;
   /** Gets or sets search for {@link DeviceMasterFlag}s recorded at this date or before. */
   toDate: Date;

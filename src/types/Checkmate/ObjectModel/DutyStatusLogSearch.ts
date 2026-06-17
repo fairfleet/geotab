@@ -8,6 +8,7 @@ import { DutyStatusLogType } from "./DutyStatusLogType";
 import { UserSearch } from "./UserSearch";
 import { DutyStatusMalfunctionTypes } from "./DutyStatusMalfunctionTypes";
 import { DutyStatusOrigin } from "./DutyStatusOrigin";
+import { DutyStatusState } from "./DutyStatusState";
 
 /**
  *  The object used to specify the arguments when searching for {@link DutyStatusLog}(s).
@@ -42,8 +43,15 @@ export interface DutyStatusLogSearch extends Search {
   maxVersion: number;
   /** Gets or sets search for {@link DutyStatusLog}s with a minimum of this version. */
   minVersion: number;
+  /** Gets or sets search for DutyStatusLogs for only the driver's malfunction/diagnostic logs. */
+  onlyDriverDiagnosticsMalfunctions: boolean;
   /** Gets or sets search for DutyStatusLogs based on {@link DutyStatusOrigin}. */
   origin: DutyStatusOrigin[];
+  /**
+   * Gets or sets search for DutyStatusLogs with the provided {@link DutyStatusState}s.
+   *  By default, only {@link DutyStatusState.Active} logs are returned.
+   */
+  states: DutyStatusState[];
   /** Gets or sets search for DutyStatusLogs with the provided {@link DutyStatusLogType}s. */
   statuses: DutyStatusLogType[];
   /** Gets or sets search for DutyStatusLogs that were recorded at this date or before. */

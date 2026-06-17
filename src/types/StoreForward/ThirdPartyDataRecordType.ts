@@ -21,4 +21,6 @@ export type ThirdPartyDataRecordType =
   | "InsightsStatusRecord"
   | "ThirdPartyDriverChangeRecord"
   | "ThirdPartyBinaryRecord"
-  | "ThirdPartyBluetoothRecord";
+  | "ThirdPartyBluetoothRecord"
+  | "ThirdPartyEnhancedFaultRecord"
+  | "ThirdPartyDiagnosticDataRecord";

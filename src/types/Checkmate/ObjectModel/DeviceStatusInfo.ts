@@ -7,6 +7,7 @@ import { ExceptionEvent } from "./Exceptions/ExceptionEvent";
 import { Device } from "./Device";
 import { Driver } from "./Driver";
 import { Group } from "./Group";
+import { StatusData } from "./Engine/StatusData";
 
 /** Represents the current state of a vehicle by providing information such as the vehicle bearing location and speed, active exception events and whether the device is currently communicating. */
 export interface DeviceStatusInfo extends EntityWithVersion {
@@ -30,6 +31,8 @@ export interface DeviceStatusInfo extends EntityWithVersion {
   exceptionEvents: ExceptionEvent[];
   /** Gets or sets the {@link Group}(s) that the {@link Device} currently belongs to. */
   groups: Group[];
+  /** Gets or sets the unique identifier for this entity. See {@link Id}. */
+  id: string;
   /** Gets or sets a value indicating whether the {@link Device} is communicating. */
   isDeviceCommunicating: boolean;
   /** Gets or sets a value indicating whether the current {@link Device} state. If set true, is driving. Otherwise, it is stopped. */
@@ -42,4 +45,8 @@ export interface DeviceStatusInfo extends EntityWithVersion {
   longitude: number;
   /** Gets or sets the current vehicle speed. */
   speed: number;
+  /** Gets or sets a list of the latest {@link DeviceStatusInfo.StatusData} records for the current {@link Device}. */
+  statusData: StatusData[];
+  /** Gets or sets the version of the entity. */
+  version: number;
 }

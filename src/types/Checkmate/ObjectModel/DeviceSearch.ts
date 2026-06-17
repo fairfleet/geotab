@@ -10,9 +10,13 @@ import { CustomPropertySearch } from "./CustomPropertySearch";
 import { DevicePlan } from "./DevicePlan";
 import { DevicePlanBillingInfo } from "./DevicePlanBillingInfo";
 import { DeviceReplacementInfoSearch } from "./DeviceReplacement/DeviceReplacementInfoSearch";
+import { DeviceCommunicationStatusSearch } from "./DeviceCommunicationStatusSearch";
+import { BillingLevelSearch } from "./BillingLevelSearch";
 
 /** The object used to specify the arguments when searching for a {@link Device}. */
 export interface DeviceSearch extends Search {
+  /** Gets or sets filter for {@link Device} with specific billing levels. */
+  billingLevelSearch: BillingLevelSearch;
   /**
    * Gets or sets search for Devices with comments matching this value. Wildcard can be used by
    *  prepending/appending "%" to string. Example "%comments%".
@@ -21,8 +25,15 @@ export interface DeviceSearch extends Search {
   /** Gets or sets search for Devices that contain certain {@link Property} and/or {@link PropertyValue`1} and/or belong to certain {@link PropertySet}. */
   customPropertySearch: CustomPropertySearch;
   /**
+   * Gets or sets search for devices that has {@link DeviceCommunicationStatus} and filter them by {@link DeviceSearch.DeviceCommunicationStatusSearch}
+   *  Available {@link DeviceSearch.DeviceCommunicationStatusSearch} options are:
+   *  <list><item><description>{@link DeviceCommunicationStatusState}</description></item><item><description>IsCommunicating</description></item></list>
+   */
+  deviceCommunicationStatusSearch: DeviceCommunicationStatusSearch;
+  /**
    * Gets or sets search for Devices with these unique {@link Id}(s). Not Supported
-   *  for searching for devices, only for {@link DeviceStatusInfo}.
+   *  for searching for devices, only for {@link DeviceStatusInfo}, {@link TachographDataFile}, {@link FaultData}, {@link ChargeEvent}
+   *  and {@link AddInDeviceLink}.
    */
   deviceIds: string[];
   /** Gets or sets search for devices that have the {@link DeviceSearch.DevicePlan} speicified */
@@ -41,6 +52,8 @@ export interface DeviceSearch extends Search {
   deviceReplacementInfoSearch: DeviceReplacementInfoSearch;
   /** Gets or sets search for Devices of this {@link DeviceType}. */
   deviceType: DeviceType;
+  /** Gets or sets search for Devices with these unique {@link DeviceType}(s). */
+  deviceTypes: DeviceType[];
   /**
    * Gets or sets search for a Device by Vehicle Identification Number (VIN) reported by the engine.
    *  This is the unique number assigned to the vehicle during manufacturing and reported through any
@@ -49,6 +62,13 @@ export interface DeviceSearch extends Search {
    *  Device, and will be updated whether it is classified as valid or invalid.
    */
   engineVehicleIdentificationNumber: string;
+  /**
+   *  Gets or sets the boolean to filter out devices that currently have an active DeviceCommunicationStatus.
+   *  When true it will not return any devices that have a {@link DeviceCommunicationStatus.IsActive} = true; when false it only return devices with an {@link DeviceCommunicationStatus} != true. This property is mostly used with {@link DeviceSearch.IsCommunicating} to filter devices that are offline with an unknown reason
+   */
+  excludeActiveCommunicationStatusReason: boolean;
+  /** Gets or sets the boolean to filter out secondary devices. */
+  excludeSecondaryDevices: boolean;
   /** Gets or sets filter for {@link UntrackedAsset}. */
   excludeUntrackedAssets: boolean;
   /**
@@ -67,8 +87,21 @@ export interface DeviceSearch extends Search {
   groups: GroupSearch[];
   /** Gets or sets search for a Device with this unique hardware ID. */
   hardwareId: number;
+  /**
+   * Gets or sets whether to hide archived devices based on today's date instead of the filter period start.
+   *  When true, excludes devices archived as of today (ActiveTo is before tomorrow's midnight).
+   *  When false or null, excludes devices archived before the filter period start (default behavior).
+   */
+  hideArchivedDevices: boolean;
   /** Gets or sets search for devices that contain {@link DeviceReplacementInfo} and include this information to the result. */
   includeDeviceReplacementInfo: boolean;
+  /**
+   * Gets or sets filter for a device communication state. Note: This is will search the {@link DeviceStatusInfo};
+   *  where as {@link DeviceSearch.DeviceCommunicationStatusSearch} will search the {@link DeviceCommunicationStatus}.
+   *  If device is not communicating it will be found in both criterias though the {@link DeviceStatusInfo}
+   *  is updated more frequently while the {@link DeviceCommunicationStatus} contains reason why it not communicating.
+   */
+  isCommunicating: boolean;
   /** Gets or sets search for entities that contain specific keywords in all wildcard string-searchable fields. */
   keywords: string[];
   /**
@@ -76,6 +109,8 @@ export interface DeviceSearch extends Search {
    *  prepending/appending "%" to string. Example "%LicensePlate%".
    */
   licensePlate: string;
+  /** Gets or sets search for Devices with this MacAddress. */
+  macAddress: string;
   /**
    * Gets or sets search for Devices with this Name. Name is the primary description of the Device. Wildcard can be
    *  used by prepending/appending "%" to string. Example "%name%".
@@ -86,6 +121,11 @@ export interface DeviceSearch extends Search {
    *  used by prepending/appending "%" to string. Example "%SerialNumber%".
    */
   serialNumber: string;
+  /**
+   * Gets or sets search for multiple Devices by their unique serial numbers. Only supported
+   *  for {@link DeviceSearch} and {@link AddInDeviceLinkSearch}
+   */
+  serialNumbers: string[];
   /** Gets or sets search for Devices that were active at this date or before. */
   toDate: Date;
   /**
@@ -96,4 +136,22 @@ export interface DeviceSearch extends Search {
    *  used by prepending/appending "%" to string. Example "%VehicleIdentificationNumber%".
    */
   vehicleIdentificationNumber: string;
+  /**
+   * Gets or sets search for a Device by VIN Info Make. This is the vehicle manufacturer
+   *  information decoded from the VIN. Wildcard can be used by prepending/appending "%"
+   *  to string. Example "%Make%".
+   */
+  vinInfoMake: string;
+  /**
+   * Gets or sets search for a Device by VIN Info Model. This is the vehicle model
+   *  information decoded from the VIN. Wildcard can be used by prepending/appending "%"
+   *  to string. Example "%Model%".
+   */
+  vinInfoModel: string;
+  /**
+   * Gets or sets search for a Device by VIN Info Year. This is the vehicle year
+   *  information decoded from the VIN. Wildcard can be used by prepending/appending "%"
+   *  to string. Example "%2022%".
+   */
+  vinInfoYear: string;
 }

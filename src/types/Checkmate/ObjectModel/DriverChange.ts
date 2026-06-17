@@ -7,9 +7,7 @@ import { DriverChangeType } from "./DriverChangeType";
 import { Device } from "./Device";
 import { Driver } from "./Driver";
 
-/**
- *  Information about timing of a {@link Driver} change.
- */
+/** Information about timing of a {@link Driver} change. */
 export interface DriverChange extends EntityWithVersion {
   /**
    * Gets or sets the date and time of the driver change.

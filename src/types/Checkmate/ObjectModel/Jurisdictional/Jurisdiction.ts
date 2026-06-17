@@ -12,4 +12,11 @@ export type Jurisdiction =
   | "US"
   | "AS"
   | "EU"
-  | "USGov";
+  | "USGov"
+  | "FedRamp"
+  | "FedRampTest"
+  | "Legacy_AService"
+  | "Legacy_OService"
+  | "Legacy_PService"
+  | "Legacy_UService"
+  | "CONUS";

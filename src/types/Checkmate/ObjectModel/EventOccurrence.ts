@@ -3,6 +3,7 @@
 //     the code is regenerated.
 
 import { Entity } from "./Entity";
+import { MaintenanceSchedule } from "./MaintenanceSchedule";
 import { EventRule } from "./EventRule";
 import { EventType } from "./EventType";
 import { Currency } from "./Currencies/Currency";
@@ -10,7 +11,7 @@ import { Device } from "./Device";
 import { MediaFile } from "./Files/MediaFile";
 
 /**
- *  A particular occurrence of an {@link EventRule}.
+ *  A particular occurrence of an {@link MaintenanceSchedule}.
  *
  * @deprecated
  */
@@ -31,10 +32,12 @@ export interface EventOccurrence extends Entity {
   costCurrencyConverted: Currency;
   /** Gets the code for CostCurrencyConverted */
   costCurrencyConvertedCode: string;
-  /** Gets or sets a value indicating whether the currency conversionfailed */
+  /** Gets or sets a value indicating whether the currency conversion failed */
   currencyConversionFailed: boolean;
   /** Gets or sets the current engine hours. */
   currentEngineHours: string;
+  /** Gets the current engine hours in hours as an integer. */
+  currentEngineHoursInHours: number;
   /** Gets or sets the current odometer. */
   currentOdometer: number;
   /** Gets or sets gets the {@link Device}. */
@@ -49,6 +52,8 @@ export interface EventOccurrence extends Entity {
   laborCost: number;
   /** Gets or sets the amount paid for labor converted to UI Settings Currency. */
   laborCostConverted: number;
+  /** Gets or sets the maintenance schedule. */
+  maintenanceSchedule: MaintenanceSchedule;
   /** Gets or sets the list of {@link MediaFile} for a event. */
   mediaFiles: MediaFile[];
   /** Gets or sets the amount paid for parts. */

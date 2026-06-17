@@ -3,7 +3,7 @@
 //     the code is regenerated.
 
 import { Entity } from "./Entity";
-import { EventRule } from "./EventRule";
+import { MaintenanceSchedule } from "./MaintenanceSchedule";
 import { Device } from "./Device";
 
 /**
@@ -21,7 +21,7 @@ export interface EventDeviation extends Entity {
   /** Gets or sets the event date. */
   dueOn: Date;
   /** Gets or sets the event rule. */
-  eventRule: EventRule;
+  eventRule: MaintenanceSchedule;
   /** Gets or sets the snooze duration. */
   snoozeDuration: number;
 }

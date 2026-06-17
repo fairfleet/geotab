@@ -34,6 +34,12 @@ export interface DVIRLogSearch extends Search {
    *  <list><item><description>Id</description></item><item><description>Groups</description></item></list>
    */
   deviceSearch: DeviceSearch;
+  /**
+   * Gets or sets search for {@link DVIRDefect}s that match the specified {@link Id}s.
+   *  This is used to filter the DVIRLogs based on the defects they contain.
+   *  The DVIRDefects are matched based on the DVIRDefect.Id.
+   */
+  dvirDefectId: string;
   /** Gets or sets search for DVIRLogs that were recorded at this date or after. */
   fromDate: Date;
   /**

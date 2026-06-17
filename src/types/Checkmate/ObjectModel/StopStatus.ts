@@ -4,7 +4,7 @@
 
 /** Route Stop status */
 export type StopStatus =
-  | "Pending"
+  | "Scheduled"
   | "Missed"
   | "EnRoute"
   | "Completed"

@@ -8,6 +8,7 @@ import { DeviceStatusFilterCondition } from "./DeviceStatusFilterCondition";
 import { Coordinate } from "./Coordinate";
 import { UserSearch } from "./UserSearch";
 import { Diagnostic } from "./Engine/Diagnostic";
+import { StatusDataValueFilter } from "./StatusDataValueFilter";
 
 /** The object used to specify the arguments when searching for {@link DeviceStatusInfo}(s). */
 export interface DeviceStatusInfoSearch extends Search {
@@ -26,15 +27,19 @@ export interface DeviceStatusInfoSearch extends Search {
    */
   deviceStatusFilterCondition: DeviceStatusFilterCondition;
   /**
-   * Gets or sets a list of diagnostics when looking for the latest values for those diagnostics.
+   * Gets or sets a list of {@link DeviceStatusInfoSearch.Diagnostics} to look for the latest values for those diagnostics. Maximum amount [200]
    *  Available Diagnostics options are:.
    *  <list><item><description>Id</description></item></list>
    */
   diagnostics: Diagnostic[];
   /** Gets or sets a value indicating whether to exclude exception events. Default [false]. */
   excludeExceptionEvents: boolean;
+  /** Gets or sets the date and time from which to search for DeviceStatusInfo. */
+  fromDate: Date;
   /** Gets or sets {@link DeviceStatusInfo}{@link Id} search criteria. */
   id: string;
+  /** Gets or sets a value indicating whether to include untracked and archived vehicles in the search results. Defaults to <see langword="false" />. */
+  includeUntrackedDevices: boolean;
   /**
    * Gets or sets search for devices based on their current communicating status.
    *  A device is communicating:
@@ -58,6 +63,11 @@ export interface DeviceStatusInfoSearch extends Search {
    *  property.
    */
   position: Coordinate;
+  /**
+   * Gets or sets a filter for the {@link StatusDataValueFilter}. This is used to filter
+   *  the {@link DeviceStatusInfo} based on the value of a specific diagnostic.
+   */
+  statusDataSearch: StatusDataValueFilter;
   /**
    * Gets or sets search for Device Status Info associated with this {@link UserSearch} Id.
    *  Available UserSearch options are:.

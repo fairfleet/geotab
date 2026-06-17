@@ -5,30 +5,26 @@
 import { Search } from "../../Search";
 import { DeviceSearch } from "../../DeviceSearch";
 import { UserSearch } from "../../UserSearch";
-import { TachographFileType } from "./TachographFileType";
 import { FloorToCeilingTimestampSearch } from "./FloorToCeilingTimestampSearch";
 import { ActivityTimestampBetweenSearch } from "./ActivityTimestampBetweenSearch";
 
 /** The object used to specify the arguments when searching for {@link TachographDataFile}. */
 export interface TachographDataFileSearch extends Search {
   /**
-   * @inheritdoc
+   * Gets or sets the filter to search the files in a period of activity time.
+   *  Available ActivityTimestampBetweenSearch options are:
+   *  <list><item><description>FromActivityTimestamp: Gets or sets search for TachographFile records whose activity period starts.</description></item><item><description>ToActivityTimestamp: Gets or sets search for TachographFile records whose activity period ends.</description></item></list>
    */
   activityTimestampBetween: ActivityTimestampBetweenSearch;
-  /** Gets or sets search for TachographFile text into specific fields. */
-  containsText: string;
-  /** Gets or sets search for TachographFile Device Ids records are in the list. */
-  deviceIds: string[];
   /**
-   * Gets or sets filter by the {@link DeviceSearch} options. Providing a device ID will
-   *  search for any TachographFile that are assigned to that Device.
-   *  Providing the Groups will search for TachographFile for that have Devices in that group.
+   *  Gets or sets filter by the {@link DeviceSearch} options.
+   *  Providing a device ID will search for any file that is assigned to that Device.
+   *  Providing the Groups will search for files that have Devices in that group.
+   *  Providing the device IDs will search for files that have Devices in that list.
    *  Available DeviceSearch options are:
-   *  <list><item><description>Id</description></item><item><description>Group</description></item></list>
+   *  <list><item><description>Id</description></item><item><description>Group</description></item><item><description>DeviceIds</description></item></list>
    */
   deviceSearch: DeviceSearch;
-  /** Gets or sets search for TachographFile Driver Ids records are in the list. */
-  driverIds: string[];
   /** Gets or sets search for contains text in errors. */
   errorContains: string;
   /**
@@ -36,32 +32,47 @@ export interface TachographDataFileSearch extends Search {
    *  It will return the last file of each driver where ActivityTimestampEnd is greater than this value.
    */
   fromActivityTimestampEnd: Date;
-  /** Gets or sets search for TachographFile records that were logged at this date or after. */
-  fromDate: Date;
   /**
-   * @inheritdoc
+   * Gets or sets the filter to search the files in a period of time from floor to ceiling.
+   *  Available FloorToCeilingTimestampSearch options are:
+   *  <list><item><description>FromTimestamp: Gets or sets search for TachographFile records that were generated at this date or after.</description></item><item><description>ToTimestamp: Gets or sets search for TachographFile records that were generated at this date or before.</description></item></list>
    */
   fromFloorToCeilingTimestamp: FloorToCeilingTimestampSearch;
   /** Gets or sets search for TachographFile records that were generated at this date or after. */
   fromTimestamp: Date;
+  /** Gets or sets search for file records that were uploaded at this date or after. */
+  fromUploadDate: Date;
   /** Gets or sets search for TachographFile Device Ids records are in the list. */
   ids: string[];
+  /** Gets or sets the flag to include archived files. By default archived tachograph data file records are not returned, set this flag to true to return all records. */
+  includeArchived: boolean;
   /** Gets or sets the flag to include binary data in the response. */
   includeBinaryData: boolean;
+  /**
+   *  Gets or sets search for entities that contain specific keywords into FileName, FileNameDdd, FileNameTgd, FileNameV1B,
+   *  in case the “type = Driver” it will look into the driver's first name and last name, or when “type = Device” in the license plate.
+   *  Note: It is currently limited to only one keyword. To use keywords it is necessary to use the “type” filter too.
+   */
+  keywords: string[];
   /** Gets or sets search for files with a specific processing status. */
   processingStatus: number;
-  /** Gets or sets search for TachographFile records that were logged at this date or before. */
-  toDate: Date;
   /** Gets or sets search for TachographFile records that were generated at this date or before. */
   toTimestamp: Date;
-  /** Gets or sets search for TachographFile records based on the type of file. */
-  type: TachographFileType;
+  /** Gets or sets search for file records that were uploaded at this date or before. */
+  toUploadDate: Date;
   /**
-   * Gets or sets filter by the {@link UserSearch} options. Providing a user ID will
-   *  search for any TachographFile that are assigned to that user.
-   *  Providing the Groups will search for TachographFile for that have Users in that group.
-   *  Available DeviceSearch options are:
-   *  <list><item><description>Id</description></item><item><description>Group</description></item></list>
+   * Gets or sets search for file records based on the file type.
+   *  The available values are:
+   *  <list><item><description>"Driver": To filter by file type Driver.</description></item><item><description>"Device": To filter by file type Device.</description></item></list>
+   */
+  type: string;
+  /**
+   *  Gets or sets filter by the {@link UserSearch} options.
+   *  Providing a user ID will search for any file that is assigned to that user.
+   *  Providing the Groups will search for files that have Users in that group.
+   *  Providing the user IDs will search for files that have Users in that list, in this case the users will be drivers.
+   *  Available UserSearch options are:
+   *  <list><item><description>Id</description></item><item><description>Group</description></item><item><description>UserIds</description></item></list>
    */
   userSearch: UserSearch;
   /**

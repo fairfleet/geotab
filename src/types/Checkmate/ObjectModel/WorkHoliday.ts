@@ -6,7 +6,7 @@ import { NameEntity } from "./NameEntity";
 import { DateTimeWithTimeZone } from "./DateTimeWithTimeZone";
 import { WorkTimeHolidayGroupId } from "./WorkTimeHolidayGroupId";
 
-/**  Day that is specified as not being a regular working day. */
+/** Day that is specified as not being a regular working day. */
 export interface WorkHoliday extends NameEntity {
   /** Gets or sets the midnight of the work holiday. */
   date: DateTimeWithTimeZone;

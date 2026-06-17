@@ -5,11 +5,19 @@
 import { Search } from "./Search";
 import { DeviceSearch } from "./DeviceSearch";
 import { BinaryDataType } from "./BinaryDataType";
+import { ControllerSearch } from "./Engine/ControllerSearch";
 
 /** The object used to specify the arguments when searching for {@link BinaryData}. */
 export interface BinaryDataSearch extends Search {
   /** Gets or sets search for BinaryData that has this {@link BinaryDataType}. */
   binaryDataType: BinaryDataType;
+  /**
+   * Gets or sets the search options which are used to search for binary data for a controller
+   *  {@link BinaryDataSearch.ControllerSearch}
+   *  by Id and protocol's Id. Available ControllerSearch options are:.
+   *  <list><item><description>Id</description></item><item><description>SourceSearch.Id</description></item></list>
+   */
+  controllerSearch: ControllerSearch;
   /**
    * Gets or sets filter by the {@link DeviceSearch} options. Providing a device ID will
    *  search for any BinaryData that are assigned to that Device.
@@ -20,6 +28,8 @@ export interface BinaryDataSearch extends Search {
   deviceSearch: DeviceSearch;
   /** Gets or sets search for BinaryData records that were logged at this date or after. */
   fromDate: Date;
+  /** Gets or sets search for most rececennt BinaryData grouped by Device and Controller. */
+  onlyMostRecentDeviceAndController: boolean;
   /** Gets or sets search for BinaryData records that were logged at this date or before. */
   toDate: Date;
   /**

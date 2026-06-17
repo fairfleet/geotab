@@ -8,7 +8,7 @@ import { Diagnostic } from "./Diagnostic";
 import { Controller } from "./Controller";
 
 /**
- *  A record that represents an engine status record from the
+ * A record that represents an engine status record from the
  *  engine system of the specific {@link Device}.
  */
 export interface StatusData extends EntityWithVersion {

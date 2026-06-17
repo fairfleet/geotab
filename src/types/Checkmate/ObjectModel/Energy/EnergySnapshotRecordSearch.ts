@@ -16,6 +16,8 @@ export interface EnergySnapshotRecordSearch extends Search {
   fromDate: Date;
   /** Gets or sets the IncludeAdjacent flag which, when true, includes the {@link EnergySnapshotRecord} records immediately before and after the date range specified */
   includeAdjacent: boolean;
+  /** Gets or sets a value indicating whether search includes records that have the dtDeleted column set */
+  includeDeleted: boolean;
   /** Gets or sets value. If &gt; 0, retrieve n snapshots after the to date. */
   includeSnapshotsAfterToDate: number;
   /** Gets or sets value. If &gt; 0, retrieve n snapshots before the from date. */
@@ -24,6 +26,10 @@ export interface EnergySnapshotRecordSearch extends Search {
   isWaitingForData: boolean;
   /** Gets or sets logs reasons. Includes the {@link EnergySnapshotRecord} records with matching log reasons. */
   logReasons: string[];
+  /** Gets or sets search for {@link EnergySnapshotRecord}s with a maximum of this version. */
+  maxVersion: number;
   /** Gets or sets the to date, which is used to search for {@link EnergySnapshotRecord} recorded on or before this date. */
   toDate: Date;
+  /** Gets or sets the row version of the {@link EnergySnapshotRecord} search criteria. */
+  version: number;
 }

@@ -50,4 +50,9 @@ export type DutyStatusLogType =
   | "Work"
   | "Rest"
   | "WorkExemption"
-  | "RailroadExemption";
+  | "RailroadExemption"
+  | "ExemptionReducedRest"
+  | "MotionStopped"
+  | "MaxPCLimitReached"
+  | "DrivingWhileInExemption"
+  | "DrivingStoppedWhileInExemption";

@@ -2,36 +2,43 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
-/** Represents populated MyGeotab addin with configuration. */
+/** Represents populated Add-In with configuration. */
 export interface AddInConfiguration {
-  /** Gets or sets a value indicating whether addin is going to setup the securityIds for viewing support. */
+  /** Gets or sets an array of {@link CustomSecurityId} that are added to the list of features available when editing clearances. */
+  customSecurityIds: unknown[];
+  /** Gets or sets the Data Permissions (i.e. collection of authorizations and consents) if exists. */
+  dataPermissions: unknown[];
+  /** Gets or sets a value indicating whether Add-In is going to setup the securityIds for viewing support. */
   enableViewSecurityId: boolean;
-  /** Gets or sets the add-in files. */
+  /** Gets or sets custom pages and/or buttons (Embedded code). */
   files: any;
-  /** Gets or sets if the install callback URL. */
+  /** Gets or sets the install callback URL. */
   installCallbackUrl: string;
-  /** Gets or sets a value indicating whether the add-in is signed. */
+  /** Gets or sets a value indicating whether the Add-In is signed. */
   isSigned: boolean;
-  /** Gets or sets the add-in items. */
-  items: any[];
-  /** Gets or sets the add-in key. */
+  /** Gets or sets an array of custom pages and/or buttons (External references). */
+  items: unknown[];
+  /**
+   * Gets or sets the unique MyGeotab Marketplace Add-In key assigned by Geotab.
+   *  If there’s no plan to get your Add-In to the Marketplace, you can leave out the key/value pair from the configuration.
+   */
   key: string;
-  /** Gets or sets addi-n name. */
+  /** Gets or sets the name of this Add-In. */
   name: string;
-  /** Gets or sets a value indicating whether addin is executed upon log out within the Drive App */
+  /** Gets or sets a value indicating whether Add-In is executed upon log out within the Drive App. */
   onShutdown: boolean;
-  /** Gets or sets a value indicating whether addin is executed initially on start up within the Drive App */
+  /** Gets or sets a value indicating whether Add-In is executed initially on start up within the Drive App. */
   onStartup: boolean;
-  /** Gets or sets addin SecurityIds */
+  /** Gets or sets an array of {@link CustomSecurityIdDefinition} that are added to the list of features available when editing clearances. */
   securityIds: unknown[];
-  /** Gets or sets the add-in signature. */
+  /** Gets or sets the digital signature of the Add-In. */
   signature: string;
-  /** Gets or sets add-in ID. */
+  /** Gets or sets the Add-In solution Id. */
   solutionId: string;
-  /** Gets or sets the support email. */
+  /** Gets or sets the email address for support related to this Add-In. */
   supportEmail: string;
-  /** Gets or sets if the add-in uninstall callback URL. */
+  /** Gets or sets the uninstall callback URL. */
   uninstallCallbackUrl: string;
-  /** Gets or sets the add-in version. */
+  /** Gets or sets the Add-In application version. */
   version: string;
 }

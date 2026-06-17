@@ -40,6 +40,8 @@ export interface RuleSearch extends Search {
    * @remarks Id cannot be used with any other search properties.
    */
   id: string;
+  /** Gets or sets include rules that are being removed by safe delete. Default [false]. */
+  includeDeleted: boolean;
   /** Gets or sets include zone stop rules. Default [false]. */
   includeZoneStopRules: boolean;
   /**
@@ -47,6 +49,8 @@ export interface RuleSearch extends Search {
    *  "%comments%".
    */
   name: string;
+  /** Gets or sets search for Rules with status that is either active or archived. */
+  status: string;
   /** Gets or sets the list of {@link ZoneType} to search by. */
   zoneTypes: ZoneType[];
 }

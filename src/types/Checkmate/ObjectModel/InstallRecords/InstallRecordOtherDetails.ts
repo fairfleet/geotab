@@ -8,8 +8,12 @@ import { InstallationType } from "./InstallationType";
 export interface InstallRecordOtherDetails {
   /** Gets or sets allowdownload property. */
   allowDownload: boolean;
+  /** Gets or sets the Asset Type. */
+  assetType: string;
   /** Gets or sets Auxiliary ports. */
   aux: string;
+  /** Gets or sets Camera Id. */
+  cameraId: string;
   /** Gets or sets value for Comments. */
   comments: string;
   /** Gets or sets value for DetectedHarness. */
@@ -18,6 +22,8 @@ export interface InstallRecordOtherDetails {
   detectedProtocol: string;
   /** Gets or sets value for DeviceAccount. */
   deviceAccount: string;
+  /** Gets or sets the Device Configurations. */
+  deviceConfigurations: unknown[];
   /** Gets or sets value for DeviceDatabase. */
   deviceDatabase: string;
   /** Gets or sets value for DeviceStatusPass. */
@@ -28,6 +34,8 @@ export interface InstallRecordOtherDetails {
   firmwareVersion: string;
   /** Gets or sets Gateway Server. */
   gatewayServer: unknown;
+  /** Gets or sets Hardware Comments. */
+  hardwareComments: string;
   /** Gets or sets Installation Comments. */
   installationComments: string;
   /** Gets or sets installation type for the device. */
@@ -49,11 +57,17 @@ export interface InstallRecordOtherDetails {
   /** Gets or sets value for Model. */
   model: string;
   /** Gets or sets Photos. */
-  photos: unknown[];
+  photos: string[];
   /** Gets or sets value for PossibleIssues. */
   possibleIssues: string;
+  /** Gets or sets Purchase Order Number. */
+  purchaseOrderNumber: string;
+  /** Gets or sets Removed Device Serial Number. */
+  removedSerialNumber: string;
   /** Gets or sets Request. */
   request: unknown;
+  /** Gets or sets Service Type. */
+  serviceType: string;
   /** Gets or sets value for SimActive. */
   simActive: boolean;
   /** Gets or sets value for UserType. */
@@ -62,6 +76,8 @@ export interface InstallRecordOtherDetails {
   vehicleName: string;
   /** Gets or sets value for Vin. */
   vin: string;
+  /** Gets or sets Work Order Services. */
+  workOrderServices: string;
   /** Gets or sets value for WorkReference. */
   workReference: string;
   /** Gets or sets value for Year. */

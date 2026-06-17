@@ -11,8 +11,10 @@ export interface MimeTaskSearch extends Search {
   fromDate: Date;
   /** Gets or sets a value indicating whether the task is completed. */
   isComplete: boolean;
-  /** Gets or sets search for mime tasks of a specific type (application/mdf4, etc). See {@link MimeTaskSearch.MimeTaskType}. */
+  /** Gets or sets search for mime tasks of a specific type (application/mdf4, automotive/*, etc). See {@link MimeTaskSearch.MimeTaskType}. */
   mimeTaskType: MimeTaskType;
+  /** Gets or sets search for mime tasks in a list of types (application/mdf4, automotive/*, etc). See {@link MimeTaskSearch.MimeTaskTypes}. */
+  mimeTaskTypes: MimeTaskType[];
   /** Gets or sets search for mime tasks that were recorded before this date. */
   toDate: Date;
 }

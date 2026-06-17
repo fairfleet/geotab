@@ -6,7 +6,7 @@ import { NameEntityWithVersion } from "./NameEntityWithVersion";
 import { Group } from "./Group";
 
 /**
- *  A trailer which can be attached and detached from a vehicle with a
+ * A trailer which can be attached and detached from a vehicle with a
  *  {@link TrailerAttachment} record.
  */
 export interface Trailer extends NameEntityWithVersion {

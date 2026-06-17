@@ -3,10 +3,15 @@
 //     the code is regenerated.
 
 import { NotificationExceptionForUsersData } from "./NotificationExceptionForUsersData";
+import { Rule } from "./Exceptions/Rule";
 
 /** The notification data associated with application notifications meant for admins. */
 export interface NotificationForAdminUsersData
   extends NotificationExceptionForUsersData {
   /** Gets a value indicating whether it is admin only for notification. */
   isAdminOnly: boolean;
+  /** Gets a value indicating whether this is a popup only notification. */
+  isPopupOnly: boolean;
+  /** Gets the rule associated with this notification, if any. */
+  rule: Rule;
 }

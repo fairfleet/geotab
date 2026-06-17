@@ -4,6 +4,7 @@
 
 import { Search } from "../Search";
 import { ReprocessRequestStatus } from "./ReprocessRequestStatus";
+import { GroupSearch } from "../GroupSearch";
 
 /** The object used to specify the arguments when searching for a {@link DeviceReprocessRequest}. */
 export interface DeviceReprocessRequestSearch extends Search {
@@ -12,6 +13,13 @@ export interface DeviceReprocessRequestSearch extends Search {
    *  parameters.
    */
   deviceId: string;
+  /**
+   * Gets or sets search for Devices that are a member of these {@link GroupSearch}(s). Each GroupSearch is an object within the array.
+   *  Available
+   *  GroupSearch options are:
+   *  <list><item><description>Id</description></item></list>
+   */
+  groups: GroupSearch[];
   /** Gets a value indicating whether any search criteria have been specified. */
   isEmpty: boolean;
   /** Gets or sets the Id of the parent {@link ReprocessRequest} to search by. */

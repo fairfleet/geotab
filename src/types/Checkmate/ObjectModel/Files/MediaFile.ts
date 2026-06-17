@@ -20,7 +20,7 @@ export interface MediaFile extends NameEntityWithVersion {
   mediaType: MediaType;
   /** Gets or sets file metadata in JSON format. */
   metaData: string;
-  /** Gets or sets the {@link Id} of the solution which added the data. */
+  /** Gets or sets the user-generated unique {@link Id} to associate the MediaFile data to a particular solution/integration. */
   solutionId: string;
   /** Gets or sets the file processing {@link Status}. */
   status: Status;

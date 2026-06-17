@@ -17,8 +17,18 @@ export interface ChargeEventSearch extends Search {
   deviceSearch: DeviceSearch;
   /** Gets or sets the from date, which is used to search for ChargeEvent(s) recorded on or after this date. */
   fromDate: Date;
-  /** Gets or sets the id, which is used to search for a Event record. Id cannot be used with any other search properties. */
-  id: string;
+  /** Gets or sets a value indicating whether search includes records that have dtDeleted column set */
+  includeDeleted: boolean;
+  /**
+   * Gets or sets the maximum row version of the
+   *  {@link ChargeEvent} search criteria.
+   */
+  maxVersion: number;
   /** Gets or sets the to date, which is used to search for ChargeEvent(s) recorded on or before this date. */
   toDate: Date;
+  /**
+   * Gets or sets the row version of the {@link ChargeEvent}
+   *  search criteria.
+   */
+  version: number;
 }

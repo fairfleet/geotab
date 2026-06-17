@@ -4,7 +4,7 @@
 
 import { Search } from "./Search";
 import { DeviceSearch } from "./DeviceSearch";
-import { EventRuleSearch } from "./EventRuleSearch";
+import { MaintenanceScheduleSearch } from "./MaintenanceScheduleSearch";
 
 /**
  *  The object used to specify the arguments when searching for
@@ -26,15 +26,15 @@ export interface EventDeviationSearch extends Search {
    *  <list><item><description>Id</description></item><item><description>Groups</description></item></list>
    */
   deviceSearch: DeviceSearch;
-  /** Gets or sets a list of EventRule Ids to search by. {@link EventRule} */
+  /** Gets or sets a list of EventRule Ids to search by. {@link MaintenanceSchedule} */
   eventRuleIds: string[];
   /**
    * Gets or sets search for {@link EventDeviation}s matching this
-   *  {@link EventRuleSearch}. Providing a event rule id will
+   *  {@link MaintenanceScheduleSearch}. Providing a event rule id will
    *  search for any EventDeviations that are assigned to that Event Rule.
    *  Providing the Groups will search for EventDeviations for that have Event Rules in that group.
    *  Available EventRuleSearch options are:.
    *  <list><item><description>Id</description></item><item><description>Groups</description></item><item><description>IncludeGroups</description></item></list>
    */
-  eventRuleSearch: EventRuleSearch;
+  eventRuleSearch: MaintenanceScheduleSearch;
 }

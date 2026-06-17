@@ -5,6 +5,7 @@
 import { Entity } from "./Entity";
 import { Device } from "./Device";
 import { User } from "./User";
+import { ShareableLinkState } from "./ShareableLinkState";
 import { Coordinate } from "./Coordinate";
 import { Zone } from "./Zone";
 
@@ -26,6 +27,8 @@ export interface ShareableLink extends Entity {
   link: string;
   /** Gets or sets the start date time of the shareable link. */
   startDateTime: Date;
+  /** Gets or sets the status of the link. */
+  state: ShareableLinkState;
   /** Gets or sets the user. */
   user: User;
   /** Gets or sets the zone. */

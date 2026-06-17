@@ -4,14 +4,14 @@
 
 import { StatusData } from "../Engine/StatusData";
 
-/** Represents the extrema (minima/maxima) from a set of {@link StatusData} values. */
+/** Represents the low and high values of fuel level for a fill-up. */
 export interface FillUpExtrema {
   /** Gets or sets the maxima value. */
   maxima: StatusData;
-  /** Gets or sets the maxima fuel data point for the fill up event */
+  /** Gets or sets the maxima {@link FillUpExtremum} for the fill-up. */
   maximaPoint: unknown;
   /** Gets or sets the minima value. */
   minima: StatusData;
-  /** Gets or sets the minima fuel data point for the fill up event. */
+  /** Gets or sets the minima {@link FillUpExtremum} for the fill-up. */
   minimaPoint: unknown;
 }

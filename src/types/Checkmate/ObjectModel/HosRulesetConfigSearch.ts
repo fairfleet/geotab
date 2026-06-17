@@ -11,4 +11,6 @@ import { Search } from "./Search";
 export interface HosRulesetConfigSearch extends Search {
   /** Gets or sets ruleset configs with a name containing this {@link String}. Wildcard can be used by prepending/appending "%" to string. */
   name: string;
+  /** Gets or sets the {@link Id} of the ruleset. */
+  ruleSetIds: string[];
 }

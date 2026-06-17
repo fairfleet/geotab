@@ -3,7 +3,6 @@
 //     the code is regenerated.
 
 import { Entity } from "../../Entity";
-import { TachographCompanyCardStatus } from "./TachographCompanyCardStatus";
 
 /** Represents a tachograph company card used to identify transport companies in EU countries. */
 export interface TachographCompanyCard extends Entity {
@@ -25,8 +24,12 @@ export interface TachographCompanyCard extends Entity {
   registrationTime: Date;
   /** Gets or sets the source of the card. */
   source: string;
-  /** Gets or sets the {@link TachographCompanyCardStatus} of the card. */
-  status: TachographCompanyCardStatus;
+  /**
+   * Gets or sets the status of the card.
+   *  The available values are:
+   *  <list><item><description>"Available": Company card available.</description></item><item><description>"Busy": Company card authenticating.</description></item><item><description>"Offline": Company card disconnected.</description></item></list>
+   */
+  status: string;
   /** Gets or sets the validity of the card. */
   validity: Date;
 }

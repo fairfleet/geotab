@@ -19,6 +19,7 @@ export type Currency =
   | "Nzd"
   | "Nok"
   | "Pen"
+  | "Pln"
   | "Php"
   | "Rub"
   | "Sar"
@@ -30,4 +31,13 @@ export type Currency =
   | "Thb"
   | "Twd"
   | "Try"
-  | "Gbp";
+  | "Gbp"
+  | "Aoa"
+  | "Ars"
+  | "Gyd"
+  | "Pgk"
+  | "Mzn"
+  | "Ngn"
+  | "Qar"
+  | "Clp"
+  | "Cop";

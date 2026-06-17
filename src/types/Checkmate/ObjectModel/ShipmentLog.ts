@@ -6,9 +6,7 @@ import { EntityWithVersion } from "./EntityWithVersion";
 import { Device } from "./Device";
 import { User } from "./User";
 
-/**
- *  A ShipmentLog is a record of shipment transported by a specified vehicle for a duration of time.
- */
+/** A ShipmentLog is a record of shipment transported by a specified vehicle for a duration of time. */
 export interface ShipmentLog extends EntityWithVersion {
   /** Gets or sets the date the shipment was started. Default [UtcNow]. */
   activeFrom: Date;

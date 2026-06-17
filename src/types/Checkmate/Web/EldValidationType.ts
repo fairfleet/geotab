@@ -41,4 +41,5 @@ export type EldValidationType =
   | "UnableToDecryptSmimeMessage"
   | "InvalidMessageSubject"
   | "MultipleAttachments"
-  | "NoAttachment";
+  | "NoAttachment"
+  | "DisabledDeviceAutoHos";

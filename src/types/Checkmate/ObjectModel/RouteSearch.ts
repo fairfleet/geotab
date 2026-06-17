@@ -53,10 +53,8 @@ export interface RouteSearch extends Search {
   /** Gets or sets search for Routes that were active at this date or before. */
   toDate: Date;
   /**
-   * Gets or sets filter by the {@link ZoneSearch} options. Providing a zone ID will
-   *  search for any Routes that are assigned to that Device.
-   *  Providing the Groups will search for Routes for that have Devices in that group.
-   *  Available DeviceSearch options are:
+   * Gets or sets filter by the {@link ZoneSearch} options. Providing a zone ID will search for any Routes that contain that Zone.
+   *  Providing Groups will search for Routes that have Zones in that group. Available ZoneSearch options are:
    *  <list><item><description>Id</description></item><item><description>Groups</description></item></list>
    */
   zoneSearch: ZoneSearch;

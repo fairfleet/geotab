@@ -8,9 +8,7 @@ import { RouteStatus } from "./RouteStatus";
 import { Device } from "./Device";
 import { Schedule } from "./Schedule";
 
-/**
- *  A connected sequence of zones which create a path for the vehicle to follow.
- */
+/** A connected sequence of zones which create a path for the vehicle to follow. */
 export interface Route extends NameEntityWithVersion {
   /** Gets or sets free text field where any user information can be stored and referenced for this entity. Default [""]. */
   comment: string;
@@ -18,12 +16,16 @@ export interface Route extends NameEntityWithVersion {
   device: Device;
   /** Gets the end date and time of the route which is the arrival time of the last stop. */
   endTime: Date;
-  /** Gets or sets the unique identifier for this entity. See {@link Id}. */
+  /** Gets or sets the unique identifier for this entity. */
   id: string;
   /** Gets or sets a value indicating whether the route is repeatable or not. */
   isRepeatable: boolean;
-  /** Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity. Maximum length [255]. */
+  /** Gets or sets the name of this entity which identifies it and is used when displaying this entity. Maximum length [255]. */
   name: string;
+  /** Gets or sets the end of a driver's shift hours */
+  resourceShiftEndTime: Date;
+  /** Gets or sets the start of a driver's shift hours */
+  resourceShiftStartTime: Date;
   /** Gets or sets the {@link RoutePlanItem} item collection (sequence of stops which make up the route). */
   routePlanItemCollection: unknown[];
   /** Gets or sets the {@link RouteType}. Default [Basic]. */

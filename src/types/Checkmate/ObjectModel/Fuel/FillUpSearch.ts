@@ -2,7 +2,31 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
-import { FuelUpEventSearch } from "./FuelUpEventSearch";
+import { Search } from "../Search";
+import { DeviceSearch } from "../DeviceSearch";
 
-/** The object used to specify the arguments when searching for a {@link FillUp}. */
-export interface FillUpSearch extends FuelUpEventSearch {}
+/**
+ *  The object used to specify the arguments when searching for {@link FillUp}.
+ *  This search has been designed to work efficiently with these parameters:<list><item><description>Id</description></item><item><description>DeviceSearch + FromDate and/or ToDate</description></item></list>
+ */
+export interface FillUpSearch extends Search {
+  /**
+   * Gets or sets the device search criteria for the FuelUpEvent with this {@link DeviceSearch} Id. Available DeviceSearch options are:.
+   *  <list><item><description>Id</description></item></list>
+   */
+  deviceSearch: DeviceSearch;
+  /** Gets or sets the from date, which is used to search for FuelUpEvent(s) recorded on or after this date. */
+  fromDate: Date;
+  /** Gets or sets a value indicating whether search includes records that have the dtDeleted column set */
+  includeDeleted: boolean;
+  /** Gets or sets a value indicating whether to include only engine-based fill-up records. */
+  includeEngineFillUpsOnly: boolean;
+  /** Gets or sets a value indicating whether all Fuel Transaction data should be populated. Only Id will be included by default. */
+  includeFuelTransactionData: boolean;
+  /** Gets or sets search for {@link FillUp}s with a maximum of this version. */
+  maxVersion: number;
+  /** Gets or sets the to date, which is used to search for FuelUpEvent(s) recorded on or before this date. */
+  toDate: Date;
+  /** Gets or sets the row version of the {@link FillUp} search criteria. */
+  version: number;
+}

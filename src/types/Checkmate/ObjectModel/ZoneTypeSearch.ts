@@ -7,12 +7,16 @@ import { Search } from "./Search";
 /**
  *  The object used to specify the arguments when searching for
  *  {@link ZoneType}(s).
- *
- * @deprecated
  */
 export interface ZoneTypeSearch extends Search {
+  /** Gets or sets a value indicating whether to include the full built-in object or only the known name ID. */
+  includeBuiltInObject: boolean;
+  /** Gets or sets search zone types that are or are not built in. */
+  isBuiltIn: boolean;
+  /** Gets or sets search zone types that contain specific keywords in name and comment fields. */
+  keywords: string[];
   /**
-   * Gets or sets get name of ZoneType to search for. Wildcard can be used by prepending/appending "%" to string.
+   * Gets or sets name of ZoneType to search for. Wildcard can be used by prepending/appending "%" to string.
    *  Example "%comments%".
    */
   name: string;

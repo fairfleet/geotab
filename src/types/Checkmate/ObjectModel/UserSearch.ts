@@ -9,6 +9,7 @@ import { UserAuthenticationType } from "./UserAuthenticationType";
 import { GroupFilterCondition } from "./GroupFilterCondition";
 import { UserSearchType } from "./UserSearchType";
 import { DateTimeComparator } from "./DateTimeComparator";
+import { UserWelcomeEmailStatusSearch } from "./UserWelcomeEmailStatusSearch";
 
 /** The object used to specify the arguments when searching for a {@link User}/{@link Driver}. */
 export interface UserSearch extends Search {
@@ -52,6 +53,13 @@ export interface UserSearch extends Search {
    *  only currently active (non-archived) users.
    */
   fromDate: Date;
+  /**
+   * Gets or sets search for Users with this full name (first and last names). Wildcard can be used by prepending/appending "%"
+   *  to string. Example "%lastName%".
+   *  This property is negatable. If the first character of this search property is '!', then the API will know to negate the
+   *  search logic. (e.g. field = "!John%", is equivalent to: WHERE NOT LIKE 'John%')
+   */
+  fullName: string;
   /** Gets or sets search for Users who are associated with this {@link HosRuleSet}. */
   hosRuleSet: HosRuleSet;
   /** Gets or sets search for Users who are associated with these {@link HosRuleSet}s. */
@@ -103,6 +111,14 @@ export interface UserSearch extends Search {
   toDate: Date;
   /** Gets or sets for user group list search. */
   userGroupFilterCondition: GroupFilterCondition;
+  /** Gets or sets search for Users with these unique {@link Id}(s). */
+  userIds: string[];
   /** Gets or sets for {@link UserSearch.UserSearchType} search. */
   userSearchType: UserSearchType;
+  /** Gets or sets search for Users who have been sent a welcome email but not verified yet. */
+  verificationPending: boolean;
+  /** Gets or sets search for Users who have not been sent a welcome email. */
+  welcomeEmailNotSent: boolean;
+  /** Gets or sets search for Users based on their welcome email and verification status. */
+  welcomeEmailStatus: UserWelcomeEmailStatusSearch;
 }

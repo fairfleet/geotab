@@ -50,7 +50,7 @@ new TsExporter(
           .Substitute(typeof(Guid), new RtSimpleTypeName("string"))
           .Substitute(typeof(DateTime), new RtSimpleTypeName("Date"))
           .Substitute(typeof(TimeSpan), new RtSimpleTypeName("string"))
-          .WithAllProperties()
+          .WithProperties(p => !p.Name.Contains('.'))
       );
 
       builder.ExportAsEnums(

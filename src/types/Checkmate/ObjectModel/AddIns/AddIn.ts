@@ -4,13 +4,31 @@
 
 import { Entity } from "../Entity";
 import { AddInConfiguration } from "./AddInConfiguration";
+import { AddInStatus } from "./AddInStatus";
+import { Group } from "../Group";
 
-/** Represents populated MyGeotab addin. */
+/**
+ * Add-Ins are used to extend the functionality provided by MyGeotab and Geotab Drive. An Add-In is JavaScript, HTML
+ *  and CSS loaded into the MyGeotab or Geotab Drive portal and resides directly inside the user interface. This allows
+ *  third-parties to create a seamless user experience and provide solutions that would otherwise require the user to
+ *  visit a different website altogether.
+ *  <a href="https://developers.geotab.com/myGeotab/addIns/developingAddIns">More information on developing Add-Ins.</a>
+ */
 export interface AddIn extends Entity {
-  /** Gets or sets addin Configuration */
+  /** Gets or sets the {@link AddInConfiguration}. */
   configuration: AddInConfiguration;
-  /** Gets or sets addin error message */
+  /** Gets or sets the error message if there was an issue with Add-In. */
   errorMessage: string;
-  /** Gets or sets addin Url */
+  /** Gets or sets the group(s) that assets will auto enroll into. */
+  groups: Group[];
+  /** Gets or sets the unique identifier for this entity. See {@link Id}. */
+  id: string;
+  /** Gets or sets a value indicating whether devices can be auto enrolled to the add-in. */
+  isAutoEnrollEnabled: boolean;
+  /** Gets or sets the Add-In status. */
+  status: AddInStatus;
+  /** Gets or sets the timestamp when Add-In is changed. */
+  updateTime: Date;
+  /** Gets or sets the marketplace Add-In Url. */
   url: string;
 }

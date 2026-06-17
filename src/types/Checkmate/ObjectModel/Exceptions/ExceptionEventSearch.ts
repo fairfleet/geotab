@@ -24,11 +24,20 @@ export interface ExceptionEventSearch extends Search {
   deviceSearch: DeviceSearch;
   /** Gets or sets search for Exception Events that occurred at this date or after. */
   fromDate: Date;
+  /** Gets or sets include camera data. */
+  includeCameraData: boolean;
+  /** Gets or sets search for {@link ExceptionEvent}s that have been soft deleted for any reason. */
+  includeDeleted: boolean;
   /** Gets or sets include dismissed events. */
   includeDismissedEvents: boolean;
   /**
+   * Gets or sets a value indicating whether to include the count of exception instances for the returned exception events.
+   *  When set to true, the {@link ExceptionEvent.ExceptionCount} property will be populated.
+   */
+  includeExceptionCount: boolean;
+  /**
    * Gets or sets search for {@link ExceptionEvent}s that have been invalidated because of new data being processed.
-   *  The default value is [false] using "Get" API and [true] using "GetFeed" API.
+   *  The default value is [false] while using "Get" and "GetFeed" APIs.
    */
   includeInvalidated: boolean;
   /** Gets or sets the flag to include metadata. */
@@ -40,13 +49,21 @@ export interface ExceptionEventSearch extends Search {
   maxVersion: number;
   /**
    * Gets or sets filter by the {@link RuleSearch} options. Providing a Rule ID
-   *  will search for any Exception Events recorded for that Rule.
+   *  will search for any Exception Events recorded for that Rule. Providing a {@link ExceptionRuleBaseType}
+   *  will search for any Exception Events with the given Base Type.
    *  Available RuleSearch options are:.
-   *  <list><item><description>Id</description></item></list>
+   *  <list><item><description>Id</description><description>BaseType</description></item></list>
    */
   ruleSearch: RuleSearch;
+  /**
+   * Gets or sets a case-insensitive filter by multiple names of the {@link ExceptionEventState}.
+   *  Possible values: "Valid", "Invalid", "Dismissed", "MarkedForCoaching", "CoachingCompleted", "PositiveRecognition", "SavedForLater".
+   */
+  states: string[];
   /** Gets or sets search for Exception Events that occurred at this date or before. */
   toDate: Date;
+  /** Gets or sets the use entity time zone flag. */
+  useEntityTimeZone: boolean;
   /**
    * Gets or sets the filter by the {@link UserSearch} options. Providing a User ID will search
    *  for any Exception Events recorded for that User.

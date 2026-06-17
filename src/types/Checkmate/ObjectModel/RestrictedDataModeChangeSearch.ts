@@ -12,13 +12,23 @@ export interface RestrictedDataModeChangeSearch extends Search {
   /**
    * Gets or sets search for {@link RestrictedDataModeChange}s with this {@link RestrictedDataModeChangeSearch.DeviceSearch} Id.
    *  Available DeviceSearch options are:.
-   *  <list><item><description>Id</description></item></list>
+   *  <list><item><description>Id</description></item><item><description>DeviceIds</description></item><item><description>Groups</description></item></list>
    */
   deviceSearch: DeviceSearch;
   /** Gets or sets search for {@link RestrictedDataModeChange}s recorded at this date or after. */
   fromDate: Date;
-  /** Gets or sets a value indicating whether gets or sets a value to include the first {@link RestrictedDataModeChange} before the {@link RestrictedDataModeChangeSearch.FromDate}. If {@link RestrictedDataModeChangeSearch.FromDate} is <c>null</c> this has no effect. */
+  /** Gets or sets a value indicating whether gets or sets a value to include the first {@link RestrictedDataModeChange} before the {@link RestrictedDataModeChangeSearch.FromDate}. If {@link RestrictedDataModeChangeSearch.FromDate" /> is <see langword="null} this has no effect. */
   includeFromDateOverlap: boolean;
+  /**
+   * Gets or sets the maximum version of the
+   *  {@link RestrictedDataModeChange} search criteria.
+   */
+  maxVersion: number;
   /** Gets or sets search for {@link RestrictedDataModeChange}s recorded at this date or before. */
   toDate: Date;
+  /**
+   * Gets or sets the version of the {@link RestrictedDataModeChange}
+   *  search criteria.
+   */
+  version: number;
 }

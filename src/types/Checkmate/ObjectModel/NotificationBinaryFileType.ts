@@ -8,4 +8,6 @@ export type NotificationBinaryFileType =
   | "AudioAlarmFile"
   | "EmailTemplate"
   | "WebRequestTemplate"
-  | "TextTemplate";
+  | "TextTemplate"
+  | "SmsTemplate"
+  | "PushNotificationTemplate";

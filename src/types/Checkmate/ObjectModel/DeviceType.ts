@@ -16,8 +16,14 @@ export type DeviceType =
   | "GO8"
   | "GO9"
   | "GO9B"
+  | "GO10"
+  | "GO10Lite"
   | "CustomDevice"
   | "GoDriveDevice"
   | "CustomVehicleDevice"
   | "A1"
-  | "U1";
+  | "U1"
+  | "GoAnywhere"
+  | "Gemini"
+  | "BluetoothTracker"
+  | "GoAnywhereLite";

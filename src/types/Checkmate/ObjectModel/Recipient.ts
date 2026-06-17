@@ -9,9 +9,10 @@ import { Group } from "./Group";
 import { NotificationBinaryFile } from "./NotificationBinaryFile";
 import { RecipientType } from "./RecipientType";
 import { User } from "./User";
+import { MediaTriggerSettings } from "./MediaTriggerSettings";
 
 /**
- *  The recipient for a specific notification. A recipient is linked to
+ * The recipient for a specific notification. A recipient is linked to
  *  {@link Rule}(s) via a
  *  {@link DistributionList}.
  *  When a {@link Rule} is violated the
@@ -28,10 +29,14 @@ export interface Recipient extends Entity {
   dataModeType: DataModeType;
   /** Gets or sets the {@link Group} to assign the related device to. */
   group: Group;
+  /** Gets or sets the {@link MediaTriggerSettings} to use for interacting with the media service. */
+  mediaTriggerSettings: MediaTriggerSettings;
   /** Gets or sets the NotificationBinaryFile to notify with. */
   notificationBinaryFile: NotificationBinaryFile;
   /** Gets or sets the {@link RecipientType} (type of notification message) this instance refers to. */
   recipientType: RecipientType;
+  /** Gets or sets the severity level for CreateWorkRequest recipients. */
+  severity: number;
   /** Gets or sets the {@link TripType} to assign the related device to. */
   tripType: TripType;
   /** Gets or sets the {@link User} to receive notification. */

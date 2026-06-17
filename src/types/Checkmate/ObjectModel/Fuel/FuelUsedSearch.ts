@@ -5,18 +5,33 @@
 import { Search } from "../Search";
 import { DeviceSearch } from "../DeviceSearch";
 
-/** The object used to specify the arguments when searching for a {@link FuelUsed}. */
+/**
+ *  The object used to specify the arguments when searching for {@link FuelUsed}.
+ *  This search has been designed to work efficiently with these parameters:<list><item><description>Id</description></item><item><description>DeviceSearch + FromDate and/or ToDate</description></item></list>
+ */
 export interface FuelUsedSearch extends Search {
   /**
    * Gets or sets filter by the {@link DeviceSearch} options. Providing a device ID will
-   *  search for any FuelUsed data that are assigned to that Device.
-   *  Providing the Groups will search for FuelUsed data for that have Devices in that group.
+   *  search for any data that are assigned to that Device.
+   *  Providing the Groups will search for data for that have Devices in that group.
    *  Available DeviceSearch options are:
    *  <list><item><description>Id</description></item><item><description>Groups</description></item></list>
    */
   deviceSearch: DeviceSearch;
-  /** Gets or sets the from date, which is used to search for {@link FuelUsed} records recorded on or after this date. */
+  /** Gets or sets the from date, which is used to search for records recorded on or after this date. */
   fromDate: Date;
-  /** Gets or sets the to date, which is used to search for {@link FuelUsed} records recorded on or before this date. */
+  /** Gets or sets a value indicating whether search includes records that have the dtDeleted column set */
+  includeDeleted: boolean;
+  /**
+   * Gets or sets the maximum row version of the
+   *  {@link FuelUsed} search criteria.
+   */
+  maxVersion: number;
+  /** Gets or sets the to date, which is used to search for records recorded on or before this date. */
   toDate: Date;
+  /**
+   * Gets or sets the row version of the {@link FuelUsed}
+   *  search criteria.
+   */
+  version: number;
 }

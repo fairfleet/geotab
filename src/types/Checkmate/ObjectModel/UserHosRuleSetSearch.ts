@@ -4,6 +4,7 @@
 
 import { Search } from "./Search";
 import { UserSearch } from "./UserSearch";
+import { HosRulesetConfigSearch } from "./HosRulesetConfigSearch";
 
 /**
  *  The object used to specify the arguments when searching for
@@ -12,6 +13,14 @@ import { UserSearch } from "./UserSearch";
 export interface UserHosRuleSetSearch extends Search {
   /** Gets or sets search for hos ruleset objects that were recorded at this date or after. */
   fromDate: Date;
+  /**
+   * Gets or sets search for ruleset configs
+   *  Available HosRulesetConfigSearch options are:
+   *  <list><item><description>RuleSetIds</description></item></list>
+   */
+  hosRulesetConfigSearch: HosRulesetConfigSearch;
+  /** Gets or sets a value indicating whether search includes records that have the dtDeleted column set */
+  includeDeleted: boolean;
   /**
    * Gets or sets
    *  Search for {@link UserHosRuleSet}s with a maximum of this version.

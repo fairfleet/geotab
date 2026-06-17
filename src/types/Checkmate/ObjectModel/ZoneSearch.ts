@@ -6,14 +6,16 @@ import { Search } from "./Search";
 import { GroupSearch } from "./GroupSearch";
 import { GroupFilterCondition } from "./GroupFilterCondition";
 import { IncludeGroups } from "./IncludeGroups";
-import { RectangleF } from "../../Drawing/RectangleF";
 import { BoundingBox } from "./Geographical/BoundingBox";
 import { ZoneTypeSearch } from "./ZoneTypeSearch";
+import { GeometryTypeSearch } from "./GeometryTypeSearch";
 
 /**
  *  The object used to specify the arguments when searching for {@link Zone}(s).
  */
 export interface ZoneSearch extends Search {
+  /** Gets or sets search for Zones that are displayed or not. */
+  displayed: boolean;
   /**
    * Gets or sets search for Zones with this External Reference. Wildcard can be used by prepending/appending "%"
    *  to string. Example "%reference%".
@@ -21,12 +23,13 @@ export interface ZoneSearch extends Search {
   externalReference: string;
   /** Gets or sets search for Zones that were active at this date or after. Set to UTC now to search for only currently active (non-archived) zones. */
   fromDate: Date;
+  /** Gets or sets search for Zones that have geometry type of {@link GeometryTypeSearch}. */
+  geometryType: GeometryTypeSearch;
   /** Gets or sets the zones that belong to groups that are combined with the and/or relation. */
   groupFilterCondition: GroupFilterCondition;
   /**
    * Gets or sets search for Zones that are members of these {@link GroupSearch}(s) one of
-   *  it's children or
-   *  one of it's parents. Available GroupSearch options are:.
+   *  it's children or one of it's parents. Available GroupSearch options are:
    *  <list><item><description>Id</description></item></list>
    */
   groups: GroupSearch[];
@@ -38,6 +41,8 @@ export interface ZoneSearch extends Search {
    *  Default: {@link IncludeGroups}.ParentAndChild.
    */
   includeGroups: IncludeGroups;
+  /** Gets or sets search for zones including metadata or not */
+  includeMetadata: boolean;
   /** Gets or sets search for entities that contain specific keywords in all wildcard string-searchable fields. */
   keywords: string[];
   /** Gets or sets exclude Zones whose radius is smaller than this size (meters). */
@@ -47,6 +52,8 @@ export interface ZoneSearch extends Search {
    *  Example "%name%".
    */
   name: string;
+  /** Gets or sets search for Zones with these Names. */
+  names: string[];
   /**
    * Gets or sets the {@link BoundingBox} search for Zones in this area extent, the zones being retrieved must be located in this area.
    *  Typically used for retrieving Zones in the extents of a bounding box.
@@ -56,15 +63,7 @@ export interface ZoneSearch extends Search {
   /** Gets or sets search for Zones that were active at this date or before. */
   toDate: Date;
   /**
-   * Gets or sets search for Zones in this area extent, the zones being retrieved must be located in this area.
-   *  Typically used for retrieving Zones in the extents of a Map Viewport.
-   *  The viewport object should contain the top left coordinate of the viewport (x,y) and the width, height.
-   *  An example of the JSON structure of this object is: { "x":-106.72608947754628, "y":55.862873349922104,
-   *  "width":41.04492187500384, "height":-28.66703166908511 }.
-   */
-  viewport: RectangleF;
-  /**
-   * Gets or sets search for Zones that are of type {@link ZoneTypeSearch}(s). Available ZoneTypeSearch options are:.
+   * Gets or sets search for Zones that are of type {@link ZoneTypeSearch}(s). Available ZoneTypeSearch options are:
    *  <list><item><description>Id</description></item></list>
    */
   zoneTypes: ZoneTypeSearch[];

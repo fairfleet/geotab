@@ -76,4 +76,8 @@ export type ConditionType =
   | "InsideEachArea"
   | "WiFiTierUsage"
   | "WiFiMaxTierUsage"
-  | "Group";
+  | "Group"
+  | "IsValueThreshold"
+  | "GpsBasedAccelerationX"
+  | "GpsBasedAccelerationY"
+  | "SpeedLimitLightCommercialVehicle";

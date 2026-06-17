@@ -5,6 +5,7 @@
 import { Search } from "../Search";
 import { DeviceSearch } from "../DeviceSearch";
 import { InstallStatus } from "./InstallStatus";
+import { InstallationType } from "./InstallationType";
 
 /** The object used to specify the arguments when searching {@link InstallRecord} entries. */
 export interface InstallRecordSearch extends Search {
@@ -12,8 +13,14 @@ export interface InstallRecordSearch extends Search {
   deviceSearch: DeviceSearch;
   /** Gets or sets search for Install Records that occurred at this date or after. */
   fromDate: Date;
+  /** Gets or sets a value indicating which installation service records to search. */
+  installServices: InstallationType[];
   /** Gets or sets a value indicating which install status type records to search. */
   installStatus: InstallStatus;
+  /** Gets or sets search for entities that contain specific keywords in all wildcard string-searchable fields. */
+  keywords: string[];
+  /** Gets or sets search for a {@link InstallRecord} using its source id. */
+  sourceId: string;
   /** Gets or sets search for Install Records that occurred at this date or before. */
   toDate: Date;
 }

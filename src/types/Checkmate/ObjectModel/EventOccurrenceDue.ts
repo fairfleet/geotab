@@ -4,6 +4,7 @@
 
 import { Entity } from "./Entity";
 import { EventOccurrence } from "./EventOccurrence";
+import { MaintenanceSeverity } from "./Maintenance/MaintenanceSeverity";
 
 /**
  *  An upcoming event related to ab {@link EventOccurrence}.
@@ -11,6 +12,8 @@ import { EventOccurrence } from "./EventOccurrence";
  * @deprecated
  */
 export interface EventOccurrenceDue extends Entity {
+  /** Gets or sets the created date of the maintenanceupcomingevents record. */
+  createdDate: Date;
   /** Gets or sets the number of days the event is due in. */
   dueInDays: number;
   /** Gets or sets the engine hours the event is due. */
@@ -21,6 +24,8 @@ export interface EventOccurrenceDue extends Entity {
   dueOnDate: Date;
   /** Gets or sets the event that is due or overdue. */
   eventDue: EventOccurrence;
+  /** Gets the records GUID. */
+  guid: string;
   /**
    * @inheritdoc
    */
@@ -35,10 +40,14 @@ export interface EventOccurrenceDue extends Entity {
   overdueByEngineHours: string;
   /** Gets or sets the odometer the event is overdue by. */
   overdueByOdometer: number;
+  /** Gets or sets the severity of the event. */
+  severity: MaintenanceSeverity;
   /** Gets or sets the date snoozed */
   snoozedDate: Date;
   /** Gets or sets the date the snoozed is due */
   snoozedDueOn: Date;
   /** Gets or sets the snoozed duration */
   snoozeDuration: number;
+  /** Gets or sets the status of the event. */
+  status: string;
 }

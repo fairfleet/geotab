@@ -5,7 +5,7 @@
 import { NameEntity } from "../NameEntity";
 
 /**
- *  Standard Parameter Group Number (PGN). Where there is no
+ * Standard Parameter Group Number (PGN). Where there is no
  *  parameter group it is represented by "ParameterGroupNoneId".
  */
 export interface ParameterGroup extends NameEntity {
@@ -13,8 +13,8 @@ export interface ParameterGroup extends NameEntity {
   code: number;
   /** Gets or sets the total length in bytes of the PGN. */
   dataLength: number;
-  /** Gets or sets the unique identifier for this entity. See {@link Id}. */
+  /** Gets or sets the unique identifier for this entity. */
   id: string;
-  /** Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity. */
+  /** Gets or sets the name of this entity which identifies it and is used when displaying this entity. */
   name: string;
 }

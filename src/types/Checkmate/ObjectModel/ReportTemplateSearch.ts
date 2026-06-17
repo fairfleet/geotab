@@ -14,6 +14,12 @@ import { ReportDataSource } from "./ReportDataSource";
 export interface ReportTemplateSearch extends Search {
   /** Gets or sets include report Binary Data for this ReportTemplate. */
   includeBinaryData: boolean;
-  /** Gets or sets search for a ReportTemplate with this ReportDataSource. */
-  reportDataSource: ReportDataSource;
+  /** Gets or sets whether to include only system templates in the search results. */
+  includeSystemOnlyTemplates: boolean;
+  /** Gets or sets whether to include system templates in the search results. */
+  includeSystemTemplates: boolean;
+  /** Gets or sets whether to include unsupported templates in the search results. */
+  includeUnSupportedTemplates: boolean;
+  /** Gets or sets search for ReportTemplates with these ReportDataSources. */
+  reportDataSources: ReportDataSource[];
 }

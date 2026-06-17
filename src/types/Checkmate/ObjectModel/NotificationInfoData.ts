@@ -7,6 +7,8 @@ import { NotificationStatus } from "./NotificationStatus";
 
 /** The information data associated with a notification. */
 export interface NotificationInfoData extends NotificationData {
+  /** Gets or sets database name pertaining to the relevant information. */
+  databaseName: string;
   /** Gets or sets the information for the specific machine. */
   info: string;
   /** Gets or sets the instance of this particular notification eg. the particular downloader serial number. */

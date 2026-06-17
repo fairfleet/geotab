@@ -4,6 +4,7 @@
 
 import { Search } from "./Search";
 import { DeviceSearch } from "./DeviceSearch";
+import { DeviceLinkType } from "./DeviceLinkType";
 
 /** The object used to specify the arguments when searching for {@link DeviceLink} record(s). */
 export interface DeviceLinkSearch extends Search {
@@ -20,6 +21,8 @@ export interface DeviceLinkSearch extends Search {
    *  <list><item><description>Id</description></item></list>
    */
   destinationDeviceSearch: DeviceSearch;
+  /** Gets or sets link type for the DeviceLink search */
+  linkType: DeviceLinkType;
   /** Gets or sets the maximum row version of the DeviceLink search criteria. */
   maxVersion: number;
   /**

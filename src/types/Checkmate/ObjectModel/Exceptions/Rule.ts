@@ -6,10 +6,12 @@ import { NameEntityWithVersion } from "../NameEntityWithVersion";
 import { ExceptionRuleBaseType } from "./ExceptionRuleBaseType";
 import { Color } from "../../../Drawing/Color";
 import { Condition } from "./Condition";
+import { ExceptionRuleState } from "./ExceptionRuleState";
+import { ExceptionRuleReason } from "./ExceptionRuleReason";
 import { Group } from "../Group";
 
 /**
- *  A rule is the definition of conditions that, when "violated", will generate an
+ * A rule is the definition of conditions that, when "violated", will generate an
  *  {@link ExceptionEvent}.
  *  The rule's logic is defined by it's tree of {@link Condition}
  *  (s).
@@ -41,16 +43,24 @@ export interface Rule extends NameEntityWithVersion {
    */
   condition: Condition;
   /**
+   * @inheritdoc
+   */
+  deletedDateTime: Date;
+  /**
    * Gets or sets a list of {@link Group}(s) assigned to the rule. Device in these groups
    *  will have the rule evaluated against their data.
    *
    * @remarks Device conditions will override devices in the assigned groups.
    */
   groups: Group[];
-  /** Gets or sets the unique identifier for this entity. See {@link Id}. */
+  /** Gets or sets the unique identifier for this entity. */
   id: string;
   /** Gets or sets the {@link RuleMonitor}(s). */
   monitors: unknown[];
-  /** Gets or sets the name of the rule entity that uniquely identifies it and is used when displaying this entity. */
+  /** Gets or sets the name of this entity which identifies it and is used when displaying this entity. */
   name: string;
+  /** Gets or sets the {@link ExceptionRuleReason} of the exception rule. */
+  reason: ExceptionRuleReason;
+  /** Gets or sets the {@link ExceptionRuleState} of the exception rule. */
+  state: ExceptionRuleState;
 }

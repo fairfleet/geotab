@@ -6,8 +6,8 @@ import { NameEntity } from "../NameEntity";
 
 /** The source is the underlying producer of the engine data. */
 export interface Source extends NameEntity {
-  /** Gets or sets the unique identifier for this entity. See {@link Id}. */
+  /** Gets or sets the unique identifier for this entity. */
   id: string;
-  /** Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity. */
+  /** Gets or sets the name of this entity which identifies it and is used when displaying this entity. */
   name: string;
 }

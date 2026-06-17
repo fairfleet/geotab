@@ -24,15 +24,17 @@ export interface TripSearch extends Search {
    *  where the NextTripStartTime is at this date, after or NULL.
    */
   fromDate: Date;
+  /** Gets or sets a value indicating whether trip search allows including deleted records */
+  includeDeleted: boolean;
   /**
    * Gets or sets a value indicating whether when OverlappedTrips is set to True; any part of a trip that overlaps with the FromDate or ToDate boundary
    *  will have the entire trip included in the data.
    */
   includeOverlappedTrips: boolean;
-  /** Gets or sets maximum Id of the search criteria. */
-  maxId: string;
-  /** Gets or sets minimum Id of the search criteria. */
-  minId: string;
+  /** Gets or sets maximum Version of the search criteria. */
+  maxVersion: number;
+  /** Gets or sets minimum Version of the search criteria. */
+  minVersion: number;
   /**
    * Gets or sets search rectangular area for Trips; the trips being retrieved must be located in this area.
    *  The {@link BoundingBox} object should contain the bottom left and top right coordinates of the searching rectangle.

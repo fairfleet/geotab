@@ -17,6 +17,8 @@ export interface DiagnosticSearch extends Search {
   code: number;
   /** Gets or sets the {@link DiagnosticType} to search for in Diagnostics. */
   diagnosticType: DiagnosticType;
+  /** Gets or sets the list of {@link DiagnosticType} to search for in Diagnostics. */
+  diagnosticTypes: string[];
   /**
    * Gets or sets search for {@link Diagnostic}(s) with this
    *  {@link EngineTypeSearch}{@link Id}. Available EngineTypeSearch
@@ -26,6 +28,8 @@ export interface DiagnosticSearch extends Search {
   engineTypeSearch: EngineTypeSearch;
   /** Gets or sets the {@link FaultResetMode} to search by. */
   faultResetMode: FaultResetMode;
+  /** Gets or sets search for Diagnostics with these unique {@link Id}(s). */
+  ids: string[];
   /**
    * Gets or sets search for Diagnostics with this Name. Wildcard can be used by prepending/appending "%" to
    *  string. Example "%name%".

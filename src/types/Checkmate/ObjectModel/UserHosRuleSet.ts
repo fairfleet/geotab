@@ -10,6 +10,10 @@ import { User } from "./User";
 export interface UserHosRuleSet extends EntityWithVersion {
   /** Gets or sets the active from. */
   dateTime: Date;
+  /**
+   * @inheritdoc
+   */
+  deletedDateTime: Date;
   /** Gets or sets the ruleset. */
   hosRuleSet: HosRuleSet2;
   /** Gets or sets the start of day. */

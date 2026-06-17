@@ -4,7 +4,7 @@
 
 import { Search } from "./Search";
 import { DeviceSearch } from "./DeviceSearch";
-import { EventRuleSearch } from "./EventRuleSearch";
+import { MaintenanceScheduleSearch } from "./MaintenanceScheduleSearch";
 
 /**
  *  The object used to specify the arguments when searching for
@@ -30,17 +30,19 @@ export interface EventOccurrenceDueSearch extends Search {
   dueEngineHours: string;
   /** Gets or sets a value indicating the timespan from now in for which to search for events. */
   duePeriod: string;
-  /** Gets or sets a list of EventRule Ids to search by. {@link EventRule} */
+  /** Gets or sets a value indicating if upcoming maintenances with due on severity should be retrieved. */
+  dueSeverity: boolean;
+  /** Gets or sets a list of EventRule Ids to search by. {@link MaintenanceSchedule} */
   eventRuleIds: string[];
   /**
    * Gets or sets search for {@link EventOccurrenceDue}s matching this
-   *  {@link EventRuleSearch}. Providing a event rule id will
+   *  {@link MaintenanceScheduleSearch}. Providing a event rule id will
    *  search for any EventOccurrences that are assigned to that Event Rule.
    *  Providing the Groups will search for EventOccurrences for that have Event Rules in that group.
    *  Available EventRuleSearch options are:.
    *  <list><item><description>Id</description></item><item><description>Groups</description></item><item><description>IncludeGroups</description></item></list>
    */
-  eventRuleSearch: EventRuleSearch;
+  eventRuleSearch: MaintenanceScheduleSearch;
   /** Gets or sets search for {@link EventOccurrenceDue}s recorded at this date or after. */
   fromDate: Date;
   /** Gets or sets gets maximum Id of the search criteria. */

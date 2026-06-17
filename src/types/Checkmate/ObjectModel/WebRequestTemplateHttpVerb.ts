@@ -3,4 +3,9 @@
 //     the code is regenerated.
 
 /** WebRequest Template Http Verb. */
-export type WebRequestTemplateHttpVerb = "Get" | "Post";
+export type WebRequestTemplateHttpVerb =
+  | "Get"
+  | "Post"
+  | "Put"
+  | "Patch"
+  | "Delete";

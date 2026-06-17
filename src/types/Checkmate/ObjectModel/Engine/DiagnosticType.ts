@@ -18,4 +18,4 @@ export type DiagnosticType =
   | "GmcccFault"
   | "BrpFault"
   | "AiModel"
-  | "LevcFault";
+  | "Source14Fault";

@@ -12,7 +12,7 @@ import { DVIRLogType } from "./DVIRLogType";
 import { AddressLookupData } from "./AddressLookupData";
 
 /**
- *  A DVIRLog is a Driver Vehicle Inspection Report which is prepared by a driver
+ * A DVIRLog is a Driver Vehicle Inspection Report which is prepared by a driver
  *  regarding defects in parts of a vehicle associated with a {@link Device} or
  *  {@link Trailer}. Once the report is completed
  *  with optional driver remarks, the DVIR log will be acted upon, and marked as repairs made or not necessary
@@ -57,8 +57,12 @@ export interface DVIRLog extends EntityWithVersion {
   driver: User;
   /** Gets or sets the remark recorded by the driver for this log. */
   driverRemark: string;
+  /** Gets or sets the total time spent to complete this dvir. Default [null]. */
+  duration: string;
   /** Gets or sets the list of DVIRDefects {@link DVIRDefect}(s) for this log. */
   dvirDefects: DVIRDefect[];
+  /** Gets or sets the engine hours for the {@link DVIRLog.Device} of this log. The unit is seconds (not hours). Default [null]. */
+  engineHours: number;
   /** Gets or sets the unique identifier for this entity. See {@link Id}. */
   id: string;
   /**
@@ -73,15 +77,24 @@ export interface DVIRLog extends EntityWithVersion {
    *  {@link Trailer} was certified as safe to operate.
    */
   isSafeToOperate: boolean;
-  /** Gets or sets the load height, if it was manually recorded by the driver. Default [null]. */
+  /**
+   * Gets or sets the load height, if it was manually recorded by the driver. The unit is in meters (m), not kilometers (km).
+   *  Default [null].
+   */
   loadHeight: number;
-  /** Gets or sets the load width, if it was manually recorded by the driver. Default [null]. */
+  /**
+   * Gets or sets the load width, if it was manually recorded by the driver. The unit is in meters (m), not kilometers (km).
+   *  Default [null].
+   */
   loadWidth: number;
   /** Gets or sets an object with the location information of the log. */
   location: AddressLookupData;
   /** Gets or sets the {@link DVIRLogType} of the log. Default [Unknown]. */
   logType: DVIRLogType;
-  /** Gets or sets the odometer or hubometer of the vehicle or trailer, respectively, if it was manually recorded by the driver. Default [null]. */
+  /**
+   * Gets or sets the odometer or hubometer of the vehicle or trailer. The unit is in meters (m), not kilometers (km).
+   *  Default [null].
+   */
   odometer: number;
   /**
    * Gets or sets the date the {@link Device} or

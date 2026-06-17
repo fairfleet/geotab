@@ -19,4 +19,5 @@ export type DutyStatusViolationType =
   | "DutySinceCycleRest"
   | "EwdRest"
   | "EwdWork"
-  | "EwdWorkExemption";
+  | "EwdWorkExemption"
+  | "CycleDriving";

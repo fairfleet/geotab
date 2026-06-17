@@ -136,4 +136,7 @@ export type HosRuleSet =
   | "CanadaOilTeam"
   | "CanadaNorthOf60OilTeam"
   | "America7DayRailroad"
-  | "America8DayRailroad";
+  | "America8DayRailroad"
+  | "CanadaBCLoggingTruck"
+  | "MalaysiaDrivingHours"
+  | "Alberta";

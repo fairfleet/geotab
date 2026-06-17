@@ -13,7 +13,7 @@ export interface Controller extends NameEntityWithVersion {
   codeId: number;
   /** Gets or sets the unique identifier for the specific {@link Entity} object in the Geotab system. See {@link Id}. */
   id: string;
-  /** Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity. */
+  /** Gets or sets the name of this entity which identifies it and is used when displaying this entity. */
   name: string;
   /** Gets or sets the standard (format) of the {@link Source}. */
   source: Source;

@@ -8,6 +8,8 @@ import { ReprocessRequestStatus } from "./ReprocessRequestStatus";
 
 /** Represents a request to reprocess data for a specific device. */
 export interface DeviceReprocessRequest extends Entity {
+  /** Gets or sets a value indicating the date the reprocssing request was created. */
+  createdDate: Date;
   /** Gets the FromDate. Required by {@link IDateTimeProvider}. See {@link DeviceReprocessRequest.FromDate}. */
   dateTime: Date;
   /** Gets or sets the device for which data will be reprocessed. */
@@ -35,4 +37,6 @@ export interface DeviceReprocessRequest extends Entity {
    *  {@link DeviceReprocessRequest}.
    */
   statusText: string;
+  /** Gets or sets a value indicating the date the reprocssing request was updated. */
+  updatedDate: Date;
 }

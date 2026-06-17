@@ -10,10 +10,12 @@ import { NotificationInfoData } from "./NotificationInfoData";
 import { NotificationNewsData } from "./NotificationNewsData";
 import { NotificationReportProcessorData } from "./NotificationReportProcessorData";
 import { NotificationMessageData } from "./NotificationMessageData";
+import { NotificationSimpleEmailData } from "./NotificationSimpleEmailData";
 import { NotificationUserModifiedData } from "./NotificationUserModifiedData";
 import { NotificationForAdminUsersData } from "./NotificationForAdminUsersData";
 import { NotificationMaintenanceReminderData } from "./NotificationMaintenanceReminderData";
 import { NotificationDeviceShareData } from "./NotificationDeviceShareData";
+import { NotificationVideoData } from "./NotificationVideoData";
 import { Recipient } from "./Recipient";
 import { NotificationData } from "./NotificationData";
 
@@ -25,6 +27,8 @@ import { NotificationData } from "./NotificationData";
 export interface Notification extends EntityWithVersion {
   /** Gets or sets gets the date. */
   dateTime: Date;
+  /** Gets or sets the timestamp when the notification was created. */
+  dateTimeCreated: Date;
   /** Gets or sets the timestamp indication until when this notification was processed (viewed, delivered). */
   dateTimeEnd: Date;
   /**
@@ -64,8 +68,12 @@ export interface Notification extends EntityWithVersion {
   notificationNewsData: NotificationNewsData;
   /** Gets or sets the {@link Notification.NotificationReportDownloadData} data that provides the data for this notification. */
   notificationReportDownloadData: NotificationReportProcessorData;
+  /** Gets or sets the {@link Notification.NotificationSimpleEmailData} data that provides the data for this notification. */
+  notificationSimpleEmailData: NotificationSimpleEmailData;
   /** Gets or sets the {@link Notification.NotificationUserModifiedData} data that provides the data for this notification. */
   notificationUserModifiedData: NotificationUserModifiedData;
+  /** Gets or sets the {@link Notification.NotificationVideoData} data that provides the data for this notification. */
+  notificationVideoData: NotificationVideoData;
   /** Gets or sets the recipient this notification belongs to. */
   recipient: Recipient;
 }

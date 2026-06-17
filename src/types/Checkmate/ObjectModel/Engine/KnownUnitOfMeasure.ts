@@ -64,8 +64,12 @@ export enum KnownUnitOfMeasure {
   KilometersPerLiter = "KilometersPerLiter",
   /** The kilograms per kilometer unit of measure. */
   KilogramsPerKilometer = "KilogramsPerKilometer",
-  /** The liters per lane kilometer unit of measure. */
-  LitersPerLaneKilometer = "LitersPerLaneKilometer",
+  /** Amps per hour unit of measure. */
+  AmpsPerHour = "AmpsPerHour",
+  /** Decibel unit of measure. */
+  Decibel = "Decibel",
+  /** Decibel per milliwatt unit of measure. */
+  DecibelMilliwatt = "DecibelMilliwatt",
   /** The liters per ton unit of measure. */
   LitersPerTon = "LitersPerTon",
   /** The grams per square meter unit of measure. */
@@ -76,4 +80,8 @@ export enum KnownUnitOfMeasure {
   LitersPerTonne = "LitersPerTonne",
   /** The kilometers per kilo watt hour unit of measure. */
   KilometersPerKiloWattHour = "KilometersPerKiloWattHour",
+  /** The liters per lane kilometer unit of measure. */
+  LitersPerLaneKilometer = "LitersPerLaneKilometer",
+  /** The micrograms per cubic meter unit of measure. */
+  MicrogramsPerCubicMeter = "MicrogramsPerCubicMeter",
 }
