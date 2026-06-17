@@ -15,10 +15,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup .NET 6 (required by tools/CaroKann type generator)
+      - name: Setup .NET 10 (required by tools/CaroKann type generator)
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: "6.0.x"
+          dotnet-version: "10.0.x"
 
       - uses: pnpm/action-setup@v2.0.1
         name: Install pnpm
