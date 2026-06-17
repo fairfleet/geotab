@@ -19,6 +19,7 @@ The object used to specify the arguments when searching for [DeviceShare](Device
 - [devicePlan](DeviceShareSearch.md#deviceplan)
 - [devicePlanBillingInfo](DeviceShareSearch.md#deviceplanbillinginfo)
 - [exclusiveDates](DeviceShareSearch.md#exclusivedates)
+- [expirationDateTime](DeviceShareSearch.md#expirationdatetime)
 - [findFirstAfterDate](DeviceShareSearch.md#findfirstafterdate)
 - [findFirstBeforeDate](DeviceShareSearch.md#findfirstbeforedate)
 - [findFromDevices](DeviceShareSearch.md#findfromdevices)
@@ -47,7 +48,7 @@ Gets or sets search for DeviceShares accepted from this date onwards.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L15)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L15)
 
 ___
 
@@ -59,7 +60,7 @@ Gets or sets search for DeviceShares created from this date onwards.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L17)
 
 ___
 
@@ -71,7 +72,7 @@ Gets or sets search for DeviceShares using [DevicePlan](../README.md#deviceplan)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L19)
 
 ___
 
@@ -85,7 +86,7 @@ Gets or sets search for a DeviceShare using billing level in DeviceShareSearch.D
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L25)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L25)
 
 ___
 
@@ -97,7 +98,19 @@ Gets or sets the ExclusiveDateSearch flag. Set to true to search for dates exclu
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L27)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L27)
+
+___
+
+### expirationDateTime
+
+• **expirationDateTime**: `Date`
+
+Gets or sets search for DeviceShares expired from this date onwards.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L29)
 
 ___
 
@@ -111,7 +124,7 @@ Gets or sets the FindFirstAfterDate flag. Set to true to find the first device s
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L33)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:35](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L35)
 
 ___
 
@@ -125,7 +138,7 @@ Gets or sets the GetFirstBeforeDate flag. Set to true to find the first device s
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:39](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L39)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L41)
 
 ___
 
@@ -138,7 +151,7 @@ Gets or sets search for device shares belonging to devices (using their serial n
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:44](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L44)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:46](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L46)
 
 ___
 
@@ -150,7 +163,7 @@ Gets or sets search for device shares using a list MyAdmin ids.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:46](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L46)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:48](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L48)
 
 ___
 
@@ -163,7 +176,7 @@ Gets or sets search for device shares using device serial numbers. Note, if this
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:51](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L51)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:53](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L53)
 
 ___
 
@@ -176,7 +189,7 @@ Gets or sets the FindPendingOrActiveOnly flag. Set to true to find only device s
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:56](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L56)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:58](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L58)
 
 ___
 
@@ -192,7 +205,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -204,7 +217,7 @@ Gets or sets search for a DeviceShare using its MyAdmin id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:58](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L58)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:60](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L60)
 
 ___
 
@@ -216,7 +229,7 @@ Gets or sets search for a DeviceShares having a given serial number.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:60](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L60)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:62](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L62)
 
 ___
 
@@ -228,7 +241,7 @@ Gets or sets search for DeviceShares using [DeviceShareStatus](../README.md#devi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:62](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L62)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:64](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L64)
 
 ___
 
@@ -240,7 +253,7 @@ Gets or sets search for DeviceShares using [DeviceShareType](../README.md#device
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:64](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L64)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:66](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L66)
 
 ___
 
@@ -253,7 +266,7 @@ Gets or sets search for DeviceShares using SourceDatabaseName matching this valu
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:69](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L69)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:71](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L71)
 
 ___
 
@@ -266,7 +279,7 @@ Gets or sets search for DeviceShares using TargetDatabaseName matching this valu
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:74](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L74)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:76](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L76)
 
 ___
 
@@ -278,7 +291,7 @@ Gets or sets search for DeviceShares terminated from this date onwards.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:76](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L76)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:78](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L78)
 
 ___
 
@@ -292,7 +305,7 @@ Gets or sets the max date that a date field will be bound by. Only one other dat
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:82](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L82)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:84](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L84)
 
 ___
 
@@ -304,7 +317,7 @@ Gets or sets search for DeviceShares updated from this date onwards.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:84](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L84)
+[src/types/Checkmate/ObjectModel/DeviceShareSearch.ts:86](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceShareSearch.ts#L86)
 
 ___
 
@@ -320,4 +333,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

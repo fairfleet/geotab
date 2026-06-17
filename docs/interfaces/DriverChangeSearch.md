@@ -40,7 +40,7 @@ Gets or sets filter by the [DeviceSearch](DeviceSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L22)
 
 ___
 
@@ -52,7 +52,7 @@ Gets or sets search for DriverChange records at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L24)
 
 ___
 
@@ -68,7 +68,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -80,7 +80,7 @@ Gets or sets a value indicating whether to include the next driver change after 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L26)
 
 ___
 
@@ -92,7 +92,7 @@ Gets or sets a value indicating whether to include the last driver change before
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L28)
+[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L28)
 
 ___
 
@@ -104,7 +104,7 @@ Gets or sets maximum version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L30)
+[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L30)
 
 ___
 
@@ -116,7 +116,7 @@ Gets or sets search for DriverChange records at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L32)
+[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L32)
 
 ___
 
@@ -128,7 +128,7 @@ Gets or sets a value indicating the [DriverChangeType](../README.md#driverchange
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L34)
+[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:34](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L34)
 
 ___
 
@@ -142,7 +142,7 @@ Gets or sets search for DriverChanges with this DriverChangeSearch.UserSearch Id
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:40](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L40)
+[src/types/Checkmate/ObjectModel/DriverChangeSearch.ts:40](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverChangeSearch.ts#L40)
 
 ___
 
@@ -158,4 +158,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

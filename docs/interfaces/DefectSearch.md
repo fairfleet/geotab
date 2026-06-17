@@ -14,6 +14,7 @@ The object used to specify the arguments when searching for a [Defect](Defect.md
 
 ### Properties
 
+- [ancestors](DefectSearch.md#ancestors)
 - [deviceSearch](DefectSearch.md#devicesearch)
 - [groupFilterCondition](DefectSearch.md#groupfiltercondition)
 - [groups](DefectSearch.md#groups)
@@ -27,6 +28,23 @@ The object used to specify the arguments when searching for a [Defect](Defect.md
 
 ## Properties
 
+### ancestors
+
+• **ancestors**: [`GroupSearch`](GroupSearch.md)[]
+
+Gets or sets search for Groups that are descendants of the group with this Id.
+ The group with this Id would also be included in the result.
+
+#### Inherited from
+
+[GroupSearch](GroupSearch.md).[ancestors](GroupSearch.md#ancestors)
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/GroupSearch.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/GroupSearch.ts#L13)
+
+___
+
 ### deviceSearch
 
 • **deviceSearch**: [`DeviceSearch`](DeviceSearch.md)
@@ -37,7 +55,7 @@ Gets or sets search for defect lists available to this [DeviceSearch](DeviceSear
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/DefectSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DefectSearch.ts#L17)
 
 ___
 
@@ -49,7 +67,7 @@ Gets or sets the groups to find the rules belonging to parents or children of th
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/DefectSearch.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DefectSearch.ts#L19)
 
 ___
 
@@ -64,7 +82,7 @@ Gets or sets search for defect lists that are members of these [GroupSearch](Gro
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectSearch.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/DefectSearch.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DefectSearch.ts#L26)
 
 ___
 
@@ -80,7 +98,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -96,7 +114,7 @@ Gets or sets include Groups from all trees, for example "Security Groups" and "P
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupSearch.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupSearch.ts#L10)
+[src/types/Checkmate/ObjectModel/GroupSearch.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/GroupSearch.ts#L15)
 
 ___
 
@@ -112,7 +130,7 @@ Gets or sets gets maximum Id of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupSearch.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupSearch.ts#L12)
+[src/types/Checkmate/ObjectModel/GroupSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/GroupSearch.ts#L17)
 
 ___
 
@@ -128,7 +146,7 @@ Gets or sets search for Groups with this Name. Wildcard can be used by prependin
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/GroupSearch.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/GroupSearch.ts#L19)
 
 ___
 
@@ -144,7 +162,7 @@ Gets or sets search for Groups with this Reference. Wildcard can be used by prep
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/GroupSearch.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/GroupSearch.ts#L21)
 
 ___
 
@@ -158,7 +176,7 @@ Gets or sets search for defect lists available to this [TrailerSearch](TrailerSe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectSearch.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectSearch.ts#L32)
+[src/types/Checkmate/ObjectModel/DefectSearch.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DefectSearch.ts#L32)
 
 ___
 
@@ -174,4 +192,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

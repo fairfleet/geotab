@@ -17,9 +17,11 @@ The object used to specify the
 
 - [code](DiagnosticSearch.md#code)
 - [diagnosticType](DiagnosticSearch.md#diagnostictype)
+- [diagnosticTypes](DiagnosticSearch.md#diagnostictypes)
 - [engineTypeSearch](DiagnosticSearch.md#enginetypesearch)
 - [faultResetMode](DiagnosticSearch.md#faultresetmode)
 - [id](DiagnosticSearch.md#id)
+- [ids](DiagnosticSearch.md#ids)
 - [name](DiagnosticSearch.md#name)
 - [sourceSearch](DiagnosticSearch.md#sourcesearch)
 - [version](DiagnosticSearch.md#version)
@@ -34,7 +36,7 @@ Gets or sets search for a Diagnostic by the code number.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L17)
 
 ___
 
@@ -46,7 +48,19 @@ Gets or sets the [DiagnosticType](../README.md#diagnostictype) to search for in 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L19)
+
+___
+
+### diagnosticTypes
+
+• **diagnosticTypes**: `string`[]
+
+Gets or sets the list of [DiagnosticType](../README.md#diagnostictype) to search for in Diagnostics.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L21)
 
 ___
 
@@ -61,7 +75,7 @@ Gets or sets search for [Diagnostic](Diagnostic.md)(s) with this
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L28)
 
 ___
 
@@ -73,7 +87,7 @@ Gets or sets the [FaultResetMode](../README.md#faultresetmode) to search by.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L28)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L30)
 
 ___
 
@@ -89,7 +103,19 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
+
+___
+
+### ids
+
+• **ids**: `string`[]
+
+Gets or sets search for Diagnostics with these unique Id(s).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L32)
 
 ___
 
@@ -102,7 +128,7 @@ Gets or sets search for Diagnostics with this Name. Wildcard can be used by prep
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L33)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L37)
 
 ___
 
@@ -117,7 +143,7 @@ Gets or sets the [SourceSearch](SourceSearch.md) Id to search for in
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:40](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L40)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:44](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L44)
 
 ___
 
@@ -135,4 +161,4 @@ Gets or sets the row version of the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:46](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L46)
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts:50](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/DiagnosticSearch.ts#L50)

@@ -15,6 +15,7 @@ The object used to specify the arguments when searching for a [DeviceReprocessRe
 ### Properties
 
 - [deviceId](DeviceReprocessRequestSearch.md#deviceid)
+- [groups](DeviceReprocessRequestSearch.md#groups)
 - [id](DeviceReprocessRequestSearch.md#id)
 - [isEmpty](DeviceReprocessRequestSearch.md#isempty)
 - [reprocessRequestId](DeviceReprocessRequestSearch.md#reprocessrequestid)
@@ -32,7 +33,22 @@ Gets or sets the Id of the [Device](Device.md) to search by. Mutually exclusive 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L15)
+
+___
+
+### groups
+
+• **groups**: [`GroupSearch`](GroupSearch.md)[]
+
+Gets or sets search for Devices that are a member of these [GroupSearch](GroupSearch.md)(s). Each GroupSearch is an object within the array.
+ Available
+ GroupSearch options are:
+ <list><item><description>Id</description></item></list>
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L22)
 
 ___
 
@@ -48,7 +64,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -60,7 +76,7 @@ Gets a value indicating whether any search criteria have been specified.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L24)
 
 ___
 
@@ -68,11 +84,11 @@ ___
 
 • **reprocessRequestId**: `string`
 
-Gets or sets the Id of the parent ReprocessRequest to search by.
+Gets or sets the Id of the parent [ReprocessRequest](ReprocessRequest.md) to search by.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L26)
 
 ___
 
@@ -84,7 +100,7 @@ Gets or sets the [ReprocessRequestStatus](../README.md#reprocessrequeststatus) t
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequestSearch.ts#L28)
 
 ___
 
@@ -100,4 +116,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

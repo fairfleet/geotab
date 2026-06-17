@@ -17,6 +17,7 @@ The object used to specify the arguments when searching for
 
 - [id](HosRulesetConfigSearch.md#id)
 - [name](HosRulesetConfigSearch.md#name)
+- [ruleSetIds](HosRulesetConfigSearch.md#rulesetids)
 - [version](HosRulesetConfigSearch.md#version)
 
 ## Properties
@@ -33,7 +34,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -45,7 +46,19 @@ Gets or sets ruleset configs with a name containing this String. Wildcard can be
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigSearch.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigSearch.ts#L13)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigSearch.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigSearch.ts#L13)
+
+___
+
+### ruleSetIds
+
+• **ruleSetIds**: `string`[]
+
+Gets or sets the Id of the ruleset.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/HosRulesetConfigSearch.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigSearch.ts#L15)
 
 ___
 
@@ -61,4 +74,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

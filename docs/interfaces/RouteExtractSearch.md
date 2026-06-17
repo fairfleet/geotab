@@ -35,7 +35,7 @@ Gets or sets search for RouteExtract with this [DeviceSearch](DeviceSearch.md) I
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteExtractSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteExtractSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/RouteExtractSearch.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteExtractSearch.ts#L20)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets search for [RouteExtract](RouteExtract.md) recorded at this date or
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteExtractSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteExtractSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/RouteExtractSearch.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteExtractSearch.ts#L22)
 
 ___
 
@@ -63,7 +63,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -75,7 +75,7 @@ Gets or sets search for [RouteExtract](RouteExtract.md) recorded before this dat
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteExtractSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteExtractSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/RouteExtractSearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteExtractSearch.ts#L24)
 
 ___
 
@@ -91,4 +91,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

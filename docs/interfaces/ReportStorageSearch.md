@@ -30,7 +30,7 @@ Gets or sets a value indicating whether to retrieve the [ReportStorage](ReportSt
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorageSearch.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorageSearch.ts#L10)
+[src/types/Checkmate/ObjectModel/ReportStorageSearch.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorageSearch.ts#L10)
 
 ___
 
@@ -46,7 +46,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -58,7 +58,7 @@ Gets or sets a value indicating whether the binary data field of the report stor
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorageSearch.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorageSearch.ts#L12)
+[src/types/Checkmate/ObjectModel/ReportStorageSearch.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorageSearch.ts#L12)
 
 ___
 
@@ -70,7 +70,7 @@ Gets or sets the max row version to retrieve a [ReportStorage](ReportStorage.md)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorageSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorageSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/ReportStorageSearch.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorageSearch.ts#L14)
 
 ___
 
@@ -86,4 +86,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

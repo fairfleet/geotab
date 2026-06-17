@@ -686,7 +686,7 @@ export * from "./Middleware";
 export * from "./SearchTypes";
 export * from "./Serialization/Iso8601Resolution";
 export * from "./StoreForward/DeviceRegistrationResult";
-export * from "./StoreForward/FaultState";
 export * from "./StoreForward/ResponseResult";
 export * from "./StoreForward/StoreForwardExceptionType";
 export * from "./StoreForward/ThirdPartyDataRecordType";
+export { FaultState as StoreForwardFaultState } from "./StoreForward/FaultState";

@@ -36,7 +36,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -48,7 +48,7 @@ Gets or sets a value indicating whether the users are locked at this moment.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserLoginStatusSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserLoginStatusSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/UserLoginStatusSearch.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserLoginStatusSearch.ts#L16)
 
 ___
 
@@ -62,7 +62,7 @@ Gets or sets search for UserloginStatus with this [UserSearch](UserSearch.md) Id
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserLoginStatusSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserLoginStatusSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/UserLoginStatusSearch.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserLoginStatusSearch.ts#L22)
 
 ___
 
@@ -78,4 +78,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

@@ -26,8 +26,10 @@ The recipient for a specific notification. A recipient is linked to
 - [dataModeType](Recipient.md#datamodetype)
 - [group](Recipient.md#group)
 - [id](Recipient.md#id)
+- [mediaTriggerSettings](Recipient.md#mediatriggersettings)
 - [notificationBinaryFile](Recipient.md#notificationbinaryfile)
 - [recipientType](Recipient.md#recipienttype)
+- [severity](Recipient.md#severity)
 - [tripType](Recipient.md#triptype)
 - [user](Recipient.md#user)
 
@@ -41,7 +43,7 @@ Gets or sets the email address used when sending notifications via Email.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L26)
+[src/types/Checkmate/ObjectModel/Recipient.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Recipient.ts#L27)
 
 ___
 
@@ -53,7 +55,7 @@ Gets or sets the [DataModeType](DataModeType.md) to assign the related device to
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L28)
+[src/types/Checkmate/ObjectModel/Recipient.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Recipient.ts#L29)
 
 ___
 
@@ -65,7 +67,7 @@ Gets or sets the [Group](Group.md) to assign the related device to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L30)
+[src/types/Checkmate/ObjectModel/Recipient.ts:31](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Recipient.ts#L31)
 
 ___
 
@@ -81,7 +83,19 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+
+___
+
+### mediaTriggerSettings
+
+• **mediaTriggerSettings**: [`MediaTriggerSettings`](MediaTriggerSettings.md)
+
+Gets or sets the [MediaTriggerSettings](MediaTriggerSettings.md) to use for interacting with the media service.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Recipient.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Recipient.ts#L33)
 
 ___
 
@@ -93,7 +107,7 @@ Gets or sets the NotificationBinaryFile to notify with.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L32)
+[src/types/Checkmate/ObjectModel/Recipient.ts:35](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Recipient.ts#L35)
 
 ___
 
@@ -105,7 +119,19 @@ Gets or sets the [RecipientType](../README.md#recipienttype) (type of notificati
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L34)
+[src/types/Checkmate/ObjectModel/Recipient.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Recipient.ts#L37)
+
+___
+
+### severity
+
+• **severity**: `number`
+
+Gets or sets the severity level for CreateWorkRequest recipients.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Recipient.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Recipient.ts#L39)
 
 ___
 
@@ -117,7 +143,7 @@ Gets or sets the [TripType](../README.md#triptype) to assign the related device 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:36](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L36)
+[src/types/Checkmate/ObjectModel/Recipient.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Recipient.ts#L41)
 
 ___
 
@@ -129,4 +155,4 @@ Gets or sets the [User](User.md) to receive notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Recipient.ts:38](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Recipient.ts#L38)
+[src/types/Checkmate/ObjectModel/Recipient.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Recipient.ts#L43)

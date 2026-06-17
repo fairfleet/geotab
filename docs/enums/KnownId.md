@@ -9,7 +9,18 @@
 - [AddonInventureZone1ReturnTemp](KnownId.md#addoninventurezone1returntemp)
 - [AddonInventureZone2ReturnTemp](KnownId.md#addoninventurezone2returntemp)
 - [AddonInventureZone3ReturnTemp](KnownId.md#addoninventurezone3returntemp)
+- [AllDevicesIncludeArchivedReprocessRequest](KnownId.md#alldevicesincludearchivedreprocessrequest)
+- [AllDevicesReprocessRequest](KnownId.md#alldevicesreprocessrequest)
 - [AllRulesIdReprocessRequest](KnownId.md#allrulesidreprocessrequest)
+- [AuditBigQueryUploadRequestId](KnownId.md#auditbigqueryuploadrequestid)
+- [BinaryDataBigQueryUploadRequestId](KnownId.md#binarydatabigqueryuploadrequestid)
+- [CameraBigQueryUploadRequestId](KnownId.md#camerabigqueryuploadrequestid)
+- [CameraHealthBigQueryUploadRequestId](KnownId.md#camerahealthbigqueryuploadrequestid)
+- [CameraStatusBigQueryUploadRequestId](KnownId.md#camerastatusbigqueryuploadrequestid)
+- [ChargeEventBigQueryUploadRequestId](KnownId.md#chargeeventbigqueryuploadrequestid)
+- [CoachingSessionStateActiveId](KnownId.md#coachingsessionstateactiveid)
+- [CoachingSessionStateCompletedId](KnownId.md#coachingsessionstatecompletedid)
+- [CoachingSessionStateNewId](KnownId.md#coachingsessionstatenewid)
 - [ControllerAerodynamicControlId](KnownId.md#controlleraerodynamiccontrolid)
 - [ControllerAerodynamicControlUnitId](KnownId.md#controlleraerodynamiccontrolunitid)
 - [ControllerAftertreatmentSystemGasIntakeId](KnownId.md#controlleraftertreatmentsystemgasintakeid)
@@ -23,6 +34,7 @@
 - [ControllerAxlePowerUnitId](KnownId.md#controlleraxlepowerunitid)
 - [ControllerAxleSteeringId](KnownId.md#controlleraxlesteeringid)
 - [ControllerAxleTrailerId](KnownId.md#controlleraxletrailerid)
+- [ControllerBigQueryUploadRequestId](KnownId.md#controllerbigqueryuploadrequestid)
 - [ControllerBodyControllerId](KnownId.md#controllerbodycontrollerid)
 - [ControllerBrakesDriveAxleNo1Id](KnownId.md#controllerbrakesdriveaxleno1id)
 - [ControllerBrakesDriveAxleNo2Id](KnownId.md#controllerbrakesdriveaxleno2id)
@@ -165,6 +177,14 @@
 - [ControllerVehicleSensorsToDataConverterId](KnownId.md#controllervehiclesensorstodataconverterid)
 - [ControllerVirtualTerminalId](KnownId.md#controllervirtualterminalid)
 - [ControllerWaterPumpControllerId](KnownId.md#controllerwaterpumpcontrollerid)
+- [CustomDataUploaderStateId](KnownId.md#customdatauploaderstateid)
+- [DVIRLogBigQueryUploadRequestId](KnownId.md#dvirlogbigqueryuploadrequestid)
+- [DVIRLogLegacyBigQueryUploadRequestId](KnownId.md#dvirloglegacybigqueryuploadrequestid)
+- [DataShareAutoAcceptUserId](KnownId.md#datashareautoacceptuserid)
+- [DebugDataBigQueryUploadRequestId](KnownId.md#debugdatabigqueryuploadrequestid)
+- [DeviceBigQueryUploadRequestId](KnownId.md#devicebigqueryuploadrequestid)
+- [DeviceSourceAddressInfoBigQueryUploadRequestId](KnownId.md#devicesourceaddressinfobigqueryuploadrequestid)
+- [DeviceStatusInfoBigQueryUploadRequestId](KnownId.md#devicestatusinfobigqueryuploadrequestid)
 - [DiagnosticAbsSystemActiveId](KnownId.md#diagnosticabssystemactiveid)
 - [DiagnosticAbsWarningLightId](KnownId.md#diagnosticabswarninglightid)
 - [DiagnosticAcControlUnitStatusId](KnownId.md#diagnosticaccontrolunitstatusid)
@@ -210,9 +230,11 @@
 - [DiagnosticBatteryLevelId](KnownId.md#diagnosticbatterylevelid)
 - [DiagnosticBatteryTemperatureId](KnownId.md#diagnosticbatterytemperatureid)
 - [DiagnosticBatteryVoltageId](KnownId.md#diagnosticbatteryvoltageid)
+- [DiagnosticBigQueryUploadRequestId](KnownId.md#diagnosticbigqueryuploadrequestid)
 - [DiagnosticBluetoothAmmoniaConcentrationId](KnownId.md#diagnosticbluetoothammoniaconcentrationid)
 - [DiagnosticBluetoothBeaconBatteryLevelId](KnownId.md#diagnosticbluetoothbeaconbatterylevelid)
 - [DiagnosticBluetoothBeaconCategoryId](KnownId.md#diagnosticbluetoothbeaconcategoryid)
+- [DiagnosticBluetoothBeaconCounterId](KnownId.md#diagnosticbluetoothbeaconcounterid)
 - [DiagnosticBluetoothBeaconInRangeId](KnownId.md#diagnosticbluetoothbeaconinrangeid)
 - [DiagnosticBluetoothBeaconLiveAltitudeId](KnownId.md#diagnosticbluetoothbeaconlivealtitudeid)
 - [DiagnosticBluetoothBeaconLiveBarometricPressureId](KnownId.md#diagnosticbluetoothbeaconlivebarometricpressureid)
@@ -223,6 +245,7 @@
 - [DiagnosticBluetoothBeaconParticulateMatter10MicronId](KnownId.md#diagnosticbluetoothbeaconparticulatematter10micronid)
 - [DiagnosticBluetoothBeaconParticulateMatter1MicronId](KnownId.md#diagnosticbluetoothbeaconparticulatematter1micronid)
 - [DiagnosticBluetoothBeaconParticulateMatter2P5MicronId](KnownId.md#diagnosticbluetoothbeaconparticulatematter2p5micronid)
+- [DiagnosticBluetoothBeaconStateId](KnownId.md#diagnosticbluetoothbeaconstateid)
 - [DiagnosticBluetoothCarbonDioxideConcentrationId](KnownId.md#diagnosticbluetoothcarbondioxideconcentrationid)
 - [DiagnosticBluetoothCarbonMonoxideConcentrationId](KnownId.md#diagnosticbluetoothcarbonmonoxideconcentrationid)
 - [DiagnosticBluetoothCustomData255Id](KnownId.md#diagnosticbluetoothcustomdata255id)
@@ -265,10 +288,15 @@
 - [DiagnosticCanBusShortId](KnownId.md#diagnosticcanbusshortid)
 - [DiagnosticCanModeInitializationFailureId](KnownId.md#diagnosticcanmodeinitializationfailureid)
 - [DiagnosticCanTransmitErrorCountExceededId](KnownId.md#diagnosticcantransmiterrorcountexceededid)
+- [DiagnosticCargoTemperatureZone1Id](KnownId.md#diagnosticcargotemperaturezone1id)
+- [DiagnosticCargoTemperatureZone2Id](KnownId.md#diagnosticcargotemperaturezone2id)
+- [DiagnosticCargoTemperatureZone3Id](KnownId.md#diagnosticcargotemperaturezone3id)
+- [DiagnosticCellularIridiumCoverageId](KnownId.md#diagnosticcellulariridiumcoverageid)
 - [DiagnosticCellularRssiId](KnownId.md#diagnosticcellularrssiid)
 - [DiagnosticChangeCleanExhaustFilterWarningLightId](KnownId.md#diagnosticchangecleanexhaustfilterwarninglightid)
 - [DiagnosticChangeFuelFilterWarningLightId](KnownId.md#diagnosticchangefuelfilterwarninglightid)
 - [DiagnosticChargeStateId](KnownId.md#diagnosticchargestateid)
+- [DiagnosticCheckBrakePadsId](KnownId.md#diagnosticcheckbrakepadsid)
 - [DiagnosticControllerStatusId](KnownId.md#diagnosticcontrollerstatusid)
 - [DiagnosticCoolantLevelId](KnownId.md#diagnosticcoolantlevelid)
 - [DiagnosticCrankingVoltageId](KnownId.md#diagnosticcrankingvoltageid)
@@ -294,6 +322,8 @@
 - [DiagnosticDieselExhaustFluidId](KnownId.md#diagnosticdieselexhaustfluidid)
 - [DiagnosticDieselParticulateFilterLampId](KnownId.md#diagnosticdieselparticulatefilterlampid)
 - [DiagnosticDisabledExcessiveAccelerometerDataId](KnownId.md#diagnosticdisabledexcessiveaccelerometerdataid)
+- [DiagnosticDoor1StatusId](KnownId.md#diagnosticdoor1statusid)
+- [DiagnosticDoor2StatusId](KnownId.md#diagnosticdoor2statusid)
 - [DiagnosticDriverAirbagDeployedId](KnownId.md#diagnosticdriverairbagdeployedid)
 - [DiagnosticDriverAudibleAlertForIdleShutdownTimerId](KnownId.md#diagnosticdriveraudiblealertforidleshutdowntimerid)
 - [DiagnosticDriverSeatbeltId](KnownId.md#diagnosticdriverseatbeltid)
@@ -323,12 +353,15 @@
 - [DiagnosticEngineStartingDisabledWarningLightId](KnownId.md#diagnosticenginestartingdisabledwarninglightid)
 - [DiagnosticEngineTransmissionOilTemperatureId](KnownId.md#diagnosticenginetransmissionoiltemperatureid)
 - [DiagnosticEngineWarningLightId](KnownId.md#diagnosticenginewarninglightid)
+- [DiagnosticEnhancedMinorCollisionId](KnownId.md#diagnosticenhancedminorcollisionid)
 - [DiagnosticEvPowertrainTypeId](KnownId.md#diagnosticevpowertraintypeid)
 - [DiagnosticExcessiveAccelerometerEventsId](KnownId.md#diagnosticexcessiveaccelerometereventsid)
 - [DiagnosticExcessiveAccelerometerEventsOverAccidentThresholdId](KnownId.md#diagnosticexcessiveaccelerometereventsoveraccidentthresholdid)
 - [DiagnosticExcessiveAccelerometerLogsInASingleEventId](KnownId.md#diagnosticexcessiveaccelerometerlogsinasingleeventid)
 - [DiagnosticExcessiveLoggingDetectedId](KnownId.md#diagnosticexcessiveloggingdetectedid)
 - [DiagnosticExhaustDifferentialPressureId](KnownId.md#diagnosticexhaustdifferentialpressureid)
+- [DiagnosticExternalDeviceIOXColdChainId](KnownId.md#diagnosticexternaldeviceioxcoldchainid)
+- [DiagnosticExternalDeviceIntendiaId](KnownId.md#diagnosticexternaldeviceintendiaid)
 - [DiagnosticFirstRowMiddleSeatbeltId](KnownId.md#diagnosticfirstrowmiddleseatbeltid)
 - [DiagnosticFlashErrorCountId](KnownId.md#diagnosticflasherrorcountid)
 - [DiagnosticFlashMemoryFailureId](KnownId.md#diagnosticflashmemoryfailureid)
@@ -375,6 +408,8 @@
 - [DiagnosticHorizontalDopId](KnownId.md#diagnostichorizontaldopid)
 - [DiagnosticHybridEngineStatusId](KnownId.md#diagnostichybridenginestatusid)
 - [DiagnosticHybridVehicleDetectedId](KnownId.md#diagnostichybridvehicledetectedid)
+- [DiagnosticIOXColdConnectionStatusId](KnownId.md#diagnosticioxcoldconnectionstatusid)
+- [DiagnosticIOXColdRuggedConnectionStatusId](KnownId.md#diagnosticioxcoldruggedconnectionstatusid)
 - [DiagnosticIdleShutdownTimerActiveId](KnownId.md#diagnosticidleshutdowntimeractiveid)
 - [DiagnosticIdleShutdownTimerEnabledId](KnownId.md#diagnosticidleshutdowntimerenabledid)
 - [DiagnosticIdleShutdownTimerOverrideId](KnownId.md#diagnosticidleshutdowntimeroverrideid)
@@ -400,6 +435,7 @@
 - [DiagnosticJ1939CanEngineProtocolDetectedId](KnownId.md#diagnosticj1939canengineprotocoldetectedid)
 - [DiagnosticJ1939EngineHoursId](KnownId.md#diagnosticj1939enginehoursid)
 - [DiagnosticJ1939TotalVehicleDistanceId](KnownId.md#diagnosticj1939totalvehicledistanceid)
+- [DiagnosticLeftRearDoorOpenId](KnownId.md#diagnosticleftreardooropenid)
 - [DiagnosticLeftSideAirbagDeployedId](KnownId.md#diagnosticleftsideairbagdeployedid)
 - [DiagnosticLeftSideSeverityAchievedId](KnownId.md#diagnosticleftsideseverityachievedid)
 - [DiagnosticLeftTurnSignalId](KnownId.md#diagnosticleftturnsignalid)
@@ -418,6 +454,8 @@
 - [DiagnosticOdometerAdjustmentId](KnownId.md#diagnosticodometeradjustmentid)
 - [DiagnosticOdometerId](KnownId.md#diagnosticodometerid)
 - [DiagnosticOilChangeDueWarningLightId](KnownId.md#diagnosticoilchangeduewarninglightid)
+- [DiagnosticOilChangeLowerBoundDistancePredictionId](KnownId.md#diagnosticoilchangelowerbounddistancepredictionid)
+- [DiagnosticOilChangeLowerBoundTimePredictionId](KnownId.md#diagnosticoilchangelowerboundtimepredictionid)
 - [DiagnosticOilLevelLowWarningLightId](KnownId.md#diagnosticoillevellowwarninglightid)
 - [DiagnosticOilLightOnId](KnownId.md#diagnosticoillightonid)
 - [DiagnosticOilPressureId](KnownId.md#diagnosticoilpressureid)
@@ -440,6 +478,7 @@
 - [DiagnosticPreWetMaterialTypeId](KnownId.md#diagnosticprewetmaterialtypeid)
 - [DiagnosticPtoEnabledId](KnownId.md#diagnosticptoenabledid)
 - [DiagnosticRamFailureId](KnownId.md#diagnosticramfailureid)
+- [DiagnosticRawEngineHoursId](KnownId.md#diagnosticrawenginehoursid)
 - [DiagnosticRawOdometerId](KnownId.md#diagnosticrawodometerid)
 - [DiagnosticRearImpactSeverityAchievedId](KnownId.md#diagnosticrearimpactseverityachievedid)
 - [DiagnosticReeferTemperatureZone1Id](KnownId.md#diagnosticreefertemperaturezone1id)
@@ -454,6 +493,7 @@
 - [DiagnosticRestartedTheWifiStateMachineId](KnownId.md#diagnosticrestartedthewifistatemachineid)
 - [DiagnosticRfModuleFailureId](KnownId.md#diagnosticrfmodulefailureid)
 - [DiagnosticRfModuleMacAddressErrorId](KnownId.md#diagnosticrfmodulemacaddresserrorid)
+- [DiagnosticRightRearDoorOpenId](KnownId.md#diagnosticrightreardooropenid)
 - [DiagnosticRightSideAirbagDeployedId](KnownId.md#diagnosticrightsideairbagdeployedid)
 - [DiagnosticRightSideSeverityAchievedId](KnownId.md#diagnosticrightsideseverityachievedid)
 - [DiagnosticRightTurnSignalId](KnownId.md#diagnosticrightturnsignalid)
@@ -473,6 +513,10 @@
 - [DiagnosticThirdPartyAux2Id](KnownId.md#diagnosticthirdpartyaux2id)
 - [DiagnosticThirdPartyAux3Id](KnownId.md#diagnosticthirdpartyaux3id)
 - [DiagnosticThirdPartyAux4Id](KnownId.md#diagnosticthirdpartyaux4id)
+- [DiagnosticThirdPartyAux5Id](KnownId.md#diagnosticthirdpartyaux5id)
+- [DiagnosticThirdPartyAux6Id](KnownId.md#diagnosticthirdpartyaux6id)
+- [DiagnosticThirdPartyAux7Id](KnownId.md#diagnosticthirdpartyaux7id)
+- [DiagnosticThirdPartyAux8Id](KnownId.md#diagnosticthirdpartyaux8id)
 - [DiagnosticThirdPartyDevicePowerChangeId](KnownId.md#diagnosticthirdpartydevicepowerchangeid)
 - [DiagnosticThirdPartyEngineDataActiveId](KnownId.md#diagnosticthirdpartyenginedataactiveid)
 - [DiagnosticThirdPartyEngineRoadSpeedId](KnownId.md#diagnosticthirdpartyengineroadspeedid)
@@ -506,6 +550,18 @@
 - [DiagnosticTotalPtoHoursId](KnownId.md#diagnostictotalptohoursid)
 - [DiagnosticTotalTripFuelUsedId](KnownId.md#diagnostictotaltripfuelusedid)
 - [DiagnosticTotalTripIdleFuelUsedId](KnownId.md#diagnostictotaltripidlefuelusedid)
+- [DiagnosticTowPlowLiquidMaterialActiveId](KnownId.md#diagnostictowplowliquidmaterialactiveid)
+- [DiagnosticTowPlowLiquidMaterialRateId](KnownId.md#diagnostictowplowliquidmaterialrateid)
+- [DiagnosticTowPlowLiquidMaterialTotalId](KnownId.md#diagnostictowplowliquidmaterialtotalid)
+- [DiagnosticTowPlowLiquidMaterialTypeId](KnownId.md#diagnostictowplowliquidmaterialtypeid)
+- [DiagnosticTowPlowPreWetMaterialActiveId](KnownId.md#diagnostictowplowprewetmaterialactiveid)
+- [DiagnosticTowPlowPreWetMaterialRateId](KnownId.md#diagnostictowplowprewetmaterialrateid)
+- [DiagnosticTowPlowPreWetMaterialTotalId](KnownId.md#diagnostictowplowprewetmaterialtotalid)
+- [DiagnosticTowPlowPreWetMaterialTypeId](KnownId.md#diagnostictowplowprewetmaterialtypeid)
+- [DiagnosticTowPlowSolidMaterialActiveId](KnownId.md#diagnostictowplowsolidmaterialactiveid)
+- [DiagnosticTowPlowSolidMaterialRateId](KnownId.md#diagnostictowplowsolidmaterialrateid)
+- [DiagnosticTowPlowSolidMaterialTotalId](KnownId.md#diagnostictowplowsolidmaterialtotalid)
+- [DiagnosticTowPlowSolidMaterialTypeId](KnownId.md#diagnostictowplowsolidmaterialtypeid)
 - [DiagnosticToyotaIsoEngineProtocolDetectedId](KnownId.md#diagnostictoyotaisoengineprotocoldetectedid)
 - [DiagnosticTractionControlSystemActiveId](KnownId.md#diagnostictractioncontrolsystemactiveid)
 - [DiagnosticTractionControlSystemEnabledId](KnownId.md#diagnostictractioncontrolsystemenabledid)
@@ -523,10 +579,12 @@
 - [DiagnosticVehicleProgrammedCruiseHighSpeedLimitId](KnownId.md#diagnosticvehicleprogrammedcruisehighspeedlimitid)
 - [DiagnosticVehicleProgrammedMaximumRoadspeedLimitEnabledId](KnownId.md#diagnosticvehicleprogrammedmaximumroadspeedlimitenabledid)
 - [DiagnosticVehicleProgrammedMaximumRoadspeedLimitId](KnownId.md#diagnosticvehicleprogrammedmaximumroadspeedlimitid)
+- [DiagnosticVehicleWarningLightStatusId](KnownId.md#diagnosticvehiclewarninglightstatusid)
 - [DiagnosticVinRequestFailureId](KnownId.md#diagnosticvinrequestfailureid)
 - [DiagnosticWasherFluidLevelId](KnownId.md#diagnosticwasherfluidlevelid)
 - [DiagnosticWaterDetectedInFuelWarningLightId](KnownId.md#diagnosticwaterdetectedinfuelwarninglightid)
 - [DiagnosticWiFiHotspotDataUsageId](KnownId.md#diagnosticwifihotspotdatausageid)
+- [DiscreteAvailabilitySnapshotBigQueryUploadRequestId](KnownId.md#discreteavailabilitysnapshotbigqueryuploadrequestid)
 - [DisplayMeasurementProfileAfricaId](KnownId.md#displaymeasurementprofileafricaid)
 - [DisplayMeasurementProfileAsiaId](KnownId.md#displaymeasurementprofileasiaid)
 - [DisplayMeasurementProfileAustraliaNewZealandId](KnownId.md#displaymeasurementprofileaustralianewzealandid)
@@ -541,30 +599,99 @@
 - [DisplayUnitOfMeasureIdentityId](KnownId.md#displayunitofmeasureidentityid)
 - [DistributionListImportExportId](KnownId.md#distributionlistimportexportid)
 - [DistributionListNewsId](KnownId.md#distributionlistnewsid)
+- [DriverChangeEntityUploadRequestId](KnownId.md#driverchangeentityuploadrequestid)
+- [DutyStatusLogBigQueryUploadRequestId](KnownId.md#dutystatuslogbigqueryuploadrequestid)
+- [DutyStatusLogLegacyBigQueryUploadRequestId](KnownId.md#dutystatusloglegacybigqueryuploadrequestid)
+- [DutyStatusViolationBigQueryUploadRequestId](KnownId.md#dutystatusviolationbigqueryuploadrequestid)
 - [EmailTemplateDefaultApplicationExceptionId](KnownId.md#emailtemplatedefaultapplicationexceptionid)
+- [EmailTemplateDefaultCollisionNotificationId](KnownId.md#emailtemplatedefaultcollisionnotificationid)
+- [EmailTemplateDefaultCriticalLowTirePressureId](KnownId.md#emailtemplatedefaultcriticallowtirepressureid)
 - [EmailTemplateDefaultExceptionRuleId](KnownId.md#emailtemplatedefaultexceptionruleid)
 - [EmailTemplateDefaultMaintenanceReminderId](KnownId.md#emailtemplatedefaultmaintenancereminderid)
+- [EmissionComplianceEventBigQueryUploadRequestId](KnownId.md#emissioncomplianceeventbigqueryuploadrequestid)
+- [EmissionVehicleEnrollmentBigQueryUploadRequestId](KnownId.md#emissionvehicleenrollmentbigqueryuploadrequestid)
+- [EnergySnapshotBigQueryUploadRequestId](KnownId.md#energysnapshotbigqueryuploadrequestid)
 - [EngineTypeGenericId](KnownId.md#enginetypegenericid)
 - [EngineTypeNoneId](KnownId.md#enginetypenoneid)
+- [EstimatedBatteryLifeForGoAnywhere](KnownId.md#estimatedbatterylifeforgoanywhere)
+- [EventRuleElectricalSystemMaintenanceId](KnownId.md#eventruleelectricalsystemmaintenanceid)
+- [EventRuleOilChangeId](KnownId.md#eventruleoilchangeid)
+- [EventTypeBigQueryUploadRequestId](KnownId.md#eventtypebigqueryuploadrequestid)
+- [EventTypeElectricalSystemMaintenanceId](KnownId.md#eventtypeelectricalsystemmaintenanceid)
 - [EventTypeLeaseExpiryId](KnownId.md#eventtypeleaseexpiryid)
 - [EventTypeLicensePlateExpiryId](KnownId.md#eventtypelicenseplateexpiryid)
 - [EventTypeOilChangeId](KnownId.md#eventtypeoilchangeid)
 - [EventTypeTireRotationId](KnownId.md#eventtypetirerotationid)
+- [ExceptionEventBigQueryUploadRequestId](KnownId.md#exceptioneventbigqueryuploadrequestid)
+- [ExceptionEventMediaLinkBigQueryUploadRequestId](KnownId.md#exceptioneventmedialinkbigqueryuploadrequestid)
+- [ExceptionEventSoftDeleteBigQueryUploadRequestId](KnownId.md#exceptioneventsoftdeletebigqueryuploadrequestid)
+- [ExceptionEventStateCoachingCompletedId](KnownId.md#exceptioneventstatecoachingcompletedid)
 - [ExceptionEventStateDismissedId](KnownId.md#exceptioneventstatedismissedid)
 - [ExceptionEventStateInvalidId](KnownId.md#exceptioneventstateinvalidid)
+- [ExceptionEventStateMarkedForCoachingId](KnownId.md#exceptioneventstatemarkedforcoachingid)
+- [ExceptionEventStatePositiveRecognitionId](KnownId.md#exceptioneventstatepositiverecognitionid)
+- [ExceptionEventStateSavedForLaterId](KnownId.md#exceptioneventstatesavedforlaterid)
 - [ExceptionEventStateValidId](KnownId.md#exceptioneventstatevalidid)
+- [ExceptionRuleReasonLongProcessingTimeId](KnownId.md#exceptionrulereasonlongprocessingtimeid)
+- [ExceptionRuleReasonManualArchivedId](KnownId.md#exceptionrulereasonmanualarchivedid)
+- [ExceptionRuleReasonNoneId](KnownId.md#exceptionrulereasonnoneid)
+- [ExceptionRuleReasonTooLongOfExceptionEventsId](KnownId.md#exceptionrulereasontoolongofexceptioneventsid)
+- [ExceptionRuleReasonTooManyExceptionEventsId](KnownId.md#exceptionrulereasontoomanyexceptioneventsid)
+- [ExceptionRuleStateActiveId](KnownId.md#exceptionrulestateactiveid)
+- [ExceptionRuleStateArchivedId](KnownId.md#exceptionrulestatearchivedid)
+- [ExceptionRuleStateSuspendedId](KnownId.md#exceptionrulestatesuspendedid)
+- [ExceptionRuleStateWarningId](KnownId.md#exceptionrulestatewarningid)
+- [FailureModeBigQueryUploadRequestId](KnownId.md#failuremodebigqueryuploadrequestid)
+- [FakeDiagnosticBrpFaultRecordId](KnownId.md#fakediagnosticbrpfaultrecordid)
+- [FakeDiagnosticBrpFaultRecordStatusId](KnownId.md#fakediagnosticbrpfaultrecordstatusid)
+- [FakeDiagnosticGenericFaultRecordStatusId](KnownId.md#fakediagnosticgenericfaultrecordstatusid)
+- [FakeDiagnosticGmcccFaultRecordId](KnownId.md#fakediagnosticgmcccfaultrecordid)
+- [FakeDiagnosticGmcccFaultRecordStatusId](KnownId.md#fakediagnosticgmcccfaultrecordstatusid)
+- [FakeDiagnosticGpsAuxiliary1Id](KnownId.md#fakediagnosticgpsauxiliary1id)
+- [FakeDiagnosticGpsAuxiliary2Id](KnownId.md#fakediagnosticgpsauxiliary2id)
+- [FakeDiagnosticGpsAuxiliary3Id](KnownId.md#fakediagnosticgpsauxiliary3id)
+- [FakeDiagnosticGpsAuxiliary4Id](KnownId.md#fakediagnosticgpsauxiliary4id)
+- [FakeDiagnosticGpsIgnitionId](KnownId.md#fakediagnosticgpsignitionid)
+- [FakeDiagnosticGpsLatitudeId](KnownId.md#fakediagnosticgpslatitudeid)
+- [FakeDiagnosticGpsLongitudeId](KnownId.md#fakediagnosticgpslongitudeid)
+- [FakeDiagnosticGpsOpenCircuitId](KnownId.md#fakediagnosticgpsopencircuitid)
+- [FakeDiagnosticGpsShortCircuitId](KnownId.md#fakediagnosticgpsshortcircuitid)
+- [FakeDiagnosticGpsSpeedId](KnownId.md#fakediagnosticgpsspeedid)
+- [FakeDiagnosticGpsValidId](KnownId.md#fakediagnosticgpsvalidid)
+- [FakeDiagnosticJ1939FaultEnrichmentId](KnownId.md#fakediagnosticj1939faultenrichmentid)
+- [FakeDiagnosticJ1939FaultRecordStatusId](KnownId.md#fakediagnosticj1939faultrecordstatusid)
+- [FakeDiagnosticLegacyFaultRecordId](KnownId.md#fakediagnosticlegacyfaultrecordid)
+- [FakeDiagnosticLegacyFaultRecordStatusId](KnownId.md#fakediagnosticlegacyfaultrecordstatusid)
+- [FakeDiagnosticLevcFaultRecordId](KnownId.md#fakediagnosticlevcfaultrecordid)
+- [FakeDiagnosticLevcFaultRecordStatusId](KnownId.md#fakediagnosticlevcfaultrecordstatusid)
+- [FakeDiagnosticObdWwhFaultRecordStatusId](KnownId.md#fakediagnosticobdwwhfaultrecordstatusid)
+- [FakeDiagnosticObdiiFaultRecordStatusId](KnownId.md#fakediagnosticobdiifaultrecordstatusid)
+- [FakeDiagnosticProprietaryFaultRecordId](KnownId.md#fakediagnosticproprietaryfaultrecordid)
+- [FakeDiagnosticProprietaryFaultRecordStatusId](KnownId.md#fakediagnosticproprietaryfaultrecordstatusid)
+- [FaultDataEntityUploadRequestId](KnownId.md#faultdataentityuploadrequestid)
+- [FillUpBigQueryUploadRequestId](KnownId.md#fillupbigqueryuploadrequestid)
+- [FuelAndEnergyUsedBigQueryUploadRequestId](KnownId.md#fuelandenergyusedbigqueryuploadrequestid)
+- [FuelTransactionBigQueryUploadRequestId](KnownId.md#fueltransactionbigqueryuploadrequestid)
+- [FuelUsedBigQueryUploadRequestId](KnownId.md#fuelusedbigqueryuploadrequestid)
+- [GenericFaultDiagnosticId](KnownId.md#genericfaultdiagnosticid)
+- [GpsEntityUploadRequestId](KnownId.md#gpsentityuploadrequestid)
 - [GroupAssetInformationId](KnownId.md#groupassetinformationid)
+- [GroupAssetPurposeId](KnownId.md#groupassetpurposeid)
 - [GroupAssetTypeId](KnownId.md#groupassettypeid)
 - [GroupBatteryElectricVehicleId](KnownId.md#groupbatteryelectricvehicleid)
+- [GroupBigQueryUploadRequestId](KnownId.md#groupbigqueryuploadrequestid)
 - [GroupBiodieselId](KnownId.md#groupbiodieselid)
 - [GroupBusinessGroupId](KnownId.md#groupbusinessgroupid)
+- [GroupColdChainId](KnownId.md#groupcoldchainid)
 - [GroupCompanyId](KnownId.md#groupcompanyid)
 - [GroupCompressedNaturalGasId](KnownId.md#groupcompressednaturalgasid)
+- [GroupContainerId](KnownId.md#groupcontainerid)
 - [GroupDefectsId](KnownId.md#groupdefectsid)
 - [GroupDieselId](KnownId.md#groupdieselid)
 - [GroupDriveUserSecurityId](KnownId.md#groupdriveusersecurityid)
 - [GroupDriverActivityGroupId](KnownId.md#groupdriveractivitygroupid)
 - [GroupElectricHybridPluginId](KnownId.md#groupelectrichybridpluginid)
+- [GroupEquipmentId](KnownId.md#groupequipmentid)
 - [GroupEthanolId](KnownId.md#groupethanolid)
 - [GroupEverythingSecurityId](KnownId.md#groupeverythingsecurityid)
 - [GroupFuelCellElectricVehicleId](KnownId.md#groupfuelcellelectricvehicleid)
@@ -580,11 +707,13 @@
 - [GroupPrivateUserId](KnownId.md#groupprivateuserid)
 - [GroupPropaneLiquifiedPetroleumGasId](KnownId.md#grouppropaneliquifiedpetroleumgasid)
 - [GroupRootId](KnownId.md#grouprootid)
+- [GroupSecurityBigQueryUploadRequestId](KnownId.md#groupsecuritybigqueryuploadrequestid)
 - [GroupSecurityId](KnownId.md#groupsecurityid)
 - [GroupShareableLinkGroupId](KnownId.md#groupshareablelinkgroupid)
 - [GroupSupervisorSecurityId](KnownId.md#groupsupervisorsecurityid)
 - [GroupTrailerDefectsId](KnownId.md#grouptrailerdefectsid)
 - [GroupTrailerId](KnownId.md#grouptrailerid)
+- [GroupUserBigQueryUploadRequestId](KnownId.md#groupuserbigqueryuploadrequestid)
 - [GroupUserSecurityId](KnownId.md#groupusersecurityid)
 - [GroupVehicleDefectsId](KnownId.md#groupvehicledefectsid)
 - [GroupVehicleId](KnownId.md#groupvehicleid)
@@ -596,6 +725,7 @@
 - [HosRuleSetAlaskaProperty7DaySleeper](KnownId.md#hosrulesetalaskaproperty7daysleeper)
 - [HosRuleSetAlaskaProperty8Day](KnownId.md#hosrulesetalaskaproperty8day)
 - [HosRuleSetAlaskaProperty8DaySleeper](KnownId.md#hosrulesetalaskaproperty8daysleeper)
+- [HosRuleSetAlberta](KnownId.md#hosrulesetalberta)
 - [HosRuleSetAmerica7Day](KnownId.md#hosrulesetamerica7day)
 - [HosRuleSetAmerica7DayBig](KnownId.md#hosrulesetamerica7daybig)
 - [HosRuleSetAmerica7DayBigSleeper](KnownId.md#hosrulesetamerica7daybigsleeper)
@@ -648,6 +778,7 @@
 - [HosRuleSetCaliforniaPropertyShortHaulWithRest](KnownId.md#hosrulesetcaliforniapropertyshorthaulwithrest)
 - [HosRuleSetCaliforniaSchoolPupil](KnownId.md#hosrulesetcaliforniaschoolpupil)
 - [HosRuleSetCaliforniaSchoolPupilWithRestRequirement](KnownId.md#hosrulesetcaliforniaschoolpupilwithrestrequirement)
+- [HosRuleSetCanadaBCLoggingTruck](KnownId.md#hosrulesetcanadabcloggingtruck)
 - [HosRuleSetCanadaCycleOne](KnownId.md#hosrulesetcanadacycleone)
 - [HosRuleSetCanadaCycleOneTeam](KnownId.md#hosrulesetcanadacycleoneteam)
 - [HosRuleSetCanadaCycleTwo](KnownId.md#hosrulesetcanadacycletwo)
@@ -665,6 +796,7 @@
 - [HosRuleSetFlorida8Day](KnownId.md#hosrulesetflorida8day)
 - [HosRuleSetFloridaShortHaul7Day](KnownId.md#hosrulesetfloridashorthaul7day)
 - [HosRuleSetFloridaShortHaul8Day](KnownId.md#hosrulesetfloridashorthaul8day)
+- [HosRuleSetMalaysiaDrivingHours](KnownId.md#hosrulesetmalaysiadrivinghours)
 - [HosRuleSetMarylandShortHaul7Day](KnownId.md#hosrulesetmarylandshorthaul7day)
 - [HosRuleSetMarylandShortHaul8Day](KnownId.md#hosrulesetmarylandshorthaul8day)
 - [HosRuleSetNebraska7day](KnownId.md#hosrulesetnebraska7day)
@@ -723,8 +855,96 @@
 - [HosRuleSetSouthCarolina8Day](KnownId.md#hosrulesetsouthcarolina8day)
 - [HosRuleSetWashingtonIntrastate7Day](KnownId.md#hosrulesetwashingtonintrastate7day)
 - [HosRuleSetWashingtonIntrastate8Day](KnownId.md#hosrulesetwashingtonintrastate8day)
+- [IoxWrksAirTemperature](KnownId.md#ioxwrksairtemperature)
+- [IoxWrksControllerMode](KnownId.md#ioxwrkscontrollermode)
+- [IoxWrksControllerModel](KnownId.md#ioxwrkscontrollermodel)
+- [IoxWrksControllerType](KnownId.md#ioxwrkscontrollertype)
+- [IoxWrksExternalDeviceSerialNumber](KnownId.md#ioxwrksexternaldeviceserialnumber)
+- [IoxWrksFirmwareVersion](KnownId.md#ioxwrksfirmwareversion)
+- [IoxWrksFrostPointTemperature](KnownId.md#ioxwrksfrostpointtemperature)
+- [IoxWrksIceLayerThickness](KnownId.md#ioxwrksicelayerthickness)
+- [IoxWrksLiquidMaterialActive](KnownId.md#ioxwrksliquidmaterialactive)
+- [IoxWrksMacAutomaticVolumeSubstance1](KnownId.md#ioxwrksmacautomaticvolumesubstance1)
+- [IoxWrksMacAutomaticVolumeSubstance2](KnownId.md#ioxwrksmacautomaticvolumesubstance2)
+- [IoxWrksMacAutomaticVolumeSubstance3](KnownId.md#ioxwrksmacautomaticvolumesubstance3)
+- [IoxWrksMacDosageSettingLiquid1](KnownId.md#ioxwrksmacdosagesettingliquid1)
+- [IoxWrksMacDosageSettingSolid1](KnownId.md#ioxwrksmacdosagesettingsolid1)
+- [IoxWrksMacMainPlow](KnownId.md#ioxwrksmacmainplow)
+- [IoxWrksPrewetMaterialActive](KnownId.md#ioxwrksprewetmaterialactive)
+- [IoxWrksRelativeHumidity](KnownId.md#ioxwrksrelativehumidity)
+- [IoxWrksRoadConditionVaisala](KnownId.md#ioxwrksroadconditionvaisala)
+- [IoxWrksRoadTemperature](KnownId.md#ioxwrksroadtemperature)
+- [IoxWrksSecondarySpreaderConfigFile](KnownId.md#ioxwrkssecondaryspreaderconfigfile)
+- [IoxWrksSnowLayerThickness](KnownId.md#ioxwrkssnowlayerthickness)
+- [IoxWrksSpinnerRate](KnownId.md#ioxwrksspinnerrate)
+- [IoxWrksSpinnerState](KnownId.md#ioxwrksspinnerstate)
+- [IoxWrksSpreadWidth](KnownId.md#ioxwrksspreadwidth)
+- [IoxWrksSpreaderControllerConfigFile](KnownId.md#ioxwrksspreadercontrollerconfigfile)
+- [IoxWrksSubstanceSpreaderBoom1](KnownId.md#ioxwrkssubstancespreaderboom1)
+- [IoxWrksSubstanceSpreaderBoom2](KnownId.md#ioxwrkssubstancespreaderboom2)
+- [IoxWrksSubstanceSpreaderBoom3](KnownId.md#ioxwrkssubstancespreaderboom3)
+- [IoxWrksSubstanceSpreaderBoom4](KnownId.md#ioxwrkssubstancespreaderboom4)
+- [IoxWrksSubstanceSpreaderBoom5](KnownId.md#ioxwrkssubstancespreaderboom5)
+- [IoxWrksSubstanceSpreaderBoom6](KnownId.md#ioxwrkssubstancespreaderboom6)
+- [IoxWrksSubstanceSpreaderBoom7](KnownId.md#ioxwrkssubstancespreaderboom7)
+- [IoxWrksSubstanceSpreaderBoom8](KnownId.md#ioxwrkssubstancespreaderboom8)
+- [IoxWrksSubstanceSpreaderDeicerDensityMeaning](KnownId.md#ioxwrkssubstancespreaderdeicerdensitymeaning)
+- [IoxWrksSubstanceSpreaderDeicerDensityValue](KnownId.md#ioxwrkssubstancespreaderdeicerdensityvalue)
+- [IoxWrksSubstanceSpreaderDewPointTemperature](KnownId.md#ioxwrkssubstancespreaderdewpointtemperature)
+- [IoxWrksSubstanceSpreaderFreezingTemperature](KnownId.md#ioxwrkssubstancespreaderfreezingtemperature)
+- [IoxWrksSubstanceSpreaderFriction](KnownId.md#ioxwrkssubstancespreaderfriction)
+- [IoxWrksSubstanceSpreaderIcePercentage](KnownId.md#ioxwrkssubstancespreadericepercentage)
+- [IoxWrksSubstanceSpreaderJoystickDown](KnownId.md#ioxwrkssubstancespreaderjoystickdown)
+- [IoxWrksSubstanceSpreaderJoystickEmergencyButton](KnownId.md#ioxwrkssubstancespreaderjoystickemergencybutton)
+- [IoxWrksSubstanceSpreaderJoystickLeft](KnownId.md#ioxwrkssubstancespreaderjoystickleft)
+- [IoxWrksSubstanceSpreaderJoystickMode](KnownId.md#ioxwrkssubstancespreaderjoystickmode)
+- [IoxWrksSubstanceSpreaderJoystickPowerFloat1](KnownId.md#ioxwrkssubstancespreaderjoystickpowerfloat1)
+- [IoxWrksSubstanceSpreaderJoystickPowerFloat2](KnownId.md#ioxwrkssubstancespreaderjoystickpowerfloat2)
+- [IoxWrksSubstanceSpreaderJoystickRight](KnownId.md#ioxwrkssubstancespreaderjoystickright)
+- [IoxWrksSubstanceSpreaderJoystickTwistLeft](KnownId.md#ioxwrkssubstancespreaderjoysticktwistleft)
+- [IoxWrksSubstanceSpreaderJoystickTwistRight](KnownId.md#ioxwrkssubstancespreaderjoysticktwistright)
+- [IoxWrksSubstanceSpreaderJoystickUp](KnownId.md#ioxwrkssubstancespreaderjoystickup)
+- [IoxWrksSubstanceSpreaderLiquidMaterialPercentage](KnownId.md#ioxwrkssubstancespreaderliquidmaterialpercentage)
+- [IoxWrksSubstanceSpreaderPrewetMaterialPercentage](KnownId.md#ioxwrkssubstancespreaderprewetmaterialpercentage)
+- [IoxWrksSubstanceSpreaderRelativeHumidityAtRoadTemp](KnownId.md#ioxwrkssubstancespreaderrelativehumidityatroadtemp)
+- [IoxWrksSubstanceSpreaderRoadConditionMarwis](KnownId.md#ioxwrkssubstancespreaderroadconditionmarwis)
+- [IoxWrksSubstanceSpreaderSolidMaterialPercentage](KnownId.md#ioxwrkssubstancespreadersolidmaterialpercentage)
+- [IoxWrksSubstanceSpreaderSpinnerPercentage](KnownId.md#ioxwrkssubstancespreaderspinnerpercentage)
+- [IoxWrksSubstanceSpreaderWaterFilmHeight](KnownId.md#ioxwrkssubstancespreaderwaterfilmheight)
+- [IoxWrksSubstanceSpreaderWaterFilmHeightOnSurface](KnownId.md#ioxwrkssubstancespreaderwaterfilmheightonsurface)
+- [IoxWrksTowControllerMode](KnownId.md#ioxwrkstowcontrollermode)
+- [IoxWrksTowControllerStatus](KnownId.md#ioxwrkstowcontrollerstatus)
+- [IoxWrksTowLiquidMaterialPercentage](KnownId.md#ioxwrkstowliquidmaterialpercentage)
+- [IoxWrksTowLiquidSpreadDistance](KnownId.md#ioxwrkstowliquidspreaddistance)
+- [IoxWrksTowPrewetMaterialPercentage](KnownId.md#ioxwrkstowprewetmaterialpercentage)
+- [IoxWrksTowPrewetSpreadDistance](KnownId.md#ioxwrkstowprewetspreaddistance)
+- [IoxWrksTowSolidMaterialPercentage](KnownId.md#ioxwrkstowsolidmaterialpercentage)
+- [IoxWrksTowSolidSpreadDistance](KnownId.md#ioxwrkstowsolidspreaddistance)
+- [IoxWrksTowSpinnerStatus](KnownId.md#ioxwrkstowspinnerstatus)
+- [IoxWrksTruckLiquidSpreadDistance](KnownId.md#ioxwrkstruckliquidspreaddistance)
+- [IoxWrksTruckPrewetSpreadDistance](KnownId.md#ioxwrkstruckprewetspreaddistance)
+- [IoxWrksTruckSolidSpreadDistance](KnownId.md#ioxwrkstrucksolidspreaddistance)
+- [J1708FaultDiagnosticId](KnownId.md#j1708faultdiagnosticid)
+- [J1939FaultDiagnosticId](KnownId.md#j1939faultdiagnosticid)
+- [ListenOnlyModeReasonAudibleAlertId](KnownId.md#listenonlymodereasonaudiblealertid)
+- [ListenOnlyModeReasonDrivabilityId](KnownId.md#listenonlymodereasondrivabilityid)
+- [ListenOnlyModeReasonDriverWarningMessageId](KnownId.md#listenonlymodereasondriverwarningmessageid)
+- [ListenOnlyModeReasonGarageMaintenanceId](KnownId.md#listenonlymodereasongaragemaintenanceid)
+- [ListenOnlyModeReasonLightsOnTheDashId](KnownId.md#listenonlymodereasonlightsonthedashid)
+- [ListenOnlyModeReasonLossOfVehicleInstrumentsId](KnownId.md#listenonlymodereasonlossofvehicleinstrumentsid)
+- [ListenOnlyModeReasonNoneId](KnownId.md#listenonlymodereasonnoneid)
+- [ListenOnlyModeReasonOEMEmbeddedTelematicsId](KnownId.md#listenonlymodereasonoemembeddedtelematicsid)
+- [ListenOnlyModeReasonOperatingLightsOutsideTheVehicleId](KnownId.md#listenonlymodereasonoperatinglightsoutsidethevehicleid)
+- [ListenOnlyModeReasonOtherId](KnownId.md#listenonlymodereasonotherid)
+- [ListenOnlyModeReasonSupport3RdPartyHardwareId](KnownId.md#listenonlymodereasonsupport3rdpartyhardwareid)
+- [MaintenanceScheduleBigQueryUploadRequestId](KnownId.md#maintenanceschedulebigqueryuploadrequestid)
+- [MaintenanceWorkOrderEntityUploadRequestId](KnownId.md#maintenanceworkorderentityuploadrequestid)
+- [MaintenanceWorkOrderJobBigQueryUploadRequestId](KnownId.md#maintenanceworkorderjobbigqueryuploadrequestid)
+- [MaintenanceWorkRequestBigQueryUploadRequestId](KnownId.md#maintenanceworkrequestbigqueryuploadrequestid)
 - [MimeTaskTypeApplicationMdf4Id](KnownId.md#mimetasktypeapplicationmdf4id)
+- [MimeTaskTypeAutomotiveId](KnownId.md#mimetasktypeautomotiveid)
 - [MimeTaskTypeUnknownId](KnownId.md#mimetasktypeunknownid)
+- [MimeTaskTypeVideoSafewayId](KnownId.md#mimetasktypevideosafewayid)
 - [NoDeviceId](KnownId.md#nodeviceid)
 - [NoDiagnosticId](KnownId.md#nodiagnosticid)
 - [NoDisplayProfileId](KnownId.md#nodisplayprofileid)
@@ -737,8 +957,12 @@
 - [NoTrailerId](KnownId.md#notrailerid)
 - [NoUserId](KnownId.md#nouserid)
 - [NoZoneId](KnownId.md#nozoneid)
+- [NotificationBigQueryUploadRequestId](KnownId.md#notificationbigqueryuploadrequestid)
+- [ObdiiFaultDiagnosticId](KnownId.md#obdiifaultdiagnosticid)
 - [ParameterGroupNoneId](KnownId.md#parametergroupnoneid)
+- [PushNotificationTemplateDefaultExceptionRuleId](KnownId.md#pushnotificationtemplatedefaultexceptionruleid)
 - [RefrigerationUnitBatteryVoltageId](KnownId.md#refrigerationunitbatteryvoltageid)
+- [RefrigerationUnitControllerProtocolId](KnownId.md#refrigerationunitcontrollerprotocolid)
 - [RefrigerationUnitDischargeTemperatureZone1Id](KnownId.md#refrigerationunitdischargetemperaturezone1id)
 - [RefrigerationUnitDischargeTemperatureZone2Id](KnownId.md#refrigerationunitdischargetemperaturezone2id)
 - [RefrigerationUnitDischargeTemperatureZone3Id](KnownId.md#refrigerationunitdischargetemperaturezone3id)
@@ -768,6 +992,7 @@
 - [RemoteProbe3TemperatureId](KnownId.md#remoteprobe3temperatureid)
 - [RemoteProbe4TemperatureId](KnownId.md#remoteprobe4temperatureid)
 - [ReportTemplateActiveEngineFaultsId](KnownId.md#reporttemplateactiveenginefaultsid)
+- [ReportTemplateActivitySummaryTodayId](KnownId.md#reporttemplateactivitysummarytodayid)
 - [ReportTemplateAdvancedAuditLogId](KnownId.md#reporttemplateadvancedauditlogid)
 - [ReportTemplateAdvancedAuxiliaryDetailId](KnownId.md#reporttemplateadvancedauxiliarydetailid)
 - [ReportTemplateAdvancedAuxiliarySummaryId](KnownId.md#reporttemplateadvancedauxiliarysummaryid)
@@ -787,6 +1012,7 @@
 - [ReportTemplateAdvancedExceptionsDetailId](KnownId.md#reporttemplateadvancedexceptionsdetailid)
 - [ReportTemplateAdvancedExceptionsSummaryId](KnownId.md#reporttemplateadvancedexceptionssummaryid)
 - [ReportTemplateAdvancedFailureModeId](KnownId.md#reporttemplateadvancedfailuremodeid)
+- [ReportTemplateAdvancedFillUpsId](KnownId.md#reporttemplateadvancedfillupsid)
 - [ReportTemplateAdvancedFuelTaxId](KnownId.md#reporttemplateadvancedfueltaxid)
 - [ReportTemplateAdvancedFuelUsageId](KnownId.md#reporttemplateadvancedfuelusageid)
 - [ReportTemplateAdvancedGroupsId](KnownId.md#reporttemplateadvancedgroupsid)
@@ -795,6 +1021,10 @@
 - [ReportTemplateAdvancedHOSViolationId](KnownId.md#reporttemplateadvancedhosviolationid)
 - [ReportTemplateAdvancedLogDetailsId](KnownId.md#reporttemplateadvancedlogdetailsid)
 - [ReportTemplateAdvancedMaintenanceRemindersId](KnownId.md#reporttemplateadvancedmaintenanceremindersid)
+- [ReportTemplateAdvancedMaintenanceSchedulesId](KnownId.md#reporttemplateadvancedmaintenanceschedulesid)
+- [ReportTemplateAdvancedMaintenanceWorkJobsId](KnownId.md#reporttemplateadvancedmaintenanceworkjobsid)
+- [ReportTemplateAdvancedMaintenanceWorkOrdersWorkJobsId](KnownId.md#reporttemplateadvancedmaintenanceworkordersworkjobsid)
+- [ReportTemplateAdvancedMaintenanceWorkRequestsId](KnownId.md#reporttemplateadvancedmaintenanceworkrequestsid)
 - [ReportTemplateAdvancedMaterialManagementId](KnownId.md#reporttemplateadvancedmaterialmanagementid)
 - [ReportTemplateAdvancedNotificationsId](KnownId.md#reporttemplateadvancednotificationsid)
 - [ReportTemplateAdvancedPlanVsActualRouteId](KnownId.md#reporttemplateadvancedplanvsactualrouteid)
@@ -814,23 +1044,31 @@
 - [ReportTemplateAdvancedVehiclesId](KnownId.md#reporttemplateadvancedvehiclesid)
 - [ReportTemplateAdvancedZonesId](KnownId.md#reporttemplateadvancedzonesid)
 - [ReportTemplateAggressiveDrivingId](KnownId.md#reporttemplateaggressivedrivingid)
+- [ReportTemplateAssetMonitoringId](KnownId.md#reporttemplateassetmonitoringid)
 - [ReportTemplateAssetUtilizationId](KnownId.md#reporttemplateassetutilizationid)
 - [ReportTemplateAuditLogId](KnownId.md#reporttemplateauditlogid)
 - [ReportTemplateAuxiliaryDetailId](KnownId.md#reporttemplateauxiliarydetailid)
 - [ReportTemplateAuxiliarySummaryId](KnownId.md#reporttemplateauxiliarysummaryid)
 - [ReportTemplateAverageFuelEconomyId](KnownId.md#reporttemplateaveragefueleconomyid)
+- [ReportTemplateBEVRangeCapabilityId](KnownId.md#reporttemplatebevrangecapabilityid)
+- [ReportTemplateBasicDriverScoreLastWeekId](KnownId.md#reporttemplatebasicdriverscorelastweekid)
+- [ReportTemplateBusinessVsPersonalLastWeekId](KnownId.md#reporttemplatebusinessvspersonallastweekid)
 - [ReportTemplateChargeEventId](KnownId.md#reporttemplatechargeeventid)
+- [ReportTemplateCleanTruckCheckId](KnownId.md#reporttemplatecleantruckcheckid)
+- [ReportTemplateColdChainId](KnownId.md#reporttemplatecoldchainid)
 - [ReportTemplateCongregationId](KnownId.md#reporttemplatecongregationid)
 - [ReportTemplateCustomerVisitsDetailId](KnownId.md#reporttemplatecustomervisitsdetailid)
 - [ReportTemplateCustomerVisitsSummaryId](KnownId.md#reporttemplatecustomervisitssummaryid)
 - [ReportTemplateDVIRId](KnownId.md#reporttemplatedvirid)
 - [ReportTemplateDeviceInstallHistoryId](KnownId.md#reporttemplatedeviceinstallhistoryid)
+- [ReportTemplateDeviceOnlineAndOfflineId](KnownId.md#reporttemplatedeviceonlineandofflineid)
 - [ReportTemplateDiagnosticsId](KnownId.md#reporttemplatediagnosticsid)
 - [ReportTemplateDriverSafetyScorecardId](KnownId.md#reporttemplatedriversafetyscorecardid)
 - [ReportTemplateELDDiagnosticsAndMalfunctionsId](KnownId.md#reporttemplateelddiagnosticsandmalfunctionsid)
 - [ReportTemplateELDUnidentifiedDriverLogsId](KnownId.md#reporttemplateeldunidentifieddriverlogsid)
 - [ReportTemplateELDUnverifiedLogsId](KnownId.md#reporttemplateeldunverifiedlogsid)
 - [ReportTemplateEVBatteryHealthId](KnownId.md#reporttemplateevbatteryhealthid)
+- [ReportTemplateEVPerformanceId](KnownId.md#reporttemplateevperformanceid)
 - [ReportTemplateEngineFaultId](KnownId.md#reporttemplateenginefaultid)
 - [ReportTemplateEngineStatusId](KnownId.md#reporttemplateenginestatusid)
 - [ReportTemplateEngineSummaryId](KnownId.md#reporttemplateenginesummaryid)
@@ -843,6 +1081,7 @@
 - [ReportTemplateFleetDistanceTrendId](KnownId.md#reporttemplatefleetdistancetrendid)
 - [ReportTemplateFleetUtilizationId](KnownId.md#reporttemplatefleetutilizationid)
 - [ReportTemplateFuelTaxId](KnownId.md#reporttemplatefueltaxid)
+- [ReportTemplateFuelTransactionId](KnownId.md#reporttemplatefueltransactionid)
 - [ReportTemplateFuelUsageId](KnownId.md#reporttemplatefuelusageid)
 - [ReportTemplateGroupsId](KnownId.md#reporttemplategroupsid)
 - [ReportTemplateHOSAvailabilityId](KnownId.md#reporttemplatehosavailabilityid)
@@ -850,14 +1089,21 @@
 - [ReportTemplateHOSViolationBreakdownId](KnownId.md#reporttemplatehosviolationbreakdownid)
 - [ReportTemplateHOSViolationId](KnownId.md#reporttemplatehosviolationid)
 - [ReportTemplateIdlingViolationsId](KnownId.md#reporttemplateidlingviolationsid)
+- [ReportTemplateLastMileMaintenanceId](KnownId.md#reporttemplatelastmilemaintenanceid)
 - [ReportTemplateLogDetailsId](KnownId.md#reporttemplatelogdetailsid)
 - [ReportTemplateMaintenanceRemindersId](KnownId.md#reporttemplatemaintenanceremindersid)
+- [ReportTemplateMaintenanceSchedulesId](KnownId.md#reporttemplatemaintenanceschedulesid)
+- [ReportTemplateMaintenanceWorkJobsId](KnownId.md#reporttemplatemaintenanceworkjobsid)
+- [ReportTemplateMaintenanceWorkRequestsId](KnownId.md#reporttemplatemaintenanceworkrequestsid)
 - [ReportTemplateMaterialManagementId](KnownId.md#reporttemplatematerialmanagementid)
 - [ReportTemplateMaxSpeedId](KnownId.md#reporttemplatemaxspeedid)
 - [ReportTemplateNotificationsId](KnownId.md#reporttemplatenotificationsid)
+- [ReportTemplateNumberOfStopsYesterdayId](KnownId.md#reporttemplatenumberofstopsyesterdayid)
+- [ReportTemplatePercentageOfTimeIdlingYesterdayId](KnownId.md#reporttemplatepercentageoftimeidlingyesterdayid)
 - [ReportTemplatePlanVsActualRouteId](KnownId.md#reporttemplateplanvsactualrouteid)
 - [ReportTemplatePossibleCollisionsId](KnownId.md#reporttemplatepossiblecollisionsid)
 - [ReportTemplateProgressReportId](KnownId.md#reporttemplateprogressreportid)
+- [ReportTemplateRiskAnalyticsId](KnownId.md#reporttemplateriskanalyticsid)
 - [ReportTemplateRiskManagementId](KnownId.md#reporttemplateriskmanagementid)
 - [ReportTemplateRouteCompletionId](KnownId.md#reporttemplateroutecompletionid)
 - [ReportTemplateRouteDirectionsId](KnownId.md#reporttemplateroutedirectionsid)
@@ -865,6 +1111,7 @@
 - [ReportTemplateSeatBeltViolationsId](KnownId.md#reporttemplateseatbeltviolationsid)
 - [ReportTemplateServiceStatusId](KnownId.md#reporttemplateservicestatusid)
 - [ReportTemplateSpeedViolationsId](KnownId.md#reporttemplatespeedviolationsid)
+- [ReportTemplateSustainabilityOverviewId](KnownId.md#reporttemplatesustainabilityoverviewid)
 - [ReportTemplateTextMessagesId](KnownId.md#reporttemplatetextmessagesid)
 - [ReportTemplateTimeCardId](KnownId.md#reporttemplatetimecardid)
 - [ReportTemplateTimePerformanceId](KnownId.md#reporttemplatetimeperformanceid)
@@ -878,14 +1125,29 @@
 - [ReportTemplateVehiclesId](KnownId.md#reporttemplatevehiclesid)
 - [ReportTemplateWatchdogId](KnownId.md#reporttemplatewatchdogid)
 - [ReportTemplateZonesId](KnownId.md#reporttemplatezonesid)
+- [RestrictedDataModeChangeBigQueryUploadRequestId](KnownId.md#restricteddatamodechangebigqueryuploadrequestid)
 - [RestrictedDataModeId](KnownId.md#restricteddatamodeid)
 - [RuleAccidentId](KnownId.md#ruleaccidentid)
 - [RuleAfterHoursUsageId](KnownId.md#ruleafterhoursusageid)
 - [RuleAlternatorFailedId](KnownId.md#rulealternatorfailedid)
 - [RuleApplicationExceptionId](KnownId.md#ruleapplicationexceptionid)
 - [RuleAtOfficeLongerThanId](KnownId.md#ruleatofficelongerthanid)
+- [RuleBigQueryUploadRequestId](KnownId.md#rulebigqueryuploadrequestid)
+- [RuleCameraDetectedDriverSeatbeltId](KnownId.md#rulecameradetecteddriverseatbeltid)
+- [RuleCameraLensObstructionId](KnownId.md#rulecameralensobstructionid)
+- [RuleCameraTamperingId](KnownId.md#rulecameratamperingid)
+- [RuleCargoTemperatureOutOfSafeRangeZone1Id](KnownId.md#rulecargotemperatureoutofsaferangezone1id)
+- [RuleCargoTemperatureOutOfSafeRangeZone2Id](KnownId.md#rulecargotemperatureoutofsaferangezone2id)
+- [RuleCargoTemperatureOutOfSafeRangeZone3Id](KnownId.md#rulecargotemperatureoutofsaferangezone3id)
+- [RuleCriticalLowTirePressureId](KnownId.md#rulecriticallowtirepressureid)
 - [RuleDVIRPostTripMissingId](KnownId.md#ruledvirposttripmissingid)
 - [RuleDVIRPreTripMissingId](KnownId.md#ruledvirpretripmissingid)
+- [RuleDefensiveDrivingId](KnownId.md#ruledefensivedrivingid)
+- [RuleDeviceButtonPressedId](KnownId.md#ruledevicebuttonpressedid)
+- [RuleDistractionId](KnownId.md#ruledistractionid)
+- [RuleDoubleSolidLineViolationId](KnownId.md#ruledoublesolidlineviolationid)
+- [RuleDrinkingOrEatingId](KnownId.md#ruledrinkingoreatingid)
+- [RuleDriverFatigueId](KnownId.md#ruledriverfatigueid)
 - [RuleDvirDefectId](KnownId.md#ruledvirdefectid)
 - [RuleEVDoneChargingId](KnownId.md#ruleevdonechargingid)
 - [RuleEVEnterChargingZoneWithLowChargeId](KnownId.md#ruleeventerchargingzonewithlowchargeid)
@@ -894,11 +1156,20 @@
 - [RuleEVStoppedInChargingLocationAndNotChargingId](KnownId.md#ruleevstoppedincharginglocationandnotchargingid)
 - [RuleEarlyLeaveId](KnownId.md#ruleearlyleaveid)
 - [RuleEngineAbuseId](KnownId.md#ruleengineabuseid)
+- [RuleEngineCoolantTemperatureHighId](KnownId.md#ruleenginecoolanttemperaturehighid)
 - [RuleEngineLightOnId](KnownId.md#ruleenginelightonid)
+- [RuleEnhancedMajorCollisionId](KnownId.md#ruleenhancedmajorcollisionid)
+- [RuleEnhancedMinorCollisionId](KnownId.md#ruleenhancedminorcollisionid)
 - [RuleFMCSAELDYardMoveExemptionId](KnownId.md#rulefmcsaeldyardmoveexemptionid)
 - [RuleFleetIdlingId](KnownId.md#rulefleetidlingid)
+- [RuleFollowingDistanceId](KnownId.md#rulefollowingdistanceid)
+- [RuleGoAnywhereBatteryDrainId](KnownId.md#rulegoanywherebatterydrainid)
+- [RuleGpsSpeedingWindowId](KnownId.md#rulegpsspeedingwindowid)
 - [RuleHarshBrakingId](KnownId.md#ruleharshbrakingid)
 - [RuleHarshCorneringId](KnownId.md#ruleharshcorneringid)
+- [RuleHarshGpsAccelerationId](KnownId.md#ruleharshgpsaccelerationid)
+- [RuleHarshGpsBrakingId](KnownId.md#ruleharshgpsbrakingid)
+- [RuleHarshGpsCorneringId](KnownId.md#ruleharshgpscorneringid)
 - [RuleIdlingId](KnownId.md#ruleidlingid)
 - [RuleIdlingNoPtoId](KnownId.md#ruleidlingnoptoid)
 - [RuleJackrabbitStartsId](KnownId.md#rulejackrabbitstartsid)
@@ -913,10 +1184,22 @@
 - [RuleMaterialManagementPreWetApplicationId](KnownId.md#rulematerialmanagementprewetapplicationid)
 - [RuleMaterialManagementRouteBasedZoneOnlyId](KnownId.md#rulematerialmanagementroutebasedzoneonlyid)
 - [RuleMaterialManagementSolidApplicationId](KnownId.md#rulematerialmanagementsolidapplicationid)
+- [RuleMaterialManagementTowPlowActiveId](KnownId.md#rulematerialmanagementtowplowactiveid)
+- [RuleMaterialManagementTowPlowLiquidApplicationId](KnownId.md#rulematerialmanagementtowplowliquidapplicationid)
+- [RuleMaterialManagementTowPlowPreWetApplicationId](KnownId.md#rulematerialmanagementtowplowprewetapplicationid)
+- [RuleMaterialManagementTowPlowSolidApplicationId](KnownId.md#rulematerialmanagementtowplowsolidapplicationid)
 - [RuleMaterialManagementUnloadId](KnownId.md#rulematerialmanagementunloadid)
+- [RuleNearCollisionWarningId](KnownId.md#rulenearcollisionwarningid)
+- [RulePhoneUsageId](KnownId.md#rulephoneusageid)
 - [RulePostedSpeedingId](KnownId.md#rulepostedspeedingid)
+- [RulePreventableIdlingId](KnownId.md#rulepreventableidlingid)
 - [RuleReverseAtStartId](KnownId.md#rulereverseatstartid)
+- [RuleRoadCameraAdjustmentRequiredId](KnownId.md#ruleroadcameraadjustmentrequiredid)
+- [RuleRollingStopId](KnownId.md#rulerollingstopid)
 - [RuleSeatbeltId](KnownId.md#ruleseatbeltid)
+- [RuleSmokingId](KnownId.md#rulesmokingid)
+- [RuleTachographCompanyCardAvailabilityId](KnownId.md#ruletachographcompanycardavailabilityid)
+- [RuleTachographWeeklyStatusOverviewId](KnownId.md#ruletachographweeklystatusoverviewid)
 - [RuleUnauthorizedDeviceRemovalId](KnownId.md#ruleunauthorizeddeviceremovalid)
 - [RuleUnauthorizedHomeStopId](KnownId.md#ruleunauthorizedhomestopid)
 - [RuleVehicleESRHealthId](KnownId.md#rulevehicleesrhealthid)
@@ -925,19 +1208,43 @@
 - [RuleWiFiTierUsageId](KnownId.md#rulewifitierusageid)
 - [SecurityIdAboutCheckmateId](KnownId.md#securityidaboutcheckmateid)
 - [SecurityIdAccelerometerDataClearanceId](KnownId.md#securityidaccelerometerdataclearanceid)
+- [SecurityIdAccessAddInManagementId](KnownId.md#securityidaccessaddinmanagementid)
+- [SecurityIdAccessBillingServicesId](KnownId.md#securityidaccessbillingservicesid)
+- [SecurityIdAccessCleanTruckCheckComplianceEditorId](KnownId.md#securityidaccesscleantruckcheckcomplianceeditorid)
+- [SecurityIdAccessCleanTruckCheckComplianceId](KnownId.md#securityidaccesscleantruckcheckcomplianceid)
+- [SecurityIdAccessCleanTruckCheckComplianceViewerId](KnownId.md#securityidaccesscleantruckcheckcomplianceviewerid)
+- [SecurityIdAccessDeviceInstallationServicesId](KnownId.md#securityidaccessdeviceinstallationservicesid)
+- [SecurityIdAccessEVSuitabilityAssessmentId](KnownId.md#securityidaccessevsuitabilityassessmentid)
+- [SecurityIdAccessInvoicesId](KnownId.md#securityidaccessinvoicesid)
+- [SecurityIdAccessMonthlyBillsId](KnownId.md#securityidaccessmonthlybillsid)
+- [SecurityIdAccessOneStoreId](KnownId.md#securityidaccessonestoreid)
+- [SecurityIdAccessOrderManagementId](KnownId.md#securityidaccessordermanagementid)
+- [SecurityIdAccessProductReturnsId](KnownId.md#securityidaccessproductreturnsid)
+- [SecurityIdAccessStoreId](KnownId.md#securityidaccessstoreid)
+- [SecurityIdAccessVehicleEligibilityId](KnownId.md#securityidaccessvehicleeligibilityid)
 - [SecurityIdAccidentDebugReportId](KnownId.md#securityidaccidentdebugreportid)
 - [SecurityIdAccidentWizardId](KnownId.md#securityidaccidentwizardid)
+- [SecurityIdActivateVitalityDriverRewardsAddInId](KnownId.md#securityidactivatevitalitydriverrewardsaddinid)
 - [SecurityIdActiveTrackingClearanceId](KnownId.md#securityidactivetrackingclearanceid)
+- [SecurityIdAdministerDeviceModeId](KnownId.md#securityidadministerdevicemodeid)
+- [SecurityIdAdministerInvestigationsId](KnownId.md#securityidadministerinvestigationsid)
 - [SecurityIdAdministerLiveMapId](KnownId.md#securityidadministerlivemapid)
 - [SecurityIdAdministerPropertyId](KnownId.md#securityidadministerpropertyid)
 - [SecurityIdAdministerPropertySetId](KnownId.md#securityidadministerpropertysetid)
+- [SecurityIdAdministerPublicWorksServiceRoutesId](KnownId.md#securityidadministerpublicworksserviceroutesid)
 - [SecurityIdAdministerWiFiHotspotSettingsId](KnownId.md#securityidadministerwifihotspotsettingsid)
 - [SecurityIdAuditLogId](KnownId.md#securityidauditlogid)
+- [SecurityIdAuthorizationCodePageAccessId](KnownId.md#securityidauthorizationcodepageaccessid)
 - [SecurityIdAuxiliaryClearanceId](KnownId.md#securityidauxiliaryclearanceid)
+- [SecurityIdBEVRangeCapabilityReportId](KnownId.md#securityidbevrangecapabilityreportid)
+- [SecurityIdBigQueryUploadRequestId](KnownId.md#securityidbigqueryuploadrequestid)
+- [SecurityIdCertifyAssetInspectionId](KnownId.md#securityidcertifyassetinspectionid)
 - [SecurityIdCertifyDVIRId](KnownId.md#securityidcertifydvirid)
 - [SecurityIdChangePasswordId](KnownId.md#securityidchangepasswordid)
+- [SecurityIdChargeStationDashboardId](KnownId.md#securityidchargestationdashboardid)
 - [SecurityIdCongregationReportId](KnownId.md#securityidcongregationreportid)
 - [SecurityIdContinuousConnectClearanceId](KnownId.md#securityidcontinuousconnectclearanceid)
+- [SecurityIdCreateAndEditInvestigationsId](KnownId.md#securityidcreateandeditinvestigationsid)
 - [SecurityIdCreateExtractKeyId](KnownId.md#securityidcreateextractkeyid)
 - [SecurityIdCreateFirmwareKeyId](KnownId.md#securityidcreatefirmwarekeyid)
 - [SecurityIdCreateKeyBackupId](KnownId.md#securityidcreatekeybackupid)
@@ -947,15 +1254,19 @@
 - [SecurityIdCreateWifiKeyId](KnownId.md#securityidcreatewifikeyid)
 - [SecurityIdCustomerVisitsReportId](KnownId.md#securityidcustomervisitsreportid)
 - [SecurityIdDeleteGpsTextMessageId](KnownId.md#securityiddeletegpstextmessageid)
+- [SecurityIdDeleteRecordedVideoId](KnownId.md#securityiddeleterecordedvideoid)
 - [SecurityIdDeleteShareableLinkId](KnownId.md#securityiddeleteshareablelinkid)
 - [SecurityIdDeviceAdminAdvancedId](KnownId.md#securityiddeviceadminadvancedid)
+- [SecurityIdDeviceAdminBulkArchiveRemoveId](KnownId.md#securityiddeviceadminbulkarchiveremoveid)
 - [SecurityIdDeviceAdminDeleteUnplugReplaceId](KnownId.md#securityiddeviceadmindeleteunplugreplaceid)
 - [SecurityIdDeviceAdminDriverFeedbackId](KnownId.md#securityiddeviceadmindriverfeedbackid)
 - [SecurityIdDeviceAdminId](KnownId.md#securityiddeviceadminid)
 - [SecurityIdDeviceCurrentStatusClearanceId](KnownId.md#securityiddevicecurrentstatusclearanceid)
 - [SecurityIdDeviceInstallHistoryReportId](KnownId.md#securityiddeviceinstallhistoryreportid)
 - [SecurityIdDeviceListId](KnownId.md#securityiddevicelistid)
+- [SecurityIdDirectCustomerId](KnownId.md#securityiddirectcustomerid)
 - [SecurityIdDirectSupportAdminId](KnownId.md#securityiddirectsupportadminid)
+- [SecurityIdDismissFaultsId](KnownId.md#securityiddismissfaultsid)
 - [SecurityIdDisplayMapId](KnownId.md#securityiddisplaymapid)
 - [SecurityIdDisplayMeasurementProfileDetailInsertId](KnownId.md#securityiddisplaymeasurementprofiledetailinsertid)
 - [SecurityIdDisplayMeasurementProfileDetailRemoveId](KnownId.md#securityiddisplaymeasurementprofiledetailremoveid)
@@ -966,16 +1277,19 @@
 - [SecurityIdDriverBlacklistId](KnownId.md#securityiddriverblacklistid)
 - [SecurityIdDriverIdentificationClearanceId](KnownId.md#securityiddriveridentificationclearanceid)
 - [SecurityIdEVBatteryHealthReportId](KnownId.md#securityidevbatteryhealthreportid)
+- [SecurityIdEditConnectionDataId](KnownId.md#securityideditconnectiondataid)
 - [SecurityIdEditDeviceDataPrivacyChangeDataId](KnownId.md#securityideditdevicedataprivacychangedataid)
 - [SecurityIdEditDeviceOdometerId](KnownId.md#securityideditdeviceodometerid)
 - [SecurityIdEditDeviceShareId](KnownId.md#securityideditdeviceshareid)
 - [SecurityIdEditDistributionListId](KnownId.md#securityideditdistributionlistid)
 - [SecurityIdEditExceptionId](KnownId.md#securityideditexceptionid)
+- [SecurityIdEditLostModeChangeDataId](KnownId.md#securityideditlostmodechangedataid)
 - [SecurityIdEditNotificationEmailTemplateId](KnownId.md#securityideditnotificationemailtemplateid)
 - [SecurityIdEditRoadSpeedsId](KnownId.md#securityideditroadspeedsid)
 - [SecurityIdEditStockRulesId](KnownId.md#securityideditstockrulesid)
 - [SecurityIdEditTripTypeChangeDataId](KnownId.md#securityidedittriptypechangedataid)
 - [SecurityIdEditUserDeviceLinkId](KnownId.md#securityidedituserdevicelinkid)
+- [SecurityIdEmailLogsToCustomRecipientsId](KnownId.md#securityidemaillogstocustomrecipientsid)
 - [SecurityIdEngineDiagnosticListId](KnownId.md#securityidenginediagnosticlistid)
 - [SecurityIdEngineFailureModeListId](KnownId.md#securityidenginefailuremodelistid)
 - [SecurityIdEngineFlashCodelistId](KnownId.md#securityidengineflashcodelistid)
@@ -997,29 +1311,52 @@
 - [SecurityIdFuelTransactionListId](KnownId.md#securityidfueltransactionlistid)
 - [SecurityIdFuelUsageReportId](KnownId.md#securityidfuelusagereportid)
 - [SecurityIdGoTalkClearanceId](KnownId.md#securityidgotalkclearanceid)
+- [SecurityIdHosLogEditPcYmId](KnownId.md#securityidhoslogeditpcymid)
 - [SecurityIdIgnoreHOSLogsId](KnownId.md#securityidignorehoslogsid)
+- [SecurityIdImpersonateGpsTextMessageId](KnownId.md#securityidimpersonategpstextmessageid)
 - [SecurityIdImportFromOtherDatabaseId](KnownId.md#securityidimportfromotherdatabaseid)
 - [SecurityIdImportZonesId](KnownId.md#securityidimportzonesid)
+- [SecurityIdInspectAssetInspectionId](KnownId.md#securityidinspectassetinspectionid)
 - [SecurityIdInspectDVIRId](KnownId.md#securityidinspectdvirid)
 - [SecurityIdInstallRecordId](KnownId.md#securityidinstallrecordid)
 - [SecurityIdKeyInformationId](KnownId.md#securityidkeyinformationid)
 - [SecurityIdLaunchAddInId](KnownId.md#securityidlaunchaddinid)
+- [SecurityIdMaintenanceRequestsEditId](KnownId.md#securityidmaintenancerequestseditid)
+- [SecurityIdMaintenanceRequestsFullAccessId](KnownId.md#securityidmaintenancerequestsfullaccessid)
+- [SecurityIdMaintenanceRequestsViewId](KnownId.md#securityidmaintenancerequestsviewid)
+- [SecurityIdMaintenanceSchedulesEditId](KnownId.md#securityidmaintenancescheduleseditid)
+- [SecurityIdMaintenanceSchedulesFullAccessId](KnownId.md#securityidmaintenanceschedulesfullaccessid)
+- [SecurityIdMaintenanceSchedulesViewId](KnownId.md#securityidmaintenanceschedulesviewid)
+- [SecurityIdMaintenanceWorkOrdersEditId](KnownId.md#securityidmaintenanceworkorderseditid)
+- [SecurityIdMaintenanceWorkOrdersFullAccessId](KnownId.md#securityidmaintenanceworkordersfullaccessid)
+- [SecurityIdMaintenanceWorkOrdersViewId](KnownId.md#securityidmaintenanceworkordersviewid)
 - [SecurityIdManageAddInDataId](KnownId.md#securityidmanageaddindataid)
 - [SecurityIdManageAddinsClearanceId](KnownId.md#securityidmanageaddinsclearanceid)
+- [SecurityIdManageAssetInspectionLogsId](KnownId.md#securityidmanageassetinspectionlogsid)
+- [SecurityIdManageAssetInspectionTemplatesId](KnownId.md#securityidmanageassetinspectiontemplatesid)
+- [SecurityIdManageAssetUtilizationCriteriaId](KnownId.md#securityidmanageassetutilizationcriteriaid)
 - [SecurityIdManageBinaryDataFilesId](KnownId.md#securityidmanagebinarydatafilesid)
 - [SecurityIdManageCertificatesId](KnownId.md#securityidmanagecertificatesid)
+- [SecurityIdManageCoachingSessionId](KnownId.md#securityidmanagecoachingsessionid)
 - [SecurityIdManageDVIRLogsId](KnownId.md#securityidmanagedvirlogsid)
 - [SecurityIdManageDriverActivityGroupId](KnownId.md#securityidmanagedriveractivitygroupid)
 - [SecurityIdManageHOSLogsId](KnownId.md#securityidmanagehoslogsid)
+- [SecurityIdManageHosRuleSetId](KnownId.md#securityidmanagehosrulesetid)
+- [SecurityIdManageLinkedAssetsId](KnownId.md#securityidmanagelinkedassetsid)
 - [SecurityIdManageMediaId](KnownId.md#securityidmanagemediaid)
 - [SecurityIdManageReportTemplatesId](KnownId.md#securityidmanagereporttemplatesid)
+- [SecurityIdManageSeparationAlertsId](KnownId.md#securityidmanageseparationalertsid)
 - [SecurityIdManageShipmentsId](KnownId.md#securityidmanageshipmentsid)
+- [SecurityIdManageSpreaderConfigurationsId](KnownId.md#securityidmanagespreaderconfigurationsid)
 - [SecurityIdManageTachographCompanyCardsId](KnownId.md#securityidmanagetachographcompanycardsid)
 - [SecurityIdManageTachographInspectionId](KnownId.md#securityidmanagetachographinspectionid)
 - [SecurityIdManageTrailersId](KnownId.md#securityidmanagetrailersid)
 - [SecurityIdManageTripAnnotationId](KnownId.md#securityidmanagetripannotationid)
+- [SecurityIdManageUserDisplayProfilesId](KnownId.md#securityidmanageuserdisplayprofilesid)
+- [SecurityIdManageUsersVitalityRewardsAddInId](KnownId.md#securityidmanageusersvitalityrewardsaddinid)
 - [SecurityIdMaterialManagementReportId](KnownId.md#securityidmaterialmanagementreportid)
 - [SecurityIdMileageSummaryDashboardId](KnownId.md#securityidmileagesummarydashboardid)
+- [SecurityIdModifyDriverCoachingStatusId](KnownId.md#securityidmodifydrivercoachingstatusid)
 - [SecurityIdModifyGroupFilterId](KnownId.md#securityidmodifygroupfilterid)
 - [SecurityIdNewsNotificationsClearanceId](KnownId.md#securityidnewsnotificationsclearanceid)
 - [SecurityIdNodesListId](KnownId.md#securityidnodeslistid)
@@ -1028,14 +1365,18 @@
 - [SecurityIdProductGuideClearanceId](KnownId.md#securityidproductguideclearanceid)
 - [SecurityIdPurchaseMarketplacePaidItemsId](KnownId.md#securityidpurchasemarketplacepaiditemsid)
 - [SecurityIdPurgeDataId](KnownId.md#securityidpurgedataid)
+- [SecurityIdRealTimeRangeId](KnownId.md#securityidrealtimerangeid)
 - [SecurityIdReminderReportId](KnownId.md#securityidreminderreportid)
 - [SecurityIdReminderRuleListId](KnownId.md#securityidreminderrulelistid)
+- [SecurityIdRepairAssetInspectionId](KnownId.md#securityidrepairassetinspectionid)
 - [SecurityIdRepairDVIRId](KnownId.md#securityidrepairdvirid)
 - [SecurityIdReprocessDataId](KnownId.md#securityidreprocessdataid)
+- [SecurityIdReprocessRouteBasedMaterialManagementRulesId](KnownId.md#securityidreprocessroutebasedmaterialmanagementrulesid)
 - [SecurityIdRequestDeviceLocationId](KnownId.md#securityidrequestdevicelocationid)
 - [SecurityIdResellerControlClearanceId](KnownId.md#securityidresellercontrolclearanceid)
 - [SecurityIdResetPasswordId](KnownId.md#securityidresetpasswordid)
 - [SecurityIdRestoreKeyBackupId](KnownId.md#securityidrestorekeybackupid)
+- [SecurityIdRiskAnalyticsViewAndDownloadAssetAndDriverReportsId](KnownId.md#securityidriskanalyticsviewanddownloadassetanddriverreportsid)
 - [SecurityIdRiskManagementReportId](KnownId.md#securityidriskmanagementreportid)
 - [SecurityIdRouteComparisonReportId](KnownId.md#securityidroutecomparisonreportid)
 - [SecurityIdRouteCompletionId](KnownId.md#securityidroutecompletionid)
@@ -1047,12 +1388,15 @@
 - [SecurityIdSendGpsTextMessageId](KnownId.md#securityidsendgpstextmessageid)
 - [SecurityIdServicePlansClearanceId](KnownId.md#securityidserviceplansclearanceid)
 - [SecurityIdServicesSettingsId](KnownId.md#securityidservicessettingsid)
+- [SecurityIdSkipReminderId](KnownId.md#securityidskipreminderid)
+- [SecurityIdSnoozeReminderId](KnownId.md#securityidsnoozereminderid)
 - [SecurityIdSpeedProfileReportId](KnownId.md#securityidspeedprofilereportid)
 - [SecurityIdStartFullVersionId](KnownId.md#securityidstartfullversionid)
 - [SecurityIdStatusGroupsClearanceId](KnownId.md#securityidstatusgroupsclearanceid)
 - [SecurityIdSystemSettingsId](KnownId.md#securityidsystemsettingsid)
 - [SecurityIdTachographDownloadAndUploadFilesId](KnownId.md#securityidtachographdownloadanduploadfilesid)
 - [SecurityIdTimeCardReportId](KnownId.md#securityidtimecardreportid)
+- [SecurityIdTimeToChargeCompleteId](KnownId.md#securityidtimetochargecompleteid)
 - [SecurityIdTrackHistoricDataId](KnownId.md#securityidtrackhistoricdataid)
 - [SecurityIdTripsActivityReportId](KnownId.md#securityidtripsactivityreportid)
 - [SecurityIdUnassignedRouteReportId](KnownId.md#securityidunassignedroutereportid)
@@ -1063,30 +1407,62 @@
 - [SecurityIdUserDisplayProfileSetId](KnownId.md#securityiduserdisplayprofilesetid)
 - [SecurityIdUserListId](KnownId.md#securityiduserlistid)
 - [SecurityIdUserSettingsId](KnownId.md#securityidusersettingsid)
-- [SecurityIdViewActiveInsightsId](KnownId.md#securityidviewactiveinsightsid)
+- [SecurityIdViewAceAIId](KnownId.md#securityidviewaceaiid)
 - [SecurityIdViewAddInDataId](KnownId.md#securityidviewaddindataid)
 - [SecurityIdViewAdvancedHelpId](KnownId.md#securityidviewadvancedhelpid)
+- [SecurityIdViewAdvancedRouteId](KnownId.md#securityidviewadvancedrouteid)
 - [SecurityIdViewAnalyticsLabId](KnownId.md#securityidviewanalyticslabid)
+- [SecurityIdViewAssetInspectionLogsId](KnownId.md#securityidviewassetinspectionlogsid)
+- [SecurityIdViewAssetInspectionTemplatesId](KnownId.md#securityidviewassetinspectiontemplatesid)
+- [SecurityIdViewAssetUtilizationId](KnownId.md#securityidviewassetutilizationid)
 - [SecurityIdViewBinaryDataFilesId](KnownId.md#securityidviewbinarydatafilesid)
 - [SecurityIdViewBinaryDataId](KnownId.md#securityidviewbinarydataid)
 - [SecurityIdViewBusinessIntelligenceId](KnownId.md#securityidviewbusinessintelligenceid)
 - [SecurityIdViewCertificatesId](KnownId.md#securityidviewcertificatesid)
+- [SecurityIdViewCoachingSessionId](KnownId.md#securityidviewcoachingsessionid)
+- [SecurityIdViewConnectionDataId](KnownId.md#securityidviewconnectiondataid)
+- [SecurityIdViewControllerId](KnownId.md#securityidviewcontrollerid)
+- [SecurityIdViewCustomDataId](KnownId.md#securityidviewcustomdataid)
 - [SecurityIdViewDVIRLogsId](KnownId.md#securityidviewdvirlogsid)
 - [SecurityIdViewDeviceDataPrivacyChangeDataId](KnownId.md#securityidviewdevicedataprivacychangedataid)
 - [SecurityIdViewDeviceShareId](KnownId.md#securityidviewdeviceshareid)
+- [SecurityIdViewDiagnosticId](KnownId.md#securityidviewdiagnosticid)
+- [SecurityIdViewDriverAnalyticsId](KnownId.md#securityidviewdriveranalyticsid)
+- [SecurityIdViewDriverClockInOutId](KnownId.md#securityidviewdriverclockinoutid)
+- [SecurityIdViewDriverCoachingStatusId](KnownId.md#securityidviewdrivercoachingstatusid)
+- [SecurityIdViewDriverSafetyId](KnownId.md#securityidviewdriversafetyid)
+- [SecurityIdViewEVPerformanceDataId](KnownId.md#securityidviewevperformancedataid)
+- [SecurityIdViewEngineDataProfileId](KnownId.md#securityidviewenginedataprofileid)
+- [SecurityIdViewExceptionEventId](KnownId.md#securityidviewexceptioneventid)
+- [SecurityIdViewFaultDataId](KnownId.md#securityidviewfaultdataid)
 - [SecurityIdViewGpsTextMessageId](KnownId.md#securityidviewgpstextmessageid)
 - [SecurityIdViewGroupFilterId](KnownId.md#securityidviewgroupfilterid)
 - [SecurityIdViewGroupsId](KnownId.md#securityidviewgroupsid)
 - [SecurityIdViewHOSLogsId](KnownId.md#securityidviewhoslogsid)
+- [SecurityIdViewHosRuleSetId](KnownId.md#securityidviewhosrulesetid)
+- [SecurityIdViewInvestigationsId](KnownId.md#securityidviewinvestigationsid)
 - [SecurityIdViewLiveMapId](KnownId.md#securityidviewlivemapid)
+- [SecurityIdViewLiveVideoId](KnownId.md#securityidviewlivevideoid)
+- [SecurityIdViewLostModeChangeDataId](KnownId.md#securityidviewlostmodechangedataid)
+- [SecurityIdViewMaintenanceOverviewId](KnownId.md#securityidviewmaintenanceoverviewid)
 - [SecurityIdViewMarketplacePaidItemsId](KnownId.md#securityidviewmarketplacepaiditemsid)
 - [SecurityIdViewMediaId](KnownId.md#securityidviewmediaid)
+- [SecurityIdViewNavigationId](KnownId.md#securityidviewnavigationid)
 - [SecurityIdViewPropertyId](KnownId.md#securityidviewpropertyid)
 - [SecurityIdViewPropertySetId](KnownId.md#securityidviewpropertysetid)
+- [SecurityIdViewPublicWorksAdministrationId](KnownId.md#securityidviewpublicworksadministrationid)
+- [SecurityIdViewRecordedVideoId](KnownId.md#securityidviewrecordedvideoid)
 - [SecurityIdViewReportTemplateId](KnownId.md#securityidviewreporttemplateid)
+- [SecurityIdViewRiskManagementReportOptionId](KnownId.md#securityidviewriskmanagementreportoptionid)
+- [SecurityIdViewRouteId](KnownId.md#securityidviewrouteid)
+- [SecurityIdViewRuleId](KnownId.md#securityidviewruleid)
+- [SecurityIdViewSafetyOverviewId](KnownId.md#securityidviewsafetyoverviewid)
 - [SecurityIdViewShareableLinkId](KnownId.md#securityidviewshareablelinkid)
 - [SecurityIdViewSharedDeviceId](KnownId.md#securityidviewshareddeviceid)
 - [SecurityIdViewShipmentsId](KnownId.md#securityidviewshipmentsid)
+- [SecurityIdViewSpreaderConfigurationsId](KnownId.md#securityidviewspreaderconfigurationsid)
+- [SecurityIdViewStatusDataId](KnownId.md#securityidviewstatusdataid)
+- [SecurityIdViewSustainabilityCenterId](KnownId.md#securityidviewsustainabilitycenterid)
 - [SecurityIdViewTachographCompanyCardsId](KnownId.md#securityidviewtachographcompanycardsid)
 - [SecurityIdViewTachographDrivingTimeDataId](KnownId.md#securityidviewtachographdrivingtimedataid)
 - [SecurityIdViewTachographInfringementDataId](KnownId.md#securityidviewtachographinfringementdataid)
@@ -1096,12 +1472,17 @@
 - [SecurityIdViewTripAnnotationId](KnownId.md#securityidviewtripannotationid)
 - [SecurityIdViewTripTypeChangeDataId](KnownId.md#securityidviewtriptypechangedataid)
 - [SecurityIdViewUserDeviceLinkId](KnownId.md#securityidviewuserdevicelinkid)
+- [SecurityIdViewVehicleAnalyticsId](KnownId.md#securityidviewvehicleanalyticsid)
 - [SecurityIdViewWiFiHotspotSettingsId](KnownId.md#securityidviewwifihotspotsettingsid)
 - [SecurityIdWorkHolidayListId](KnownId.md#securityidworkholidaylistid)
 - [SecurityIdWorkTimeListId](KnownId.md#securityidworktimelistid)
 - [SecurityIdZoneAdminId](KnownId.md#securityidzoneadminid)
 - [SecurityIdZoneListId](KnownId.md#securityidzonelistid)
 - [SecurityIdZoneTypeListId](KnownId.md#securityidzonetypelistid)
+- [ShareableLinkStateInProgressId](KnownId.md#shareablelinkstateinprogressid)
+- [ShareableLinkStateSucceedId](KnownId.md#shareablelinkstatesucceedid)
+- [ShipmentLogBigQueryUploadRequestId](KnownId.md#shipmentlogbigqueryuploadrequestid)
+- [SmsTemplateDefaultExceptionRuleId](KnownId.md#smstemplatedefaultexceptionruleid)
 - [SourceAiModelId](KnownId.md#sourceaimodelid)
 - [SourceAiModelObsoleteId](KnownId.md#sourceaimodelobsoleteid)
 - [SourceBrpId](KnownId.md#sourcebrpid)
@@ -1128,7 +1509,10 @@
 - [SourceSystemObsoleteId](KnownId.md#sourcesystemobsoleteid)
 - [SourceThirdPartyId](KnownId.md#sourcethirdpartyid)
 - [SourceThirdPartyObsoleteId](KnownId.md#sourcethirdpartyobsoleteid)
+- [StatusDataEntityUploadRequestId](KnownId.md#statusdataentityuploadrequestid)
+- [SystemSettingsBigQueryUploadRequestId](KnownId.md#systemsettingsbigqueryuploadrequestid)
 - [SystemUserId](KnownId.md#systemuserid)
+- [TelematicsDeviceBatteryLevel](KnownId.md#telematicsdevicebatterylevel)
 - [TextTemplateDefaultExceptionRuleId](KnownId.md#texttemplatedefaultexceptionruleid)
 - [TextTemplateDefaultExceptionRulePopupId](KnownId.md#texttemplatedefaultexceptionrulepopupid)
 - [ThermographStatusId](KnownId.md#thermographstatusid)
@@ -1138,10 +1522,16 @@
 - [ThermographTemperature4Id](KnownId.md#thermographtemperature4id)
 - [ThermographTemperature5Id](KnownId.md#thermographtemperature5id)
 - [ThermographTemperature6Id](KnownId.md#thermographtemperature6id)
+- [TrailerAttachmentBigQueryUploadRequestId](KnownId.md#trailerattachmentbigqueryuploadrequestid)
+- [TripLegacyBigQueryUploadRequestId](KnownId.md#triplegacybigqueryuploadrequestid)
+- [TripSoftDeleteDataEntityUploadRequestId](KnownId.md#tripsoftdeletedataentityuploadrequestid)
 - [UnitOfMeasureAmpsId](KnownId.md#unitofmeasureampsid)
+- [UnitOfMeasureAmpsPerHourId](KnownId.md#unitofmeasureampsperhourid)
 - [UnitOfMeasureBytesId](KnownId.md#unitofmeasurebytesid)
 - [UnitOfMeasureCubicMetersId](KnownId.md#unitofmeasurecubicmetersid)
 - [UnitOfMeasureCubicMetersPerSecondId](KnownId.md#unitofmeasurecubicmeterspersecondid)
+- [UnitOfMeasureDecibelId](KnownId.md#unitofmeasuredecibelid)
+- [UnitOfMeasureDecibelMilliwattId](KnownId.md#unitofmeasuredecibelmilliwattid)
 - [UnitOfMeasureDegreesCelsiusId](KnownId.md#unitofmeasuredegreescelsiusid)
 - [UnitOfMeasureGramsId](KnownId.md#unitofmeasuregramsid)
 - [UnitOfMeasureGramsPerSecondId](KnownId.md#unitofmeasuregramspersecondid)
@@ -1158,6 +1548,7 @@
 - [UnitOfMeasureLitersPerTonneId](KnownId.md#unitofmeasureliterspertonneid)
 - [UnitOfMeasureMetersId](KnownId.md#unitofmeasuremetersid)
 - [UnitOfMeasureMetersPerSecondSquaredId](KnownId.md#unitofmeasuremeterspersecondsquaredid)
+- [UnitOfMeasureMicrogramsPerCubicMeterId](KnownId.md#unitofmeasuremicrogramspercubicmeterid)
 - [UnitOfMeasureNewtonMetersId](KnownId.md#unitofmeasurenewtonmetersid)
 - [UnitOfMeasureNewtonsId](KnownId.md#unitofmeasurenewtonsid)
 - [UnitOfMeasureNoneId](KnownId.md#unitofmeasurenoneid)
@@ -1176,6 +1567,9 @@
 - [UnknownDriverId](KnownId.md#unknowndriverid)
 - [UnknownRestrictedDataModeId](KnownId.md#unknownrestricteddatamodeid)
 - [UnrestrictedDataModeId](KnownId.md#unrestricteddatamodeid)
+- [UserBigQueryUploadRequestId](KnownId.md#userbigqueryuploadrequestid)
+- [UserHosRuleSetBigQueryUploadRequestId](KnownId.md#userhosrulesetbigqueryuploadrequestid)
+- [UserHosRuleSetBipBigQueryUploadRequestId](KnownId.md#userhosrulesetbipbigqueryuploadrequestid)
 - [UserNotificationBinaryFileStartId](KnownId.md#usernotificationbinaryfilestartid)
 - [UserReportTemplateId](KnownId.md#userreporttemplateid)
 - [UserRestrictedDataModeId](KnownId.md#userrestricteddatamodeid)
@@ -1185,10 +1579,13 @@
 - [WorkTimeLateArrivalHoursId](KnownId.md#worktimelatearrivalhoursid)
 - [WorkTimeLunchHoursId](KnownId.md#worktimelunchhoursid)
 - [WorkTimeStandardHoursId](KnownId.md#worktimestandardhoursid)
-- [ZoneTypeAddressLookupId](KnownId.md#zonetypeaddresslookupid)
+- [WwhObdFaultDiagnosticId](KnownId.md#wwhobdfaultdiagnosticid)
+- [ZoneBigQueryUploadRequestId](KnownId.md#zonebigqueryuploadrequestid)
 - [ZoneTypeCustomerId](KnownId.md#zonetypecustomerid)
 - [ZoneTypeHomeId](KnownId.md#zonetypehomeid)
+- [ZoneTypeInHouseServiceCenterId](KnownId.md#zonetypeinhouseservicecenterid)
 - [ZoneTypeOfficeId](KnownId.md#zonetypeofficeid)
+- [ZoneTypeVendorServiceCenterId](KnownId.md#zonetypevendorservicecenterid)
 
 ## Enumeration Members
 
@@ -1200,7 +1597,7 @@ Gets ADDON_INVENTURE_ZONE_1_RETURN_TEMP diagnostic Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2073](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2073)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2670](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2670)
 
 ___
 
@@ -1212,7 +1609,7 @@ Gets ADDON_INVENTURE_ZONE_2_RETURN_TEMP diagnostic Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2075](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2075)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2672](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2672)
 
 ___
 
@@ -1224,7 +1621,31 @@ Gets ADDON_INVENTURE_ZONE_3_RETURN_TEMP diagnostic Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2077](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2077)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2674](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2674)
+
+___
+
+### AllDevicesIncludeArchivedReprocessRequest
+
+• **AllDevicesIncludeArchivedReprocessRequest** = ``"AllDevicesIncludeArchivedReprocessRequest"``
+
+Gets the "All Devices" (including archived devices) option for Reprocess Requests.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:3192](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3192)
+
+___
+
+### AllDevicesReprocessRequest
+
+• **AllDevicesReprocessRequest** = ``"AllDevicesReprocessRequest"``
+
+Gets the "All Active Devices" option for Reprocess Requests.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:3190](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3190)
 
 ___
 
@@ -1236,7 +1657,115 @@ Gets the "All Rules" option for Reprocess Requests.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2007](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2007)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2600](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2600)
+
+___
+
+### AuditBigQueryUploadRequestId
+
+• **AuditBigQueryUploadRequestId** = ``"AuditEntityUploadRequestId"``
+
+Gets the Id of the AuditEntityUploadRequest
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:311](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L311)
+
+___
+
+### BinaryDataBigQueryUploadRequestId
+
+• **BinaryDataBigQueryUploadRequestId** = ``"BinaryDataBigQueryUploadRequestId"``
+
+Gets the Id of the BinaryDataBigQueryUploadRequest
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:313](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L313)
+
+___
+
+### CameraBigQueryUploadRequestId
+
+• **CameraBigQueryUploadRequestId** = ``"CameraBigQueryUploadRequestId"``
+
+Gets the Id of the CameraBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:405](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L405)
+
+___
+
+### CameraHealthBigQueryUploadRequestId
+
+• **CameraHealthBigQueryUploadRequestId** = ``"CameraHealthBigQueryUploadRequestId"``
+
+Gets the Id of the CameraHealthBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:409](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L409)
+
+___
+
+### CameraStatusBigQueryUploadRequestId
+
+• **CameraStatusBigQueryUploadRequestId** = ``"CameraStatusBigQueryUploadRequestId"``
+
+Gets the Id of the CameraStatusBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:407](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L407)
+
+___
+
+### ChargeEventBigQueryUploadRequestId
+
+• **ChargeEventBigQueryUploadRequestId** = ``"ChargeEventBigQueryUploadRequestId"``
+
+Gets the Id of the ChargeEventBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:373](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L373)
+
+___
+
+### CoachingSessionStateActiveId
+
+• **CoachingSessionStateActiveId** = ``"CoachingSessionStateActiveId"``
+
+Gets the CoachingSessionState Active identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2042](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2042)
+
+___
+
+### CoachingSessionStateCompletedId
+
+• **CoachingSessionStateCompletedId** = ``"CoachingSessionStateCompletedId"``
+
+Gets the CoachingSessionState Completed identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2044](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2044)
+
+___
+
+### CoachingSessionStateNewId
+
+• **CoachingSessionStateNewId** = ``"CoachingSessionStateNewId"``
+
+Gets the CoachingSessionState New identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2040](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2040)
 
 ___
 
@@ -1248,7 +1777,7 @@ Gets the controller aerodynamic control identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2189](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2189)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2996](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2996)
 
 ___
 
@@ -1260,7 +1789,7 @@ Gets the controller aerodynamic control unit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2191](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2191)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2998](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2998)
 
 ___
 
@@ -1272,7 +1801,7 @@ Gets the controller aftertreatment system gas intake identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2193](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2193)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3000](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3000)
 
 ___
 
@@ -1284,7 +1813,7 @@ Gets the controller aftertreatment system gas outlet identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2195](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2195)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3002](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3002)
 
 ___
 
@@ -1296,7 +1825,7 @@ Gets the controller alternator electrical charging system identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2197](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2197)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3004](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3004)
 
 ___
 
@@ -1308,7 +1837,7 @@ Gets the controller auxiliary heater no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2199](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2199)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3006](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3006)
 
 ___
 
@@ -1320,7 +1849,7 @@ Gets the controller auxiliary heater no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2201](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2201)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3008](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3008)
 
 ___
 
@@ -1332,7 +1861,7 @@ Gets the controller auxiliary valve control identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2203](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2203)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3010](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3010)
 
 ___
 
@@ -1344,7 +1873,7 @@ Gets the controller axle drive no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2205](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2205)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3012](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3012)
 
 ___
 
@@ -1356,7 +1885,7 @@ Gets the controller axle drive no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2207](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2207)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3014](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3014)
 
 ___
 
@@ -1368,7 +1897,7 @@ Gets the controller axle power unit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2209](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2209)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3016](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3016)
 
 ___
 
@@ -1380,7 +1909,7 @@ Gets the controller axle steering identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2211](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2211)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3018](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3018)
 
 ___
 
@@ -1392,7 +1921,19 @@ Gets the controller axle trailer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2213](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2213)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3020](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3020)
+
+___
+
+### ControllerBigQueryUploadRequestId
+
+• **ControllerBigQueryUploadRequestId** = ``"ControllerBigQueryUploadRequestId"``
+
+Gets the Id of the ControllerBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:367](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L367)
 
 ___
 
@@ -1404,7 +1945,7 @@ Gets the controller body controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2215](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2215)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3022](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3022)
 
 ___
 
@@ -1416,7 +1957,7 @@ Gets the controller brakes drive axle no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2217](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2217)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3024](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3024)
 
 ___
 
@@ -1428,7 +1969,7 @@ Gets the controller brakes drive axle no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2219](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2219)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3026](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3026)
 
 ___
 
@@ -1440,7 +1981,7 @@ Gets the controller brakes power unit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2221](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2221)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3028](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3028)
 
 ___
 
@@ -1452,7 +1993,7 @@ Gets the controller brakes steer axle identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2223](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2223)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3030](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3030)
 
 ___
 
@@ -1464,7 +2005,7 @@ Gets the controller brakes system controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2225](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2225)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3032](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3032)
 
 ___
 
@@ -1476,7 +2017,7 @@ Gets the controller brakes trailer no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2227](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2227)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3034](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3034)
 
 ___
 
@@ -1488,7 +2029,7 @@ Gets the controller brakes trailer no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2229](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2229)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3036](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3036)
 
 ___
 
@@ -1500,7 +2041,7 @@ Gets the controller brakes trailer no3 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2231](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2231)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3038](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3038)
 
 ___
 
@@ -1512,7 +2053,7 @@ Gets the identifier for the fixed controller assigned for BRP specific faults.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:119](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L119)
+[src/types/Checkmate/ObjectModel/KnownId.ts:181](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L181)
 
 ___
 
@@ -1524,7 +2065,7 @@ Gets the controller CAB climate control identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2233](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2233)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3040](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3040)
 
 ___
 
@@ -1536,7 +2077,7 @@ Gets the controller CAB controller primary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2235](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2235)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3042](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3042)
 
 ___
 
@@ -1548,7 +2089,7 @@ Gets the controller CAB controller secondary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2237](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2237)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3044](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3044)
 
 ___
 
@@ -1560,7 +2101,7 @@ Gets the controller CAB display no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2239](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2239)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3046](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3046)
 
 ___
 
@@ -1572,7 +2113,7 @@ Gets the controller CAB display no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2241](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2241)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3048](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3048)
 
 ___
 
@@ -1584,7 +2125,7 @@ Gets the controller cargo refrigeration heating trailer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2243](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2243)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3050](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3050)
 
 ___
 
@@ -1596,7 +2137,7 @@ Gets the controller chassis controller no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2245](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2245)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3052](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3052)
 
 ___
 
@@ -1608,7 +2149,7 @@ Gets the controller chassis controller no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2247](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2247)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3054](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3054)
 
 ___
 
@@ -1620,7 +2161,7 @@ Gets the controller clutch converter unit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2249](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2249)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3056](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3056)
 
 ___
 
@@ -1632,7 +2173,7 @@ Gets the controller communication unit ground identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2257](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2257)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3064](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3064)
 
 ___
 
@@ -1644,7 +2185,7 @@ Gets the controller communication unit satellite identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2259](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2259)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3066](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3066)
 
 ___
 
@@ -1656,7 +2197,7 @@ Gets the controller communications unit cellular identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2251](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2251)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3058](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3058)
 
 ___
 
@@ -1668,7 +2209,7 @@ Gets the controller communications unit radio identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2253](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2253)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3060](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3060)
 
 ___
 
@@ -1680,7 +2221,7 @@ Gets the controller communications unit satellite identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2255](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2255)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3062](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3062)
 
 ___
 
@@ -1692,7 +2233,7 @@ Gets the controller cranking starting system identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2261](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2261)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3068](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3068)
 
 ___
 
@@ -1704,7 +2245,7 @@ Gets the controller data logging computer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2263](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2263)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3070](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3070)
 
 ___
 
@@ -1716,7 +2257,7 @@ Gets the geotab ai model controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2265](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2265)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3072](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3072)
 
 ___
 
@@ -1728,7 +2269,7 @@ Gets the controller diagnostic systems power unit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2267](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2267)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3074](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3074)
 
 ___
 
@@ -1740,7 +2281,7 @@ Gets the controller diagnostic systems trailer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2269](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2269)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3076](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3076)
 
 ___
 
@@ -1752,7 +2293,7 @@ Gets the controller driver information center no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2271](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2271)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3078](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3078)
 
 ___
 
@@ -1764,7 +2305,7 @@ Gets the controller electrical charging system identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2273](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2273)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3080](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3080)
 
 ___
 
@@ -1776,7 +2317,7 @@ Gets the controller electrical identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2275](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2275)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3082](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3082)
 
 ___
 
@@ -1788,7 +2329,7 @@ Gets the controller electrical system identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2277](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2277)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3084](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3084)
 
 ___
 
@@ -1800,7 +2341,7 @@ Gets the controller endurance braking system identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2279](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2279)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3086](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3086)
 
 ___
 
@@ -1812,7 +2353,7 @@ Gets the controller engine no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2281](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2281)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3088](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3088)
 
 ___
 
@@ -1824,7 +2365,7 @@ Gets the controller engine no3 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2283](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2283)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3090](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3090)
 
 ___
 
@@ -1836,7 +2377,7 @@ Gets the controller engine retarder identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2285](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2285)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3092](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3092)
 
 ___
 
@@ -1848,7 +2389,7 @@ Gets the controller engine valve controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2287](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2287)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3094](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3094)
 
 ___
 
@@ -1860,7 +2401,7 @@ Gets the controller exhaust emission controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2289](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2289)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3096](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3096)
 
 ___
 
@@ -1872,7 +2413,7 @@ Gets the controller fan drive controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2291](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2291)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3098](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3098)
 
 ___
 
@@ -1884,7 +2425,7 @@ Gets the geotab ai model controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2293](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2293)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3100](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3100)
 
 ___
 
@@ -1896,7 +2437,7 @@ Gets the identifier for the fixed controller assigned for GMCCC specific faults.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:117](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L117)
+[src/types/Checkmate/ObjectModel/KnownId.ts:179](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L179)
 
 ___
 
@@ -1908,7 +2449,7 @@ Gets the identifier for the fixed controller assigned to the GO device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2295](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2295)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3102](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3102)
 
 ___
 
@@ -1920,7 +2461,7 @@ Gets the controller headway controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2297](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2297)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3104](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3104)
 
 ___
 
@@ -1932,7 +2473,7 @@ Gets the controller hitch control identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2299](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2299)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3106](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3106)
 
 ___
 
@@ -1944,7 +2485,7 @@ Gets the controller hydraulic pump controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2301](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2301)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3108](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3108)
 
 ___
 
@@ -1956,7 +2497,7 @@ Gets the controller ignition control module no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2303](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2303)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3110](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3110)
 
 ___
 
@@ -1968,7 +2509,7 @@ Gets the controller ignition control module no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2305](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2305)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3112](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3112)
 
 ___
 
@@ -1980,7 +2521,7 @@ Gets the controller information system controller no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2307](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2307)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3114](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3114)
 
 ___
 
@@ -1992,7 +2533,7 @@ Gets the controller instrument cluster identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2309](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2309)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3116](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3116)
 
 ___
 
@@ -2004,7 +2545,7 @@ Gets the controller instrument cluster no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2311](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2311)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3118](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3118)
 
 ___
 
@@ -2016,7 +2557,7 @@ Gets the controller J1708 cruise control identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2313](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2313)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3120](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3120)
 
 ___
 
@@ -2028,7 +2569,7 @@ Gets the controller J1708 engine identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2315](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2315)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3122](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3122)
 
 ___
 
@@ -2040,7 +2581,7 @@ Gets the controller J1708 fuel system identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2317](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2317)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3124](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3124)
 
 ___
 
@@ -2052,7 +2593,7 @@ Gets the controller J1708 pneumatic system controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2319](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2319)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3126](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3126)
 
 ___
 
@@ -2064,7 +2605,7 @@ Gets the controller J1708 power takeoff identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2321](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2321)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3128](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3128)
 
 ___
 
@@ -2076,7 +2617,7 @@ Gets the controller J1708 trip recorder identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2323](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2323)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3130](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3130)
 
 ___
 
@@ -2088,7 +2629,7 @@ Gets the controller J1708 turbocharger identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2325](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2325)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3132](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3132)
 
 ___
 
@@ -2100,7 +2641,7 @@ Gets the controller J1708 vehicle security identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2327](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2327)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3134](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3134)
 
 ___
 
@@ -2112,7 +2653,7 @@ Gets the controller J1939 cruise control identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2329](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2329)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3136](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3136)
 
 ___
 
@@ -2124,7 +2665,7 @@ Gets the controller J1939 engine no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2331](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2331)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3138](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3138)
 
 ___
 
@@ -2136,7 +2677,7 @@ Gets the controller J1939 engine no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2333](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2333)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3140](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3140)
 
 ___
 
@@ -2148,7 +2689,7 @@ Gets the controller J1939 fuel system identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2335](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2335)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3142](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3142)
 
 ___
 
@@ -2160,7 +2701,7 @@ Gets the controller J1939 pneumatic system controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2337](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2337)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3144](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3144)
 
 ___
 
@@ -2172,7 +2713,7 @@ Gets the controller J1939 power take off main rear identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2339](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2339)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3146](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3146)
 
 ___
 
@@ -2184,7 +2725,7 @@ Gets the controller J1939 trip recorder identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2341](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2341)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3148](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3148)
 
 ___
 
@@ -2196,7 +2737,7 @@ Gets the controller J1939 turbocharger identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2343](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2343)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3150](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3150)
 
 ___
 
@@ -2208,7 +2749,7 @@ Gets the controller J1939 vehicle security identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2345](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2345)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3152](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3152)
 
 ___
 
@@ -2220,19 +2761,19 @@ Gets the identifier for the fixed controller assigned for legacy manufacturer sp
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:115](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L115)
+[src/types/Checkmate/ObjectModel/KnownId.ts:177](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L177)
 
 ___
 
 ### ControllerLevcAnyId
 
-• **ControllerLevcAnyId** = ``"ControllerLevcAnyId"``
+• **ControllerLevcAnyId** = ``"ControllerSource14AnyId"``
 
 Gets the Levc Any Controller KnownId.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2041](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2041)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2638](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2638)
 
 ___
 
@@ -2244,7 +2785,7 @@ Gets the controller lighting operator controls identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2347](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2347)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3154](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3154)
 
 ___
 
@@ -2256,7 +2797,7 @@ Gets the controller management computer no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2349](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2349)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3156](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3156)
 
 ___
 
@@ -2268,7 +2809,7 @@ Gets the controller multiplex identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2351](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2351)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3158](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3158)
 
 ___
 
@@ -2280,7 +2821,7 @@ Gets the controller none identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2353](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2353)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3160](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3160)
 
 ___
 
@@ -2292,7 +2833,7 @@ Gets the controller OBD body identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2355](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2355)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3162](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3162)
 
 ___
 
@@ -2304,7 +2845,7 @@ Gets the controller OBD chassis identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2357](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2357)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3164](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3164)
 
 ___
 
@@ -2316,7 +2857,7 @@ Gets the controller OBD networking identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2359](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2359)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3166](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3166)
 
 ___
 
@@ -2328,7 +2869,7 @@ Gets the controller OBD powertrain identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2361](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2361)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3168](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3168)
 
 ___
 
@@ -2340,7 +2881,7 @@ Gets the controller WWH OBD body identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2363](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2363)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3170](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3170)
 
 ___
 
@@ -2352,7 +2893,7 @@ Gets the controller WWH OBD chassis identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2365](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2365)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3172](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3172)
 
 ___
 
@@ -2364,7 +2905,7 @@ Gets the controller WWH OBD networking identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2367](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2367)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3174](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3174)
 
 ___
 
@@ -2376,7 +2917,7 @@ Gets the controller WWH OBD powertrain identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2369](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2369)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3176](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3176)
 
 ___
 
@@ -2388,7 +2929,7 @@ Gets the controller off vehicle gateway identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2377](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2377)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3184](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3184)
 
 ___
 
@@ -2400,7 +2941,7 @@ Gets the controller off-board diagnostics no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2371](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2371)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3178](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3178)
 
 ___
 
@@ -2412,7 +2953,7 @@ Gets the controller off-board diagnostics no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2373](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2373)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3180](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3180)
 
 ___
 
@@ -2424,7 +2965,7 @@ Gets the controller off-board programming station identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2375](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2375)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3182](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3182)
 
 ___
 
@@ -2436,7 +2977,7 @@ Gets the controller oil sensor identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2379](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2379)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3186](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3186)
 
 ___
 
@@ -2448,7 +2989,7 @@ Gets the controller on board diagnostic unit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2381](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2381)
+[src/types/Checkmate/ObjectModel/KnownId.ts:3188](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L3188)
 
 ___
 
@@ -2460,7 +3001,7 @@ Gets the controller parking brake controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:7](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L7)
+[src/types/Checkmate/ObjectModel/KnownId.ts:69](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L69)
 
 ___
 
@@ -2472,7 +3013,7 @@ Gets the controller particulate trap system identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:9](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L9)
+[src/types/Checkmate/ObjectModel/KnownId.ts:71](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L71)
 
 ___
 
@@ -2484,7 +3025,7 @@ Gets the controller passenger operator climate control1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L11)
+[src/types/Checkmate/ObjectModel/KnownId.ts:73](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L73)
 
 ___
 
@@ -2496,7 +3037,7 @@ Gets the controller passenger operator climate control no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L13)
+[src/types/Checkmate/ObjectModel/KnownId.ts:75](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L75)
 
 ___
 
@@ -2508,7 +3049,7 @@ Gets the controller power take off front secondary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L15)
+[src/types/Checkmate/ObjectModel/KnownId.ts:77](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L77)
 
 ___
 
@@ -2520,7 +3061,7 @@ Gets the identifier for the fixed controller assigned for manufacturer specific 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:113](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L113)
+[src/types/Checkmate/ObjectModel/KnownId.ts:175](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L175)
 
 ___
 
@@ -2532,7 +3073,7 @@ Gets the controller propulsion battery charger identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L17)
+[src/types/Checkmate/ObjectModel/KnownId.ts:79](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L79)
 
 ___
 
@@ -2544,7 +3085,7 @@ Gets the controller proximity detector front identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L19)
+[src/types/Checkmate/ObjectModel/KnownId.ts:81](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L81)
 
 ___
 
@@ -2556,7 +3097,7 @@ Gets the controller proximity detector rear identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L21)
+[src/types/Checkmate/ObjectModel/KnownId.ts:83](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L83)
 
 ___
 
@@ -2568,7 +3109,7 @@ Gets the controller ramp control identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L23)
+[src/types/Checkmate/ObjectModel/KnownId.ts:85](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L85)
 
 ___
 
@@ -2580,7 +3121,7 @@ Gets the controller rear axle steering controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L25)
+[src/types/Checkmate/ObjectModel/KnownId.ts:87](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L87)
 
 ___
 
@@ -2592,7 +3133,7 @@ Gets the controller rear axle steering controller no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L27)
+[src/types/Checkmate/ObjectModel/KnownId.ts:89](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L89)
 
 ___
 
@@ -2604,7 +3145,7 @@ Gets the controller retarder driveline identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L29)
+[src/types/Checkmate/ObjectModel/KnownId.ts:91](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L91)
 
 ___
 
@@ -2616,7 +3157,7 @@ Gets the controller retarder engine identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L31)
+[src/types/Checkmate/ObjectModel/KnownId.ts:93](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L93)
 
 ___
 
@@ -2628,7 +3169,7 @@ Gets the controller retarder exhaust engine no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L33)
+[src/types/Checkmate/ObjectModel/KnownId.ts:95](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L95)
 
 ___
 
@@ -2640,7 +3181,7 @@ Gets the controller retarder exhaust engine no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L35)
+[src/types/Checkmate/ObjectModel/KnownId.ts:97](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L97)
 
 ___
 
@@ -2652,7 +3193,7 @@ Gets the controller road speed indicator identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L37)
+[src/types/Checkmate/ObjectModel/KnownId.ts:99](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L99)
 
 ___
 
@@ -2664,7 +3205,7 @@ Gets the controller safety restraint system identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:39](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L39)
+[src/types/Checkmate/ObjectModel/KnownId.ts:101](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L101)
 
 ___
 
@@ -2676,7 +3217,7 @@ Gets the controller seat control no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:41](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L41)
+[src/types/Checkmate/ObjectModel/KnownId.ts:103](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L103)
 
 ___
 
@@ -2688,7 +3229,7 @@ Gets the controller seat control no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:43](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L43)
+[src/types/Checkmate/ObjectModel/KnownId.ts:105](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L105)
 
 ___
 
@@ -2700,7 +3241,7 @@ Gets the controller shift console primary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:45](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L45)
+[src/types/Checkmate/ObjectModel/KnownId.ts:107](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L107)
 
 ___
 
@@ -2712,7 +3253,7 @@ Gets the controller shift console secondary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:47](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L47)
+[src/types/Checkmate/ObjectModel/KnownId.ts:109](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L109)
 
 ___
 
@@ -2724,7 +3265,7 @@ Gets the controller starter system identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:49](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L49)
+[src/types/Checkmate/ObjectModel/KnownId.ts:111](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L111)
 
 ___
 
@@ -2736,7 +3277,7 @@ Gets the controller steering column unit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:51](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L51)
+[src/types/Checkmate/ObjectModel/KnownId.ts:113](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L113)
 
 ___
 
@@ -2748,7 +3289,7 @@ Gets the controller steering controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:53](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L53)
+[src/types/Checkmate/ObjectModel/KnownId.ts:115](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L115)
 
 ___
 
@@ -2760,7 +3301,7 @@ Gets the Controller suspension drive axle no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:55](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L55)
+[src/types/Checkmate/ObjectModel/KnownId.ts:117](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L117)
 
 ___
 
@@ -2772,7 +3313,7 @@ Gets the controller suspension drive axle no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:57](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L57)
+[src/types/Checkmate/ObjectModel/KnownId.ts:119](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L119)
 
 ___
 
@@ -2784,7 +3325,7 @@ Gets the controller suspension power unit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:59](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L59)
+[src/types/Checkmate/ObjectModel/KnownId.ts:121](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L121)
 
 ___
 
@@ -2796,7 +3337,7 @@ Gets the controller suspension steer axle identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:61](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L61)
+[src/types/Checkmate/ObjectModel/KnownId.ts:123](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L123)
 
 ___
 
@@ -2808,7 +3349,7 @@ Gets the controller suspension system controller no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:63](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L63)
+[src/types/Checkmate/ObjectModel/KnownId.ts:125](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L125)
 
 ___
 
@@ -2820,7 +3361,7 @@ Gets the controller suspension system controller no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:65](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L65)
+[src/types/Checkmate/ObjectModel/KnownId.ts:127](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L127)
 
 ___
 
@@ -2832,7 +3373,7 @@ Gets the controller suspension trailer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:67](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L67)
+[src/types/Checkmate/ObjectModel/KnownId.ts:129](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L129)
 
 ___
 
@@ -2844,7 +3385,7 @@ Gets the controller tire pressure controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:69](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L69)
+[src/types/Checkmate/ObjectModel/KnownId.ts:131](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L131)
 
 ___
 
@@ -2856,7 +3397,7 @@ Gets the controller tires control unit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:71](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L71)
+[src/types/Checkmate/ObjectModel/KnownId.ts:133](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L133)
 
 ___
 
@@ -2868,7 +3409,7 @@ Gets the controller tires power unit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:73](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L73)
+[src/types/Checkmate/ObjectModel/KnownId.ts:135](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L135)
 
 ___
 
@@ -2880,7 +3421,7 @@ Gets the controller tires trailer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:75](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L75)
+[src/types/Checkmate/ObjectModel/KnownId.ts:137](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L137)
 
 ___
 
@@ -2892,7 +3433,7 @@ Gets the controller tires trailer no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:77](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L77)
+[src/types/Checkmate/ObjectModel/KnownId.ts:139](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L139)
 
 ___
 
@@ -2904,7 +3445,7 @@ Gets the controller tires trailer no3 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:79](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L79)
+[src/types/Checkmate/ObjectModel/KnownId.ts:141](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L141)
 
 ___
 
@@ -2916,7 +3457,7 @@ Gets the controller tractor trailer bridge no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:81](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L81)
+[src/types/Checkmate/ObjectModel/KnownId.ts:143](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L143)
 
 ___
 
@@ -2928,7 +3469,7 @@ Gets the controller transmission additional hybrid control module identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:83](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L83)
+[src/types/Checkmate/ObjectModel/KnownId.ts:145](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L145)
 
 ___
 
@@ -2940,7 +3481,7 @@ Gets the controller transmission display primary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:85](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L85)
+[src/types/Checkmate/ObjectModel/KnownId.ts:147](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L147)
 
 ___
 
@@ -2952,7 +3493,7 @@ Gets the controller transmission display secondary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:87](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L87)
+[src/types/Checkmate/ObjectModel/KnownId.ts:149](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L149)
 
 ___
 
@@ -2964,7 +3505,7 @@ Gets the controller transmission identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:89](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L89)
+[src/types/Checkmate/ObjectModel/KnownId.ts:151](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L151)
 
 ___
 
@@ -2976,7 +3517,7 @@ Gets the controller transmission no1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:91](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L91)
+[src/types/Checkmate/ObjectModel/KnownId.ts:153](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L153)
 
 ___
 
@@ -2988,7 +3529,7 @@ Gets the controller transmission no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:93](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L93)
+[src/types/Checkmate/ObjectModel/KnownId.ts:155](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L155)
 
 ___
 
@@ -3000,7 +3541,7 @@ Gets the controller vehicle dynamic stability controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:95](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L95)
+[src/types/Checkmate/ObjectModel/KnownId.ts:157](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L157)
 
 ___
 
@@ -3012,7 +3553,7 @@ Gets the controller vehicle management system identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:97](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L97)
+[src/types/Checkmate/ObjectModel/KnownId.ts:159](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L159)
 
 ___
 
@@ -3024,7 +3565,7 @@ Gets the controller vehicle management system no2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:99](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L99)
+[src/types/Checkmate/ObjectModel/KnownId.ts:161](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L161)
 
 ___
 
@@ -3036,7 +3577,7 @@ Gets the controller vehicle management system no3 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:101](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L101)
+[src/types/Checkmate/ObjectModel/KnownId.ts:163](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L163)
 
 ___
 
@@ -3048,7 +3589,7 @@ Gets the controller vehicle navigation identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:103](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L103)
+[src/types/Checkmate/ObjectModel/KnownId.ts:165](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L165)
 
 ___
 
@@ -3060,7 +3601,7 @@ Gets the controller vehicle navigation unit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:105](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L105)
+[src/types/Checkmate/ObjectModel/KnownId.ts:167](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L167)
 
 ___
 
@@ -3072,7 +3613,7 @@ Gets the controller vehicle sensors to data converter identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:107](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L107)
+[src/types/Checkmate/ObjectModel/KnownId.ts:169](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L169)
 
 ___
 
@@ -3084,7 +3625,7 @@ Gets the controller virtual terminal identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:109](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L109)
+[src/types/Checkmate/ObjectModel/KnownId.ts:171](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L171)
 
 ___
 
@@ -3096,7 +3637,103 @@ Gets the controller water pump controller identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:111](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L111)
+[src/types/Checkmate/ObjectModel/KnownId.ts:173](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L173)
+
+___
+
+### CustomDataUploaderStateId
+
+• **CustomDataUploaderStateId** = ``"CustomDataUploaderStateId"``
+
+Gets the custom data from customer's MyG db
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:449](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L449)
+
+___
+
+### DVIRLogBigQueryUploadRequestId
+
+• **DVIRLogBigQueryUploadRequestId** = ``"DVIRLogBigQueryUploadRequestId"``
+
+Gets the Id of the DVIRLogBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:323](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L323)
+
+___
+
+### DVIRLogLegacyBigQueryUploadRequestId
+
+• **DVIRLogLegacyBigQueryUploadRequestId** = ``"DVIRLogLegacyBigQueryUploadRequestId"``
+
+Gets the Id of the DVIRLogLegacyBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:355](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L355)
+
+___
+
+### DataShareAutoAcceptUserId
+
+• **DataShareAutoAcceptUserId** = ``"DataShareAutoAcceptUserId"``
+
+Gets the DataShareAutoAccept user ID
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1718](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1718)
+
+___
+
+### DebugDataBigQueryUploadRequestId
+
+• **DebugDataBigQueryUploadRequestId** = ``"DebugDataBigQueryUploadRequestId"``
+
+Gets the Id of the DebugDataBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:315](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L315)
+
+___
+
+### DeviceBigQueryUploadRequestId
+
+• **DeviceBigQueryUploadRequestId** = ``"DeviceBigQueryUploadRequestId"``
+
+Gets the Id of the DeviceBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:319](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L319)
+
+___
+
+### DeviceSourceAddressInfoBigQueryUploadRequestId
+
+• **DeviceSourceAddressInfoBigQueryUploadRequestId** = ``"DeviceSourceAddressInfoBigQueryUploadRequestId"``
+
+Gets the Id of the DeviceSourceAddressInfoBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:401](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L401)
+
+___
+
+### DeviceStatusInfoBigQueryUploadRequestId
+
+• **DeviceStatusInfoBigQueryUploadRequestId** = ``"DeviceStatusInfoBigQueryUploadRequestId"``
+
+Gets the Id of the DeviceStatusInfoBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:317](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L317)
 
 ___
 
@@ -3108,7 +3745,7 @@ Gets the diagnostic ABS system active identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:121](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L121)
+[src/types/Checkmate/ObjectModel/KnownId.ts:183](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L183)
 
 ___
 
@@ -3120,7 +3757,7 @@ Gets the diagnostic ABS warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:123](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L123)
+[src/types/Checkmate/ObjectModel/KnownId.ts:185](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L185)
 
 ___
 
@@ -3132,7 +3769,7 @@ Gets the diagnostic ac control unit status identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:229](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L229)
+[src/types/Checkmate/ObjectModel/KnownId.ts:681](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L681)
 
 ___
 
@@ -3144,7 +3781,7 @@ Gets the diagnostic acceleration event before calibration identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:125](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L125)
+[src/types/Checkmate/ObjectModel/KnownId.ts:187](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L187)
 
 ___
 
@@ -3156,7 +3793,7 @@ Gets the diagnostic acceleration forward braking identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:127](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L127)
+[src/types/Checkmate/ObjectModel/KnownId.ts:189](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L189)
 
 ___
 
@@ -3168,7 +3805,7 @@ Gets the diagnostic acceleration side to side identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:129](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L129)
+[src/types/Checkmate/ObjectModel/KnownId.ts:191](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L191)
 
 ___
 
@@ -3180,7 +3817,7 @@ Gets the diagnostic acceleration up down identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:131](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L131)
+[src/types/Checkmate/ObjectModel/KnownId.ts:193](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L193)
 
 ___
 
@@ -3192,7 +3829,7 @@ Gets the diagnostic accelerometer calibrated identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:133](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L133)
+[src/types/Checkmate/ObjectModel/KnownId.ts:195](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L195)
 
 ___
 
@@ -3204,7 +3841,7 @@ Gets the diagnostic accelerometer failed to initialize identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:135](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L135)
+[src/types/Checkmate/ObjectModel/KnownId.ts:197](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L197)
 
 ___
 
@@ -3216,7 +3853,7 @@ Gets the diagnostic accelerometer interrupt failure identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:223](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L223)
+[src/types/Checkmate/ObjectModel/KnownId.ts:675](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L675)
 
 ___
 
@@ -3228,7 +3865,7 @@ Gets the diagnostic accident data upload event identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:225](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L225)
+[src/types/Checkmate/ObjectModel/KnownId.ts:677](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L677)
 
 ___
 
@@ -3240,7 +3877,7 @@ Gets the diagnostic accident level acceleration event identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:227](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L227)
+[src/types/Checkmate/ObjectModel/KnownId.ts:679](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L679)
 
 ___
 
@@ -3252,7 +3889,7 @@ Gets the diagnostic air conditioner refrigerant pressure identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:237](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L237)
+[src/types/Checkmate/ObjectModel/KnownId.ts:689](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L689)
 
 ___
 
@@ -3264,7 +3901,7 @@ Gets the diagnostic airbag deployed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:231](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L231)
+[src/types/Checkmate/ObjectModel/KnownId.ts:683](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L683)
 
 ___
 
@@ -3276,7 +3913,7 @@ Gets the diagnostic airbag nearly deployed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:233](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L233)
+[src/types/Checkmate/ObjectModel/KnownId.ts:685](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L685)
 
 ___
 
@@ -3288,7 +3925,7 @@ Gets the diagnostic airbag warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:235](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L235)
+[src/types/Checkmate/ObjectModel/KnownId.ts:687](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L687)
 
 ___
 
@@ -3300,7 +3937,7 @@ Gets the diagnostic id for analog auxiliary 1.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:797](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L797)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1289](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1289)
 
 ___
 
@@ -3312,7 +3949,7 @@ Gets the diagnostic id for analog auxiliary 2.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:799](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L799)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1291](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1291)
 
 ___
 
@@ -3324,7 +3961,7 @@ Gets the diagnostic id for analog auxiliary 3.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:801](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L801)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1293](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1293)
 
 ___
 
@@ -3336,7 +3973,7 @@ Gets the diagnostic id for analog auxiliary 4.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:803](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L803)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1295](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1295)
 
 ___
 
@@ -3348,7 +3985,7 @@ Gets the diagnostic id for analog auxiliary 5.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:805](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L805)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1297](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1297)
 
 ___
 
@@ -3360,7 +3997,7 @@ Gets the diagnostic id for analog auxiliary 6.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:807](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L807)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1299](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1299)
 
 ___
 
@@ -3372,7 +4009,7 @@ Gets the diagnostic id for analog auxiliary 7.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:809](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L809)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1301](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1301)
 
 ___
 
@@ -3384,7 +4021,7 @@ Gets the diagnostic id for analog auxiliary 8.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:811](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L811)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1303](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1303)
 
 ___
 
@@ -3396,7 +4033,7 @@ Gets the diagnostic analog input pressure 1.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:447](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L447)
+[src/types/Checkmate/ObjectModel/KnownId.ts:933](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L933)
 
 ___
 
@@ -3408,7 +4045,7 @@ Gets the diagnostic analog input pressure 2.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:449](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L449)
+[src/types/Checkmate/ObjectModel/KnownId.ts:935](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L935)
 
 ___
 
@@ -3420,7 +4057,7 @@ Gets the diagnostic analog input temperature 1.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:441](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L441)
+[src/types/Checkmate/ObjectModel/KnownId.ts:927](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L927)
 
 ___
 
@@ -3432,7 +4069,7 @@ Gets the diagnostic analog input temperature 2.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:443](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L443)
+[src/types/Checkmate/ObjectModel/KnownId.ts:929](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L929)
 
 ___
 
@@ -3444,7 +4081,7 @@ Gets the diagnostic analog input temperature 3.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:445](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L445)
+[src/types/Checkmate/ObjectModel/KnownId.ts:931](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L931)
 
 ___
 
@@ -3456,7 +4093,7 @@ Gets the diagnostic APN re scan started due to connection failure identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:239](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L239)
+[src/types/Checkmate/ObjectModel/KnownId.ts:691](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L691)
 
 ___
 
@@ -3468,7 +4105,7 @@ Gets the diagnostic aux1 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:241](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L241)
+[src/types/Checkmate/ObjectModel/KnownId.ts:693](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L693)
 
 ___
 
@@ -3480,7 +4117,7 @@ Gets the diagnostic aux2 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:243](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L243)
+[src/types/Checkmate/ObjectModel/KnownId.ts:695](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L695)
 
 ___
 
@@ -3492,7 +4129,7 @@ Gets the diagnostic aux3 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:245](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L245)
+[src/types/Checkmate/ObjectModel/KnownId.ts:697](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L697)
 
 ___
 
@@ -3504,7 +4141,7 @@ Gets the diagnostic aux4 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:247](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L247)
+[src/types/Checkmate/ObjectModel/KnownId.ts:699](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L699)
 
 ___
 
@@ -3516,7 +4153,7 @@ Gets the diagnostic aux5 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:249](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L249)
+[src/types/Checkmate/ObjectModel/KnownId.ts:701](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L701)
 
 ___
 
@@ -3528,7 +4165,7 @@ Gets the diagnostic aux6 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:251](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L251)
+[src/types/Checkmate/ObjectModel/KnownId.ts:703](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L703)
 
 ___
 
@@ -3540,7 +4177,7 @@ Gets the diagnostic aux7 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:253](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L253)
+[src/types/Checkmate/ObjectModel/KnownId.ts:705](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L705)
 
 ___
 
@@ -3552,7 +4189,7 @@ Gets the diagnostic aux8 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:255](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L255)
+[src/types/Checkmate/ObjectModel/KnownId.ts:707](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L707)
 
 ___
 
@@ -3564,7 +4201,7 @@ Gets the diagnostic auxiliary module failure identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:395](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L395)
+[src/types/Checkmate/ObjectModel/KnownId.ts:849](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L849)
 
 ___
 
@@ -3576,7 +4213,7 @@ Gets the diagnostic average fuel economy identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:257](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L257)
+[src/types/Checkmate/ObjectModel/KnownId.ts:709](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L709)
 
 ___
 
@@ -3588,7 +4225,7 @@ Gets the diagnostic average fuel economy natural gas identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:259](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L259)
+[src/types/Checkmate/ObjectModel/KnownId.ts:711](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L711)
 
 ___
 
@@ -3600,7 +4237,7 @@ Gets the diagnostic battery current identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:261](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L261)
+[src/types/Checkmate/ObjectModel/KnownId.ts:713](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L713)
 
 ___
 
@@ -3612,7 +4249,7 @@ Gets the diagnostic Battery Level.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:429](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L429)
+[src/types/Checkmate/ObjectModel/KnownId.ts:907](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L907)
 
 ___
 
@@ -3624,7 +4261,7 @@ Gets the diagnostic battery temperature identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:263](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L263)
+[src/types/Checkmate/ObjectModel/KnownId.ts:715](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L715)
 
 ___
 
@@ -3636,7 +4273,19 @@ Gets the diagnostic Battery voltage.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:431](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L431)
+[src/types/Checkmate/ObjectModel/KnownId.ts:909](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L909)
+
+___
+
+### DiagnosticBigQueryUploadRequestId
+
+• **DiagnosticBigQueryUploadRequestId** = ``"DiagnosticBigQueryUploadRequestId"``
+
+Gets the Id of the DiagnosticBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:365](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L365)
 
 ___
 
@@ -3648,7 +4297,7 @@ Gets the diagnostic Bluetooth Ammonia (NH3) concentration identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:169](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L169)
+[src/types/Checkmate/ObjectModel/KnownId.ts:231](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L231)
 
 ___
 
@@ -3660,7 +4309,7 @@ Gets the diagnostic Bluetooth beacon battery level identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:141](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L141)
+[src/types/Checkmate/ObjectModel/KnownId.ts:203](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L203)
 
 ___
 
@@ -3672,7 +4321,19 @@ Gets the diagnostic Bluetooth beacon category identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:143](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L143)
+[src/types/Checkmate/ObjectModel/KnownId.ts:205](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L205)
+
+___
+
+### DiagnosticBluetoothBeaconCounterId
+
+• **DiagnosticBluetoothBeaconCounterId** = ``"DiagnosticBluetoothBeaconCounterId"``
+
+Gets the diagnostic Bluetooth beacon counter identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:243](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L243)
 
 ___
 
@@ -3684,7 +4345,7 @@ Gets the diagnostic Bluetooth beacon in range identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:137](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L137)
+[src/types/Checkmate/ObjectModel/KnownId.ts:199](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L199)
 
 ___
 
@@ -3696,7 +4357,7 @@ Gets the diagnostic Bluetooth beacon live altitude identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:155](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L155)
+[src/types/Checkmate/ObjectModel/KnownId.ts:217](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L217)
 
 ___
 
@@ -3708,7 +4369,7 @@ Gets the diagnostic Bluetooth beacon live barometric pressure identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:153](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L153)
+[src/types/Checkmate/ObjectModel/KnownId.ts:215](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L215)
 
 ___
 
@@ -3720,7 +4381,7 @@ Gets the diagnostic Bluetooth beacon live impact identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:145](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L145)
+[src/types/Checkmate/ObjectModel/KnownId.ts:207](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L207)
 
 ___
 
@@ -3732,7 +4393,7 @@ Gets the diagnostic Bluetooth beacon live light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:149](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L149)
+[src/types/Checkmate/ObjectModel/KnownId.ts:211](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L211)
 
 ___
 
@@ -3744,7 +4405,7 @@ Gets the diagnostic Bluetooth beacon live relative humidity identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:151](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L151)
+[src/types/Checkmate/ObjectModel/KnownId.ts:213](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L213)
 
 ___
 
@@ -3756,7 +4417,7 @@ Gets the diagnostic Bluetooth beacon live temperature identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:147](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L147)
+[src/types/Checkmate/ObjectModel/KnownId.ts:209](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L209)
 
 ___
 
@@ -3768,7 +4429,7 @@ Gets the diagnostic Bluetooth beacon particulate matter less than 10 micrometers
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:161](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L161)
+[src/types/Checkmate/ObjectModel/KnownId.ts:223](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L223)
 
 ___
 
@@ -3780,7 +4441,7 @@ Gets the diagnostic Bluetooth beacon particulate matter less than 1 micrometer i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:157](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L157)
+[src/types/Checkmate/ObjectModel/KnownId.ts:219](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L219)
 
 ___
 
@@ -3792,7 +4453,19 @@ Gets the diagnostic Bluetooth beacon particulate matter less than 2.5 micrometer
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:159](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L159)
+[src/types/Checkmate/ObjectModel/KnownId.ts:221](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L221)
+
+___
+
+### DiagnosticBluetoothBeaconStateId
+
+• **DiagnosticBluetoothBeaconStateId** = ``"DiagnosticBluetoothBeaconStateId"``
+
+Gets the diagnostic Bluetooth beacon state identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:245](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L245)
 
 ___
 
@@ -3804,7 +4477,7 @@ Gets the diagnostic Bluetooth Carbon Dioxide (CO2) concentration identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:177](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L177)
+[src/types/Checkmate/ObjectModel/KnownId.ts:239](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L239)
 
 ___
 
@@ -3816,7 +4489,7 @@ Gets the diagnostic Bluetooth Carbon Monoxide (CO) concentration identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:167](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L167)
+[src/types/Checkmate/ObjectModel/KnownId.ts:229](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L229)
 
 ___
 
@@ -3828,7 +4501,7 @@ Gets the diagnostic Bluetooth generic timer for identifer 255.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:221](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L221)
+[src/types/Checkmate/ObjectModel/KnownId.ts:673](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L673)
 
 ___
 
@@ -3840,7 +4513,7 @@ Gets the diagnostic Bluetooth Ethanol (C2H5OH) concentration identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:173](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L173)
+[src/types/Checkmate/ObjectModel/KnownId.ts:235](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L235)
 
 ___
 
@@ -3852,7 +4525,7 @@ Gets the diagnostic Bluetooth fuel level identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:179](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L179)
+[src/types/Checkmate/ObjectModel/KnownId.ts:241](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L241)
 
 ___
 
@@ -3864,7 +4537,7 @@ Gets the diagnostic Bluetooth generic byte for identifer 230.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:181](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L181)
+[src/types/Checkmate/ObjectModel/KnownId.ts:247](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L247)
 
 ___
 
@@ -3876,7 +4549,7 @@ Gets the diagnostic Bluetooth generic byte for identifer 231.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:183](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L183)
+[src/types/Checkmate/ObjectModel/KnownId.ts:249](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L249)
 
 ___
 
@@ -3888,7 +4561,7 @@ Gets the diagnostic Bluetooth generic byte for identifer 232.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:185](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L185)
+[src/types/Checkmate/ObjectModel/KnownId.ts:251](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L251)
 
 ___
 
@@ -3900,7 +4573,7 @@ Gets the diagnostic Bluetooth generic byte for identifer 233.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:187](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L187)
+[src/types/Checkmate/ObjectModel/KnownId.ts:253](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L253)
 
 ___
 
@@ -3912,7 +4585,7 @@ Gets the diagnostic Bluetooth generic byte for identifer 234.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:189](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L189)
+[src/types/Checkmate/ObjectModel/KnownId.ts:255](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L255)
 
 ___
 
@@ -3924,7 +4597,7 @@ Gets the diagnostic Bluetooth generic byte for identifer 235.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:191](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L191)
+[src/types/Checkmate/ObjectModel/KnownId.ts:257](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L257)
 
 ___
 
@@ -3936,7 +4609,7 @@ Gets the diagnostic Bluetooth generic byte for identifer 236.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:193](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L193)
+[src/types/Checkmate/ObjectModel/KnownId.ts:259](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L259)
 
 ___
 
@@ -3948,7 +4621,7 @@ Gets the diagnostic Bluetooth generic byte for identifer 237.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:195](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L195)
+[src/types/Checkmate/ObjectModel/KnownId.ts:261](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L261)
 
 ___
 
@@ -3960,7 +4633,7 @@ Gets the diagnostic Bluetooth generic byte for identifer 238.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:197](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L197)
+[src/types/Checkmate/ObjectModel/KnownId.ts:263](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L263)
 
 ___
 
@@ -3972,7 +4645,7 @@ Gets the diagnostic Bluetooth generic byte for identifer 239.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:199](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L199)
+[src/types/Checkmate/ObjectModel/KnownId.ts:265](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L265)
 
 ___
 
@@ -3984,7 +4657,7 @@ Gets the diagnostic Bluetooth generic timer for identifer 240.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:201](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L201)
+[src/types/Checkmate/ObjectModel/KnownId.ts:267](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L267)
 
 ___
 
@@ -3996,7 +4669,7 @@ Gets the diagnostic Bluetooth generic timer for identifer 241.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:203](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L203)
+[src/types/Checkmate/ObjectModel/KnownId.ts:269](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L269)
 
 ___
 
@@ -4008,7 +4681,7 @@ Gets the diagnostic Bluetooth generic timer for identifer 242.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:205](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L205)
+[src/types/Checkmate/ObjectModel/KnownId.ts:271](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L271)
 
 ___
 
@@ -4020,7 +4693,7 @@ Gets the diagnostic Bluetooth generic timer for identifer 243.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:207](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L207)
+[src/types/Checkmate/ObjectModel/KnownId.ts:273](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L273)
 
 ___
 
@@ -4032,7 +4705,7 @@ Gets the diagnostic Bluetooth generic timer for identifer 244.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:209](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L209)
+[src/types/Checkmate/ObjectModel/KnownId.ts:275](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L275)
 
 ___
 
@@ -4044,7 +4717,7 @@ Gets the diagnostic Bluetooth generic timer for identifer 245.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:211](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L211)
+[src/types/Checkmate/ObjectModel/KnownId.ts:663](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L663)
 
 ___
 
@@ -4056,7 +4729,7 @@ Gets the diagnostic Bluetooth generic timer for identifer 246.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:213](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L213)
+[src/types/Checkmate/ObjectModel/KnownId.ts:665](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L665)
 
 ___
 
@@ -4068,7 +4741,7 @@ Gets the diagnostic Bluetooth generic timer for identifer 247.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:215](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L215)
+[src/types/Checkmate/ObjectModel/KnownId.ts:667](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L667)
 
 ___
 
@@ -4080,7 +4753,7 @@ Gets the diagnostic Bluetooth generic timer for identifer 248.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:217](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L217)
+[src/types/Checkmate/ObjectModel/KnownId.ts:669](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L669)
 
 ___
 
@@ -4092,7 +4765,7 @@ Gets the diagnostic Bluetooth generic timer for identifer 249.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:219](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L219)
+[src/types/Checkmate/ObjectModel/KnownId.ts:671](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L671)
 
 ___
 
@@ -4104,7 +4777,7 @@ Gets the diagnostic Bluetooth Hydrogen (H2) concentration identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:175](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L175)
+[src/types/Checkmate/ObjectModel/KnownId.ts:237](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L237)
 
 ___
 
@@ -4116,7 +4789,7 @@ Gets the diagnostic Bluetooth Methane (CH4) concentration identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:171](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L171)
+[src/types/Checkmate/ObjectModel/KnownId.ts:233](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L233)
 
 ___
 
@@ -4128,7 +4801,7 @@ Gets the diagnostic Bluetooth Nitric Oxide (NO) concentration identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:163](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L163)
+[src/types/Checkmate/ObjectModel/KnownId.ts:225](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L225)
 
 ___
 
@@ -4140,7 +4813,7 @@ Gets the diagnostic Bluetooth Nitrogen Dioxide (NO2) concentration identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:165](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L165)
+[src/types/Checkmate/ObjectModel/KnownId.ts:227](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L227)
 
 ___
 
@@ -4152,7 +4825,7 @@ Gets the diagnostic Bluetooth RSSI ID.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:139](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L139)
+[src/types/Checkmate/ObjectModel/KnownId.ts:201](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L201)
 
 ___
 
@@ -4164,7 +4837,7 @@ Gets the diagnostic bootloader update has failed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:265](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L265)
+[src/types/Checkmate/ObjectModel/KnownId.ts:717](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L717)
 
 ___
 
@@ -4176,7 +4849,7 @@ Gets the diagnostic brake pedal on identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:267](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L267)
+[src/types/Checkmate/ObjectModel/KnownId.ts:719](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L719)
 
 ___
 
@@ -4188,7 +4861,7 @@ Gets the diagnostic brake temperature identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:269](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L269)
+[src/types/Checkmate/ObjectModel/KnownId.ts:721](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L721)
 
 ___
 
@@ -4200,7 +4873,7 @@ Gets the diagnostic bus access door identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:271](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L271)
+[src/types/Checkmate/ObjectModel/KnownId.ts:723](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L723)
 
 ___
 
@@ -4212,7 +4885,7 @@ Gets the diagnostic CAB interior temperature identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:273](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L273)
+[src/types/Checkmate/ObjectModel/KnownId.ts:725](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L725)
 
 ___
 
@@ -4224,7 +4897,7 @@ Gets the diagnostic CANBUS disabled identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:399](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L399)
+[src/types/Checkmate/ObjectModel/KnownId.ts:853](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L853)
 
 ___
 
@@ -4236,7 +4909,7 @@ Gets the diagnostic CANBUS excessive listen identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:403](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L403)
+[src/types/Checkmate/ObjectModel/KnownId.ts:857](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L857)
 
 ___
 
@@ -4248,7 +4921,7 @@ Gets the diagnostic CANBUS failed to initialize identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:275](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L275)
+[src/types/Checkmate/ObjectModel/KnownId.ts:727](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L727)
 
 ___
 
@@ -4260,7 +4933,7 @@ Gets the diagnostic CANBUS oscillating active passive identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:401](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L401)
+[src/types/Checkmate/ObjectModel/KnownId.ts:855](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L855)
 
 ___
 
@@ -4272,7 +4945,7 @@ Gets the diagnostic CANBUS short identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:459](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L459)
+[src/types/Checkmate/ObjectModel/KnownId.ts:949](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L949)
 
 ___
 
@@ -4284,7 +4957,7 @@ Gets the diagnostic CAN mode initialization failure identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:397](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L397)
+[src/types/Checkmate/ObjectModel/KnownId.ts:851](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L851)
 
 ___
 
@@ -4296,7 +4969,55 @@ Gets the diagnostic can transmit error count exceeded identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:277](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L277)
+[src/types/Checkmate/ObjectModel/KnownId.ts:729](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L729)
+
+___
+
+### DiagnosticCargoTemperatureZone1Id
+
+• **DiagnosticCargoTemperatureZone1Id** = ``"DiagnosticCargoTemperatureZone1Id"``
+
+Gets the cargo tempearture zone 1 diagnostic.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2986](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2986)
+
+___
+
+### DiagnosticCargoTemperatureZone2Id
+
+• **DiagnosticCargoTemperatureZone2Id** = ``"DiagnosticCargoTemperatureZone2Id"``
+
+Gets the cargo tempearture zone 2 diagnostic.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2988](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2988)
+
+___
+
+### DiagnosticCargoTemperatureZone3Id
+
+• **DiagnosticCargoTemperatureZone3Id** = ``"DiagnosticCargoTemperatureZone3Id"``
+
+Gets the cargo tempearture zone 3 diagnostic.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2990](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2990)
+
+___
+
+### DiagnosticCellularIridiumCoverageId
+
+• **DiagnosticCellularIridiumCoverageId** = ``"DiagnosticCellularIridiumCoverageId"``
+
+Gets the diagnostic for IOX-Stat devices.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1173](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1173)
 
 ___
 
@@ -4308,7 +5029,7 @@ Gets the diagnostic device cellular RSSI.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:453](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L453)
+[src/types/Checkmate/ObjectModel/KnownId.ts:939](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L939)
 
 ___
 
@@ -4320,7 +5041,7 @@ Gets the diagnostic change clean exhaust filter warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:279](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L279)
+[src/types/Checkmate/ObjectModel/KnownId.ts:731](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L731)
 
 ___
 
@@ -4332,7 +5053,7 @@ Gets the diagnostic change fuel filter warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:281](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L281)
+[src/types/Checkmate/ObjectModel/KnownId.ts:733](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L733)
 
 ___
 
@@ -4344,7 +5065,19 @@ Gets the diagnostic charge state identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:283](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L283)
+[src/types/Checkmate/ObjectModel/KnownId.ts:735](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L735)
+
+___
+
+### DiagnosticCheckBrakePadsId
+
+• **DiagnosticCheckBrakePadsId** = ``"DiagnosticCheckBrakePadsId"``
+
+Gets the diagnostic check brake pads identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:299](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L299)
 
 ___
 
@@ -4356,7 +5089,7 @@ Gets the diagnostic winter operation controller status.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:421](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L421)
+[src/types/Checkmate/ObjectModel/KnownId.ts:893](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L893)
 
 ___
 
@@ -4368,7 +5101,7 @@ Gets the diagnostic coolant level identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:285](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L285)
+[src/types/Checkmate/ObjectModel/KnownId.ts:737](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L737)
 
 ___
 
@@ -4380,7 +5113,7 @@ Gets the diagnostic cranking voltage identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:287](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L287)
+[src/types/Checkmate/ObjectModel/KnownId.ts:739](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L739)
 
 ___
 
@@ -4392,7 +5125,7 @@ Gets the diagnostic cruise control active identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:289](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L289)
+[src/types/Checkmate/ObjectModel/KnownId.ts:741](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L741)
 
 ___
 
@@ -4404,7 +5137,7 @@ Gets the diagnostic cruise control enabled identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:291](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L291)
+[src/types/Checkmate/ObjectModel/KnownId.ts:743](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L743)
 
 ___
 
@@ -4416,7 +5149,7 @@ Gets the diagnostic dash warning light amber lamp identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:293](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L293)
+[src/types/Checkmate/ObjectModel/KnownId.ts:745](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L745)
 
 ___
 
@@ -4428,7 +5161,7 @@ Gets the diagnostic dash warning light protect lamp identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:295](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L295)
+[src/types/Checkmate/ObjectModel/KnownId.ts:747](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L747)
 
 ___
 
@@ -4440,7 +5173,7 @@ Gets the diagnostic dash warning light red lamp identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:297](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L297)
+[src/types/Checkmate/ObjectModel/KnownId.ts:749](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L749)
 
 ___
 
@@ -4452,7 +5185,7 @@ Gets the diagnostic device battery voltage.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:451](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L451)
+[src/types/Checkmate/ObjectModel/KnownId.ts:937](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L937)
 
 ___
 
@@ -4464,7 +5197,7 @@ Gets the diagnostic device disabled identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:299](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L299)
+[src/types/Checkmate/ObjectModel/KnownId.ts:751](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L751)
 
 ___
 
@@ -4476,7 +5209,7 @@ Gets the diagnostic device has been unplugged identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:301](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L301)
+[src/types/Checkmate/ObjectModel/KnownId.ts:753](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L753)
 
 ___
 
@@ -4488,7 +5221,7 @@ Gets the diagnostic device logging disabled identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:303](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L303)
+[src/types/Checkmate/ObjectModel/KnownId.ts:755](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L755)
 
 ___
 
@@ -4500,7 +5233,7 @@ Gets the diagnostic device oscillator issue identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:461](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L461)
+[src/types/Checkmate/ObjectModel/KnownId.ts:951](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L951)
 
 ___
 
@@ -4512,7 +5245,7 @@ Gets the diagnostic device power change identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:305](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L305)
+[src/types/Checkmate/ObjectModel/KnownId.ts:757](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L757)
 
 ___
 
@@ -4524,7 +5257,7 @@ Gets the diagnostic device restarted because all power was removed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:307](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L307)
+[src/types/Checkmate/ObjectModel/KnownId.ts:759](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L759)
 
 ___
 
@@ -4536,7 +5269,7 @@ Gets the diagnostic device restarted because of firmware update identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:309](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L309)
+[src/types/Checkmate/ObjectModel/KnownId.ts:761](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L761)
 
 ___
 
@@ -4548,7 +5281,7 @@ Gets the diagnostic device restarted because of low voltage in power supply iden
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:311](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L311)
+[src/types/Checkmate/ObjectModel/KnownId.ts:763](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L763)
 
 ___
 
@@ -4560,7 +5293,7 @@ Gets the diagnostic device restarted due to internal reset condition identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:313](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L313)
+[src/types/Checkmate/ObjectModel/KnownId.ts:765](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L765)
 
 ___
 
@@ -4572,7 +5305,7 @@ Gets the diagnostic device restarted due to internal watchdog condition identifi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:315](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L315)
+[src/types/Checkmate/ObjectModel/KnownId.ts:767](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L767)
 
 ___
 
@@ -4584,7 +5317,7 @@ Gets the diagnostic device solar panel current
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:455](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L455)
+[src/types/Checkmate/ObjectModel/KnownId.ts:941](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L941)
 
 ___
 
@@ -4596,7 +5329,7 @@ Gets the diagnostic device total fuel identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:317](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L317)
+[src/types/Checkmate/ObjectModel/KnownId.ts:769](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L769)
 
 ___
 
@@ -4608,7 +5341,7 @@ Gets the diagnostic device total idle fuel identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:319](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L319)
+[src/types/Checkmate/ObjectModel/KnownId.ts:771](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L771)
 
 ___
 
@@ -4620,7 +5353,7 @@ Gets the diagnostic diesel exhaust fluid identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:325](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L325)
+[src/types/Checkmate/ObjectModel/KnownId.ts:777](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L777)
 
 ___
 
@@ -4632,7 +5365,7 @@ Gets the diagnostic diesel particulate filter lamp identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:327](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L327)
+[src/types/Checkmate/ObjectModel/KnownId.ts:779](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L779)
 
 ___
 
@@ -4644,7 +5377,31 @@ Gets the diagnostic disabled excessive accelerometer data identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:393](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L393)
+[src/types/Checkmate/ObjectModel/KnownId.ts:847](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L847)
+
+___
+
+### DiagnosticDoor1StatusId
+
+• **DiagnosticDoor1StatusId** = ``"DiagnosticDoor1StatusId"``
+
+Gets the door 1 status diagnostic.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2992](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2992)
+
+___
+
+### DiagnosticDoor2StatusId
+
+• **DiagnosticDoor2StatusId** = ``"DiagnosticDoor2StatusId"``
+
+Gets the door 2 status diagnostic.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2994](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2994)
 
 ___
 
@@ -4656,7 +5413,7 @@ Gets the diagnostic driver airbag deployed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:329](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L329)
+[src/types/Checkmate/ObjectModel/KnownId.ts:781](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L781)
 
 ___
 
@@ -4668,7 +5425,7 @@ Gets the diagnostic driver audible alert for idle shutdown timer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:331](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L331)
+[src/types/Checkmate/ObjectModel/KnownId.ts:783](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L783)
 
 ___
 
@@ -4680,7 +5437,7 @@ Gets the diagnostic driver seat belt identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:333](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L333)
+[src/types/Checkmate/ObjectModel/KnownId.ts:785](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L785)
 
 ___
 
@@ -4692,7 +5449,7 @@ Gets the electric vehicle battery total driving energy in identifier. Units: kWh
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:321](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L321)
+[src/types/Checkmate/ObjectModel/KnownId.ts:773](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L773)
 
 ___
 
@@ -4704,7 +5461,7 @@ Gets the electric vehicle battery total driving energy out identifier. Units: kW
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:323](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L323)
+[src/types/Checkmate/ObjectModel/KnownId.ts:775](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L775)
 
 ___
 
@@ -4716,7 +5473,7 @@ Gets the diagnostic id for electric vehicle battery power.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:837](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L837)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1329](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1329)
 
 ___
 
@@ -4728,7 +5485,7 @@ Gets the diagnostic id for charge type (AC or DC).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:835](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L835)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1327](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1327)
 
 ___
 
@@ -4740,7 +5497,7 @@ Gets the diagnostic id for the IsCharging signal
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:833](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L833)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1325](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1325)
 
 ___
 
@@ -4752,7 +5509,7 @@ Gets the diagnostic electrical system rating identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:463](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L463)
+[src/types/Checkmate/ObjectModel/KnownId.ts:953](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L953)
 
 ___
 
@@ -4764,7 +5521,7 @@ Gets the diagnostic engine check fuel filler cap warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:335](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L335)
+[src/types/Checkmate/ObjectModel/KnownId.ts:787](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L787)
 
 ___
 
@@ -4776,7 +5533,7 @@ Gets the diagnostic engine coolant temperature identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:337](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L337)
+[src/types/Checkmate/ObjectModel/KnownId.ts:789](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L789)
 
 ___
 
@@ -4788,7 +5545,7 @@ Gets the diagnostic engine cooling fan speed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:339](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L339)
+[src/types/Checkmate/ObjectModel/KnownId.ts:791](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L791)
 
 ___
 
@@ -4800,7 +5557,7 @@ Gets the diagnostic engine data active identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:353](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L353)
+[src/types/Checkmate/ObjectModel/KnownId.ts:807](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L807)
 
 ___
 
@@ -4812,7 +5569,7 @@ Gets the diagnostic engine hot warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:341](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L341)
+[src/types/Checkmate/ObjectModel/KnownId.ts:793](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L793)
 
 ___
 
@@ -4824,7 +5581,7 @@ Gets the diagnostic engine hours adjustment identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:343](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L343)
+[src/types/Checkmate/ObjectModel/KnownId.ts:795](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L795)
 
 ___
 
@@ -4836,7 +5593,7 @@ Gets the diagnostic engine hours identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:345](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L345)
+[src/types/Checkmate/ObjectModel/KnownId.ts:799](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L799)
 
 ___
 
@@ -4848,7 +5605,7 @@ Gets the diagnostic engine oil level identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:359](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L359)
+[src/types/Checkmate/ObjectModel/KnownId.ts:813](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L813)
 
 ___
 
@@ -4860,7 +5617,7 @@ Gets the diagnostic engine oil life remaining identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:361](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L361)
+[src/types/Checkmate/ObjectModel/KnownId.ts:815](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L815)
 
 ___
 
@@ -4872,7 +5629,7 @@ Gets the diagnostic engine oil starvation indicator on identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:363](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L363)
+[src/types/Checkmate/ObjectModel/KnownId.ts:817](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L817)
 
 ___
 
@@ -4884,7 +5641,7 @@ Gets the diagnostic engine oil temperature identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:365](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L365)
+[src/types/Checkmate/ObjectModel/KnownId.ts:819](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L819)
 
 ___
 
@@ -4896,7 +5653,7 @@ Gets the diagnostic engine on time identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:367](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L367)
+[src/types/Checkmate/ObjectModel/KnownId.ts:821](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L821)
 
 ___
 
@@ -4908,7 +5665,7 @@ Gets the diagnostic engine operating in reduced power mode warning light identif
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:369](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L369)
+[src/types/Checkmate/ObjectModel/KnownId.ts:823](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L823)
 
 ___
 
@@ -4920,7 +5677,7 @@ Gets the diagnostic engine road speed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:377](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L377)
+[src/types/Checkmate/ObjectModel/KnownId.ts:831](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L831)
 
 ___
 
@@ -4932,7 +5689,7 @@ Gets the diagnostic engine running due to vehicle remote starter identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:371](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L371)
+[src/types/Checkmate/ObjectModel/KnownId.ts:825](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L825)
 
 ___
 
@@ -4944,7 +5701,7 @@ Gets the diagnostic engine shutdown by idle timer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:373](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L373)
+[src/types/Checkmate/ObjectModel/KnownId.ts:827](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L827)
 
 ___
 
@@ -4956,7 +5713,7 @@ Gets the diagnostic engine speed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:375](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L375)
+[src/types/Checkmate/ObjectModel/KnownId.ts:829](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L829)
 
 ___
 
@@ -4968,7 +5725,7 @@ Gets the diagnostic engine starting disabled warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:381](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L381)
+[src/types/Checkmate/ObjectModel/KnownId.ts:835](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L835)
 
 ___
 
@@ -4980,7 +5737,7 @@ Gets the diagnostic engine transmission oil temperature identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:383](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L383)
+[src/types/Checkmate/ObjectModel/KnownId.ts:837](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L837)
 
 ___
 
@@ -4992,7 +5749,19 @@ Gets the diagnostic engine warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:385](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L385)
+[src/types/Checkmate/ObjectModel/KnownId.ts:839](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L839)
+
+___
+
+### DiagnosticEnhancedMinorCollisionId
+
+• **DiagnosticEnhancedMinorCollisionId** = ``"DiagnosticEnhancedMinorCollisionId"``
+
+Gets the diagnostic enhanced minor collision identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2828](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2828)
 
 ___
 
@@ -5004,7 +5773,7 @@ Gets the ID of the diagnostic for EV Powertrain Type (Code 9, Source Ai Model).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:681](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L681)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1171](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1171)
 
 ___
 
@@ -5016,7 +5785,7 @@ Gets the diagnostic excessive accelerometer events identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:387](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L387)
+[src/types/Checkmate/ObjectModel/KnownId.ts:841](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L841)
 
 ___
 
@@ -5028,7 +5797,7 @@ Gets the diagnostic excessive accelerometer events over accident threshold ident
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:389](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L389)
+[src/types/Checkmate/ObjectModel/KnownId.ts:843](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L843)
 
 ___
 
@@ -5040,7 +5809,7 @@ Gets the diagnostic excessive accelerometer logs in a single event identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:391](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L391)
+[src/types/Checkmate/ObjectModel/KnownId.ts:845](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L845)
 
 ___
 
@@ -5052,7 +5821,7 @@ Gets the diagnostic excessive logging detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:465](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L465)
+[src/types/Checkmate/ObjectModel/KnownId.ts:955](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L955)
 
 ___
 
@@ -5064,7 +5833,31 @@ Gets the diagnostic exhaust differential pressure identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:467](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L467)
+[src/types/Checkmate/ObjectModel/KnownId.ts:957](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L957)
+
+___
+
+### DiagnosticExternalDeviceIOXColdChainId
+
+• **DiagnosticExternalDeviceIOXColdChainId** = ``"DiagnosticExternalDeviceIOXColdChainId"``
+
+Gets the diagnostic external device IOX cold chain.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:485](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L485)
+
+___
+
+### DiagnosticExternalDeviceIntendiaId
+
+• **DiagnosticExternalDeviceIntendiaId** = ``"DiagnosticExternalDeviceIntendiaId"``
+
+Gets the diagnostic external device Intendia.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:487](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L487)
 
 ___
 
@@ -5076,7 +5869,7 @@ Gets the diagnostic first row middle seat belt identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:469](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L469)
+[src/types/Checkmate/ObjectModel/KnownId.ts:959](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L959)
 
 ___
 
@@ -5088,7 +5881,7 @@ Gets the diagnostic flash error count identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:471](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L471)
+[src/types/Checkmate/ObjectModel/KnownId.ts:961](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L961)
 
 ___
 
@@ -5100,7 +5893,7 @@ Gets the diagnostic flash memory failure identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:477](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L477)
+[src/types/Checkmate/ObjectModel/KnownId.ts:967](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L967)
 
 ___
 
@@ -5112,7 +5905,7 @@ Gets the diagnostic flashing amber light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:473](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L473)
+[src/types/Checkmate/ObjectModel/KnownId.ts:963](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L963)
 
 ___
 
@@ -5124,7 +5917,7 @@ Gets the diagnostic flashing red light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:475](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L475)
+[src/types/Checkmate/ObjectModel/KnownId.ts:965](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L965)
 
 ___
 
@@ -5136,7 +5929,7 @@ Gets the diagnostic Ford ISO protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:479](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L479)
+[src/types/Checkmate/ObjectModel/KnownId.ts:969](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L969)
 
 ___
 
@@ -5148,7 +5941,7 @@ Gets the diagnostic frontal impact pretensioner severity achieved identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:481](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L481)
+[src/types/Checkmate/ObjectModel/KnownId.ts:971](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L971)
 
 ___
 
@@ -5160,7 +5953,7 @@ Gets the diagnostic frontal impact stage1 severity achieved identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:483](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L483)
+[src/types/Checkmate/ObjectModel/KnownId.ts:973](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L973)
 
 ___
 
@@ -5172,7 +5965,7 @@ Gets the diagnostic frontal impact stage2 severity achieved identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:485](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L485)
+[src/types/Checkmate/ObjectModel/KnownId.ts:975](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L975)
 
 ___
 
@@ -5184,7 +5977,7 @@ Gets the diagnostic fuel alcohol composition identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:487](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L487)
+[src/types/Checkmate/ObjectModel/KnownId.ts:977](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L977)
 
 ___
 
@@ -5196,7 +5989,7 @@ Gets the diagnostic fuel filter life remaining identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:489](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L489)
+[src/types/Checkmate/ObjectModel/KnownId.ts:979](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L979)
 
 ___
 
@@ -5208,7 +6001,7 @@ Gets the diagnostic fuel level identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:491](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L491)
+[src/types/Checkmate/ObjectModel/KnownId.ts:981](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L981)
 
 ___
 
@@ -5220,7 +6013,7 @@ Gets the diagnostic fuel tank capacity identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:493](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L493)
+[src/types/Checkmate/ObjectModel/KnownId.ts:983](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L983)
 
 ___
 
@@ -5232,7 +6025,7 @@ Gets the diagnostic fuel type for Compressed Natural Gas
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:507](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L507)
+[src/types/Checkmate/ObjectModel/KnownId.ts:997](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L997)
 
 ___
 
@@ -5244,7 +6037,7 @@ Gets the diagnostic fuel type for Diesel
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:499](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L499)
+[src/types/Checkmate/ObjectModel/KnownId.ts:989](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L989)
 
 ___
 
@@ -5256,7 +6049,7 @@ Gets the diagnostic fuel type for Electric
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:511](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L511)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1001](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1001)
 
 ___
 
@@ -5268,7 +6061,7 @@ Gets the diagnostic fuel type for Ethanol
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:503](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L503)
+[src/types/Checkmate/ObjectModel/KnownId.ts:993](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L993)
 
 ___
 
@@ -5280,7 +6073,7 @@ Gets the diagnostic fuel type for Gasoline
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:497](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L497)
+[src/types/Checkmate/ObjectModel/KnownId.ts:987](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L987)
 
 ___
 
@@ -5292,7 +6085,7 @@ Gets the diagnostic fuel type for Liquified Petroleum Gas
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:505](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L505)
+[src/types/Checkmate/ObjectModel/KnownId.ts:995](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L995)
 
 ___
 
@@ -5304,7 +6097,7 @@ Gets the diagnostic fuel type for Methanol
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:501](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L501)
+[src/types/Checkmate/ObjectModel/KnownId.ts:991](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L991)
 
 ___
 
@@ -5316,7 +6109,7 @@ Gets the diagnostic fuel type for Propane
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:509](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L509)
+[src/types/Checkmate/ObjectModel/KnownId.ts:999](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L999)
 
 ___
 
@@ -5328,7 +6121,7 @@ Gets the diagnostic fuel units identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:495](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L495)
+[src/types/Checkmate/ObjectModel/KnownId.ts:985](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L985)
 
 ___
 
@@ -5340,7 +6133,7 @@ Gets the diagnostic gear position identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:513](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L513)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1003](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1003)
 
 ___
 
@@ -5352,7 +6145,7 @@ Gets the diagnostic general vehicle warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:515](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L515)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1005](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1005)
 
 ___
 
@@ -5364,7 +6157,7 @@ Gets the diagnostic generic Adblue tank level.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:679](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L679)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1169](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1169)
 
 ___
 
@@ -5376,7 +6169,7 @@ Gets the diagnostic "Generic incremental distance (based on engine road speed)".
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2025](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2025)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2616](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2616)
 
 ___
 
@@ -5388,7 +6181,7 @@ Gets the diagnostic Geotab driver key read error identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:517](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L517)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1007](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1007)
 
 ___
 
@@ -5400,7 +6193,7 @@ Gets the diagnostic GM SWC low speed protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:523](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L523)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1013](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1013)
 
 ___
 
@@ -5412,7 +6205,7 @@ Gets the diagnostic GMLAN high speed engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:519](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L519)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1009](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1009)
 
 ___
 
@@ -5424,7 +6217,7 @@ Gets the diagnostic GMLAN low speed engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:521](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L521)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1011](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1011)
 
 ___
 
@@ -5436,7 +6229,7 @@ Gets the diagnostic GO device voltage identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:525](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L525)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1015](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1015)
 
 ___
 
@@ -5448,7 +6241,7 @@ Gets the diagnostic GPS antenna short circuit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:527](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L527)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1017](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1017)
 
 ___
 
@@ -5460,7 +6253,7 @@ Gets the diagnostic GPS antenna unplugged identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:529](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L529)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1019](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1019)
 
 ___
 
@@ -5472,7 +6265,7 @@ Gets the diagnostic GPS configuration retry identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:531](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L531)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1021](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1021)
 
 ___
 
@@ -5484,7 +6277,7 @@ Gets the diagnostic GPS log reason.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:533](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L533)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1023](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1023)
 
 ___
 
@@ -5496,7 +6289,7 @@ Gets the diagnostic GPS not responding identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:535](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L535)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1025](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1025)
 
 ___
 
@@ -5508,7 +6301,7 @@ Gets the diagnostic hard corner identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:537](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L537)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1027](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1027)
 
 ___
 
@@ -5520,7 +6313,7 @@ Gets the diagnostic harness detected6 pin identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:539](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L539)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1029](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1029)
 
 ___
 
@@ -5532,7 +6325,7 @@ Gets the diagnostic harness detected9 pin identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:541](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L541)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1031](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1031)
 
 ___
 
@@ -5544,7 +6337,7 @@ Gets the diagnostic harsh acceleration identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:543](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L543)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1033](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1033)
 
 ___
 
@@ -5556,7 +6349,7 @@ Gets the diagnostic harsh brake identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:545](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L545)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1035](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1035)
 
 ___
 
@@ -5568,7 +6361,7 @@ Gets the diagnostic high voltage while ignition off identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:547](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L547)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1037](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1037)
 
 ___
 
@@ -5580,7 +6373,7 @@ Gets the diagnostic Honda IDO engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:549](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L549)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1039](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1039)
 
 ___
 
@@ -5592,7 +6385,7 @@ Gets the diagnostic horizontal DOP
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:457](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L457)
+[src/types/Checkmate/ObjectModel/KnownId.ts:943](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L943)
 
 ___
 
@@ -5604,7 +6397,7 @@ Gets the diagnostic hybrid engine status identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:551](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L551)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1041](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1041)
 
 ___
 
@@ -5616,7 +6409,31 @@ Gets the diagnostic hybrid vehicle detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:553](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L553)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1043](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1043)
+
+___
+
+### DiagnosticIOXColdConnectionStatusId
+
+• **DiagnosticIOXColdConnectionStatusId** = ``"DiagnosticIOXColdConnectionStatusId"``
+
+Gets the Diagnostic IOX Cold Connection Status identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:561](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L561)
+
+___
+
+### DiagnosticIOXColdRuggedConnectionStatusId
+
+• **DiagnosticIOXColdRuggedConnectionStatusId** = ``"DiagnosticIOXColdRuggedConnectionStatusId"``
+
+Gets the Diagnostic IOX Cold Rugged Connection Status identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:563](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L563)
 
 ___
 
@@ -5628,7 +6445,7 @@ Gets the diagnostic idle shutdown timer active identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:555](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L555)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1045](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1045)
 
 ___
 
@@ -5640,7 +6457,7 @@ Gets the diagnostic idle shutdown timer enabled identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:557](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L557)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1047](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1047)
 
 ___
 
@@ -5652,7 +6469,7 @@ Gets the diagnostic idle shutdown timer override identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:559](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L559)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1049](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1049)
 
 ___
 
@@ -5664,7 +6481,7 @@ Gets the diagnostic ignition identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:561](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L561)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1051](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1051)
 
 ___
 
@@ -5676,7 +6493,7 @@ Gets the diagnostic instantaneous fuel economy identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:563](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L563)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1053](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1053)
 
 ___
 
@@ -5688,7 +6505,7 @@ Gets the diagnostic instantaneous fuel rate identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:565](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L565)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1055](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1055)
 
 ___
 
@@ -5700,7 +6517,7 @@ Gets the diagnostic intermittent connection communications identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:405](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L405)
+[src/types/Checkmate/ObjectModel/KnownId.ts:859](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L859)
 
 ___
 
@@ -5712,7 +6529,7 @@ Gets the diagnostic internal clock stopped identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:567](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L567)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1057](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1057)
 
 ___
 
@@ -5724,7 +6541,7 @@ Gets the diagnostic invalid device type detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:569](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L569)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1059](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1059)
 
 ___
 
@@ -5736,7 +6553,7 @@ Gets the diagnostic invalid driver identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:571](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L571)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1061](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1061)
 
 ___
 
@@ -5748,7 +6565,7 @@ Gets the diagnostic invalid GPS messages received identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:573](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L573)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1063](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1063)
 
 ___
 
@@ -5760,7 +6577,7 @@ Gets the diagnostic invalid opcode reset identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:575](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L575)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1065](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1065)
 
 ___
 
@@ -5772,7 +6589,7 @@ Gets the diagnostic Iridium accelerometer event identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:577](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L577)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1067](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1067)
 
 ___
 
@@ -5784,7 +6601,7 @@ Gets the diagnostic Iridium low voltage identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:579](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L579)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1069](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1069)
 
 ___
 
@@ -5796,7 +6613,7 @@ Gets the diagnostic ISO14230 legacy engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:581](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L581)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1071](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1071)
 
 ___
 
@@ -5808,7 +6625,7 @@ Gets the diagnostic ISO9141 legacy engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:583](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L583)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1073](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1073)
 
 ___
 
@@ -5820,7 +6637,7 @@ Gets the diagnostic J1708 ALDL harness detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:585](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L585)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1075](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1075)
 
 ___
 
@@ -5832,7 +6649,7 @@ Gets the diagnostic J1708 engine hours identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:587](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L587)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1077](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1077)
 
 ___
 
@@ -5844,7 +6661,7 @@ Gets the diagnostic J1708 engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:589](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L589)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1079](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1079)
 
 ___
 
@@ -5856,7 +6673,7 @@ Gets the diagnostic J1708 total vehicle distance identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:591](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L591)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1081](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1081)
 
 ___
 
@@ -5868,7 +6685,7 @@ Gets the diagnostic J1850 PWM legacy engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:593](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L593)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1083](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1083)
 
 ___
 
@@ -5880,7 +6697,7 @@ Gets the diagnostic J1850 VPW legacy engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:595](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L595)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1085](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1085)
 
 ___
 
@@ -5892,7 +6709,7 @@ Gets the diagnostic J1939 CAN engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:597](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L597)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1087](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1087)
 
 ___
 
@@ -5904,7 +6721,7 @@ Gets the diagnostic J1939 engine hours identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:599](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L599)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1089](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1089)
 
 ___
 
@@ -5916,7 +6733,19 @@ Gets the diagnostic J1939 total vehicle distance identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:601](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L601)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1091](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1091)
+
+___
+
+### DiagnosticLeftRearDoorOpenId
+
+• **DiagnosticLeftRearDoorOpenId** = ``"DiagnosticLeftRearDoorOpenId"``
+
+Gets the diagnostic left rear door open
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:947](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L947)
 
 ___
 
@@ -5928,7 +6757,7 @@ Gets the diagnostic left side airbag deployed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:603](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L603)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1093](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1093)
 
 ___
 
@@ -5940,7 +6769,7 @@ Gets the diagnostic left side severity achieved identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:605](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L605)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1095](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1095)
 
 ___
 
@@ -5952,7 +6781,7 @@ Gets the diagnostic left turn signal identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:607](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L607)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1097](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1097)
 
 ___
 
@@ -5964,7 +6793,7 @@ Gets the diagnostic liquid material rate.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:427](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L427)
+[src/types/Checkmate/ObjectModel/KnownId.ts:903](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L903)
 
 ___
 
@@ -5972,11 +6801,11 @@ ___
 
 • **DiagnosticLiquidMaterialTypeId** = ``"DiagnosticLiquidMaterialTypeId"``
 
-Gets the diagnostic liquid material type.
+Gets the diagnostic truck liquid material type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:417](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L417)
+[src/types/Checkmate/ObjectModel/KnownId.ts:881](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L881)
 
 ___
 
@@ -5988,7 +6817,7 @@ Gets the diagnostic third party (custom device) log data buffer overrun value.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:351](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L351)
+[src/types/Checkmate/ObjectModel/KnownId.ts:805](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L805)
 
 ___
 
@@ -6000,7 +6829,7 @@ Gets the diagnostic low priority warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:609](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L609)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1099](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1099)
 
 ___
 
@@ -6012,7 +6841,7 @@ Gets the diagnostic memory allocation error identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:611](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L611)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1101](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1101)
 
 ___
 
@@ -6024,7 +6853,7 @@ Gets the diagnostic memory pointer error identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:613](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L613)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1103](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1103)
 
 ___
 
@@ -6036,7 +6865,7 @@ Gets the diagnostic OBD odometer reader identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:623](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L623)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1113](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1113)
 
 ___
 
@@ -6048,7 +6877,7 @@ Gets the diagnostic OBD port alert status identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:625](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L625)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1115](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1115)
 
 ___
 
@@ -6060,7 +6889,7 @@ Gets the diagnostic OBDCAN 11 Bit 250 K engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:615](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L615)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1105](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1105)
 
 ___
 
@@ -6072,7 +6901,7 @@ Gets the diagnostic OBDCAN 11 Bit 500 K engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:617](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L617)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1107](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1107)
 
 ___
 
@@ -6084,7 +6913,7 @@ Gets the diagnostic OBDCAN 29 Bit 250 K engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:619](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L619)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1109](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1109)
 
 ___
 
@@ -6096,7 +6925,7 @@ Gets the diagnostic OBDCAN 29 Bit 500 K engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:621](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L621)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1111](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1111)
 
 ___
 
@@ -6108,7 +6937,7 @@ Gets the diagnostic odometer adjustment identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:627](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L627)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1117](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1117)
 
 ___
 
@@ -6120,7 +6949,7 @@ Gets the diagnostic odometer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:631](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L631)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1121](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1121)
 
 ___
 
@@ -6132,7 +6961,31 @@ Gets the diagnostic oil change due warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:635](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L635)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1125](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1125)
+
+___
+
+### DiagnosticOilChangeLowerBoundDistancePredictionId
+
+• **DiagnosticOilChangeLowerBoundDistancePredictionId** = ``"DiagnosticOilChangeLowerBoundDistancePredictionId"``
+
+Gets the diagnosticId for Oil Change Lower Bound Distance Prediction.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2826](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2826)
+
+___
+
+### DiagnosticOilChangeLowerBoundTimePredictionId
+
+• **DiagnosticOilChangeLowerBoundTimePredictionId** = ``"DiagnosticOilChangeLowerBoundTimePredictionId"``
+
+Gets the diagnosticId for Oil Change Lower Bound Time Prediction.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2824](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2824)
 
 ___
 
@@ -6144,7 +6997,7 @@ Gets the diagnostic oil level low warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:637](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L637)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1127](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1127)
 
 ___
 
@@ -6156,7 +7009,7 @@ Gets the diagnostic oil light on identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:639](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L639)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1129](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1129)
 
 ___
 
@@ -6168,7 +7021,7 @@ Gets the diagnostic oil pressure identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:641](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L641)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1131](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1131)
 
 ___
 
@@ -6180,7 +7033,7 @@ Gets the diagnostic id for the power going into the on-board charger from an AC 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:839](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L839)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1331](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1331)
 
 ___
 
@@ -6192,7 +7045,7 @@ Gets the diagnostic id for AC voltage.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:831](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L831)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1323](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1323)
 
 ___
 
@@ -6204,7 +7057,7 @@ Gets the diagnostic id for the power coming out of the on-board charger in the f
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:841](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L841)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1333](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1333)
 
 ___
 
@@ -6216,7 +7069,7 @@ Gets the diagnostic outside temperature identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:643](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L643)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1133](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1133)
 
 ___
 
@@ -6228,7 +7081,7 @@ Gets the diagnostic panic identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:645](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L645)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1135](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1135)
 
 ___
 
@@ -6240,7 +7093,7 @@ Gets the diagnostic parking brake identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:653](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L653)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1143](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1143)
 
 ___
 
@@ -6252,7 +7105,7 @@ Gets the diagnostic passenger airbag deployed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:655](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L655)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1145](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1145)
 
 ___
 
@@ -6264,7 +7117,7 @@ Gets the diagnostic passenger occupancy identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:657](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L657)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1147](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1147)
 
 ___
 
@@ -6276,7 +7129,7 @@ Gets the diagnostic passenger seat belt violation identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:659](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L659)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1149](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1149)
 
 ___
 
@@ -6288,7 +7141,7 @@ Gets the diagnostic position valid identifier from device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:663](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L663)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1153](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1153)
 
 ___
 
@@ -6300,7 +7153,7 @@ Gets the diagnostic position valid identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:661](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L661)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1151](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1151)
 
 ___
 
@@ -6312,7 +7165,7 @@ Gets the diagnostic possible collision detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:647](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L647)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1137](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1137)
 
 ___
 
@@ -6324,7 +7177,7 @@ Gets the diagnostic potential bad install identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:649](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L649)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1139](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1139)
 
 ___
 
@@ -6336,7 +7189,7 @@ Gets the diagnostic power takeoff engaged identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:665](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L665)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1155](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1155)
 
 ___
 
@@ -6348,7 +7201,7 @@ Gets the diagnostic power takeoff total fuel used identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:667](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L667)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1157](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1157)
 
 ___
 
@@ -6356,11 +7209,11 @@ ___
 
 • **DiagnosticPreWetMaterialRateId** = ``"DiagnosticPreWetMaterialRateId"``
 
-Gets the diagnostic pre wet material rate.
+Gets the diagnostic truck pre wet material rate.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:425](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L425)
+[src/types/Checkmate/ObjectModel/KnownId.ts:899](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L899)
 
 ___
 
@@ -6368,11 +7221,11 @@ ___
 
 • **DiagnosticPreWetMaterialTypeId** = ``"DiagnosticPreWetMaterialTypeId"``
 
-Gets the diagnostic pre wet material type.
+Gets the diagnostic truck pre wet material type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:413](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L413)
+[src/types/Checkmate/ObjectModel/KnownId.ts:873](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L873)
 
 ___
 
@@ -6384,7 +7237,7 @@ Gets the diagnostic PTO enabled identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:669](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L669)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1159](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1159)
 
 ___
 
@@ -6396,7 +7249,19 @@ Gets the diagnostic ram memory failure id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:785](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L785)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1277](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1277)
+
+___
+
+### DiagnosticRawEngineHoursId
+
+• **DiagnosticRawEngineHoursId** = ``"DiagnosticRawEngineHoursId"``
+
+Gets the diagnostic raw engine hours identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:797](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L797)
 
 ___
 
@@ -6408,7 +7273,7 @@ Gets the diagnostic raw odometer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:629](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L629)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1119](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1119)
 
 ___
 
@@ -6420,7 +7285,7 @@ Gets the diagnostic rear impact severity achieved identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:671](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L671)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1161](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1161)
 
 ___
 
@@ -6432,7 +7297,7 @@ Gets the diagnostic id for peripheral device: reefer temp zone 1.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:789](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L789)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1281](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1281)
 
 ___
 
@@ -6444,7 +7309,7 @@ Gets the diagnostic id for peripheral device: reefer temp zone 2.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:791](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L791)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1283](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1283)
 
 ___
 
@@ -6456,7 +7321,7 @@ Gets the diagnostic id for peripheral device: reefer temp zone 3.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:793](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L793)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1285](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1285)
 
 ___
 
@@ -6468,7 +7333,7 @@ Gets the diagnostic id for peripheral device: reefer temp zone 4.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:795](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L795)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1287](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1287)
 
 ___
 
@@ -6480,7 +7345,7 @@ Gets the diagnostic restarted the modem manager state machine identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:673](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L673)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1163](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1163)
 
 ___
 
@@ -6492,7 +7357,7 @@ Gets the diagnostic restarted the modem state machine identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:675](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L675)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1165](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1165)
 
 ___
 
@@ -6504,7 +7369,7 @@ Gets the diagnostic restarted the radio manager state machine identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:683](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L683)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1175](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1175)
 
 ___
 
@@ -6516,7 +7381,7 @@ Gets the diagnostic restarted the radio state machine identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:685](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L685)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1177](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1177)
 
 ___
 
@@ -6528,7 +7393,7 @@ Gets the diagnostic restarted the WIFI manager state machine identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:687](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L687)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1179](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1179)
 
 ___
 
@@ -6540,7 +7405,7 @@ Gets the diagnostic restarted the WIFI state machine identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:689](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L689)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1181](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1181)
 
 ___
 
@@ -6552,7 +7417,7 @@ Gets the diagnostic RF module failure identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:691](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L691)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1183](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1183)
 
 ___
 
@@ -6564,7 +7429,19 @@ Gets the diagnostic RF module mac address error identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:693](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L693)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1185](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1185)
+
+___
+
+### DiagnosticRightRearDoorOpenId
+
+• **DiagnosticRightRearDoorOpenId** = ``"DiagnosticRightRearDoorOpenId"``
+
+Gets the diagnostic right rear door open
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:945](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L945)
 
 ___
 
@@ -6576,7 +7453,7 @@ Gets the diagnostic right side airbag deployed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:695](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L695)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1187](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1187)
 
 ___
 
@@ -6588,7 +7465,7 @@ Gets the diagnostic right side severity achieved identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:697](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L697)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1189](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1189)
 
 ___
 
@@ -6600,7 +7477,7 @@ Gets the diagnostic right turn signal identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:699](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L699)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1191](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1191)
 
 ___
 
@@ -6612,7 +7489,7 @@ Gets the diagnostic rollover severity achieved identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:701](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L701)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1193](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1193)
 
 ___
 
@@ -6624,7 +7501,7 @@ Gets the diagnostic second row left seat belt identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:705](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L705)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1197](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1197)
 
 ___
 
@@ -6636,7 +7513,7 @@ Gets the diagnostic second row middle seat belt identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:707](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L707)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1199](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1199)
 
 ___
 
@@ -6648,7 +7525,7 @@ Gets the diagnostic second row right seat belt identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:709](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L709)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1201](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1201)
 
 ___
 
@@ -6660,7 +7537,7 @@ Gets the diagnostic secondary can bus failed to initialize identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:703](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L703)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1195](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1195)
 
 ___
 
@@ -6672,7 +7549,7 @@ Gets the diagnostic slave processor failure identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:711](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L711)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1203](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1203)
 
 ___
 
@@ -6680,11 +7557,11 @@ ___
 
 • **DiagnosticSolidMaterialActiveId** = ``"DiagnosticSolidMaterialActiveId"``
 
-Gets the diagnostic solid material active.
+Gets the diagnostic truck solid material active.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:419](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L419)
+[src/types/Checkmate/ObjectModel/KnownId.ts:885](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L885)
 
 ___
 
@@ -6692,11 +7569,11 @@ ___
 
 • **DiagnosticSolidMaterialRateId** = ``"DiagnosticSolidMaterialRateId"``
 
-Gets the diagnostic solid material rate.
+Gets the diagnostic truck solid material rate.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:423](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L423)
+[src/types/Checkmate/ObjectModel/KnownId.ts:895](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L895)
 
 ___
 
@@ -6704,11 +7581,11 @@ ___
 
 • **DiagnosticSolidMaterialTypeId** = ``"DiagnosticSolidMaterialTypeId"``
 
-Gets the diagnostic solid material type.
+Gets the diagnostic truck solid material type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:409](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L409)
+[src/types/Checkmate/ObjectModel/KnownId.ts:865](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L865)
 
 ___
 
@@ -6720,7 +7597,7 @@ Gets the diagnostic standard harness detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:713](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L713)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1205](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1205)
 
 ___
 
@@ -6732,7 +7609,7 @@ Gets the diagnostic id for State of Charge (SOC).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:813](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L813)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1305](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1305)
 
 ___
 
@@ -6744,7 +7621,7 @@ Gets the diagnostic panic identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:651](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L651)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1141](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1141)
 
 ___
 
@@ -6756,7 +7633,7 @@ Gets the diagnostic Third Party Aux 1
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:433](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L433)
+[src/types/Checkmate/ObjectModel/KnownId.ts:911](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L911)
 
 ___
 
@@ -6768,7 +7645,7 @@ Gets the diagnostic Third Party Aux 2
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:435](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L435)
+[src/types/Checkmate/ObjectModel/KnownId.ts:913](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L913)
 
 ___
 
@@ -6776,11 +7653,11 @@ ___
 
 • **DiagnosticThirdPartyAux3Id** = ``"DiagnosticThirdPartyAux3Id"``
 
-Gets the diagnostic hird Party Aux 3
+Gets the diagnostic Third Party Aux 3
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:437](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L437)
+[src/types/Checkmate/ObjectModel/KnownId.ts:915](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L915)
 
 ___
 
@@ -6788,11 +7665,59 @@ ___
 
 • **DiagnosticThirdPartyAux4Id** = ``"DiagnosticThirdPartyAux4Id"``
 
-Gets the diagnostic hird Party Aux 3
+Gets the diagnostic Third Party Aux 4
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:439](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L439)
+[src/types/Checkmate/ObjectModel/KnownId.ts:917](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L917)
+
+___
+
+### DiagnosticThirdPartyAux5Id
+
+• **DiagnosticThirdPartyAux5Id** = ``"DiagnosticThirdPartyAux5Id"``
+
+Gets the diagnostic Third Party Aux 5
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:919](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L919)
+
+___
+
+### DiagnosticThirdPartyAux6Id
+
+• **DiagnosticThirdPartyAux6Id** = ``"DiagnosticThirdPartyAux6Id"``
+
+Gets the diagnostic Third Party Aux 6
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:921](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L921)
+
+___
+
+### DiagnosticThirdPartyAux7Id
+
+• **DiagnosticThirdPartyAux7Id** = ``"DiagnosticThirdPartyAux7Id"``
+
+Gets the diagnostic Third Party Aux 7
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:923](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L923)
+
+___
+
+### DiagnosticThirdPartyAux8Id
+
+• **DiagnosticThirdPartyAux8Id** = ``"DiagnosticThirdPartyAux8Id"``
+
+Gets the diagnostic Third Party Aux 8
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:925](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L925)
 
 ___
 
@@ -6804,7 +7729,7 @@ Gets the diagnostic third party (custom device) device power change value.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:349](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L349)
+[src/types/Checkmate/ObjectModel/KnownId.ts:803](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L803)
 
 ___
 
@@ -6816,7 +7741,7 @@ Gets the diagnostic third party (custom device) engine data active value.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:357](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L357)
+[src/types/Checkmate/ObjectModel/KnownId.ts:811](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L811)
 
 ___
 
@@ -6828,7 +7753,7 @@ Gets the diagnostic engine road speed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:379](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L379)
+[src/types/Checkmate/ObjectModel/KnownId.ts:833](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L833)
 
 ___
 
@@ -6840,7 +7765,7 @@ Gets the diagnostic third party (custom device) engine hours identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:347](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L347)
+[src/types/Checkmate/ObjectModel/KnownId.ts:801](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L801)
 
 ___
 
@@ -6852,7 +7777,7 @@ Gets the diagnostic log third party data buffer overrun value.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:355](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L355)
+[src/types/Checkmate/ObjectModel/KnownId.ts:809](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L809)
 
 ___
 
@@ -6864,7 +7789,7 @@ Gets the third party (custom device) diagnostic odometer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:633](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L633)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1123](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1123)
 
 ___
 
@@ -6876,7 +7801,7 @@ Gets the diagnostic third row left seat belt identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:715](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L715)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1207](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1207)
 
 ___
 
@@ -6888,7 +7813,7 @@ Gets the diagnostic third row middle seat belt identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:717](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L717)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1209](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1209)
 
 ___
 
@@ -6900,7 +7825,7 @@ Gets the diagnostic third row right seat belt identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:719](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L719)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1211](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1211)
 
 ___
 
@@ -6912,7 +7837,7 @@ Gets the diagnostic tire pressure front left identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:721](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L721)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1213](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1213)
 
 ___
 
@@ -6924,7 +7849,7 @@ Gets the diagnostic tire pressure front right identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:723](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L723)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1215](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1215)
 
 ___
 
@@ -6936,7 +7861,7 @@ Gets the diagnostic tire pressure rear left identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:725](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L725)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1217](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1217)
 
 ___
 
@@ -6948,7 +7873,7 @@ Gets the diagnostic tire pressure rear right identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:727](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L727)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1219](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1219)
 
 ___
 
@@ -6960,7 +7885,7 @@ Gets the diagnostic tire pressure spare identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:729](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L729)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1221](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1221)
 
 ___
 
@@ -6972,7 +7897,7 @@ Gets the diagnostic tire warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:731](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L731)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1223](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1223)
 
 ___
 
@@ -6984,7 +7909,7 @@ Gets the diagnostic too many engine records identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:733](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L733)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1225](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1225)
 
 ___
 
@@ -6996,7 +7921,7 @@ Gets the diagnostic too many logs in multilog identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:735](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L735)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1227](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1227)
 
 ___
 
@@ -7008,7 +7933,7 @@ Gets the diagnostic total air used identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:737](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L737)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1229](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1229)
 
 ___
 
@@ -7020,7 +7945,7 @@ Gets the diagnostic total fuel used identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:739](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L739)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1231](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1231)
 
 ___
 
@@ -7032,7 +7957,7 @@ Gets the diagnostic total idle air used identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:741](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L741)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1233](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1233)
 
 ___
 
@@ -7044,7 +7969,7 @@ Gets the diagnostic total idle fuel used identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:743](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L743)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1235](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1235)
 
 ___
 
@@ -7056,7 +7981,7 @@ Gets the diagnostic total idle hours identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:745](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L745)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1237](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1237)
 
 ___
 
@@ -7068,7 +7993,7 @@ Gets the diagnostic id for total lifetime battery energy in during AC charging.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:815](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L815)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1307](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1307)
 
 ___
 
@@ -7080,7 +8005,7 @@ Gets the diagnostic id for total lifetime battery energy in during DC charging.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:819](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L819)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1311](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1311)
 
 ___
 
@@ -7092,7 +8017,7 @@ Gets the diagnostic id for total lifetime battery energy out during AC charging.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:817](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L817)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1309](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1309)
 
 ___
 
@@ -7104,7 +8029,7 @@ Gets the diagnostic id for total lifetime battery energy out during DC charging.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:821](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L821)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1313](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1313)
 
 ___
 
@@ -7116,7 +8041,7 @@ Gets the electric vehicle battery total energy in while idling identifier. Units
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:827](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L827)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1319](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1319)
 
 ___
 
@@ -7128,7 +8053,7 @@ Gets the electric vehicle battery total energy in while idling identifier. Units
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:829](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L829)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1321](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1321)
 
 ___
 
@@ -7140,7 +8065,7 @@ Gets the diagnostic id for total lifetime on board charger energy from an AC EVS
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:825](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L825)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1317](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1317)
 
 ___
 
@@ -7152,7 +8077,7 @@ Gets the diagnostic id for Electric vehicle on-board charger total energy out du
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:823](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L823)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1315](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1315)
 
 ___
 
@@ -7164,7 +8089,7 @@ Gets the diagnostic total PTO hours identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:747](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L747)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1239](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1239)
 
 ___
 
@@ -7176,7 +8101,7 @@ Gets the diagnostic total trip fuel used identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:749](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L749)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1241](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1241)
 
 ___
 
@@ -7188,7 +8113,151 @@ Gets the diagnostic total trip idle fuel used identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:751](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L751)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1243](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1243)
+
+___
+
+### DiagnosticTowPlowLiquidMaterialActiveId
+
+• **DiagnosticTowPlowLiquidMaterialActiveId** = ``"DiagnosticTowPlowLiquidMaterialActiveId"``
+
+Gets the diagnostic tow plow liquid material type.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:891](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L891)
+
+___
+
+### DiagnosticTowPlowLiquidMaterialRateId
+
+• **DiagnosticTowPlowLiquidMaterialRateId** = ``"DiagnosticTowPlowLiquidMaterialRateId"``
+
+Gets the diagnostic tow plow liquid material rate.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:905](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L905)
+
+___
+
+### DiagnosticTowPlowLiquidMaterialTotalId
+
+• **DiagnosticTowPlowLiquidMaterialTotalId** = ``"DiagnosticTowPlowLiquidMaterialTotalId"``
+
+Gets the diagnostic tow plow liquid material total.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:879](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L879)
+
+___
+
+### DiagnosticTowPlowLiquidMaterialTypeId
+
+• **DiagnosticTowPlowLiquidMaterialTypeId** = ``"DiagnosticTowPlowLiquidMaterialTypeId"``
+
+Gets the diagnostic tow plow liquid material type.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:883](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L883)
+
+___
+
+### DiagnosticTowPlowPreWetMaterialActiveId
+
+• **DiagnosticTowPlowPreWetMaterialActiveId** = ``"DiagnosticTowPlowPreWetMaterialActiveId"``
+
+Gets the diagnostic tow plow pre wet material active.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:889](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L889)
+
+___
+
+### DiagnosticTowPlowPreWetMaterialRateId
+
+• **DiagnosticTowPlowPreWetMaterialRateId** = ``"DiagnosticTowPlowPreWetMaterialRateId"``
+
+Gets the diagnostic tow plow pre wet material rate.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:901](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L901)
+
+___
+
+### DiagnosticTowPlowPreWetMaterialTotalId
+
+• **DiagnosticTowPlowPreWetMaterialTotalId** = ``"DiagnosticTowPlowPreWetMaterialTotalId"``
+
+Gets the diagnostic tow plow pre wet material total.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:871](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L871)
+
+___
+
+### DiagnosticTowPlowPreWetMaterialTypeId
+
+• **DiagnosticTowPlowPreWetMaterialTypeId** = ``"DiagnosticTowPlowPreWetMaterialTypeId"``
+
+Gets the diagnostic tow plow pre wet material type.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:875](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L875)
+
+___
+
+### DiagnosticTowPlowSolidMaterialActiveId
+
+• **DiagnosticTowPlowSolidMaterialActiveId** = ``"DiagnosticTowPlowSolidMaterialActiveId"``
+
+Gets the diagnostic tow plow solid material active.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:887](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L887)
+
+___
+
+### DiagnosticTowPlowSolidMaterialRateId
+
+• **DiagnosticTowPlowSolidMaterialRateId** = ``"DiagnosticTowPlowSolidMaterialRateId"``
+
+Gets the diagnostic tow plow solid material rate.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:897](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L897)
+
+___
+
+### DiagnosticTowPlowSolidMaterialTotalId
+
+• **DiagnosticTowPlowSolidMaterialTotalId** = ``"DiagnosticTowPlowSolidMaterialTotalId"``
+
+Gets the diagnostic tow plow solid material total.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:863](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L863)
+
+___
+
+### DiagnosticTowPlowSolidMaterialTypeId
+
+• **DiagnosticTowPlowSolidMaterialTypeId** = ``"DiagnosticTowPlowSolidMaterialTypeId"``
+
+Gets the diagnostic tow plow solid material type.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:867](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L867)
 
 ___
 
@@ -7200,7 +8269,7 @@ Gets the diagnostic Toyota ISO engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:753](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L753)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1245](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1245)
 
 ___
 
@@ -7212,7 +8281,7 @@ Gets the diagnostic traction control system active identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:755](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L755)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1247](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1247)
 
 ___
 
@@ -7224,7 +8293,7 @@ Gets the diagnostic traction control system enabled identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:757](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L757)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1249](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1249)
 
 ___
 
@@ -7236,7 +8305,7 @@ Gets the diagnostic transmission oil change warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:759](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L759)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1251](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1251)
 
 ___
 
@@ -7248,7 +8317,7 @@ Gets the diagnostic transmission oil level identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:761](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L761)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1253](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1253)
 
 ___
 
@@ -7260,7 +8329,7 @@ Gets the diagnostic trip distance identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:763](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L763)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1255](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1255)
 
 ___
 
@@ -7272,7 +8341,7 @@ Gets the diagnostic truck liquid material total.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:415](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L415)
+[src/types/Checkmate/ObjectModel/KnownId.ts:877](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L877)
 
 ___
 
@@ -7284,7 +8353,7 @@ Gets the diagnostic truck pre wet material total.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:411](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L411)
+[src/types/Checkmate/ObjectModel/KnownId.ts:869](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L869)
 
 ___
 
@@ -7296,7 +8365,7 @@ Gets the diagnostic truck solid material total.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:407](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L407)
+[src/types/Checkmate/ObjectModel/KnownId.ts:861](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L861)
 
 ___
 
@@ -7308,7 +8377,7 @@ Gets the diagnostic undefined engine protocol detected identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:765](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L765)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1257](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1257)
 
 ___
 
@@ -7320,7 +8389,7 @@ Gets the diagnostic vehicle ABS system failed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:767](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L767)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1259](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1259)
 
 ___
 
@@ -7332,7 +8401,7 @@ Gets the diagnostic vehicle active (idle or driving) id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:787](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L787)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1279](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1279)
 
 ___
 
@@ -7344,7 +8413,7 @@ Gets the diagnostic vehicle AWD system failed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:769](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L769)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1261](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1261)
 
 ___
 
@@ -7356,7 +8425,7 @@ Gets the diagnostic vehicle battery low voltage identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:771](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L771)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1263](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1263)
 
 ___
 
@@ -7368,7 +8437,7 @@ Gets the diagnostic vehicle programmed cruise high speed limit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:773](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L773)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1265](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1265)
 
 ___
 
@@ -7380,7 +8449,7 @@ Gets the diagnostic vehicle programmed maximum road speed limit enabled identifi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:775](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L775)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1267](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1267)
 
 ___
 
@@ -7392,7 +8461,19 @@ Gets the diagnostic vehicle programmed maximum road speed limit identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:777](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L777)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1269](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1269)
+
+___
+
+### DiagnosticVehicleWarningLightStatusId
+
+• **DiagnosticVehicleWarningLightStatusId** = ``"DiagnosticVehicleWarningLightStatusId"``
+
+Gets the diagnostic general vehicle warning light identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:301](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L301)
 
 ___
 
@@ -7404,7 +8485,7 @@ Gets the diagnostic VIN request failure identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:779](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L779)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1271](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1271)
 
 ___
 
@@ -7416,7 +8497,7 @@ Gets the diagnostic washer fluid level identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:781](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L781)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1273](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1273)
 
 ___
 
@@ -7428,7 +8509,7 @@ Gets the diagnostic water detected in fuel warning light identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:783](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L783)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1275](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1275)
 
 ___
 
@@ -7440,7 +8521,19 @@ Gets the diagnostic wifi hotspot data usage identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:677](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L677)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1167](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1167)
+
+___
+
+### DiscreteAvailabilitySnapshotBigQueryUploadRequestId
+
+• **DiscreteAvailabilitySnapshotBigQueryUploadRequestId** = ``"DiscreteAvailabilitySnapshotBigQueryUploadRequestId"``
+
+Gets the Id of the DiscreteAvailabilitySnapshotBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:417](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L417)
 
 ___
 
@@ -7452,7 +8545,7 @@ Gets DisplayMeasurementProfile United States Identity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1729](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1729)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2316](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2316)
 
 ___
 
@@ -7464,7 +8557,7 @@ Gets DisplayMeasurementProfile Asia Identity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1727](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1727)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2314](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2314)
 
 ___
 
@@ -7476,7 +8569,7 @@ Gets DisplayMeasurementProfile Australia and New Zealand Identity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1723](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1723)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2310](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2310)
 
 ___
 
@@ -7488,7 +8581,7 @@ Gets DisplayMeasurementProfile Canada Identity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1713](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1713)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2300](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2300)
 
 ___
 
@@ -7500,7 +8593,7 @@ Gets DisplayMeasurementProfile Central and South America Identity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1725](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1725)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2312](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2312)
 
 ___
 
@@ -7512,7 +8605,7 @@ Gets DisplayMeasurementProfile Default Identity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1711](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1711)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2298](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2298)
 
 ___
 
@@ -7524,7 +8617,7 @@ Gets DisplayMeasurementProfile Europe Identity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1721](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1721)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2308](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2308)
 
 ___
 
@@ -7536,7 +8629,7 @@ Gets DisplayMeasurementProfile Mexico Identity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1719](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1719)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2306](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2306)
 
 ___
 
@@ -7548,7 +8641,7 @@ Gets DisplayMeasurementProfile UK Identity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1717](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1717)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2304](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2304)
 
 ___
 
@@ -7560,7 +8653,7 @@ Gets DisplayMeasurementProfile United States Identity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1715](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1715)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2302](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2302)
 
 ___
 
@@ -7572,7 +8665,7 @@ Gets the MediaFile SolutionId associated with display pictures.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2161](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2161)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2772](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2772)
 
 ___
 
@@ -7584,7 +8677,7 @@ Gets Identity DisplayUnitOfMeasure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1707](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1707)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2294](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2294)
 
 ___
 
@@ -7596,7 +8689,7 @@ Gets the distribution list import/export identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1325](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1325)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1864](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1864)
 
 ___
 
@@ -7608,7 +8701,55 @@ Gets the distribution list news identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1323](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1323)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1862](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1862)
+
+___
+
+### DriverChangeEntityUploadRequestId
+
+• **DriverChangeEntityUploadRequestId** = ``"DriverChangeEntityUploadRequestId"``
+
+Gets the Id of the DriverChangeEntityUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:321](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L321)
+
+___
+
+### DutyStatusLogBigQueryUploadRequestId
+
+• **DutyStatusLogBigQueryUploadRequestId** = ``"DutyStatusLogBigQueryUploadRequestId"``
+
+Gets the Id of the DutyStatusLogBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:325](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L325)
+
+___
+
+### DutyStatusLogLegacyBigQueryUploadRequestId
+
+• **DutyStatusLogLegacyBigQueryUploadRequestId** = ``"DutyStatusLogLegacyUploadRequestId"``
+
+Gets the Id of the DutyStatusLogLegacyBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:351](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L351)
+
+___
+
+### DutyStatusViolationBigQueryUploadRequestId
+
+• **DutyStatusViolationBigQueryUploadRequestId** = ``"DutyStatusViolationBigQueryUploadRequestId"``
+
+Gets the Id of the DutyStatusViolationBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:387](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L387)
 
 ___
 
@@ -7620,7 +8761,33 @@ Gets the email template default application exception identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:843](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L843)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1335](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1335)
+
+___
+
+### EmailTemplateDefaultCollisionNotificationId
+
+• **EmailTemplateDefaultCollisionNotificationId** = ``"EmailTemplateDefaultCollisionNotificationId"``
+
+Gets the email template default collision notification identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:615](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L615)
+
+___
+
+### EmailTemplateDefaultCriticalLowTirePressureId
+
+• **EmailTemplateDefaultCriticalLowTirePressureId** = ``"EmailTemplateDefaultCriticalLowTirePressureId"``
+
+Gets the email template default critical low tire pressure identifier.
+ Note: ID -8 is used because -7 is assigned to PushNotificationTemplateDefaultExceptionRuleId.
+ This is the 8th system NotificationBinaryFile template.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:621](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L621)
 
 ___
 
@@ -7632,7 +8799,7 @@ Gets the email template default exception rule identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:845](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L845)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1337](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1337)
 
 ___
 
@@ -7644,7 +8811,43 @@ Gets the default email template identifier for mainteannce reminders.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:847](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L847)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1339](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1339)
+
+___
+
+### EmissionComplianceEventBigQueryUploadRequestId
+
+• **EmissionComplianceEventBigQueryUploadRequestId** = ``"EmissionComplianceEventBigQueryUploadRequestId"``
+
+Gets the Id of the EmissionComplianceEventBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:385](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L385)
+
+___
+
+### EmissionVehicleEnrollmentBigQueryUploadRequestId
+
+• **EmissionVehicleEnrollmentBigQueryUploadRequestId** = ``"EmissionVehicleEnrollmentBigQueryUploadRequestId"``
+
+Gets the Id of the EmissionVehicleEnrollmentBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:381](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L381)
+
+___
+
+### EnergySnapshotBigQueryUploadRequestId
+
+• **EnergySnapshotBigQueryUploadRequestId** = ``"EnergySnapshotBigQueryUploadRequestId"``
+
+Gets the Id of the EnergySnapshotBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:327](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L327)
 
 ___
 
@@ -7656,7 +8859,7 @@ Gets the engine type generic identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:849](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L849)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1341](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1341)
 
 ___
 
@@ -7668,7 +8871,67 @@ Gets the engine type none identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:851](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L851)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1343](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1343)
+
+___
+
+### EstimatedBatteryLifeForGoAnywhere
+
+• **EstimatedBatteryLifeForGoAnywhere** = ``"EstimatedBatteryLifeForGoAnywhere"``
+
+Gets the estimated battery life for Go Anywhere
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:291](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L291)
+
+___
+
+### EventRuleElectricalSystemMaintenanceId
+
+• **EventRuleElectricalSystemMaintenanceId** = ``"EventRuleElectricalSystemMaintenanceId"``
+
+Gets the event rule identifier for electrical system maintenance.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1355](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1355)
+
+___
+
+### EventRuleOilChangeId
+
+• **EventRuleOilChangeId** = ``"EventRuleOilChangeId"``
+
+Gets the event rule identifier for oil change.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1353](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1353)
+
+___
+
+### EventTypeBigQueryUploadRequestId
+
+• **EventTypeBigQueryUploadRequestId** = ``"EventTypeBigQueryUploadRequestId"``
+
+Gets the Id of the EventTypeBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:391](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L391)
+
+___
+
+### EventTypeElectricalSystemMaintenanceId
+
+• **EventTypeElectricalSystemMaintenanceId** = ``"EventTypeElectricalSystemMaintenanceId"``
+
+Gets the event type electrical system maintenance identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1357](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1357)
 
 ___
 
@@ -7680,7 +8943,7 @@ Gets the event type lease expiry identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:853](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L853)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1345](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1345)
 
 ___
 
@@ -7692,7 +8955,7 @@ Gets the event type license plate expiry identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:855](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L855)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1347](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1347)
 
 ___
 
@@ -7704,7 +8967,7 @@ Gets the event type oil change identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:857](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L857)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1349](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1349)
 
 ___
 
@@ -7716,7 +8979,55 @@ Gets the event type tire rotation identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:859](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L859)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1351](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1351)
+
+___
+
+### ExceptionEventBigQueryUploadRequestId
+
+• **ExceptionEventBigQueryUploadRequestId** = ``"ExceptionEventBigQueryUploadRequestId"``
+
+Gets the Id of the ExceptionEventBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:329](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L329)
+
+___
+
+### ExceptionEventMediaLinkBigQueryUploadRequestId
+
+• **ExceptionEventMediaLinkBigQueryUploadRequestId** = ``"ExceptionEventMediaLinkBigQueryUploadRequestId"``
+
+Gets the Id of the ExceptionEventMediaLinkBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:403](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L403)
+
+___
+
+### ExceptionEventSoftDeleteBigQueryUploadRequestId
+
+• **ExceptionEventSoftDeleteBigQueryUploadRequestId** = ``"ExceptionEventSoftDeleteBigQueryUploadRequestId"``
+
+Gets the Id of the ExceptionEventSoftDeleteBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:389](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L389)
+
+___
+
+### ExceptionEventStateCoachingCompletedId
+
+• **ExceptionEventStateCoachingCompletedId** = ``"ExceptionEventStateCoachingCompletedId"``
+
+Gets the ExceptionEventState Coaching Completed identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:539](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L539)
 
 ___
 
@@ -7728,7 +9039,7 @@ Gets the ExceptionEventState Dismissed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1481](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1481)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2038](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2038)
 
 ___
 
@@ -7740,7 +9051,43 @@ Gets the ExceptionEventState Invalid identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1479](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1479)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2036](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2036)
+
+___
+
+### ExceptionEventStateMarkedForCoachingId
+
+• **ExceptionEventStateMarkedForCoachingId** = ``"ExceptionEventStateMarkedForCoachingId"``
+
+Gets the ExceptionEventState Marked For Coaching identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:537](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L537)
+
+___
+
+### ExceptionEventStatePositiveRecognitionId
+
+• **ExceptionEventStatePositiveRecognitionId** = ``"ExceptionEventStatePositiveRecognitionId"``
+
+Gets the ExceptionEventState Positive Recognition identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:541](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L541)
+
+___
+
+### ExceptionEventStateSavedForLaterId
+
+• **ExceptionEventStateSavedForLaterId** = ``"ExceptionEventStateSavedForLaterId"``
+
+Gets the ExceptionEventState Saved For Later identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:543](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L543)
 
 ___
 
@@ -7752,7 +9099,523 @@ Gets the ExceptionEventState Valid identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1477](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1477)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2034](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2034)
+
+___
+
+### ExceptionRuleReasonLongProcessingTimeId
+
+• **ExceptionRuleReasonLongProcessingTimeId** = ``"ExceptionRuleReasonLongProcessingTimeId"``
+
+Gets the ExceptionRuleReason identifier for Long Processing Time.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2058](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2058)
+
+___
+
+### ExceptionRuleReasonManualArchivedId
+
+• **ExceptionRuleReasonManualArchivedId** = ``"ExceptionRuleReasonManualArchivedId"``
+
+Gets the ExceptionRuleReason identifier for Manual Archiving
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2062](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2062)
+
+___
+
+### ExceptionRuleReasonNoneId
+
+• **ExceptionRuleReasonNoneId** = ``"ExceptionRuleReasonNoneId"``
+
+Gets the ExceptionRuleReason identifier for None.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2054](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2054)
+
+___
+
+### ExceptionRuleReasonTooLongOfExceptionEventsId
+
+• **ExceptionRuleReasonTooLongOfExceptionEventsId** = ``"ExceptionRuleReasonTooLongOfExceptionEventsId"``
+
+Gets the ExceptionRuleReason identifier for Too Long of Exception Events.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2060](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2060)
+
+___
+
+### ExceptionRuleReasonTooManyExceptionEventsId
+
+• **ExceptionRuleReasonTooManyExceptionEventsId** = ``"ExceptionRuleReasonTooManyExceptionEventsId"``
+
+Gets the ExceptionRuleReason identifier for Too Many Exception Events.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2056](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2056)
+
+___
+
+### ExceptionRuleStateActiveId
+
+• **ExceptionRuleStateActiveId** = ``"ExceptionRuleStateActiveId"``
+
+Gets the ExceptionRuleState identifier for Active.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2046](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2046)
+
+___
+
+### ExceptionRuleStateArchivedId
+
+• **ExceptionRuleStateArchivedId** = ``"ExceptionRuleStateArchivedId"``
+
+Gets the ExceptionRuleState identifier for Archived.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2048](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2048)
+
+___
+
+### ExceptionRuleStateSuspendedId
+
+• **ExceptionRuleStateSuspendedId** = ``"ExceptionRuleStateSuspendedId"``
+
+Gets the ExceptionRuleState identifier for Suspended.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2050](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2050)
+
+___
+
+### ExceptionRuleStateWarningId
+
+• **ExceptionRuleStateWarningId** = ``"ExceptionRuleStateWarningId"``
+
+Gets the ExceptionRuleState identifier for Warning / At Risk.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2052](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2052)
+
+___
+
+### FailureModeBigQueryUploadRequestId
+
+• **FailureModeBigQueryUploadRequestId** = ``"FailureModeBigQueryUploadRequest"``
+
+Gets the Id of the FailureModeBigQueryUploadRequest
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:331](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L331)
+
+___
+
+### FakeDiagnosticBrpFaultRecordId
+
+• **FakeDiagnosticBrpFaultRecordId** = ``"FakeDiagnosticBrpFaultRecordId"``
+
+Gets the FAKE temporary diagnostic ID for BRP enhanced fault records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L23)
+
+___
+
+### FakeDiagnosticBrpFaultRecordStatusId
+
+• **FakeDiagnosticBrpFaultRecordStatusId** = ``"FakeDiagnosticBrpFaultRecordStatusId"``
+
+Gets the FAKE temporary diagnostic ID for BRP fault status records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L43)
+
+___
+
+### FakeDiagnosticGenericFaultRecordStatusId
+
+• **FakeDiagnosticGenericFaultRecordStatusId** = ``"FakeDiagnosticGenericFaultRecordStatusId"``
+
+Gets the FAKE temporary diagnostic ID for Generic fault status records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L29)
+
+___
+
+### FakeDiagnosticGmcccFaultRecordId
+
+• **FakeDiagnosticGmcccFaultRecordId** = ``"FakeDiagnosticGmcccFaultRecordId"``
+
+Gets the FAKE temporary diagnostic ID for GMCCC enhanced fault records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L21)
+
+___
+
+### FakeDiagnosticGmcccFaultRecordStatusId
+
+• **FakeDiagnosticGmcccFaultRecordStatusId** = ``"FakeDiagnosticGmcccFaultRecordStatusId"``
+
+Gets the FAKE temporary diagnostic ID for GMCCC fault status records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L41)
+
+___
+
+### FakeDiagnosticGpsAuxiliary1Id
+
+• **FakeDiagnosticGpsAuxiliary1Id** = ``"FakeDiagnosticGpsAuxiliary1Id"``
+
+Gets the FAKE temporary diagnostic ID for GPS auxiliary 1 state. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:57](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L57)
+
+___
+
+### FakeDiagnosticGpsAuxiliary2Id
+
+• **FakeDiagnosticGpsAuxiliary2Id** = ``"FakeDiagnosticGpsAuxiliary2Id"``
+
+Gets the FAKE temporary diagnostic ID for GPS auxiliary 2 state. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:59](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L59)
+
+___
+
+### FakeDiagnosticGpsAuxiliary3Id
+
+• **FakeDiagnosticGpsAuxiliary3Id** = ``"FakeDiagnosticGpsAuxiliary3Id"``
+
+Gets the FAKE temporary diagnostic ID for GPS auxiliary 3 state. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:61](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L61)
+
+___
+
+### FakeDiagnosticGpsAuxiliary4Id
+
+• **FakeDiagnosticGpsAuxiliary4Id** = ``"FakeDiagnosticGpsAuxiliary4Id"``
+
+Gets the FAKE temporary diagnostic ID for GPS auxiliary 4 state. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:63](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L63)
+
+___
+
+### FakeDiagnosticGpsIgnitionId
+
+• **FakeDiagnosticGpsIgnitionId** = ``"FakeDiagnosticGpsIgnitionId"``
+
+Gets the FAKE temporary diagnostic ID for GPS ignition state. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:53](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L53)
+
+___
+
+### FakeDiagnosticGpsLatitudeId
+
+• **FakeDiagnosticGpsLatitudeId** = ``"FakeDiagnosticGpsLatitudeId"``
+
+Gets the FAKE temporary diagnostic ID for GPS latitude data. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:49](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L49)
+
+___
+
+### FakeDiagnosticGpsLongitudeId
+
+• **FakeDiagnosticGpsLongitudeId** = ``"FakeDiagnosticGpsLongitudeId"``
+
+Gets the FAKE temporary diagnostic ID for GPS longitude data. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:47](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L47)
+
+___
+
+### FakeDiagnosticGpsOpenCircuitId
+
+• **FakeDiagnosticGpsOpenCircuitId** = ``"FakeDiagnosticGpsOpenCircuitId"``
+
+Gets the FAKE temporary diagnostic ID for GPS open circuit flag. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:65](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L65)
+
+___
+
+### FakeDiagnosticGpsShortCircuitId
+
+• **FakeDiagnosticGpsShortCircuitId** = ``"FakeDiagnosticGpsShortCircuitId"``
+
+Gets the FAKE temporary diagnostic ID for GPS short circuit flag. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:67](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L67)
+
+___
+
+### FakeDiagnosticGpsSpeedId
+
+• **FakeDiagnosticGpsSpeedId** = ``"FakeDiagnosticGpsSpeedId"``
+
+Gets the FAKE temporary diagnostic ID for GPS speed data. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:51](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L51)
+
+___
+
+### FakeDiagnosticGpsValidId
+
+• **FakeDiagnosticGpsValidId** = ``"FakeDiagnosticGpsValidId"``
+
+Gets the FAKE temporary diagnostic ID for GPS valid flag. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:55](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L55)
+
+___
+
+### FakeDiagnosticJ1939FaultEnrichmentId
+
+• **FakeDiagnosticJ1939FaultEnrichmentId** = ``"FakeDiagnosticJ1939FaultEnrichmentId"``
+
+Gets the FAKE temporary diagnostic ID for J1939 fault enrichment records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L27)
+
+___
+
+### FakeDiagnosticJ1939FaultRecordStatusId
+
+• **FakeDiagnosticJ1939FaultRecordStatusId** = ``"FakeDiagnosticJ1939FaultRecordStatusId"``
+
+Gets the FAKE temporary diagnostic ID for J1939 fault status records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:31](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L31)
+
+___
+
+### FakeDiagnosticLegacyFaultRecordId
+
+• **FakeDiagnosticLegacyFaultRecordId** = ``"FakeDiagnosticLegacyFaultRecordId"``
+
+Gets the FAKE temporary diagnostic ID for legacy enhanced fault records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L15)
+
+___
+
+### FakeDiagnosticLegacyFaultRecordStatusId
+
+• **FakeDiagnosticLegacyFaultRecordStatusId** = ``"FakeDiagnosticLegacyFaultRecordStatusId"``
+
+Gets the FAKE temporary diagnostic ID for Legacy fault status records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:35](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L35)
+
+___
+
+### FakeDiagnosticLevcFaultRecordId
+
+• **FakeDiagnosticLevcFaultRecordId** = ``"FakeDiagnosticLevcFaultRecordId"``
+
+Gets the FAKE temporary diagnostic ID for LEVC enhanced fault records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L25)
+
+___
+
+### FakeDiagnosticLevcFaultRecordStatusId
+
+• **FakeDiagnosticLevcFaultRecordStatusId** = ``"FakeDiagnosticLevcFaultRecordStatusId"``
+
+Gets the FAKE temporary diagnostic ID for LEVC fault status records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:45](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L45)
+
+___
+
+### FakeDiagnosticObdWwhFaultRecordStatusId
+
+• **FakeDiagnosticObdWwhFaultRecordStatusId** = ``"FakeDiagnosticObdWwhFaultRecordStatusId"``
+
+Gets the FAKE temporary diagnostic ID for OBD-WWH fault status records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L37)
+
+___
+
+### FakeDiagnosticObdiiFaultRecordStatusId
+
+• **FakeDiagnosticObdiiFaultRecordStatusId** = ``"FakeDiagnosticObdiiFaultRecordStatusId"``
+
+Gets the FAKE temporary diagnostic ID for OBDII fault status records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L33)
+
+___
+
+### FakeDiagnosticProprietaryFaultRecordId
+
+• **FakeDiagnosticProprietaryFaultRecordId** = ``"FakeDiagnosticProprietaryFaultRecordId"``
+
+Gets the FAKE temporary diagnostic ID for proprietary enhanced fault records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L19)
+
+___
+
+### FakeDiagnosticProprietaryFaultRecordStatusId
+
+• **FakeDiagnosticProprietaryFaultRecordStatusId** = ``"FakeDiagnosticProprietaryFaultRecordStatusId"``
+
+Gets the FAKE temporary diagnostic ID for Proprietary fault status records. Do not use in production.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L39)
+
+___
+
+### FaultDataEntityUploadRequestId
+
+• **FaultDataEntityUploadRequestId** = ``"FaultDataEntityUploadRequestId"``
+
+Gets the Id of the FaultDataEntityUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:333](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L333)
+
+___
+
+### FillUpBigQueryUploadRequestId
+
+• **FillUpBigQueryUploadRequestId** = ``"FillUpBigQueryUploadRequestId"``
+
+Gets the Id of the FillUpBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:369](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L369)
+
+___
+
+### FuelAndEnergyUsedBigQueryUploadRequestId
+
+• **FuelAndEnergyUsedBigQueryUploadRequestId** = ``"FuelAndEnergyUsedBigQueryUploadRequestId"``
+
+Gets the Id of the FuelAndEnergyUsedBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:375](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L375)
+
+___
+
+### FuelTransactionBigQueryUploadRequestId
+
+• **FuelTransactionBigQueryUploadRequestId** = ``"FuelTransactionBigQueryUploadRequestId"``
+
+Gets the Id of the FuelTransactionBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:371](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L371)
+
+___
+
+### FuelUsedBigQueryUploadRequestId
+
+• **FuelUsedBigQueryUploadRequestId** = ``"FuelUsedBigQueryUploadRequestId"``
+
+Gets the Id of the FuelUsedBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:335](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L335)
+
+___
+
+### GenericFaultDiagnosticId
+
+• **GenericFaultDiagnosticId** = ``"GenericFaultDiagnosticId"``
+
+Gets the diagnostic ID for generic GO fault diagnostic data.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L11)
+
+___
+
+### GpsEntityUploadRequestId
+
+• **GpsEntityUploadRequestId** = ``"GpsEntityUploadRequestId"``
+
+Gets the Id of the GpsEntityUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:337](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L337)
 
 ___
 
@@ -7764,7 +9627,19 @@ Gets the asset information group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:901](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L901)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1399](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1399)
+
+___
+
+### GroupAssetPurposeId
+
+• **GroupAssetPurposeId** = ``"GroupAssetPurposeId"``
+
+Gets the Asset Purpose group.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1437](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1437)
 
 ___
 
@@ -7776,7 +9651,7 @@ Gets the default Asset Type group identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:931](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L931)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1429](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1429)
 
 ___
 
@@ -7788,7 +9663,19 @@ Gets the battery electric vehicle group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:923](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L923)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1421](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1421)
+
+___
+
+### GroupBigQueryUploadRequestId
+
+• **GroupBigQueryUploadRequestId** = ``"GroupBigQueryUploadRequestId"``
+
+Gets the Id of the GroupBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:339](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L339)
 
 ___
 
@@ -7800,7 +9687,7 @@ Gets the biodiesel group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:913](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L913)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1411](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1411)
 
 ___
 
@@ -7812,7 +9699,19 @@ Gets the driver activity business group for trips identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:897](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L897)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1395](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1395)
+
+___
+
+### GroupColdChainId
+
+• **GroupColdChainId** = ``"GroupColdChainId"``
+
+Gets the Cold Chain group identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:441](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L441)
 
 ___
 
@@ -7824,7 +9723,7 @@ Gets the group company identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:861](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L861)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1359](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1359)
 
 ___
 
@@ -7836,7 +9735,19 @@ Gets the compressed natural gas group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:915](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L915)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1413](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1413)
+
+___
+
+### GroupContainerId
+
+• **GroupContainerId** = ``"GroupContainerId"``
+
+Gets the default Container group identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1433](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1433)
 
 ___
 
@@ -7848,7 +9759,7 @@ Gets the group defects identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:863](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L863)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1361](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1361)
 
 ___
 
@@ -7860,7 +9771,7 @@ Gets the diesel group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:909](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L909)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1407](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1407)
 
 ___
 
@@ -7872,7 +9783,7 @@ Gets the group drive user security identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:865](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L865)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1363](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1363)
 
 ___
 
@@ -7884,7 +9795,7 @@ Gets the driver activity group identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:895](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L895)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1393](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1393)
 
 ___
 
@@ -7896,7 +9807,19 @@ Gets the eletric/hybrid plug-in group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:921](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L921)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1419](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1419)
+
+___
+
+### GroupEquipmentId
+
+• **GroupEquipmentId** = ``"GroupEquipmentId"``
+
+Gets the default Equipment group identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1435](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1435)
 
 ___
 
@@ -7908,7 +9831,7 @@ Gets the ehtanol group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:911](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L911)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1409](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1409)
 
 ___
 
@@ -7920,7 +9843,7 @@ Gets the group everything security identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:867](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L867)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1365](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1365)
 
 ___
 
@@ -7932,7 +9855,7 @@ Gets the fuel cell electric vehicle group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:929](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L929)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1427](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1427)
 
 ___
 
@@ -7944,7 +9867,7 @@ Gets the gasoline/petrol group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:907](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L907)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1405](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1405)
 
 ___
 
@@ -7956,7 +9879,7 @@ Gets the internal combustion engine group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:905](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L905)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1403](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1403)
 
 ___
 
@@ -7968,7 +9891,7 @@ Gets the manually classified powertrain group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:927](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L927)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1425](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1425)
 
 ___
 
@@ -7980,7 +9903,7 @@ Gets the group nothing security identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:869](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L869)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1367](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1367)
 
 ___
 
@@ -7992,7 +9915,7 @@ Gets the other fuel group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:917](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L917)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1415](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1415)
 
 ___
 
@@ -8004,7 +9927,7 @@ Gets the driver activity personal group for trips identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:899](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L899)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1397](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1397)
 
 ___
 
@@ -8016,7 +9939,7 @@ Gets the plug-in hybrid electric vehicle group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:925](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L925)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1423](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1423)
 
 ___
 
@@ -8028,7 +9951,7 @@ Gets the powertrain and fuel type group under asset information.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:903](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L903)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1401](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1401)
 
 ___
 
@@ -8040,7 +9963,7 @@ Gets the group private scheduled report identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:887](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L887)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1385](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1385)
 
 ___
 
@@ -8052,7 +9975,7 @@ Gets the group private user identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:871](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L871)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1369](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1369)
 
 ___
 
@@ -8064,7 +9987,7 @@ Gets the propane/liquified petroleum gas group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:919](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L919)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1417](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1417)
 
 ___
 
@@ -8076,7 +9999,19 @@ Gets the group root identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:873](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L873)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1371](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1371)
+
+___
+
+### GroupSecurityBigQueryUploadRequestId
+
+• **GroupSecurityBigQueryUploadRequestId** = ``"GroupSecurityBigQueryUploadRequestId"``
+
+Gets the Id of the GroupSecurityBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:413](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L413)
 
 ___
 
@@ -8088,7 +10023,7 @@ Gets the group security identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:875](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L875)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1373](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1373)
 
 ___
 
@@ -8100,7 +10035,7 @@ Gets the shareable link group identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:891](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L891)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1389](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1389)
 
 ___
 
@@ -8112,7 +10047,7 @@ Gets the group supervisor security identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:877](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L877)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1375](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1375)
 
 ___
 
@@ -8124,7 +10059,7 @@ Gets the group trailer defects identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:879](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L879)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1377](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1377)
 
 ___
 
@@ -8136,7 +10071,19 @@ Gets the default Trailer group identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:893](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L893)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1391](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1391)
+
+___
+
+### GroupUserBigQueryUploadRequestId
+
+• **GroupUserBigQueryUploadRequestId** = ``"GroupUserBigQueryUploadRequestId"``
+
+Gets the Id of the GroupUserBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:411](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L411)
 
 ___
 
@@ -8148,7 +10095,7 @@ Gets the group user security identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:881](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L881)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1379](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1379)
 
 ___
 
@@ -8160,7 +10107,7 @@ Gets the group vehicle defects identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:883](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L883)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1381](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1381)
 
 ___
 
@@ -8172,7 +10119,7 @@ Gets the default Vehicle group identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:933](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L933)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1431](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1431)
 
 ___
 
@@ -8184,7 +10131,7 @@ Gets the group view map only identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:889](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L889)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1387](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1387)
 
 ___
 
@@ -8196,7 +10143,7 @@ Gets the group view only security identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:885](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L885)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1383](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1383)
 
 ___
 
@@ -8208,7 +10155,7 @@ Gets Alaska Passenger 70-hour/7-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1669](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1669)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2254](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2254)
 
 ___
 
@@ -8220,7 +10167,7 @@ Gets Alaska Passenger 80-hour/8-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1671](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1671)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2256](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2256)
 
 ___
 
@@ -8232,7 +10179,7 @@ Gets Alaska Property 70-hour/7-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1673](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1673)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2258](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2258)
 
 ___
 
@@ -8244,7 +10191,7 @@ Gets Alaska Property 70-hour/7-day Sleeper
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1675](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1675)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2260](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2260)
 
 ___
 
@@ -8256,7 +10203,7 @@ Gets Alaska Property 80-hour/8-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1677](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1677)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2262](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2262)
 
 ___
 
@@ -8268,7 +10215,19 @@ Gets Alaska Property 80-hour/8-day Sleeper
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1679](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1679)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2264](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2264)
+
+___
+
+### HosRuleSetAlberta
+
+• **HosRuleSetAlberta** = ``"HosRuleSetAlberta"``
+
+Gets Alberta ruleset
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1982](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1982)
 
 ___
 
@@ -8280,7 +10239,7 @@ Gets hos Ruleset Id America7Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1433](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1433)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1986](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1986)
 
 ___
 
@@ -8292,7 +10251,7 @@ Gets hos Ruleset Id America7DayBig.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1437](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1437)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1990](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1990)
 
 ___
 
@@ -8304,7 +10263,7 @@ Gets hos Ruleset Id America7DayBigSleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1439](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1439)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1992](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1992)
 
 ___
 
@@ -8316,7 +10275,7 @@ Gets hos Ruleset Id 7-day without 34-h.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1585](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1585)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2170](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2170)
 
 ___
 
@@ -8328,7 +10287,7 @@ Gets hos Ruleset Id 7-day without 34-h with Sleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1587](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1587)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2172](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2172)
 
 ___
 
@@ -8340,7 +10299,7 @@ Gets hos Ruleset Id America7DayPassenger.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1449](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1449)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2002](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2002)
 
 ___
 
@@ -8352,7 +10311,7 @@ Gets America 7-day Railroad
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1703](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1703)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2290](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2290)
 
 ___
 
@@ -8364,7 +10323,7 @@ Gets hos Ruleset Id America7DaySleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1435](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1435)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1988](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1988)
 
 ___
 
@@ -8376,7 +10335,7 @@ Gets hos Ruleset Id America8Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1441](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1441)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1994](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1994)
 
 ___
 
@@ -8388,7 +10347,7 @@ Gets hos Ruleset Id America8DayBig.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1445](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1445)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1998](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1998)
 
 ___
 
@@ -8400,7 +10359,7 @@ Gets hos Ruleset Id America8DayBigSleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1447](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1447)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2000](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2000)
 
 ___
 
@@ -8412,7 +10371,7 @@ Gets hos Ruleset Id 8-day without 34-h.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1589](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1589)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2174](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2174)
 
 ___
 
@@ -8424,7 +10383,7 @@ Gets hos Ruleset Id 8-day without 34-h with Sleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1591](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1591)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2176](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2176)
 
 ___
 
@@ -8436,7 +10395,7 @@ Gets hos Ruleset Id America8DayPassenger.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1451](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1451)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2004](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2004)
 
 ___
 
@@ -8448,7 +10407,7 @@ Gets America 8-day Railroad
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1705](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1705)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2292](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2292)
 
 ___
 
@@ -8460,7 +10419,7 @@ Gets hos Ruleset Id America8DaySleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1443](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1443)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1996](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1996)
 
 ___
 
@@ -8472,7 +10431,7 @@ Gets hos Ruleset Id America No Rest Requirement 7 Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1609](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1609)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2194](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2194)
 
 ___
 
@@ -8484,7 +10443,7 @@ Gets hos Ruleset Id America No Rest Requirement 7 Day Big.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1613](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1613)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2198](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2198)
 
 ___
 
@@ -8496,7 +10455,7 @@ Gets hos Ruleset Id America No Rest Requirement 7 Day Big with Sleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1615](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1615)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2200](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2200)
 
 ___
 
@@ -8508,7 +10467,7 @@ Gets hos Ruleset Id America No Rest Requirement 7 Day with Sleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1611](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1611)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2196](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2196)
 
 ___
 
@@ -8520,7 +10479,7 @@ Gets hos Ruleset Id America No Rest Requirement 8 Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1617](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1617)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2202](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2202)
 
 ___
 
@@ -8532,7 +10491,7 @@ Gets hos Ruleset Id America No Rest Requirement 8 Day Big.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1621](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1621)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2206](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2206)
 
 ___
 
@@ -8544,7 +10503,7 @@ Gets hos Ruleset Id America No Rest Requirement 8 Day Big with Sleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1623](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1623)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2208](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2208)
 
 ___
 
@@ -8556,7 +10515,7 @@ Gets hos Ruleset Id America No Rest Requirement 8 Day with Sleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1619](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1619)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2204](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2204)
 
 ___
 
@@ -8568,7 +10527,7 @@ Gets hos Ruleset Id America Non-CDL 7 day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1601](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1601)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2186](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2186)
 
 ___
 
@@ -8580,7 +10539,7 @@ Gets hos Ruleset Id America Non-CDL 8 day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1603](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1603)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2188](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2188)
 
 ___
 
@@ -8592,7 +10551,7 @@ Gets hos Ruleset Id AmericaSalesperson.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1555](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1555)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2140](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2140)
 
 ___
 
@@ -8604,7 +10563,7 @@ Gets hos Ruleset Id AmericaSalespersonNonCdlShortHaul.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1557](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1557)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2142](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2142)
 
 ___
 
@@ -8616,7 +10575,7 @@ Gets hos Ruleset Id AmericaShortHaul.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1453](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1453)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2006](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2006)
 
 ___
 
@@ -8628,7 +10587,7 @@ Gets hos Ruleset Id AmericaShortHaul14hrWorkday.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1457](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1457)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2010](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2010)
 
 ___
 
@@ -8640,7 +10599,7 @@ Gets hos Ruleset Id AmericaShortHaul8Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1455](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1455)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2008](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2008)
 
 ___
 
@@ -8652,7 +10611,7 @@ Gets hos Ruleset Id AmericaShortHaul8Day14hrWorkday.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1459](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1459)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2012](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2012)
 
 ___
 
@@ -8664,7 +10623,7 @@ Gets hos Ruleset Id Short-haul 8-day without 34-h.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1595](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1595)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2180](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2180)
 
 ___
 
@@ -8676,7 +10635,7 @@ Gets hos Ruleset Id Short-haul 7-day without 34-h.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1593](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1593)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2178](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2178)
 
 ___
 
@@ -8688,7 +10647,7 @@ Gets hos Ruleset Id AmericaShortHaulPassenger.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1461](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1461)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2014](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2014)
 
 ___
 
@@ -8700,7 +10659,7 @@ Gets hos Ruleset Id AmericaShortHaulPassenger8Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1463](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1463)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2016](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2016)
 
 ___
 
@@ -8712,7 +10671,7 @@ Gets hos Ruleset Id AmericaTexas.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1559](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1559)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2144](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2144)
 
 ___
 
@@ -8724,7 +10683,7 @@ Gets hos Ruleset Id AmericaTexasShortHaul.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1561](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1561)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2146](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2146)
 
 ___
 
@@ -8736,7 +10695,7 @@ Gets hos Ruleset Id AmericaTexasShortHaul8Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1563](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1563)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2148](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2148)
 
 ___
 
@@ -8748,7 +10707,7 @@ Gets Australia Standard Hours Solo with Exemption Hours
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1431](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1431)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1984](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1984)
 
 ___
 
@@ -8760,7 +10719,7 @@ Gets hos Ruleset Id Brazil property short haul.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1597](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1597)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2182](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2182)
 
 ___
 
@@ -8772,7 +10731,7 @@ Gets California Property Intrastate
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1685](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1685)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2270](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2270)
 
 ___
 
@@ -8784,7 +10743,7 @@ Gets hos Ruleset Id CaliforniaFarmProduct.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1509](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1509)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2094](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2094)
 
 ___
 
@@ -8796,7 +10755,7 @@ Gets hos Ruleset Id CaliforniaFarmProduct With Rest Requirement.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1511](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1511)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2096](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2096)
 
 ___
 
@@ -8808,7 +10767,7 @@ Gets hos Ruleset Id CaliforniaFlammableLiquid.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1501](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1501)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2086](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2086)
 
 ___
 
@@ -8820,7 +10779,7 @@ Gets hos Ruleset Id CaliforniaFlammableLiquid With Rest Requirement.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1503](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1503)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2088](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2088)
 
 ___
 
@@ -8832,7 +10791,7 @@ Gets hos Ruleset Id CaliforniaPassenger.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1513](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1513)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2098](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2098)
 
 ___
 
@@ -8844,7 +10803,7 @@ Gets hos Ruleset Id CaliforniaProperty.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1499](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1499)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2084](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2084)
 
 ___
 
@@ -8856,7 +10815,7 @@ Gets California Property Short-haul.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1687](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1687)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2272](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2272)
 
 ___
 
@@ -8868,7 +10827,7 @@ Gets California Property Short-haul with rest.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1689](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1689)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2274](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2274)
 
 ___
 
@@ -8880,7 +10839,7 @@ Gets hos Ruleset Id CaliforniaSchoolPupil.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1505](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1505)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2090](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2090)
 
 ___
 
@@ -8892,7 +10851,19 @@ Gets hos Ruleset Id CaliforniaSchoolPupil With Rest Requirement.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1507](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1507)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2092](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2092)
+
+___
+
+### HosRuleSetCanadaBCLoggingTruck
+
+• **HosRuleSetCanadaBCLoggingTruck** = ``"HosRuleSetCanadaBCLoggingTruck"``
+
+Gets hos Ruleset Id CanadaBCLoggingTruck
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2286](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2286)
 
 ___
 
@@ -8904,7 +10875,7 @@ Gets hos Ruleset Id CanadaCycleOne.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1483](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1483)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2068](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2068)
 
 ___
 
@@ -8916,7 +10887,7 @@ Gets hos Ruleset Id CanadaCycleOneTeam.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1487](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1487)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2072](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2072)
 
 ___
 
@@ -8928,7 +10899,7 @@ Gets hos Ruleset Id CanadaCycleTwo.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1485](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1485)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2070](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2070)
 
 ___
 
@@ -8940,7 +10911,7 @@ Gets hos Ruleset Id CanadaCycleTwoTeam.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1489](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1489)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2074](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2074)
 
 ___
 
@@ -8952,7 +10923,7 @@ Gets hos Ruleset Id CanadaNorthOf60CycleOne.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1491](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1491)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2076](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2076)
 
 ___
 
@@ -8964,7 +10935,7 @@ Gets hos Ruleset Id CanadaNorthOf60CycleOneTeam.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1495](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1495)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2080](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2080)
 
 ___
 
@@ -8976,7 +10947,7 @@ Gets hos Ruleset Id CanadaNorthOf60CycleTwo.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1493](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1493)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2078](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2078)
 
 ___
 
@@ -8988,7 +10959,7 @@ Gets hos Ruleset Id CanadaNorthOf60CycleTwoTeam.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1497](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1497)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2082](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2082)
 
 ___
 
@@ -9000,7 +10971,7 @@ Gets hos Ruleset Id CanadaNorthOf60Oil
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1697](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1697)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2282](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2282)
 
 ___
 
@@ -9012,7 +10983,7 @@ Gets hos Ruleset Id CanadaNorthOf60OilTeam
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1701](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1701)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2288](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2288)
 
 ___
 
@@ -9024,7 +10995,7 @@ Gets hos Ruleset Id CanadaOil
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1695](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1695)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2280](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2280)
 
 ___
 
@@ -9036,7 +11007,7 @@ Gets hos Ruleset Id CanadaOilTeam
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1699](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1699)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2284](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2284)
 
 ___
 
@@ -9048,7 +11019,7 @@ Gets hos Ruleset Id Carrier Exemption.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1599](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1599)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2184](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2184)
 
 ___
 
@@ -9060,7 +11031,7 @@ Gets hos Ruleset Id Florida 7-day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1577](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1577)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2162](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2162)
 
 ___
 
@@ -9072,7 +11043,7 @@ Gets hos Ruleset Id Florida 8-day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1579](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1579)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2164](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2164)
 
 ___
 
@@ -9084,7 +11055,7 @@ Gets hos Ruleset Id Florida Short-haul 7 day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1581](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1581)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2166](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2166)
 
 ___
 
@@ -9096,7 +11067,19 @@ Gets hos Ruleset Id Florida Short-haul 8 day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1583](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1583)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2168](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2168)
+
+___
+
+### HosRuleSetMalaysiaDrivingHours
+
+• **HosRuleSetMalaysiaDrivingHours** = ``"HosRuleSetMalaysiaDrivingHours"``
+
+Gets MalaysiaDrivingHours ruleset
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1980](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1980)
 
 ___
 
@@ -9108,7 +11091,7 @@ Gets Maryland Short Haul 70-hour/7-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1663](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1663)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2248](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2248)
 
 ___
 
@@ -9120,7 +11103,7 @@ Gets Maryland Short Haul 80-hour/8-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1665](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1665)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2250](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2250)
 
 ___
 
@@ -9132,7 +11115,7 @@ Gets Nebraska 70-hour/7-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1681](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1681)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2266](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2266)
 
 ___
 
@@ -9144,7 +11127,7 @@ Gets Nebraska 80-hour/8-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1683](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1683)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2268](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2268)
 
 ___
 
@@ -9156,7 +11139,7 @@ Gets hos Ruleset Id None.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1423](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1423)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1972](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1972)
 
 ___
 
@@ -9168,7 +11151,7 @@ Gets hos Ruleset Id None Big Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1427](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1427)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1976](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1976)
 
 ___
 
@@ -9180,7 +11163,7 @@ Gets hos Ruleset Id NoneCanada (South of 60).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1425](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1425)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1974](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1974)
 
 ___
 
@@ -9192,7 +11175,7 @@ Gets hos Ruleset Id NoneCanada (North of 60).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1429](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1429)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1978](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1978)
 
 ___
 
@@ -9204,7 +11187,7 @@ Gets North Dakota 70-hour/7-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1657](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1657)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2242](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2242)
 
 ___
 
@@ -9216,7 +11199,7 @@ Gets North Dakota Short Haul 70-hour/7-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1667](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1667)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2252](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2252)
 
 ___
 
@@ -9228,7 +11211,7 @@ Gets hos Ruleset Id OilTransport7Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1515](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1515)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2100](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2100)
 
 ___
 
@@ -9240,7 +11223,7 @@ Gets hos Ruleset Id OilTransport7DayBig.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1519](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1519)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2104](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2104)
 
 ___
 
@@ -9252,7 +11235,7 @@ Gets hos Ruleset Id OilTransport7DayBigSleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1521](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1521)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2106](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2106)
 
 ___
 
@@ -9264,7 +11247,7 @@ Gets hos Ruleset Id OilTransport7DaySleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1517](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1517)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2102](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2102)
 
 ___
 
@@ -9276,7 +11259,7 @@ Gets hos Ruleset Id OilTransport8Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1523](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1523)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2108](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2108)
 
 ___
 
@@ -9288,7 +11271,7 @@ Gets hos Ruleset Id OilTransport8DayBig.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1527](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1527)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2112](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2112)
 
 ___
 
@@ -9300,7 +11283,7 @@ Gets hos Ruleset Id OilTransport8DayBigSleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1529](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1529)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2114](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2114)
 
 ___
 
@@ -9312,7 +11295,7 @@ Gets hos Ruleset Id OilTransport8DaySleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1525](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1525)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2110](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2110)
 
 ___
 
@@ -9324,7 +11307,7 @@ Gets hos Ruleset Id OilTransportCalifornia8day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1569](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1569)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2154](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2154)
 
 ___
 
@@ -9336,7 +11319,7 @@ Gets hos Ruleset Id OilTransportCaliforniaProperty.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1573](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1573)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2158](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2158)
 
 ___
 
@@ -9348,7 +11331,7 @@ Gets hos Ruleset Id America No Rest Requirement 7 Day with 24 hour reset.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1625](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1625)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2210](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2210)
 
 ___
 
@@ -9360,7 +11343,7 @@ Gets hos Ruleset Id America No Rest Requirement 7 Day Big with 24 hour reset.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1629](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1629)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2214](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2214)
 
 ___
 
@@ -9372,7 +11355,7 @@ Gets hos Ruleset Id America No Rest Requirement 7 Day Big with 24 hour reset and
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1631](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1631)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2216](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2216)
 
 ___
 
@@ -9384,7 +11367,7 @@ Gets hos Ruleset Id America No Rest Requirement 7 Day with 24 hour reset and spl
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1627](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1627)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2212](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2212)
 
 ___
 
@@ -9396,7 +11379,7 @@ Gets hos Ruleset Id America No Rest Requirement 8 Day with 24 hour reset.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1633](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1633)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2218](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2218)
 
 ___
 
@@ -9408,7 +11391,7 @@ Gets hos Ruleset Id America No Rest Requirement 8 Day Big with 24 hour reset.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1637](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1637)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2222](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2222)
 
 ___
 
@@ -9420,7 +11403,7 @@ Gets hos Ruleset Id America No Rest Requirement 8 Day Big with 24 hour reset and
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1639](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1639)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2224](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2224)
 
 ___
 
@@ -9432,7 +11415,7 @@ Gets hos Ruleset Id America No Rest Requirement 8 Day with 24 hour reset and spl
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1635](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1635)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2220](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2220)
 
 ___
 
@@ -9444,7 +11427,7 @@ Gets hos Ruleset Id OilTransportShortHaul.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1531](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1531)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2116](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2116)
 
 ___
 
@@ -9456,7 +11439,7 @@ Gets hos Ruleset Id OilTransportShortHaul14hrWorkday.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1535](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1535)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2120](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2120)
 
 ___
 
@@ -9468,7 +11451,7 @@ Gets hos Ruleset Id OilTransportShortHaul8Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1533](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1533)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2118](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2118)
 
 ___
 
@@ -9480,7 +11463,7 @@ Gets hos Ruleset Id OilTransportShortHaul8Day14hrWorkday.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1537](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1537)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2122](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2122)
 
 ___
 
@@ -9492,7 +11475,7 @@ Gets hos Ruleset Id OilTransportTexas.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1565](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1565)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2150](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2150)
 
 ___
 
@@ -9504,7 +11487,7 @@ Gets hos Ruleset Id OilWell7Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1539](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1539)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2124](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2124)
 
 ___
 
@@ -9516,7 +11499,7 @@ Gets hos Ruleset Id OilWell7DayBig.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1543](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1543)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2128](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2128)
 
 ___
 
@@ -9528,7 +11511,7 @@ Gets hos Ruleset Id OilWell7DayBigSleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1545](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1545)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2130](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2130)
 
 ___
 
@@ -9540,7 +11523,7 @@ Gets hos Ruleset Id OilWell7DaySleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1541](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1541)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2126](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2126)
 
 ___
 
@@ -9552,7 +11535,7 @@ Gets hos Ruleset Id OilWell8Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1547](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1547)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2132](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2132)
 
 ___
 
@@ -9564,7 +11547,7 @@ Gets hos Ruleset Id OilWell8DayBig.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1551](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1551)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2136](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2136)
 
 ___
 
@@ -9576,7 +11559,7 @@ Gets hos Ruleset Id OilWell8DayBigSleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1553](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1553)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2138](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2138)
 
 ___
 
@@ -9588,7 +11571,7 @@ Gets hos Ruleset Id OilWell8DaySleeper.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1549](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1549)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2134](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2134)
 
 ___
 
@@ -9600,7 +11583,7 @@ Gets hos Ruleset Id OilWellCalifornia8day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1571](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1571)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2156](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2156)
 
 ___
 
@@ -9612,7 +11595,7 @@ Gets hos Ruleset Id OilWellCaliforniaProperty.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1575](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1575)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2160](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2160)
 
 ___
 
@@ -9624,7 +11607,7 @@ Gets hos Ruleset Id America No Rest Requirement 7 Day with 24 hour reset and oil
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1641](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1641)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2226](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2226)
 
 ___
 
@@ -9636,7 +11619,7 @@ Gets hos Ruleset Id America No Rest Requirement 7 Day Big with 24 hour reset and
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1645](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1645)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2230](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2230)
 
 ___
 
@@ -9648,7 +11631,7 @@ Gets hos Ruleset Id America No Rest Requirement 7 Day Big with 24 hour reset and
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1647](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1647)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2232](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2232)
 
 ___
 
@@ -9660,7 +11643,7 @@ Gets hos Ruleset Id America No Rest Requirement 7 Day with 24 hour reset and oil
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1643](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1643)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2228](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2228)
 
 ___
 
@@ -9672,7 +11655,7 @@ Gets hos Ruleset Id America No Rest Requirement 8 Day with 24 hour reset and oil
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1649](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1649)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2234](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2234)
 
 ___
 
@@ -9684,7 +11667,7 @@ Gets hos Ruleset Id America No Rest Requirement 8 Day Big with 24 hour reset and
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1653](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1653)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2238](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2238)
 
 ___
 
@@ -9696,7 +11679,7 @@ Gets hos Ruleset Id America No Rest Requirement 8 Day Big with 24 hour reset and
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1655](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1655)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2240](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2240)
 
 ___
 
@@ -9708,7 +11691,7 @@ Gets hos Ruleset Id America No Rest Requirement 8 Day with 24 hour reset and oil
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1651](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1651)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2236](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2236)
 
 ___
 
@@ -9720,7 +11703,7 @@ Gets hos Ruleset Id OilWellTexas.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1567](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1567)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2152](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2152)
 
 ___
 
@@ -9732,7 +11715,7 @@ Gets Oregon 70-hour/7-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1691](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1691)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2276](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2276)
 
 ___
 
@@ -9744,7 +11727,7 @@ Gets Oregon 80-hour/8-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1693](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1693)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2278](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2278)
 
 ___
 
@@ -9756,7 +11739,7 @@ Gets South Carolina 70-hour/7-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1659](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1659)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2244](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2244)
 
 ___
 
@@ -9768,7 +11751,7 @@ Gets South Carolina 80-hour/8-day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1661](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1661)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2246](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2246)
 
 ___
 
@@ -9780,7 +11763,7 @@ Gets hos Ruleset Id WashingtonIntrastate7Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1605](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1605)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2190](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2190)
 
 ___
 
@@ -9792,7 +11775,1039 @@ Gets hos Ruleset Id WashingtonIntrastate8Day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1607](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1607)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2192](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2192)
+
+___
+
+### IoxWrksAirTemperature
+
+• **IoxWrksAirTemperature** = ``"IoxWrksAirTemperature"``
+
+Gets the diagnosticId for Iox Works air temperature.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2942](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2942)
+
+___
+
+### IoxWrksControllerMode
+
+• **IoxWrksControllerMode** = ``"IoxWrksControllerMode"``
+
+Gets the diagnosticId for Iox Works controller mode.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2958](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2958)
+
+___
+
+### IoxWrksControllerModel
+
+• **IoxWrksControllerModel** = ``"IoxWrksControllerModel"``
+
+Gets the diagnosticId for Iox Works controller model.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2964](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2964)
+
+___
+
+### IoxWrksControllerType
+
+• **IoxWrksControllerType** = ``"IoxWrksControllerType"``
+
+Gets the diagnosticId for Iox Works controller type.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2966](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2966)
+
+___
+
+### IoxWrksExternalDeviceSerialNumber
+
+• **IoxWrksExternalDeviceSerialNumber** = ``"IoxWrksExternalDeviceSerialNumber"``
+
+Gets the diagnosticId for Iox Works generic external device serial number.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2976](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2976)
+
+___
+
+### IoxWrksFirmwareVersion
+
+• **IoxWrksFirmwareVersion** = ``"IoxWrksFirmwareVersion"``
+
+Gets the diagnosticId for Iox Works spreader firmware version.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2832](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2832)
+
+___
+
+### IoxWrksFrostPointTemperature
+
+• **IoxWrksFrostPointTemperature** = ``"IoxWrksFrostPointTemperature"``
+
+Gets the diagnosticId for Iox Works frost point temperature.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2858](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2858)
+
+___
+
+### IoxWrksIceLayerThickness
+
+• **IoxWrksIceLayerThickness** = ``"IoxWrksIceLayerThickness"``
+
+Gets the diagnosticId for Iox Works ice layer thickness.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2860](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2860)
+
+___
+
+### IoxWrksLiquidMaterialActive
+
+• **IoxWrksLiquidMaterialActive** = ``"IoxWrksLiquidMaterialActive"``
+
+Gets the diagnosticId for Iox Works liquid material active.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2974](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2974)
+
+___
+
+### IoxWrksMacAutomaticVolumeSubstance1
+
+• **IoxWrksMacAutomaticVolumeSubstance1** = ``"IoxWrksMacAutomaticVolumeSubstance1"``
+
+Gets the diagnosticId for Iox Works MAC automatic volume substance 1 (liquid).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2846](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2846)
+
+___
+
+### IoxWrksMacAutomaticVolumeSubstance2
+
+• **IoxWrksMacAutomaticVolumeSubstance2** = ``"IoxWrksMacAutomaticVolumeSubstance2"``
+
+Gets the diagnosticId for Iox Works MAC automatic volume substance 2 (liquid).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2848](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2848)
+
+___
+
+### IoxWrksMacAutomaticVolumeSubstance3
+
+• **IoxWrksMacAutomaticVolumeSubstance3** = ``"IoxWrksMacAutomaticVolumeSubstance3"``
+
+Gets the diagnosticId for Iox Works MAC automatic volume substance 3 (liquid).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2850](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2850)
+
+___
+
+### IoxWrksMacDosageSettingLiquid1
+
+• **IoxWrksMacDosageSettingLiquid1** = ``"IoxWrksMacDosageSettingLiquid1"``
+
+Gets the diagnosticId for Iox Works MAC dosage setting (liquid 1).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2856](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2856)
+
+___
+
+### IoxWrksMacDosageSettingSolid1
+
+• **IoxWrksMacDosageSettingSolid1** = ``"IoxWrksMacDosageSettingSolid1"``
+
+Gets the diagnosticId for Iox Works MAC dosage setting (solid 1).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2854](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2854)
+
+___
+
+### IoxWrksMacMainPlow
+
+• **IoxWrksMacMainPlow** = ``"IoxWrksMacMainPlow"``
+
+Gets the diagnosticId for Iox Works MAC main plow.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2852](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2852)
+
+___
+
+### IoxWrksPrewetMaterialActive
+
+• **IoxWrksPrewetMaterialActive** = ``"IoxWrksPrewetMaterialActive"``
+
+Gets the diagnosticId for Iox Works prewet material active.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2972](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2972)
+
+___
+
+### IoxWrksRelativeHumidity
+
+• **IoxWrksRelativeHumidity** = ``"IoxWrksRelativeHumidity"``
+
+Gets the diagnosticId for Iox Works relative humidity.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2968](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2968)
+
+___
+
+### IoxWrksRoadConditionVaisala
+
+• **IoxWrksRoadConditionVaisala** = ``"IoxWrksRoadConditionVaisala"``
+
+Gets the diagnosticId for Iox Works road condition - VAISALA.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2864](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2864)
+
+___
+
+### IoxWrksRoadTemperature
+
+• **IoxWrksRoadTemperature** = ``"IoxWrksRoadTemperature"``
+
+Gets the diagnosticId for Iox Works road temperature.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2944](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2944)
+
+___
+
+### IoxWrksSecondarySpreaderConfigFile
+
+• **IoxWrksSecondarySpreaderConfigFile** = ``"IoxWrksSecondarySpreaderConfigFile"``
+
+Gets the diagnosticId for Iox Works secondary spreader configuration file.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2978](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2978)
+
+___
+
+### IoxWrksSnowLayerThickness
+
+• **IoxWrksSnowLayerThickness** = ``"IoxWrksSnowLayerThickness"``
+
+Gets the diagnosticId for Iox Works snow layer thickness.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2862](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2862)
+
+___
+
+### IoxWrksSpinnerRate
+
+• **IoxWrksSpinnerRate** = ``"IoxWrksSpinnerRate"``
+
+Gets the diagnosticId for Iox Works spinner rate.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2962](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2962)
+
+___
+
+### IoxWrksSpinnerState
+
+• **IoxWrksSpinnerState** = ``"IoxWrksSpinnerState"``
+
+Gets the diagnosticId for Iox Works spinner state.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2960](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2960)
+
+___
+
+### IoxWrksSpreadWidth
+
+• **IoxWrksSpreadWidth** = ``"IoxWrksSpreadWidth"``
+
+Gets the diagnosticId for Iox Works spread width.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2970](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2970)
+
+___
+
+### IoxWrksSpreaderControllerConfigFile
+
+• **IoxWrksSpreaderControllerConfigFile** = ``"IoxWrksSpreaderControllerConfigFile"``
+
+Gets the diagnosticId for Iox Works spreader config file.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2834](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2834)
+
+___
+
+### IoxWrksSubstanceSpreaderBoom1
+
+• **IoxWrksSubstanceSpreaderBoom1** = ``"IoxWrksSubstanceSpreaderBoom1"``
+
+Gets the diagnosticId for Iox Works substance spreader - boom 1.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2914](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2914)
+
+___
+
+### IoxWrksSubstanceSpreaderBoom2
+
+• **IoxWrksSubstanceSpreaderBoom2** = ``"IoxWrksSubstanceSpreaderBoom2"``
+
+Gets the diagnosticId for Iox Works substance spreader - boom 2.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2916](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2916)
+
+___
+
+### IoxWrksSubstanceSpreaderBoom3
+
+• **IoxWrksSubstanceSpreaderBoom3** = ``"IoxWrksSubstanceSpreaderBoom3"``
+
+Gets the diagnosticId for Iox Works substance spreader - boom 3.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2918](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2918)
+
+___
+
+### IoxWrksSubstanceSpreaderBoom4
+
+• **IoxWrksSubstanceSpreaderBoom4** = ``"IoxWrksSubstanceSpreaderBoom4"``
+
+Gets the diagnosticId for Iox Works substance spreader - boom 4.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2920](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2920)
+
+___
+
+### IoxWrksSubstanceSpreaderBoom5
+
+• **IoxWrksSubstanceSpreaderBoom5** = ``"IoxWrksSubstanceSpreaderBoom5"``
+
+Gets the diagnosticId for Iox Works substance spreader - boom 5.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2922](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2922)
+
+___
+
+### IoxWrksSubstanceSpreaderBoom6
+
+• **IoxWrksSubstanceSpreaderBoom6** = ``"IoxWrksSubstanceSpreaderBoom6"``
+
+Gets the diagnosticId for Iox Works substance spreader - boom 6.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2924](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2924)
+
+___
+
+### IoxWrksSubstanceSpreaderBoom7
+
+• **IoxWrksSubstanceSpreaderBoom7** = ``"IoxWrksSubstanceSpreaderBoom7"``
+
+Gets the diagnosticId for Iox Works substance spreader - boom 7.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2926](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2926)
+
+___
+
+### IoxWrksSubstanceSpreaderBoom8
+
+• **IoxWrksSubstanceSpreaderBoom8** = ``"IoxWrksSubstanceSpreaderBoom8"``
+
+Gets the diagnosticId for Iox Works substance spreader - boom 8.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2928](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2928)
+
+___
+
+### IoxWrksSubstanceSpreaderDeicerDensityMeaning
+
+• **IoxWrksSubstanceSpreaderDeicerDensityMeaning** = ``"IoxWrksSubstanceSpreaderDeicerDensityMeaning"``
+
+Gets the diagnosticId for Iox Works substance spreader - deicer density meaning.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2910](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2910)
+
+___
+
+### IoxWrksSubstanceSpreaderDeicerDensityValue
+
+• **IoxWrksSubstanceSpreaderDeicerDensityValue** = ``"IoxWrksSubstanceSpreaderDeicerDensityValue"``
+
+Gets the diagnosticId for Iox Works substance spreader - deicer density value.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2908](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2908)
+
+___
+
+### IoxWrksSubstanceSpreaderDewPointTemperature
+
+• **IoxWrksSubstanceSpreaderDewPointTemperature** = ``"IoxWrksSubstanceSpreaderDewPointTemperature"``
+
+Gets the diagnosticId for Iox Works substance spreader - dew point temperature.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2894](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2894)
+
+___
+
+### IoxWrksSubstanceSpreaderFreezingTemperature
+
+• **IoxWrksSubstanceSpreaderFreezingTemperature** = ``"IoxWrksSubstanceSpreaderFreezingTemperature"``
+
+Gets the diagnosticId for Iox Works substance spreader - freezing temperature.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2906](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2906)
+
+___
+
+### IoxWrksSubstanceSpreaderFriction
+
+• **IoxWrksSubstanceSpreaderFriction** = ``"IoxWrksSubstanceSpreaderFriction"``
+
+Gets the diagnosticId for Iox Works substance spreader - friction.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2904](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2904)
+
+___
+
+### IoxWrksSubstanceSpreaderIcePercentage
+
+• **IoxWrksSubstanceSpreaderIcePercentage** = ``"IoxWrksSubstanceSpreaderIcePercentage"``
+
+Gets the diagnosticId for Iox Works substance spreader - ice percentage.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2902](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2902)
+
+___
+
+### IoxWrksSubstanceSpreaderJoystickDown
+
+• **IoxWrksSubstanceSpreaderJoystickDown** = ``"IoxWrksSubstanceSpreaderJoystickDown"``
+
+Gets the diagnosticId for Iox Works substance spreader - joystick down.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2872](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2872)
+
+___
+
+### IoxWrksSubstanceSpreaderJoystickEmergencyButton
+
+• **IoxWrksSubstanceSpreaderJoystickEmergencyButton** = ``"IoxWrksSubstanceSpreaderJoystickEmergencyButton"``
+
+Gets the diagnosticId for Iox Works substance spreader - joystick emergency button.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2880](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2880)
+
+___
+
+### IoxWrksSubstanceSpreaderJoystickLeft
+
+• **IoxWrksSubstanceSpreaderJoystickLeft** = ``"IoxWrksSubstanceSpreaderJoystickLeft"``
+
+Gets the diagnosticId for Iox Works substance spreader - joystick left.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2866](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2866)
+
+___
+
+### IoxWrksSubstanceSpreaderJoystickMode
+
+• **IoxWrksSubstanceSpreaderJoystickMode** = ``"IoxWrksSubstanceSpreaderJoystickMode"``
+
+Gets the diagnosticId for Iox Works substance spreader - joystick mode.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2878](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2878)
+
+___
+
+### IoxWrksSubstanceSpreaderJoystickPowerFloat1
+
+• **IoxWrksSubstanceSpreaderJoystickPowerFloat1** = ``"IoxWrksSubstanceSpreaderJoystickPowerFloat1"``
+
+Gets the diagnosticId for Iox Works substance spreader - joystick power float 1.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2882](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2882)
+
+___
+
+### IoxWrksSubstanceSpreaderJoystickPowerFloat2
+
+• **IoxWrksSubstanceSpreaderJoystickPowerFloat2** = ``"IoxWrksSubstanceSpreaderJoystickPowerFloat2"``
+
+Gets the diagnosticId for Iox Works substance spreader - joystick power float 2.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2884](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2884)
+
+___
+
+### IoxWrksSubstanceSpreaderJoystickRight
+
+• **IoxWrksSubstanceSpreaderJoystickRight** = ``"IoxWrksSubstanceSpreaderJoystickRight"``
+
+Gets the diagnosticId for Iox Works substance spreader - joystick right.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2868](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2868)
+
+___
+
+### IoxWrksSubstanceSpreaderJoystickTwistLeft
+
+• **IoxWrksSubstanceSpreaderJoystickTwistLeft** = ``"IoxWrksSubstanceSpreaderJoystickTwistLeft"``
+
+Gets the diagnosticId for Iox Works substance spreader - joystick twist left.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2874](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2874)
+
+___
+
+### IoxWrksSubstanceSpreaderJoystickTwistRight
+
+• **IoxWrksSubstanceSpreaderJoystickTwistRight** = ``"IoxWrksSubstanceSpreaderJoystickTwistRight"``
+
+Gets the diagnosticId for Iox Works substance spreader - joystick twist right.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2876](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2876)
+
+___
+
+### IoxWrksSubstanceSpreaderJoystickUp
+
+• **IoxWrksSubstanceSpreaderJoystickUp** = ``"IoxWrksSubstanceSpreaderJoystickUp"``
+
+Gets the diagnosticId for Iox Works substance spreader - joystick up.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2870](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2870)
+
+___
+
+### IoxWrksSubstanceSpreaderLiquidMaterialPercentage
+
+• **IoxWrksSubstanceSpreaderLiquidMaterialPercentage** = ``"IoxWrksSubstanceSpreaderLiquidMaterialPercentage"``
+
+Gets the diagnosticId for Iox Works substance spreader - liquid material percentage.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2888](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2888)
+
+___
+
+### IoxWrksSubstanceSpreaderPrewetMaterialPercentage
+
+• **IoxWrksSubstanceSpreaderPrewetMaterialPercentage** = ``"IoxWrksSubstanceSpreaderPrewetMaterialPercentage"``
+
+Gets the diagnosticId for Iox Works substance spreader - prewet material percentage.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2886](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2886)
+
+___
+
+### IoxWrksSubstanceSpreaderRelativeHumidityAtRoadTemp
+
+• **IoxWrksSubstanceSpreaderRelativeHumidityAtRoadTemp** = ``"IoxWrksSubstanceSpreaderRelativeHumidityAtRoadTemp"``
+
+Gets the diagnosticId for Iox Works substance spreader - relative humidity at road temp.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2896](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2896)
+
+___
+
+### IoxWrksSubstanceSpreaderRoadConditionMarwis
+
+• **IoxWrksSubstanceSpreaderRoadConditionMarwis** = ``"IoxWrksSubstanceSpreaderRoadConditionMarwis"``
+
+Gets the diagnosticId for Iox Works substance spreader - road condition MARWIS.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2912](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2912)
+
+___
+
+### IoxWrksSubstanceSpreaderSolidMaterialPercentage
+
+• **IoxWrksSubstanceSpreaderSolidMaterialPercentage** = ``"IoxWrksSubstanceSpreaderSolidMaterialPercentage"``
+
+Gets the diagnosticId for Iox Works substance spreader - solid material percentage.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2890](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2890)
+
+___
+
+### IoxWrksSubstanceSpreaderSpinnerPercentage
+
+• **IoxWrksSubstanceSpreaderSpinnerPercentage** = ``"IoxWrksSubstanceSpreaderSpinnerPercentage"``
+
+Gets the diagnosticId for Iox Works substance spreader - spinner percentage.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2892](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2892)
+
+___
+
+### IoxWrksSubstanceSpreaderWaterFilmHeight
+
+• **IoxWrksSubstanceSpreaderWaterFilmHeight** = ``"IoxWrksSubstanceSpreaderWaterFilmHeight"``
+
+Gets the diagnosticId for Iox Works substance spreader - water film height.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2898](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2898)
+
+___
+
+### IoxWrksSubstanceSpreaderWaterFilmHeightOnSurface
+
+• **IoxWrksSubstanceSpreaderWaterFilmHeightOnSurface** = ``"IoxWrksSubstanceSpreaderWaterFilmHeightOnSurface"``
+
+Gets the diagnosticId for Iox Works substance spreader - water film height on surface.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2900](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2900)
+
+___
+
+### IoxWrksTowControllerMode
+
+• **IoxWrksTowControllerMode** = ``"IoxWrksTowControllerMode"``
+
+Gets the diagnosticId for Iox Works tow controller mode.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2932](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2932)
+
+___
+
+### IoxWrksTowControllerStatus
+
+• **IoxWrksTowControllerStatus** = ``"IoxWrksTowControllerStatus"``
+
+Gets the diagnosticId for Iox Works tow controller status.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2930](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2930)
+
+___
+
+### IoxWrksTowLiquidMaterialPercentage
+
+• **IoxWrksTowLiquidMaterialPercentage** = ``"IoxWrksTowLiquidMaterialPercentage"``
+
+Gets the diagnosticId for Iox Works tow liquid material percentage.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2938](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2938)
+
+___
+
+### IoxWrksTowLiquidSpreadDistance
+
+• **IoxWrksTowLiquidSpreadDistance** = ``"IoxWrksTowLiquidSpreadDistance"``
+
+Gets the diagnosticId for Iox Works tow liquid spread distance.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2954](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2954)
+
+___
+
+### IoxWrksTowPrewetMaterialPercentage
+
+• **IoxWrksTowPrewetMaterialPercentage** = ``"IoxWrksTowPrewetMaterialPercentage"``
+
+Gets the diagnosticId for Iox Works tow prewet material percentage.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2936](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2936)
+
+___
+
+### IoxWrksTowPrewetSpreadDistance
+
+• **IoxWrksTowPrewetSpreadDistance** = ``"IoxWrksTowPrewetSpreadDistance"``
+
+Gets the diagnosticId for Iox Works tow prewet spread distance.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2952](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2952)
+
+___
+
+### IoxWrksTowSolidMaterialPercentage
+
+• **IoxWrksTowSolidMaterialPercentage** = ``"IoxWrksTowSolidMaterialPercentage"``
+
+Gets the diagnosticId for Iox Works tow solid material percentage.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2934](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2934)
+
+___
+
+### IoxWrksTowSolidSpreadDistance
+
+• **IoxWrksTowSolidSpreadDistance** = ``"IoxWrksTowSolidSpreadDistance"``
+
+Gets the diagnosticId for Iox Works tow solid spread distance.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2956](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2956)
+
+___
+
+### IoxWrksTowSpinnerStatus
+
+• **IoxWrksTowSpinnerStatus** = ``"IoxWrksTowSpinnerStatus"``
+
+Gets the diagnosticId for Iox Works tow spinner status.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2940](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2940)
+
+___
+
+### IoxWrksTruckLiquidSpreadDistance
+
+• **IoxWrksTruckLiquidSpreadDistance** = ``"IoxWrksTruckLiquidSpreadDistance"``
+
+Gets the diagnosticId for Iox Works truck liquid spread distance.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2948](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2948)
+
+___
+
+### IoxWrksTruckPrewetSpreadDistance
+
+• **IoxWrksTruckPrewetSpreadDistance** = ``"IoxWrksTruckPrewetSpreadDistance"``
+
+Gets the diagnosticId for Iox Works truck prewet spread distance.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2946](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2946)
+
+___
+
+### IoxWrksTruckSolidSpreadDistance
+
+• **IoxWrksTruckSolidSpreadDistance** = ``"IoxWrksTruckSolidSpreadDistance"``
+
+Gets the diagnosticId for Iox Works truck solid spread distance.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2950](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2950)
+
+___
+
+### J1708FaultDiagnosticId
+
+• **J1708FaultDiagnosticId** = ``"J1708FaultDiagnosticId"``
+
+Gets the diagnostic ID for J1708 fault diagnostic data.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L13)
+
+___
+
+### J1939FaultDiagnosticId
+
+• **J1939FaultDiagnosticId** = ``"J1939FaultDiagnosticId"``
+
+Gets the diagnostic ID for J1939 fault diagnostic data.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:7](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L7)
+
+___
+
+### ListenOnlyModeReasonAudibleAlertId
+
+• **ListenOnlyModeReasonAudibleAlertId** = ``"ListenOnlyModeReasonAudibleAlertId"``
+
+Gets the ListenOnlyModeReason AudibleAlert identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:433](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L433)
+
+___
+
+### ListenOnlyModeReasonDrivabilityId
+
+• **ListenOnlyModeReasonDrivabilityId** = ``"ListenOnlyModeReasonDrivabilityId"``
+
+Gets the ListenOnlyModeReason Drivability identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:435](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L435)
+
+___
+
+### ListenOnlyModeReasonDriverWarningMessageId
+
+• **ListenOnlyModeReasonDriverWarningMessageId** = ``"ListenOnlyModeReasonDriverWarningMessageId"``
+
+Gets the ListenOnlyModeReason DriverWarningMessage identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:431](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L431)
+
+___
+
+### ListenOnlyModeReasonGarageMaintenanceId
+
+• **ListenOnlyModeReasonGarageMaintenanceId** = ``"ListenOnlyModeReasonGarageMaintenanceId"``
+
+Gets the ListenOnlyModeReason GarageMaintenance identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:423](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L423)
+
+___
+
+### ListenOnlyModeReasonLightsOnTheDashId
+
+• **ListenOnlyModeReasonLightsOnTheDashId** = ``"ListenOnlyModeReasonLightsOnTheDashId"``
+
+Gets the ListenOnlyModeReason LightsOnTheDash identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:429](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L429)
+
+___
+
+### ListenOnlyModeReasonLossOfVehicleInstrumentsId
+
+• **ListenOnlyModeReasonLossOfVehicleInstrumentsId** = ``"ListenOnlyModeReasonLossOfVehicleInstrumentsId"``
+
+Gets the ListenOnlyModeReason LossOfVehicleInstruments identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:439](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L439)
+
+___
+
+### ListenOnlyModeReasonNoneId
+
+• **ListenOnlyModeReasonNoneId** = ``"ListenOnlyModeReasonNoneId"``
+
+Gets the ListenOnlyModeReason None identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:419](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L419)
+
+___
+
+### ListenOnlyModeReasonOEMEmbeddedTelematicsId
+
+• **ListenOnlyModeReasonOEMEmbeddedTelematicsId** = ``"ListenOnlyModeReasonOEMEmbeddedTelematicsId"``
+
+Gets the ListenOnlyModeReason OEMEmbeddedTelematics identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:427](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L427)
+
+___
+
+### ListenOnlyModeReasonOperatingLightsOutsideTheVehicleId
+
+• **ListenOnlyModeReasonOperatingLightsOutsideTheVehicleId** = ``"ListenOnlyModeReasonOperatingLightsOutsideTheVehicleId"``
+
+Gets the ListenOnlyModeReason OperatingLightsOutsideTheVehicle identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:437](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L437)
+
+___
+
+### ListenOnlyModeReasonOtherId
+
+• **ListenOnlyModeReasonOtherId** = ``"ListenOnlyModeReasonOtherId"``
+
+Gets the ListenOnlyModeReason Other identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:421](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L421)
+
+___
+
+### ListenOnlyModeReasonSupport3RdPartyHardwareId
+
+• **ListenOnlyModeReasonSupport3RdPartyHardwareId** = ``"ListenOnlyModeReasonSupport3RdPartyHardwareId"``
+
+Gets the ListenOnlyModeReason Support3RdPartyHardware identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:425](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L425)
+
+___
+
+### MaintenanceScheduleBigQueryUploadRequestId
+
+• **MaintenanceScheduleBigQueryUploadRequestId** = ``"MaintenanceScheduleBigQueryUploadRequestId"``
+
+Gets the Id of the MaintenanceScheduleBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:399](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L399)
+
+___
+
+### MaintenanceWorkOrderEntityUploadRequestId
+
+• **MaintenanceWorkOrderEntityUploadRequestId** = ``"MaintenanceWorkOrderEntityUploadRequestId"``
+
+Gets the Id of the MaintenanceWorkOrderEntityUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:395](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L395)
+
+___
+
+### MaintenanceWorkOrderJobBigQueryUploadRequestId
+
+• **MaintenanceWorkOrderJobBigQueryUploadRequestId** = ``"MaintenanceWorkOrderJobBigQueryUploadRequestId"``
+
+Gets the Id of the MaintenanceWorkOrderJobBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:397](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L397)
+
+___
+
+### MaintenanceWorkRequestBigQueryUploadRequestId
+
+• **MaintenanceWorkRequestBigQueryUploadRequestId** = ``"MaintenanceWorkRequestBigQueryUploadRequestId"``
+
+Gets the Id of the AuditEntityUploadRequest
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:393](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L393)
 
 ___
 
@@ -9804,7 +12819,19 @@ Gets the MimeTaskType application/mdf4 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1467](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1467)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2020](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2020)
+
+___
+
+### MimeTaskTypeAutomotiveId
+
+• **MimeTaskTypeAutomotiveId** = ``"MimeTaskTypeAutomotiveId"``
+
+Gets the MimeTaskType automotive identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2022](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2022)
 
 ___
 
@@ -9816,7 +12843,19 @@ Gets the MimeTaskType unknown type identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1465](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1465)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2018](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2018)
+
+___
+
+### MimeTaskTypeVideoSafewayId
+
+• **MimeTaskTypeVideoSafewayId** = ``"MimeTaskTypeVideoSafewayId"``
+
+Gets the MimeTaskType video/safeway identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2024](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2024)
 
 ___
 
@@ -9828,7 +12867,7 @@ Gets the no device identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:935](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L935)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1439](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1439)
 
 ___
 
@@ -9840,7 +12879,7 @@ Gets the no diagnostic identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:937](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L937)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1441](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1441)
 
 ___
 
@@ -9852,7 +12891,7 @@ Gets the no display profile identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1709](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1709)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2296](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2296)
 
 ___
 
@@ -9864,7 +12903,7 @@ Gets the no driver identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:939](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L939)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1443](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1443)
 
 ___
 
@@ -9876,7 +12915,7 @@ Gets the no exception event identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:941](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L941)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1445](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1445)
 
 ___
 
@@ -9888,7 +12927,7 @@ Gets the no failure mode identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:943](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L943)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1447](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1447)
 
 ___
 
@@ -9900,7 +12939,7 @@ Gets the no group identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:945](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L945)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1449](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1449)
 
 ___
 
@@ -9912,7 +12951,7 @@ Gets the no recipient identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:947](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L947)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1451](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1451)
 
 ___
 
@@ -9924,7 +12963,7 @@ Gets the no rule identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:949](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L949)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1453](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1453)
 
 ___
 
@@ -9936,7 +12975,7 @@ Gets the no trailer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:951](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L951)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1455](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1455)
 
 ___
 
@@ -9948,7 +12987,7 @@ Gets the no user identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:953](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L953)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1457](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1457)
 
 ___
 
@@ -9960,7 +12999,31 @@ Gets the no zone identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:955](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L955)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1459](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1459)
+
+___
+
+### NotificationBigQueryUploadRequestId
+
+• **NotificationBigQueryUploadRequestId** = ``"NotificationBigQueryUploadRequestId"``
+
+Gets the Id of the NotificationBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:363](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L363)
+
+___
+
+### ObdiiFaultDiagnosticId
+
+• **ObdiiFaultDiagnosticId** = ``"ObdiiFaultDiagnosticId"``
+
+Gets the diagnostic ID for OBD-II fault diagnostic data.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:9](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L9)
 
 ___
 
@@ -9972,7 +13035,19 @@ Gets the parameter group none identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:957](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L957)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1461](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1461)
+
+___
+
+### PushNotificationTemplateDefaultExceptionRuleId
+
+• **PushNotificationTemplateDefaultExceptionRuleId** = ``"PushNotificationTemplateDefaultExceptionRuleId"``
+
+Gets the push notification template default exception rule popup identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1860](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1860)
 
 ___
 
@@ -9984,7 +13059,27 @@ Gets the Refrigeration unit - battery voltage Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2127](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2127)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2736](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2736)
+
+___
+
+### RefrigerationUnitControllerProtocolId
+
+• **RefrigerationUnitControllerProtocolId** = ``"RefrigerationUnitControllerProtocolId"``
+
+Gets the Refrigeration unit controller protocol (
+ 6 = TK ThermoGuard and TK Smart Reefer /
+ 7 = Carrier Advanced Vector /
+ 8 = Carrier Standard Supra/Ultra/Maxima /
+ 12 = HWASUNG /
+ 16 = Carrier Vector HE 19/ Pulsor /
+ 17 = GAH /
+ 18 = TK DSR
+ )
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2694](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2694)
 
 ___
 
@@ -9996,7 +13091,7 @@ Gets the Refrigeration unit - discharge temperature zone 1 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2091](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2091)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2700](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2700)
 
 ___
 
@@ -10008,7 +13103,7 @@ Gets the Refrigeration unit - discharge temperature zone 2 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2099](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2099)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2708](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2708)
 
 ___
 
@@ -10020,7 +13115,7 @@ Gets the Refrigeration unit - discharge temperature zone 3 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2107](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2107)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2716](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2716)
 
 ___
 
@@ -10032,7 +13127,7 @@ Gets the Refrigeration unit - door status Id (0 = shut / 1 = open).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2125](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2125)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2734](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2734)
 
 ___
 
@@ -10044,7 +13139,7 @@ Gets the Refrigeration unit - engine coolant temperature Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2119](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2119)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2728](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2728)
 
 ___
 
@@ -10056,7 +13151,7 @@ Gets the Refrigeration unit - engine hours (diesel) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2131](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2131)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2740](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2740)
 
 ___
 
@@ -10068,7 +13163,7 @@ Gets the Refrigeration unit - engine hours (electric) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2133](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2133)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2742](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2742)
 
 ___
 
@@ -10080,7 +13175,7 @@ Gets the Refrigeration unit - engine mode Id (0 = diesel / 1 = electric).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2123](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2123)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2732](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2732)
 
 ___
 
@@ -10092,7 +13187,7 @@ Gets the Refrigeration unit - engine Speed Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2117](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2117)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2726](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2726)
 
 ___
 
@@ -10104,7 +13199,7 @@ Gets the Refrigeration unit - evaporator coil temperature zone 1 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2093](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2093)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2702](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2702)
 
 ___
 
@@ -10116,7 +13211,7 @@ Gets the Refrigeration unit - evaporator Coil temperature zone 2 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2101](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2101)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2710](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2710)
 
 ___
 
@@ -10128,7 +13223,7 @@ Gets the Refrigeration unit - evaporator Coil temperature zone 3 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2109](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2109)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2718](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2718)
 
 ___
 
@@ -10140,7 +13235,7 @@ Gets the Refrigeration unit - external Ambient Temperature Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2113](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2113)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2722](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2722)
 
 ___
 
@@ -10152,7 +13247,7 @@ Gets the Refrigeration unit - fuel level Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2115](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2115)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2724](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2724)
 
 ___
 
@@ -10164,7 +13259,7 @@ Gets the Refrigeration unit - operating mode Id (0 = manual / 1 = auto) .
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2121](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2121)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2730](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2730)
 
 ___
 
@@ -10176,7 +13271,7 @@ Gets the Refrigeration unit - set temperature zone 1 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2095](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2095)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2704](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2704)
 
 ___
 
@@ -10188,7 +13283,7 @@ Gets the Refrigeration unit - set temperature zone 2 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2103](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2103)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2712](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2712)
 
 ___
 
@@ -10200,7 +13295,7 @@ Gets the Refrigeration unit - set temperature zone 3 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2111](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2111)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2720](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2720)
 
 ___
 
@@ -10212,7 +13307,7 @@ Gets the Refrigeration unit status (1 = present).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2087](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2087)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2696](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2696)
 
 ___
 
@@ -10224,7 +13319,7 @@ Gets the Refrigeration unit - return temperature zone 1 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2089](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2089)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2698](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2698)
 
 ___
 
@@ -10236,7 +13331,7 @@ Gets the Refrigeration unit - return temperature zone 2 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2097](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2097)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2706](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2706)
 
 ___
 
@@ -10248,7 +13343,7 @@ Gets the Refrigeration unit - return temperature zone 3 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2105](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2105)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2714](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2714)
 
 ___
 
@@ -10260,7 +13355,7 @@ Gets the Refrigeration unit - Total number of alarms Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2135](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2135)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2744](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2744)
 
 ___
 
@@ -10272,7 +13367,7 @@ Gets the Refrigeration unit - total run hours for all energy type Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2129](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2129)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2738](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2738)
 
 ___
 
@@ -10284,7 +13379,7 @@ Gets Remote probe 1 temperature diagnostic Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2079](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2079)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2676](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2676)
 
 ___
 
@@ -10296,7 +13391,7 @@ Gets Remote probe 2 temperature diagnostic Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2081](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2081)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2678](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2678)
 
 ___
 
@@ -10308,7 +13403,7 @@ Gets Remote probe 3 temperature diagnostic Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2083](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2083)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2680](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2680)
 
 ___
 
@@ -10320,7 +13415,7 @@ Gets Remote probe 4 temperature diagnostic Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2085](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2085)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2682](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2682)
 
 ___
 
@@ -10332,7 +13427,19 @@ Gets the report template active engine faults identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1141](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1141)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1649](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1649)
+
+___
+
+### ReportTemplateActivitySummaryTodayId
+
+• **ReportTemplateActivitySummaryTodayId** = ``"ReportTemplateActivitySummaryTodayId"``
+
+Gets the report template activity summary (today) identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:551](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L551)
 
 ___
 
@@ -10344,7 +13451,7 @@ Gets the report template advanced audit log identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:959](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L959)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1463](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1463)
 
 ___
 
@@ -10356,7 +13463,7 @@ Gets the report template advanced auxiliary detail identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:961](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L961)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1465](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1465)
 
 ___
 
@@ -10368,7 +13475,7 @@ Gets the report template advanced auxiliary summary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:963](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L963)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1467](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1467)
 
 ___
 
@@ -10380,7 +13487,7 @@ Gets the report template advanced charge event identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:965](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L965)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1469](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1469)
 
 ___
 
@@ -10392,7 +13499,7 @@ Gets the report template advanced congregation identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:967](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L967)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1471](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1471)
 
 ___
 
@@ -10404,7 +13511,7 @@ Gets the report template advanced customer visits detail identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:969](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L969)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1473](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1473)
 
 ___
 
@@ -10416,7 +13523,7 @@ Gets the report template advanced customer visits summary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:971](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L971)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1475](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1475)
 
 ___
 
@@ -10428,7 +13535,7 @@ Gets the report template advanced DVIR identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:977](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L977)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1481](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1481)
 
 ___
 
@@ -10440,7 +13547,7 @@ Gets the report template advanced device install history identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:973](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L973)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1477](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1477)
 
 ___
 
@@ -10452,7 +13559,7 @@ Gets the report template advanced diagnostics identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:975](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L975)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1479](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1479)
 
 ___
 
@@ -10464,7 +13571,7 @@ Gets the report template advanced EV battery health identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:993](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L993)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1497](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1497)
 
 ___
 
@@ -10476,7 +13583,7 @@ Gets the report template advanced engine fault identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:979](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L979)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1483](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1483)
 
 ___
 
@@ -10488,7 +13595,7 @@ Gets the report template advanced engine status identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:981](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L981)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1485](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1485)
 
 ___
 
@@ -10500,7 +13607,7 @@ Gets the report template advanced engine summary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:983](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L983)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1487](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1487)
 
 ___
 
@@ -10512,7 +13619,7 @@ Gets the report template advanced event history identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:985](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L985)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1489](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1489)
 
 ___
 
@@ -10524,7 +13631,7 @@ Gets the report template advanced event rule device identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:987](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L987)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1491](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1491)
 
 ___
 
@@ -10536,7 +13643,7 @@ Gets the report template advanced exceptions detail identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:989](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L989)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1493](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1493)
 
 ___
 
@@ -10548,7 +13655,7 @@ Gets the report template advanced exceptions summary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:991](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L991)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1495](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1495)
 
 ___
 
@@ -10560,7 +13667,19 @@ Gets the report template advanced failure mode identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:995](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L995)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1499](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1499)
+
+___
+
+### ReportTemplateAdvancedFillUpsId
+
+• **ReportTemplateAdvancedFillUpsId** = ``"ReportTemplateAdvancedFillUpsId"``
+
+Gets the report template Advanced Fill-Ups identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:557](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L557)
 
 ___
 
@@ -10572,7 +13691,7 @@ Gets the report template advanced fuel tax identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:997](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L997)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1501](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1501)
 
 ___
 
@@ -10584,7 +13703,7 @@ Gets the report template advanced fuel usage identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:999](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L999)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1503](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1503)
 
 ___
 
@@ -10596,7 +13715,7 @@ Gets the report template advanced groups identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1001](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1001)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1505](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1505)
 
 ___
 
@@ -10608,7 +13727,7 @@ Gets the report template advanced HOS availability identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1007](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1007)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1511](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1511)
 
 ___
 
@@ -10620,7 +13739,7 @@ Gets the report template advanced hos log identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1003](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1003)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1507](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1507)
 
 ___
 
@@ -10632,7 +13751,7 @@ Gets the report template advanced hos violation identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1005](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1005)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1509](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1509)
 
 ___
 
@@ -10644,7 +13763,7 @@ Gets the report template advanced log details identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1009](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1009)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1513](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1513)
 
 ___
 
@@ -10656,7 +13775,55 @@ Gets the report template advanced maintenance reminders identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1011](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1011)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1515](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1515)
+
+___
+
+### ReportTemplateAdvancedMaintenanceSchedulesId
+
+• **ReportTemplateAdvancedMaintenanceSchedulesId** = ``"ReportTemplateAdvancedMaintenanceSchedulesId"``
+
+Gets the report template advanced schedules identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:447](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L447)
+
+___
+
+### ReportTemplateAdvancedMaintenanceWorkJobsId
+
+• **ReportTemplateAdvancedMaintenanceWorkJobsId** = ``"ReportTemplateAdvancedMaintenanceWorkJobsId"``
+
+Gets the report template advanced work jobs identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:445](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L445)
+
+___
+
+### ReportTemplateAdvancedMaintenanceWorkOrdersWorkJobsId
+
+• **ReportTemplateAdvancedMaintenanceWorkOrdersWorkJobsId** = ``"ReportTemplateAdvancedMaintenanceWorkOrdersWorkJobsId"``
+
+Gets the report template advanced work orders work jobs identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:481](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L481)
+
+___
+
+### ReportTemplateAdvancedMaintenanceWorkRequestsId
+
+• **ReportTemplateAdvancedMaintenanceWorkRequestsId** = ``"ReportTemplateAdvancedMaintenanceWorkRequestsId"``
+
+Gets the report template advanced work requests identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:443](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L443)
 
 ___
 
@@ -10668,7 +13835,7 @@ Gets the report template advanced material management identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1013](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1013)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1517](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1517)
 
 ___
 
@@ -10680,7 +13847,7 @@ Gets the report template advanced notifications identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1015](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1015)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1519](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1519)
 
 ___
 
@@ -10692,7 +13859,7 @@ Gets the report template advanced plan vs actual route identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1017](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1017)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1521](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1521)
 
 ___
 
@@ -10704,7 +13871,7 @@ Gets the report template advanced risk management identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1019](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1019)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1523](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1523)
 
 ___
 
@@ -10716,7 +13883,7 @@ Gets the report template advanced route completion identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1021](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1021)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1525](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1525)
 
 ___
 
@@ -10728,7 +13895,7 @@ Gets the report template advanced route directions identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1023](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1023)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1527](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1527)
 
 ___
 
@@ -10740,7 +13907,7 @@ Gets the report template advanced route summary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1025](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1025)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1529](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1529)
 
 ___
 
@@ -10752,7 +13919,7 @@ Gets the report template advanced service status identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1027](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1027)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1531](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1531)
 
 ___
 
@@ -10764,7 +13931,7 @@ Gets the report template advanced text messages identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1029](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1029)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1533](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1533)
 
 ___
 
@@ -10776,7 +13943,7 @@ Gets the report template advanced time card identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1031](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1031)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1535](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1535)
 
 ___
 
@@ -10788,7 +13955,7 @@ Gets the report template advanced time performance identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1033](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1033)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1537](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1537)
 
 ___
 
@@ -10800,7 +13967,7 @@ Gets the report template advanced trips detail identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1035](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1035)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1539](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1539)
 
 ___
 
@@ -10812,7 +13979,7 @@ Gets the report template advanced trips summary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1037](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1037)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1541](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1541)
 
 ___
 
@@ -10824,7 +13991,7 @@ Gets the report template advanced unmatched route identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1039](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1039)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1543](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1543)
 
 ___
 
@@ -10836,7 +14003,7 @@ Gets the report template advanced users identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1041](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1041)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1545](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1545)
 
 ___
 
@@ -10848,7 +14015,7 @@ Gets the report template advanced value performance identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1043](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1043)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1547](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1547)
 
 ___
 
@@ -10860,7 +14027,7 @@ Gets the report template advanced vehicles identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1045](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1045)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1549](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1549)
 
 ___
 
@@ -10872,7 +14039,7 @@ Gets the report template advanced zones identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1047](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1047)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1551](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1551)
 
 ___
 
@@ -10884,7 +14051,19 @@ Gets the report template aggressive driving identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1143](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1143)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1651](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1651)
+
+___
+
+### ReportTemplateAssetMonitoringId
+
+• **ReportTemplateAssetMonitoringId** = ``"ReportTemplateAssetMonitoringId"``
+
+Gets the report template asset monitoring.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1553](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1553)
 
 ___
 
@@ -10896,7 +14075,7 @@ Gets the report template asset utilization identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1145](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1145)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1653](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1653)
 
 ___
 
@@ -10908,7 +14087,7 @@ Gets the report template audit log identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1049](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1049)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1555](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1555)
 
 ___
 
@@ -10920,7 +14099,7 @@ Gets the report template auxiliary detail identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1051](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1051)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1557](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1557)
 
 ___
 
@@ -10932,7 +14111,7 @@ Gets the report template auxiliary summary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1053](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1053)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1559](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1559)
 
 ___
 
@@ -10944,7 +14123,43 @@ Gets the report template average fuel economy identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1147](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1147)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1655](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1655)
+
+___
+
+### ReportTemplateBEVRangeCapabilityId
+
+• **ReportTemplateBEVRangeCapabilityId** = ``"ReportTemplateBEVRangeCapabilityId"``
+
+Gets the report template BEV range capability identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1593](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1593)
+
+___
+
+### ReportTemplateBasicDriverScoreLastWeekId
+
+• **ReportTemplateBasicDriverScoreLastWeekId** = ``"ReportTemplateBasicDriverScoreLastWeekId"``
+
+Gets the report template Basic Driver Score (last week) identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:555](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L555)
+
+___
+
+### ReportTemplateBusinessVsPersonalLastWeekId
+
+• **ReportTemplateBusinessVsPersonalLastWeekId** = ``"ReportTemplateBusinessVsPersonalLastWeekId"``
+
+Gets the report template Business vs Personal (last week) identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:547](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L547)
 
 ___
 
@@ -10956,7 +14171,31 @@ Gets the report template charge event identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1055](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1055)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1561](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1561)
+
+___
+
+### ReportTemplateCleanTruckCheckId
+
+• **ReportTemplateCleanTruckCheckId** = ``"ReportTemplateCleanTruckCheckId"``
+
+Gets the report template clean truck Check.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:465](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L465)
+
+___
+
+### ReportTemplateColdChainId
+
+• **ReportTemplateColdChainId** = ``"ReportTemplateColdChainId"``
+
+Gets the report template Cold Chain.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:461](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L461)
 
 ___
 
@@ -10968,7 +14207,7 @@ Gets the report template congregation identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1057](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1057)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1563](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1563)
 
 ___
 
@@ -10980,7 +14219,7 @@ Gets the report template customer visits detail identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1059](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1059)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1565](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1565)
 
 ___
 
@@ -10992,7 +14231,7 @@ Gets the report template customer visits summary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1061](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1061)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1567](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1567)
 
 ___
 
@@ -11004,7 +14243,7 @@ Gets the report template DVIR identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1069](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1069)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1575](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1575)
 
 ___
 
@@ -11016,7 +14255,19 @@ Gets the report template device install history identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1063](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1063)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1569](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1569)
+
+___
+
+### ReportTemplateDeviceOnlineAndOfflineId
+
+• **ReportTemplateDeviceOnlineAndOfflineId** = ``"ReportTemplateDeviceOnlineAndOfflineId"``
+
+Gets the report template Device Online and Offline identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:559](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L559)
 
 ___
 
@@ -11028,7 +14279,7 @@ Gets the report template diagnostics identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1065](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1065)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1571](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1571)
 
 ___
 
@@ -11040,7 +14291,7 @@ Gets the report template Driver Safety Scorecard identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1149](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1149)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1657](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1657)
 
 ___
 
@@ -11052,7 +14303,7 @@ Gets the report template ELD Diagnostics And Malfunctions identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1151](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1151)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1659](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1659)
 
 ___
 
@@ -11064,7 +14315,7 @@ Gets the report template ELD Unidentified Driver Logs identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1153](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1153)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1661](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1661)
 
 ___
 
@@ -11076,7 +14327,7 @@ Gets the report template ELD Unverified Logs identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1155](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1155)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1663](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1663)
 
 ___
 
@@ -11088,7 +14339,19 @@ Gets the report template EV battery health identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1085](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1085)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1591](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1591)
+
+___
+
+### ReportTemplateEVPerformanceId
+
+• **ReportTemplateEVPerformanceId** = ``"ReportTemplateEVPerformanceId"``
+
+Gets the report template EV Performance identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:467](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L467)
 
 ___
 
@@ -11100,7 +14363,7 @@ Gets the report template engine fault identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1071](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1071)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1577](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1577)
 
 ___
 
@@ -11112,7 +14375,7 @@ Gets the report template engine status identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1073](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1073)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1579](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1579)
 
 ___
 
@@ -11124,7 +14387,7 @@ Gets the report template engine summary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1075](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1075)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1581](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1581)
 
 ___
 
@@ -11136,7 +14399,7 @@ Gets the report template event history identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1077](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1077)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1583](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1583)
 
 ___
 
@@ -11148,7 +14411,7 @@ Gets the report template event rule device identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1079](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1079)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1585](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1585)
 
 ___
 
@@ -11160,7 +14423,7 @@ Gets the report template exceptions detail identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1081](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1081)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1587](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1587)
 
 ___
 
@@ -11172,7 +14435,7 @@ Gets the report template exceptions summary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1083](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1083)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1589](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1589)
 
 ___
 
@@ -11184,7 +14447,7 @@ Gets the report template failure mode identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1087](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1087)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1595](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1595)
 
 ___
 
@@ -11196,7 +14459,7 @@ Gets the report template Fill ups identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1067](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1067)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1573](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1573)
 
 ___
 
@@ -11208,7 +14471,7 @@ Gets the report template Fleet Distance Trend identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1157](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1157)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1665](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1665)
 
 ___
 
@@ -11220,7 +14483,7 @@ Gets the report template Fleet Utilization identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1159](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1159)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1667](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1667)
 
 ___
 
@@ -11232,7 +14495,19 @@ Gets the report template fuel tax identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1089](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1089)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1597](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1597)
+
+___
+
+### ReportTemplateFuelTransactionId
+
+• **ReportTemplateFuelTransactionId** = ``"ReportTemplateFuelTransactionId"``
+
+Gets the report template fuel transaction identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:469](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L469)
 
 ___
 
@@ -11244,7 +14519,7 @@ Gets the report template fuel usage identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1091](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1091)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1599](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1599)
 
 ___
 
@@ -11256,7 +14531,7 @@ Gets the report template groups identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1093](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1093)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1601](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1601)
 
 ___
 
@@ -11268,7 +14543,7 @@ Gets the report template HOS availability identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1099](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1099)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1607](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1607)
 
 ___
 
@@ -11280,7 +14555,7 @@ Gets the report template HOS log identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1095](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1095)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1603](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1603)
 
 ___
 
@@ -11292,7 +14567,7 @@ Gets the report template HOS Violation Breakdown identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1161](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1161)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1669](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1669)
 
 ___
 
@@ -11304,7 +14579,7 @@ Gets the report template HOS violation identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1097](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1097)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1605](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1605)
 
 ___
 
@@ -11316,7 +14591,19 @@ Gets the report template Idling Violations identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1163](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1163)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1671](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1671)
+
+___
+
+### ReportTemplateLastMileMaintenanceId
+
+• **ReportTemplateLastMileMaintenanceId** = ``"ReportTemplateLastMileMaintenanceId"``
+
+Gets the report template Last Mile Maintenance.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:463](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L463)
 
 ___
 
@@ -11328,7 +14615,7 @@ Gets the report template log details identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1101](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1101)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1609](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1609)
 
 ___
 
@@ -11340,7 +14627,43 @@ Gets the report template maintenance reminders identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1103](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1103)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1611](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1611)
+
+___
+
+### ReportTemplateMaintenanceSchedulesId
+
+• **ReportTemplateMaintenanceSchedulesId** = ``"ReportTemplateMaintenanceSchedulesId"``
+
+Gets the report template schedules identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:455](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L455)
+
+___
+
+### ReportTemplateMaintenanceWorkJobsId
+
+• **ReportTemplateMaintenanceWorkJobsId** = ``"ReportTemplateMaintenanceWorkJobsId"``
+
+Gets the report template work jobs identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:453](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L453)
+
+___
+
+### ReportTemplateMaintenanceWorkRequestsId
+
+• **ReportTemplateMaintenanceWorkRequestsId** = ``"ReportTemplateMaintenanceWorkRequestsId"``
+
+Gets the report template work requests identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:451](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L451)
 
 ___
 
@@ -11352,7 +14675,7 @@ Gets the report template material management identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1105](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1105)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1613](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1613)
 
 ___
 
@@ -11364,7 +14687,7 @@ Gets the report template Max Speed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1165](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1165)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1673](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1673)
 
 ___
 
@@ -11376,7 +14699,31 @@ Gets the report template notifications identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1107](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1107)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1615](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1615)
+
+___
+
+### ReportTemplateNumberOfStopsYesterdayId
+
+• **ReportTemplateNumberOfStopsYesterdayId** = ``"ReportTemplateNumberOfStopsYesterdayId"``
+
+Gets the report template Number of Stops (yesterday) identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:549](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L549)
+
+___
+
+### ReportTemplatePercentageOfTimeIdlingYesterdayId
+
+• **ReportTemplatePercentageOfTimeIdlingYesterdayId** = ``"ReportTemplatePercentageOfTimeIdlingYesterdayId"``
+
+Gets the report template Percentage of time Idling (yesterday) identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:553](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L553)
 
 ___
 
@@ -11388,7 +14735,7 @@ Gets the report template plan vs actual route identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1109](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1109)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1617](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1617)
 
 ___
 
@@ -11400,7 +14747,7 @@ Gets the report template Possible Collisions identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1167](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1167)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1675](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1675)
 
 ___
 
@@ -11412,7 +14759,19 @@ Gets the report template progress report identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1177](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1177)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1685](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1685)
+
+___
+
+### ReportTemplateRiskAnalyticsId
+
+• **ReportTemplateRiskAnalyticsId** = ``"ReportTemplateRiskAnalyticsId"``
+
+Gets the report template collision risk identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1687](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1687)
 
 ___
 
@@ -11424,7 +14783,7 @@ Gets the report template risk management identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1111](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1111)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1619](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1619)
 
 ___
 
@@ -11436,7 +14795,7 @@ Gets the report template route completion identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1113](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1113)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1621](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1621)
 
 ___
 
@@ -11448,7 +14807,7 @@ Gets the report template route directions identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1115](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1115)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1623](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1623)
 
 ___
 
@@ -11460,7 +14819,7 @@ Gets the report template route summary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1117](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1117)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1625](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1625)
 
 ___
 
@@ -11472,7 +14831,7 @@ Gets the report template Seat Belt Violations identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1169](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1169)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1677](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1677)
 
 ___
 
@@ -11484,7 +14843,7 @@ Gets the report template service status identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1119](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1119)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1627](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1627)
 
 ___
 
@@ -11496,7 +14855,19 @@ Gets the report template speed violations identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1171](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1171)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1679](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1679)
+
+___
+
+### ReportTemplateSustainabilityOverviewId
+
+• **ReportTemplateSustainabilityOverviewId** = ``"ReportTemplateSustainabilityOverviewId"``
+
+Gets the report template sustainability overview identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:471](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L471)
 
 ___
 
@@ -11508,7 +14879,7 @@ Gets the report template text messages identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1121](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1121)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1629](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1629)
 
 ___
 
@@ -11520,7 +14891,7 @@ Gets the report template time card identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1123](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1123)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1631](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1631)
 
 ___
 
@@ -11532,7 +14903,7 @@ Gets the report template time performance identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1125](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1125)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1633](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1633)
 
 ___
 
@@ -11544,7 +14915,7 @@ Gets the report template Unrepaired Defects identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1175](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1175)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1683](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1683)
 
 ___
 
@@ -11556,7 +14927,7 @@ Gets the report template trips detail identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1127](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1127)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1635](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1635)
 
 ___
 
@@ -11568,7 +14939,7 @@ Gets the report template trips summary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1129](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1129)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1637](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1637)
 
 ___
 
@@ -11580,7 +14951,7 @@ Gets the report template unmatched route identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1131](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1131)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1639](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1639)
 
 ___
 
@@ -11592,7 +14963,7 @@ Gets the report template Unrepaired Defects identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1173](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1173)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1681](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1681)
 
 ___
 
@@ -11604,7 +14975,7 @@ Gets the report template users identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1133](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1133)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1641](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1641)
 
 ___
 
@@ -11616,7 +14987,7 @@ Gets the report template value performance identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1135](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1135)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1643](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1643)
 
 ___
 
@@ -11628,7 +14999,7 @@ Gets the report template vehicles identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1137](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1137)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1645](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1645)
 
 ___
 
@@ -11640,7 +15011,7 @@ Gets the report template watchdog identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1139](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1139)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1647](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1647)
 
 ___
 
@@ -11652,7 +15023,19 @@ Gets the report template zones identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1179](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1179)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1689](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1689)
+
+___
+
+### RestrictedDataModeChangeBigQueryUploadRequestId
+
+• **RestrictedDataModeChangeBigQueryUploadRequestId** = ``"RestrictedDataModeChangeBigQueryUploadRequestId"``
+
+Gets the Id of the RestrictedDataModeChangeBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:379](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L379)
 
 ___
 
@@ -11664,7 +15047,7 @@ Gets the DataModeType Private identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1473](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1473)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2030](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2030)
 
 ___
 
@@ -11676,7 +15059,7 @@ Gets the rule accident identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1181](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1181)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1691](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1691)
 
 ___
 
@@ -11688,7 +15071,7 @@ Gets the rule after hours usage identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1183](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1183)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1697](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1697)
 
 ___
 
@@ -11700,7 +15083,7 @@ Gets the rule alternator failed identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1185](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1185)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1699](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1699)
 
 ___
 
@@ -11712,7 +15095,7 @@ Gets the rule application exception identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1187](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1187)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1701](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1701)
 
 ___
 
@@ -11724,7 +15107,103 @@ Gets the rule at office longer than identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1189](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1189)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1703](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1703)
+
+___
+
+### RuleBigQueryUploadRequestId
+
+• **RuleBigQueryUploadRequestId** = ``"RuleBigQueryUploadRequest"``
+
+Gets the Id of the RuleBigQueryUploadRequest
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:341](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L341)
+
+___
+
+### RuleCameraDetectedDriverSeatbeltId
+
+• **RuleCameraDetectedDriverSeatbeltId** = ``"RuleCameraDetectedDriverSeatbeltId"``
+
+Gets the rule for camera detected driver seatbelt.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:589](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L589)
+
+___
+
+### RuleCameraLensObstructionId
+
+• **RuleCameraLensObstructionId** = ``"RuleCameraLensObstructionId"``
+
+Gets the rule for camera lens obstruction.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:573](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L573)
+
+___
+
+### RuleCameraTamperingId
+
+• **RuleCameraTamperingId** = ``"RuleCameraTamperingId"``
+
+Gets the rule for camera tampering.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:577](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L577)
+
+___
+
+### RuleCargoTemperatureOutOfSafeRangeZone1Id
+
+• **RuleCargoTemperatureOutOfSafeRangeZone1Id** = ``"RuleCargoTemperatureOutOfSafeRangeZone1Id"``
+
+Gets the rule for cargo tempearture out of safe range zone 1.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2980](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2980)
+
+___
+
+### RuleCargoTemperatureOutOfSafeRangeZone2Id
+
+• **RuleCargoTemperatureOutOfSafeRangeZone2Id** = ``"RuleCargoTemperatureOutOfSafeRangeZone2Id"``
+
+Gets the rule for cargo tempearture out of safe range zone 2.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2982](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2982)
+
+___
+
+### RuleCargoTemperatureOutOfSafeRangeZone3Id
+
+• **RuleCargoTemperatureOutOfSafeRangeZone3Id** = ``"RuleCargoTemperatureOutOfSafeRangeZone3Id"``
+
+Gets the rule for cargo tempearture out of safe range zone 3.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2984](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2984)
+
+___
+
+### RuleCriticalLowTirePressureId
+
+• **RuleCriticalLowTirePressureId** = ``"RuleCriticalLowTirePressureId"``
+
+Gets the rule for critical low tire pressure.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1800](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1800)
 
 ___
 
@@ -11736,7 +15215,7 @@ Gets the rule ELD yard move exemption identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1233](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1233)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1752](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1752)
 
 ___
 
@@ -11748,7 +15227,79 @@ Gets the rule ELD yard move exemption identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1231](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1231)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1750](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1750)
+
+___
+
+### RuleDefensiveDrivingId
+
+• **RuleDefensiveDrivingId** = ``"RuleDefensiveDrivingId"``
+
+Gets the rule for defensive driving.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:593](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L593)
+
+___
+
+### RuleDeviceButtonPressedId
+
+• **RuleDeviceButtonPressedId** = ``"RuleDeviceButtonPressedId"``
+
+Gets the rule for device button pressed.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:459](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L459)
+
+___
+
+### RuleDistractionId
+
+• **RuleDistractionId** = ``"RuleDistractionId"``
+
+Gets the rule for distraction.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:579](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L579)
+
+___
+
+### RuleDoubleSolidLineViolationId
+
+• **RuleDoubleSolidLineViolationId** = ``"RuleDoubleSolidLineViolationId"``
+
+Gets the rule for double solid line violation.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:595](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L595)
+
+___
+
+### RuleDrinkingOrEatingId
+
+• **RuleDrinkingOrEatingId** = ``"RuleDrinkingOrEatingId"``
+
+Gets the rule for drinking or eating.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:581](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L581)
+
+___
+
+### RuleDriverFatigueId
+
+• **RuleDriverFatigueId** = ``"RuleDriverFatigueId"``
+
+Gets the rule for driver fatigue.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:583](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L583)
 
 ___
 
@@ -11760,7 +15311,7 @@ Gets the rule dvir defect identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1201](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1201)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1720](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1720)
 
 ___
 
@@ -11772,7 +15323,7 @@ Gets the rule EV Done Charging identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1243](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1243)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1762](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1762)
 
 ___
 
@@ -11784,7 +15335,7 @@ Gets the rule EV Enter Charging Zone With Low Charge identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1239](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1239)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1758](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1758)
 
 ___
 
@@ -11796,7 +15347,7 @@ Gets the rule EV Exit Charging Zone With Low Charge identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1245](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1245)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1764](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1764)
 
 ___
 
@@ -11808,7 +15359,7 @@ Gets the rule EV Low Charge identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1241](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1241)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1760](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1760)
 
 ___
 
@@ -11820,7 +15371,7 @@ Gets the rule for route based material management zone.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1261](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1261)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1788](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1788)
 
 ___
 
@@ -11832,7 +15383,7 @@ Gets the rule early leave identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1191](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1191)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1705](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1705)
 
 ___
 
@@ -11844,7 +15395,19 @@ Gets the rule engine abuse identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1193](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1193)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1707](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1707)
+
+___
+
+### RuleEngineCoolantTemperatureHighId
+
+• **RuleEngineCoolantTemperatureHighId** = ``"RuleEngineCoolantTemperatureHighId"``
+
+Gets the rule for engine coolant temp high.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:309](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L309)
 
 ___
 
@@ -11856,7 +15419,31 @@ Gets the rule engine light on identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1195](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1195)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1709](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1709)
+
+___
+
+### RuleEnhancedMajorCollisionId
+
+• **RuleEnhancedMajorCollisionId** = ``"RuleEnhancedMajorCollisionId"``
+
+Gets the rule ai detection identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1693](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1693)
+
+___
+
+### RuleEnhancedMinorCollisionId
+
+• **RuleEnhancedMinorCollisionId** = ``"RuleEnhancedMinorCollisionId"``
+
+Gets the enhanced minor collision rule
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1695](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1695)
 
 ___
 
@@ -11868,7 +15455,7 @@ Gets the rule ELD yard move exemption identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1229](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1229)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1748](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1748)
 
 ___
 
@@ -11876,11 +15463,48 @@ ___
 
 • **RuleFleetIdlingId** = ``"RuleFleetIdlingId"``
 
-Gets the rule fleet idling identifier.
+Gets the rule Idling within Zones identifier.
+ NOTE: This rule was formally called "Fleet Idling"
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1197](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1197)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1714](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1714)
+
+___
+
+### RuleFollowingDistanceId
+
+• **RuleFollowingDistanceId** = ``"RuleFollowingDistanceId"``
+
+Gets the rule for following distance.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:457](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L457)
+
+___
+
+### RuleGoAnywhereBatteryDrainId
+
+• **RuleGoAnywhereBatteryDrainId** = ``"RuleGoAnywhereBatteryDrainId"``
+
+Gets the rule for go anywhere battery drain.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:297](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L297)
+
+___
+
+### RuleGpsSpeedingWindowId
+
+• **RuleGpsSpeedingWindowId** = ``"RuleGpsSpeedingWindowId"``
+
+Gets the rule GPS-based speeding within a window identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:519](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L519)
 
 ___
 
@@ -11892,7 +15516,7 @@ Gets the rule harsh braking identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1199](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1199)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1716](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1716)
 
 ___
 
@@ -11904,7 +15528,43 @@ Gets the rule harsh cornering identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1205](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1205)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1724](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1724)
+
+___
+
+### RuleHarshGpsAccelerationId
+
+• **RuleHarshGpsAccelerationId** = ``"RuleHarshGpsAccelerationId"``
+
+Gets the rule harsh GPS-based acceleration identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:513](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L513)
+
+___
+
+### RuleHarshGpsBrakingId
+
+• **RuleHarshGpsBrakingId** = ``"RuleHarshGpsBrakingId"``
+
+Gets the rule harsh GPS-based braking identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:515](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L515)
+
+___
+
+### RuleHarshGpsCorneringId
+
+• **RuleHarshGpsCorneringId** = ``"RuleHarshGpsCorneringId"``
+
+Gets the rule harsh GPS-based cornering identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:517](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L517)
 
 ___
 
@@ -11916,7 +15576,7 @@ Gets the rule idling identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1207](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1207)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1726](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1726)
 
 ___
 
@@ -11928,7 +15588,7 @@ Gets the rule idling no PTO identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1209](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1209)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1728](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1728)
 
 ___
 
@@ -11940,7 +15600,7 @@ Gets the rule jackrabbit starts identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1211](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1211)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1730](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1730)
 
 ___
 
@@ -11952,7 +15612,7 @@ Gets the rule late arrival identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1213](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1213)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1732](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1732)
 
 ___
 
@@ -11964,7 +15624,7 @@ Gets the rule lights left on identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1215](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1215)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1734](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1734)
 
 ___
 
@@ -11976,7 +15636,7 @@ Gets the rule long lunch identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1217](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1217)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1736](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1736)
 
 ___
 
@@ -11988,7 +15648,7 @@ Gets the rule long stops during work hours identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1219](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1219)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1738](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1738)
 
 ___
 
@@ -12000,7 +15660,7 @@ Gets the rule low fuel level identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1221](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1221)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1740](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1740)
 
 ___
 
@@ -12012,7 +15672,7 @@ Gets the rule Material management deadhead.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1255](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1255)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1776](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1776)
 
 ___
 
@@ -12024,7 +15684,7 @@ Gets the rule Material management liquid application.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1251](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1251)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1770](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1770)
 
 ___
 
@@ -12036,7 +15696,7 @@ Gets the rule Material management plow.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1253](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1253)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1772](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1772)
 
 ___
 
@@ -12048,7 +15708,7 @@ Gets the rule Material management pre wet application.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1249](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1249)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1768](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1768)
 
 ___
 
@@ -12060,7 +15720,7 @@ Gets the rule for route based material management zone.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1259](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1259)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1780](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1780)
 
 ___
 
@@ -12072,7 +15732,55 @@ Gets the rule Material management solid application.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1247](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1247)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1766](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1766)
+
+___
+
+### RuleMaterialManagementTowPlowActiveId
+
+• **RuleMaterialManagementTowPlowActiveId** = ``"RuleMaterialManagementTowPlowActiveId"``
+
+Gets the rule Material management tow plow.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1774](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1774)
+
+___
+
+### RuleMaterialManagementTowPlowLiquidApplicationId
+
+• **RuleMaterialManagementTowPlowLiquidApplicationId** = ``"RuleMaterialManagementTowPlowLiquidApplicationId"``
+
+Gets the rule Material management tow plow liquid application.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1784](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1784)
+
+___
+
+### RuleMaterialManagementTowPlowPreWetApplicationId
+
+• **RuleMaterialManagementTowPlowPreWetApplicationId** = ``"RuleMaterialManagementTowPlowPreWetApplicationId"``
+
+Gets the rule Material management tow plow pre wet application.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1786](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1786)
+
+___
+
+### RuleMaterialManagementTowPlowSolidApplicationId
+
+• **RuleMaterialManagementTowPlowSolidApplicationId** = ``"RuleMaterialManagementTowPlowSolidApplicationId"``
+
+Gets the rule Material management tow plow solid application.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1782](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1782)
 
 ___
 
@@ -12084,7 +15792,31 @@ Gets the rule Material management unload.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1257](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1257)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1778](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1778)
+
+___
+
+### RuleNearCollisionWarningId
+
+• **RuleNearCollisionWarningId** = ``"RuleNearCollisionWarningId"``
+
+Gets the rule for near collision warning.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:597](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L597)
+
+___
+
+### RulePhoneUsageId
+
+• **RulePhoneUsageId** = ``"RulePhoneUsageId"``
+
+Gets the rule for phone usage.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:587](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L587)
 
 ___
 
@@ -12096,7 +15828,19 @@ Gets the rule posted speeding identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1223](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1223)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1742](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1742)
+
+___
+
+### RulePreventableIdlingId
+
+• **RulePreventableIdlingId** = ``"RulePreventableIdlingId"``
+
+Gets the rule for preventable idling.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1802](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1802)
 
 ___
 
@@ -12108,7 +15852,31 @@ Gets the rule reverse at start identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1225](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1225)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1744](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1744)
+
+___
+
+### RuleRoadCameraAdjustmentRequiredId
+
+• **RuleRoadCameraAdjustmentRequiredId** = ``"RuleRoadCameraAdjustmentRequiredId"``
+
+Gets the rule for road camera adjustment required.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:575](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L575)
+
+___
+
+### RuleRollingStopId
+
+• **RuleRollingStopId** = ``"RuleRollingStopId"``
+
+Gets the rule for rolling stop.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:591](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L591)
 
 ___
 
@@ -12120,7 +15888,43 @@ Gets the rule seat belt identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1227](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1227)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1746](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1746)
+
+___
+
+### RuleSmokingId
+
+• **RuleSmokingId** = ``"RuleSmokingId"``
+
+Gets the rule for smoking.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:585](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L585)
+
+___
+
+### RuleTachographCompanyCardAvailabilityId
+
+• **RuleTachographCompanyCardAvailabilityId** = ``"RuleTachographCompanyCardAvailabilityId"``
+
+Gets the rule for tachograph company card availability.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1798](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1798)
+
+___
+
+### RuleTachographWeeklyStatusOverviewId
+
+• **RuleTachographWeeklyStatusOverviewId** = ``"RuleTachographWeeklyStatusOverviewId"``
+
+Gets the rule for tachograph weekly status overview.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1796](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1796)
 
 ___
 
@@ -12132,7 +15936,7 @@ Gets the rule unauthorized device removal identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1235](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1235)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1754](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1754)
 
 ___
 
@@ -12144,7 +15948,7 @@ Gets the rule unauthorized home stop identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1237](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1237)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1756](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1756)
 
 ___
 
@@ -12156,7 +15960,7 @@ Gets the rule for Vehicle ESR Health.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1263](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1263)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1790](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1790)
 
 ___
 
@@ -12168,7 +15972,7 @@ Gets the rule harsh braking identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1203](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1203)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1722](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1722)
 
 ___
 
@@ -12180,7 +15984,7 @@ Gets the rule for WiFi Max Tier Limit.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1267](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1267)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1794](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1794)
 
 ___
 
@@ -12192,7 +15996,7 @@ Gets the rule for WiFi Tier Usage.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1265](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1265)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1792](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1792)
 
 ___
 
@@ -12204,7 +16008,7 @@ Gets the securityId, Allow viewing the about checkmate page.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1887](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1887)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2476](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2476)
 
 ___
 
@@ -12216,7 +16020,175 @@ Gets the securityId, Allow user to view and edit accelerometer stock rules and d
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1945](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1945)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2538](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2538)
+
+___
+
+### SecurityIdAccessAddInManagementId
+
+• **SecurityIdAccessAddInManagementId** = ``"SecurityIdAccessAddInManagementId"``
+
+Gets the securityId, Access Add-in Management.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2836](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2836)
+
+___
+
+### SecurityIdAccessBillingServicesId
+
+• **SecurityIdAccessBillingServicesId** = ``"SecurityIdAccessBillingServicesId"``
+
+Gets the securityId for managing product returns.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:531](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L531)
+
+___
+
+### SecurityIdAccessCleanTruckCheckComplianceEditorId
+
+• **SecurityIdAccessCleanTruckCheckComplianceEditorId** = ``"SecurityIdAccessCleanTruckCheckComplianceEditorId"``
+
+Gets the securityId for Access Clean Truck Check Compliance editor.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:501](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L501)
+
+___
+
+### SecurityIdAccessCleanTruckCheckComplianceId
+
+• **SecurityIdAccessCleanTruckCheckComplianceId** = ``"SecurityIdAccessCleanTruckCheckComplianceId"``
+
+Gets the securityId for Access Clean Truck Check Compliance.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2838](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2838)
+
+___
+
+### SecurityIdAccessCleanTruckCheckComplianceViewerId
+
+• **SecurityIdAccessCleanTruckCheckComplianceViewerId** = ``"SecurityIdAccessCleanTruckCheckComplianceViewerId"``
+
+Gets the securityId for Access Clean Truck Check Compliance viewer.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:503](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L503)
+
+___
+
+### SecurityIdAccessDeviceInstallationServicesId
+
+• **SecurityIdAccessDeviceInstallationServicesId** = ``"SecurityIdAccessDeviceInstallationServicesId"``
+
+Gets the securityId for managing device installations.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:525](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L525)
+
+___
+
+### SecurityIdAccessEVSuitabilityAssessmentId
+
+• **SecurityIdAccessEVSuitabilityAssessmentId** = ``"SecurityIdAccessEVSuitabilityAssessmentId"``
+
+Gets the securityId, Allow user to access EV performance metrics, dashboards and APIs.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:499](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L499)
+
+___
+
+### SecurityIdAccessInvoicesId
+
+• **SecurityIdAccessInvoicesId** = ``"SecurityIdAccessInvoicesId"``
+
+Gets the securityId for accessing the Invoices page in MYA.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:535](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L535)
+
+___
+
+### SecurityIdAccessMonthlyBillsId
+
+• **SecurityIdAccessMonthlyBillsId** = ``"SecurityIdAccessMonthlyBillsId"``
+
+Gets the securityId for accessing the Monthly Bills page in MYA.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:533](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L533)
+
+___
+
+### SecurityIdAccessOneStoreId
+
+• **SecurityIdAccessOneStoreId** = ``"SecurityIdAccessOneStoreId"``
+
+Gets the securityId for Access to OneStore.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:601](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L601)
+
+___
+
+### SecurityIdAccessOrderManagementId
+
+• **SecurityIdAccessOrderManagementId** = ``"SecurityIdAccessOrderManagementId"``
+
+Gets the securityId for accessing the Order Management page in MYA.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:523](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L523)
+
+___
+
+### SecurityIdAccessProductReturnsId
+
+• **SecurityIdAccessProductReturnsId** = ``"SecurityIdAccessProductReturnsId"``
+
+Gets the securityId for managing product returns.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:529](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L529)
+
+___
+
+### SecurityIdAccessStoreId
+
+• **SecurityIdAccessStoreId** = ``"SecurityIdAccessStoreId"``
+
+Gets the securityId for placing and reviewing orders in Store.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:521](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L521)
+
+___
+
+### SecurityIdAccessVehicleEligibilityId
+
+• **SecurityIdAccessVehicleEligibilityId** = ``"SecurityIdAccessVehicleEligibilityId"``
+
+Gets the securityId for checking vehicle eligibility (VIN lookup).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:527](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L527)
 
 ___
 
@@ -12228,7 +16200,7 @@ Gets the securityId, Access to AccidentDebugReport.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1832](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1832)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2419](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2419)
 
 ___
 
@@ -12240,7 +16212,19 @@ Gets the securityId, Allow access to create or download accident keys.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1855](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1855)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2442](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2442)
+
+___
+
+### SecurityIdActivateVitalityDriverRewardsAddInId
+
+• **SecurityIdActivateVitalityDriverRewardsAddInId** = ``"SecurityIdActivateVitalityDriverRewardsAddInId"``
+
+Gets the securityId, allow user to create a plan in vitality rewards program
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:473](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L473)
 
 ___
 
@@ -12252,7 +16236,31 @@ Gets the securityId, Allow user to view turn on/off Active tracking feature.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1981](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1981)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2574](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2574)
+
+___
+
+### SecurityIdAdministerDeviceModeId
+
+• **SecurityIdAdministerDeviceModeId** = ``"SecurityIdAdministerDeviceModeId"``
+
+Gets the securityId for Administer Device Mode settings.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:613](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L613)
+
+___
+
+### SecurityIdAdministerInvestigationsId
+
+• **SecurityIdAdministerInvestigationsId** = ``"SecurityIdAdministerInvestigationsId"``
+
+Gets the securityId for administering investigations.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:571](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L571)
 
 ___
 
@@ -12264,7 +16272,7 @@ Gets the securityId, administer Live Map
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2163](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2163)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2774](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2774)
 
 ___
 
@@ -12276,7 +16284,7 @@ Gets the securityId, Access to administer properties.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2033](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2033)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2624](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2624)
 
 ___
 
@@ -12288,7 +16296,19 @@ Gets the securityId, Access to administer property sets.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2029](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2029)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2620](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2620)
+
+___
+
+### SecurityIdAdministerPublicWorksServiceRoutesId
+
+• **SecurityIdAdministerPublicWorksServiceRoutesId** = ``"SecurityIdAdministerPublicWorksServiceRoutesId"``
+
+Gets the securityId for Administer Public Works service routes.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2842](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2842)
 
 ___
 
@@ -12300,7 +16320,7 @@ Gets the securityId, Allow user to view the wifi settings tab and view/modify th
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1995](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1995)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2588](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2588)
 
 ___
 
@@ -12312,7 +16332,19 @@ Gets the securityId, Access to AuditLog.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1742](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1742)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2329](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2329)
+
+___
+
+### SecurityIdAuthorizationCodePageAccessId
+
+• **SecurityIdAuthorizationCodePageAccessId** = ``"SecurityIdAuthorizationCodePageAccessId"``
+
+Gets the securityId, Access to Authorization Code Page.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:647](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L647)
 
 ___
 
@@ -12324,7 +16356,43 @@ Gets the securityId, Allow user to view auxiliary settings.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1949](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1949)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2542](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2542)
+
+___
+
+### SecurityIdBEVRangeCapabilityReportId
+
+• **SecurityIdBEVRangeCapabilityReportId** = ``"SecurityIdBEVRangeCapabilityReportId"``
+
+Gets the securityId, Access to BEV Range Capability Report.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2770](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2770)
+
+___
+
+### SecurityIdBigQueryUploadRequestId
+
+• **SecurityIdBigQueryUploadRequestId** = ``"SecurityIdBigQueryUploadRequestId"``
+
+Gets the Id of the SecurityIdBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:415](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L415)
+
+___
+
+### SecurityIdCertifyAssetInspectionId
+
+• **SecurityIdCertifyAssetInspectionId** = ``"SecurityIdCertifyAssetInspectionId"``
+
+Gets the securityId, Allow user to certify Asset Inspections as safe/unsafe.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:657](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L657)
 
 ___
 
@@ -12336,7 +16404,7 @@ Gets the securityId, Access to certify DVIR.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1985](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1985)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2578](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2578)
 
 ___
 
@@ -12348,7 +16416,19 @@ Gets the securityId, Access to ChangePassword.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1776](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1776)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2363](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2363)
+
+___
+
+### SecurityIdChargeStationDashboardId
+
+• **SecurityIdChargeStationDashboardId** = ``"SecurityIdChargeStationDashboardId"``
+
+Gets the securityId, View charge station dashboard.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2820](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2820)
 
 ___
 
@@ -12360,7 +16440,7 @@ Gets the securityId, Access to CongregationReport.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1814](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1814)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2401](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2401)
 
 ___
 
@@ -12372,7 +16452,19 @@ Gets the securityId, Allow user to view turn on/off continuous connect feature.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1983](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1983)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2576](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2576)
+
+___
+
+### SecurityIdCreateAndEditInvestigationsId
+
+• **SecurityIdCreateAndEditInvestigationsId** = ``"SecurityIdCreateAndEditInvestigationsId"``
+
+Gets the securityId for creating and editing investigations.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:569](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L569)
 
 ___
 
@@ -12384,7 +16476,7 @@ Gets the securityId, Access to CreateExtractKey.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1778](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1778)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2365](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2365)
 
 ___
 
@@ -12396,7 +16488,7 @@ Gets the securityId, Access to CreateFirmwareKey.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1782](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1782)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2369](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2369)
 
 ___
 
@@ -12408,7 +16500,7 @@ Gets the securityId, Access to CreateKeyBackup.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1786](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1786)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2373](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2373)
 
 ___
 
@@ -12420,7 +16512,7 @@ Gets the securityId, Access to CreateProgrammingKey.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1784](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1784)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2371](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2371)
 
 ___
 
@@ -12432,7 +16524,7 @@ Gets the securityId, Access to Route Completion.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2021](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2021)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2612](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2612)
 
 ___
 
@@ -12444,7 +16536,7 @@ Gets the securityId, Access to CreateTestKey.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1780](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1780)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2367](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2367)
 
 ___
 
@@ -12456,7 +16548,7 @@ Gets the securityId, Access to CreateWifiKey.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1790](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1790)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2377](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2377)
 
 ___
 
@@ -12468,7 +16560,7 @@ Gets the securityId, Access to CustomerVisitsReport.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1816](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1816)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2403](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2403)
 
 ___
 
@@ -12480,7 +16572,19 @@ Gets the securityId, Allow deleting GPS Text Message.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1869](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1869)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2456](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2456)
+
+___
+
+### SecurityIdDeleteRecordedVideoId
+
+• **SecurityIdDeleteRecordedVideoId** = ``"SecurityIdDeleteRecordedVideoId"``
+
+Gets the securityId, Allow user to delete recorded video.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:307](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L307)
 
 ___
 
@@ -12492,7 +16596,7 @@ Gets the securityId, Access to Route Completion.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2023](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2023)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2614](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2614)
 
 ___
 
@@ -12504,7 +16608,19 @@ Gets the securityId, Allow user to see advanced device settings.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1879](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1879)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2468](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2468)
+
+___
+
+### SecurityIdDeviceAdminBulkArchiveRemoveId
+
+• **SecurityIdDeviceAdminBulkArchiveRemoveId** = ``"SecurityIdDeviceAdminBulkArchiveRemoveId"``
+
+Gets the securityId, Access to bulk removing and archiving devices.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:565](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L565)
 
 ___
 
@@ -12516,7 +16632,7 @@ Gets the securityId, Access to removing vehicle, unpluging device, and replacing
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1840](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1840)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2427](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2427)
 
 ___
 
@@ -12528,7 +16644,7 @@ Gets the securityId, Allow use to configure driver feedback settings.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1881](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1881)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2470](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2470)
 
 ___
 
@@ -12540,7 +16656,7 @@ Gets the securityId, Access to DeviceAdmin.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1838](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1838)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2425](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2425)
 
 ___
 
@@ -12552,7 +16668,7 @@ Gets the securityId, Allow user to view device current status link.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1967](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1967)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2560](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2560)
 
 ___
 
@@ -12564,7 +16680,7 @@ Gets the securityId, Access to DeviceInstallHistoryReport.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1834](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1834)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2421](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2421)
 
 ___
 
@@ -12576,7 +16692,19 @@ Gets the securityId, Access to Device List.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1750](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1750)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2337](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2337)
+
+___
+
+### SecurityIdDirectCustomerId
+
+• **SecurityIdDirectCustomerId** = ``"SecurityIdDirectCustomerId"``
+
+Gets the securityId for Direct Customer.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2818](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2818)
 
 ___
 
@@ -12588,7 +16716,19 @@ Gets the securityId, Allow user to view and edit DirectSupport tickets.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1977](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1977)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2570](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2570)
+
+___
+
+### SecurityIdDismissFaultsId
+
+• **SecurityIdDismissFaultsId** = ``"SecurityIdDismissFaultsId"``
+
+Gets the securityId, Ability to Dismiss Faults.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2808](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2808)
 
 ___
 
@@ -12600,7 +16740,7 @@ Gets the securityId, Display devices on a map.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1873](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1873)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2462](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2462)
 
 ___
 
@@ -12612,7 +16752,7 @@ Gets the securityId, insert DisplayMeasurementProfileDetail.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2059](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2059)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2656](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2656)
 
 ___
 
@@ -12624,7 +16764,7 @@ Gets the securityId, remove DisplayMeasurementProfileDetail.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2071](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2071)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2668](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2668)
 
 ___
 
@@ -12636,7 +16776,7 @@ Gets the securityId, set DisplayMeasurementProfileDetail.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2065](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2065)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2662](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2662)
 
 ___
 
@@ -12648,7 +16788,7 @@ Gets the securityId, insert DisplayMeasurementProfile.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2057](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2057)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2654](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2654)
 
 ___
 
@@ -12660,7 +16800,7 @@ Gets the securityId, remove DisplayMeasurementProfile.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2069](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2069)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2666](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2666)
 
 ___
 
@@ -12672,7 +16812,7 @@ Gets the securityId, set DisplayMeasurementProfile.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2063](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2063)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2660](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2660)
 
 ___
 
@@ -12686,7 +16826,7 @@ Gets the securityId, required to support ENGCO and is only applicable if their c
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1895](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1895)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2484](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2484)
 
 ___
 
@@ -12698,7 +16838,7 @@ Gets the securityId, Allow user to view driver identification (keys).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1943](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1943)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2536](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2536)
 
 ___
 
@@ -12710,7 +16850,19 @@ Gets the securityId, Access to EV Battery Health Report.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2159](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2159)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2768](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2768)
+
+___
+
+### SecurityIdEditConnectionDataId
+
+• **SecurityIdEditConnectionDataId** = ``"SecurityIdEditConnectionDataId"``
+
+Gets the securityId, Allow user to edit connections, including turning on or off connections and editing configs
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:645](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L645)
 
 ___
 
@@ -12722,7 +16874,7 @@ Gets the securityId, Allow user to view TripType Change Data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1973](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1973)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2566](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2566)
 
 ___
 
@@ -12734,7 +16886,7 @@ Gets the securityId, Allow user to edit the odometer reading associated with the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1883](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1883)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2472](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2472)
 
 ___
 
@@ -12746,7 +16898,7 @@ Gets the securityId, edit device share.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2003](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2003)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2596](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2596)
 
 ___
 
@@ -12758,7 +16910,7 @@ Gets the securityId, Allow user to edit a distribution list.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1899](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1899)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2488](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2488)
 
 ___
 
@@ -12770,7 +16922,19 @@ Gets the securityId, Allow user to edit an exception rule using the wizard.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1897](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1897)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2486](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2486)
+
+___
+
+### SecurityIdEditLostModeChangeDataId
+
+• **SecurityIdEditLostModeChangeDataId** = ``"SecurityIdEditLostModeChangeDataId"``
+
+Gets the securityId for editing Lost Mode settings.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:611](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L611)
 
 ___
 
@@ -12782,7 +16946,7 @@ Gets the securityId, Allow changing exception email templates.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1877](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1877)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2466](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2466)
 
 ___
 
@@ -12794,7 +16958,7 @@ Gets the securityId, Allow user to edit OSM road speeds.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1921](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1921)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2514](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2514)
 
 ___
 
@@ -12806,7 +16970,7 @@ Gets the securityId, Edit stock rule
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2185](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2185)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2796](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2796)
 
 ___
 
@@ -12818,7 +16982,7 @@ Gets the securityId, Allow user to view and edit TripType Change Data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1975](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1975)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2568](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2568)
 
 ___
 
@@ -12830,7 +16994,19 @@ Gets the securityId, edit device link.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2011](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2011)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2604](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2604)
+
+___
+
+### SecurityIdEmailLogsToCustomRecipientsId
+
+• **SecurityIdEmailLogsToCustomRecipientsId** = ``"SecurityIdEmailLogsToCustomRecipientsId"``
+
+Gets the securityId, Allow users to email logs to custom recipients.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:545](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L545)
 
 ___
 
@@ -12842,7 +17018,7 @@ Gets the securityId, Access to EngineDiagnosticList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1802](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1802)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2389](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2389)
 
 ___
 
@@ -12854,7 +17030,7 @@ Gets the securityId, Access to EngineFailureModeList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1806](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1806)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2393](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2393)
 
 ___
 
@@ -12866,7 +17042,7 @@ Gets the securityId, Access to EngineFlashCodelist.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1808](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1808)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2395](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2395)
 
 ___
 
@@ -12878,7 +17054,7 @@ Gets the securityId, Access to EngineManagementReport.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1752](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1752)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2339](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2339)
 
 ___
 
@@ -12890,7 +17066,7 @@ Gets the securityId, Allow user to view and edit engine status stock rules.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1951](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1951)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2544](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2544)
 
 ___
 
@@ -12902,7 +17078,7 @@ Gets the securityId, Access to EngineStatusDataGraph.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1822](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1822)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2409](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2409)
 
 ___
 
@@ -12914,7 +17090,7 @@ Gets the securityId, Access to EngineTypeList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1804](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1804)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2391](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2391)
 
 ___
 
@@ -12926,7 +17102,7 @@ Gets the securityId, Access to EngineUnitOfMeasureList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1810](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1810)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2397](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2397)
 
 ___
 
@@ -12938,7 +17114,7 @@ Gets the securityId, Access to EventOccurrenceList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1770](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1770)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2357](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2357)
 
 ___
 
@@ -12950,7 +17126,7 @@ Gets the securityId, Access to Everything.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1736](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1736)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2323](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2323)
 
 ___
 
@@ -12962,7 +17138,7 @@ Gets the security ID that allows a user to add comments or attachments to Except
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2045](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2045)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2642](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2642)
 
 ___
 
@@ -12974,7 +17150,7 @@ Gets the security ID that allows a user to add comments or attachments to any Ex
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2043](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2043)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2640](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2640)
 
 ___
 
@@ -12986,7 +17162,7 @@ Gets the securityId, Access to ExceptionsList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1766](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1766)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2353](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2353)
 
 ___
 
@@ -12998,7 +17174,7 @@ Gets the securityId, Access to ExceptionsReport.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1824](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1824)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2411](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2411)
 
 ___
 
@@ -13010,7 +17186,7 @@ Gets the securityId, Access to ExportFromOtherDatabase.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1863](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1863)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2450](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2450)
 
 ___
 
@@ -13022,7 +17198,7 @@ Gets the securityId, Allow user to view feature preview switcher.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1961](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1961)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2554](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2554)
 
 ___
 
@@ -13034,7 +17210,7 @@ Gets the securityId, Allow access to the Fuel Tax Report.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1857](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1857)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2444](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2444)
 
 ___
 
@@ -13046,7 +17222,7 @@ Gets the securityId, Access to FuelTransactionAdmin.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1925](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1925)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2518](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2518)
 
 ___
 
@@ -13058,7 +17234,7 @@ Gets the securityId, Access to FuelTransactionList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1923](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1923)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2516](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2516)
 
 ___
 
@@ -13070,7 +17246,7 @@ Gets the securityId, Access to Fuel Usage Report.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1889](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1889)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2478](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2478)
 
 ___
 
@@ -13082,7 +17258,19 @@ Gets the securityId, Allow user to view GoTalk settings and version.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1955](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1955)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2548](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2548)
+
+___
+
+### SecurityIdHosLogEditPcYmId
+
+• **SecurityIdHosLogEditPcYmId** = ``"SecurityIdHosLogEditPcYmId"``
+
+Gets the securityId, Allow users to add an HOS log within a period of PC or YM. The user must also have the Administer HOS Logs clearance enabled.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:495](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L495)
 
 ___
 
@@ -13094,7 +17282,19 @@ Gets the securityId, Allowed to Ignore HOS logs.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2027](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2027)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2618](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2618)
+
+___
+
+### SecurityIdImpersonateGpsTextMessageId
+
+• **SecurityIdImpersonateGpsTextMessageId** = ``"SecurityIdImpersonateGpsTextMessageId"``
+
+Gets the securityId, Allow impersonating GPS Text Message.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2458](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2458)
 
 ___
 
@@ -13106,7 +17306,7 @@ Gets the securityId, Access to ImportFromOtherDatabase.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1740](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1740)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2327](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2327)
 
 ___
 
@@ -13118,7 +17318,19 @@ Gets the securityId, Access to ImportZones.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1792](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1792)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2379](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2379)
+
+___
+
+### SecurityIdInspectAssetInspectionId
+
+• **SecurityIdInspectAssetInspectionId** = ``"SecurityIdInspectAssetInspectionId"``
+
+Gets the securityId, Allow user to perform Asset Inspections.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:653](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L653)
 
 ___
 
@@ -13130,7 +17342,7 @@ Gets the securityId, Access to inspect DVIR.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1987](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1987)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2580](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2580)
 
 ___
 
@@ -13142,7 +17354,7 @@ Gets the securityId for InstallRecord.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2005](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2005)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2598](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2598)
 
 ___
 
@@ -13154,7 +17366,7 @@ Gets the securityId, Access to KeyInformation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1842](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1842)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2429](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2429)
 
 ___
 
@@ -13166,7 +17378,115 @@ Gets the securityId, Allows the user to Launch Custom Reports and Add-Ins.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1836](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1836)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2423](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2423)
+
+___
+
+### SecurityIdMaintenanceRequestsEditId
+
+• **SecurityIdMaintenanceRequestsEditId** = ``"SecurityIdMaintenanceRequestsEditId"``
+
+Gets the securityId, Edit Maintenance Work Requests.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:631](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L631)
+
+___
+
+### SecurityIdMaintenanceRequestsFullAccessId
+
+• **SecurityIdMaintenanceRequestsFullAccessId** = ``"SecurityIdMaintenanceRequestsFullAccessId"``
+
+Gets the securityId, Full Access to Maintenance Work Requests.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:633](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L633)
+
+___
+
+### SecurityIdMaintenanceRequestsViewId
+
+• **SecurityIdMaintenanceRequestsViewId** = ``"SecurityIdMaintenanceRequestsViewId"``
+
+Gets the securityId, View Maintenance Work Requests.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:629](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L629)
+
+___
+
+### SecurityIdMaintenanceSchedulesEditId
+
+• **SecurityIdMaintenanceSchedulesEditId** = ``"SecurityIdMaintenanceSchedulesEditId"``
+
+Gets the securityId, Edit Maintenance Schedules.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:625](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L625)
+
+___
+
+### SecurityIdMaintenanceSchedulesFullAccessId
+
+• **SecurityIdMaintenanceSchedulesFullAccessId** = ``"SecurityIdMaintenanceSchedulesFullAccessId"``
+
+Gets the securityId, Full Access to Maintenance Schedules.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:627](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L627)
+
+___
+
+### SecurityIdMaintenanceSchedulesViewId
+
+• **SecurityIdMaintenanceSchedulesViewId** = ``"SecurityIdMaintenanceSchedulesViewId"``
+
+Gets the securityId, View Maintenance Schedules.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:623](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L623)
+
+___
+
+### SecurityIdMaintenanceWorkOrdersEditId
+
+• **SecurityIdMaintenanceWorkOrdersEditId** = ``"SecurityIdMaintenanceWorkOrdersEditId"``
+
+Gets the securityId, Edit Maintenance Work Orders.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:637](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L637)
+
+___
+
+### SecurityIdMaintenanceWorkOrdersFullAccessId
+
+• **SecurityIdMaintenanceWorkOrdersFullAccessId** = ``"SecurityIdMaintenanceWorkOrdersFullAccessId"``
+
+Gets the securityId, Full Access to Maintenance Work Orders.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:639](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L639)
+
+___
+
+### SecurityIdMaintenanceWorkOrdersViewId
+
+• **SecurityIdMaintenanceWorkOrdersViewId** = ``"SecurityIdMaintenanceWorkOrdersViewId"``
+
+Gets the securityId, View Maintenance Work Orders.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:635](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L635)
 
 ___
 
@@ -13178,7 +17498,7 @@ Gets the securityId, Allow user to add, edit, or remove AddInData objects.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1937](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1937)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2530](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2530)
 
 ___
 
@@ -13190,7 +17510,43 @@ Gets the securityId, Allow user to view and edit addins.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1965](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1965)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2558](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2558)
+
+___
+
+### SecurityIdManageAssetInspectionLogsId
+
+• **SecurityIdManageAssetInspectionLogsId** = ``"SecurityIdManageAssetInspectionLogsId"``
+
+Gets the securityId, Allow user to create and edit Asset Inspection logs.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:651](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L651)
+
+___
+
+### SecurityIdManageAssetInspectionTemplatesId
+
+• **SecurityIdManageAssetInspectionTemplatesId** = ``"SecurityIdManageAssetInspectionTemplatesId"``
+
+Gets the securityId, Allow user to create, edit, and delete Asset Inspection templates.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:661](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L661)
+
+___
+
+### SecurityIdManageAssetUtilizationCriteriaId
+
+• **SecurityIdManageAssetUtilizationCriteriaId** = ``"SecurityIdManageAssetUtilizationCriteriaId"``
+
+Gets the securityId, Manage Asset Utilization Criteria.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2816](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2816)
 
 ___
 
@@ -13202,7 +17558,7 @@ Gets the securityId, add, set, or remove BinaryDataFile
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2153](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2153)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2762](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2762)
 
 ___
 
@@ -13214,7 +17570,19 @@ Gets the securityId, Allow user to manage certificates.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1931](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1931)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2524](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2524)
+
+___
+
+### SecurityIdManageCoachingSessionId
+
+• **SecurityIdManageCoachingSessionId** = ``"SecurityIdManageCoachingSessionId"``
+
+Gets the securityId for ManageCoachingSession
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:511](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L511)
 
 ___
 
@@ -13226,7 +17594,7 @@ Gets the securityId, Allow user to edit DVIR logs.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1909](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1909)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2502](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2502)
 
 ___
 
@@ -13238,7 +17606,7 @@ Gets the securityId, Allowed to edit device groups.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2049](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2049)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2646](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2646)
 
 ___
 
@@ -13250,7 +17618,31 @@ Gets the securityId, Allow user to edit HOS driver logs.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1903](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1903)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2492](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2492)
+
+___
+
+### SecurityIdManageHosRuleSetId
+
+• **SecurityIdManageHosRuleSetId** = ``"SecurityIdManageHosRuleSetId"``
+
+Gets the securityId, Allow user to manage their HOS ruleset.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2498](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2498)
+
+___
+
+### SecurityIdManageLinkedAssetsId
+
+• **SecurityIdManageLinkedAssetsId** = ``"SecurityIdManageLinkedAssetsId"``
+
+Gets the securityId for Manage Linked Assets.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:605](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L605)
 
 ___
 
@@ -13262,7 +17654,7 @@ Gets the securityId, Allow user to add, set or remove media files.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1991](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1991)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2584](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2584)
 
 ___
 
@@ -13274,7 +17666,19 @@ Gets the securityId, Allow access to managing report templates.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1859](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1859)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2446](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2446)
+
+___
+
+### SecurityIdManageSeparationAlertsId
+
+• **SecurityIdManageSeparationAlertsId** = ``"SecurityIdManageSeparationAlertsId"``
+
+Gets the securityId for Manage Separation Alerts.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:607](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L607)
 
 ___
 
@@ -13286,7 +17690,19 @@ Gets the securityId, Allow user to add, edit, and remove shipments.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1917](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1917)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2510](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2510)
+
+___
+
+### SecurityIdManageSpreaderConfigurationsId
+
+• **SecurityIdManageSpreaderConfigurationsId** = ``"SecurityIdManageSpreaderConfigurationsId"``
+
+Gets the securityId for Manage Spreader Configurations.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2632](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2632)
 
 ___
 
@@ -13298,7 +17714,7 @@ Gets the securityId, manage TachographCompanyCard
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2171](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2171)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2782](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2782)
 
 ___
 
@@ -13310,7 +17726,7 @@ Gets the securityId, Manage Tachograph Inspection
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2167](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2167)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2778](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2778)
 
 ___
 
@@ -13322,7 +17738,7 @@ Gets the securityId, All user to add/edit/remove trailers.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1913](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1913)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2506](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2506)
 
 ___
 
@@ -13334,7 +17750,31 @@ Gets the securityId which allows editing [TripAnnotation](../interfaces/TripAnno
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2053](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2053)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2650](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2650)
+
+___
+
+### SecurityIdManageUserDisplayProfilesId
+
+• **SecurityIdManageUserDisplayProfilesId** = ``"SecurityIdManageUserDisplayProfilesId"``
+
+Gets the securityId, Manage User Display Profiles.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2806](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2806)
+
+___
+
+### SecurityIdManageUsersVitalityRewardsAddInId
+
+• **SecurityIdManageUsersVitalityRewardsAddInId** = ``"SecurityIdManageUsersVitalityRewardsAddInId"``
+
+Gets the securityId, allow user to manage users in vitality rewards program
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:477](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L477)
 
 ___
 
@@ -13346,7 +17786,7 @@ Gets the securityId, Access to Material Management.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1999](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1999)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2592](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2592)
 
 ___
 
@@ -13358,7 +17798,19 @@ Gets the securityId, This is dashboard security. Allow access to dashboard and C
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1853](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1853)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2440](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2440)
+
+___
+
+### SecurityIdModifyDriverCoachingStatusId
+
+• **SecurityIdModifyDriverCoachingStatusId** = ``"SecurityIdModifyDriverCoachingStatusId"``
+
+Gets the securityId for ModifyDriverCoachingStatus
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:507](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L507)
 
 ___
 
@@ -13370,7 +17822,7 @@ Gets the securityId, add, set, or remove GroupFilter
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2155](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2155)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2764](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2764)
 
 ___
 
@@ -13382,7 +17834,7 @@ Gets the securityId, Allow user to view news notifications switcher.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1963](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1963)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2556](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2556)
 
 ___
 
@@ -13394,7 +17846,7 @@ Gets the securityId, Access to NodesList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1772](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1772)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2359](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2359)
 
 ___
 
@@ -13406,7 +17858,7 @@ Gets the securityId, Access to NotificationList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1794](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1794)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2381](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2381)
 
 ___
 
@@ -13418,7 +17870,7 @@ Gets the securityId, Access to OrganizeViews.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1796](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1796)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2383](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2383)
 
 ___
 
@@ -13430,7 +17882,7 @@ Gets the securityId, Allow user to view product guide.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1959](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1959)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2552](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2552)
 
 ___
 
@@ -13442,7 +17894,7 @@ Gets the securityId, Allow user to purchase paid items on the Marketplace.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1935](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1935)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2528](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2528)
 
 ___
 
@@ -13454,7 +17906,19 @@ Gets the securityId, Access to PurgeData.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1748](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1748)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2335](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2335)
+
+___
+
+### SecurityIdRealTimeRangeId
+
+• **SecurityIdRealTimeRangeId** = ``"SecurityIdRealTimeRangeId"``
+
+Gets the securityId, Access Real Time Range API.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2822](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2822)
 
 ___
 
@@ -13466,7 +17930,7 @@ Gets the securityId, Access to ReminderReport.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1768](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1768)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2355](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2355)
 
 ___
 
@@ -13478,7 +17942,19 @@ Gets the securityId, Access to ReminderRuleList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1774](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1774)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2361](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2361)
+
+___
+
+### SecurityIdRepairAssetInspectionId
+
+• **SecurityIdRepairAssetInspectionId** = ``"SecurityIdRepairAssetInspectionId"``
+
+Gets the securityId, Allow user to mark Asset Inspection defects as repaired.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:655](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L655)
 
 ___
 
@@ -13490,7 +17966,7 @@ Gets the securityId, Access to repair DVIR.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1933](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1933)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2526](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2526)
 
 ___
 
@@ -13502,7 +17978,19 @@ Gets the securityId, Access to ReprocessData.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1756](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1756)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2343](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2343)
+
+___
+
+### SecurityIdReprocessRouteBasedMaterialManagementRulesId
+
+• **SecurityIdReprocessRouteBasedMaterialManagementRulesId** = ``"SecurityIdReprocessRouteBasedMaterialManagementRulesId"``
+
+Gets the securityId, Reprocess Route Based Material Management Rules.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2800](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2800)
 
 ___
 
@@ -13514,7 +18002,7 @@ Gets the securityId, Requests the current GPS location from a GO device. Typical
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1871](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1871)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2460](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2460)
 
 ___
 
@@ -13526,7 +18014,7 @@ Gets the securityId, Allow user to view reseller data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1953](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1953)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2546](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2546)
 
 ___
 
@@ -13538,7 +18026,7 @@ Gets the securityId, Reset password.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2187](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2187)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2798](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2798)
 
 ___
 
@@ -13550,7 +18038,19 @@ Gets the securityId, Access to RestoreKeyBackup.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1788](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1788)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2375](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2375)
+
+___
+
+### SecurityIdRiskAnalyticsViewAndDownloadAssetAndDriverReportsId
+
+• **SecurityIdRiskAnalyticsViewAndDownloadAssetAndDriverReportsId** = ``"SecurityIdRiskAnalyticsViewAndDownloadAssetAndDriverReportsId"``
+
+Gets the securityId, Allow user to download the collision risk report for both assets and drivers.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:493](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L493)
 
 ___
 
@@ -13562,7 +18062,7 @@ Gets the securityId, Access to RiskManagementReport.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1826](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1826)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2413](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2413)
 
 ___
 
@@ -13574,7 +18074,7 @@ Gets the securityId, Allow user to run Route Comparison Report.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1901](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1901)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2490](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2490)
 
 ___
 
@@ -13586,7 +18086,7 @@ Gets the securityId, Access to Route Completion.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2013](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2013)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2606](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2606)
 
 ___
 
@@ -13598,7 +18098,7 @@ Gets the securityId, Access to RouteList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1798](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1798)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2385](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2385)
 
 ___
 
@@ -13610,7 +18110,7 @@ Gets the securityId, Access to RouteSummaryReport.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1828](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1828)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2415](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2415)
 
 ___
 
@@ -13622,7 +18122,7 @@ Gets the securityId, Access to SecurityClearanceList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1844](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1844)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2431](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2431)
 
 ___
 
@@ -13634,7 +18134,7 @@ Gets the securityId, Send cold chain command
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2183](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2183)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2794](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2794)
 
 ___
 
@@ -13646,7 +18146,7 @@ Gets the securityId, Allow external relay instruction to be send to the vehicle.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1885](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1885)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2474](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2474)
 
 ___
 
@@ -13658,7 +18158,7 @@ Gets the securityId, Allow sending GPS Text Message, Routes and Addresses.s
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1867](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1867)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2454](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2454)
 
 ___
 
@@ -13670,7 +18170,7 @@ Gets the securityId, Allow user to view device service plans.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1947](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1947)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2540](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2540)
 
 ___
 
@@ -13682,7 +18182,31 @@ Gets the securityId, "SecurityIdServices" settings tab.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1851](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1851)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2438](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2438)
+
+___
+
+### SecurityIdSkipReminderId
+
+• **SecurityIdSkipReminderId** = ``"SecurityIdSkipReminderId"``
+
+Gets the securityId, Ability to Skip a Maintenance Reminder.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2812](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2812)
+
+___
+
+### SecurityIdSnoozeReminderId
+
+• **SecurityIdSnoozeReminderId** = ``"SecurityIdSnoozeReminderId"``
+
+Gets the securityId, Ability to Snooze a Maintenance Reminder.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2814](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2814)
 
 ___
 
@@ -13694,7 +18218,7 @@ Gets the securityId, Access to SpeedProfileReport.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1818](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1818)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2405](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2405)
 
 ___
 
@@ -13706,7 +18230,7 @@ Gets the securityId, Allow starting full version of MyGeotab from a web page.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1875](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1875)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2464](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2464)
 
 ___
 
@@ -13718,7 +18242,7 @@ Gets the securityId, Allow user to view and edit status groups.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1957](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1957)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2550](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2550)
 
 ___
 
@@ -13730,7 +18254,7 @@ Gets the securityId, Access to SystemSettings.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1738](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1738)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2325](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2325)
 
 ___
 
@@ -13742,7 +18266,7 @@ Gets the securityId, tachograph download and upload files
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2175](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2175)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2786](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2786)
 
 ___
 
@@ -13754,7 +18278,19 @@ Gets the securityId, Access to TimeCardReport.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1820](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1820)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2407](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2407)
+
+___
+
+### SecurityIdTimeToChargeCompleteId
+
+• **SecurityIdTimeToChargeCompleteId** = ``"SecurityIdTimeToChargeCompleteId"``
+
+Gets the securityId for Time-To-Charge Complete.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2840](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2840)
 
 ___
 
@@ -13767,7 +18303,7 @@ Gets the securityId, required to support WATERMARK and is only applicable if the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1849](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1849)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2436](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2436)
 
 ___
 
@@ -13779,7 +18315,7 @@ Gets the securityId, Access to TripsActivityReport.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1812](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1812)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2399](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2399)
 
 ___
 
@@ -13791,7 +18327,7 @@ Gets the securityId, Access to UnassignedRouteReport.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1830](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1830)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2417](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2417)
 
 ___
 
@@ -13804,7 +18340,7 @@ Gets the securityId, Unknown identifier is not used for security purposes. It's 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1734](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1734)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2321](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2321)
 
 ___
 
@@ -13816,7 +18352,7 @@ Gets the securityId, Administer Users/Drivers.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1746](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1746)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2333](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2333)
 
 ___
 
@@ -13828,7 +18364,7 @@ Gets the securityId, insert UserDisplayProfile.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2055](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2055)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2652](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2652)
 
 ___
 
@@ -13840,7 +18376,7 @@ Gets the securityId, remove UserDisplayProfile.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2067](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2067)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2664](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2664)
 
 ___
 
@@ -13852,7 +18388,7 @@ Gets the securityId, set UserDisplayProfile.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2061](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2061)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2658](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2658)
 
 ___
 
@@ -13864,7 +18400,7 @@ Gets the securityId, Access to User/Driver List.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1744](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1744)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2331](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2331)
 
 ___
 
@@ -13876,19 +18412,19 @@ Gets the securityId, Access to UserSettings.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1800](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1800)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2387](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2387)
 
 ___
 
-### SecurityIdViewActiveInsightsId
+### SecurityIdViewAceAIId
 
-• **SecurityIdViewActiveInsightsId** = ``"SecurityIdViewActiveInsightsId"``
+• **SecurityIdViewAceAIId** = ``"SecurityIdViewAceAIId"``
 
-Gets the securityId, Access to Active Insights.
+Gets the securityId, View Ace AI.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2015](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2015)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2830](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2830)
 
 ___
 
@@ -13900,7 +18436,7 @@ Gets the securityId, Allow user to view AddInData objects.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1939](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1939)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2532](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2532)
 
 ___
 
@@ -13912,7 +18448,19 @@ Gets the securityId, Allow user to view the advanced help items.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1919](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1919)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2512](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2512)
+
+___
+
+### SecurityIdViewAdvancedRouteId
+
+• **SecurityIdViewAdvancedRouteId** = ``"SecurityIdViewAdvancedRouteId"``
+
+Gets the securityId, View Advanced Route.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2804](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2804)
 
 ___
 
@@ -13924,7 +18472,43 @@ Gets the securityId, Access to Route Completion.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2017](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2017)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2608](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2608)
+
+___
+
+### SecurityIdViewAssetInspectionLogsId
+
+• **SecurityIdViewAssetInspectionLogsId** = ``"SecurityIdViewAssetInspectionLogsId"``
+
+Gets the securityId, Allow user to view Asset Inspection logs.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:649](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L649)
+
+___
+
+### SecurityIdViewAssetInspectionTemplatesId
+
+• **SecurityIdViewAssetInspectionTemplatesId** = ``"SecurityIdViewAssetInspectionTemplatesId"``
+
+Gets the securityId, Allow user to view Asset Inspection templates.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:659](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L659)
+
+___
+
+### SecurityIdViewAssetUtilizationId
+
+• **SecurityIdViewAssetUtilizationId** = ``"SecurityIdViewAssetUtilizationId"``
+
+Gets the securityId, allow user to view asset utilization report
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:475](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L475)
 
 ___
 
@@ -13936,7 +18520,7 @@ Gets the securityId, get BinaryDataFile.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2151](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2151)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2760](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2760)
 
 ___
 
@@ -13948,7 +18532,7 @@ Gets the securityId, Allow user to view BinaryData.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1941](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1941)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2534](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2534)
 
 ___
 
@@ -13960,7 +18544,7 @@ Gets the securityId, Allow user to view Business Intelligence data (Fleet Indust
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1979](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1979)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2572](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2572)
 
 ___
 
@@ -13972,7 +18556,55 @@ Gets the securityId, Allow user to view certificates.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1929](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1929)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2522](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2522)
+
+___
+
+### SecurityIdViewCoachingSessionId
+
+• **SecurityIdViewCoachingSessionId** = ``"SecurityIdViewCoachingSessionId"``
+
+Gets the securityId for ViewCoachingSession
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:509](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L509)
+
+___
+
+### SecurityIdViewConnectionDataId
+
+• **SecurityIdViewConnectionDataId** = ``"SecurityIdViewConnectionDataId"``
+
+Gets the securityId, Allow user to view connections
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:643](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L643)
+
+___
+
+### SecurityIdViewControllerId
+
+• **SecurityIdViewControllerId** = ``"SecurityIdViewControllerId"``
+
+Gets the securityId, Allow user to view controller.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:289](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L289)
+
+___
+
+### SecurityIdViewCustomDataId
+
+• **SecurityIdViewCustomDataId** = ``"SecurityIdViewCustomDataId"``
+
+Gets the securityId, Allow user to view custom data.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:281](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L281)
 
 ___
 
@@ -13984,7 +18616,7 @@ Gets the securityId, Allow user to view DVIR logs.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1907](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1907)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2500](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2500)
 
 ___
 
@@ -13996,7 +18628,7 @@ Gets the securityId, Allow user to view TripType Change Data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1971](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1971)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2564](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2564)
 
 ___
 
@@ -14008,7 +18640,115 @@ Gets the securityId, view deviceShare.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2001](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2001)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2594](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2594)
+
+___
+
+### SecurityIdViewDiagnosticId
+
+• **SecurityIdViewDiagnosticId** = ``"SecurityIdViewDiagnosticId"``
+
+Gets the securityId, Allow user to view diagnostics.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:279](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L279)
+
+___
+
+### SecurityIdViewDriverAnalyticsId
+
+• **SecurityIdViewDriverAnalyticsId** = ``"SecurityIdViewDriverAnalyticsId"``
+
+Gets the securityId, Allow user to view driver tab on Collision Risk page.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:491](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L491)
+
+___
+
+### SecurityIdViewDriverClockInOutId
+
+• **SecurityIdViewDriverClockInOutId** = ``"SecurityIdViewDriverClockInOutId"``
+
+Gets the securityId, allow the driver to view the Drive app clock in / clock out features
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:479](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L479)
+
+___
+
+### SecurityIdViewDriverCoachingStatusId
+
+• **SecurityIdViewDriverCoachingStatusId** = ``"SecurityIdViewDriverCoachingStatusId"``
+
+Gets the securityId for ViewDriverCoachingStatus
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:505](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L505)
+
+___
+
+### SecurityIdViewDriverSafetyId
+
+• **SecurityIdViewDriverSafetyId** = ``"SecurityIdViewDriverSafetyId"``
+
+Gets the securityId, allow the driver to view the Driver Safety page in Drive app
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:483](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L483)
+
+___
+
+### SecurityIdViewEVPerformanceDataId
+
+• **SecurityIdViewEVPerformanceDataId** = ``"SecurityIdViewEVPerformanceDataId"``
+
+Gets the securityId, Allow user to access EV performance metrics, dashboards and APIs.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:497](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L497)
+
+___
+
+### SecurityIdViewEngineDataProfileId
+
+• **SecurityIdViewEngineDataProfileId** = ``"SecurityIdViewEngineDataProfileId"``
+
+Gets the securityId, Allow user to view custom data.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:599](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L599)
+
+___
+
+### SecurityIdViewExceptionEventId
+
+• **SecurityIdViewExceptionEventId** = ``"SecurityIdViewExceptionEventId"``
+
+Gets the securityId, Allow user to view exception events.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:285](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L285)
+
+___
+
+### SecurityIdViewFaultDataId
+
+• **SecurityIdViewFaultDataId** = ``"SecurityIdViewFaultDataId"``
+
+Gets the securityId, Allow user to view fault data.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:283](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L283)
 
 ___
 
@@ -14020,7 +18760,7 @@ Gets the securityId, Allow viewing sent and received GPS Text Messages.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1865](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1865)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2452](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2452)
 
 ___
 
@@ -14032,7 +18772,7 @@ Gets the securityId, see GroupFilter
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2157](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2157)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2766](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2766)
 
 ___
 
@@ -14044,7 +18784,7 @@ Gets the securityId, Allow user only to view groups.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1993](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1993)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2586](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2586)
 
 ___
 
@@ -14056,7 +18796,31 @@ Gets the securityId, Allow user to view HOS driver logs.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1905](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1905)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2494](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2494)
+
+___
+
+### SecurityIdViewHosRuleSetId
+
+• **SecurityIdViewHosRuleSetId** = ``"SecurityIdViewHosRuleSetId"``
+
+Gets the securityId, Allow user to view their HOS ruleset.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2496](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2496)
+
+___
+
+### SecurityIdViewInvestigationsId
+
+• **SecurityIdViewInvestigationsId** = ``"SecurityIdViewInvestigationsId"``
+
+Gets the securityId for viewing investigations.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:567](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L567)
 
 ___
 
@@ -14068,7 +18832,43 @@ Gets the securityId, view Live Map
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2165](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2165)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2776](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2776)
+
+___
+
+### SecurityIdViewLiveVideoId
+
+• **SecurityIdViewLiveVideoId** = ``"SecurityIdViewLiveVideoId"``
+
+Gets the securityId, Allow user to view live video.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:303](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L303)
+
+___
+
+### SecurityIdViewLostModeChangeDataId
+
+• **SecurityIdViewLostModeChangeDataId** = ``"SecurityIdViewLostModeChangeDataId"``
+
+Gets the securityId for viewing Lost Mode settings.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:609](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L609)
+
+___
+
+### SecurityIdViewMaintenanceOverviewId
+
+• **SecurityIdViewMaintenanceOverviewId** = ``"SecurityIdViewMaintenanceOverviewId"``
+
+Gets the securityId, View Maintenance Overview.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:641](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L641)
 
 ___
 
@@ -14080,7 +18880,7 @@ Gets the securityId, Allow user to see paid Marketplace items.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1927](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1927)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2520](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2520)
 
 ___
 
@@ -14092,7 +18892,19 @@ Gets the securityId, Allow user to view media files.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1989](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1989)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2582](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2582)
+
+___
+
+### SecurityIdViewNavigationId
+
+• **SecurityIdViewNavigationId** = ``"SecurityIdViewNavigationId"``
+
+Gets the securityId, View Navigation.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:603](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L603)
 
 ___
 
@@ -14104,7 +18916,7 @@ Gets the securityId, Access to view properties.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2035](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2035)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2626](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2626)
 
 ___
 
@@ -14116,7 +18928,31 @@ Gets the securityId, Access to view property sets.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2031](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2031)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2622](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2622)
+
+___
+
+### SecurityIdViewPublicWorksAdministrationId
+
+• **SecurityIdViewPublicWorksAdministrationId** = ``"SecurityIdViewPublicWorksAdministrationId"``
+
+Gets the securityId for View Public Works Administration.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2628](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2628)
+
+___
+
+### SecurityIdViewRecordedVideoId
+
+• **SecurityIdViewRecordedVideoId** = ``"SecurityIdViewRecordedVideoId"``
+
+Gets the securityId, Allow user to view recorded video.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:305](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L305)
 
 ___
 
@@ -14128,7 +18964,55 @@ Gets the securityId, Allow viewing data using report template.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1861](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1861)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2448](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2448)
+
+___
+
+### SecurityIdViewRiskManagementReportOptionId
+
+• **SecurityIdViewRiskManagementReportOptionId** = ``"SecurityIdViewRiskManagementReportOptionId"``
+
+Gets the securityId for View Risk Management Report Option.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2844](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2844)
+
+___
+
+### SecurityIdViewRouteId
+
+• **SecurityIdViewRouteId** = ``"SecurityIdViewRouteId"``
+
+Gets the securityId, View Route.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2802](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2802)
+
+___
+
+### SecurityIdViewRuleId
+
+• **SecurityIdViewRuleId** = ``"SecurityIdViewRuleId"``
+
+Gets the securityId, Allow user to view rules.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:287](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L287)
+
+___
+
+### SecurityIdViewSafetyOverviewId
+
+• **SecurityIdViewSafetyOverviewId** = ``"SecurityIdViewSafetyOverviewId"``
+
+Gets the securityId, Ability to access safety overview page.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2810](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2810)
 
 ___
 
@@ -14140,7 +19024,7 @@ Gets the securityId, Access to Route Completion.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2019](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2019)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2610](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2610)
 
 ___
 
@@ -14152,7 +19036,7 @@ Gets the securityId, Allowed to share device location.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2047](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2047)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2644](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2644)
 
 ___
 
@@ -14164,7 +19048,43 @@ Gets the securityId, Allow user to view existing shipments.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1915](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1915)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2508](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2508)
+
+___
+
+### SecurityIdViewSpreaderConfigurationsId
+
+• **SecurityIdViewSpreaderConfigurationsId** = ``"SecurityIdViewSpreaderConfigurationsId"``
+
+Gets the securityId for View Spreader Configurations.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2630](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2630)
+
+___
+
+### SecurityIdViewStatusDataId
+
+• **SecurityIdViewStatusDataId** = ``"SecurityIdViewStatusDataId"``
+
+Gets the securityId, Allow user to view status data.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:277](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L277)
+
+___
+
+### SecurityIdViewSustainabilityCenterId
+
+• **SecurityIdViewSustainabilityCenterId** = ``"SecurityIdViewSustainabilityCenterId"``
+
+Gets the securityId, Allow user to view sustainability overview.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:295](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L295)
 
 ___
 
@@ -14176,7 +19096,7 @@ Gets the securityId, view TachographCompanyCard
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2173](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2173)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2784](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2784)
 
 ___
 
@@ -14188,7 +19108,7 @@ Gets the securityId, view tachograph driving time data
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2179](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2179)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2790](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2790)
 
 ___
 
@@ -14200,7 +19120,7 @@ Gets the securityId, view tachograph infringement data
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2181](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2181)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2792](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2792)
 
 ___
 
@@ -14212,7 +19132,7 @@ Gets the securityId, View Tachograph Inspection
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2169](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2169)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2780](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2780)
 
 ___
 
@@ -14224,7 +19144,7 @@ Gets the securityId, view tachograph remote download data
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2177](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2177)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2788](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2788)
 
 ___
 
@@ -14236,7 +19156,7 @@ Gets the securityId, Allow user to view existing trailers.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1911](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1911)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2504](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2504)
 
 ___
 
@@ -14248,7 +19168,7 @@ Gets the securityId which allows viewing [TripAnnotation](../interfaces/TripAnno
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2051](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2051)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2648](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2648)
 
 ___
 
@@ -14260,7 +19180,7 @@ Gets the securityId, Allow user to view TripType Change Data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1969](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1969)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2562](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2562)
 
 ___
 
@@ -14272,7 +19192,19 @@ Gets the securityId, view user device link.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2009](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2009)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2602](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2602)
+
+___
+
+### SecurityIdViewVehicleAnalyticsId
+
+• **SecurityIdViewVehicleAnalyticsId** = ``"SecurityIdViewVehicleAnalyticsId"``
+
+Gets the securityId, Allow user to view asset tab on Collision Risk page.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:489](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L489)
 
 ___
 
@@ -14284,7 +19216,7 @@ Gets the securityId, Allow user to view the wifi hotspot SSID and password.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1997](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1997)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2590](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2590)
 
 ___
 
@@ -14296,7 +19228,7 @@ Gets the securityId, Access to WorkHolidayList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1760](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1760)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2347](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2347)
 
 ___
 
@@ -14308,7 +19240,7 @@ Gets the securityId, Access to WorkTimeList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1758](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1758)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2345](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2345)
 
 ___
 
@@ -14320,7 +19252,7 @@ Gets the securityId, Access to ZoneAdmin.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1764](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1764)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2351](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2351)
 
 ___
 
@@ -14332,7 +19264,7 @@ Gets the securityId, Access to ZoneList.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1762](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1762)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2349](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2349)
 
 ___
 
@@ -14344,7 +19276,55 @@ Gets the securityId, Access to List of ZoneType's.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1754](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1754)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2341](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2341)
+
+___
+
+### ShareableLinkStateInProgressId
+
+• **ShareableLinkStateInProgressId** = ``"ShareableLinkStateInProgressId"``
+
+Gets the ShareableLinkState InProgress identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2064](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2064)
+
+___
+
+### ShareableLinkStateSucceedId
+
+• **ShareableLinkStateSucceedId** = ``"ShareableLinkStateSucceedId"``
+
+Gets the ShareableLinkState Succeed identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:2066](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2066)
+
+___
+
+### ShipmentLogBigQueryUploadRequestId
+
+• **ShipmentLogBigQueryUploadRequestId** = ``"ShipmentLogBigQueryUploadRequestId"``
+
+Gets the Id of the ShipmentLogBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:359](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L359)
+
+___
+
+### SmsTemplateDefaultExceptionRuleId
+
+• **SmsTemplateDefaultExceptionRuleId** = ``"SmsTemplateDefaultExceptionRuleId"``
+
+Gets the sms template default exception rule identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1856](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1856)
 
 ___
 
@@ -14356,7 +19336,7 @@ Gets the source AI Model identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1291](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1291)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1826](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1826)
 
 ___
 
@@ -14368,7 +19348,7 @@ Gets the source BRP obsolete identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1315](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1315)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1850](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1850)
 
 ___
 
@@ -14380,7 +19360,7 @@ Gets the source BRP identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1289](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1289)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1824](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1824)
 
 ___
 
@@ -14392,7 +19372,7 @@ Gets the source BRP obsolete identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1313](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1313)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1848](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1848)
 
 ___
 
@@ -14404,7 +19384,7 @@ Gets the source Geotab GO identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1269](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1269)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1804](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1804)
 
 ___
 
@@ -14416,7 +19396,7 @@ Gets the source Geotab GO obsolete identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1293](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1293)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1828](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1828)
 
 ___
 
@@ -14428,7 +19408,7 @@ Gets the source GMCCC identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1287](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1287)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1822](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1822)
 
 ___
 
@@ -14440,7 +19420,7 @@ Gets the source GMCCC obsolete identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1311](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1311)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1846](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1846)
 
 ___
 
@@ -14452,7 +19432,7 @@ Gets the source J1708 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1271](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1271)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1806](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1806)
 
 ___
 
@@ -14464,7 +19444,7 @@ Gets the source J1708 obsolete identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1295](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1295)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1830](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1830)
 
 ___
 
@@ -14476,7 +19456,7 @@ Gets the source J1939 identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1273](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1273)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1808](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1808)
 
 ___
 
@@ -14488,7 +19468,7 @@ Gets the source J1939 obsolete identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1297](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1297)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1832](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1832)
 
 ___
 
@@ -14500,7 +19480,7 @@ Gets the source Legacy proprietary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1285](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1285)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1820](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1820)
 
 ___
 
@@ -14512,31 +19492,31 @@ Gets the source Legacy proprietary obsolete identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1309](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1309)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1844](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1844)
 
 ___
 
 ### SourceLevcId
 
-• **SourceLevcId** = ``"SourceLevcId"``
+• **SourceLevcId** = ``"Source14Id"``
 
 Gets the Levc Source KnownId.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2037](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2037)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2634](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2634)
 
 ___
 
 ### SourceLevcObsoleteId
 
-• **SourceLevcObsoleteId** = ``"SourceLevcObsoleteId"``
+• **SourceLevcObsoleteId** = ``"Source114Id"``
 
 Gets the Obsolete Levc Source KnownId.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2039](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2039)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2636](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2636)
 
 ___
 
@@ -14548,7 +19528,7 @@ Gets the source OBD identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1275](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1275)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1810](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1810)
 
 ___
 
@@ -14560,7 +19540,7 @@ Gets the source OBD obsolete identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1299](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1299)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1834](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1834)
 
 ___
 
@@ -14572,7 +19552,7 @@ Gets the source OBD Source Address identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1281](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1281)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1816](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1816)
 
 ___
 
@@ -14584,7 +19564,7 @@ Gets the source WWH OBD obsolete identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1305](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1305)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1840](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1840)
 
 ___
 
@@ -14596,7 +19576,7 @@ Gets the source Proprietary identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1283](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1283)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1818](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1818)
 
 ___
 
@@ -14608,7 +19588,7 @@ Gets the source Proprietary obsolete identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1307](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1307)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1842](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1842)
 
 ___
 
@@ -14620,7 +19600,7 @@ Gets the source system identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1277](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1277)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1812](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1812)
 
 ___
 
@@ -14632,7 +19612,7 @@ Gets the source system obsolete identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1301](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1301)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1836](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1836)
 
 ___
 
@@ -14644,7 +19624,7 @@ Gets the source third-party identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1279](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1279)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1814](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1814)
 
 ___
 
@@ -14656,7 +19636,31 @@ Gets the source third-party obsolete identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1303](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1303)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1838](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1838)
+
+___
+
+### StatusDataEntityUploadRequestId
+
+• **StatusDataEntityUploadRequestId** = ``"StatusDataEntityUploadRequestId"``
+
+Gets the Id of the StatusDataEntityUploadRequest
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:343](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L343)
+
+___
+
+### SystemSettingsBigQueryUploadRequestId
+
+• **SystemSettingsBigQueryUploadRequestId** = ``"SystemSettingsBigQueryUploadRequestId"``
+
+Gets the Id of the SystemSettingsBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:345](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L345)
 
 ___
 
@@ -14668,7 +19672,19 @@ Gets the system user identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1317](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1317)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1852](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1852)
+
+___
+
+### TelematicsDeviceBatteryLevel
+
+• **TelematicsDeviceBatteryLevel** = ``"TelematicsDeviceBatteryLevel"``
+
+Gets the TelematicsDeviceBatteryLevel for Go Anywhere
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:293](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L293)
 
 ___
 
@@ -14680,7 +19696,7 @@ Gets the text template default exception rule identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1319](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1319)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1854](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1854)
 
 ___
 
@@ -14692,7 +19708,7 @@ Gets the text template default exception rule popup identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1321](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1321)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1858](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1858)
 
 ___
 
@@ -14704,7 +19720,7 @@ Gets the Thermograph status Id (0 = absent / 1 = present).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2137](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2137)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2746](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2746)
 
 ___
 
@@ -14716,7 +19732,7 @@ Gets the Thermograph temperature 1 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2139](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2139)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2748](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2748)
 
 ___
 
@@ -14728,7 +19744,7 @@ Gets the Thermograph temperature 2 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2141](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2141)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2750](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2750)
 
 ___
 
@@ -14740,7 +19756,7 @@ Gets the Thermograph temperature 3 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2143](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2143)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2752](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2752)
 
 ___
 
@@ -14752,7 +19768,7 @@ Gets the Thermograph temperature 4 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2145](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2145)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2754](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2754)
 
 ___
 
@@ -14764,7 +19780,7 @@ Gets the Thermograph temperature 5 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2147](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2147)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2756](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2756)
 
 ___
 
@@ -14776,7 +19792,43 @@ Gets the Thermograph temperature 6 Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:2149](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L2149)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2758](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2758)
+
+___
+
+### TrailerAttachmentBigQueryUploadRequestId
+
+• **TrailerAttachmentBigQueryUploadRequestId** = ``"TrailerAttachmentBigQueryUploadRequestId"``
+
+Gets the Id of the TrailerAttachmentBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:361](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L361)
+
+___
+
+### TripLegacyBigQueryUploadRequestId
+
+• **TripLegacyBigQueryUploadRequestId** = ``"TripLegacyBigQueryUploadRequestId"``
+
+Gets the Id of the TripLegacyBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:353](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L353)
+
+___
+
+### TripSoftDeleteDataEntityUploadRequestId
+
+• **TripSoftDeleteDataEntityUploadRequestId** = ``"TripDataEntityUploadRequestId"``
+
+Gets the trip data entity upload request.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:377](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L377)
 
 ___
 
@@ -14788,7 +19840,19 @@ Gets the unit of measure amps identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1327](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1327)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1866](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1866)
+
+___
+
+### UnitOfMeasureAmpsPerHourId
+
+• **UnitOfMeasureAmpsPerHourId** = ``"UnitOfMeasureAmpsPerHourId"``
+
+Gets the unit of measure amps identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1868](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1868)
 
 ___
 
@@ -14800,7 +19864,7 @@ Gets the unit of measure bytes identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1329](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1329)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1870](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1870)
 
 ___
 
@@ -14812,7 +19876,7 @@ Gets the unit of measure cubic meters identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1331](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1331)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1872](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1872)
 
 ___
 
@@ -14824,7 +19888,31 @@ Gets the unit of measure cubic meters per second identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1333](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1333)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1874](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1874)
+
+___
+
+### UnitOfMeasureDecibelId
+
+• **UnitOfMeasureDecibelId** = ``"UnitOfMeasureDecibelId"``
+
+Gets the unit of measure for power levels in decibels (dB).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1904](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1904)
+
+___
+
+### UnitOfMeasureDecibelMilliwattId
+
+• **UnitOfMeasureDecibelMilliwattId** = ``"UnitOfMeasureDecibelMilliwattId"``
+
+Gets the unit of measure for power levels in decibels relative to one milliwatt (dBm).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1906](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1906)
 
 ___
 
@@ -14836,7 +19924,7 @@ Gets the unit of measure degrees Celsius identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1335](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1335)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1876](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1876)
 
 ___
 
@@ -14848,7 +19936,7 @@ Gets the unit of measure grams identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1337](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1337)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1878](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1878)
 
 ___
 
@@ -14860,7 +19948,7 @@ Gets the unit of measure grams per second identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1339](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1339)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1880](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1880)
 
 ___
 
@@ -14872,7 +19960,7 @@ Gets the unit of measure grams per square meter identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1341](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1341)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1882](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1882)
 
 ___
 
@@ -14884,7 +19972,7 @@ Gets the unit of measure Hertz identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1345](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1345)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1886](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1886)
 
 ___
 
@@ -14896,7 +19984,7 @@ Gets the unit of measure kilowatt-hours identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1355](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1355)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1896](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1896)
 
 ___
 
@@ -14908,7 +19996,7 @@ Gets the unit of measure kilograms per kilometer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1343](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1343)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1884](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1884)
 
 ___
 
@@ -14920,7 +20008,7 @@ Gets the unit of measure kilometers per hour identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1347](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1347)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1888](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1888)
 
 ___
 
@@ -14932,7 +20020,7 @@ Gets the unit of measure kilometers per liter identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1351](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1351)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1892](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1892)
 
 ___
 
@@ -14944,7 +20032,7 @@ Gets the unit of measure kilometers per kilogram identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1349](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1349)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1890](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1890)
 
 ___
 
@@ -14956,7 +20044,7 @@ Gets the unit of measure kilometers per liter identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1353](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1353)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1894](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1894)
 
 ___
 
@@ -14968,7 +20056,7 @@ Gets the unit of measure liters identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1357](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1357)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1898](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1898)
 
 ___
 
@@ -14980,7 +20068,7 @@ Gets the unit of measure liters per lane kilometer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1359](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1359)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1900](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1900)
 
 ___
 
@@ -14992,7 +20080,7 @@ Gets the unit of measure liters per tonne identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1361](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1361)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1902](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1902)
 
 ___
 
@@ -15004,7 +20092,7 @@ Gets the unit of measure meters identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1363](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1363)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1908](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1908)
 
 ___
 
@@ -15016,7 +20104,19 @@ Gets the unit of measure meters per second squared identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1365](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1365)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1910](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1910)
+
+___
+
+### UnitOfMeasureMicrogramsPerCubicMeterId
+
+• **UnitOfMeasureMicrogramsPerCubicMeterId** = ``"UnitOfMeasureMicrogramsPerCubicMeterId"``
+
+Gets the unit of measure micrograms per cubic meter.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1912](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1912)
 
 ___
 
@@ -15028,7 +20128,7 @@ Gets the unit of measure Newton meters identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1367](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1367)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1914](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1914)
 
 ___
 
@@ -15040,7 +20140,7 @@ Gets the unit of measure Newtons identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1369](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1369)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1916](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1916)
 
 ___
 
@@ -15052,7 +20152,7 @@ Gets the unit of measure none identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1371](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1371)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1918](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1918)
 
 ___
 
@@ -15064,7 +20164,7 @@ Gets the unit of measure Ohms identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1373](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1373)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1920](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1920)
 
 ___
 
@@ -15076,7 +20176,7 @@ Gets the unit of measure Ohms per second identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1375](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1375)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1922](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1922)
 
 ___
 
@@ -15088,7 +20188,7 @@ Gets the unit of measure parts per million identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1377](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1377)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1924](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1924)
 
 ___
 
@@ -15100,7 +20200,7 @@ Gets the unit of measure Pascals identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1379](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1379)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1926](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1926)
 
 ___
 
@@ -15112,7 +20212,7 @@ Gets the unit of measure percentage identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1381](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1381)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1928](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1928)
 
 ___
 
@@ -15124,7 +20224,7 @@ Gets the unit of measure pulses per meter identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1383](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1383)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1930](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1930)
 
 ___
 
@@ -15136,7 +20236,7 @@ Gets the unit of measure radians identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1385](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1385)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1932](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1932)
 
 ___
 
@@ -15148,7 +20248,7 @@ Gets the unit of measure revolutions identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1387](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1387)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1934](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1934)
 
 ___
 
@@ -15160,7 +20260,7 @@ Gets the unit of measure revolutions per minute identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1389](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1389)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1936](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1936)
 
 ___
 
@@ -15172,7 +20272,7 @@ Gets the unit of measure seconds identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1391](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1391)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1938](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1938)
 
 ___
 
@@ -15184,7 +20284,7 @@ Gets the unit of measure Volts identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1393](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1393)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1940](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1940)
 
 ___
 
@@ -15196,7 +20296,7 @@ Gets the unit of measure Watts identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1395](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1395)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1942](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1942)
 
 ___
 
@@ -15208,7 +20308,7 @@ Gets the unknown driver identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1397](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1397)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1944](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1944)
 
 ___
 
@@ -15220,7 +20320,7 @@ Gets the DatPrivacyType Unknown identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1469](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1469)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2026](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2026)
 
 ___
 
@@ -15232,7 +20332,43 @@ Gets the DataModeType Public identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1471](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1471)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2028](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2028)
+
+___
+
+### UserBigQueryUploadRequestId
+
+• **UserBigQueryUploadRequestId** = ``"UserBigQueryUploadRequest"``
+
+Gets the Id of the UserBigQueryUploadRequest
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:347](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L347)
+
+___
+
+### UserHosRuleSetBigQueryUploadRequestId
+
+• **UserHosRuleSetBigQueryUploadRequestId** = ``"UserHosRuleSetBigQueryUploadRequestId"``
+
+Gets the Id of the UserHosRuleSetBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:357](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L357)
+
+___
+
+### UserHosRuleSetBipBigQueryUploadRequestId
+
+• **UserHosRuleSetBipBigQueryUploadRequestId** = ``"UserHosRuleSetBipBigQueryUploadRequestId"``
+
+Gets the Id of the UserHosRuleSetBipBigQueryUploadRequestId
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:383](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L383)
 
 ___
 
@@ -15244,7 +20380,7 @@ Gets the user notification binary file start identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1399](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1399)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1946](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1946)
 
 ___
 
@@ -15256,7 +20392,7 @@ Gets the user report template identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1401](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1401)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1948](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1948)
 
 ___
 
@@ -15268,7 +20404,7 @@ Gets the DataModeType Private Strict identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1475](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1475)
+[src/types/Checkmate/ObjectModel/KnownId.ts:2032](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L2032)
 
 ___
 
@@ -15280,7 +20416,7 @@ Gets the user work time start identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1403](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1403)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1950](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1950)
 
 ___
 
@@ -15292,7 +20428,7 @@ Gets the work time all hours identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1405](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1405)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1952](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1952)
 
 ___
 
@@ -15304,7 +20440,7 @@ Gets the work time early departure hours identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1407](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1407)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1954](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1954)
 
 ___
 
@@ -15316,7 +20452,7 @@ Gets the work time late arrival hours identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1409](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1409)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1956](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1956)
 
 ___
 
@@ -15328,7 +20464,7 @@ Gets the work time lunch hours identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1411](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1411)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1958](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1958)
 
 ___
 
@@ -15340,19 +20476,31 @@ Gets the work time standard hours identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1413](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1413)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1960](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1960)
 
 ___
 
-### ZoneTypeAddressLookupId
+### WwhObdFaultDiagnosticId
 
-• **ZoneTypeAddressLookupId** = ``"ZoneTypeAddressLookupId"``
+• **WwhObdFaultDiagnosticId** = ``"WwhObdFaultDiagnosticId"``
 
-Gets the zone type address lookup identifier.
+Gets the diagnostic ID for OBD-WWH enhanced fault records.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1415](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1415)
+[src/types/Checkmate/ObjectModel/KnownId.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L17)
+
+___
+
+### ZoneBigQueryUploadRequestId
+
+• **ZoneBigQueryUploadRequestId** = ``"ZoneBigQueryUploadRequest"``
+
+Gets the Id of the ZoneBigQueryUploadRequest
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:349](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L349)
 
 ___
 
@@ -15364,7 +20512,7 @@ Gets the zone type customer identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1417](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1417)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1962](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1962)
 
 ___
 
@@ -15376,7 +20524,19 @@ Gets the zone type home identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1419](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1419)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1964](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1964)
+
+___
+
+### ZoneTypeInHouseServiceCenterId
+
+• **ZoneTypeInHouseServiceCenterId** = ``"ZoneTypeInHouseServiceCenterId"``
+
+Gets the zone type In-house service center identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1970](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1970)
 
 ___
 
@@ -15388,4 +20548,16 @@ Gets the zone type office identifier.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/KnownId.ts:1421](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/KnownId.ts#L1421)
+[src/types/Checkmate/ObjectModel/KnownId.ts:1966](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1966)
+
+___
+
+### ZoneTypeVendorServiceCenterId
+
+• **ZoneTypeVendorServiceCenterId** = ``"ZoneTypeVendorServiceCenterId"``
+
+Gets the zone type vendor service center identifier.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/KnownId.ts:1968](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/KnownId.ts#L1968)

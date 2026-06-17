@@ -6,7 +6,7 @@ All objects that are stored in the database are entities. They are uniquely iden
  Id which is used later to Get, modify (Set) or Remove that
  object.
  The following entities are supported:
- <list><item><description>A1</description></item><item><description>[AddInData](AddInData.md)</description></item><item><description>[AnnotationLog](AnnotationLog.md)</description></item><item><description>[Audit](Audit.md)</description></item><item><description>BinaryPayload</description></item><item><description>[Condition](Condition.md)</description></item><item><description>[Controller](Controller.md)</description></item><item><description>[CustomData](CustomData.md)</description></item><item><description>CustomDevice</description></item><item><description>DataDiagnostic</description></item><item><description>[DebugData](DebugData.md)</description></item><item><description>[Device](Device.md)</description></item><item><description>[DeviceShare](DeviceShare.md)</description></item><item><description>[DeviceStatusInfo](DeviceStatusInfo.md)</description></item><item><description>[Diagnostic](Diagnostic.md)</description></item><item><description>[DistributionList](DistributionList.md)</description></item><item><description>[Driver](Driver.md)</description></item><item><description>[DriverChange](DriverChange.md)</description></item><item><description>[DutyStatusAvailability](DutyStatusAvailability.md)</description></item><item><description>[DutyStatusLog](DutyStatusLog.md)</description></item><item><description>[DutyStatusViolation](DutyStatusViolation.md)</description></item><item><description>[DVIRLog](DVIRLog.md)</description></item><item><description>[ExceptionEvent](ExceptionEvent.md)</description></item><item><description>[FailureMode](FailureMode.md)</description></item><item><description>[FaultData](FaultData.md)</description></item><item><description>[FlashCode](FlashCode.md)</description></item><item><description>[FuelTaxDetail](FuelTaxDetail.md)</description></item><item><description>[FuelTransaction](FuelTransaction.md)</description></item><item><description>Go4v3</description></item><item><description>Go5</description></item><item><description>Go6</description></item><item><description>Go7</description></item><item><description>Go8</description></item><item><description>Go9</description></item><item><description>Go9B</description></item><item><description>GoCurve</description></item><item><description>GoCurveAuxiliary</description></item><item><description>GoDevice</description></item><item><description>[Group](Group.md)</description></item><item><description>GroupSecurity</description></item><item><description>[IoxAddOn](IoxAddOn.md)</description></item><item><description>[LogRecord](LogRecord.md)</description></item><item><description>[MediaFile](MediaFile.md)</description></item><item><description>[ParameterGroup](ParameterGroup.md)</description></item><item><description>[Recipient](Recipient.md)</description></item><item><description>RequestLocation</description></item><item><description>[Route](Route.md)</description></item><item><description>RoutePlanItem</description></item><item><description>[Rule](Rule.md)</description></item><item><description>SecurityClearance</description></item><item><description>[ShipmentLog](ShipmentLog.md)</description></item><item><description>[Source](Source.md)</description></item><item><description>[StatusData](StatusData.md)</description></item><item><description>[TextMessage](TextMessage.md)</description></item><item><description>[Trailer](Trailer.md)</description></item><item><description>[TrailerAttachment](TrailerAttachment.md)</description></item><item><description>[Trip](Trip.md)</description></item><item><description>[UnitOfMeasure](UnitOfMeasure.md)</description></item><item><description>[User](User.md)</description></item><item><description>[WifiHotspot](WifiHotspot.md)</description></item><item><description>[WorkHoliday](WorkHoliday.md)</description></item><item><description>[WorkTime](WorkTime.md)</description></item><item><description>WorkTimeDetail</description></item><item><description>[Zone](Zone.md)</description></item></list>
+ <list><item><description>A1</description></item><item><description>[AddInData](AddInData.md)</description></item><item><description>[AnnotationLog](AnnotationLog.md)</description></item><item><description>[Audit](Audit.md)</description></item><item><description>BinaryPayload</description></item><item><description>[Condition](Condition.md)</description></item><item><description>[Controller](Controller.md)</description></item><item><description>[CustomData](CustomData.md)</description></item><item><description>CustomDevice</description></item><item><description>[DebugData](DebugData.md)</description></item><item><description>[Device](Device.md)</description></item><item><description>[DeviceShare](DeviceShare.md)</description></item><item><description>[DeviceStatusInfo](DeviceStatusInfo.md)</description></item><item><description>[Diagnostic](Diagnostic.md)</description></item><item><description>[DistributionList](DistributionList.md)</description></item><item><description>[DriverChange](DriverChange.md)</description></item><item><description>[DutyStatusAvailability](DutyStatusAvailability.md)</description></item><item><description>[DutyStatusLog](DutyStatusLog.md)</description></item><item><description>[DutyStatusViolation](DutyStatusViolation.md)</description></item><item><description>[DVIRLog](DVIRLog.md)</description></item><item><description>[EmissionComplianceEvent](EmissionComplianceEvent.md)</description></item><item><description>[EmissionVehicleEnrollment](EmissionVehicleEnrollment.md)</description></item><item><description>[ExceptionEvent](ExceptionEvent.md)</description></item><item><description>[FailureMode](FailureMode.md)</description></item><item><description>[FaultData](FaultData.md)</description></item><item><description>[FillUp](FillUp.md)</description></item><item><description>[FlashCode](FlashCode.md)</description></item><item><description>[FuelTaxDetail](FuelTaxDetail.md)</description></item><item><description>[FuelUsed](FuelUsed.md)</description></item><item><description>[FuelTransaction](FuelTransaction.md)</description></item><item><description>Go5</description></item><item><description>Go6</description></item><item><description>Go7</description></item><item><description>Go8</description></item><item><description>Go9</description></item><item><description>Go9B</description></item><item><description>GoCurve</description></item><item><description>GoCurveAuxiliary</description></item><item><description>GoDevice</description></item><item><description>[Group](Group.md)</description></item><item><description>GroupSecurity</description></item><item><description>[IoxAddOn](IoxAddOn.md)</description></item><item><description>[LogRecord](LogRecord.md)</description></item><item><description>[MediaFile](MediaFile.md)</description></item><item><description>[ParameterGroup](ParameterGroup.md)</description></item><item><description>[Recipient](Recipient.md)</description></item><item><description>RequestLocation</description></item><item><description>[Route](Route.md)</description></item><item><description>RoutePlanItem</description></item><item><description>[Rule](Rule.md)</description></item><item><description>SecurityClearance</description></item><item><description>[ShipmentLog](ShipmentLog.md)</description></item><item><description>[Source](Source.md)</description></item><item><description>[StatusData](StatusData.md)</description></item><item><description>[TachographDataFile](TachographDataFile.md)</description></item><item><description>[TextMessage](TextMessage.md)</description></item><item><description>[Trailer](Trailer.md)</description></item><item><description>[TrailerAttachment](TrailerAttachment.md)</description></item><item><description>[Trip](Trip.md)</description></item><item><description>[UnitOfMeasure](UnitOfMeasure.md)</description></item><item><description>[User](User.md)</description></item><item><description>[WifiHotspot](WifiHotspot.md)</description></item><item><description>[WorkHoliday](WorkHoliday.md)</description></item><item><description>[WorkTime](WorkTime.md)</description></item><item><description>WorkTimeDetail</description></item><item><description>[Zone](Zone.md)</description></item></list>
 
 ## Hierarchy
 
@@ -16,7 +16,15 @@ All objects that are stored in the database are entities. They are uniquely iden
 
   ↳ [`AddIn`](AddIn.md)
 
+  ↳ [`AssetLink`](AssetLink.md)
+
+  ↳ [`AssetLinkDetails`](AssetLinkDetails.md)
+
+  ↳ [`AssetSeparationSubscription`](AssetSeparationSubscription.md)
+
   ↳ [`Certificate`](Certificate.md)
+
+  ↳ [`DashboardCache`](DashboardCache.md)
 
   ↳ [`CustomData`](CustomData.md)
 
@@ -34,13 +42,25 @@ All objects that are stored in the database are entities. They are uniquely iden
 
   ↳ [`DriverRegulation`](DriverRegulation.md)
 
+  ↳ [`DriverRegulationServiceScheduleInfo`](DriverRegulationServiceScheduleInfo.md)
+
+  ↳ [`DutyStatusAvailability`](DutyStatusAvailability.md)
+
   ↳ [`DVIRDefect`](DVIRDefect.md)
+
+  ↳ [`EmissionReport`](EmissionReport.md)
+
+  ↳ [`EmissionServiceConnectionLog`](EmissionServiceConnectionLog.md)
+
+  ↳ [`EmissionVehicleCycle`](EmissionVehicleCycle.md)
+
+  ↳ [`EmissionVehicleCycleMessage`](EmissionVehicleCycleMessage.md)
 
   ↳ [`Employee`](Employee.md)
 
   ↳ [`EmployeeRoutePlan`](EmployeeRoutePlan.md)
 
-  ↳ [`EnergySnapshotRecord`](EnergySnapshotRecord.md)
+  ↳ [`DiagnosticData`](DiagnosticData.md)
 
   ↳ [`DiagnosticMapping`](DiagnosticMapping.md)
 
@@ -52,6 +72,8 @@ All objects that are stored in the database are entities. They are uniquely iden
 
   ↳ [`EntitySetting`](EntitySetting.md)
 
+  ↳ [`EntityUploadRequest`](EntityUploadRequest.md)
+
   ↳ [`EntityWithVersion`](EntityWithVersion.md)
 
   ↳ [`EventDeviation`](EventDeviation.md)
@@ -60,31 +82,57 @@ All objects that are stored in the database are entities. They are uniquely iden
 
   ↳ [`EventOccurrenceDue`](EventOccurrenceDue.md)
 
+  ↳ [`EvsaConfiguration`](EvsaConfiguration.md)
+
+  ↳ [`EvsaRequest`](EvsaRequest.md)
+
+  ↳ [`EvsaRequestSettings`](EvsaRequestSettings.md)
+
   ↳ [`Condition`](Condition.md)
 
   ↳ [`ExceptionEventAttachment`](ExceptionEventAttachment.md)
 
   ↳ [`ExceptionEventComment`](ExceptionEventComment.md)
 
-  ↳ [`VirtualExceptionEvent`](VirtualExceptionEvent.md)
+  ↳ [`Feedback`](Feedback.md)
 
   ↳ [`FeedVersionTrackingData`](FeedVersionTrackingData.md)
 
   ↳ [`FuelSnapshotRecord`](FuelSnapshotRecord.md)
 
+  ↳ [`FuelAndEnergySetting`](FuelAndEnergySetting.md)
+
   ↳ [`FuelTaxDetail`](FuelTaxDetail.md)
 
   ↳ [`GroupZoneMetadata`](GroupZoneMetadata.md)
 
+  ↳ [`DriverRegulationReprocessRequest`](DriverRegulationReprocessRequest.md)
+
   ↳ [`HosRuleSet2`](HosRuleSet2.md)
 
+  ↳ [`IAMMetadata`](IAMMetadata.md)
+
+  ↳ [`InspectedItem`](InspectedItem.md)
+
+  ↳ [`Investigation`](Investigation.md)
+
+  ↳ [`InvestigationAttachment`](InvestigationAttachment.md)
+
+  ↳ [`InvestigationComment`](InvestigationComment.md)
+
   ↳ [`IoxAddOn`](IoxAddOn.md)
+
+  ↳ [`IoxWorksConfigFileInfo`](IoxWorksConfigFileInfo.md)
 
   ↳ [`LiveCompletionMapConfig`](LiveCompletionMapConfig.md)
 
   ↳ [`LogRecord`](LogRecord.md)
 
+  ↳ [`LogRecordGeohash`](LogRecordGeohash.md)
+
   ↳ [`LogRecordZoneDistance`](LogRecordZoneDistance.md)
+
+  ↳ [`DiagnosticValueStatus`](DiagnosticValueStatus.md)
 
   ↳ [`MaintenanceNotificationRule`](MaintenanceNotificationRule.md)
 
@@ -98,17 +146,29 @@ All objects that are stored in the database are entities. They are uniquely iden
 
   ↳ [`BackfillStatus`](BackfillStatus.md)
 
+  ↳ [`PushToken`](PushToken.md)
+
+  ↳ [`QueuedEntityRemoveTask`](QueuedEntityRemoveTask.md)
+
   ↳ [`Recipient`](Recipient.md)
 
   ↳ [`DeviceReprocessRequest`](DeviceReprocessRequest.md)
 
-  ↳ [`RestrictedDataModeChange`](RestrictedDataModeChange.md)
+  ↳ [`ReprocessRequest`](ReprocessRequest.md)
 
   ↳ [`RouteExtract`](RouteExtract.md)
+
+  ↳ [`SafetyFleetBenchmark`](SafetyFleetBenchmark.md)
 
   ↳ [`Schedule`](Schedule.md)
 
   ↳ [`ShareableLink`](ShareableLink.md)
+
+  ↳ [`SustainabilityElectrificationSummary`](SustainabilityElectrificationSummary.md)
+
+  ↳ [`SustainabilityGroupIdlingSummary`](SustainabilityGroupIdlingSummary.md)
+
+  ↳ [`SustainabilityMonthlySummary`](SustainabilityMonthlySummary.md)
 
   ↳ [`TachographActivitiesCertificate`](TachographActivitiesCertificate.md)
 
@@ -118,7 +178,9 @@ All objects that are stored in the database are entities. They are uniquely iden
 
   ↳ [`TachographVehicleInspection`](TachographVehicleInspection.md)
 
-  ↳ [`Trip`](Trip.md)
+  ↳ [`TachographDriverActivity`](TachographDriverActivity.md)
+
+  ↳ [`TachographDrivingTimeStatus`](TachographDrivingTimeStatus.md)
 
   ↳ [`TripAnnotation`](TripAnnotation.md)
 
@@ -126,9 +188,13 @@ All objects that are stored in the database are entities. They are uniquely iden
 
   ↳ [`TripTypeChange`](TripTypeChange.md)
 
+  ↳ [`UploadTransaction`](UploadTransaction.md)
+
   ↳ [`UserLoginStatus`](UserLoginStatus.md)
 
   ↳ [`UserSupport`](UserSupport.md)
+
+  ↳ [`ZoneMetadata`](ZoneMetadata.md)
 
 ## Table of contents
 
@@ -146,4 +212,4 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)

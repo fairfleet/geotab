@@ -18,9 +18,11 @@ Detailed information for Hours of Service regulation for a driver.
 - [currentDutyStatus](DriverRegulation.md#currentdutystatus)
 - [cycleSummaries](DriverRegulation.md#cyclesummaries)
 - [daySummaries](DriverRegulation.md#daysummaries)
+- [discreteAvailability](DriverRegulation.md#discreteavailability)
 - [driver](DriverRegulation.md#driver)
 - [ewdAvailability](DriverRegulation.md#ewdavailability)
 - [id](DriverRegulation.md#id)
+- [nextHosEventDate](DriverRegulation.md#nexthoseventdate)
 - [offDutyNeeded](DriverRegulation.md#offdutyneeded)
 - [restBreakNeeded](DriverRegulation.md#restbreakneeded)
 - [rulesetsThatCannotChange](DriverRegulation.md#rulesetsthatcannotchange)
@@ -37,7 +39,7 @@ Gets or sets the [DutyStatusAvailability](DutyStatusAvailability.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L15)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L16)
 
 ___
 
@@ -49,7 +51,7 @@ Gets or sets the latest duty status log type [DutyStatusLogType](../README.md#du
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L17)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L18)
 
 ___
 
@@ -61,7 +63,7 @@ Gets or sets the cycle summaries.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L19)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L20)
 
 ___
 
@@ -73,7 +75,21 @@ Gets or sets the day summaries.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L21)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L22)
+
+___
+
+### discreteAvailability
+
+• **discreteAvailability**: [`DiscreteAvailabilitySnapshot`](DiscreteAvailabilitySnapshot.md)
+
+Gets or sets the discrete availability values for each violation type.
+ Unlike DriverRegulation.Availability which contains aggregated values, this contains raw individual availability values.
+ Only populated when getDiscreteAvailability is requested from HosEngine.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L28)
 
 ___
 
@@ -85,7 +101,7 @@ Gets or sets the DriverRegulation.Driver.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L23)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L30)
 
 ___
 
@@ -99,7 +115,7 @@ Gets or sets the DriverRegulation.EwdAvailability.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L30)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L37)
 
 ___
 
@@ -115,7 +131,19 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+
+___
+
+### nextHosEventDate
+
+• **nextHosEventDate**: `Date`
+
+Gets or sets the next Hos event date.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L39)
 
 ___
 
@@ -127,7 +155,7 @@ Gets or sets when off duty is needed.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L32)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L41)
 
 ___
 
@@ -139,7 +167,7 @@ Gets or sets when rest break is needed.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L34)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L43)
 
 ___
 
@@ -151,7 +179,7 @@ Gets or sets rulesets that cannot be changed currently.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:36](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L36)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:45](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L45)
 
 ___
 
@@ -163,7 +191,7 @@ Gets or sets the [DutyStatusViolation](DutyStatusViolation.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:38](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L38)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:47](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L47)
 
 ___
 
@@ -175,4 +203,4 @@ Gets or sets the workday summaries.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DriverRegulation.ts:40](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L40)
+[src/types/Checkmate/ObjectModel/DriverRegulation.ts:49](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DriverRegulation.ts#L49)

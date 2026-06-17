@@ -16,6 +16,7 @@ The object used to specify the
 ### Properties
 
 - [id](SourceSearch.md#id)
+- [ids](SourceSearch.md#ids)
 - [name](SourceSearch.md#name)
 - [version](SourceSearch.md#version)
 
@@ -33,7 +34,20 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
+
+___
+
+### ids
+
+• **ids**: `string`[]
+
+Gets or sets search for Source with these unique Id(s).
+ Only supported for [FaultData](FaultData.md).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/SourceSearch.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/SourceSearch.ts#L16)
 
 ___
 
@@ -47,7 +61,7 @@ Gets or sets the name of the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/SourceSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/SourceSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/Engine/SourceSearch.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/SourceSearch.ts#L22)
 
 ___
 
@@ -65,4 +79,4 @@ Gets or sets the row version of the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/SourceSearch.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/SourceSearch.ts#L23)
+[src/types/Checkmate/ObjectModel/Engine/SourceSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/SourceSearch.ts#L28)

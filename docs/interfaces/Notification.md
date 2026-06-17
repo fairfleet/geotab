@@ -17,6 +17,7 @@ This class represents a notification that has to be send to a recipient.
 ### Properties
 
 - [dateTime](Notification.md#datetime)
+- [dateTimeCreated](Notification.md#datetimecreated)
 - [dateTimeEnd](Notification.md#datetimeend)
 - [id](Notification.md#id)
 - [notificationApplicationExceptionData](Notification.md#notificationapplicationexceptiondata)
@@ -30,7 +31,9 @@ This class represents a notification that has to be send to a recipient.
 - [notificationMessageData](Notification.md#notificationmessagedata)
 - [notificationNewsData](Notification.md#notificationnewsdata)
 - [notificationReportDownloadData](Notification.md#notificationreportdownloaddata)
+- [notificationSimpleEmailData](Notification.md#notificationsimpleemaildata)
 - [notificationUserModifiedData](Notification.md#notificationusermodifieddata)
+- [notificationVideoData](Notification.md#notificationvideodata)
 - [recipient](Notification.md#recipient)
 - [version](Notification.md#version)
 
@@ -44,7 +47,19 @@ Gets or sets gets the date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L27)
+[src/types/Checkmate/ObjectModel/Notification.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L29)
+
+___
+
+### dateTimeCreated
+
+• **dateTimeCreated**: `Date`
+
+Gets or sets the timestamp when the notification was created.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Notification.ts:31](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L31)
 
 ___
 
@@ -56,7 +71,7 @@ Gets or sets the timestamp indication until when this notification was processed
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L29)
+[src/types/Checkmate/ObjectModel/Notification.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L33)
 
 ___
 
@@ -72,7 +87,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -90,7 +105,7 @@ Deprecated: Please send all exceptions directly to Error Reporting rather than u
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L37)
+[src/types/Checkmate/ObjectModel/Notification.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L41)
 
 ___
 
@@ -102,7 +117,7 @@ Gets or sets the notification data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:39](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L39)
+[src/types/Checkmate/ObjectModel/Notification.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L43)
 
 ___
 
@@ -114,7 +129,7 @@ Gets or sets the Notification.NotificationDeviceShareData data that provides the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:41](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L41)
+[src/types/Checkmate/ObjectModel/Notification.ts:45](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L45)
 
 ___
 
@@ -127,7 +142,7 @@ Gets or sets the [NotificationExceptionData](NotificationExceptionData.md) data 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:46](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L46)
+[src/types/Checkmate/ObjectModel/Notification.ts:50](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L50)
 
 ___
 
@@ -140,7 +155,7 @@ Gets or sets the Notification.NotificationExceptionForUsersData data that provid
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:51](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L51)
+[src/types/Checkmate/ObjectModel/Notification.ts:55](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L55)
 
 ___
 
@@ -152,7 +167,7 @@ Gets or sets the [NotificationForAdminUsersData](NotificationForAdminUsersData.m
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:53](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L53)
+[src/types/Checkmate/ObjectModel/Notification.ts:57](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L57)
 
 ___
 
@@ -165,7 +180,7 @@ Gets or sets the [NotificationInfoData](NotificationInfoData.md) data that provi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:58](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L58)
+[src/types/Checkmate/ObjectModel/Notification.ts:62](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L62)
 
 ___
 
@@ -177,7 +192,7 @@ Gets or sets the Notification.NotificationMaintenanceReminderData data that prov
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:60](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L60)
+[src/types/Checkmate/ObjectModel/Notification.ts:64](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L64)
 
 ___
 
@@ -189,7 +204,7 @@ Gets or sets the Notification.NotificationNewsData data that provides the data f
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:62](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L62)
+[src/types/Checkmate/ObjectModel/Notification.ts:66](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L66)
 
 ___
 
@@ -201,7 +216,7 @@ Gets or sets the Notification.NotificationNewsData data that provides the data f
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:64](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L64)
+[src/types/Checkmate/ObjectModel/Notification.ts:68](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L68)
 
 ___
 
@@ -213,7 +228,19 @@ Gets or sets the Notification.NotificationReportDownloadData data that provides 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:66](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L66)
+[src/types/Checkmate/ObjectModel/Notification.ts:70](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L70)
+
+___
+
+### notificationSimpleEmailData
+
+• **notificationSimpleEmailData**: [`NotificationSimpleEmailData`](NotificationSimpleEmailData.md)
+
+Gets or sets the Notification.NotificationSimpleEmailData data that provides the data for this notification.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Notification.ts:72](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L72)
 
 ___
 
@@ -225,7 +252,19 @@ Gets or sets the Notification.NotificationUserModifiedData data that provides th
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:68](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L68)
+[src/types/Checkmate/ObjectModel/Notification.ts:74](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L74)
+
+___
+
+### notificationVideoData
+
+• **notificationVideoData**: [`NotificationVideoData`](NotificationVideoData.md)
+
+Gets or sets the Notification.NotificationVideoData data that provides the data for this notification.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Notification.ts:76](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L76)
 
 ___
 
@@ -237,7 +276,7 @@ Gets or sets the recipient this notification belongs to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Notification.ts:70](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Notification.ts#L70)
+[src/types/Checkmate/ObjectModel/Notification.ts:78](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Notification.ts#L78)
 
 ___
 
@@ -253,4 +292,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

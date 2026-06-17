@@ -18,7 +18,9 @@ The notification data associated with application notifications meant for admins
 - [id](NotificationForAdminUsersData.md#id)
 - [info](NotificationForAdminUsersData.md#info)
 - [isAdminOnly](NotificationForAdminUsersData.md#isadminonly)
+- [isPopupOnly](NotificationForAdminUsersData.md#ispopuponly)
 - [machineName](NotificationForAdminUsersData.md#machinename)
+- [rule](NotificationForAdminUsersData.md#rule)
 - [source](NotificationForAdminUsersData.md#source)
 
 ## Properties
@@ -35,7 +37,7 @@ Gets or sets what is the description for the exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L10)
+[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L10)
 
 ___
 
@@ -51,7 +53,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -67,7 +69,7 @@ Gets or sets additional info related to the exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L12)
+[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L12)
 
 ___
 
@@ -79,7 +81,19 @@ Gets a value indicating whether it is admin only for notification.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationForAdminUsersData.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationForAdminUsersData.ts#L11)
+[src/types/Checkmate/ObjectModel/NotificationForAdminUsersData.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationForAdminUsersData.ts#L12)
+
+___
+
+### isPopupOnly
+
+• **isPopupOnly**: `boolean`
+
+Gets a value indicating whether this is a popup only notification.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/NotificationForAdminUsersData.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationForAdminUsersData.ts#L14)
 
 ___
 
@@ -95,7 +109,19 @@ Gets or sets the machine name where the exception occurred.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L14)
+[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L14)
+
+___
+
+### rule
+
+• **rule**: [`Rule`](Rule.md)
+
+Gets the rule associated with this notification, if any.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/NotificationForAdminUsersData.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationForAdminUsersData.ts#L16)
 
 ___
 
@@ -111,4 +137,4 @@ Gets or sets what is the source of the exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L16)
+[src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationExceptionForUsersData.ts#L16)

@@ -37,7 +37,7 @@ Gets or sets filter by the [DeviceSearch](DeviceSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L19)
 
 ___
 
@@ -49,7 +49,7 @@ Gets or sets the beginning of the time interval. The search will adjust it to th
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L21)
 
 ___
 
@@ -65,7 +65,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -77,7 +77,7 @@ Gets or sets a value indicating whether to include any parts of boundary details
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L23)
+[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L23)
 
 ___
 
@@ -89,7 +89,7 @@ Gets or sets a value indicating whether to include hourly data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L25)
+[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L25)
 
 ___
 
@@ -101,7 +101,7 @@ Gets or sets the max row version of the [FuelTaxDetail](FuelTaxDetail.md) search
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L27)
+[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L27)
 
 ___
 
@@ -113,7 +113,7 @@ Gets or sets the end of the time interval. The search will adjust it to the near
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L29)
+[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L29)
 
 ___
 
@@ -129,4 +129,4 @@ Gets or sets the row version of the [FuelTaxDetail](FuelTaxDetail.md) search cri
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L31)
+[src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts:31](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/FuelTaxDetailSearch.ts#L31)

@@ -9,9 +9,12 @@ A known unit of measure.
 ### Enumeration Members
 
 - [Amps](KnownUnitOfMeasure.md#amps)
+- [AmpsPerHour](KnownUnitOfMeasure.md#ampsperhour)
 - [Bytes](KnownUnitOfMeasure.md#bytes)
 - [CubicMeters](KnownUnitOfMeasure.md#cubicmeters)
 - [CubicMetersPerSecond](KnownUnitOfMeasure.md#cubicmeterspersecond)
+- [Decibel](KnownUnitOfMeasure.md#decibel)
+- [DecibelMilliwatt](KnownUnitOfMeasure.md#decibelmilliwatt)
 - [DegreesCelsius](KnownUnitOfMeasure.md#degreescelsius)
 - [Grams](KnownUnitOfMeasure.md#grams)
 - [GramsPerSecond](KnownUnitOfMeasure.md#gramspersecond)
@@ -29,6 +32,7 @@ A known unit of measure.
 - [LitersPerTonne](KnownUnitOfMeasure.md#literspertonne)
 - [Meters](KnownUnitOfMeasure.md#meters)
 - [MetersPerSecondSquared](KnownUnitOfMeasure.md#meterspersecondsquared)
+- [MicrogramsPerCubicMeter](KnownUnitOfMeasure.md#microgramspercubicmeter)
 - [NewtonMeters](KnownUnitOfMeasure.md#newtonmeters)
 - [Newtons](KnownUnitOfMeasure.md#newtons)
 - [None](KnownUnitOfMeasure.md#none)
@@ -55,7 +59,19 @@ The amps unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:38](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L38)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:38](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L38)
+
+___
+
+### AmpsPerHour
+
+• **AmpsPerHour** = ``"AmpsPerHour"``
+
+Amps per hour unit of measure.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:68](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L68)
 
 ___
 
@@ -67,7 +83,7 @@ The bytes unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:46](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L46)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:46](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L46)
 
 ___
 
@@ -79,7 +95,7 @@ The cubic meters unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L24)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L24)
 
 ___
 
@@ -91,7 +107,31 @@ The cubic meters per second unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L28)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L28)
+
+___
+
+### Decibel
+
+• **Decibel** = ``"Decibel"``
+
+Decibel unit of measure.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:70](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L70)
+
+___
+
+### DecibelMilliwatt
+
+• **DecibelMilliwatt** = ``"DecibelMilliwatt"``
+
+Decibel per milliwatt unit of measure.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:72](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L72)
 
 ___
 
@@ -103,7 +143,7 @@ The degrees celsius unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L10)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L10)
 
 ___
 
@@ -115,7 +155,7 @@ The grams unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L22)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L22)
 
 ___
 
@@ -127,7 +167,7 @@ The grams per second unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:60](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L60)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:60](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L60)
 
 ___
 
@@ -139,7 +179,7 @@ The grams per square meter unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:72](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L72)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:76](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L76)
 
 ___
 
@@ -151,7 +191,7 @@ The hertz unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L32)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L32)
 
 ___
 
@@ -163,7 +203,7 @@ The kilowatt-hours unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:74](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L74)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:78](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L78)
 
 ___
 
@@ -175,7 +215,7 @@ The kilograms per kilometer unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:66](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L66)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:66](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L66)
 
 ___
 
@@ -187,7 +227,7 @@ The kilometers per hour unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L12)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L12)
 
 ___
 
@@ -199,7 +239,7 @@ The kilometers per kilo watt hour unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:78](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L78)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:82](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L82)
 
 ___
 
@@ -211,7 +251,7 @@ The kilometers per kilogram unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:62](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L62)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:62](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L62)
 
 ___
 
@@ -223,7 +263,7 @@ The kilometers per liter unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:64](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L64)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:64](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L64)
 
 ___
 
@@ -235,7 +275,7 @@ The liters unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L26)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L26)
 
 ___
 
@@ -247,7 +287,7 @@ The liters per lane kilometer unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:68](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L68)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:84](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L84)
 
 ___
 
@@ -259,7 +299,7 @@ The liters per ton unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:70](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L70)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:74](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L74)
 
 ___
 
@@ -271,7 +311,7 @@ The liters per tonne unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:76](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L76)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:80](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L80)
 
 ___
 
@@ -283,7 +323,7 @@ The meters unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L20)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L20)
 
 ___
 
@@ -295,7 +335,19 @@ The meters per second squared unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L18)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L18)
+
+___
+
+### MicrogramsPerCubicMeter
+
+• **MicrogramsPerCubicMeter** = ``"MicrogramsPerCubicMeter"``
+
+The micrograms per cubic meter unit of measure.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:86](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L86)
 
 ___
 
@@ -307,7 +359,7 @@ The newton meters unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L16)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L16)
 
 ___
 
@@ -319,7 +371,7 @@ The newtons unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L14)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L14)
 
 ___
 
@@ -331,7 +383,7 @@ No unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L8)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:8](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L8)
 
 ___
 
@@ -343,7 +395,7 @@ The ohms unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:42](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L42)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:42](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L42)
 
 ___
 
@@ -355,7 +407,7 @@ The ohms per second unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:58](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L58)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:58](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L58)
 
 ___
 
@@ -367,7 +419,7 @@ The parts per million unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:48](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L48)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:48](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L48)
 
 ___
 
@@ -379,7 +431,7 @@ The pascals unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:44](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L44)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:44](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L44)
 
 ___
 
@@ -391,7 +443,7 @@ The percentage unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:50](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L50)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:50](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L50)
 
 ___
 
@@ -403,7 +455,7 @@ The pulses per meter unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:56](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L56)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:56](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L56)
 
 ___
 
@@ -415,7 +467,7 @@ The radians unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:52](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L52)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:52](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L52)
 
 ___
 
@@ -427,7 +479,7 @@ The revolutions unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:54](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L54)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:54](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L54)
 
 ___
 
@@ -439,7 +491,7 @@ The rotations per minute unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L30)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L30)
 
 ___
 
@@ -451,7 +503,7 @@ The seconds unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L34)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:34](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L34)
 
 ___
 
@@ -463,7 +515,7 @@ The volts unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:36](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L36)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:36](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L36)
 
 ___
 
@@ -475,4 +527,4 @@ The watts unit of measure.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:40](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L40)
+[src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts:40](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/KnownUnitOfMeasure.ts#L40)

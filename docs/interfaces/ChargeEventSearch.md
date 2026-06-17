@@ -17,6 +17,8 @@ The object used to specify the arguments when searching for a [ChargeEvent](Char
 - [deviceSearch](ChargeEventSearch.md#devicesearch)
 - [fromDate](ChargeEventSearch.md#fromdate)
 - [id](ChargeEventSearch.md#id)
+- [includeDeleted](ChargeEventSearch.md#includedeleted)
+- [maxVersion](ChargeEventSearch.md#maxversion)
 - [toDate](ChargeEventSearch.md#todate)
 - [version](ChargeEventSearch.md#version)
 
@@ -34,7 +36,7 @@ Gets or sets filter by the [DeviceSearch](DeviceSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L17)
 
 ___
 
@@ -46,7 +48,7 @@ Gets or sets the from date, which is used to search for ChargeEvent(s) recorded 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L19)
 
 ___
 
@@ -54,15 +56,40 @@ ___
 
 • **id**: `string`
 
-Gets or sets the id, which is used to search for a Event record. Id cannot be used with any other search properties.
+Gets or sets search for an entry based on the specific Id.
 
-#### Overrides
+#### Inherited from
 
 [Search](Search.md).[id](Search.md#id)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
+
+___
+
+### includeDeleted
+
+• **includeDeleted**: `boolean`
+
+Gets or sets a value indicating whether search includes records that have dtDeleted column set
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L21)
+
+___
+
+### maxVersion
+
+• **maxVersion**: `number`
+
+Gets or sets the maximum row version of the
+ [ChargeEvent](ChargeEvent.md) search criteria.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L26)
 
 ___
 
@@ -74,7 +101,7 @@ Gets or sets the to date, which is used to search for ChargeEvent(s) recorded on
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L23)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L28)
 
 ___
 
@@ -82,12 +109,13 @@ ___
 
 • **version**: `number`
 
-Gets or sets the row version of the search criteria.
+Gets or sets the row version of the [ChargeEvent](ChargeEvent.md)
+ search criteria.
 
-#### Inherited from
+#### Overrides
 
 [Search](Search.md).[version](Search.md#version)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Charging/ChargeEventSearch.ts#L33)

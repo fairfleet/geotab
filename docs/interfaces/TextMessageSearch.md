@@ -26,6 +26,8 @@ The object used to specify the arguments when searching for a [TextMessage](Text
 - [latestMessageOnly](TextMessageSearch.md#latestmessageonly)
 - [mimeTypes](TextMessageSearch.md#mimetypes)
 - [modifiedSinceDate](TextMessageSearch.md#modifiedsincedate)
+- [notification](TextMessageSearch.md#notification)
+- [onlyActiveMessages](TextMessageSearch.md#onlyactivemessages)
 - [parentMessageId](TextMessageSearch.md#parentmessageid)
 - [parentTextMessageId](TextMessageSearch.md#parenttextmessageid)
 - [recipientSearch](TextMessageSearch.md#recipientsearch)
@@ -39,11 +41,13 @@ The object used to specify the arguments when searching for a [TextMessage](Text
 
 • **channelNumbers**: `number`[]
 
-Gets or sets search for TextMessages with DataToComponentContent filtered based on the channelNumber.
+Gets or sets search for TextMessages filtered based on channel numbers assigned.
+ MessageContentTypes that support setting the channelNumber:
+ <list><item><description>MimeContent</description></item><item><description>SerialIoxContent</description></item><item><description>ColdChainFaultClearContent</description></item><item><description>ColdChainSetpointSetContent</description></item></list>
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L19)
 
 ___
 
@@ -55,7 +59,7 @@ Gets or sets search for TextMessages filtered based on the [MessageContentType](
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L21)
 
 ___
 
@@ -71,7 +75,7 @@ Gets or sets filter by the [DeviceSearch](DeviceSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L29)
 
 ___
 
@@ -83,7 +87,7 @@ Gets or sets search for TextMessages that were sent at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:31](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L31)
 
 ___
 
@@ -97,7 +101,7 @@ Gets or sets search for TextMessages sent to Devices, Users or Recipients that a
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L32)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L37)
 
 ___
 
@@ -113,7 +117,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -127,7 +131,7 @@ Gets or sets search for delivered or undelivered TextMessages. If it's set to tr
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:38](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L38)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L43)
 
 ___
 
@@ -141,7 +145,7 @@ Gets or sets search for TextMessages based on the "direction" of the message. If
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:44](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L44)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:49](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L49)
 
 ___
 
@@ -155,7 +159,7 @@ Gets or sets search for read or unread TextMessages. If it's set to true, it wil
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:50](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L50)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:55](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L55)
 
 ___
 
@@ -168,7 +172,7 @@ Gets or sets a value indicating whether when LatestMessageOnly is set to True; o
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:55](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L55)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:60](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L60)
 
 ___
 
@@ -176,11 +180,12 @@ ___
 
 • **mimeTypes**: `string`[]
 
-Gets or sets search for TextMessages with MimeContent filtered based on the messages MIME type.
+Gets or sets search for TextMessages filtered based on the messages MIME type.
+ MimeTypes search is available for MimeContent only.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:57](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L57)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:65](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L65)
 
 ___
 
@@ -192,7 +197,31 @@ Gets or sets search for TextMessages that were delivered/sent/read since this da
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:59](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L59)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:67](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L67)
+
+___
+
+### notification
+
+• **notification**: [`Notification`](Notification.md)
+
+Gets or sets search for TextMessages that have Notification in messageContent.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:69](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L69)
+
+___
+
+### onlyActiveMessages
+
+• **onlyActiveMessages**: `boolean`
+
+Gets or sets a value indicating whether only TextMessages with ActiveTo &gt; UtcNow are included.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:71](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L71)
 
 ___
 
@@ -204,7 +233,7 @@ Gets or sets search for TextMessages that have parent id as this Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:61](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L61)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:73](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L73)
 
 ___
 
@@ -216,7 +245,7 @@ Gets or sets search for TextMessages that have parent id as this id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:63](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L63)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:75](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L75)
 
 ___
 
@@ -230,7 +259,7 @@ Gets or sets search for TextMessages sent to this [UserSearch](UserSearch.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:69](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L69)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:81](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L81)
 
 ___
 
@@ -242,7 +271,7 @@ Gets or sets search for TextMessages that were sent at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:71](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L71)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:83](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L83)
 
 ___
 
@@ -256,7 +285,7 @@ Gets or sets search for TextMessages sent by this [UserSearch](UserSearch.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:77](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L77)
+[src/types/Checkmate/ObjectModel/TextMessageSearch.ts:89](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TextMessageSearch.ts#L89)
 
 ___
 
@@ -272,4 +301,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

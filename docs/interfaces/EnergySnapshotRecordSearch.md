@@ -18,10 +18,12 @@ The object used to specify the arguments when searching for [EnergySnapshotRecor
 - [fromDate](EnergySnapshotRecordSearch.md#fromdate)
 - [id](EnergySnapshotRecordSearch.md#id)
 - [includeAdjacent](EnergySnapshotRecordSearch.md#includeadjacent)
+- [includeDeleted](EnergySnapshotRecordSearch.md#includedeleted)
 - [includeSnapshotsAfterToDate](EnergySnapshotRecordSearch.md#includesnapshotsaftertodate)
 - [includeSnapshotsBeforeFromDate](EnergySnapshotRecordSearch.md#includesnapshotsbeforefromdate)
 - [isWaitingForData](EnergySnapshotRecordSearch.md#iswaitingfordata)
 - [logReasons](EnergySnapshotRecordSearch.md#logreasons)
+- [maxVersion](EnergySnapshotRecordSearch.md#maxversion)
 - [toDate](EnergySnapshotRecordSearch.md#todate)
 - [version](EnergySnapshotRecordSearch.md#version)
 
@@ -36,7 +38,7 @@ Gets or sets the device search criteria for the [EnergySnapshotRecordSearch](Ene
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L14)
 
 ___
 
@@ -48,7 +50,7 @@ Gets or sets the from date, which is used to search for [EnergySnapshotRecord](E
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L16)
 
 ___
 
@@ -64,7 +66,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -76,7 +78,19 @@ Gets or sets the IncludeAdjacent flag which, when true, includes the [EnergySnap
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L18)
+
+___
+
+### includeDeleted
+
+• **includeDeleted**: `boolean`
+
+Gets or sets a value indicating whether search includes records that have the dtDeleted column set
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L20)
 
 ___
 
@@ -88,7 +102,7 @@ Gets or sets value. If &gt; 0, retrieve n snapshots after the to date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L22)
 
 ___
 
@@ -100,7 +114,7 @@ Gets or sets value. If &gt; 0, retrieve n snapshots before the from date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L24)
 
 ___
 
@@ -112,7 +126,7 @@ Gets or sets the isWaitingForData flag which is used to search for [EnergySnapsh
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L26)
 
 ___
 
@@ -124,7 +138,19 @@ Gets or sets logs reasons. Includes the [EnergySnapshotRecord](EnergySnapshotRec
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L28)
+
+___
+
+### maxVersion
+
+• **maxVersion**: `number`
+
+Gets or sets search for [EnergySnapshotRecord](EnergySnapshotRecord.md)s with a maximum of this version.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L30)
 
 ___
 
@@ -136,7 +162,7 @@ Gets or sets the to date, which is used to search for [EnergySnapshotRecord](Ene
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L28)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L32)
 
 ___
 
@@ -144,12 +170,12 @@ ___
 
 • **version**: `number`
 
-Gets or sets the row version of the search criteria.
+Gets or sets the row version of the [EnergySnapshotRecord](EnergySnapshotRecord.md) search criteria.
 
-#### Inherited from
+#### Overrides
 
 [Search](Search.md).[version](Search.md#version)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts:34](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Energy/EnergySnapshotRecordSearch.ts#L34)

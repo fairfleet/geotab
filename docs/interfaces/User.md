@@ -19,6 +19,7 @@ A user of the system. A user can be a MyGeotab user or a user that is a [Driver]
 - [acceptedEULA](User.md#acceptedeula)
 - [accessGroupFilter](User.md#accessgroupfilter)
 - [activeDashboardReports](User.md#activedashboardreports)
+- [activeDefaultDashboards](User.md#activedefaultdashboards)
 - [activeFrom](User.md#activefrom)
 - [activeTo](User.md#activeto)
 - [authorityAddress](User.md#authorityaddress)
@@ -45,25 +46,32 @@ A user of the system. A user can be a MyGeotab user or a user that is a [Driver]
 - [driveGuideVersion](User.md#driveguideversion)
 - [electricEnergyEconomyUnit](User.md#electricenergyeconomyunit)
 - [employeeNo](User.md#employeeno)
+- [favouriteReports](User.md#favouritereports)
 - [featurePreview](User.md#featurepreview)
 - [firstDayOfWeek](User.md#firstdayofweek)
 - [firstName](User.md#firstname)
 - [fuelEconomyUnit](User.md#fueleconomyunit)
 - [groups](User.md#groups)
 - [hosRuleSet](User.md#hosruleset)
+- [iamMetadata](User.md#iammetadata)
 - [id](User.md#id)
+- [identityProviderName](User.md#identityprovidername)
+- [isAceDisclaimerDisabled](User.md#isacedisclaimerdisabled)
 - [isAdverseDrivingEnabled](User.md#isadversedrivingenabled)
+- [isAutoAdded](User.md#isautoadded)
 - [isDriver](User.md#isdriver)
 - [isEULAAccepted](User.md#iseulaaccepted)
 - [isEmailReportEnabled](User.md#isemailreportenabled)
 - [isExemptHOSEnabled](User.md#isexempthosenabled)
 - [isLabsEnabled](User.md#islabsenabled)
+- [isMaintenanceNotificationEnabled](User.md#ismaintenancenotificationenabled)
 - [isMetric](User.md#ismetric)
 - [isNewsEnabled](User.md#isnewsenabled)
 - [isPersonalConveyanceEnabled](User.md#ispersonalconveyanceenabled)
-- [isServiceUpdatesEnabled](User.md#isserviceupdatesenabled)
+- [isServiceDisruptionNotificationsEnabled](User.md#isservicedisruptionnotificationsenabled)
 - [isYardMoveEnabled](User.md#isyardmoveenabled)
 - [issuerCertificate](User.md#issuercertificate)
+- [jobPriorities](User.md#jobpriorities)
 - [language](User.md#language)
 - [lastAccessDate](User.md#lastaccessdate)
 - [lastName](User.md#lastname)
@@ -78,10 +86,14 @@ A user of the system. A user can be a MyGeotab user or a user that is a [Driver]
 - [privateUserGroups](User.md#privateusergroups)
 - [reportGroups](User.md#reportgroups)
 - [securityGroups](User.md#securitygroups)
+- [sendWelcomeEmail](User.md#sendwelcomeemail)
 - [showClickOnceWarning](User.md#showclickoncewarning)
+- [smsNotificationsOptIn](User.md#smsnotificationsoptin)
 - [timeZoneId](User.md#timezoneid)
 - [userAuthenticationType](User.md#userauthenticationtype)
 - [version](User.md#version)
+- [whatsAppNotificationsOptIn](User.md#whatsappnotificationsoptin)
+- [whatsAppPhoneNumber](User.md#whatsappphonenumber)
 - [wifiEULA](User.md#wifieula)
 - [windowsAuthenticationUserId](User.md#windowsauthenticationuserid)
 - [zoneDisplayMode](User.md#zonedisplaymode)
@@ -96,7 +108,7 @@ Gets or sets a value indicating the user accepted MyGeotab EULA revision number.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L24)
+[src/types/Checkmate/ObjectModel/User.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L26)
 
 ___
 
@@ -108,7 +120,7 @@ Gets or sets the [GroupFilter](GroupFilter.md) that the user belongs to, which i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L26)
+[src/types/Checkmate/ObjectModel/User.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L28)
 
 ___
 
@@ -120,7 +132,19 @@ Gets or sets the list of active dashboards for the user, displayed on the dashbo
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L28)
+[src/types/Checkmate/ObjectModel/User.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L30)
+
+___
+
+### activeDefaultDashboards
+
+• **activeDefaultDashboards**: `string`[]
+
+Gets or sets the list of default dashboards which must show real data. Default [empty].
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/User.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L32)
 
 ___
 
@@ -132,7 +156,7 @@ Gets or sets the date the user is active from. Default [UtcNow].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L30)
+[src/types/Checkmate/ObjectModel/User.ts:34](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L34)
 
 ___
 
@@ -144,7 +168,7 @@ Gets or sets the date the user is active to. Default [MaxDate].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L32)
+[src/types/Checkmate/ObjectModel/User.ts:36](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L36)
 
 ___
 
@@ -156,7 +180,7 @@ Gets or sets the HOS authority address of the user. Default [""].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L34)
+[src/types/Checkmate/ObjectModel/User.ts:38](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L38)
 
 ___
 
@@ -168,7 +192,7 @@ Gets or sets the HOS authority name of the user. Default [""].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:36](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L36)
+[src/types/Checkmate/ObjectModel/User.ts:40](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L40)
 
 ___
 
@@ -180,7 +204,7 @@ Gets or sets list of all available dashboard reports to the user. Default [empty
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:38](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L38)
+[src/types/Checkmate/ObjectModel/User.ts:42](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L42)
 
 ___
 
@@ -192,7 +216,7 @@ Gets or sets the list of bookmarked pages. Default [empty].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:40](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L40)
+[src/types/Checkmate/ObjectModel/User.ts:44](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L44)
 
 ___
 
@@ -204,7 +228,7 @@ Gets or sets the user's stored list of custom response options to choose from wh
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:42](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L42)
+[src/types/Checkmate/ObjectModel/User.ts:46](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L46)
 
 ___
 
@@ -216,7 +240,7 @@ Gets or sets the carrier number. Default [""].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:44](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L44)
+[src/types/Checkmate/ObjectModel/User.ts:48](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L48)
 
 ___
 
@@ -228,7 +252,7 @@ Gets or sets a flag indicating whether the user's password requires resetting. I
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:46](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L46)
+[src/types/Checkmate/ObjectModel/User.ts:50](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L50)
 
 ___
 
@@ -240,7 +264,7 @@ Gets or sets free text field where any user information can be stored and refere
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:48](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L48)
+[src/types/Checkmate/ObjectModel/User.ts:52](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L52)
 
 ___
 
@@ -252,7 +276,7 @@ Gets or sets the company address for the user. Default [""].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:50](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L50)
+[src/types/Checkmate/ObjectModel/User.ts:54](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L54)
 
 ___
 
@@ -264,7 +288,7 @@ Gets or sets the list of organization [Group](Group.md)(s) that the user belongs
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:52](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L52)
+[src/types/Checkmate/ObjectModel/User.ts:56](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L56)
 
 ___
 
@@ -276,7 +300,7 @@ Gets or sets the name of the company for the user. Default [""].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:54](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L54)
+[src/types/Checkmate/ObjectModel/User.ts:58](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L58)
 
 ___
 
@@ -288,7 +312,7 @@ Gets or sets the user two symbols country ISO code (https://www.iso.org/iso-3166
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:56](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L56)
+[src/types/Checkmate/ObjectModel/User.ts:60](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L60)
 
 ___
 
@@ -300,7 +324,7 @@ Gets or sets the format dates will be displayed to this user. Default ["MM/dd/yy
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:58](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L58)
+[src/types/Checkmate/ObjectModel/User.ts:62](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L62)
 
 ___
 
@@ -312,7 +336,7 @@ Gets or sets the default [GoogleMapStyle](../README.md#googlemapstyle) tiles whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:60](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L60)
+[src/types/Checkmate/ObjectModel/User.ts:64](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L64)
 
 ___
 
@@ -324,7 +348,7 @@ Gets or sets the default [HereMapStyle](../README.md#heremapstyle) tiles when us
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:62](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L62)
+[src/types/Checkmate/ObjectModel/User.ts:66](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L66)
 
 ___
 
@@ -338,7 +362,7 @@ Gets or sets the default map engine to use for this user. System map engines are
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:68](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L68)
+[src/types/Checkmate/ObjectModel/User.ts:72](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L72)
 
 ___
 
@@ -350,7 +374,7 @@ Gets or sets the default [OpenStreetMapStyle](../README.md#openstreetmapstyle) t
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:70](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L70)
+[src/types/Checkmate/ObjectModel/User.ts:74](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L74)
 
 ___
 
@@ -358,11 +382,11 @@ ___
 
 • **defaultPage**: `string`
 
-Gets or sets the default start page to view when login is complete. Maps to the hash portion of the web site URL (https://url/enpoint/[#page]). Default [helpGuide].
+Gets or sets the default start page to view when login is complete. Maps to the hash portion of the web site URL (https://url/enpoint/[#page]). Default [map].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:72](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L72)
+[src/types/Checkmate/ObjectModel/User.ts:76](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L76)
 
 ___
 
@@ -374,7 +398,7 @@ Gets or sets the designation or title of the employee. Maximum length [50] Defau
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:74](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L74)
+[src/types/Checkmate/ObjectModel/User.ts:78](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L78)
 
 ___
 
@@ -386,7 +410,7 @@ Gets or sets the user's preferred currency for display in the UI.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:76](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L76)
+[src/types/Checkmate/ObjectModel/User.ts:80](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L80)
 
 ___
 
@@ -398,7 +422,7 @@ Gets or sets the DisplayMeasurementProfile.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:78](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L78)
+[src/types/Checkmate/ObjectModel/User.ts:82](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L82)
 
 ___
 
@@ -410,7 +434,7 @@ Gets or sets the driver's last viewed guide version. Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:80](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L80)
+[src/types/Checkmate/ObjectModel/User.ts:84](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L84)
 
 ___
 
@@ -422,7 +446,7 @@ Gets or sets the user's preferred [ElectricEnergyEconomyUnit](../README.md#elect
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:82](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L82)
+[src/types/Checkmate/ObjectModel/User.ts:86](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L86)
 
 ___
 
@@ -434,7 +458,19 @@ Gets or sets the employee number or external identifier. Maximum length [50] Def
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:84](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L84)
+[src/types/Checkmate/ObjectModel/User.ts:88](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L88)
+
+___
+
+### favouriteReports
+
+• **favouriteReports**: [`ReportTemplate`](ReportTemplate.md)[]
+
+Gets or sets the list of favourite reports for the user.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/User.ts:90](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L90)
 
 ___
 
@@ -442,11 +478,11 @@ ___
 
 • **featurePreview**: `string`
 
-Gets or sets a value indicating which features user enabled to preview. Default [""].
+Gets or sets a comma-separated string value indicating which features user enabled to preview. Default [""].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:86](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L86)
+[src/types/Checkmate/ObjectModel/User.ts:92](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L92)
 
 ___
 
@@ -458,7 +494,7 @@ Gets or sets the user's preferred day to represent the start of the week. Defaul
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:88](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L88)
+[src/types/Checkmate/ObjectModel/User.ts:94](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L94)
 
 ___
 
@@ -470,7 +506,7 @@ Gets or sets the first name of the user. Maximum length [255].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:90](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L90)
+[src/types/Checkmate/ObjectModel/User.ts:96](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L96)
 
 ___
 
@@ -482,7 +518,7 @@ Gets or sets the user's preferred [FuelEconomyUnit](../README.md#fueleconomyunit
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:92](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L92)
+[src/types/Checkmate/ObjectModel/User.ts:98](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L98)
 
 ___
 
@@ -494,7 +530,7 @@ Gets or sets the aggregated list of all user groups.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:94](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L94)
+[src/types/Checkmate/ObjectModel/User.ts:100](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L100)
 
 ___
 
@@ -506,7 +542,19 @@ Gets or sets the [HosRuleSet](../README.md#hosruleset) the user follows. Default
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:96](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L96)
+[src/types/Checkmate/ObjectModel/User.ts:102](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L102)
+
+___
+
+### iamMetadata
+
+• **iamMetadata**: [`IAMMetadata`](IAMMetadata.md)
+
+Gets or sets the user's metadata in IAM.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/User.ts:104](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L104)
 
 ___
 
@@ -522,7 +570,31 @@ Gets or sets the unique identifier for the User. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:98](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L98)
+[src/types/Checkmate/ObjectModel/User.ts:106](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L106)
+
+___
+
+### identityProviderName
+
+• **identityProviderName**: `string`
+
+Gets or sets the user's external IDP name
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/User.ts:108](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L108)
+
+___
+
+### isAceDisclaimerDisabled
+
+• **isAceDisclaimerDisabled**: `boolean`
+
+Gets or sets a value indicating whether the ACE disclaimer is disabled for the user
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/User.ts:110](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L110)
 
 ___
 
@@ -530,11 +602,23 @@ ___
 
 • **isAdverseDrivingEnabled**: `boolean`
 
-Gets or sets a value indicating whether the user is allowed to Adverse Driving conditions exempt. Default [false].
+Gets or sets a value indicating whether the user is allowed to Adverse Driving conditions exempt. Default [true].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:100](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L100)
+[src/types/Checkmate/ObjectModel/User.ts:112](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L112)
+
+___
+
+### isAutoAdded
+
+• **isAutoAdded**: `boolean`
+
+Gets or sets a value indicating whether the user was automatically added to the database
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/User.ts:114](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L114)
 
 ___
 
@@ -542,11 +626,11 @@ ___
 
 • **isDriver**: `boolean`
 
-Gets or sets the is driver toggle, if [true] the user is a driver, otherwise [false]. Default [false].
+Gets or sets the isDriver toggle, if [true] the user is a driver, otherwise [false]. Default [false].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:102](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L102)
+[src/types/Checkmate/ObjectModel/User.ts:116](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L116)
 
 ___
 
@@ -558,7 +642,7 @@ Gets a value indicating whether the old EULA has been accepted by the end user. 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:106](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L106)
+[src/types/Checkmate/ObjectModel/User.ts:120](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L120)
 
 ___
 
@@ -566,11 +650,11 @@ ___
 
 • **isEmailReportEnabled**: `boolean`
 
-Gets or sets the isEmailReportEnabled, if [true] the user will receive the emailed report, otherwise [false]. Default [true].
+Gets or sets the isEmailReportEnabled toggle, if [true] the user will receive the emailed report, otherwise [false]. Default [true].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:104](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L104)
+[src/types/Checkmate/ObjectModel/User.ts:118](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L118)
 
 ___
 
@@ -582,7 +666,7 @@ Gets or sets a value indicating whether the user is allowed to HOS personal conv
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:108](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L108)
+[src/types/Checkmate/ObjectModel/User.ts:122](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L122)
 
 ___
 
@@ -594,7 +678,19 @@ Gets a value indicating whether labs are enabled for this user. When set to true
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:110](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L110)
+[src/types/Checkmate/ObjectModel/User.ts:124](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L124)
+
+___
+
+### isMaintenanceNotificationEnabled
+
+• **isMaintenanceNotificationEnabled**: `boolean`
+
+Gets or sets a value indicating whether the user has opted into receiving Maintenance notifications
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/User.ts:126](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L126)
 
 ___
 
@@ -606,7 +702,7 @@ Gets or sets whether the current regional settings is in metric units of measure
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:112](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L112)
+[src/types/Checkmate/ObjectModel/User.ts:128](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L128)
 
 ___
 
@@ -618,7 +714,7 @@ Gets or sets a value that indicates whether news notifications are enabled for t
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:114](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L114)
+[src/types/Checkmate/ObjectModel/User.ts:130](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L130)
 
 ___
 
@@ -630,19 +726,19 @@ Gets or sets a value indicating whether the user is allowed to HOS personal conv
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:116](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L116)
+[src/types/Checkmate/ObjectModel/User.ts:132](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L132)
 
 ___
 
-### isServiceUpdatesEnabled
+### isServiceDisruptionNotificationsEnabled
 
-• **isServiceUpdatesEnabled**: `boolean`
+• **isServiceDisruptionNotificationsEnabled**: `boolean`
 
-Gets or sets a value indicating whether are service update notifications enabled for this user. Default [false].
+Gets or sets a value indicating whether the user has opted into receiving Service disruption notifications
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:118](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L118)
+[src/types/Checkmate/ObjectModel/User.ts:134](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L134)
 
 ___
 
@@ -654,7 +750,7 @@ Gets or sets a value indicating whether the user is allowed to HOS yard move. De
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:122](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L122)
+[src/types/Checkmate/ObjectModel/User.ts:138](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L138)
 
 ___
 
@@ -666,7 +762,19 @@ Gets or sets the issuer [Certificate](Certificate.md) for the user. Will only be
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:120](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L120)
+[src/types/Checkmate/ObjectModel/User.ts:136](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L136)
+
+___
+
+### jobPriorities
+
+• **jobPriorities**: `string`[]
+
+Gets or sets the list of selected job priorities. Default [empty].
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/User.ts:140](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L140)
 
 ___
 
@@ -678,7 +786,7 @@ Gets or sets the user's culture identifier as a predefined CultureInfo name, Cul
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:124](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L124)
+[src/types/Checkmate/ObjectModel/User.ts:142](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L142)
 
 ___
 
@@ -686,11 +794,11 @@ ___
 
 • **lastAccessDate**: `Date`
 
-Gets or sets the user's Last access date of the system.
+Gets or sets the user's last access date of the system.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:126](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L126)
+[src/types/Checkmate/ObjectModel/User.ts:144](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L144)
 
 ___
 
@@ -702,7 +810,7 @@ Gets or sets the last name of the user. Maximum length [255].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:128](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L128)
+[src/types/Checkmate/ObjectModel/User.ts:146](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L146)
 
 ___
 
@@ -714,7 +822,7 @@ Gets or sets the list of the of the available MapViews from the live map. Defaul
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:130](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L130)
+[src/types/Checkmate/ObjectModel/User.ts:148](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L148)
 
 ___
 
@@ -726,7 +834,7 @@ Gets or sets a value indicating the maximum personal conveyance distance per day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:132](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L132)
+[src/types/Checkmate/ObjectModel/User.ts:150](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L150)
 
 ___
 
@@ -739,7 +847,7 @@ Gets or sets the list of [MediaFile](MediaFile.md)(s) photos of this user.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:137](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L137)
+[src/types/Checkmate/ObjectModel/User.ts:155](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L155)
 
 ___
 
@@ -755,7 +863,7 @@ Gets or sets the user's email address / login name. Maximum length [255].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:139](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L139)
+[src/types/Checkmate/ObjectModel/User.ts:157](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L157)
 
 ___
 
@@ -767,7 +875,7 @@ Gets or sets a value to nullify AccessGroupFilter.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:141](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L141)
+[src/types/Checkmate/ObjectModel/User.ts:159](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L159)
 
 ___
 
@@ -779,7 +887,7 @@ Gets or sets the user's password.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:143](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L143)
+[src/types/Checkmate/ObjectModel/User.ts:161](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L161)
 
 ___
 
@@ -791,7 +899,7 @@ Gets or sets the user phone number with space separated country phone code. Exam
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:145](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L145)
+[src/types/Checkmate/ObjectModel/User.ts:163](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L163)
 
 ___
 
@@ -803,7 +911,7 @@ Gets or sets the user phone number without formatting. Maximum length [5] Defaul
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:147](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L147)
+[src/types/Checkmate/ObjectModel/User.ts:165](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L165)
 
 ___
 
@@ -815,7 +923,7 @@ Gets or sets the private [Group](Group.md)(s) that the user belongs to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:149](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L149)
+[src/types/Checkmate/ObjectModel/User.ts:167](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L167)
 
 ___
 
@@ -827,7 +935,7 @@ Gets or sets the report [Group](Group.md)(s) for reporting that this user belong
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:151](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L151)
+[src/types/Checkmate/ObjectModel/User.ts:169](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L169)
 
 ___
 
@@ -839,7 +947,19 @@ Gets or sets the security [Group](Group.md)(s) this user belongs to; which defin
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:153](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L153)
+[src/types/Checkmate/ObjectModel/User.ts:171](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L171)
+
+___
+
+### sendWelcomeEmail
+
+• **sendWelcomeEmail**: `boolean`
+
+Gets or sets a value indicating the user should receive a welcome email.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/User.ts:173](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L173)
 
 ___
 
@@ -851,7 +971,19 @@ Gets or sets a flag indicating whether to show ClickOnce support warning as the 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:155](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L155)
+[src/types/Checkmate/ObjectModel/User.ts:175](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L175)
+
+___
+
+### smsNotificationsOptIn
+
+• **smsNotificationsOptIn**: `boolean`
+
+Gets or sets a value indicating whether the user has opted into receiving SMS notifications
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/User.ts:177](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L177)
 
 ___
 
@@ -863,7 +995,7 @@ Gets or sets the IANA Timezone Id of the user. All data will be displayed in thi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:157](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L157)
+[src/types/Checkmate/ObjectModel/User.ts:179](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L179)
 
 ___
 
@@ -871,11 +1003,13 @@ ___
 
 • **userAuthenticationType**: [`UserAuthenticationType`](../README.md#userauthenticationtype)
 
-Gets or sets the [UserAuthenticationType](../README.md#userauthenticationtype). Default [Basic].
+Gets or sets the [UserAuthenticationType](../README.md#userauthenticationtype). This value indicates the type of a
+ user's account. "BasicAuthentication" indicates a basic user. "MyAdmin" indicates a user with MyAdmin
+ credentials. "MyAdmin" users are not visible to "BasicAuthentication" users. Default [Basic].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:159](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L159)
+[src/types/Checkmate/ObjectModel/User.ts:185](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L185)
 
 ___
 
@@ -891,7 +1025,31 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+
+___
+
+### whatsAppNotificationsOptIn
+
+• **whatsAppNotificationsOptIn**: `boolean`
+
+Gets or sets a value indicating whether the user has opted into receiving WhatsApp notifications
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/User.ts:187](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L187)
+
+___
+
+### whatsAppPhoneNumber
+
+• **whatsAppPhoneNumber**: `string`
+
+Gets or sets the user's WhatsApp phone number with space separated country phone code. Example +1 5555555555
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/User.ts:189](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L189)
 
 ___
 
@@ -903,7 +1061,7 @@ Gets or sets a value indicating the user accepted Wifi specific EULA revision nu
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:161](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L161)
+[src/types/Checkmate/ObjectModel/User.ts:191](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L191)
 
 ___
 
@@ -917,7 +1075,7 @@ Gets or sets the windows authentication user Id. This property is so we
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:167](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L167)
+[src/types/Checkmate/ObjectModel/User.ts:197](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L197)
 
 ___
 
@@ -929,4 +1087,4 @@ Gets or sets the default [ZoneDisplayMode](../README.md#zonedisplaymode) used on
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/User.ts:169](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/User.ts#L169)
+[src/types/Checkmate/ObjectModel/User.ts:199](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/User.ts#L199)

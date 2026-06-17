@@ -33,7 +33,7 @@ Gets or sets search for TrailerAttachments that were active at this date or afte
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts#L17)
 
 ___
 
@@ -45,7 +45,7 @@ Gets or sets search for TrailerAttachments that were active at this date or befo
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts#L19)
 
 ___
 
@@ -58,7 +58,7 @@ Gets or sets search for TrailerAttachments attached to this [DeviceSearch](Devic
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts#L24)
 
 ___
 
@@ -74,7 +74,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -86,7 +86,7 @@ Gets or sets the maximum row version of the TrailerAttachment search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts#L26)
 
 ___
 
@@ -99,7 +99,7 @@ Gets or sets search for TrailerAttachments with this [TrailerSearch](TrailerSear
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts#L31)
+[src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts:31](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts#L31)
 
 ___
 
@@ -115,4 +115,4 @@ Gets or sets the row version of the TrailerAttachment search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts#L33)
+[src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TrailerAttachmentSearch.ts#L33)

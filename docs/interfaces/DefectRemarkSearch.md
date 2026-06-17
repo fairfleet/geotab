@@ -34,7 +34,7 @@ Gets or sets search for DefectRemark with this [DVIRDefectSearch](DVIRDefectSear
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts#L16)
 
 ___
 
@@ -46,7 +46,7 @@ Gets or sets search for DefectRemark that were recorded at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts#L18)
 
 ___
 
@@ -62,7 +62,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -74,7 +74,7 @@ Gets or sets search for DefectRemarks with this remark as part of it.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts#L20)
 
 ___
 
@@ -86,7 +86,7 @@ Gets or sets search for DefectRemark that were recorded at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts#L22)
 
 ___
 
@@ -100,7 +100,7 @@ Gets or sets search for DefectRemarks with this [UserSearch](UserSearch.md) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts#L28)
+[src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DefectRemarkSearch.ts#L28)
 
 ___
 
@@ -116,4 +116,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

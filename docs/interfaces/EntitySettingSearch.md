@@ -15,6 +15,7 @@ A [Search](Search.md) object to search for [EntitySetting](EntitySetting.md) row
 ### Properties
 
 - [entityId](EntitySettingSearch.md#entityid)
+- [entityIds](EntitySettingSearch.md#entityids)
 - [entityType](EntitySettingSearch.md#entitytype)
 - [id](EntitySettingSearch.md#id)
 - [key](EntitySettingSearch.md#key)
@@ -30,7 +31,19 @@ Gets or sets the entity Id.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EntitySettings/EntitySettingSearch.ts:11
+[src/types/Checkmate/ObjectModel/EntitySettings/EntitySettingSearch.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntitySettings/EntitySettingSearch.ts#L11)
+
+___
+
+### entityIds
+
+• **entityIds**: `string`[]
+
+Gets or sets entity Ids.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/EntitySettings/EntitySettingSearch.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntitySettings/EntitySettingSearch.ts#L13)
 
 ___
 
@@ -42,7 +55,7 @@ Gets or sets the EntitySettingSearch.EntityType.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EntitySettings/EntitySettingSearch.ts:13
+[src/types/Checkmate/ObjectModel/EntitySettings/EntitySettingSearch.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntitySettings/EntitySettingSearch.ts#L15)
 
 ___
 
@@ -58,7 +71,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -70,7 +83,7 @@ Gets or sets the settings key.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EntitySettings/EntitySettingSearch.ts:15
+[src/types/Checkmate/ObjectModel/EntitySettings/EntitySettingSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntitySettings/EntitySettingSearch.ts#L17)
 
 ___
 
@@ -86,4 +99,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

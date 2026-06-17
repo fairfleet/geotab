@@ -28,7 +28,7 @@ The class representing vehicles required for an Authority Inspections.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/Inspections/TachographVehicleInspection.ts:14
+[src/types/Checkmate/ObjectModel/Tachograph/Inspections/TachographVehicleInspection.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/Inspections/TachographVehicleInspection.ts#L14)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/Inspections/TachographVehicleInspection.ts:18
+[src/types/Checkmate/ObjectModel/Tachograph/Inspections/TachographVehicleInspection.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/Inspections/TachographVehicleInspection.ts#L18)

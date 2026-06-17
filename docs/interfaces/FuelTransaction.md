@@ -21,8 +21,10 @@ Information from a fuel card provider representing a fuel transaction. Fuel card
 - [cost](FuelTransaction.md#cost)
 - [currencyCode](FuelTransaction.md#currencycode)
 - [dateTime](FuelTransaction.md#datetime)
+- [deletedDateTime](FuelTransaction.md#deleteddatetime)
 - [description](FuelTransaction.md#description)
 - [device](FuelTransaction.md#device)
+- [deviceByDriver](FuelTransaction.md#devicebydriver)
 - [driver](FuelTransaction.md#driver)
 - [driverName](FuelTransaction.md#drivername)
 - [externalReference](FuelTransaction.md#externalreference)
@@ -50,7 +52,7 @@ Gets or sets the masked or partial purchasing card number.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L16)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L16)
 
 ___
 
@@ -62,7 +64,7 @@ Gets or sets the free text field where any user information can be stored and re
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L18)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L18)
 
 ___
 
@@ -70,7 +72,7 @@ ___
 
 • **confidence**: [`FuelUpEventConfidences`](../README.md#fuelupeventconfidences)
 
-Gets or sets the confidence associated with the Fuel record.
+Gets or sets the [FuelUpEventConfidences](../README.md#fuelupeventconfidences) associated with the Fuel record. Default [None].
 
 #### Inherited from
 
@@ -78,7 +80,7 @@ Gets or sets the confidence associated with the Fuel record.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L12)
+[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L12)
 
 ___
 
@@ -94,7 +96,7 @@ Gets or sets the cost of the fuel transaction. Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L14)
+[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L14)
 
 ___
 
@@ -110,7 +112,7 @@ Gets or sets the three digit ISO 427 currency code (http://www.xe.com/iso4217.ph
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L16)
+[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L16)
 
 ___
 
@@ -118,7 +120,7 @@ ___
 
 • **dateTime**: `Date`
 
-Gets or sets the UTC date and time of the transaction.
+Gets or sets the UTC date and time of the fuel event.
 
 #### Inherited from
 
@@ -126,7 +128,19 @@ Gets or sets the UTC date and time of the transaction.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L18)
+[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L18)
+
+___
+
+### deletedDateTime
+
+• **deletedDateTime**: `Date`
+
+**`Inherit Doc`**
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L22)
 
 ___
 
@@ -138,7 +152,7 @@ Gets or sets the vehicle description of the vehicle. This can be used to associa
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L20)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L24)
 
 ___
 
@@ -150,7 +164,20 @@ Gets or sets the [Device](Device.md) the transaction belongs to. Default [null].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L22)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L26)
+
+___
+
+### deviceByDriver
+
+• **deviceByDriver**: [`Device`](Device.md)
+
+Gets or sets the [Driver](Driver.md)- and [Trip](Trip.md)-matched
+ [Device](Device.md) the transaction belongs to.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:31](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L31)
 
 ___
 
@@ -162,7 +189,7 @@ Gets or sets the [Driver](Driver.md) the transaction belongs to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L24)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L33)
 
 ___
 
@@ -174,7 +201,7 @@ Gets or sets the fuel card holder name. This can be used to associate the transa
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L26)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:35](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L35)
 
 ___
 
@@ -186,7 +213,7 @@ Gets or sets the external reference to the transaction. Typically this is an ext
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L28)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L37)
 
 ___
 
@@ -202,7 +229,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -214,7 +241,7 @@ Gets or sets the licence plate of the vehicle of the vehicle. This can be used t
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L30)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L39)
 
 ___
 
@@ -230,7 +257,7 @@ Gets or sets the [Coordinate](Coordinate.md) of the transaction retailer. Defaul
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L20)
+[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L20)
 
 ___
 
@@ -246,7 +273,7 @@ Gets or sets the driver recorded odometer reading in km. Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L22)
+[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L22)
 
 ___
 
@@ -262,7 +289,7 @@ Gets or sets the [FuelTransactionProductType](../README.md#fueltransactionproduc
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L24)
+[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L24)
 
 ___
 
@@ -274,7 +301,7 @@ Gets or sets the [FuelTransactionProvider](../README.md#fueltransactionprovider)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L32)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L41)
 
 ___
 
@@ -286,7 +313,7 @@ Gets or sets the Product Description given by the Provider.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L34)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L43)
 
 ___
 
@@ -298,7 +325,7 @@ Gets or sets the serial number of the device. This can be used to associate the 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:36](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L36)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:45](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L45)
 
 ___
 
@@ -310,7 +337,7 @@ Gets or sets the site/merchant name where the transaction took place.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:38](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L38)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:47](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L47)
 
 ___
 
@@ -322,7 +349,7 @@ Gets or sets the JSON string representing the source data. Default [""].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:40](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L40)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:49](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L49)
 
 ___
 
@@ -334,7 +361,7 @@ Gets or sets the vehicle identification number (VIN) of the vehicle. This is use
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:42](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L42)
+[src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts:51](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelTransaction.ts#L51)
 
 ___
 
@@ -350,7 +377,7 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
 
 ___
 
@@ -366,4 +393,4 @@ Gets or sets the volume of fuel purchased in Liters. Default [0].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L26)
+[src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelEvent.ts#L26)

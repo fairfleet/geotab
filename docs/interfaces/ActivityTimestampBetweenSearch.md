@@ -21,7 +21,7 @@ Gets or sets search for TachographFile records whose activity period starts.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/Files/ActivityTimestampBetweenSearch.ts:8
+[src/types/Checkmate/ObjectModel/Tachograph/Files/ActivityTimestampBetweenSearch.ts:8](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/Files/ActivityTimestampBetweenSearch.ts#L8)
 
 ___
 
@@ -33,4 +33,4 @@ Gets or sets search for TachographFile records whose activity period ends.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/Files/ActivityTimestampBetweenSearch.ts:10
+[src/types/Checkmate/ObjectModel/Tachograph/Files/ActivityTimestampBetweenSearch.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/Files/ActivityTimestampBetweenSearch.ts#L10)

@@ -6,7 +6,7 @@ Indicates when a RestrictedDataModeChange.DataModeType was changed.
 
 ## Hierarchy
 
-- [`Entity`](Entity.md)
+- [`EntityWithVersion`](EntityWithVersion.md)
 
   ↳ **`RestrictedDataModeChange`**
 
@@ -18,6 +18,7 @@ Indicates when a RestrictedDataModeChange.DataModeType was changed.
 - [dateTime](RestrictedDataModeChange.md#datetime)
 - [device](RestrictedDataModeChange.md#device)
 - [id](RestrictedDataModeChange.md#id)
+- [version](RestrictedDataModeChange.md#version)
 
 ## Properties
 
@@ -29,7 +30,7 @@ Gets or sets the type of the trip.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/RestrictedDataModeChange.ts:12
+[src/types/Checkmate/ObjectModel/RestrictedDataModeChange.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RestrictedDataModeChange.ts#L12)
 
 ___
 
@@ -41,7 +42,7 @@ Gets or sets the date time.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/RestrictedDataModeChange.ts:14
+[src/types/Checkmate/ObjectModel/RestrictedDataModeChange.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RestrictedDataModeChange.ts#L14)
 
 ___
 
@@ -53,7 +54,7 @@ Gets or sets the device.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/RestrictedDataModeChange.ts:16
+[src/types/Checkmate/ObjectModel/RestrictedDataModeChange.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RestrictedDataModeChange.ts#L16)
 
 ___
 
@@ -65,8 +66,24 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Inherited from
 
-[Entity](Entity.md).[id](Entity.md#id)
+[EntityWithVersion](EntityWithVersion.md).[id](EntityWithVersion.md#id)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+
+___
+
+### version
+
+• **version**: `number`
+
+Gets or sets the version of the entity.
+
+#### Inherited from
+
+[EntityWithVersion](EntityWithVersion.md).[version](EntityWithVersion.md#version)
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

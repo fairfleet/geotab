@@ -32,7 +32,7 @@ Gets or sets date/time the message was delivered.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts:11
+[src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts#L11)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets the [Device](Device.md) this IoxAddOn is connected to.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts:13
+[src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts#L13)
 
 ___
 
@@ -56,7 +56,7 @@ Gets or sets the device connection status (Active = 0, Inactive = 4, Disconnecte
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts:15
+[src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts#L15)
 
 ___
 
@@ -72,7 +72,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -84,7 +84,7 @@ Gets or sets the date/time of last IOX/Passthrough communication for the device.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts:17
+[src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts#L17)
 
 ___
 
@@ -96,7 +96,7 @@ Gets or sets the queue size of pending messages.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts:19
+[src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/IoxAddOnStatus.ts#L19)
 
 ___
 
@@ -112,4 +112,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

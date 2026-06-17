@@ -25,11 +25,11 @@ Generic Custom Data from a GO unit that was sent through from a third-party devi
 
 • **data**: `number`[]
 
-Gets or sets the custom data in binary format. Default [empty].
+Gets or sets the custom data in base64 encoded string format. Default [empty].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomData.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CustomData.ts#L11)
+[src/types/Checkmate/ObjectModel/CustomData.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/CustomData.ts#L11)
 
 ___
 
@@ -41,7 +41,7 @@ Gets or sets the date and time the log was created.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomData.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CustomData.ts#L13)
+[src/types/Checkmate/ObjectModel/CustomData.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/CustomData.ts#L13)
 
 ___
 
@@ -53,7 +53,7 @@ Gets or sets the [Device](Device.md) for which the data was recorded.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomData.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CustomData.ts#L15)
+[src/types/Checkmate/ObjectModel/CustomData.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/CustomData.ts#L15)
 
 ___
 
@@ -69,4 +69,4 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)

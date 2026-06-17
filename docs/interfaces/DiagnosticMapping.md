@@ -31,7 +31,7 @@ Gets or sets the device for this mapping.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Engine/DiagnosticMapping.ts:17
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticMapping.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/DiagnosticMapping.ts#L17)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets the actual diagnostic that must be used for this DiagnosticMapping.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Engine/DiagnosticMapping.ts:19
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticMapping.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/DiagnosticMapping.ts#L19)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -71,4 +71,4 @@ Gets or sets the mapped diagnostic for this mapping.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Engine/DiagnosticMapping.ts:21
+[src/types/Checkmate/ObjectModel/Engine/DiagnosticMapping.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/DiagnosticMapping.ts#L21)

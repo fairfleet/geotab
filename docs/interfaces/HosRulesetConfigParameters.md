@@ -17,12 +17,13 @@ The configuration parameters of
 - [cycle](HosRulesetConfigParameters.md#cycle)
 - [daily](HosRulesetConfigParameters.md#daily)
 - [exempt](HosRulesetConfigParameters.md#exempt)
-- [labsEnabled](HosRulesetConfigParameters.md#labsenabled)
+- [isCanada](HosRulesetConfigParameters.md#iscanada)
 - [logRetentionDays](HosRulesetConfigParameters.md#logretentiondays)
 - [oilwell](HosRulesetConfigParameters.md#oilwell)
 - [railroadExempt](HosRulesetConfigParameters.md#railroadexempt)
 - [resetPreviousCycle](HosRulesetConfigParameters.md#resetpreviouscycle)
 - [rest](HosRulesetConfigParameters.md#rest)
+- [splitConfig](HosRulesetConfigParameters.md#splitconfig)
 - [splitType](HosRulesetConfigParameters.md#splittype)
 - [workRestConfig](HosRulesetConfigParameters.md#workrestconfig)
 - [workday](HosRulesetConfigParameters.md#workday)
@@ -37,7 +38,7 @@ Gets or sets a value indicating whether adverse driving extend workday.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L11)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L11)
 
 ___
 
@@ -49,7 +50,7 @@ Gets or sets the big day bonus.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L13)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L13)
 
 ___
 
@@ -61,7 +62,7 @@ Gets or sets a value indicating whether a big day ignores a cycle reset.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L15)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L15)
 
 ___
 
@@ -73,7 +74,7 @@ Gets or sets the maximum big day exemptions that can be applied per cycle.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L17)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L17)
 
 ___
 
@@ -85,7 +86,7 @@ Gets or sets a value indicating whether a ruleset can have a custom start of day
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L19)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L19)
 
 ___
 
@@ -97,7 +98,7 @@ Gets or sets the HosRulesetCycleConfig.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L21)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L21)
 
 ___
 
@@ -109,7 +110,7 @@ Gets or sets the HosRulesetDailyConfig.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L23)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L23)
 
 ___
 
@@ -121,19 +122,19 @@ Gets or sets a value indicating whether exempt or not.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L25)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L25)
 
 ___
 
-### labsEnabled
+### isCanada
 
-• **labsEnabled**: `boolean`
+• **isCanada**: `boolean`
 
-Gets or sets a value indicating whether labs are enabled or not.
+Gets or sets a value indicating whether the ruleset is governed by Canadian federal or provincial regulations.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L27)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L27)
 
 ___
 
@@ -145,7 +146,7 @@ Gets or sets the days of log retention.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L29)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L29)
 
 ___
 
@@ -157,7 +158,7 @@ Gets or sets a value indicating whether there is an oil well exemption or not.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L31)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:31](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L31)
 
 ___
 
@@ -169,7 +170,7 @@ Gets or sets a value indicating whether there is an railroad exemption or not.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L33)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L33)
 
 ___
 
@@ -181,7 +182,7 @@ Gets or sets a value indicating whether a reset previous cycle is true.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L35)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:35](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L35)
 
 ___
 
@@ -193,7 +194,19 @@ Gets or sets the HosRulesetRestConfig.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L37)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L37)
+
+___
+
+### splitConfig
+
+• **splitConfig**: `unknown`
+
+Gets or sets the split configuration that determines the rules for calculating sleeper berth splits.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L39)
 
 ___
 
@@ -205,7 +218,7 @@ Gets or sets the split type.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:39](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L39)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L41)
 
 ___
 
@@ -217,7 +230,7 @@ Gets or sets the EwdWorkRestConfig for WWD rulesets.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:43](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L43)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:45](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L45)
 
 ___
 
@@ -229,4 +242,4 @@ Gets or sets the HosRulesetWorkdayConfig.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:41](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L41)
+[src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/HosRulesetConfigParameters.ts#L43)

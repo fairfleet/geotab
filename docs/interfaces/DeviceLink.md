@@ -18,6 +18,7 @@ A DeviceLink is a relationship between two [Device](Device.md)s over a period of
 - [destinationDevice](DeviceLink.md#destinationdevice)
 - [fromDate](DeviceLink.md#fromdate)
 - [id](DeviceLink.md#id)
+- [linkType](DeviceLink.md#linktype)
 - [sourceDevice](DeviceLink.md#sourcedevice)
 - [toDate](DeviceLink.md#todate)
 - [version](DeviceLink.md#version)
@@ -32,7 +33,7 @@ Gets the date the [Device](Device.md)s were linked. This is only present so that
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLink.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceLink.ts#L11)
+[src/types/Checkmate/ObjectModel/DeviceLink.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceLink.ts#L12)
 
 ___
 
@@ -40,11 +41,11 @@ ___
 
 • **destinationDevice**: [`Device`](Device.md)
 
-Gets or sets the linked [Device](Device.md) (destination).
+Gets or sets the [Device](Device.md) (destination) which the source [Device](Device.md) is being linked to.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLink.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceLink.ts#L13)
+[src/types/Checkmate/ObjectModel/DeviceLink.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceLink.ts#L14)
 
 ___
 
@@ -56,7 +57,7 @@ Gets or sets the date and time the [Device](Device.md)s were linked. Default [Ut
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLink.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceLink.ts#L15)
+[src/types/Checkmate/ObjectModel/DeviceLink.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceLink.ts#L16)
 
 ___
 
@@ -72,7 +73,19 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+
+___
+
+### linkType
+
+• **linkType**: [`DeviceLinkType`](../README.md#devicelinktype)
+
+Gets or sets the link type
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceLink.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceLink.ts#L18)
 
 ___
 
@@ -80,11 +93,11 @@ ___
 
 • **sourceDevice**: [`Device`](Device.md)
 
-Gets or sets the [Device](Device.md) (source) which another [Device](Device.md) is linked to.
+Gets or sets the [Device](Device.md) (source) which is being linked.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLink.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceLink.ts#L17)
+[src/types/Checkmate/ObjectModel/DeviceLink.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceLink.ts#L20)
 
 ___
 
@@ -96,7 +109,7 @@ Gets or sets the date and time the [Device](Device.md)s were delinked. Default [
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLink.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceLink.ts#L19)
+[src/types/Checkmate/ObjectModel/DeviceLink.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceLink.ts#L22)
 
 ___
 
@@ -112,4 +125,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

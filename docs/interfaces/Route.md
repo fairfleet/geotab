@@ -20,6 +20,8 @@ A connected sequence of zones which create a path for the vehicle to follow.
 - [id](Route.md#id)
 - [isRepeatable](Route.md#isrepeatable)
 - [name](Route.md#name)
+- [resourceShiftEndTime](Route.md#resourceshiftendtime)
+- [resourceShiftStartTime](Route.md#resourceshiftstarttime)
 - [routePlanItemCollection](Route.md#routeplanitemcollection)
 - [routeType](Route.md#routetype)
 - [schedule](Route.md#schedule)
@@ -38,7 +40,7 @@ Gets or sets free text field where any user information can be stored and refere
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Route.ts#L16)
+[src/types/Checkmate/ObjectModel/Route.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L14)
 
 ___
 
@@ -50,7 +52,7 @@ Gets or sets the [Device](Device.md) linked to the route. Only applies to "Plan"
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Route.ts#L18)
+[src/types/Checkmate/ObjectModel/Route.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L16)
 
 ___
 
@@ -62,7 +64,7 @@ Gets the end date and time of the route which is the arrival time of the last st
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Route.ts#L20)
+[src/types/Checkmate/ObjectModel/Route.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L18)
 
 ___
 
@@ -70,7 +72,7 @@ ___
 
 • **id**: `string`
 
-Gets or sets the unique identifier for this entity. See Id.
+Gets or sets the unique identifier for this entity.
 
 #### Overrides
 
@@ -78,7 +80,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Route.ts#L22)
+[src/types/Checkmate/ObjectModel/Route.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L20)
 
 ___
 
@@ -90,7 +92,7 @@ Gets or sets a value indicating whether the route is repeatable or not.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Route.ts#L24)
+[src/types/Checkmate/ObjectModel/Route.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L22)
 
 ___
 
@@ -98,7 +100,7 @@ ___
 
 • **name**: `string`
 
-Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity. Maximum length [255].
+Gets or sets the name of this entity which identifies it and is used when displaying this entity. Maximum length [255].
 
 #### Overrides
 
@@ -106,7 +108,31 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Route.ts#L26)
+[src/types/Checkmate/ObjectModel/Route.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L24)
+
+___
+
+### resourceShiftEndTime
+
+• **resourceShiftEndTime**: `Date`
+
+Gets or sets the end of a driver's shift hours
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Route.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L26)
+
+___
+
+### resourceShiftStartTime
+
+• **resourceShiftStartTime**: `Date`
+
+Gets or sets the start of a driver's shift hours
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Route.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L28)
 
 ___
 
@@ -118,7 +144,7 @@ Gets or sets the RoutePlanItem item collection (sequence of stops which make up 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Route.ts#L28)
+[src/types/Checkmate/ObjectModel/Route.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L30)
 
 ___
 
@@ -130,7 +156,7 @@ Gets or sets the [RouteType](../README.md#routetype). Default [Basic].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Route.ts#L30)
+[src/types/Checkmate/ObjectModel/Route.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L32)
 
 ___
 
@@ -142,7 +168,7 @@ Gets or sets the Route.Schedule.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Route.ts#L32)
+[src/types/Checkmate/ObjectModel/Route.ts:34](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L34)
 
 ___
 
@@ -154,7 +180,7 @@ Gets the start date and time or the route which is the arrival time of the 1st s
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Route.ts#L34)
+[src/types/Checkmate/ObjectModel/Route.ts:36](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L36)
 
 ___
 
@@ -166,7 +192,7 @@ Gets or sets the [RouteStatus](../README.md#routestatus).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:36](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Route.ts#L36)
+[src/types/Checkmate/ObjectModel/Route.ts:38](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L38)
 
 ___
 
@@ -178,7 +204,7 @@ Gets or sets the timezone id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Route.ts:38](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Route.ts#L38)
+[src/types/Checkmate/ObjectModel/Route.ts:40](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Route.ts#L40)
 
 ___
 
@@ -194,4 +220,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)

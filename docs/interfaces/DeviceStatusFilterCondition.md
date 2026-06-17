@@ -18,6 +18,7 @@ Device Status And/Or Filter object
 - [id](DeviceStatusFilterCondition.md#id)
 - [isDeviceCommunicating](DeviceStatusFilterCondition.md#isdevicecommunicating)
 - [isDriving](DeviceStatusFilterCondition.md#isdriving)
+- [isSatelliteCommunication](DeviceStatusFilterCondition.md#issatellitecommunication)
 - [relation](DeviceStatusFilterCondition.md#relation)
 - [version](DeviceStatusFilterCondition.md#version)
 
@@ -31,7 +32,7 @@ Gets or sets the filter conditions
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts:11
+[src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts#L11)
 
 ___
 
@@ -47,7 +48,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -62,7 +63,7 @@ Gets or sets search for devices based on their current communicating status.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts:18
+[src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts#L18)
 
 ___
 
@@ -70,12 +71,25 @@ ___
 
 • **isDriving**: `boolean`
 
-Gets or sets the filter indicating if device is deriving
+Gets or sets the filter indicating if device is driving
  Can only be driving if IsCommunicating is true
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts:23
+[src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts#L23)
+
+___
+
+### isSatelliteCommunication
+
+• **isSatelliteCommunication**: `boolean`
+
+Gets or sets search for devices communicating over satellite.
+ Note: This is currently only supported in "GetLastKnownPositionsAsync"
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts#L28)
 
 ___
 
@@ -87,7 +101,7 @@ Gets or sets And/Or for device status filter
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts:25
+[src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusFilterCondition.ts#L30)
 
 ___
 
@@ -103,4 +117,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

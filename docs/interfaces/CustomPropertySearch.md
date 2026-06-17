@@ -34,7 +34,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -49,7 +49,7 @@ Gets or sets search for Entities that are a member of these [PropertySearch](Pro
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomPropertySearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CustomPropertySearch.ts#L17)
+[src/types/Checkmate/ObjectModel/CustomPropertySearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/CustomPropertySearch.ts#L17)
 
 ___
 
@@ -64,7 +64,7 @@ Gets or sets search for Entities that are a member of these [PropertySetSearch](
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomPropertySearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CustomPropertySearch.ts#L24)
+[src/types/Checkmate/ObjectModel/CustomPropertySearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/CustomPropertySearch.ts#L24)
 
 ___
 
@@ -77,7 +77,7 @@ Gets or sets search for Properties with this Value. Wildcard can be used by prep
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/CustomPropertySearch.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/CustomPropertySearch.ts#L29)
+[src/types/Checkmate/ObjectModel/CustomPropertySearch.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/CustomPropertySearch.ts#L29)
 
 ___
 
@@ -93,4 +93,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

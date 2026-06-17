@@ -49,7 +49,7 @@ Gets or sets the company address.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:11
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L11)
 
 ___
 
@@ -61,7 +61,7 @@ Gets or sets the company city.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:13
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L13)
 
 ___
 
@@ -73,7 +73,7 @@ Gets or sets the company country
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:15
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L15)
 
 ___
 
@@ -85,7 +85,7 @@ Gets or sets the company fax number.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:17
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L17)
 
 ___
 
@@ -97,7 +97,7 @@ Gets or sets the company manager email.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:19
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L19)
 
 ___
 
@@ -109,7 +109,7 @@ Gets or sets the company manager name.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:21
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L21)
 
 ___
 
@@ -121,7 +121,7 @@ Gets or sets the company name.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:23
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L23)
 
 ___
 
@@ -133,7 +133,7 @@ Gets or sets the company phone number.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:25
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L25)
 
 ___
 
@@ -145,7 +145,7 @@ Gets or sets the company postal code.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:27
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L27)
 
 ___
 
@@ -157,7 +157,7 @@ Gets or sets the driver birthdate.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:29
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L29)
 
 ___
 
@@ -169,7 +169,7 @@ Gets or sets the driver card license id.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:31
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:31](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L31)
 
 ___
 
@@ -181,7 +181,7 @@ Gets or sets the driver hiring date.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:33
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L33)
 
 ___
 
@@ -193,7 +193,7 @@ Gets or sets the driver name.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:35
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:35](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L35)
 
 ___
 
@@ -205,7 +205,7 @@ Gets or sets the driver sign date.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:37
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L37)
 
 ___
 
@@ -217,7 +217,7 @@ Gets or sets the driver sign place.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:39
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L39)
 
 ___
 
@@ -233,7 +233,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -245,7 +245,7 @@ Gets or sets period end of activities certificate.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:41
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L41)
 
 ___
 
@@ -257,7 +257,7 @@ Gets or sets the period reason about the activities certificate.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:43
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L43)
 
 ___
 
@@ -269,7 +269,7 @@ Gets or sets period start of activities certificate.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:45
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:45](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L45)
 
 ___
 
@@ -281,7 +281,7 @@ Gets or sets the signer name.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:47
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:47](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L47)
 
 ___
 
@@ -293,7 +293,7 @@ Gets or sets the signer position.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:49
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:49](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L49)
 
 ___
 
@@ -305,7 +305,7 @@ Gets or sets the signer sign date.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:51
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:51](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L51)
 
 ___
 
@@ -317,7 +317,7 @@ Gets or sets the signer sign place.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:53
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:53](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L53)
 
 ___
 
@@ -329,4 +329,4 @@ Gets or sets the TachographActivitiesCertificate.User.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:55
+[src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts:55](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/ActivitiesCertificates/TachographActivitiesCertificate.ts#L55)

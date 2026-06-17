@@ -31,7 +31,7 @@ Gets or sets the days which schedule repeats on.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Schedule.ts:11
+[src/types/Checkmate/ObjectModel/Schedule.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Schedule.ts#L11)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets the end date for the schedule.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Schedule.ts:13
+[src/types/Checkmate/ObjectModel/Schedule.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Schedule.ts#L13)
 
 ___
 
@@ -55,7 +55,7 @@ Gets or sets the frequency of the schedule.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Schedule.ts:15
+[src/types/Checkmate/ObjectModel/Schedule.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Schedule.ts#L15)
 
 ___
 
@@ -71,7 +71,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets the repeat cycle.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Schedule.ts:17
+[src/types/Checkmate/ObjectModel/Schedule.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Schedule.ts#L17)
 
 ___
 
@@ -95,4 +95,4 @@ Gets or sets the start date for the schedule.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Schedule.ts:19
+[src/types/Checkmate/ObjectModel/Schedule.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Schedule.ts#L19)

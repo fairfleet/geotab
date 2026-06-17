@@ -33,7 +33,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -45,7 +45,7 @@ Gets or sets the information.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationMessageData.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationMessageData.ts#L10)
+[src/types/Checkmate/ObjectModel/NotificationMessageData.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationMessageData.ts#L10)
 
 ___
 
@@ -57,7 +57,7 @@ Gets or sets the machine name pertaining to the relevant information.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationMessageData.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationMessageData.ts#L12)
+[src/types/Checkmate/ObjectModel/NotificationMessageData.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationMessageData.ts#L12)
 
 ___
 
@@ -69,4 +69,4 @@ Gets or sets what is the source of the application exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationMessageData.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationMessageData.ts#L14)
+[src/types/Checkmate/ObjectModel/NotificationMessageData.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationMessageData.ts#L14)

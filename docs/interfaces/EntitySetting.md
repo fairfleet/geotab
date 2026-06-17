@@ -31,7 +31,7 @@ Gets or sets the [AddInData](AddInData.md) for this setting.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts:12
+[src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts#L12)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets the entity identifier of this setting.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts:14
+[src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts#L14)
 
 ___
 
@@ -55,7 +55,7 @@ Gets or sets the entity type of this setting.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts:16
+[src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts#L16)
 
 ___
 
@@ -71,7 +71,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets the key for this setting.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts:18
+[src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts#L18)
 
 ___
 
@@ -95,4 +95,4 @@ Gets or sets the setting value of this setting.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts:20
+[src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntitySettings/EntitySetting.ts#L20)

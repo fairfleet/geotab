@@ -4,6 +4,12 @@
 
 Driver Availability for Hours of Service regulations.
 
+## Hierarchy
+
+- [`Entity`](Entity.md)
+
+  ↳ **`DutyStatusAvailability`**
+
 ## Table of contents
 
 ### Properties
@@ -11,9 +17,11 @@ Driver Availability for Hours of Service regulations.
 - [availabilities](DutyStatusAvailability.md#availabilities)
 - [cycle](DutyStatusAvailability.md#cycle)
 - [cycleAvailabilities](DutyStatusAvailability.md#cycleavailabilities)
+- [cycleDriving](DutyStatusAvailability.md#cycledriving)
 - [cycleRest](DutyStatusAvailability.md#cyclerest)
 - [driver](DutyStatusAvailability.md#driver)
 - [driving](DutyStatusAvailability.md#driving)
+- [drivingBreakDuration](DutyStatusAvailability.md#drivingbreakduration)
 - [duty](DutyStatusAvailability.md#duty)
 - [dutySinceCycleRest](DutyStatusAvailability.md#dutysincecyclerest)
 - [id](DutyStatusAvailability.md#id)
@@ -36,7 +44,7 @@ Gets a list of DutyStatusAvailabilityDuration(s) for a driver.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L12)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L11)
 
 ___
 
@@ -44,11 +52,11 @@ ___
 
 • **cycle**: `string`
 
-Gets or sets the duration of cycle hours left.
+Gets or sets the duration of cycle duty hours left.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L14)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L13)
 
 ___
 
@@ -60,7 +68,19 @@ Gets or sets cycle available to the driver in the future.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L16)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L15)
+
+___
+
+### cycleDriving
+
+• **cycleDriving**: `string`
+
+Gets or sets the duration of cycle driving hours left.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L17)
 
 ___
 
@@ -72,7 +92,7 @@ Gets or sets the duration left before cycle rest must be taken.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L18)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L19)
 
 ___
 
@@ -84,7 +104,7 @@ Gets or sets the [User](User.md) associated with the duty status availability.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L20)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L21)
 
 ___
 
@@ -96,7 +116,19 @@ Gets or sets the duration left for driving.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L22)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L23)
+
+___
+
+### drivingBreakDuration
+
+• **drivingBreakDuration**: `string`
+
+Gets or sets the duration of the driving break (USA only)
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L25)
 
 ___
 
@@ -108,7 +140,7 @@ Gets or sets the duration of total on-duty time left in a day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L24)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L27)
 
 ___
 
@@ -120,7 +152,7 @@ Gets or sets the duty hours left since Cycle Rest.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L26)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L29)
 
 ___
 
@@ -130,9 +162,13 @@ ___
 
 Gets or sets the unique identifier for the specific [Entity](Entity.md) object in the Geotab system. See Id.
 
+#### Inherited from
+
+[Entity](Entity.md).[id](Entity.md#id)
+
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L28)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -144,7 +180,7 @@ Gets or sets if 16 hour exemption is available.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L30)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:31](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L31)
 
 ___
 
@@ -156,7 +192,7 @@ Gets or sets if adverse driving exemption is applied.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L32)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L33)
 
 ___
 
@@ -168,7 +204,7 @@ Gets or sets if adverse driving exemption is available.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L34)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:35](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L35)
 
 ___
 
@@ -180,7 +216,7 @@ Gets or sets if off-duty deferral exemption is available.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:36](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L36)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L37)
 
 ___
 
@@ -192,7 +228,7 @@ Gets or sets if railroad exemption is available.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:38](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L38)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L39)
 
 ___
 
@@ -204,7 +240,7 @@ Gets or sets chronological array representing each day's On-duty time since begi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:40](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L40)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L41)
 
 ___
 
@@ -216,7 +252,7 @@ Gets or sets the duration left before rest break must be taken.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:42](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L42)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L43)
 
 ___
 
@@ -228,4 +264,4 @@ Gets or sets the duration of workday left in a day. Workday is a consecutive win
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:44](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L44)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts:45](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailability.ts#L45)

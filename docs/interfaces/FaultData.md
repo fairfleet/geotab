@@ -22,17 +22,24 @@ A record that represents a fault code record from the engine
 - [dateTime](FaultData.md#datetime)
 - [device](FaultData.md#device)
 - [diagnostic](FaultData.md#diagnostic)
+- [diagnosticSeverity](FaultData.md#diagnosticseverity)
 - [dismissDateTime](FaultData.md#dismissdatetime)
 - [dismissUser](FaultData.md#dismissuser)
+- [effectOnComponent](FaultData.md#effectoncomponent)
 - [failureMode](FaultData.md#failuremode)
+- [faultDescription](FaultData.md#faultdescription)
 - [faultLampState](FaultData.md#faultlampstate)
+- [faultRichSeverity](FaultData.md#faultrichseverity)
+- [faultSeverity](FaultData.md#faultseverity)
 - [faultState](FaultData.md#faultstate)
 - [faultStates](FaultData.md#faultstates)
 - [flashCode](FaultData.md#flashcode)
 - [id](FaultData.md#id)
 - [malfunctionLamp](FaultData.md#malfunctionlamp)
 - [protectWarningLamp](FaultData.md#protectwarninglamp)
+- [recommendation](FaultData.md#recommendation)
 - [redStopLamp](FaultData.md#redstoplamp)
+- [riskOfBreakdown](FaultData.md#riskofbreakdown)
 - [severity](FaultData.md#severity)
 - [sourceAddress](FaultData.md#sourceaddress)
 
@@ -46,7 +53,7 @@ Gets or sets whether the amber warning lamp state.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L23)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L23)
 
 ___
 
@@ -58,7 +65,7 @@ Gets or sets the [DtcClass](../README.md#dtcclass) code of the fault.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L25)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L25)
 
 ___
 
@@ -70,7 +77,7 @@ Gets or sets the [Controller](Controller.md) code related to the fault code; if 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L27)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L27)
 
 ___
 
@@ -82,7 +89,7 @@ Gets or sets the number of times the fault occurred.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L29)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L29)
 
 ___
 
@@ -94,7 +101,7 @@ Gets or sets the date and time at which the event occurred.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L31)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:31](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L31)
 
 ___
 
@@ -106,7 +113,7 @@ Gets or sets the [Device](Device.md) that generated the fault.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L33)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L33)
 
 ___
 
@@ -118,7 +125,19 @@ Gets or sets the [Diagnostic](Diagnostic.md) associated with the fault.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L35)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:35](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L35)
+
+___
+
+### diagnosticSeverity
+
+• **diagnosticSeverity**: [`DtcSeverity`](../README.md#dtcseverity)
+
+Gets or sets the [DtcSeverity](../README.md#dtcseverity) level of the diagnostic associated with this fault
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L37)
 
 ___
 
@@ -130,7 +149,7 @@ Gets or sets the date and time that the DismissUser dismissed the fault.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L37)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L39)
 
 ___
 
@@ -142,7 +161,19 @@ Gets or sets the [User](User.md) that dismissed the fault.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:39](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L39)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L41)
+
+___
+
+### effectOnComponent
+
+• **effectOnComponent**: `string`
+
+Gets or sets the effect on component for enriched fault.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L43)
 
 ___
 
@@ -154,7 +185,19 @@ Gets or sets the [FailureMode](FailureMode.md) of the fault; if applicable.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:41](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L41)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:45](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L45)
+
+___
+
+### faultDescription
+
+• **faultDescription**: `string`
+
+Gets or sets the fault description for enriched fault.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:47](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L47)
 
 ___
 
@@ -167,7 +210,33 @@ Gets or sets the [FaultLampState](../README.md#faultlampstate) of a J1939 vehicl
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:46](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L46)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:52](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L52)
+
+___
+
+### faultRichSeverity
+
+• **faultRichSeverity**: [`DtcSeverity`](../README.md#dtcseverity)
+
+Gets or sets the rich [DtcSeverity](../README.md#dtcseverity) level of the fault.
+ This property provides a more customized severity assessment than the general FaultData.FaultSeverity, allowing for finer-grained control over fault severity reporting.
+ Note: This property is not available for all clients.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:58](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L58)
+
+___
+
+### faultSeverity
+
+• **faultSeverity**: [`DtcSeverity`](../README.md#dtcseverity)
+
+Gets or sets the [DtcSeverity](../README.md#dtcseverity) level of the fault
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:60](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L60)
 
 ___
 
@@ -180,7 +249,7 @@ Gets or sets the [FaultState](../README.md#faultstate) code from the engine syst
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:51](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L51)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:65](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L65)
 
 ___
 
@@ -193,7 +262,7 @@ Gets or sets the FaultStatus(s) from the engine system of
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:56](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L56)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:70](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L70)
 
 ___
 
@@ -205,7 +274,7 @@ Gets or sets the [FlashCode](FlashCode.md) associated with the fault.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:58](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L58)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:72](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L72)
 
 ___
 
@@ -221,7 +290,7 @@ Gets or sets the unique identifier for the entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:60](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L60)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:74](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L74)
 
 ___
 
@@ -233,7 +302,7 @@ Gets or sets the malfunction light state.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:62](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L62)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:76](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L76)
 
 ___
 
@@ -245,7 +314,19 @@ Gets or sets whether the protect warning lamp is on.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:64](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L64)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:78](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L78)
+
+___
+
+### recommendation
+
+• **recommendation**: `string`
+
+Gets or sets the recommendation for enriched fault.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:80](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L80)
 
 ___
 
@@ -257,7 +338,19 @@ Gets or sets whether the red stop lamp is on.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:66](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L66)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:82](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L82)
+
+___
+
+### riskOfBreakdown
+
+• **riskOfBreakdown**: `number`
+
+Gets or sets the risk of breakdown associated with the fault.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:84](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L84)
 
 ___
 
@@ -265,11 +358,13 @@ ___
 
 • **severity**: [`DtcSeverity`](../README.md#dtcseverity)
 
-Gets or sets the [DtcSeverity](../README.md#dtcseverity) of the fault.
+Gets or sets the overall severity level of the fault. This value is determined by coalescing the following properties in order of precedence:
+ <list type="number"><item>FaultData.FaultSeverity</item><item>FaultData.DiagnosticSeverity</item></list>
+ Effectively, this property represents <c>FaultSeverity ?? DiagnosticSeverity</c>.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:68](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L68)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:90](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L90)
 
 ___
 
@@ -281,4 +376,4 @@ Gets or sets the source address for enhanced faults.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:70](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L70)
+[src/types/Checkmate/ObjectModel/Engine/FaultData.ts:92](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FaultData.ts#L92)
