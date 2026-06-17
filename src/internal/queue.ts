@@ -92,7 +92,10 @@ export function queue(options: GeotabOptions) {
         return [await next(calls[0])];
       }
 
-      return await next({ method: "ExecuteMultiCall", params: { calls } });
+      return await next({
+        method: "ExecuteMultiCall",
+        params: { calls: calls.map(({ method, params }) => ({ method, params })) },
+      });
     }
 
     return async function middleware(call: Call) {
