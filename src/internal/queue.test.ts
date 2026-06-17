@@ -180,6 +180,27 @@ test("First request should define timeout", async () => {
   await expect(call2).resolves.toBe("test2");
 });
 
+test("Should serialize only method+params into ExecuteMultiCall (no signal/resolve/reject)", async () => {
+  getResult.mockResolvedValueOnce(["a", "b"]);
+  const controller = new AbortController();
+
+  const c1 = callQueued({ method: "Test", params: { x: 1 }, signal: controller.signal });
+  const c2 = callQueued({ method: "Test", params: { y: 2 } });
+
+  vi.advanceTimersToNextTimer();
+  await Promise.all([c1, c2]);
+
+  expect(getResult).toHaveBeenCalledWith({
+    method: "ExecuteMultiCall",
+    params: {
+      calls: [
+        { method: "Test", params: { x: 1 } },
+        { method: "Test", params: { y: 2 } },
+      ],
+    },
+  });
+});
+
 function noop() {
   // ignore
 }
