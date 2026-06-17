@@ -10,7 +10,7 @@ export function getCall(options: GeotabOptions) {
   const parseJSON = options.parseJSON ?? parseJsonWithDates;
 
   return async function call({ method, params, signal }: Call) {
-    const httpResponse = await fetch(url, {
+    const httpResponse = await fetch.call(globalThis, url, {
       body: JSON.stringify({
         id: nanoid(),
         method,

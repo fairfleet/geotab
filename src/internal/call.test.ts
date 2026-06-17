@@ -41,3 +41,18 @@ test("Should throw on bad HTTP status", async () => {
 
   await expect(call({ method: "Test" })).rejects.toThrow("HTTP status 500");
 });
+
+test("Should invoke fetch bound to globalThis (guards against Illegal invocation when bundled)", async () => {
+  let receivedThis: unknown = "unset";
+  vi.mocked(fetch).mockImplementation(function (this: unknown) {
+    receivedThis = this;
+    return Promise.resolve({
+      ok: true,
+      text: async () => JSON.stringify({ result: "ok" }),
+    }) as never;
+  });
+
+  await call({ method: "Test" });
+
+  expect(receivedThis).toBe(globalThis);
+});
