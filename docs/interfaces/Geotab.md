@@ -51,7 +51,7 @@ The id of the added entity.
 
 #### Defined in
 
-[src/types/Geotab.ts:41](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Geotab.ts#L41)
+[src/types/Geotab.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Geotab.ts#L41)
 
 ___
 
@@ -82,7 +82,7 @@ A [LoginResult](LoginResult.md) object.
 
 #### Defined in
 
-[src/types/Geotab.ts:61](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Geotab.ts#L61)
+[src/types/Geotab.ts:61](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Geotab.ts#L61)
 
 ___
 
@@ -122,7 +122,7 @@ If the JSONRPC response contains an error.
 
 #### Defined in
 
-[src/types/Geotab.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Geotab.ts#L27)
+[src/types/Geotab.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Geotab.ts#L27)
 
 ___
 
@@ -137,7 +137,7 @@ criteria.
 
 | Name | Type |
 | :------ | :------ |
-| `TType` | extends ``"Source"`` \| ``"BinaryData"`` \| ``"Diagnostic"`` \| ``"Device"`` \| ``"User"`` \| ``"Trailer"`` \| ``"DVIRDefect"`` \| ``"Group"`` \| ``"ExceptionEvent"`` \| ``"TextMessage"`` \| ``"TripTypeChange"`` \| ``"TachographCompanyCard"`` \| ``"LogRecord"`` \| ``"FaultData"`` \| ``"StatusData"`` \| ``"WorkTime"`` \| ``"Zone"`` \| ``"FuelTransaction"`` \| ``"Rule"`` \| ``"ChargeEvent"`` \| ``"Notification"`` \| ``"DVIRLog"`` \| ``"Dashboard"`` \| ``"InstallRecord"`` \| ``"UserHosRuleSet"`` \| ``"Route"`` \| ``"AddIn"`` \| ``"AddInData"`` \| ``"AnnotationLog"`` \| ``"Audit"`` \| ``"BackfillStatus"`` \| ``"Certificate"`` \| ``"Controller"`` \| ``"CustomData"`` \| ``"DebugData"`` \| ``"Defect"`` \| ``"DefectRemark"`` \| ``"DeviceLink"`` \| ``"DeviceMasterFlag"`` \| ``"DeviceRegistrationState"`` \| ``"DeviceReplacementInfo"`` \| ``"DeviceReprocessRequest"`` \| ``"DeviceShare"`` \| ``"DeviceStatusInfo"`` \| ``"DiagnosticMapping"`` \| ``"DisplayMeasurementProfile"`` \| ``"DisplayMeasurementProfileDetail"`` \| ``"DisplayUnitOfMeasure"`` \| ``"DistributionList"`` \| ``"DriverChange"`` \| ``"DriverRegulation"`` \| ``"DutyStatusAvailability"`` \| ``"DutyStatusLog"`` \| ``"DutyStatusViolation"`` \| ``"EmployeeRoutePlan"`` \| ``"EnergySnapshotRecord"`` \| ``"EngineType"`` \| ``"EntityLinkRule"`` \| ``"EntitySetting"`` \| ``"EventDeviation"`` \| ``"EventOccurrence"`` \| ``"EventOccurrenceDue"`` \| ``"EventRule"`` \| ``"ExceptionEventAttachment"`` \| ``"ExceptionEventComment"`` \| ``"FailureMode"`` \| ``"FeedVersionTrackingData"`` \| ``"FillUp"`` \| ``"FuelSnapshotRecord"`` \| ``"FuelTaxDetail"`` \| ``"FuelUpEvent"`` \| ``"FuelUsed"`` \| ``"GroupDevice"`` \| ``"GroupFilter"`` \| ``"GroupZoneMetadata"`` \| ``"HosRulesetConfig"`` \| ``"IoxAddOn"`` \| ``"IoxAddOnStatus"`` \| ``"LiveCompletionMapConfig"`` \| ``"LogRecordZoneDistance"`` \| ``"MaintenanceNotificationRule"`` \| ``"MaintenanceNotificationState"`` \| ``"MediaFile"`` \| ``"MimeTask"`` \| ``"ParameterGroup"`` \| ``"Property"`` \| ``"PropertySet"`` \| ``"Recipient"`` \| ``"ReportStorage"`` \| ``"ReportTemplate"`` \| ``"RestrictedDataModeChange"`` \| ``"RouteExtract"`` \| ``"SecurityId"`` \| ``"ServiceState"`` \| ``"ShareableLink"`` \| ``"ShipmentLog"`` \| ``"TachographActivitiesCertificate"`` \| ``"TachographDataFile"`` \| ``"TachographVehicleInspection"`` \| ``"TrailerAttachment"`` \| ``"Trip"`` \| ``"TripAnnotation"`` \| ``"TripGeohash"`` \| ``"UnitOfMeasure"`` \| ``"UserDeviceLink"`` \| ``"UserDisplayProfile"`` \| ``"UserLoginStatus"`` \| ``"UserSupport"`` \| ``"VirtualExceptionEvent"`` \| ``"Widget"`` \| ``"WifiHotspot"`` \| ``"WorkHoliday"`` \| ``"ZoneType"`` |
+| `TType` | extends ``"BinaryData"`` \| ``"Notification"`` \| ``"Device"`` \| ``"TextMessage"`` \| ``"DVIRLog"`` \| ``"ChargeEvent"`` \| ``"FuelTransaction"`` \| ``"Diagnostic"`` \| ``"DVIRDefect"`` \| ``"Group"`` \| ``"User"`` \| ``"Trailer"`` \| ``"ExceptionEvent"`` \| ``"TripTypeChange"`` \| ``"MediaRequestNotification"`` \| ``"TachographCompanyCard"`` \| ``"LogRecord"`` \| ``"FaultData"`` \| ``"StatusData"`` \| ``"WorkTime"`` \| ``"Zone"`` \| ``"Rule"`` \| ``"InstallRecord"`` \| ``"Route"`` \| ``"AddIn"`` \| ``"AddInData"`` \| ``"AnnotationLog"`` \| ``"AssetLink"`` \| ``"AssetLinkDetails"`` \| ``"AssetSeparationSubscription"`` \| ``"Audit"`` \| ``"BackfillStatus"`` \| ``"BatteryStateOfHealth"`` \| ``"Camera"`` \| ``"CameraHealth"`` \| ``"CameraStatus"`` \| ``"Certificate"`` \| ``"CoachingSession"`` \| ``"ConsentStatus"`` \| ``"ConsentStatusAudit"`` \| ``"Controller"`` \| ``"CustomData"`` \| ``"CustomReportSchedule"`` \| ``"DashboardCache"`` \| ``"DebugData"`` \| ``"Defect"`` \| ``"DefectRemark"`` \| ``"DeviceCommunicationHistory"`` \| ``"DeviceCommunicationStatus"`` \| ``"DeviceLink"`` \| ``"DeviceMasterFlag"`` \| ``"DeviceRegistrationState"`` \| ``"DeviceReplacementInfo"`` \| ``"DeviceReprocessRequest"`` \| ``"DeviceShare"`` \| ``"DeviceStatusInfo"`` \| ``"DiagnosticData"`` \| ``"DiagnosticLookupTable"`` \| ``"DiagnosticMapping"`` \| ``"DiagnosticValueStatus"`` \| ``"DiscreteAvailabilitySnapshot"`` \| ``"DisplayMeasurementProfile"`` \| ``"DisplayMeasurementProfileDetail"`` \| ``"DisplayUnitOfMeasure"`` \| ``"DistributionList"`` \| ``"DocumentScanning"`` \| ``"DriverChange"`` \| ``"DriverRegulation"`` \| ``"DriverRegulationReprocessRequest"`` \| ``"DriverRegulationServiceScheduleInfo"`` \| ``"DutyStatusAvailability"`` \| ``"DutyStatusLog"`` \| ``"DutyStatusViolation"`` \| ``"ElectrificationAggregation"`` \| ``"EmissionComplianceEvent"`` \| ``"EmissionReport"`` \| ``"EmissionServiceConnectionLog"`` \| ``"EmissionVehicleCycle"`` \| ``"EmissionVehicleCycleMessage"`` \| ``"EmissionVehicleEnrollment"`` \| ``"EmployeeRoutePlan"`` \| ``"EnergySnapshotRecord"`` \| ``"EngineType"`` \| ``"EntityLinkRule"`` \| ``"EntitySetting"`` \| ``"EntityUploadRequest"`` \| ``"EventDeviation"`` \| ``"EventOccurrence"`` \| ``"EventOccurrenceDue"`` \| ``"EventType"`` \| ``"EvsaConfiguration"`` \| ``"EvsaRequest"`` \| ``"EVStatusInfo"`` \| ``"ExceptionEventAttachment"`` \| ``"ExceptionEventComment"`` \| ``"ExceptionEventMediaLink"`` \| ``"FailureMode"`` \| ``"FaultCycle"`` \| ``"FaultRichData"`` \| ``"Feedback"`` \| ``"FeedVersionTrackingData"`` \| ``"FillUp"`` \| ``"FuelAndEnergySetting"`` \| ``"FuelAndEnergyUsed"`` \| ``"FuelAndEnergyUsedAggregation"`` \| ``"FuelSnapshotRecord"`` \| ``"FuelTaxDetail"`` \| ``"FuelUpEvent"`` \| ``"FuelUsed"`` \| ``"GroupAddIn"`` \| ``"GroupDevice"`` \| ``"GroupFilter"`` \| ``"GroupZoneMetadata"`` \| ``"HosRulesetConfig"`` \| ``"HosStatusInfo"`` \| ``"IdlingExceptionAggregation"`` \| ``"IdlingFuelPercentageAggregation"`` \| ``"InspectedItem"`` \| ``"InspectionLog"`` \| ``"Investigation"`` \| ``"InvestigationAttachment"`` \| ``"InvestigationComment"`` \| ``"IoxAddOn"`` \| ``"IoxAddOnStatus"`` \| ``"IoxWorksConfigFileInfo"`` \| ``"LiveCompletionMapConfig"`` \| ``"LogRecordGeohash"`` \| ``"LogRecordZoneDistance"`` \| ``"LostModeChange"`` \| ``"MaintenanceNotificationRule"`` \| ``"MaintenanceNotificationState"`` \| ``"MaintenanceSchedule"`` \| ``"MaintenanceWorkOrder"`` \| ``"MaintenanceWorkOrderJob"`` \| ``"MaintenanceWorkRequest"`` \| ``"MediaFile"`` \| ``"MimeTask"`` \| ``"Option"`` \| ``"ParameterGroup"`` \| ``"PotentialFuelFraudEvent"`` \| ``"Product"`` \| ``"Property"`` \| ``"PropertySet"`` \| ``"PushToken"`` \| ``"QueuedEntityRemoveTask"`` \| ``"RangeEstimate"`` \| ``"Recipient"`` \| ``"ReportStorage"`` \| ``"ReportTag"`` \| ``"ReportTemplate"`` \| ``"ReprocessRequest"`` \| ``"RestrictedDataModeChange"`` \| ``"RouteExtract"`` \| ``"SafetyDriverInsight"`` \| ``"SafetyFleetBenchmark"`` \| ``"SafetyFleetInsight"`` \| ``"SafetyVehicleInsight"`` \| ``"SecurityId"`` \| ``"ServiceState"`` \| ``"ShareableLink"`` \| ``"ShipmentLog"`` \| ``"Source"`` \| ``"SustainabilityElectrificationSummary"`` \| ``"SustainabilityGroupIdlingSummary"`` \| ``"SustainabilityMonthlySummary"`` \| ``"TachographActivitiesCertificate"`` \| ``"TachographDataFile"`` \| ``"TachographDriverActivity"`` \| ``"TachographDrivingTimeStatus"`` \| ``"TachographVehicleInspection"`` \| ``"TrailerAttachment"`` \| ``"Trip"`` \| ``"TripAnnotation"`` \| ``"TripGeohash"`` \| ``"UnitOfMeasure"`` \| ``"UploadTransaction"`` \| ``"UserDeviceLink"`` \| ``"UserDisplayProfile"`` \| ``"UserHosRuleSet"`` \| ``"UserLoginStatus"`` \| ``"UserSupport"`` \| ``"VehicleDowntime"`` \| ``"WifiHotspot"`` \| ``"WorkHoliday"`` \| ``"ZoneMetadata"`` \| ``"ZoneType"`` |
 | `TEntity` | [`EntityTypes`](../README.md#entitytypes)[`TType`] |
 | `TSearch` | extends `object` = [`SearchTypes`](../README.md#searchtypes)[`TType`] |
 
@@ -158,7 +158,7 @@ The entities matching search criteria.
 
 #### Defined in
 
-[src/types/Geotab.ts:78](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Geotab.ts#L78)
+[src/types/Geotab.ts:78](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Geotab.ts#L78)
 
 ___
 
@@ -186,7 +186,7 @@ A list of populated [ReverseGeocodeAddress](ReverseGeocodeAddress.md).
 
 #### Defined in
 
-[src/types/Geotab.ts:100](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Geotab.ts#L100)
+[src/types/Geotab.ts:100](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Geotab.ts#L100)
 
 ___
 
@@ -217,7 +217,7 @@ The number of entities in the database.
 
 #### Defined in
 
-[src/types/Geotab.ts:114](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Geotab.ts#L114)
+[src/types/Geotab.ts:114](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Geotab.ts#L114)
 
 ___
 
@@ -263,7 +263,7 @@ Supported types are as follows:
 
 | Name | Type |
 | :------ | :------ |
-| `TType` | extends ``"Source"`` \| ``"BinaryData"`` \| ``"Diagnostic"`` \| ``"Device"`` \| ``"User"`` \| ``"Trailer"`` \| ``"DVIRDefect"`` \| ``"Group"`` \| ``"ExceptionEvent"`` \| ``"TextMessage"`` \| ``"TripTypeChange"`` \| ``"TachographCompanyCard"`` \| ``"LogRecord"`` \| ``"FaultData"`` \| ``"StatusData"`` \| ``"WorkTime"`` \| ``"Zone"`` \| ``"FuelTransaction"`` \| ``"Rule"`` \| ``"ChargeEvent"`` \| ``"Notification"`` \| ``"DVIRLog"`` \| ``"Dashboard"`` \| ``"InstallRecord"`` \| ``"UserHosRuleSet"`` \| ``"Route"`` \| ``"AddIn"`` \| ``"AddInData"`` \| ``"AnnotationLog"`` \| ``"Audit"`` \| ``"BackfillStatus"`` \| ``"Certificate"`` \| ``"Controller"`` \| ``"CustomData"`` \| ``"DebugData"`` \| ``"Defect"`` \| ``"DefectRemark"`` \| ``"DeviceLink"`` \| ``"DeviceMasterFlag"`` \| ``"DeviceRegistrationState"`` \| ``"DeviceReplacementInfo"`` \| ``"DeviceReprocessRequest"`` \| ``"DeviceShare"`` \| ``"DeviceStatusInfo"`` \| ``"DiagnosticMapping"`` \| ``"DisplayMeasurementProfile"`` \| ``"DisplayMeasurementProfileDetail"`` \| ``"DisplayUnitOfMeasure"`` \| ``"DistributionList"`` \| ``"DriverChange"`` \| ``"DriverRegulation"`` \| ``"DutyStatusAvailability"`` \| ``"DutyStatusLog"`` \| ``"DutyStatusViolation"`` \| ``"EmployeeRoutePlan"`` \| ``"EnergySnapshotRecord"`` \| ``"EngineType"`` \| ``"EntityLinkRule"`` \| ``"EntitySetting"`` \| ``"EventDeviation"`` \| ``"EventOccurrence"`` \| ``"EventOccurrenceDue"`` \| ``"EventRule"`` \| ``"ExceptionEventAttachment"`` \| ``"ExceptionEventComment"`` \| ``"FailureMode"`` \| ``"FeedVersionTrackingData"`` \| ``"FillUp"`` \| ``"FuelSnapshotRecord"`` \| ``"FuelTaxDetail"`` \| ``"FuelUpEvent"`` \| ``"FuelUsed"`` \| ``"GroupDevice"`` \| ``"GroupFilter"`` \| ``"GroupZoneMetadata"`` \| ``"HosRulesetConfig"`` \| ``"IoxAddOn"`` \| ``"IoxAddOnStatus"`` \| ``"LiveCompletionMapConfig"`` \| ``"LogRecordZoneDistance"`` \| ``"MaintenanceNotificationRule"`` \| ``"MaintenanceNotificationState"`` \| ``"MediaFile"`` \| ``"MimeTask"`` \| ``"ParameterGroup"`` \| ``"Property"`` \| ``"PropertySet"`` \| ``"Recipient"`` \| ``"ReportStorage"`` \| ``"ReportTemplate"`` \| ``"RestrictedDataModeChange"`` \| ``"RouteExtract"`` \| ``"SecurityId"`` \| ``"ServiceState"`` \| ``"ShareableLink"`` \| ``"ShipmentLog"`` \| ``"TachographActivitiesCertificate"`` \| ``"TachographDataFile"`` \| ``"TachographVehicleInspection"`` \| ``"TrailerAttachment"`` \| ``"Trip"`` \| ``"TripAnnotation"`` \| ``"TripGeohash"`` \| ``"UnitOfMeasure"`` \| ``"UserDeviceLink"`` \| ``"UserDisplayProfile"`` \| ``"UserLoginStatus"`` \| ``"UserSupport"`` \| ``"VirtualExceptionEvent"`` \| ``"Widget"`` \| ``"WifiHotspot"`` \| ``"WorkHoliday"`` \| ``"ZoneType"`` |
+| `TType` | extends ``"BinaryData"`` \| ``"Notification"`` \| ``"Device"`` \| ``"TextMessage"`` \| ``"DVIRLog"`` \| ``"ChargeEvent"`` \| ``"FuelTransaction"`` \| ``"Diagnostic"`` \| ``"DVIRDefect"`` \| ``"Group"`` \| ``"User"`` \| ``"Trailer"`` \| ``"ExceptionEvent"`` \| ``"TripTypeChange"`` \| ``"MediaRequestNotification"`` \| ``"TachographCompanyCard"`` \| ``"LogRecord"`` \| ``"FaultData"`` \| ``"StatusData"`` \| ``"WorkTime"`` \| ``"Zone"`` \| ``"Rule"`` \| ``"InstallRecord"`` \| ``"Route"`` \| ``"AddIn"`` \| ``"AddInData"`` \| ``"AnnotationLog"`` \| ``"AssetLink"`` \| ``"AssetLinkDetails"`` \| ``"AssetSeparationSubscription"`` \| ``"Audit"`` \| ``"BackfillStatus"`` \| ``"BatteryStateOfHealth"`` \| ``"Camera"`` \| ``"CameraHealth"`` \| ``"CameraStatus"`` \| ``"Certificate"`` \| ``"CoachingSession"`` \| ``"ConsentStatus"`` \| ``"ConsentStatusAudit"`` \| ``"Controller"`` \| ``"CustomData"`` \| ``"CustomReportSchedule"`` \| ``"DashboardCache"`` \| ``"DebugData"`` \| ``"Defect"`` \| ``"DefectRemark"`` \| ``"DeviceCommunicationHistory"`` \| ``"DeviceCommunicationStatus"`` \| ``"DeviceLink"`` \| ``"DeviceMasterFlag"`` \| ``"DeviceRegistrationState"`` \| ``"DeviceReplacementInfo"`` \| ``"DeviceReprocessRequest"`` \| ``"DeviceShare"`` \| ``"DeviceStatusInfo"`` \| ``"DiagnosticData"`` \| ``"DiagnosticLookupTable"`` \| ``"DiagnosticMapping"`` \| ``"DiagnosticValueStatus"`` \| ``"DiscreteAvailabilitySnapshot"`` \| ``"DisplayMeasurementProfile"`` \| ``"DisplayMeasurementProfileDetail"`` \| ``"DisplayUnitOfMeasure"`` \| ``"DistributionList"`` \| ``"DocumentScanning"`` \| ``"DriverChange"`` \| ``"DriverRegulation"`` \| ``"DriverRegulationReprocessRequest"`` \| ``"DriverRegulationServiceScheduleInfo"`` \| ``"DutyStatusAvailability"`` \| ``"DutyStatusLog"`` \| ``"DutyStatusViolation"`` \| ``"ElectrificationAggregation"`` \| ``"EmissionComplianceEvent"`` \| ``"EmissionReport"`` \| ``"EmissionServiceConnectionLog"`` \| ``"EmissionVehicleCycle"`` \| ``"EmissionVehicleCycleMessage"`` \| ``"EmissionVehicleEnrollment"`` \| ``"EmployeeRoutePlan"`` \| ``"EnergySnapshotRecord"`` \| ``"EngineType"`` \| ``"EntityLinkRule"`` \| ``"EntitySetting"`` \| ``"EntityUploadRequest"`` \| ``"EventDeviation"`` \| ``"EventOccurrence"`` \| ``"EventOccurrenceDue"`` \| ``"EventType"`` \| ``"EvsaConfiguration"`` \| ``"EvsaRequest"`` \| ``"EVStatusInfo"`` \| ``"ExceptionEventAttachment"`` \| ``"ExceptionEventComment"`` \| ``"ExceptionEventMediaLink"`` \| ``"FailureMode"`` \| ``"FaultCycle"`` \| ``"FaultRichData"`` \| ``"Feedback"`` \| ``"FeedVersionTrackingData"`` \| ``"FillUp"`` \| ``"FuelAndEnergySetting"`` \| ``"FuelAndEnergyUsed"`` \| ``"FuelAndEnergyUsedAggregation"`` \| ``"FuelSnapshotRecord"`` \| ``"FuelTaxDetail"`` \| ``"FuelUpEvent"`` \| ``"FuelUsed"`` \| ``"GroupAddIn"`` \| ``"GroupDevice"`` \| ``"GroupFilter"`` \| ``"GroupZoneMetadata"`` \| ``"HosRulesetConfig"`` \| ``"HosStatusInfo"`` \| ``"IdlingExceptionAggregation"`` \| ``"IdlingFuelPercentageAggregation"`` \| ``"InspectedItem"`` \| ``"InspectionLog"`` \| ``"Investigation"`` \| ``"InvestigationAttachment"`` \| ``"InvestigationComment"`` \| ``"IoxAddOn"`` \| ``"IoxAddOnStatus"`` \| ``"IoxWorksConfigFileInfo"`` \| ``"LiveCompletionMapConfig"`` \| ``"LogRecordGeohash"`` \| ``"LogRecordZoneDistance"`` \| ``"LostModeChange"`` \| ``"MaintenanceNotificationRule"`` \| ``"MaintenanceNotificationState"`` \| ``"MaintenanceSchedule"`` \| ``"MaintenanceWorkOrder"`` \| ``"MaintenanceWorkOrderJob"`` \| ``"MaintenanceWorkRequest"`` \| ``"MediaFile"`` \| ``"MimeTask"`` \| ``"Option"`` \| ``"ParameterGroup"`` \| ``"PotentialFuelFraudEvent"`` \| ``"Product"`` \| ``"Property"`` \| ``"PropertySet"`` \| ``"PushToken"`` \| ``"QueuedEntityRemoveTask"`` \| ``"RangeEstimate"`` \| ``"Recipient"`` \| ``"ReportStorage"`` \| ``"ReportTag"`` \| ``"ReportTemplate"`` \| ``"ReprocessRequest"`` \| ``"RestrictedDataModeChange"`` \| ``"RouteExtract"`` \| ``"SafetyDriverInsight"`` \| ``"SafetyFleetBenchmark"`` \| ``"SafetyFleetInsight"`` \| ``"SafetyVehicleInsight"`` \| ``"SecurityId"`` \| ``"ServiceState"`` \| ``"ShareableLink"`` \| ``"ShipmentLog"`` \| ``"Source"`` \| ``"SustainabilityElectrificationSummary"`` \| ``"SustainabilityGroupIdlingSummary"`` \| ``"SustainabilityMonthlySummary"`` \| ``"TachographActivitiesCertificate"`` \| ``"TachographDataFile"`` \| ``"TachographDriverActivity"`` \| ``"TachographDrivingTimeStatus"`` \| ``"TachographVehicleInspection"`` \| ``"TrailerAttachment"`` \| ``"Trip"`` \| ``"TripAnnotation"`` \| ``"TripGeohash"`` \| ``"UnitOfMeasure"`` \| ``"UploadTransaction"`` \| ``"UserDeviceLink"`` \| ``"UserDisplayProfile"`` \| ``"UserHosRuleSet"`` \| ``"UserLoginStatus"`` \| ``"UserSupport"`` \| ``"VehicleDowntime"`` \| ``"WifiHotspot"`` \| ``"WorkHoliday"`` \| ``"ZoneMetadata"`` \| ``"ZoneType"`` |
 | `TEntity` | [`EntityTypes`](../README.md#entitytypes)[`TType`] |
 | `TSearch` | extends `object` = [`SearchTypes`](../README.md#searchtypes)[`TType`] |
 
@@ -285,7 +285,7 @@ The feed result containing the entities matching supplied criteria.
 
 #### Defined in
 
-[src/types/Geotab.ts:161](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Geotab.ts#L161)
+[src/types/Geotab.ts:161](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Geotab.ts#L161)
 
 ___
 
@@ -309,7 +309,7 @@ The string representation of the server version.
 
 #### Defined in
 
-[src/types/Geotab.ts:178](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Geotab.ts#L178)
+[src/types/Geotab.ts:178](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Geotab.ts#L178)
 
 ___
 
@@ -333,7 +333,7 @@ The version information of the server.
 
 #### Defined in
 
-[src/types/Geotab.ts:186](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Geotab.ts#L186)
+[src/types/Geotab.ts:186](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Geotab.ts#L186)
 
 ___
 
@@ -364,7 +364,7 @@ Removes the given entity from the database.
 
 #### Defined in
 
-[src/types/Geotab.ts:194](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Geotab.ts#L194)
+[src/types/Geotab.ts:194](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Geotab.ts#L194)
 
 ___
 
@@ -395,4 +395,4 @@ Modifies an TEntity.
 
 #### Defined in
 
-[src/types/Geotab.ts:210](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Geotab.ts#L210)
+[src/types/Geotab.ts:210](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Geotab.ts#L210)

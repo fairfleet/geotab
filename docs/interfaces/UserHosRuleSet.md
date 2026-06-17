@@ -15,6 +15,7 @@ A user's Hos Ruleset.
 ### Properties
 
 - [dateTime](UserHosRuleSet.md#datetime)
+- [deletedDateTime](UserHosRuleSet.md#deleteddatetime)
 - [hosRuleSet](UserHosRuleSet.md#hosruleset)
 - [id](UserHosRuleSet.md#id)
 - [startOfDay](UserHosRuleSet.md#startofday)
@@ -31,7 +32,19 @@ Gets or sets the active from.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserHosRuleSet.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserHosRuleSet.ts#L12)
+[src/types/Checkmate/ObjectModel/UserHosRuleSet.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserHosRuleSet.ts#L12)
+
+___
+
+### deletedDateTime
+
+• **deletedDateTime**: `Date`
+
+**`Inherit Doc`**
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/UserHosRuleSet.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserHosRuleSet.ts#L16)
 
 ___
 
@@ -43,7 +56,7 @@ Gets or sets the ruleset.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserHosRuleSet.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserHosRuleSet.ts#L14)
+[src/types/Checkmate/ObjectModel/UserHosRuleSet.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserHosRuleSet.ts#L18)
 
 ___
 
@@ -59,7 +72,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -71,7 +84,7 @@ Gets or sets the start of day.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserHosRuleSet.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserHosRuleSet.ts#L16)
+[src/types/Checkmate/ObjectModel/UserHosRuleSet.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserHosRuleSet.ts#L20)
 
 ___
 
@@ -83,7 +96,7 @@ Gets or sets the user.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserHosRuleSet.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserHosRuleSet.ts#L18)
+[src/types/Checkmate/ObjectModel/UserHosRuleSet.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserHosRuleSet.ts#L22)
 
 ___
 
@@ -99,4 +112,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

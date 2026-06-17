@@ -22,6 +22,7 @@ The object used to specify the arguments when searching for a [User](User.md)/[D
 - [employeeNumber](UserSearch.md#employeenumber)
 - [firstName](UserSearch.md#firstname)
 - [fromDate](UserSearch.md#fromdate)
+- [fullName](UserSearch.md#fullname)
 - [hosRuleSet](UserSearch.md#hosruleset)
 - [hosRuleSets](UserSearch.md#hosrulesets)
 - [id](UserSearch.md#id)
@@ -37,8 +38,12 @@ The object used to specify the arguments when searching for a [User](User.md)/[D
 - [serialNumber](UserSearch.md#serialnumber)
 - [toDate](UserSearch.md#todate)
 - [userGroupFilterCondition](UserSearch.md#usergroupfiltercondition)
+- [userIds](UserSearch.md#userids)
 - [userSearchType](UserSearch.md#usersearchtype)
+- [verificationPending](UserSearch.md#verificationpending)
 - [version](UserSearch.md#version)
+- [welcomeEmailNotSent](UserSearch.md#welcomeemailnotsent)
+- [welcomeEmailStatus](UserSearch.md#welcomeemailstatus)
 
 ## Properties
 
@@ -50,7 +55,7 @@ Gets or sets search for Users who are associated with this [UserAuthenticationTy
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L17)
 
 ___
 
@@ -62,7 +67,7 @@ Gets or sets search for Users who are associated with these [UserAuthenticationT
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L19)
 
 ___
 
@@ -79,7 +84,7 @@ Cannot be used with DriverGroups.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L25)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L26)
 
 ___
 
@@ -91,7 +96,7 @@ Gets or sets for Driver group list search.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L27)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L28)
 
 ___
 
@@ -109,7 +114,7 @@ Cannot be used with CompanyGroups.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L35)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:36](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L36)
 
 ___
 
@@ -124,7 +129,7 @@ Gets or sets search for a User who is associated with this Driver Employee Numbe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:42](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L42)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L43)
 
 ___
 
@@ -139,7 +144,7 @@ Gets or sets search for Users with this first name. Wildcard can be used by prep
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:49](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L49)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:50](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L50)
 
 ___
 
@@ -152,7 +157,22 @@ Gets or sets search for Users that were active at this date or after. Set to UTC
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:54](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L54)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:55](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L55)
+
+___
+
+### fullName
+
+• **fullName**: `string`
+
+Gets or sets search for Users with this full name (first and last names). Wildcard can be used by prepending/appending "%"
+ to string. Example "%lastName%".
+ This property is negatable. If the first character of this search property is '!', then the API will know to negate the
+ search logic. (e.g. field = "!John%", is equivalent to: WHERE NOT LIKE 'John%')
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/UserSearch.ts:62](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L62)
 
 ___
 
@@ -164,7 +184,7 @@ Gets or sets search for Users who are associated with this [HosRuleSet](../READM
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:56](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L56)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:64](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L64)
 
 ___
 
@@ -176,7 +196,7 @@ Gets or sets search for Users who are associated with these [HosRuleSet](../READ
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:58](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L58)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:66](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L66)
 
 ___
 
@@ -192,7 +212,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -204,7 +224,7 @@ Gets or sets only search for Users who have a Driver Key assigned.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:60](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L60)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:68](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L68)
 
 ___
 
@@ -216,7 +236,7 @@ Gets or sets search for a User who is associated with this Driver Key Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:62](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L62)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:70](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L70)
 
 ___
 
@@ -228,7 +248,7 @@ Gets or sets search for entities that contain specific keywords in all wildcard 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:64](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L64)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:72](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L72)
 
 ___
 
@@ -242,7 +262,7 @@ Gets or sets for LastLogin search. Must be used with LastLoginComparator.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:70](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L70)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:78](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L78)
 
 ___
 
@@ -254,7 +274,7 @@ Gets or sets for [DateTimeComparator](../README.md#datetimecomparator) for LastL
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:72](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L72)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:80](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L80)
 
 ___
 
@@ -269,7 +289,7 @@ Gets or sets search for Users with this last name. Wildcard can be used by prepe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:79](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L79)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:87](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L87)
 
 ___
 
@@ -284,7 +304,7 @@ Gets or sets search for a User who is associated with this Driver License Number
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:86](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L86)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:94](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L94)
 
 ___
 
@@ -299,7 +319,7 @@ Gets or sets search for Users with this email/log-on name. Wildcard can be used 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:93](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L93)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:101](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L101)
 
 ___
 
@@ -313,7 +333,7 @@ Gets or sets search for Users who are assigned to a specific Security Clearance 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:99](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L99)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:107](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L107)
 
 ___
 
@@ -325,7 +345,7 @@ Gets or sets search for a User who is associated with this Driver Serial Number.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:101](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L101)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:109](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L109)
 
 ___
 
@@ -337,7 +357,7 @@ Gets or sets search for Users that were active at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:103](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L103)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:111](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L111)
 
 ___
 
@@ -349,7 +369,19 @@ Gets or sets for user group list search.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:105](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L105)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:113](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L113)
+
+___
+
+### userIds
+
+• **userIds**: `string`[]
+
+Gets or sets search for Users with these unique Id(s).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/UserSearch.ts:115](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L115)
 
 ___
 
@@ -361,7 +393,19 @@ Gets or sets for UserSearch.UserSearchType search.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserSearch.ts:107](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserSearch.ts#L107)
+[src/types/Checkmate/ObjectModel/UserSearch.ts:117](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L117)
+
+___
+
+### verificationPending
+
+• **verificationPending**: `boolean`
+
+Gets or sets search for Users who have been sent a welcome email but not verified yet.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/UserSearch.ts:119](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L119)
 
 ___
 
@@ -377,4 +421,28 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)
+
+___
+
+### welcomeEmailNotSent
+
+• **welcomeEmailNotSent**: `boolean`
+
+Gets or sets search for Users who have not been sent a welcome email.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/UserSearch.ts:121](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L121)
+
+___
+
+### welcomeEmailStatus
+
+• **welcomeEmailStatus**: [`UserWelcomeEmailStatusSearch`](UserWelcomeEmailStatusSearch.md)
+
+Gets or sets search for Users based on their welcome email and verification status.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/UserSearch.ts:123](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserSearch.ts#L123)

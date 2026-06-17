@@ -6,8 +6,8 @@ import { FuelTankCapacitySource } from "./FuelTankCapacitySource";
 
 /** Represent a vehicle's fuel tank capacity and how it was derived. */
 export interface FuelTankCapacity {
-  /** Gets or sets the tank capacity source. */
+  /** Gets or sets the {@link FuelTankCapacitySource}. */
   source: FuelTankCapacitySource;
-  /** Gets or sets the volume (L). */
+  /** Gets or sets the volume (L). Default [-1]. */
   volume: number;
 }

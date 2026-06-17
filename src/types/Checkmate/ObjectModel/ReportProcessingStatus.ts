@@ -7,4 +7,9 @@ export type ReportProcessingStatus =
   | "Initialized"
   | "Processing"
   | "Successful"
-  | "Error";
+  | "Error"
+  | "ExcelServerError"
+  | "ExcelServerBuiltInReportError"
+  | "DuplicateError"
+  | "Timeout"
+  | "Cancelled";

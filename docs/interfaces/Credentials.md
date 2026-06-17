@@ -24,7 +24,7 @@ Gets or sets the database name.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Credentials.ts:8](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Credentials.ts#L8)
+[src/types/Checkmate/ObjectModel/Credentials.ts:8](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Credentials.ts#L8)
 
 ___
 
@@ -36,7 +36,7 @@ Gets or sets the users login password. This can be used instead of providing a s
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Credentials.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Credentials.ts#L10)
+[src/types/Checkmate/ObjectModel/Credentials.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Credentials.ts#L10)
 
 ___
 
@@ -48,7 +48,7 @@ Gets or sets the refresh token.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Credentials.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Credentials.ts#L12)
+[src/types/Checkmate/ObjectModel/Credentials.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Credentials.ts#L12)
 
 ___
 
@@ -60,7 +60,7 @@ Gets or sets the session Id is a token which is generated from an authentication
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Credentials.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Credentials.ts#L14)
+[src/types/Checkmate/ObjectModel/Credentials.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Credentials.ts#L14)
 
 ___
 
@@ -72,4 +72,4 @@ Gets or sets the MyGeotab username.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Credentials.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Credentials.ts#L16)
+[src/types/Checkmate/ObjectModel/Credentials.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Credentials.ts#L16)

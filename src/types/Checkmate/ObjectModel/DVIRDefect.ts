@@ -7,17 +7,20 @@ import { DefectRemark } from "./DefectRemark";
 import { Defect } from "./Defect";
 import { User } from "./User";
 import { RepairStatusType } from "./RepairStatusType";
+import { Group } from "./Group";
 
 /**
  *  A DVIRDefect is a Defect that can be associated with a {@link DVIRLog}.
- *  It contains repair information such as repair {@link DateTime}, repair {@link User , and {@link RepairStatusType}.
- *  DVIRDefect also consists a list of {@link DefectRemark}} which can be used to store additional information for the defect.
+ *  It contains repair information such as repair {@link DateTime}, repair {@link User}, and {@link RepairStatusType}.
+ *  DVIRDefect also consists a list of {@link DefectRemark} which can be used to store additional information for the defect.
  */
 export interface DVIRDefect extends Entity {
   /** Gets or sets the {@link DVIRDefect.Defect} which this DVIRDefect belongs to. */
   defect: Defect;
   /** Gets or sets the {@link DefectRemark}s which this DVIRDefect has. */
   defectRemarks: DefectRemark[];
+  /** Gets or sets the {@link Group} part associated with this DVIRDefect, e.g., front left tire, rear right door, headlight. */
+  part: Group;
   /** Gets or sets the date and time the DVIRDefect was repaired. */
   repairDateTime: Date;
   /** Gets or sets the {@link RepairStatusType} of this DVIRDefect. */

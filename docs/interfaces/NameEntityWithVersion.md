@@ -12,6 +12,8 @@ An entity with a name and a version.
 
   ↳↳ [`Audit`](Audit.md)
 
+  ↳↳ [`Product`](Product.md)
+
   ↳↳ [`Device`](Device.md)
 
   ↳↳ [`DeviceShare`](DeviceShare.md)
@@ -20,13 +22,23 @@ An entity with a name and a version.
 
   ↳↳ [`Diagnostic`](Diagnostic.md)
 
+  ↳↳ [`DiagnosticLookupTable`](DiagnosticLookupTable.md)
+
   ↳↳ [`DisplayMeasurementProfile`](DisplayMeasurementProfile.md)
 
   ↳↳ [`DisplayUnitOfMeasure`](DisplayUnitOfMeasure.md)
 
+  ↳↳ [`FailureMode`](FailureMode.md)
+
   ↳↳ [`Rule`](Rule.md)
 
   ↳↳ [`MediaFile`](MediaFile.md)
+
+  ↳↳ [`MaintenanceWorkOrder`](MaintenanceWorkOrder.md)
+
+  ↳↳ [`MaintenanceWorkOrderJob`](MaintenanceWorkOrderJob.md)
+
+  ↳↳ [`MaintenanceWorkRequest`](MaintenanceWorkRequest.md)
 
   ↳↳ [`Route`](Route.md)
 
@@ -62,7 +74,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -70,7 +82,7 @@ ___
 
 • **name**: `string`
 
-Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity.
+Gets or sets the name of this entity which identifies it and is used when displaying this entity.
 
 #### Inherited from
 
@@ -78,7 +90,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
 
 ___
 
@@ -90,4 +102,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)

@@ -14,30 +14,54 @@ The object used to specify the arguments when searching for a [Device](Device.md
 
 ### Properties
 
+- [billingLevelSearch](DeviceSearch.md#billinglevelsearch)
 - [comment](DeviceSearch.md#comment)
 - [customPropertySearch](DeviceSearch.md#custompropertysearch)
+- [deviceCommunicationStatusSearch](DeviceSearch.md#devicecommunicationstatussearch)
 - [deviceIds](DeviceSearch.md#deviceids)
 - [devicePlan](DeviceSearch.md#deviceplan)
 - [devicePlanBillingInfo](DeviceSearch.md#deviceplanbillinginfo)
 - [deviceReplacementInfoSearch](DeviceSearch.md#devicereplacementinfosearch)
 - [deviceType](DeviceSearch.md#devicetype)
+- [deviceTypes](DeviceSearch.md#devicetypes)
 - [engineVehicleIdentificationNumber](DeviceSearch.md#enginevehicleidentificationnumber)
+- [excludeActiveCommunicationStatusReason](DeviceSearch.md#excludeactivecommunicationstatusreason)
+- [excludeSecondaryDevices](DeviceSearch.md#excludesecondarydevices)
 - [excludeUntrackedAssets](DeviceSearch.md#excludeuntrackedassets)
 - [fromDate](DeviceSearch.md#fromdate)
 - [groupFilterCondition](DeviceSearch.md#groupfiltercondition)
 - [groups](DeviceSearch.md#groups)
 - [hardwareId](DeviceSearch.md#hardwareid)
+- [hideArchivedDevices](DeviceSearch.md#hidearchiveddevices)
 - [id](DeviceSearch.md#id)
 - [includeDeviceReplacementInfo](DeviceSearch.md#includedevicereplacementinfo)
+- [isCommunicating](DeviceSearch.md#iscommunicating)
 - [keywords](DeviceSearch.md#keywords)
 - [licensePlate](DeviceSearch.md#licenseplate)
+- [macAddress](DeviceSearch.md#macaddress)
 - [name](DeviceSearch.md#name)
 - [serialNumber](DeviceSearch.md#serialnumber)
+- [serialNumbers](DeviceSearch.md#serialnumbers)
 - [toDate](DeviceSearch.md#todate)
 - [vehicleIdentificationNumber](DeviceSearch.md#vehicleidentificationnumber)
 - [version](DeviceSearch.md#version)
+- [vinInfoMake](DeviceSearch.md#vininfomake)
+- [vinInfoModel](DeviceSearch.md#vininfomodel)
+- [vinInfoYear](DeviceSearch.md#vininfoyear)
 
 ## Properties
+
+### billingLevelSearch
+
+• **billingLevelSearch**: [`BillingLevelSearch`](BillingLevelSearch.md)
+
+Gets or sets filter for [Device](Device.md) with specific billing levels.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L19)
+
+___
 
 ### comment
 
@@ -48,7 +72,7 @@ Gets or sets search for Devices with comments matching this value. Wildcard can 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L24)
 
 ___
 
@@ -60,7 +84,21 @@ Gets or sets search for Devices that contain certain [Property](Property.md) and
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L26)
+
+___
+
+### deviceCommunicationStatusSearch
+
+• **deviceCommunicationStatusSearch**: [`DeviceCommunicationStatusSearch`](DeviceCommunicationStatusSearch.md)
+
+Gets or sets search for devices that has [DeviceCommunicationStatus](DeviceCommunicationStatus.md) and filter them by DeviceSearch.DeviceCommunicationStatusSearch
+ Available DeviceSearch.DeviceCommunicationStatusSearch options are:
+ <list><item><description>[DeviceCommunicationStatusState](../README.md#devicecommunicationstatusstate)</description></item><item><description>IsCommunicating</description></item></list>
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L32)
 
 ___
 
@@ -69,11 +107,12 @@ ___
 • **deviceIds**: `string`[]
 
 Gets or sets search for Devices with these unique Id(s). Not Supported
- for searching for devices, only for [DeviceStatusInfo](DeviceStatusInfo.md).
+ for searching for devices, only for [DeviceStatusInfo](DeviceStatusInfo.md), [TachographDataFile](TachographDataFile.md), [FaultData](FaultData.md), [ChargeEvent](ChargeEvent.md)
+ and AddInDeviceLink.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L27)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:38](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L38)
 
 ___
 
@@ -85,7 +124,7 @@ Gets or sets search for devices that have the DeviceSearch.DevicePlan speicified
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L29)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:40](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L40)
 
 ___
 
@@ -99,7 +138,7 @@ Gets or sets search for devices that have the DeviceSearch.DevicePlanBillingInfo
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L35)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:46](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L46)
 
 ___
 
@@ -113,7 +152,7 @@ Gets or sets search for devices that contain [DeviceReplacementInfo](DeviceRepla
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:41](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L41)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:52](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L52)
 
 ___
 
@@ -125,7 +164,19 @@ Gets or sets search for Devices of this [DeviceType](../README.md#devicetype).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:43](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L43)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:54](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L54)
+
+___
+
+### deviceTypes
+
+• **deviceTypes**: [`DeviceType`](../README.md#devicetype)[]
+
+Gets or sets search for Devices with these unique [DeviceType](../README.md#devicetype)(s).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:56](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L56)
 
 ___
 
@@ -141,7 +192,32 @@ Gets or sets search for a Device by Vehicle Identification Number (VIN) reported
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:51](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L51)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:64](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L64)
+
+___
+
+### excludeActiveCommunicationStatusReason
+
+• **excludeActiveCommunicationStatusReason**: `boolean`
+
+Gets or sets the boolean to filter out devices that currently have an active DeviceCommunicationStatus.
+ When true it will not return any devices that have a DeviceCommunicationStatus.IsActive = true; when false it only return devices with an [DeviceCommunicationStatus](DeviceCommunicationStatus.md) != true. This property is mostly used with DeviceSearch.IsCommunicating to filter devices that are offline with an unknown reason
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:69](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L69)
+
+___
+
+### excludeSecondaryDevices
+
+• **excludeSecondaryDevices**: `boolean`
+
+Gets or sets the boolean to filter out secondary devices.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:71](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L71)
 
 ___
 
@@ -153,7 +229,7 @@ Gets or sets filter for UntrackedAsset.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:53](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L53)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:73](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L73)
 
 ___
 
@@ -166,7 +242,7 @@ Gets or sets search for Devices that were active at this date or after. Set to U
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:58](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L58)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:78](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L78)
 
 ___
 
@@ -178,7 +254,7 @@ Gets or sets for devices and asset types.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:60](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L60)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:80](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L80)
 
 ___
 
@@ -193,7 +269,7 @@ Gets or sets search for Devices that are a member of these [GroupSearch](GroupSe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:67](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L67)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:87](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L87)
 
 ___
 
@@ -205,7 +281,21 @@ Gets or sets search for a Device with this unique hardware ID.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:69](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L69)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:89](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L89)
+
+___
+
+### hideArchivedDevices
+
+• **hideArchivedDevices**: `boolean`
+
+Gets or sets whether to hide archived devices based on today's date instead of the filter period start.
+ When true, excludes devices archived as of today (ActiveTo is before tomorrow's midnight).
+ When false or null, excludes devices archived before the filter period start (default behavior).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:95](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L95)
 
 ___
 
@@ -221,7 +311,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -233,7 +323,22 @@ Gets or sets search for devices that contain [DeviceReplacementInfo](DeviceRepla
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:71](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L71)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:97](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L97)
+
+___
+
+### isCommunicating
+
+• **isCommunicating**: `boolean`
+
+Gets or sets filter for a device communication state. Note: This is will search the [DeviceStatusInfo](DeviceStatusInfo.md);
+ where as DeviceSearch.DeviceCommunicationStatusSearch will search the [DeviceCommunicationStatus](DeviceCommunicationStatus.md).
+ If device is not communicating it will be found in both criterias though the [DeviceStatusInfo](DeviceStatusInfo.md)
+ is updated more frequently while the [DeviceCommunicationStatus](DeviceCommunicationStatus.md) contains reason why it not communicating.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:104](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L104)
 
 ___
 
@@ -245,7 +350,7 @@ Gets or sets search for entities that contain specific keywords in all wildcard 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:73](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L73)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:106](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L106)
 
 ___
 
@@ -258,7 +363,19 @@ Gets or sets search for Devices with a license plate matching this value. Wildca
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:78](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L78)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:111](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L111)
+
+___
+
+### macAddress
+
+• **macAddress**: `string`
+
+Gets or sets search for Devices with this MacAddress.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:113](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L113)
 
 ___
 
@@ -271,7 +388,7 @@ Gets or sets search for Devices with this Name. Name is the primary description 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:83](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L83)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:118](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L118)
 
 ___
 
@@ -284,7 +401,20 @@ Gets or sets search for a Device by its unique serial number. Wildcard can be
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:88](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L88)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:123](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L123)
+
+___
+
+### serialNumbers
+
+• **serialNumbers**: `string`[]
+
+Gets or sets search for multiple Devices by their unique serial numbers. Only supported
+ for [DeviceSearch](DeviceSearch.md) and AddInDeviceLinkSearch
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:128](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L128)
 
 ___
 
@@ -296,7 +426,7 @@ Gets or sets search for Devices that were active at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:90](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L90)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:130](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L130)
 
 ___
 
@@ -312,7 +442,7 @@ Gets or sets search for a Device by Vehicle Identification Number (VIN). This is
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceSearch.ts:98](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L98)
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:138](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L138)
 
 ___
 
@@ -328,4 +458,46 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)
+
+___
+
+### vinInfoMake
+
+• **vinInfoMake**: `string`
+
+Gets or sets search for a Device by VIN Info Make. This is the vehicle manufacturer
+ information decoded from the VIN. Wildcard can be used by prepending/appending "%"
+ to string. Example "%Make%".
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:144](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L144)
+
+___
+
+### vinInfoModel
+
+• **vinInfoModel**: `string`
+
+Gets or sets search for a Device by VIN Info Model. This is the vehicle model
+ information decoded from the VIN. Wildcard can be used by prepending/appending "%"
+ to string. Example "%Model%".
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:150](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L150)
+
+___
+
+### vinInfoYear
+
+• **vinInfoYear**: `string`
+
+Gets or sets search for a Device by VIN Info Year. This is the vehicle year
+ information decoded from the VIN. Wildcard can be used by prepending/appending "%"
+ to string. Example "%2022%".
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceSearch.ts:156](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceSearch.ts#L156)

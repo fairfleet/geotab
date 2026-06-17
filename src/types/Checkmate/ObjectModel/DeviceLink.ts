@@ -4,16 +4,19 @@
 
 import { EntityWithVersion } from "./EntityWithVersion";
 import { Device } from "./Device";
+import { DeviceLinkType } from "./DeviceLinkType";
 
 /** A DeviceLink is a relationship between two {@link Device}s over a period of time. */
 export interface DeviceLink extends EntityWithVersion {
   /** Gets the date the {@link Device}s were linked. This is only present so that we can implement IDateTimeProvider. */
   dateTime: Date;
-  /** Gets or sets the linked {@link Device} (destination). */
+  /** Gets or sets the {@link Device} (destination) which the source {@link Device} is being linked to. */
   destinationDevice: Device;
   /** Gets or sets the date and time the {@link Device}s were linked. Default [UtcNow]. */
   fromDate: Date;
-  /** Gets or sets the {@link Device} (source) which another {@link Device} is linked to. */
+  /** Gets or sets the link type */
+  linkType: DeviceLinkType;
+  /** Gets or sets the {@link Device} (source) which is being linked. */
   sourceDevice: Device;
   /** Gets or sets the date and time the {@link Device}s were delinked. Default [MaxDate]. */
   toDate: Date;

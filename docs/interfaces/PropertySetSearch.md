@@ -32,7 +32,7 @@ Gets or sets search for PropertySets with this External Reference. Wildcard can 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/PropertySetSearch.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/PropertySetSearch.ts#L15)
+[src/types/Checkmate/ObjectModel/PropertySetSearch.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/PropertySetSearch.ts#L15)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets the PropertySets that belong to groups that are combined with the a
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/PropertySetSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/PropertySetSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/PropertySetSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/PropertySetSearch.ts#L17)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets search for PropertySets that are members of these [GroupSearch](Gro
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/PropertySetSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/PropertySetSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/PropertySetSearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/PropertySetSearch.ts#L24)
 
 ___
 
@@ -75,7 +75,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -88,7 +88,7 @@ Gets or sets search for PropertySets with this Name. Wildcard can be used by pre
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/PropertySetSearch.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/PropertySetSearch.ts#L29)
+[src/types/Checkmate/ObjectModel/PropertySetSearch.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/PropertySetSearch.ts#L29)
 
 ___
 
@@ -104,4 +104,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

@@ -17,7 +17,7 @@ export interface MimeTask extends Entity {
   completed: Date;
   /** Gets or sets the date and time the task was created. */
   dateTime: Date;
-  /** Gets or sets the MimeTaskType which deterimes which processing workflow is executed. */
+  /** Gets or sets the MimeTaskType which determines which processing workflow is executed. */
   mimeTaskType: MimeTaskType;
   /** Gets or sets the TextMessage Id to be processed. */
   textMessageId: string;

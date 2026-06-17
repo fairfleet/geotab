@@ -9,4 +9,5 @@ export type SpeedLimitRequestOptions =
   | "NoCommunity"
   | "NoCommercial"
   | "NoSnapping"
-  | "Truck";
+  | "Truck"
+  | "LightCommercialVehicle";

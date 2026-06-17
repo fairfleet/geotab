@@ -20,6 +20,8 @@ The object used to specify the arguments when searching for [MediaFile](MediaFil
 - [id](MediaFileSearch.md#id)
 - [maxVersion](MediaFileSearch.md#maxversion)
 - [minVersion](MediaFileSearch.md#minversion)
+- [solutionId](MediaFileSearch.md#solutionid)
+- [tagSearch](MediaFileSearch.md#tagsearch)
 - [toDate](MediaFileSearch.md#todate)
 - [version](MediaFileSearch.md#version)
 
@@ -37,7 +39,7 @@ Gets or sets filter by the [DeviceSearch](DeviceSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L19)
 
 ___
 
@@ -51,7 +53,7 @@ Gets or sets search for MediaFile with this [UserSearch](UserSearch.md) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L25)
 
 ___
 
@@ -63,7 +65,7 @@ Gets or sets search for MediaFile records at this date or after. Includes overla
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L27)
 
 ___
 
@@ -79,7 +81,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -91,7 +93,7 @@ Gets or sets search for MediaFile records before this version.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L28)
+[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L29)
 
 ___
 
@@ -103,7 +105,33 @@ Gets or sets search for MediaFile records at or after this version.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L30)
+[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:31](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L31)
+
+___
+
+### solutionId
+
+• **solutionId**: `string`
+
+Gets or sets search for MediaFile records with this SolutionId.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L33)
+
+___
+
+### tagSearch
+
+• **tagSearch**: [`TagSearch`](TagSearch.md)
+
+Gets or sets search for MediaFile with this MediaFileSearch.TagSearch.
+ Available TagSearch options are:.
+ <list><item><description>Id</description></item><item><description>TagIds</description></item></list>
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L39)
 
 ___
 
@@ -115,7 +143,7 @@ Gets or sets search for MediaFile records at this date or before. Includes overl
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L32)
+[src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Files/MediaFileSearch.ts#L41)
 
 ___
 
@@ -131,4 +159,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

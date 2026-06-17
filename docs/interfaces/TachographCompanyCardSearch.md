@@ -2,7 +2,7 @@
 
 # Interface: TachographCompanyCardSearch
 
-The object used to specify the arguments when searching for [TachographCompanyCardSearch](TachographCompanyCardSearch.md).
+The object used to specify the arguments when searching for [TachographCompanyCard](TachographCompanyCard.md).
 
 ## Hierarchy
 
@@ -31,7 +31,7 @@ Gets or sets search for tachograph company cards that match the card number.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCardSearch.ts:11
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCardSearch.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCardSearch.ts#L10)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets search for tachograph company cards with this icc.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCardSearch.ts:13
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCardSearch.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCardSearch.ts#L12)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -72,19 +72,21 @@ Gets or sets search for tachograph company cards
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCardSearch.ts:18
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCardSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCardSearch.ts#L17)
 
 ___
 
 ### status
 
-• **status**: [`TachographCompanyCardStatus`](../README.md#tachographcompanycardstatus)
+• **status**: `string`
 
 Gets or sets search for tachograph company cards that match this status.
+ The available values are:
+ <list><item><description>"Available": Company card available.</description></item><item><description>"Busy": Company card authenticating.</description></item><item><description>"Offline": Company card disconnected.</description></item></list>
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCardSearch.ts:20
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCardSearch.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCardSearch.ts#L23)
 
 ___
 
@@ -100,4 +102,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

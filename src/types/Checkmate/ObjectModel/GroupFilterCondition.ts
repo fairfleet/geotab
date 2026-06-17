@@ -19,6 +19,11 @@ export interface GroupFilterCondition extends Search {
   groupId: string;
   /** Gets or sets IncludeGroups for ZoneSearch only. */
   includeGroups: IncludeGroups;
+  /**
+   * Gets or sets a value indicating whether Not filter is applied to nested property GroupFilterConditions or single group GroupId.
+   *  If true, entities in specified groups or nested groupFilterConditions will be excluded from the search results.
+   */
+  isNegated: boolean;
   /** Gets or sets Parent. */
   parent: GroupFilterCondition;
   /** Gets or sets how to search the group relations. */

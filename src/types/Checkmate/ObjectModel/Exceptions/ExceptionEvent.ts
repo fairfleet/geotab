@@ -15,11 +15,15 @@ export interface ExceptionEvent extends EntityWithVersion {
   activeFrom: Date;
   /** Gets or sets the end date of the ExceptionEvent; at or before this date. */
   activeTo: Date;
-  /** Gets or sets the {@link Device} specified for the device. */
-  device: Device;
+  /** Gets or sets the {@link DateTime} when the exception event record was created. You can only set the created date once. */
+  createdDateTime: Date;
   /**
    * @inheritdoc
    */
+  deletedDateTime: Date;
+  /** Gets or sets the {@link Device} specified for the device. */
+  device: Device;
+  /** Gets or sets the {@link ExceptionEvent.Diagnostic} */
   diagnostic: Diagnostic;
   /** Gets or sets the km distance traveled since the start of the ExceptionEvent. */
   distance: number;
@@ -28,8 +32,11 @@ export interface ExceptionEvent extends EntityWithVersion {
   /** Gets the duration of the violation. */
   duration: string;
   /**
-   * @inheritdoc
+   * Gets or sets the count of exception instances for this exception event.
+   *  This property is only populated when {@link ExceptionEventSearch.IncludeExceptionCount} is set to true.
    */
+  exceptionCount: number;
+  /** Gets or sets the {@link ExceptionInstance}s of the exception. */
   exceptions: unknown[];
   /**
    * @inheritdoc

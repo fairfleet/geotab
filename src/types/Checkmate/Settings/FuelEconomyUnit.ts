@@ -3,7 +3,7 @@
 //     the code is regenerated.
 
 /**
- *  Various Fuel Economy units Geotab supports. Currently supported units: L/100 km, km/L, MPG (US) and MPG (Imperial).
+ *  Various Fuel Economy units Geotab supports. Currently supported units: L/100 km, km/L, MPG (US), MPG (Imperial), km/gallon (US), and gal/100km.
  */
 export type FuelEconomyUnit =
   | "LitersPer100Km"

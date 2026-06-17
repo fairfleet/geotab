@@ -6,9 +6,7 @@ import { NameEntity } from "./NameEntity";
 import { Recipient } from "./Recipient";
 import { Rule } from "./Exceptions/Rule";
 
-/**
- *  A distribution list links a set of {@link Rule}(s) to a set of {@link Recipient}(s). When a {@link Rule} is violated each related {@link Recipient} will receive a notification of the kind defined by its {@link RecipientType}.
- */
+/** A distribution list links a set of {@link Rule}(s) to a set of {@link Recipient}(s). When a {@link Rule} is violated each related {@link Recipient} will receive a notification of the kind defined by its {@link RecipientType}. */
 export interface DistributionList extends NameEntity {
   /**
    * Gets or sets a list of recipients that will be notified when the

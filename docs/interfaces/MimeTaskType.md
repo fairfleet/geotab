@@ -5,8 +5,6 @@
 A unique identifier for different types of [MimeTask](MimeTask.md)s that are executed
  for additional MimeContent processing.
 
-**`Deprecated`**
-
 ## Hierarchy
 
 - [`NameEntity`](NameEntity.md)
@@ -26,7 +24,7 @@ A unique identifier for different types of [MimeTask](MimeTask.md)s that are exe
 
 • **id**: `string`
 
-Gets or sets the unique identifier for this entity. See Id.
+Gets or sets the unique identifier for this entity.
 
 #### Overrides
 
@@ -34,7 +32,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MimeTaskType.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MimeTaskType.ts#L15)
+[src/types/Checkmate/ObjectModel/MimeTaskType.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/MimeTaskType.ts#L13)
 
 ___
 
@@ -42,7 +40,7 @@ ___
 
 • **name**: `string`
 
-Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity.
+Gets or sets the name of this entity which identifies it and is used when displaying this entity.
 
 #### Overrides
 
@@ -50,4 +48,4 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MimeTaskType.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MimeTaskType.ts#L17)
+[src/types/Checkmate/ObjectModel/MimeTaskType.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/MimeTaskType.ts#L15)

@@ -17,6 +17,6 @@ export interface WorkTime extends NameEntity {
   details: unknown[];
   /** Gets or sets the {@link WorkTimeHolidayGroupId}. */
   holidayGroup: WorkTimeHolidayGroupId;
-  /** Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity. Maximum length [50]. */
+  /** Gets or sets the name of this entity which identifies it and is used when displaying this entity. Maximum length [50]. */
   name: string;
 }

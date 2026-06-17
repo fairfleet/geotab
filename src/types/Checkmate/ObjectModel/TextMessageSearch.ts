@@ -4,13 +4,18 @@
 
 import { Search } from "./Search";
 import { DeviceSearch } from "./DeviceSearch";
+import { Notification } from "./Notification";
 import { GroupSearch } from "./GroupSearch";
 import { UserSearch } from "./UserSearch";
 import { MessageContentType } from "./MessageContentType";
 
 /** The object used to specify the arguments when searching for a {@link TextMessage}. */
 export interface TextMessageSearch extends Search {
-  /** Gets or sets search for TextMessages with {@link DataToComponentContent} filtered based on the channelNumber. */
+  /**
+   * Gets or sets search for TextMessages filtered based on channel numbers assigned.
+   *  MessageContentTypes that support setting the channelNumber:
+   *  <list><item><description>{@link MimeContent}</description></item><item><description>{@link SerialIoxContent}</description></item><item><description>{@link ColdChainFaultClearContent}</description></item><item><description>{@link ColdChainSetpointSetContent}</description></item></list>
+   */
   channelNumbers: number[];
   /** Gets or sets search for TextMessages filtered based on the {@link MessageContentType}. */
   contentTypes: MessageContentType[];
@@ -53,10 +58,17 @@ export interface TextMessageSearch extends Search {
    *  will be returned per device (using the date sent time to determine most recent).
    */
   latestMessageOnly: boolean;
-  /** Gets or sets search for TextMessages with {@link MimeContent} filtered based on the messages MIME type. */
+  /**
+   * Gets or sets search for TextMessages filtered based on the messages MIME type.
+   *  MimeTypes search is available for {@link MimeContent} only.
+   */
   mimeTypes: string[];
   /** Gets or sets search for TextMessages that were delivered/sent/read since this date. */
   modifiedSinceDate: Date;
+  /** Gets or sets search for TextMessages that have Notification in messageContent. */
+  notification: Notification;
+  /** Gets or sets a value indicating whether only TextMessages with ActiveTo &gt; UtcNow are included. */
+  onlyActiveMessages: boolean;
   /** Gets or sets search for TextMessages that have parent id as this {@link Id}. */
   parentMessageId: string;
   /** Gets or sets search for TextMessages that have parent id as this id. */

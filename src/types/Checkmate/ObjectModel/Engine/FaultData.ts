@@ -15,7 +15,7 @@ import { DtcSeverity } from "./DtcSeverity";
 import { DtcClass } from "./DtcClass";
 
 /**
- *  A record that represents a fault code record from the engine
+ * A record that represents a fault code record from the engine
  *  system of the specific {@link Device}.
  */
 export interface FaultData extends Entity {
@@ -33,17 +33,31 @@ export interface FaultData extends Entity {
   device: Device;
   /** Gets or sets the {@link Diagnostic} associated with the fault. */
   diagnostic: Diagnostic;
+  /** Gets or sets the {@link DtcSeverity} level of the diagnostic associated with this fault */
+  diagnosticSeverity: DtcSeverity;
   /** Gets or sets the date and time that the DismissUser dismissed the fault. */
   dismissDateTime: Date;
   /** Gets or sets the {@link User} that dismissed the fault. */
   dismissUser: User;
+  /** Gets or sets the effect on component for enriched fault. */
+  effectOnComponent: string;
   /** Gets or sets the {@link FailureMode} of the fault; if applicable. */
   failureMode: FailureMode;
+  /** Gets or sets the fault description for enriched fault. */
+  faultDescription: string;
   /**
    * Gets or sets the {@link FaultLampState} of a J1939 vehicle. See
    *  {@link FaultLampState} for the possible values.
    */
   faultLampState: FaultLampState;
+  /**
+   * Gets or sets the rich {@link DtcSeverity} level of the fault.
+   *  This property provides a more customized severity assessment than the general {@link FaultData.FaultSeverity}, allowing for finer-grained control over fault severity reporting.
+   *  Note: This property is not available for all clients.
+   */
+  faultRichSeverity: DtcSeverity;
+  /** Gets or sets the {@link DtcSeverity} level of the fault */
+  faultSeverity: DtcSeverity;
   /**
    * Gets or sets the {@link FaultState} code from the engine system of
    *  the specific device.
@@ -62,9 +76,17 @@ export interface FaultData extends Entity {
   malfunctionLamp: boolean;
   /** Gets or sets whether the protect warning lamp is on. */
   protectWarningLamp: boolean;
+  /** Gets or sets the recommendation for enriched fault. */
+  recommendation: string;
   /** Gets or sets whether the red stop lamp is on. */
   redStopLamp: boolean;
-  /** Gets or sets the {@link DtcSeverity} of the fault. */
+  /** Gets or sets the risk of breakdown associated with the fault. */
+  riskOfBreakdown: number;
+  /**
+   * Gets or sets the overall severity level of the fault. This value is determined by coalescing the following properties in order of precedence:
+   *  <list type="number"><item>{@link FaultData.FaultSeverity}</item><item>{@link FaultData.DiagnosticSeverity}</item></list>
+   *  Effectively, this property represents <c>FaultSeverity ?? DiagnosticSeverity</c>.
+   */
   severity: DtcSeverity;
   /** Gets or sets the source address for enhanced faults. */
   sourceAddress: number;

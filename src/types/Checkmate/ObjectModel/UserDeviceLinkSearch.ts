@@ -15,6 +15,8 @@ import { EntityLinkType } from "./EntityLink/EntityLinkType";
 export interface UserDeviceLinkSearch extends Search {
   /** Gets or sets search for UserDeviceLink that were recorded with this ToDate or after. */
   afterToDate: Date;
+  /** Gets or sets search for UserDeviceLink that were recorded with this FromDate or before. */
+  beforeFromDate: Date;
   /**
    * Gets or sets search for UserDeviceLinks for this {@link DeviceSearch} Id.
    *  Available DeviceSearch options are:.

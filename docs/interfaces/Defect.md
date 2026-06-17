@@ -2,9 +2,7 @@
 
 # Interface: Defect
 
-Represents a Defect entity. This defines the one
- to one relationship between a [DefectSeverity](../README.md#defectseverity) and
- [Group](Group.md).
+Represents a Defect entity. This defines the one to one relationship between a [DefectSeverity](../README.md#defectseverity) and [Group](Group.md).
 
 ## Hierarchy
 
@@ -41,7 +39,7 @@ Gets or sets the [DefectAssetType](../README.md#defectassettype) of the defect.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Defect.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Defect.ts#L17)
+[src/types/Checkmate/ObjectModel/Defect.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Defect.ts#L13)
 
 ___
 
@@ -57,7 +55,7 @@ Gets or sets the Children of this group. A list of Group(s).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L20)
+[src/types/Checkmate/ObjectModel/Group.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Group.ts#L20)
 
 ___
 
@@ -73,7 +71,7 @@ Gets or sets the color used to render assets belonging to this defect.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Defect.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Defect.ts#L19)
+[src/types/Checkmate/ObjectModel/Defect.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Defect.ts#L15)
 
 ___
 
@@ -89,7 +87,7 @@ Gets or sets the free text field where any user information can be stored and re
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L24)
+[src/types/Checkmate/ObjectModel/Group.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Group.ts#L24)
 
 ___
 
@@ -101,7 +99,7 @@ Gets or sets the list of Defect groups.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Defect.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Defect.ts#L21)
+[src/types/Checkmate/ObjectModel/Defect.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Defect.ts#L17)
 
 ___
 
@@ -117,7 +115,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L26)
+[src/types/Checkmate/ObjectModel/Group.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Group.ts#L26)
 
 ___
 
@@ -129,7 +127,7 @@ Gets a value indicating whether this is a list of defects.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Defect.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Defect.ts#L23)
+[src/types/Checkmate/ObjectModel/Defect.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Defect.ts#L19)
 
 ___
 
@@ -141,7 +139,7 @@ Gets or sets a value indicating whether this defect is hidden in the UI. Used fo
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Defect.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Defect.ts#L25)
+[src/types/Checkmate/ObjectModel/Defect.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Defect.ts#L21)
 
 ___
 
@@ -153,7 +151,7 @@ Gets or sets a value indicating whether this defect must be signed off on. Used 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Defect.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Defect.ts#L27)
+[src/types/Checkmate/ObjectModel/Defect.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Defect.ts#L23)
 
 ___
 
@@ -161,7 +159,7 @@ ___
 
 • **name**: `string`
 
-Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity.
+Gets or sets the name of this entity which identifies it and is used when displaying this entity.
 
 #### Inherited from
 
@@ -169,7 +167,7 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L28)
+[src/types/Checkmate/ObjectModel/Group.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Group.ts#L28)
 
 ___
 
@@ -185,7 +183,7 @@ Gets or sets the parent Group of the selected group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L30)
+[src/types/Checkmate/ObjectModel/Group.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Group.ts#L30)
 
 ___
 
@@ -201,7 +199,7 @@ Gets or sets the ltree path of the group.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L32)
+[src/types/Checkmate/ObjectModel/Group.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Group.ts#L32)
 
 ___
 
@@ -217,7 +215,7 @@ Gets or sets the string reference to add to the database entry for this group. M
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Group.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Group.ts#L34)
+[src/types/Checkmate/ObjectModel/Group.ts:34](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Group.ts#L34)
 
 ___
 
@@ -229,4 +227,4 @@ Gets or sets the [DefectSeverity](../README.md#defectseverity) of the Defect.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Defect.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Defect.ts#L29)
+[src/types/Checkmate/ObjectModel/Defect.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Defect.ts#L25)

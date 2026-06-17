@@ -30,7 +30,9 @@ A DVIRLog is a Driver Vehicle Inspection Report which is prepared by a driver
 - [device](DVIRLog.md#device)
 - [driver](DVIRLog.md#driver)
 - [driverRemark](DVIRLog.md#driverremark)
+- [duration](DVIRLog.md#duration)
 - [dvirDefects](DVIRLog.md#dvirdefects)
+- [engineHours](DVIRLog.md#enginehours)
 - [id](DVIRLog.md#id)
 - [isInspectedByDriver](DVIRLog.md#isinspectedbydriver)
 - [isRejected](DVIRLog.md#isrejected)
@@ -56,7 +58,7 @@ Gets or sets the authority address for the driver at the time of this log. Maxim
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L24)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L24)
 
 ___
 
@@ -68,7 +70,7 @@ Gets or sets the authority name for the driver at the time of this log. Maximum 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L26)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L26)
 
 ___
 
@@ -82,7 +84,7 @@ Gets or sets the [User](User.md) who certified the repairs (or comments if no re
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L32)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L32)
 
 ___
 
@@ -95,7 +97,7 @@ Gets or sets the date the [Device](Device.md) or
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L37)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L37)
 
 ___
 
@@ -109,7 +111,7 @@ Gets or sets the remark recorded by the [User](User.md) who certified the repair
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:43](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L43)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L43)
 
 ___
 
@@ -121,7 +123,7 @@ Gets or sets the date and time the log was created.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:45](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L45)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:45](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L45)
 
 ___
 
@@ -133,7 +135,7 @@ Gets or sets the defect list [Group](Group.md) of the log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:47](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L47)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:47](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L47)
 
 ___
 
@@ -145,7 +147,7 @@ Gets or sets the list of defect [Group](Group.md)(s) for this log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:49](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L49)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:49](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L49)
 
 ___
 
@@ -159,7 +161,7 @@ Gets or sets the [Device](Device.md) associated with this log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:55](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L55)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:55](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L55)
 
 ___
 
@@ -171,7 +173,7 @@ Gets or sets the [User](User.md) who created the log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:57](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L57)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:57](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L57)
 
 ___
 
@@ -183,7 +185,19 @@ Gets or sets the remark recorded by the driver for this log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:59](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L59)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:59](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L59)
+
+___
+
+### duration
+
+• **duration**: `string`
+
+Gets or sets the total time spent to complete this dvir. Default [null].
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:61](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L61)
 
 ___
 
@@ -195,7 +209,19 @@ Gets or sets the list of DVIRDefects [DVIRDefect](DVIRDefect.md)(s) for this log
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:61](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L61)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:63](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L63)
+
+___
+
+### engineHours
+
+• **engineHours**: `number`
+
+Gets or sets the engine hours for the DVIRLog.Device of this log. The unit is seconds (not hours). Default [null].
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:65](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L65)
 
 ___
 
@@ -211,7 +237,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:63](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L63)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:67](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L67)
 
 ___
 
@@ -224,7 +250,7 @@ Gets or sets a value indicating whether the DVIR log was inspected by the driver
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:68](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L68)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:72](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L72)
 
 ___
 
@@ -236,7 +262,7 @@ Gets or sets a value indicating whether the DVIR log was marked as rejected by t
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:70](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L70)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:74](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L74)
 
 ___
 
@@ -249,7 +275,7 @@ Gets or sets identifier for whether or not the [Device](Device.md) or
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:75](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L75)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:79](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L79)
 
 ___
 
@@ -257,11 +283,12 @@ ___
 
 • **loadHeight**: `number`
 
-Gets or sets the load height, if it was manually recorded by the driver. Default [null].
+Gets or sets the load height, if it was manually recorded by the driver. The unit is in meters (m), not kilometers (km).
+ Default [null].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:77](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L77)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:84](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L84)
 
 ___
 
@@ -269,11 +296,12 @@ ___
 
 • **loadWidth**: `number`
 
-Gets or sets the load width, if it was manually recorded by the driver. Default [null].
+Gets or sets the load width, if it was manually recorded by the driver. The unit is in meters (m), not kilometers (km).
+ Default [null].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:79](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L79)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:89](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L89)
 
 ___
 
@@ -285,7 +313,7 @@ Gets or sets an object with the location information of the log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:81](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L81)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:91](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L91)
 
 ___
 
@@ -297,7 +325,7 @@ Gets or sets the [DVIRLogType](../README.md#dvirlogtype) of the log. Default [Un
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:83](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L83)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:93](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L93)
 
 ___
 
@@ -305,11 +333,12 @@ ___
 
 • **odometer**: `number`
 
-Gets or sets the odometer or hubometer of the vehicle or trailer, respectively, if it was manually recorded by the driver. Default [null].
+Gets or sets the odometer or hubometer of the vehicle or trailer. The unit is in meters (m), not kilometers (km).
+ Default [null].
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:85](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L85)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:98](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L98)
 
 ___
 
@@ -322,7 +351,7 @@ Gets or sets the date the [Device](Device.md) or
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:90](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L90)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:103](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L103)
 
 ___
 
@@ -336,7 +365,7 @@ Gets or sets the remark recorded by the [User](User.md) who repaired the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:102](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L102)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:115](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L115)
 
 ___
 
@@ -350,7 +379,7 @@ Gets or sets the [User](User.md) who repaired the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:96](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L96)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:109](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L109)
 
 ___
 
@@ -364,7 +393,7 @@ Gets or sets the [Trailer](Trailer.md) associated with this log.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLog.ts:108](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLog.ts#L108)
+[src/types/Checkmate/ObjectModel/DVIRLog.ts:121](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLog.ts#L121)
 
 ___
 
@@ -380,4 +409,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

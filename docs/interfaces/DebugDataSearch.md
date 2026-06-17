@@ -15,6 +15,7 @@ The object used to specify the arguments when searching
 
 ### Properties
 
+- [debugReason](DebugDataSearch.md#debugreason)
 - [deviceSearch](DebugDataSearch.md#devicesearch)
 - [fromDate](DebugDataSearch.md#fromdate)
 - [id](DebugDataSearch.md#id)
@@ -22,6 +23,19 @@ The object used to specify the arguments when searching
 - [version](DebugDataSearch.md#version)
 
 ## Properties
+
+### debugReason
+
+• **debugReason**: [`DebugReason`](../README.md#debugreason)
+
+Gets or sets the search for DebugData records with DebugDataSearch.DebugReason.
+ Note that it's ignored by the GetFeed Search function.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DebugDataSearch.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DebugDataSearch.ts#L18)
+
+___
 
 ### deviceSearch
 
@@ -33,7 +47,7 @@ Gets or sets the search for DebugData recorded for this [DeviceSearch](DeviceSea
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DebugDataSearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DebugDataSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/DebugDataSearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DebugDataSearch.ts#L24)
 
 ___
 
@@ -45,7 +59,7 @@ Gets or sets the date after which DebugData was recorded.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DebugDataSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DebugDataSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/DebugDataSearch.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DebugDataSearch.ts#L26)
 
 ___
 
@@ -61,7 +75,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -73,7 +87,7 @@ Gets or sets the date before which DebugData was recorded.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DebugDataSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DebugDataSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/DebugDataSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DebugDataSearch.ts#L28)
 
 ___
 
@@ -89,4 +103,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

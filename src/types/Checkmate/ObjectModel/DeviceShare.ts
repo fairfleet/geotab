@@ -9,6 +9,7 @@ import { DevicePlan } from "./DevicePlan";
 import { DeviceShareOptions } from "./DeviceShareOptions";
 import { DevicePlanBillingInfo } from "./DevicePlanBillingInfo";
 import { User } from "./User";
+import { Device } from "./Device";
 
 /**
  * A device share represents the sharing of steaming data from a device into multiple databases.
@@ -19,10 +20,14 @@ export interface DeviceShare extends NameEntityWithVersion {
   acceptedDateTime: Date;
   /** Gets or sets the date time of when the {@link DeviceShare} was created. */
   dateTime: Date;
+  /** Gets or sets the {@link DeviceShare.Device} to populate Device created from DeviceShare. */
+  device: Device;
   /** Gets or sets the {@link DevicePlan} for this DeviceShare. */
   devicePlan: DevicePlan;
   /** Gets or sets the {@link DeviceShare.DevicePlanBillingInfo} of this DeviceShare. */
   devicePlanBillingInfo: DevicePlanBillingInfo;
+  /** Gets or sets when the {@link DeviceShare} is set to expire. */
+  expirationDateTime: Date;
   /** Gets or sets the {@link User} that last updated this DeviceShare. */
   lastUpdatedBy: User;
   /** Gets or sets the {@link Int32} id that MyAdmin associates with this {@link DeviceShare}. */
@@ -35,11 +40,15 @@ export interface DeviceShare extends NameEntityWithVersion {
   shareStatus: DeviceShareStatus;
   /** Gets or sets the {@link DeviceShareType} of this DeviceShare. */
   shareType: DeviceShareType;
+  /** Gets or sets {@link Guid} of the source database; internal use only. */
+  sourceDatabaseGuid: string;
   /**
    * Gets or sets the name of the source database for this device share. This is the database that owns the
    *  device and is allowing the sharing to occur.
    */
   sourceDatabaseName: string;
+  /** Gets or sets {@link Guid} of the target database; internal use only. */
+  targetDatabaseGuid: string;
   /**
    * Gets or sets the name of the target database for this device share. This is the database that the device's
    *  data is being shared to, and does not own the device.

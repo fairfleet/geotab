@@ -26,10 +26,13 @@ A rule is the definition of conditions that, when "violated", will generate an
 - [color](Rule.md#color)
 - [comment](Rule.md#comment)
 - [condition](Rule.md#condition)
+- [deletedDateTime](Rule.md#deleteddatetime)
 - [groups](Rule.md#groups)
 - [id](Rule.md#id)
 - [monitors](Rule.md#monitors)
 - [name](Rule.md#name)
+- [reason](Rule.md#reason)
+- [state](Rule.md#state)
 - [version](Rule.md#version)
 
 ## Properties
@@ -46,7 +49,7 @@ The events with earlier date than this date will not be reported through the not
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L26)
+[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L28)
 
 ___
 
@@ -58,7 +61,7 @@ Gets or sets end date of the Rule's notification activity period.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L28)
+[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L30)
 
 ___
 
@@ -70,7 +73,7 @@ Gets or sets the [ExceptionRuleBaseType](../README.md#exceptionrulebasetype) of 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L30)
+[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L32)
 
 ___
 
@@ -83,7 +86,7 @@ Gets or sets the [Color](Color.md) associated with this rule.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L35)
+[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L37)
 
 ___
 
@@ -95,7 +98,7 @@ Gets or sets free text field where any user information can be stored and refere
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L37)
+[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L39)
 
 ___
 
@@ -108,7 +111,19 @@ Gets or sets the hierarchical tree of [Condition](Condition.md)(s) defining
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:42](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L42)
+[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:44](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L44)
+
+___
+
+### deletedDateTime
+
+• **deletedDateTime**: `Date`
+
+**`Inherit Doc`**
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:48](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L48)
 
 ___
 
@@ -125,7 +140,7 @@ Device conditions will override devices in the assigned groups.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:49](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L49)
+[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:55](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L55)
 
 ___
 
@@ -133,7 +148,7 @@ ___
 
 • **id**: `string`
 
-Gets or sets the unique identifier for this entity. See Id.
+Gets or sets the unique identifier for this entity.
 
 #### Overrides
 
@@ -141,7 +156,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:51](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L51)
+[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:57](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L57)
 
 ___
 
@@ -153,7 +168,7 @@ Gets or sets the RuleMonitor(s).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:53](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L53)
+[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:59](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L59)
 
 ___
 
@@ -161,7 +176,7 @@ ___
 
 • **name**: `string`
 
-Gets or sets the name of the rule entity that uniquely identifies it and is used when displaying this entity.
+Gets or sets the name of this entity which identifies it and is used when displaying this entity.
 
 #### Overrides
 
@@ -169,7 +184,31 @@ Gets or sets the name of the rule entity that uniquely identifies it and is used
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:55](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L55)
+[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:61](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L61)
+
+___
+
+### reason
+
+• **reason**: [`ExceptionRuleReason`](ExceptionRuleReason.md)
+
+Gets or sets the [ExceptionRuleReason](ExceptionRuleReason.md) of the exception rule.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:63](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L63)
+
+___
+
+### state
+
+• **state**: [`ExceptionRuleState`](ExceptionRuleState.md)
+
+Gets or sets the [ExceptionRuleState](ExceptionRuleState.md) of the exception rule.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Exceptions/Rule.ts:65](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Exceptions/Rule.ts#L65)
 
 ___
 
@@ -185,4 +224,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)

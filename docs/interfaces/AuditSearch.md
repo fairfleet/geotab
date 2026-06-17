@@ -14,15 +14,29 @@ The object used to specify the arguments when searching [Audit](Audit.md) entrie
 
 ### Properties
 
+- [excludeSystemLog](AuditSearch.md#excludesystemlog)
 - [fromDate](AuditSearch.md#fromdate)
 - [id](AuditSearch.md#id)
 - [keywords](AuditSearch.md#keywords)
 - [name](AuditSearch.md#name)
 - [toDate](AuditSearch.md#todate)
 - [userName](AuditSearch.md#username)
+- [userNames](AuditSearch.md#usernames)
 - [version](AuditSearch.md#version)
 
 ## Properties
+
+### excludeSystemLog
+
+• **excludeSystemLog**: `boolean`
+
+Gets or sets a value indicating whether to exclude system log entries from the search.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AuditSearch.ts#L10)
+
+___
 
 ### fromDate
 
@@ -32,7 +46,7 @@ Gets or sets search for audit entries that were recorded at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AuditSearch.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/AuditSearch.ts#L10)
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AuditSearch.ts#L12)
 
 ___
 
@@ -48,7 +62,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -60,7 +74,7 @@ Gets or sets search for entities that contain specific keywords in all wildcard 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AuditSearch.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/AuditSearch.ts#L12)
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AuditSearch.ts#L14)
 
 ___
 
@@ -72,7 +86,7 @@ Gets or sets search for audit entries with this Name. Wildcard can be used by pr
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AuditSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/AuditSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AuditSearch.ts#L16)
 
 ___
 
@@ -84,7 +98,7 @@ Gets or sets search for audit entries that were recorded before this date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AuditSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/AuditSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AuditSearch.ts#L18)
 
 ___
 
@@ -96,7 +110,19 @@ Gets or sets search for audit entries with this User Name. Wildcard can be used 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AuditSearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/AuditSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AuditSearch.ts#L20)
+
+___
+
+### userNames
+
+• **userNames**: `string`[]
+
+Gets or sets search for audit entries with this User Name list.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AuditSearch.ts#L22)
 
 ___
 
@@ -112,4 +138,4 @@ Gets or sets the row version of the [Audit](Audit.md) search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AuditSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/AuditSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/AuditSearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AuditSearch.ts#L24)

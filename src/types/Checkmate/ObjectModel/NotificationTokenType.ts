@@ -33,4 +33,10 @@ export type NotificationTokenType =
   | "Vin"
   | "Zone"
   | "ZoneComment"
-  | "ZoneId";
+  | "ZoneId"
+  | "RecipientName"
+  | "DriverContactNumber"
+  | "ServerName"
+  | "ExceptionEventLink"
+  | "AssignDriverLink"
+  | "DriverContactLink";

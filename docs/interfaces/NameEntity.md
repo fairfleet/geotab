@@ -10,15 +10,15 @@ An [Entity](Entity.md) that has a name field.
 
   ↳ **`NameEntity`**
 
-  ↳↳ [`Dashboard`](Dashboard.md)
+  ↳↳ [`CoachingSessionState`](CoachingSessionState.md)
+
+  ↳↳ [`CustomReportSchedule`](CustomReportSchedule.md)
 
   ↳↳ [`DataModeType`](DataModeType.md)
 
   ↳↳ [`DistributionList`](DistributionList.md)
 
   ↳↳ [`EngineType`](EngineType.md)
-
-  ↳↳ [`FailureMode`](FailureMode.md)
 
   ↳↳ [`FlashCode`](FlashCode.md)
 
@@ -34,9 +34,11 @@ An [Entity](Entity.md) that has a name field.
 
   ↳↳ [`EventRule`](EventRule.md)
 
-  ↳↳ [`EventType`](EventType.md)
-
   ↳↳ [`ExceptionEventState`](ExceptionEventState.md)
+
+  ↳↳ [`ExceptionRuleReason`](ExceptionRuleReason.md)
+
+  ↳↳ [`ExceptionRuleState`](ExceptionRuleState.md)
 
   ↳↳ [`Group`](Group.md)
 
@@ -44,15 +46,19 @@ An [Entity](Entity.md) that has a name field.
 
   ↳↳ [`HosRulesetConfig`](HosRulesetConfig.md)
 
+  ↳↳ [`MediaTriggerSettings`](MediaTriggerSettings.md)
+
   ↳↳ [`MimeTaskType`](MimeTaskType.md)
 
   ↳↳ [`NameEntityWithVersion`](NameEntityWithVersion.md)
 
   ↳↳ [`NotificationBinaryFile`](NotificationBinaryFile.md)
 
+  ↳↳ [`ReportTag`](ReportTag.md)
+
   ↳↳ [`ReportTemplate`](ReportTemplate.md)
 
-  ↳↳ [`Widget`](Widget.md)
+  ↳↳ [`ShareableLinkState`](ShareableLinkState.md)
 
   ↳↳ [`WorkHoliday`](WorkHoliday.md)
 
@@ -81,7 +87,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -89,8 +95,8 @@ ___
 
 • **name**: `string`
 
-Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity.
+Gets or sets the name of this entity which identifies it and is used when displaying this entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)
+[src/types/Checkmate/ObjectModel/NameEntity.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NameEntity.ts#L10)

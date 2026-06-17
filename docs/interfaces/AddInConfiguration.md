@@ -2,12 +2,14 @@
 
 # Interface: AddInConfiguration
 
-Represents populated MyGeotab addin with configuration.
+Represents populated Add-In with configuration.
 
 ## Table of contents
 
 ### Properties
 
+- [customSecurityIds](AddInConfiguration.md#customsecurityids)
+- [dataPermissions](AddInConfiguration.md#datapermissions)
 - [enableViewSecurityId](AddInConfiguration.md#enableviewsecurityid)
 - [files](AddInConfiguration.md#files)
 - [installCallbackUrl](AddInConfiguration.md#installcallbackurl)
@@ -26,15 +28,39 @@ Represents populated MyGeotab addin with configuration.
 
 ## Properties
 
+### customSecurityIds
+
+• **customSecurityIds**: `unknown`[]
+
+Gets or sets an array of CustomSecurityId that are added to the list of features available when editing clearances.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:8](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L8)
+
+___
+
+### dataPermissions
+
+• **dataPermissions**: `unknown`[]
+
+Gets or sets the Data Permissions (i.e. collection of authorizations and consents) if exists.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L10)
+
+___
+
 ### enableViewSecurityId
 
 • **enableViewSecurityId**: `boolean`
 
-Gets or sets a value indicating whether addin is going to setup the securityIds for viewing support.
+Gets or sets a value indicating whether Add-In is going to setup the securityIds for viewing support.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:8
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L12)
 
 ___
 
@@ -42,11 +68,11 @@ ___
 
 • **files**: `any`
 
-Gets or sets the add-in files.
+Gets or sets custom pages and/or buttons (Embedded code).
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:10
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L14)
 
 ___
 
@@ -54,11 +80,11 @@ ___
 
 • **installCallbackUrl**: `string`
 
-Gets or sets if the install callback URL.
+Gets or sets the install callback URL.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:12
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L16)
 
 ___
 
@@ -66,23 +92,23 @@ ___
 
 • **isSigned**: `boolean`
 
-Gets or sets a value indicating whether the add-in is signed.
+Gets or sets a value indicating whether the Add-In is signed.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:14
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L18)
 
 ___
 
 ### items
 
-• **items**: `any`[]
+• **items**: `unknown`[]
 
-Gets or sets the add-in items.
+Gets or sets an array of custom pages and/or buttons (External references).
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:16
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L20)
 
 ___
 
@@ -90,11 +116,12 @@ ___
 
 • **key**: `string`
 
-Gets or sets the add-in key.
+Gets or sets the unique MyGeotab Marketplace Add-In key assigned by Geotab.
+ If there’s no plan to get your Add-In to the Marketplace, you can leave out the key/value pair from the configuration.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:18
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L25)
 
 ___
 
@@ -102,11 +129,11 @@ ___
 
 • **name**: `string`
 
-Gets or sets addi-n name.
+Gets or sets the name of this Add-In.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:20
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L27)
 
 ___
 
@@ -114,11 +141,11 @@ ___
 
 • **onShutdown**: `boolean`
 
-Gets or sets a value indicating whether addin is executed upon log out within the Drive App
+Gets or sets a value indicating whether Add-In is executed upon log out within the Drive App.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:22
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L29)
 
 ___
 
@@ -126,11 +153,11 @@ ___
 
 • **onStartup**: `boolean`
 
-Gets or sets a value indicating whether addin is executed initially on start up within the Drive App
+Gets or sets a value indicating whether Add-In is executed initially on start up within the Drive App.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:24
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:31](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L31)
 
 ___
 
@@ -138,11 +165,11 @@ ___
 
 • **securityIds**: `unknown`[]
 
-Gets or sets addin SecurityIds
+Gets or sets an array of CustomSecurityIdDefinition that are added to the list of features available when editing clearances.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:26
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L33)
 
 ___
 
@@ -150,11 +177,11 @@ ___
 
 • **signature**: `string`
 
-Gets or sets the add-in signature.
+Gets or sets the digital signature of the Add-In.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:28
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:35](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L35)
 
 ___
 
@@ -162,11 +189,11 @@ ___
 
 • **solutionId**: `string`
 
-Gets or sets add-in ID.
+Gets or sets the Add-In solution Id.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:30
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L37)
 
 ___
 
@@ -174,11 +201,11 @@ ___
 
 • **supportEmail**: `string`
 
-Gets or sets the support email.
+Gets or sets the email address for support related to this Add-In.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:32
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L39)
 
 ___
 
@@ -186,11 +213,11 @@ ___
 
 • **uninstallCallbackUrl**: `string`
 
-Gets or sets if the add-in uninstall callback URL.
+Gets or sets the uninstall callback URL.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:34
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L41)
 
 ___
 
@@ -198,8 +225,8 @@ ___
 
 • **version**: `string`
 
-Gets or sets the add-in version.
+Gets or sets the Add-In application version.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:36
+[src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AddIns/AddInConfiguration.ts#L43)

@@ -31,7 +31,7 @@ Gets or sets the UTC date and time of the upper limit date for processing.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts:11
+[src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts#L11)
 
 ___
 
@@ -43,7 +43,7 @@ Gets or sets the type of snapshot that was processed.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts:13
+[src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts#L13)
 
 ___
 
@@ -55,7 +55,7 @@ Gets or sets the [Device](Device.md).
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts:15
+[src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts#L15)
 
 ___
 
@@ -67,7 +67,7 @@ Gets or sets the UTC date and time of the most recent processed date.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts:17
+[src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts#L17)
 
 ___
 
@@ -83,7 +83,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -95,4 +95,4 @@ Gets or sets a value indicating whether processing is completed.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts:19
+[src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Processing/BackfillStatus.ts#L19)

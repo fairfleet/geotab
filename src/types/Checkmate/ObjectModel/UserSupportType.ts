@@ -3,4 +3,8 @@
 //     the code is regenerated.
 
 /** A type of {@link User} support contact. User contact can be call, training or procurement support */
-export type UserSupportType = "Call" | "Training" | "Procurement";
+export type UserSupportType =
+  | "Call"
+  | "Training"
+  | "Procurement"
+  | "EmissionsReporting";

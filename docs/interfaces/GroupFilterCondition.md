@@ -20,6 +20,7 @@ GroupFilterCondition model the logic that govern a [GroupFilter](GroupFilter.md)
 - [groupId](GroupFilterCondition.md#groupid)
 - [id](GroupFilterCondition.md#id)
 - [includeGroups](GroupFilterCondition.md#includegroups)
+- [isNegated](GroupFilterCondition.md#isnegated)
 - [parent](GroupFilterCondition.md#parent)
 - [relation](GroupFilterCondition.md#relation)
 - [version](GroupFilterCondition.md#version)
@@ -34,7 +35,7 @@ Gets or sets the groups.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupFilterCondition.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupFilterCondition.ts#L15)
+[src/types/Checkmate/ObjectModel/GroupFilterCondition.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/GroupFilterCondition.ts#L15)
 
 ___
 
@@ -46,7 +47,7 @@ Gets or sets Parent.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupFilterCondition.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupFilterCondition.ts#L17)
+[src/types/Checkmate/ObjectModel/GroupFilterCondition.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/GroupFilterCondition.ts#L17)
 
 ___
 
@@ -58,7 +59,7 @@ Gets or sets group id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupFilterCondition.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupFilterCondition.ts#L19)
+[src/types/Checkmate/ObjectModel/GroupFilterCondition.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/GroupFilterCondition.ts#L19)
 
 ___
 
@@ -74,7 +75,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -86,7 +87,20 @@ Gets or sets IncludeGroups for ZoneSearch only.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupFilterCondition.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupFilterCondition.ts#L21)
+[src/types/Checkmate/ObjectModel/GroupFilterCondition.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/GroupFilterCondition.ts#L21)
+
+___
+
+### isNegated
+
+• **isNegated**: `boolean`
+
+Gets or sets a value indicating whether Not filter is applied to nested property GroupFilterConditions or single group GroupId.
+ If true, entities in specified groups or nested groupFilterConditions will be excluded from the search results.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/GroupFilterCondition.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/GroupFilterCondition.ts#L26)
 
 ___
 
@@ -98,7 +112,7 @@ Gets or sets Parent.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupFilterCondition.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupFilterCondition.ts#L23)
+[src/types/Checkmate/ObjectModel/GroupFilterCondition.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/GroupFilterCondition.ts#L28)
 
 ___
 
@@ -110,7 +124,7 @@ Gets or sets how to search the group relations.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/GroupFilterCondition.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/GroupFilterCondition.ts#L25)
+[src/types/Checkmate/ObjectModel/GroupFilterCondition.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/GroupFilterCondition.ts#L30)
 
 ___
 
@@ -126,4 +140,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

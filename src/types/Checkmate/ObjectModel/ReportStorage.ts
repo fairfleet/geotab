@@ -22,6 +22,8 @@ export interface ReportStorage extends EntityWithVersion {
    *  This property is updated periodically like a heart beat when a report is getting processed by the service.
    */
   lastUpdated: Date;
+  /** Gets or sets a {@link DateTime} of when the report started processing. */
+  processingStartDate: Date;
   /** Gets or sets the reports date range. */
   reportDateRange: DateRange;
   /** Gets or sets the name of the report. */
@@ -34,4 +36,6 @@ export interface ReportStorage extends EntityWithVersion {
   size: number;
   /** Gets or sets the current status of the report which is being prepared, completed or failed {@link ReportProcessingStatus}. */
   status: ReportProcessingStatus;
+  /** Gets or sets a Trace ID of the request to generate this report. */
+  traceId: string;
 }

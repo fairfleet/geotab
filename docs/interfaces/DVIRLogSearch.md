@@ -17,6 +17,7 @@ The object used to specify the arguments when searching for [DVIRLog](DVIRLog.md
 - [certifiedBySearch](DVIRLogSearch.md#certifiedbysearch)
 - [defectSearch](DVIRLogSearch.md#defectsearch)
 - [deviceSearch](DVIRLogSearch.md#devicesearch)
+- [dvirDefectId](DVIRLogSearch.md#dvirdefectid)
 - [fromDate](DVIRLogSearch.md#fromdate)
 - [id](DVIRLogSearch.md#id)
 - [includeBoundaryLogs](DVIRLogSearch.md#includeboundarylogs)
@@ -48,7 +49,7 @@ Gets or sets search for DVIRLogs certified by a [User](User.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L21)
 
 ___
 
@@ -63,7 +64,7 @@ Gets or sets search for DVIRLogs that are a member of these defect [Group](Group
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L28)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L28)
 
 ___
 
@@ -79,7 +80,21 @@ Gets or sets filter by the [DeviceSearch](DeviceSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:36](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L36)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:36](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L36)
+
+___
+
+### dvirDefectId
+
+• **dvirDefectId**: `string`
+
+Gets or sets search for [DVIRDefect](DVIRDefect.md)s that match the specified Ids.
+ This is used to filter the DVIRLogs based on the defects they contain.
+ The DVIRDefects are matched based on the DVIRDefect.Id.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:42](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L42)
 
 ___
 
@@ -91,7 +106,7 @@ Gets or sets search for DVIRLogs that were recorded at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:38](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L38)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:44](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L44)
 
 ___
 
@@ -107,7 +122,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -120,7 +135,7 @@ Gets or sets search for DVIRLogs and include boundary logs outside the from and 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:43](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L43)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:49](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L49)
 
 ___
 
@@ -132,7 +147,7 @@ Gets or sets search for DVIRLogs and include logs that have been marked as rejec
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:45](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L45)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:51](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L51)
 
 ___
 
@@ -144,7 +159,7 @@ Gets or sets search for DVIRLogs that have been certified (DVIRLog.CertifyDate i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:47](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L47)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:53](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L53)
 
 ___
 
@@ -156,7 +171,7 @@ Gets or sets search for DVIRLogs that have. DVIRLog.Defects
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:49](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L49)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:55](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L55)
 
 ___
 
@@ -168,7 +183,7 @@ Gets or sets search for DVIRLogs that have been repaired (DVIRLog.RepairDate is 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:51](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L51)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:57](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L57)
 
 ___
 
@@ -180,7 +195,7 @@ Gets or sets search for DVIRLogs which are safe or are not safe to operate.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:53](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L53)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:59](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L59)
 
 ___
 
@@ -192,7 +207,7 @@ Gets or sets search for [DVIRLog](DVIRLog.md)s that match the specified [DVIRLog
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:55](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L55)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:61](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L61)
 
 ___
 
@@ -207,7 +222,7 @@ Gets or sets
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:62](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L62)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:68](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L68)
 
 ___
 
@@ -222,7 +237,7 @@ Gets or sets
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:69](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L69)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:75](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L75)
 
 ___
 
@@ -236,7 +251,7 @@ Gets or sets search to populate. [DVIRLogType](../README.md#dvirlogtype)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:75](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L75)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:81](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L81)
 
 ___
 
@@ -250,7 +265,7 @@ Gets or sets search for DVIRLogs repaired by a [User](User.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:81](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L81)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:87](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L87)
 
 ___
 
@@ -262,7 +277,7 @@ Gets or sets search for DVIRLogs have a match to this. [DefectRemark](DefectRema
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:83](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L83)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:89](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L89)
 
 ___
 
@@ -274,7 +289,7 @@ Gets or sets search for DVIRLogs that were recorded at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:85](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L85)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:91](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L91)
 
 ___
 
@@ -290,7 +305,7 @@ Gets or sets filter by the [TrailerSearch](TrailerSearch.md) options. Providing 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:93](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L93)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:99](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L99)
 
 ___
 
@@ -304,7 +319,7 @@ Gets or sets search for DVIRLogs with this [UserSearch](UserSearch.md) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:99](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L99)
+[src/types/Checkmate/ObjectModel/DVIRLogSearch.ts:105](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DVIRLogSearch.ts#L105)
 
 ___
 
@@ -320,4 +335,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

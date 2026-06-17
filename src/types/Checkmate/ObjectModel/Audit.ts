@@ -15,6 +15,9 @@ export interface Audit extends NameEntityWithVersion {
   name: string;
   /** Gets or sets the {@link User} the audit is in reference to. */
   user: User;
-  /** Gets or sets the name of the user associated with the audit entry. */
+  /**
+   * Gets or sets the name of the user associated with the audit entry.
+   *  Specifies the non-empty, validated myg user name for display in MyGeotab reports. Defaults to the authenticated account if null or blank.
+   */
   userName: string;
 }

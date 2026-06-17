@@ -15,4 +15,6 @@ export type NotificationType =
   | "ApplicationNotificationForAdmins"
   | "MaintenanceNotification"
   | "DeviceShareNotification"
-  | "Report";
+  | "Report"
+  | "SimpleEmailNotification"
+  | "MediaRequestNotification";

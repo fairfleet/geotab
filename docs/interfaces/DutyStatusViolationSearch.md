@@ -18,7 +18,9 @@ The object used to specify the arguments when searching for
 
 - [fromDate](DutyStatusViolationSearch.md#fromdate)
 - [id](DutyStatusViolationSearch.md#id)
+- [includeDeleted](DutyStatusViolationSearch.md#includedeleted)
 - [toDate](DutyStatusViolationSearch.md#todate)
+- [type](DutyStatusViolationSearch.md#type)
 - [userSearch](DutyStatusViolationSearch.md#usersearch)
 - [version](DutyStatusViolationSearch.md#version)
 
@@ -32,7 +34,7 @@ Gets or sets search for duty status violations that were recorded at this date o
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts#L15)
+[src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts#L16)
 
 ___
 
@@ -48,7 +50,19 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts#L18)
+
+___
+
+### includeDeleted
+
+• **includeDeleted**: `boolean`
+
+Gets or sets a value indicating whether to include deleted duty status violations in the search results.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts#L20)
 
 ___
 
@@ -60,7 +74,19 @@ Gets or sets search for duty status violations that were recorded at this date o
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts#L19)
+[src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts#L22)
+
+___
+
+### type
+
+• **type**: [`DutyStatusViolationType`](../README.md#dutystatusviolationtype)
+
+Gets or sets the [DutyStatusViolationType](../README.md#dutystatusviolationtype) of the duty status violation.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts#L24)
 
 ___
 
@@ -74,7 +100,7 @@ Gets or sets search for duty status violations with this [UserSearch](UserSearch
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts#L25)
+[src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolationSearch.ts#L30)
 
 ___
 
@@ -90,4 +116,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

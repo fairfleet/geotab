@@ -15,6 +15,8 @@ export interface GroupDeviceSearch extends Search {
    *  <list><item><description>Id</description></item><item><description>Groups</description></item></list>
    */
   deviceSearch: DeviceSearch;
+  /** Gets or sets the exclusive from date. */
+  exclusiveFromDate: Date;
   /** Gets or sets the from date, which is used to search for {@link GroupLinkedEntity`1} links from on or after this date. */
   fromDate: Date;
   /** Gets or sets the to date, which is used to search for {@link GroupLinkedEntity`1} links from on or before this date. */

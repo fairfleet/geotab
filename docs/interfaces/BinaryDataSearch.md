@@ -15,9 +15,11 @@ The object used to specify the arguments when searching for [BinaryData](BinaryD
 ### Properties
 
 - [binaryDataType](BinaryDataSearch.md#binarydatatype)
+- [controllerSearch](BinaryDataSearch.md#controllersearch)
 - [deviceSearch](BinaryDataSearch.md#devicesearch)
 - [fromDate](BinaryDataSearch.md#fromdate)
 - [id](BinaryDataSearch.md#id)
+- [onlyMostRecentDeviceAndController](BinaryDataSearch.md#onlymostrecentdeviceandcontroller)
 - [toDate](BinaryDataSearch.md#todate)
 - [version](BinaryDataSearch.md#version)
 
@@ -31,7 +33,22 @@ Gets or sets search for BinaryData that has this [BinaryDataType](../README.md#b
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L12)
+[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L13)
+
+___
+
+### controllerSearch
+
+• **controllerSearch**: [`ControllerSearch`](ControllerSearch.md)
+
+Gets or sets the search options which are used to search for binary data for a controller
+ BinaryDataSearch.ControllerSearch
+ by Id and protocol's Id. Available ControllerSearch options are:.
+ <list><item><description>Id</description></item><item><description>SourceSearch.Id</description></item></list>
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L20)
 
 ___
 
@@ -47,7 +64,7 @@ Gets or sets filter by the [DeviceSearch](DeviceSearch.md) options. Providing a 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L28)
 
 ___
 
@@ -59,7 +76,7 @@ Gets or sets search for BinaryData records that were logged at this date or afte
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L30)
 
 ___
 
@@ -75,7 +92,19 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
+
+___
+
+### onlyMostRecentDeviceAndController
+
+• **onlyMostRecentDeviceAndController**: `boolean`
+
+Gets or sets search for most rececennt BinaryData grouped by Device and Controller.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L32)
 
 ___
 
@@ -87,7 +116,7 @@ Gets or sets search for BinaryData records that were logged at this date or befo
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:34](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L34)
 
 ___
 
@@ -105,4 +134,4 @@ Gets or sets the row version of the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L30)
+[src/types/Checkmate/ObjectModel/BinaryDataSearch.ts:40](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/BinaryDataSearch.ts#L40)

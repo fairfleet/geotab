@@ -5,14 +5,12 @@
 import { NameEntity } from "./NameEntity";
 
 /**
- *  A unique identifier for different types of {@link MimeTask}s that are executed
+ * A unique identifier for different types of {@link MimeTask}s that are executed
  *  for additional {@link MimeContent} processing.
- *
- * @deprecated
  */
 export interface MimeTaskType extends NameEntity {
-  /** Gets or sets the unique identifier for this entity. See {@link Id}. */
+  /** Gets or sets the unique identifier for this entity. */
   id: string;
-  /** Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity. */
+  /** Gets or sets the name of this entity which identifies it and is used when displaying this entity. */
   name: string;
 }

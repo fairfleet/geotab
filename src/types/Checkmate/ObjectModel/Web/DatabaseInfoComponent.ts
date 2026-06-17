@@ -11,4 +11,5 @@ export type DatabaseInfoComponent =
   | "LastUserAccessReadMillis"
   | "DatabaseLocationMillis"
   | "UploaderStatsMillis"
-  | "OutsideComponentsMillis";
+  | "OutsideComponentsMillis"
+  | "RecentlyConnectedDevices";

@@ -41,4 +41,6 @@ export type DatabaseMaintenancePeriod =
   | "FiveDays"
   | "SixDays"
   | "FourYears"
-  | "EightYears";
+  | "EightYears"
+  | "FiveYears"
+  | "TenYears";

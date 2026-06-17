@@ -7,7 +7,7 @@ The Failure Mode Identifier (FMI) used to describe engine fault
 
 ## Hierarchy
 
-- [`NameEntity`](NameEntity.md)
+- [`NameEntityWithVersion`](NameEntityWithVersion.md)
 
   ↳ **`FailureMode`**
 
@@ -19,6 +19,7 @@ The Failure Mode Identifier (FMI) used to describe engine fault
 - [id](FailureMode.md#id)
 - [name](FailureMode.md#name)
 - [source](FailureMode.md#source)
+- [version](FailureMode.md#version)
 
 ## Properties
 
@@ -30,7 +31,7 @@ Gets or sets the specific FMI code number.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L14)
+[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L14)
 
 ___
 
@@ -42,11 +43,11 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Overrides
 
-[NameEntity](NameEntity.md).[id](NameEntity.md#id)
+[NameEntityWithVersion](NameEntityWithVersion.md).[id](NameEntityWithVersion.md#id)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L16)
+[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L16)
 
 ___
 
@@ -54,15 +55,15 @@ ___
 
 • **name**: `string`
 
-Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity.
+Gets or sets the name of this entity which identifies it and is used when displaying this entity.
 
 #### Overrides
 
-[NameEntity](NameEntity.md).[name](NameEntity.md#name)
+[NameEntityWithVersion](NameEntityWithVersion.md).[name](NameEntityWithVersion.md#name)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L18)
+[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L18)
 
 ___
 
@@ -74,4 +75,20 @@ Gets or sets the [Source](Source.md) type for the FMI.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L20)
+[src/types/Checkmate/ObjectModel/Engine/FailureMode.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Engine/FailureMode.ts#L20)
+
+___
+
+### version
+
+• **version**: `number`
+
+Gets or sets the version of the entity.
+
+#### Inherited from
+
+[NameEntityWithVersion](NameEntityWithVersion.md).[version](NameEntityWithVersion.md#version)
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NameEntityWithVersion.ts#L10)

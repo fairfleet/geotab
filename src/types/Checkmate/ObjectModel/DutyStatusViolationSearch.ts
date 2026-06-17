@@ -3,6 +3,7 @@
 //     the code is regenerated.
 
 import { Search } from "./Search";
+import { DutyStatusViolationType } from "./DutyStatusViolationType";
 import { UserSearch } from "./UserSearch";
 
 /**
@@ -15,8 +16,12 @@ export interface DutyStatusViolationSearch extends Search {
   fromDate: Date;
   /** Gets or sets search for an entry based on the specific {@link Id}. */
   id: string;
+  /** Gets or sets a value indicating whether to include deleted duty status violations in the search results. */
+  includeDeleted: boolean;
   /** Gets or sets search for duty status violations that were recorded at this date or before. */
   toDate: Date;
+  /** Gets or sets the {@link DutyStatusViolationType} of the duty status violation. */
+  type: DutyStatusViolationType;
   /**
    * Gets or sets search for duty status violations with this {@link UserSearch}.
    *  Available UserSearch options are:.

@@ -6,14 +6,20 @@ import { EntityWithVersion } from "../EntityWithVersion";
 import { Device } from "../Device";
 import { FuelUpEventConfidences } from "./FuelUpEventConfidences";
 
-/** Log of fueling events. */
+/** An event representing fuel used for a vehicle. */
 export interface FuelUsed extends EntityWithVersion {
-  /** Gets or sets the confidence associated with the FuelUsage record. */
+  /** Gets or sets the {@link FuelUpEventConfidences} associated with the fuel used record. */
   confidence: FuelUpEventConfidences;
-  /** Gets or sets the UTC date and time of the transaction. */
+  /** Gets or sets the UTC date and time of the entity. */
   dateTime: Date;
-  /** Gets or sets the StatusData for the {@link Device} specified. */
+  /**
+   * @inheritdoc
+   */
+  deletedDateTime: Date;
+  /** Gets or sets the {@link Device} associated with the entity. */
   device: Device;
-  /** Gets or sets the volume of fuel purchased in Liters. Default [0]. */
+  /** Gets or sets the volume of fuel used in Liters. Default [0]. */
   totalFuelUsed: number;
+  /** Gets or sets the volume of idling fuel used in Liters. Default [null]. */
+  totalIdlingFuelUsedL: number;
 }

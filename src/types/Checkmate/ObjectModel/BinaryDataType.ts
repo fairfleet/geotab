@@ -22,4 +22,7 @@ export type BinaryDataType =
   | "VariableEngineDataSnapshot"
   | "ThirdPartyData"
   | "ProximityCardEccKey"
-  | "ReservationId";
+  | "ReservationId"
+  | "SystemComponentStatus"
+  | "TachographAuthData"
+  | "TachographFile";

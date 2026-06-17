@@ -18,6 +18,7 @@ The object used to specify the arguments when searching for [MimeTask](MimeTask.
 - [id](MimeTaskSearch.md#id)
 - [isComplete](MimeTaskSearch.md#iscomplete)
 - [mimeTaskType](MimeTaskSearch.md#mimetasktype)
+- [mimeTaskTypes](MimeTaskSearch.md#mimetasktypes)
 - [toDate](MimeTaskSearch.md#todate)
 - [version](MimeTaskSearch.md#version)
 
@@ -31,7 +32,7 @@ Gets or sets search for mime tasks that were recorded at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L11)
+[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L11)
 
 ___
 
@@ -47,7 +48,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -59,7 +60,7 @@ Gets or sets a value indicating whether the task is completed.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L13)
+[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L13)
 
 ___
 
@@ -67,11 +68,23 @@ ___
 
 • **mimeTaskType**: [`MimeTaskType`](MimeTaskType.md)
 
-Gets or sets search for mime tasks of a specific type (application/mdf4, etc). See MimeTaskSearch.MimeTaskType.
+Gets or sets search for mime tasks of a specific type (application/mdf4, automotive/*, etc). See MimeTaskSearch.MimeTaskType.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L15)
+[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L15)
+
+___
+
+### mimeTaskTypes
+
+• **mimeTaskTypes**: [`MimeTaskType`](MimeTaskType.md)[]
+
+Gets or sets search for mime tasks in a list of types (application/mdf4, automotive/*, etc). See MimeTaskSearch.MimeTaskTypes.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L17)
 
 ___
 
@@ -83,7 +96,7 @@ Gets or sets search for mime tasks that were recorded before this date.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/MimeTaskSearch.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/MimeTaskSearch.ts#L19)
 
 ___
 
@@ -99,4 +112,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

@@ -8,13 +8,13 @@ import { FuelUpEventConfidences } from "./FuelUpEventConfidences";
 
 /** Log of fueling events. */
 export interface FuelEvent extends EntityWithVersion {
-  /** Gets or sets the confidence associated with the Fuel record. */
+  /** Gets or sets the {@link FuelUpEventConfidences} associated with the Fuel record. Default [None]. */
   confidence: FuelUpEventConfidences;
   /** Gets or sets the cost of the fuel transaction. Default [0]. */
   cost: number;
   /** Gets or sets the three digit ISO 427 currency code (http://www.xe.com/iso4217.php). Default ["USD"]. */
   currencyCode: string;
-  /** Gets or sets the UTC date and time of the transaction. */
+  /** Gets or sets the UTC date and time of the fuel event. */
   dateTime: Date;
   /** Gets or sets the {@link Coordinate} of the transaction retailer. Default [0,0]. */
   location: unknown;

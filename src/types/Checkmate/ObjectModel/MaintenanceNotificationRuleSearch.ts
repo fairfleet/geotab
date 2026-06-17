@@ -8,7 +8,7 @@ import { Search } from "./Search";
  *  The object used to specify the arguments when searching for {@link IoxAddOn}(s).
  */
 export interface MaintenanceNotificationRuleSearch extends Search {
-  /** Gets or sets the EventRule {@link EventRule} to search by&gt;. */
+  /** Gets or sets the EventRule {@link MaintenanceSchedule} to search by&gt;. */
   eventRuleId: string;
   /** Gets or sets the Recipient {@link Recipient} to search by&gt;. */
   recipientId: string;

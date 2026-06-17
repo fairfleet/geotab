@@ -5,6 +5,7 @@
 import { Search } from "../Search";
 import { DeviceSearch } from "../DeviceSearch";
 import { UserSearch } from "../UserSearch";
+import { TagSearch } from "../TagSearch";
 
 /** The object used to specify the arguments when searching for {@link MediaFile}. This will return the data describing a file, not the actual file. */
 export interface MediaFileSearch extends Search {
@@ -28,6 +29,14 @@ export interface MediaFileSearch extends Search {
   maxVersion: number;
   /** Gets or sets search for MediaFile records at or after this version. */
   minVersion: number;
+  /** Gets or sets search for MediaFile records with this SolutionId. */
+  solutionId: string;
+  /**
+   * Gets or sets search for MediaFile with this {@link MediaFileSearch.TagSearch}.
+   *  Available TagSearch options are:.
+   *  <list><item><description>Id</description></item><item><description>TagIds</description></item></list>
+   */
+  tagSearch: TagSearch;
   /** Gets or sets search for MediaFile records at this date or before. Includes overlapping dates. */
   toDate: Date;
 }

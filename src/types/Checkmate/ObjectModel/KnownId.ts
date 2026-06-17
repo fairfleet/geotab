@@ -3,6 +3,68 @@
 //     the code is regenerated.
 
 export enum KnownId {
+  /** Gets the diagnostic ID for J1939 fault diagnostic data. */
+  J1939FaultDiagnosticId = "J1939FaultDiagnosticId",
+  /** Gets the diagnostic ID for OBD-II fault diagnostic data. */
+  ObdiiFaultDiagnosticId = "ObdiiFaultDiagnosticId",
+  /** Gets the diagnostic ID for generic GO fault diagnostic data. */
+  GenericFaultDiagnosticId = "GenericFaultDiagnosticId",
+  /** Gets the diagnostic ID for J1708 fault diagnostic data. */
+  J1708FaultDiagnosticId = "J1708FaultDiagnosticId",
+  /** Gets the FAKE temporary diagnostic ID for legacy enhanced fault records. Do not use in production. */
+  FakeDiagnosticLegacyFaultRecordId = "FakeDiagnosticLegacyFaultRecordId",
+  /** Gets the diagnostic ID for OBD-WWH enhanced fault records. */
+  WwhObdFaultDiagnosticId = "WwhObdFaultDiagnosticId",
+  /** Gets the FAKE temporary diagnostic ID for proprietary enhanced fault records. Do not use in production. */
+  FakeDiagnosticProprietaryFaultRecordId = "FakeDiagnosticProprietaryFaultRecordId",
+  /** Gets the FAKE temporary diagnostic ID for GMCCC enhanced fault records. Do not use in production. */
+  FakeDiagnosticGmcccFaultRecordId = "FakeDiagnosticGmcccFaultRecordId",
+  /** Gets the FAKE temporary diagnostic ID for BRP enhanced fault records. Do not use in production. */
+  FakeDiagnosticBrpFaultRecordId = "FakeDiagnosticBrpFaultRecordId",
+  /** Gets the FAKE temporary diagnostic ID for LEVC enhanced fault records. Do not use in production. */
+  FakeDiagnosticLevcFaultRecordId = "FakeDiagnosticLevcFaultRecordId",
+  /** Gets the FAKE temporary diagnostic ID for J1939 fault enrichment records. Do not use in production. */
+  FakeDiagnosticJ1939FaultEnrichmentId = "FakeDiagnosticJ1939FaultEnrichmentId",
+  /** Gets the FAKE temporary diagnostic ID for Generic fault status records. Do not use in production. */
+  FakeDiagnosticGenericFaultRecordStatusId = "FakeDiagnosticGenericFaultRecordStatusId",
+  /** Gets the FAKE temporary diagnostic ID for J1939 fault status records. Do not use in production. */
+  FakeDiagnosticJ1939FaultRecordStatusId = "FakeDiagnosticJ1939FaultRecordStatusId",
+  /** Gets the FAKE temporary diagnostic ID for OBDII fault status records. Do not use in production. */
+  FakeDiagnosticObdiiFaultRecordStatusId = "FakeDiagnosticObdiiFaultRecordStatusId",
+  /** Gets the FAKE temporary diagnostic ID for Legacy fault status records. Do not use in production. */
+  FakeDiagnosticLegacyFaultRecordStatusId = "FakeDiagnosticLegacyFaultRecordStatusId",
+  /** Gets the FAKE temporary diagnostic ID for OBD-WWH fault status records. Do not use in production. */
+  FakeDiagnosticObdWwhFaultRecordStatusId = "FakeDiagnosticObdWwhFaultRecordStatusId",
+  /** Gets the FAKE temporary diagnostic ID for Proprietary fault status records. Do not use in production. */
+  FakeDiagnosticProprietaryFaultRecordStatusId = "FakeDiagnosticProprietaryFaultRecordStatusId",
+  /** Gets the FAKE temporary diagnostic ID for GMCCC fault status records. Do not use in production. */
+  FakeDiagnosticGmcccFaultRecordStatusId = "FakeDiagnosticGmcccFaultRecordStatusId",
+  /** Gets the FAKE temporary diagnostic ID for BRP fault status records. Do not use in production. */
+  FakeDiagnosticBrpFaultRecordStatusId = "FakeDiagnosticBrpFaultRecordStatusId",
+  /** Gets the FAKE temporary diagnostic ID for LEVC fault status records. Do not use in production. */
+  FakeDiagnosticLevcFaultRecordStatusId = "FakeDiagnosticLevcFaultRecordStatusId",
+  /** Gets the FAKE temporary diagnostic ID for GPS longitude data. Do not use in production. */
+  FakeDiagnosticGpsLongitudeId = "FakeDiagnosticGpsLongitudeId",
+  /** Gets the FAKE temporary diagnostic ID for GPS latitude data. Do not use in production. */
+  FakeDiagnosticGpsLatitudeId = "FakeDiagnosticGpsLatitudeId",
+  /** Gets the FAKE temporary diagnostic ID for GPS speed data. Do not use in production. */
+  FakeDiagnosticGpsSpeedId = "FakeDiagnosticGpsSpeedId",
+  /** Gets the FAKE temporary diagnostic ID for GPS ignition state. Do not use in production. */
+  FakeDiagnosticGpsIgnitionId = "FakeDiagnosticGpsIgnitionId",
+  /** Gets the FAKE temporary diagnostic ID for GPS valid flag. Do not use in production. */
+  FakeDiagnosticGpsValidId = "FakeDiagnosticGpsValidId",
+  /** Gets the FAKE temporary diagnostic ID for GPS auxiliary 1 state. Do not use in production. */
+  FakeDiagnosticGpsAuxiliary1Id = "FakeDiagnosticGpsAuxiliary1Id",
+  /** Gets the FAKE temporary diagnostic ID for GPS auxiliary 2 state. Do not use in production. */
+  FakeDiagnosticGpsAuxiliary2Id = "FakeDiagnosticGpsAuxiliary2Id",
+  /** Gets the FAKE temporary diagnostic ID for GPS auxiliary 3 state. Do not use in production. */
+  FakeDiagnosticGpsAuxiliary3Id = "FakeDiagnosticGpsAuxiliary3Id",
+  /** Gets the FAKE temporary diagnostic ID for GPS auxiliary 4 state. Do not use in production. */
+  FakeDiagnosticGpsAuxiliary4Id = "FakeDiagnosticGpsAuxiliary4Id",
+  /** Gets the FAKE temporary diagnostic ID for GPS open circuit flag. Do not use in production. */
+  FakeDiagnosticGpsOpenCircuitId = "FakeDiagnosticGpsOpenCircuitId",
+  /** Gets the FAKE temporary diagnostic ID for GPS short circuit flag. Do not use in production. */
+  FakeDiagnosticGpsShortCircuitId = "FakeDiagnosticGpsShortCircuitId",
   /** Gets the controller parking brake controller identifier. */
   ControllerParkingBrakeControllerId = "ControllerParkingBrakeControllerId",
   /** Gets the controller particulate trap system identifier. */
@@ -177,6 +239,10 @@ export enum KnownId {
   DiagnosticBluetoothCarbonDioxideConcentrationId = "DiagnosticBluetoothCarbonDioxideConcentrationId",
   /** Gets the diagnostic Bluetooth fuel level identifier. */
   DiagnosticBluetoothFuelLevelId = "DiagnosticBluetoothFuelLevelId",
+  /** Gets the diagnostic Bluetooth beacon counter identifier. */
+  DiagnosticBluetoothBeaconCounterId = "DiagnosticBluetoothBeaconCounterId",
+  /** Gets the diagnostic Bluetooth beacon state identifier. */
+  DiagnosticBluetoothBeaconStateId = "DiagnosticBluetoothBeaconStateId",
   /** Gets the diagnostic Bluetooth generic byte for identifer 230. */
   DiagnosticBluetoothGenericByte230Id = "DiagnosticBluetoothGenericByte230Id",
   /** Gets the diagnostic Bluetooth generic byte for identifer 231. */
@@ -207,6 +273,392 @@ export enum KnownId {
   DiagnosticBluetoothGenericTimer243Id = "DiagnosticBluetoothGenericTimer243Id",
   /** Gets the diagnostic Bluetooth generic timer for identifer 244. */
   DiagnosticBluetoothGenericTimer244Id = "DiagnosticBluetoothGenericTimer244Id",
+  /** Gets the securityId, Allow user to view status data. */
+  SecurityIdViewStatusDataId = "SecurityIdViewStatusDataId",
+  /** Gets the securityId, Allow user to view diagnostics. */
+  SecurityIdViewDiagnosticId = "SecurityIdViewDiagnosticId",
+  /** Gets the securityId, Allow user to view custom data. */
+  SecurityIdViewCustomDataId = "SecurityIdViewCustomDataId",
+  /** Gets the securityId, Allow user to view fault data. */
+  SecurityIdViewFaultDataId = "SecurityIdViewFaultDataId",
+  /** Gets the securityId, Allow user to view exception events. */
+  SecurityIdViewExceptionEventId = "SecurityIdViewExceptionEventId",
+  /** Gets the securityId, Allow user to view rules. */
+  SecurityIdViewRuleId = "SecurityIdViewRuleId",
+  /** Gets the securityId, Allow user to view controller. */
+  SecurityIdViewControllerId = "SecurityIdViewControllerId",
+  /** Gets the estimated battery life for Go Anywhere */
+  EstimatedBatteryLifeForGoAnywhere = "EstimatedBatteryLifeForGoAnywhere",
+  /** Gets the TelematicsDeviceBatteryLevel for Go Anywhere */
+  TelematicsDeviceBatteryLevel = "TelematicsDeviceBatteryLevel",
+  /** Gets the securityId, Allow user to view sustainability overview. */
+  SecurityIdViewSustainabilityCenterId = "SecurityIdViewSustainabilityCenterId",
+  /** Gets the rule for go anywhere battery drain. */
+  RuleGoAnywhereBatteryDrainId = "RuleGoAnywhereBatteryDrainId",
+  /** Gets the diagnostic check brake pads identifier. */
+  DiagnosticCheckBrakePadsId = "DiagnosticCheckBrakePadsId",
+  /** Gets the diagnostic general vehicle warning light identifier. */
+  DiagnosticVehicleWarningLightStatusId = "DiagnosticVehicleWarningLightStatusId",
+  /** Gets the securityId, Allow user to view live video. */
+  SecurityIdViewLiveVideoId = "SecurityIdViewLiveVideoId",
+  /** Gets the securityId, Allow user to view recorded video. */
+  SecurityIdViewRecordedVideoId = "SecurityIdViewRecordedVideoId",
+  /** Gets the securityId, Allow user to delete recorded video. */
+  SecurityIdDeleteRecordedVideoId = "SecurityIdDeleteRecordedVideoId",
+  /** Gets the rule for engine coolant temp high. */
+  RuleEngineCoolantTemperatureHighId = "RuleEngineCoolantTemperatureHighId",
+  /** Gets the {@link Id} of the AuditEntityUploadRequest */
+  AuditBigQueryUploadRequestId = "AuditEntityUploadRequestId",
+  /** Gets the {@link Id} of the BinaryDataBigQueryUploadRequest */
+  BinaryDataBigQueryUploadRequestId = "BinaryDataBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the DebugDataBigQueryUploadRequestId */
+  DebugDataBigQueryUploadRequestId = "DebugDataBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the DeviceStatusInfoBigQueryUploadRequestId */
+  DeviceStatusInfoBigQueryUploadRequestId = "DeviceStatusInfoBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the DeviceBigQueryUploadRequestId */
+  DeviceBigQueryUploadRequestId = "DeviceBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the DriverChangeEntityUploadRequestId */
+  DriverChangeEntityUploadRequestId = "DriverChangeEntityUploadRequestId",
+  /** Gets the {@link Id} of the DVIRLogBigQueryUploadRequestId */
+  DVIRLogBigQueryUploadRequestId = "DVIRLogBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the DutyStatusLogBigQueryUploadRequestId */
+  DutyStatusLogBigQueryUploadRequestId = "DutyStatusLogBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the EnergySnapshotBigQueryUploadRequestId */
+  EnergySnapshotBigQueryUploadRequestId = "EnergySnapshotBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the ExceptionEventBigQueryUploadRequestId */
+  ExceptionEventBigQueryUploadRequestId = "ExceptionEventBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the FailureModeBigQueryUploadRequest */
+  FailureModeBigQueryUploadRequestId = "FailureModeBigQueryUploadRequest",
+  /** Gets the {@link Id} of the FaultDataEntityUploadRequestId */
+  FaultDataEntityUploadRequestId = "FaultDataEntityUploadRequestId",
+  /** Gets the {@link Id} of the FuelUsedBigQueryUploadRequestId */
+  FuelUsedBigQueryUploadRequestId = "FuelUsedBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the GpsEntityUploadRequestId */
+  GpsEntityUploadRequestId = "GpsEntityUploadRequestId",
+  /** Gets the {@link Id} of the GroupBigQueryUploadRequestId */
+  GroupBigQueryUploadRequestId = "GroupBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the RuleBigQueryUploadRequest */
+  RuleBigQueryUploadRequestId = "RuleBigQueryUploadRequest",
+  /** Gets the {@link Id} of the StatusDataEntityUploadRequest */
+  StatusDataEntityUploadRequestId = "StatusDataEntityUploadRequestId",
+  /** Gets the {@link Id} of the SystemSettingsBigQueryUploadRequestId */
+  SystemSettingsBigQueryUploadRequestId = "SystemSettingsBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the UserBigQueryUploadRequest */
+  UserBigQueryUploadRequestId = "UserBigQueryUploadRequest",
+  /** Gets the {@link Id} of the ZoneBigQueryUploadRequest */
+  ZoneBigQueryUploadRequestId = "ZoneBigQueryUploadRequest",
+  /** Gets the {@link Id} of the DutyStatusLogLegacyBigQueryUploadRequestId */
+  DutyStatusLogLegacyBigQueryUploadRequestId = "DutyStatusLogLegacyUploadRequestId",
+  /** Gets the {@link Id} of the TripLegacyBigQueryUploadRequestId */
+  TripLegacyBigQueryUploadRequestId = "TripLegacyBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the DVIRLogLegacyBigQueryUploadRequestId */
+  DVIRLogLegacyBigQueryUploadRequestId = "DVIRLogLegacyBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the UserHosRuleSetBigQueryUploadRequestId */
+  UserHosRuleSetBigQueryUploadRequestId = "UserHosRuleSetBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the ShipmentLogBigQueryUploadRequestId */
+  ShipmentLogBigQueryUploadRequestId = "ShipmentLogBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the TrailerAttachmentBigQueryUploadRequestId */
+  TrailerAttachmentBigQueryUploadRequestId = "TrailerAttachmentBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the NotificationBigQueryUploadRequestId */
+  NotificationBigQueryUploadRequestId = "NotificationBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the DiagnosticBigQueryUploadRequestId */
+  DiagnosticBigQueryUploadRequestId = "DiagnosticBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the ControllerBigQueryUploadRequestId */
+  ControllerBigQueryUploadRequestId = "ControllerBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the FillUpBigQueryUploadRequestId */
+  FillUpBigQueryUploadRequestId = "FillUpBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the FuelTransactionBigQueryUploadRequestId */
+  FuelTransactionBigQueryUploadRequestId = "FuelTransactionBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the ChargeEventBigQueryUploadRequestId */
+  ChargeEventBigQueryUploadRequestId = "ChargeEventBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the FuelAndEnergyUsedBigQueryUploadRequestId */
+  FuelAndEnergyUsedBigQueryUploadRequestId = "FuelAndEnergyUsedBigQueryUploadRequestId",
+  /** Gets the trip data entity upload request. */
+  TripSoftDeleteDataEntityUploadRequestId = "TripDataEntityUploadRequestId",
+  /** Gets the {@link Id} of the RestrictedDataModeChangeBigQueryUploadRequestId */
+  RestrictedDataModeChangeBigQueryUploadRequestId = "RestrictedDataModeChangeBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the EmissionVehicleEnrollmentBigQueryUploadRequestId */
+  EmissionVehicleEnrollmentBigQueryUploadRequestId = "EmissionVehicleEnrollmentBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the UserHosRuleSetBipBigQueryUploadRequestId */
+  UserHosRuleSetBipBigQueryUploadRequestId = "UserHosRuleSetBipBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the EmissionComplianceEventBigQueryUploadRequestId */
+  EmissionComplianceEventBigQueryUploadRequestId = "EmissionComplianceEventBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the DutyStatusViolationBigQueryUploadRequestId */
+  DutyStatusViolationBigQueryUploadRequestId = "DutyStatusViolationBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the ExceptionEventSoftDeleteBigQueryUploadRequestId */
+  ExceptionEventSoftDeleteBigQueryUploadRequestId = "ExceptionEventSoftDeleteBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the EventTypeBigQueryUploadRequestId */
+  EventTypeBigQueryUploadRequestId = "EventTypeBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the AuditEntityUploadRequest */
+  MaintenanceWorkRequestBigQueryUploadRequestId = "MaintenanceWorkRequestBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the MaintenanceWorkOrderEntityUploadRequestId */
+  MaintenanceWorkOrderEntityUploadRequestId = "MaintenanceWorkOrderEntityUploadRequestId",
+  /** Gets the {@link Id} of the MaintenanceWorkOrderJobBigQueryUploadRequestId */
+  MaintenanceWorkOrderJobBigQueryUploadRequestId = "MaintenanceWorkOrderJobBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the MaintenanceScheduleBigQueryUploadRequestId */
+  MaintenanceScheduleBigQueryUploadRequestId = "MaintenanceScheduleBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the DeviceSourceAddressInfoBigQueryUploadRequestId */
+  DeviceSourceAddressInfoBigQueryUploadRequestId = "DeviceSourceAddressInfoBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the ExceptionEventMediaLinkBigQueryUploadRequestId */
+  ExceptionEventMediaLinkBigQueryUploadRequestId = "ExceptionEventMediaLinkBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the CameraBigQueryUploadRequestId */
+  CameraBigQueryUploadRequestId = "CameraBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the CameraStatusBigQueryUploadRequestId */
+  CameraStatusBigQueryUploadRequestId = "CameraStatusBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the CameraHealthBigQueryUploadRequestId */
+  CameraHealthBigQueryUploadRequestId = "CameraHealthBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the GroupUserBigQueryUploadRequestId */
+  GroupUserBigQueryUploadRequestId = "GroupUserBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the GroupSecurityBigQueryUploadRequestId */
+  GroupSecurityBigQueryUploadRequestId = "GroupSecurityBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the SecurityIdBigQueryUploadRequestId */
+  SecurityIdBigQueryUploadRequestId = "SecurityIdBigQueryUploadRequestId",
+  /** Gets the {@link Id} of the DiscreteAvailabilitySnapshotBigQueryUploadRequestId */
+  DiscreteAvailabilitySnapshotBigQueryUploadRequestId = "DiscreteAvailabilitySnapshotBigQueryUploadRequestId",
+  /** Gets the ListenOnlyModeReason None identifier. */
+  ListenOnlyModeReasonNoneId = "ListenOnlyModeReasonNoneId",
+  /** Gets the ListenOnlyModeReason Other identifier. */
+  ListenOnlyModeReasonOtherId = "ListenOnlyModeReasonOtherId",
+  /** Gets the ListenOnlyModeReason GarageMaintenance identifier. */
+  ListenOnlyModeReasonGarageMaintenanceId = "ListenOnlyModeReasonGarageMaintenanceId",
+  /** Gets the ListenOnlyModeReason Support3RdPartyHardware identifier. */
+  ListenOnlyModeReasonSupport3RdPartyHardwareId = "ListenOnlyModeReasonSupport3RdPartyHardwareId",
+  /** Gets the ListenOnlyModeReason OEMEmbeddedTelematics identifier. */
+  ListenOnlyModeReasonOEMEmbeddedTelematicsId = "ListenOnlyModeReasonOEMEmbeddedTelematicsId",
+  /** Gets the ListenOnlyModeReason LightsOnTheDash identifier. */
+  ListenOnlyModeReasonLightsOnTheDashId = "ListenOnlyModeReasonLightsOnTheDashId",
+  /** Gets the ListenOnlyModeReason DriverWarningMessage identifier. */
+  ListenOnlyModeReasonDriverWarningMessageId = "ListenOnlyModeReasonDriverWarningMessageId",
+  /** Gets the ListenOnlyModeReason AudibleAlert identifier. */
+  ListenOnlyModeReasonAudibleAlertId = "ListenOnlyModeReasonAudibleAlertId",
+  /** Gets the ListenOnlyModeReason Drivability identifier. */
+  ListenOnlyModeReasonDrivabilityId = "ListenOnlyModeReasonDrivabilityId",
+  /** Gets the ListenOnlyModeReason OperatingLightsOutsideTheVehicle identifier. */
+  ListenOnlyModeReasonOperatingLightsOutsideTheVehicleId = "ListenOnlyModeReasonOperatingLightsOutsideTheVehicleId",
+  /** Gets the ListenOnlyModeReason LossOfVehicleInstruments identifier. */
+  ListenOnlyModeReasonLossOfVehicleInstrumentsId = "ListenOnlyModeReasonLossOfVehicleInstrumentsId",
+  /** Gets the Cold Chain group identifier. */
+  GroupColdChainId = "GroupColdChainId",
+  /** Gets the report template advanced work requests identifier. */
+  ReportTemplateAdvancedMaintenanceWorkRequestsId = "ReportTemplateAdvancedMaintenanceWorkRequestsId",
+  /** Gets the report template advanced work jobs identifier. */
+  ReportTemplateAdvancedMaintenanceWorkJobsId = "ReportTemplateAdvancedMaintenanceWorkJobsId",
+  /** Gets the report template advanced schedules identifier. */
+  ReportTemplateAdvancedMaintenanceSchedulesId = "ReportTemplateAdvancedMaintenanceSchedulesId",
+  /** Gets the custom data from customer's MyG db */
+  CustomDataUploaderStateId = "CustomDataUploaderStateId",
+  /** Gets the report template work requests identifier. */
+  ReportTemplateMaintenanceWorkRequestsId = "ReportTemplateMaintenanceWorkRequestsId",
+  /** Gets the report template work jobs identifier. */
+  ReportTemplateMaintenanceWorkJobsId = "ReportTemplateMaintenanceWorkJobsId",
+  /** Gets the report template schedules identifier. */
+  ReportTemplateMaintenanceSchedulesId = "ReportTemplateMaintenanceSchedulesId",
+  /** Gets the rule for following distance. */
+  RuleFollowingDistanceId = "RuleFollowingDistanceId",
+  /** Gets the rule for device button pressed. */
+  RuleDeviceButtonPressedId = "RuleDeviceButtonPressedId",
+  /** Gets the report template Cold Chain. */
+  ReportTemplateColdChainId = "ReportTemplateColdChainId",
+  /** Gets the report template Last Mile Maintenance. */
+  ReportTemplateLastMileMaintenanceId = "ReportTemplateLastMileMaintenanceId",
+  /** Gets the report template clean truck Check. */
+  ReportTemplateCleanTruckCheckId = "ReportTemplateCleanTruckCheckId",
+  /** Gets the report template EV Performance identifier. */
+  ReportTemplateEVPerformanceId = "ReportTemplateEVPerformanceId",
+  /** Gets the report template fuel transaction identifier. */
+  ReportTemplateFuelTransactionId = "ReportTemplateFuelTransactionId",
+  /** Gets the report template sustainability overview identifier. */
+  ReportTemplateSustainabilityOverviewId = "ReportTemplateSustainabilityOverviewId",
+  /** Gets the securityId, allow user to create a plan in vitality rewards program */
+  SecurityIdActivateVitalityDriverRewardsAddInId = "SecurityIdActivateVitalityDriverRewardsAddInId",
+  /** Gets the securityId, allow user to view asset utilization report */
+  SecurityIdViewAssetUtilizationId = "SecurityIdViewAssetUtilizationId",
+  /** Gets the securityId, allow user to manage users in vitality rewards program */
+  SecurityIdManageUsersVitalityRewardsAddInId = "SecurityIdManageUsersVitalityRewardsAddInId",
+  /** Gets the securityId, allow the driver to view the Drive app clock in / clock out features */
+  SecurityIdViewDriverClockInOutId = "SecurityIdViewDriverClockInOutId",
+  /** Gets the report template advanced work orders work jobs identifier. */
+  ReportTemplateAdvancedMaintenanceWorkOrdersWorkJobsId = "ReportTemplateAdvancedMaintenanceWorkOrdersWorkJobsId",
+  /** Gets the securityId, allow the driver to view the Driver Safety page in Drive app */
+  SecurityIdViewDriverSafetyId = "SecurityIdViewDriverSafetyId",
+  /** Gets the diagnostic external device IOX cold chain. */
+  DiagnosticExternalDeviceIOXColdChainId = "DiagnosticExternalDeviceIOXColdChainId",
+  /** Gets the diagnostic external device Intendia. */
+  DiagnosticExternalDeviceIntendiaId = "DiagnosticExternalDeviceIntendiaId",
+  /** Gets the securityId, Allow user to view asset tab on Collision Risk page. */
+  SecurityIdViewVehicleAnalyticsId = "SecurityIdViewVehicleAnalyticsId",
+  /** Gets the securityId, Allow user to view driver tab on Collision Risk page. */
+  SecurityIdViewDriverAnalyticsId = "SecurityIdViewDriverAnalyticsId",
+  /** Gets the securityId, Allow user to download the collision risk report for both assets and drivers. */
+  SecurityIdRiskAnalyticsViewAndDownloadAssetAndDriverReportsId = "SecurityIdRiskAnalyticsViewAndDownloadAssetAndDriverReportsId",
+  /** Gets the securityId, Allow users to add an HOS log within a period of PC or YM. The user must also have the Administer HOS Logs clearance enabled. */
+  SecurityIdHosLogEditPcYmId = "SecurityIdHosLogEditPcYmId",
+  /** Gets the securityId, Allow user to access EV performance metrics, dashboards and APIs. */
+  SecurityIdViewEVPerformanceDataId = "SecurityIdViewEVPerformanceDataId",
+  /** Gets the securityId, Allow user to access EV performance metrics, dashboards and APIs. */
+  SecurityIdAccessEVSuitabilityAssessmentId = "SecurityIdAccessEVSuitabilityAssessmentId",
+  /** Gets the securityId for Access Clean Truck Check Compliance editor. */
+  SecurityIdAccessCleanTruckCheckComplianceEditorId = "SecurityIdAccessCleanTruckCheckComplianceEditorId",
+  /** Gets the securityId for Access Clean Truck Check Compliance viewer. */
+  SecurityIdAccessCleanTruckCheckComplianceViewerId = "SecurityIdAccessCleanTruckCheckComplianceViewerId",
+  /** Gets the securityId for ViewDriverCoachingStatus */
+  SecurityIdViewDriverCoachingStatusId = "SecurityIdViewDriverCoachingStatusId",
+  /** Gets the securityId for ModifyDriverCoachingStatus */
+  SecurityIdModifyDriverCoachingStatusId = "SecurityIdModifyDriverCoachingStatusId",
+  /** Gets the securityId for ViewCoachingSession */
+  SecurityIdViewCoachingSessionId = "SecurityIdViewCoachingSessionId",
+  /** Gets the securityId for ManageCoachingSession */
+  SecurityIdManageCoachingSessionId = "SecurityIdManageCoachingSessionId",
+  /** Gets the rule harsh GPS-based acceleration identifier. */
+  RuleHarshGpsAccelerationId = "RuleHarshGpsAccelerationId",
+  /** Gets the rule harsh GPS-based braking identifier. */
+  RuleHarshGpsBrakingId = "RuleHarshGpsBrakingId",
+  /** Gets the rule harsh GPS-based cornering identifier. */
+  RuleHarshGpsCorneringId = "RuleHarshGpsCorneringId",
+  /** Gets the rule GPS-based speeding within a window identifier. */
+  RuleGpsSpeedingWindowId = "RuleGpsSpeedingWindowId",
+  /** Gets the securityId for placing and reviewing orders in Store. */
+  SecurityIdAccessStoreId = "SecurityIdAccessStoreId",
+  /** Gets the securityId for accessing the Order Management page in MYA. */
+  SecurityIdAccessOrderManagementId = "SecurityIdAccessOrderManagementId",
+  /** Gets the securityId for managing device installations. */
+  SecurityIdAccessDeviceInstallationServicesId = "SecurityIdAccessDeviceInstallationServicesId",
+  /** Gets the securityId for checking vehicle eligibility (VIN lookup). */
+  SecurityIdAccessVehicleEligibilityId = "SecurityIdAccessVehicleEligibilityId",
+  /** Gets the securityId for managing product returns. */
+  SecurityIdAccessProductReturnsId = "SecurityIdAccessProductReturnsId",
+  /** Gets the securityId for managing product returns. */
+  SecurityIdAccessBillingServicesId = "SecurityIdAccessBillingServicesId",
+  /** Gets the securityId for accessing the Monthly Bills page in MYA. */
+  SecurityIdAccessMonthlyBillsId = "SecurityIdAccessMonthlyBillsId",
+  /** Gets the securityId for accessing the Invoices page in MYA. */
+  SecurityIdAccessInvoicesId = "SecurityIdAccessInvoicesId",
+  /** Gets the ExceptionEventState Marked For Coaching identifier. */
+  ExceptionEventStateMarkedForCoachingId = "ExceptionEventStateMarkedForCoachingId",
+  /** Gets the ExceptionEventState Coaching Completed identifier. */
+  ExceptionEventStateCoachingCompletedId = "ExceptionEventStateCoachingCompletedId",
+  /** Gets the ExceptionEventState Positive Recognition identifier. */
+  ExceptionEventStatePositiveRecognitionId = "ExceptionEventStatePositiveRecognitionId",
+  /** Gets the ExceptionEventState Saved For Later identifier. */
+  ExceptionEventStateSavedForLaterId = "ExceptionEventStateSavedForLaterId",
+  /** Gets the securityId, Allow users to email logs to custom recipients. */
+  SecurityIdEmailLogsToCustomRecipientsId = "SecurityIdEmailLogsToCustomRecipientsId",
+  /** Gets the report template Business vs Personal (last week) identifier. */
+  ReportTemplateBusinessVsPersonalLastWeekId = "ReportTemplateBusinessVsPersonalLastWeekId",
+  /** Gets the report template Number of Stops (yesterday) identifier. */
+  ReportTemplateNumberOfStopsYesterdayId = "ReportTemplateNumberOfStopsYesterdayId",
+  /** Gets the report template activity summary (today) identifier. */
+  ReportTemplateActivitySummaryTodayId = "ReportTemplateActivitySummaryTodayId",
+  /** Gets the report template Percentage of time Idling (yesterday) identifier. */
+  ReportTemplatePercentageOfTimeIdlingYesterdayId = "ReportTemplatePercentageOfTimeIdlingYesterdayId",
+  /** Gets the report template Basic Driver Score (last week) identifier. */
+  ReportTemplateBasicDriverScoreLastWeekId = "ReportTemplateBasicDriverScoreLastWeekId",
+  /** Gets the report template Advanced Fill-Ups identifier. */
+  ReportTemplateAdvancedFillUpsId = "ReportTemplateAdvancedFillUpsId",
+  /** Gets the report template Device Online and Offline identifier. */
+  ReportTemplateDeviceOnlineAndOfflineId = "ReportTemplateDeviceOnlineAndOfflineId",
+  /** Gets the Diagnostic IOX Cold Connection Status identifier. */
+  DiagnosticIOXColdConnectionStatusId = "DiagnosticIOXColdConnectionStatusId",
+  /** Gets the Diagnostic IOX Cold Rugged Connection Status identifier. */
+  DiagnosticIOXColdRuggedConnectionStatusId = "DiagnosticIOXColdRuggedConnectionStatusId",
+  /** Gets the securityId, Access to bulk removing and archiving devices. */
+  SecurityIdDeviceAdminBulkArchiveRemoveId = "SecurityIdDeviceAdminBulkArchiveRemoveId",
+  /** Gets the securityId for viewing investigations. */
+  SecurityIdViewInvestigationsId = "SecurityIdViewInvestigationsId",
+  /** Gets the securityId for creating and editing investigations. */
+  SecurityIdCreateAndEditInvestigationsId = "SecurityIdCreateAndEditInvestigationsId",
+  /** Gets the securityId for administering investigations. */
+  SecurityIdAdministerInvestigationsId = "SecurityIdAdministerInvestigationsId",
+  /** Gets the rule for camera lens obstruction. */
+  RuleCameraLensObstructionId = "RuleCameraLensObstructionId",
+  /** Gets the rule for road camera adjustment required. */
+  RuleRoadCameraAdjustmentRequiredId = "RuleRoadCameraAdjustmentRequiredId",
+  /** Gets the rule for camera tampering. */
+  RuleCameraTamperingId = "RuleCameraTamperingId",
+  /** Gets the rule for distraction. */
+  RuleDistractionId = "RuleDistractionId",
+  /** Gets the rule for drinking or eating. */
+  RuleDrinkingOrEatingId = "RuleDrinkingOrEatingId",
+  /** Gets the rule for driver fatigue. */
+  RuleDriverFatigueId = "RuleDriverFatigueId",
+  /** Gets the rule for smoking. */
+  RuleSmokingId = "RuleSmokingId",
+  /** Gets the rule for phone usage. */
+  RulePhoneUsageId = "RulePhoneUsageId",
+  /** Gets the rule for camera detected driver seatbelt. */
+  RuleCameraDetectedDriverSeatbeltId = "RuleCameraDetectedDriverSeatbeltId",
+  /** Gets the rule for rolling stop. */
+  RuleRollingStopId = "RuleRollingStopId",
+  /** Gets the rule for defensive driving. */
+  RuleDefensiveDrivingId = "RuleDefensiveDrivingId",
+  /** Gets the rule for double solid line violation. */
+  RuleDoubleSolidLineViolationId = "RuleDoubleSolidLineViolationId",
+  /** Gets the rule for near collision warning. */
+  RuleNearCollisionWarningId = "RuleNearCollisionWarningId",
+  /** Gets the securityId, Allow user to view custom data. */
+  SecurityIdViewEngineDataProfileId = "SecurityIdViewEngineDataProfileId",
+  /** Gets the securityId for Access to OneStore. */
+  SecurityIdAccessOneStoreId = "SecurityIdAccessOneStoreId",
+  /** Gets the securityId, View Navigation. */
+  SecurityIdViewNavigationId = "SecurityIdViewNavigationId",
+  /** Gets the securityId for Manage Linked Assets. */
+  SecurityIdManageLinkedAssetsId = "SecurityIdManageLinkedAssetsId",
+  /** Gets the securityId for Manage Separation Alerts. */
+  SecurityIdManageSeparationAlertsId = "SecurityIdManageSeparationAlertsId",
+  /** Gets the securityId for viewing Lost Mode settings. */
+  SecurityIdViewLostModeChangeDataId = "SecurityIdViewLostModeChangeDataId",
+  /** Gets the securityId for editing Lost Mode settings. */
+  SecurityIdEditLostModeChangeDataId = "SecurityIdEditLostModeChangeDataId",
+  /** Gets the securityId for Administer Device Mode settings. */
+  SecurityIdAdministerDeviceModeId = "SecurityIdAdministerDeviceModeId",
+  /** Gets the email template default collision notification identifier. */
+  EmailTemplateDefaultCollisionNotificationId = "EmailTemplateDefaultCollisionNotificationId",
+  /**
+   * Gets the email template default critical low tire pressure identifier.
+   *  Note: ID -8 is used because -7 is assigned to PushNotificationTemplateDefaultExceptionRuleId.
+   *  This is the 8th system NotificationBinaryFile template.
+   */
+  EmailTemplateDefaultCriticalLowTirePressureId = "EmailTemplateDefaultCriticalLowTirePressureId",
+  /** Gets the securityId, View Maintenance Schedules. */
+  SecurityIdMaintenanceSchedulesViewId = "SecurityIdMaintenanceSchedulesViewId",
+  /** Gets the securityId, Edit Maintenance Schedules. */
+  SecurityIdMaintenanceSchedulesEditId = "SecurityIdMaintenanceSchedulesEditId",
+  /** Gets the securityId, Full Access to Maintenance Schedules. */
+  SecurityIdMaintenanceSchedulesFullAccessId = "SecurityIdMaintenanceSchedulesFullAccessId",
+  /** Gets the securityId, View Maintenance Work Requests. */
+  SecurityIdMaintenanceRequestsViewId = "SecurityIdMaintenanceRequestsViewId",
+  /** Gets the securityId, Edit Maintenance Work Requests. */
+  SecurityIdMaintenanceRequestsEditId = "SecurityIdMaintenanceRequestsEditId",
+  /** Gets the securityId, Full Access to Maintenance Work Requests. */
+  SecurityIdMaintenanceRequestsFullAccessId = "SecurityIdMaintenanceRequestsFullAccessId",
+  /** Gets the securityId, View Maintenance Work Orders. */
+  SecurityIdMaintenanceWorkOrdersViewId = "SecurityIdMaintenanceWorkOrdersViewId",
+  /** Gets the securityId, Edit Maintenance Work Orders. */
+  SecurityIdMaintenanceWorkOrdersEditId = "SecurityIdMaintenanceWorkOrdersEditId",
+  /** Gets the securityId, Full Access to Maintenance Work Orders. */
+  SecurityIdMaintenanceWorkOrdersFullAccessId = "SecurityIdMaintenanceWorkOrdersFullAccessId",
+  /** Gets the securityId, View Maintenance Overview. */
+  SecurityIdViewMaintenanceOverviewId = "SecurityIdViewMaintenanceOverviewId",
+  /** Gets the securityId, Allow user to view connections */
+  SecurityIdViewConnectionDataId = "SecurityIdViewConnectionDataId",
+  /** Gets the securityId, Allow user to edit connections, including turning on or off connections and editing configs */
+  SecurityIdEditConnectionDataId = "SecurityIdEditConnectionDataId",
+  /** Gets the securityId, Access to Authorization Code Page. */
+  SecurityIdAuthorizationCodePageAccessId = "SecurityIdAuthorizationCodePageAccessId",
+  /** Gets the securityId, Allow user to view Asset Inspection logs. */
+  SecurityIdViewAssetInspectionLogsId = "SecurityIdViewAssetInspectionLogsId",
+  /** Gets the securityId, Allow user to create and edit Asset Inspection logs. */
+  SecurityIdManageAssetInspectionLogsId = "SecurityIdManageAssetInspectionLogsId",
+  /** Gets the securityId, Allow user to perform Asset Inspections. */
+  SecurityIdInspectAssetInspectionId = "SecurityIdInspectAssetInspectionId",
+  /** Gets the securityId, Allow user to mark Asset Inspection defects as repaired. */
+  SecurityIdRepairAssetInspectionId = "SecurityIdRepairAssetInspectionId",
+  /** Gets the securityId, Allow user to certify Asset Inspections as safe/unsafe. */
+  SecurityIdCertifyAssetInspectionId = "SecurityIdCertifyAssetInspectionId",
+  /** Gets the securityId, Allow user to view Asset Inspection templates. */
+  SecurityIdViewAssetInspectionTemplatesId = "SecurityIdViewAssetInspectionTemplatesId",
+  /** Gets the securityId, Allow user to create, edit, and delete Asset Inspection templates. */
+  SecurityIdManageAssetInspectionTemplatesId = "SecurityIdManageAssetInspectionTemplatesId",
   /** Gets the diagnostic Bluetooth generic timer for identifer 245. */
   DiagnosticBluetoothGenericTimer245Id = "DiagnosticBluetoothGenericTimer245Id",
   /** Gets the diagnostic Bluetooth generic timer for identifer 246. */
@@ -341,6 +793,8 @@ export enum KnownId {
   DiagnosticEngineHotWarningLightId = "DiagnosticEngineHotWarningLightId",
   /** Gets the diagnostic engine hours adjustment identifier. */
   DiagnosticEngineHoursAdjustmentId = "DiagnosticEngineHoursAdjustmentId",
+  /** Gets the diagnostic raw engine hours identifier. */
+  DiagnosticRawEngineHoursId = "DiagnosticRawEngineHoursId",
   /** Gets the diagnostic engine hours identifier. */
   DiagnosticEngineHoursId = "DiagnosticEngineHoursId",
   /** Gets the diagnostic third party (custom device) engine hours identifier. */
@@ -405,26 +859,50 @@ export enum KnownId {
   DiagnosticIntermittentConnectionCommunicationsId = "DiagnosticIntermittentConnectionCommunicationsId",
   /** Gets the diagnostic truck solid material total. */
   DiagnosticTruckSolidMaterialTotalId = "DiagnosticTruckSolidMaterialTotalId",
-  /** Gets the diagnostic solid material type. */
+  /** Gets the diagnostic tow plow solid material total. */
+  DiagnosticTowPlowSolidMaterialTotalId = "DiagnosticTowPlowSolidMaterialTotalId",
+  /** Gets the diagnostic truck solid material type. */
   DiagnosticSolidMaterialTypeId = "DiagnosticSolidMaterialTypeId",
+  /** Gets the diagnostic tow plow solid material type. */
+  DiagnosticTowPlowSolidMaterialTypeId = "DiagnosticTowPlowSolidMaterialTypeId",
   /** Gets the diagnostic truck pre wet material total. */
   DiagnosticTruckPreWetMaterialTotalId = "DiagnosticTruckPreWetMaterialTotalId",
-  /** Gets the diagnostic pre wet material type. */
+  /** Gets the diagnostic tow plow pre wet material total. */
+  DiagnosticTowPlowPreWetMaterialTotalId = "DiagnosticTowPlowPreWetMaterialTotalId",
+  /** Gets the diagnostic truck pre wet material type. */
   DiagnosticPreWetMaterialTypeId = "DiagnosticPreWetMaterialTypeId",
+  /** Gets the diagnostic tow plow pre wet material type. */
+  DiagnosticTowPlowPreWetMaterialTypeId = "DiagnosticTowPlowPreWetMaterialTypeId",
   /** Gets the diagnostic truck liquid material total. */
   DiagnosticTruckLiquidMaterialTotalId = "DiagnosticTruckLiquidMaterialTotalId",
-  /** Gets the diagnostic liquid material type. */
+  /** Gets the diagnostic tow plow liquid material total. */
+  DiagnosticTowPlowLiquidMaterialTotalId = "DiagnosticTowPlowLiquidMaterialTotalId",
+  /** Gets the diagnostic truck liquid material type. */
   DiagnosticLiquidMaterialTypeId = "DiagnosticLiquidMaterialTypeId",
-  /** Gets the diagnostic solid material active. */
+  /** Gets the diagnostic tow plow liquid material type. */
+  DiagnosticTowPlowLiquidMaterialTypeId = "DiagnosticTowPlowLiquidMaterialTypeId",
+  /** Gets the diagnostic truck solid material active. */
   DiagnosticSolidMaterialActiveId = "DiagnosticSolidMaterialActiveId",
+  /** Gets the diagnostic tow plow solid material active. */
+  DiagnosticTowPlowSolidMaterialActiveId = "DiagnosticTowPlowSolidMaterialActiveId",
+  /** Gets the diagnostic tow plow pre wet material active. */
+  DiagnosticTowPlowPreWetMaterialActiveId = "DiagnosticTowPlowPreWetMaterialActiveId",
+  /** Gets the diagnostic tow plow liquid material type. */
+  DiagnosticTowPlowLiquidMaterialActiveId = "DiagnosticTowPlowLiquidMaterialActiveId",
   /** Gets the diagnostic winter operation controller status. */
   DiagnosticControllerStatusId = "DiagnosticControllerStatusId",
-  /** Gets the diagnostic solid material rate. */
+  /** Gets the diagnostic truck solid material rate. */
   DiagnosticSolidMaterialRateId = "DiagnosticSolidMaterialRateId",
-  /** Gets the diagnostic pre wet material rate. */
+  /** Gets the diagnostic tow plow solid material rate. */
+  DiagnosticTowPlowSolidMaterialRateId = "DiagnosticTowPlowSolidMaterialRateId",
+  /** Gets the diagnostic truck pre wet material rate. */
   DiagnosticPreWetMaterialRateId = "DiagnosticPreWetMaterialRateId",
+  /** Gets the diagnostic tow plow pre wet material rate. */
+  DiagnosticTowPlowPreWetMaterialRateId = "DiagnosticTowPlowPreWetMaterialRateId",
   /** Gets the diagnostic liquid material rate. */
   DiagnosticLiquidMaterialRateId = "DiagnosticLiquidMaterialRateId",
+  /** Gets the diagnostic tow plow liquid material rate. */
+  DiagnosticTowPlowLiquidMaterialRateId = "DiagnosticTowPlowLiquidMaterialRateId",
   /** Gets the diagnostic Battery Level. */
   DiagnosticBatteryLevelId = "DiagnosticBatteryLevelId",
   /** Gets the diagnostic Battery voltage. */
@@ -433,10 +911,18 @@ export enum KnownId {
   DiagnosticThirdPartyAux1Id = "DiagnosticThirdPartyAux1Id",
   /** Gets the diagnostic Third Party Aux 2 */
   DiagnosticThirdPartyAux2Id = "DiagnosticThirdPartyAux2Id",
-  /** Gets the diagnostic hird Party Aux 3 */
+  /** Gets the diagnostic Third Party Aux 3 */
   DiagnosticThirdPartyAux3Id = "DiagnosticThirdPartyAux3Id",
-  /** Gets the diagnostic hird Party Aux 3 */
+  /** Gets the diagnostic Third Party Aux 4 */
   DiagnosticThirdPartyAux4Id = "DiagnosticThirdPartyAux4Id",
+  /** Gets the diagnostic Third Party Aux 5 */
+  DiagnosticThirdPartyAux5Id = "DiagnosticThirdPartyAux5Id",
+  /** Gets the diagnostic Third Party Aux 6 */
+  DiagnosticThirdPartyAux6Id = "DiagnosticThirdPartyAux6Id",
+  /** Gets the diagnostic Third Party Aux 7 */
+  DiagnosticThirdPartyAux7Id = "DiagnosticThirdPartyAux7Id",
+  /** Gets the diagnostic Third Party Aux 8 */
+  DiagnosticThirdPartyAux8Id = "DiagnosticThirdPartyAux8Id",
   /** Gets the diagnostic analog input temperature 1. */
   DiagnosticAnalogInputTemp1Id = "DiagnosticAnalogInputTemp1Id",
   /** Gets the diagnostic analog input temperature 2. */
@@ -455,6 +941,10 @@ export enum KnownId {
   DiagnosticDeviceSolarPanelCurrentId = "DiagnosticDeviceSolarPanelCurrentId",
   /** Gets the diagnostic horizontal DOP */
   DiagnosticHorizontalDopId = "DiagnosticHorizontalDopId",
+  /** Gets the diagnostic right rear door open */
+  DiagnosticRightRearDoorOpenId = "DiagnosticRightRearDoorOpenId",
+  /** Gets the diagnostic left rear door open */
+  DiagnosticLeftRearDoorOpenId = "DiagnosticLeftRearDoorOpenId",
   /** Gets the diagnostic CANBUS short identifier. */
   DiagnosticCanBusShortId = "DiagnosticCanBusShortId",
   /** Gets the diagnostic device oscillator issue identifier. */
@@ -679,6 +1169,8 @@ export enum KnownId {
   DiagnosticGenericAdblueTankLevelId = "DiagnosticGenericAdblueTankLevelId",
   /** Gets the ID of the diagnostic for EV Powertrain Type (Code 9, Source Ai Model). */
   DiagnosticEvPowertrainTypeId = "DiagnosticEvPowertrainTypeId",
+  /** Gets the diagnostic for IOX-Stat devices. */
+  DiagnosticCellularIridiumCoverageId = "DiagnosticCellularIridiumCoverageId",
   /** Gets the diagnostic restarted the radio manager state machine identifier. */
   DiagnosticRestartedTheRadioManagerStateMachineId = "DiagnosticRestartedTheRadioManagerStateMachineId",
   /** Gets the diagnostic restarted the radio state machine identifier. */
@@ -857,6 +1349,12 @@ export enum KnownId {
   EventTypeOilChangeId = "EventTypeOilChangeId",
   /** Gets the event type tire rotation identifier. */
   EventTypeTireRotationId = "EventTypeTireRotationId",
+  /** Gets the event rule identifier for oil change. */
+  EventRuleOilChangeId = "EventRuleOilChangeId",
+  /** Gets the event rule identifier for electrical system maintenance. */
+  EventRuleElectricalSystemMaintenanceId = "EventRuleElectricalSystemMaintenanceId",
+  /** Gets the event type electrical system maintenance identifier. */
+  EventTypeElectricalSystemMaintenanceId = "EventTypeElectricalSystemMaintenanceId",
   /** Gets the group company identifier. */
   GroupCompanyId = "GroupCompanyId",
   /** Gets the group defects identifier. */
@@ -931,6 +1429,12 @@ export enum KnownId {
   GroupAssetTypeId = "GroupAssetTypeId",
   /** Gets the default Vehicle group identifier. */
   GroupVehicleId = "GroupVehicleId",
+  /** Gets the default Container group identifier. */
+  GroupContainerId = "GroupContainerId",
+  /** Gets the default Equipment group identifier. */
+  GroupEquipmentId = "GroupEquipmentId",
+  /** Gets the Asset Purpose group. */
+  GroupAssetPurposeId = "GroupAssetPurposeId",
   /** Gets the no device identifier. */
   NoDeviceId = "NoDeviceId",
   /** Gets the no diagnostic identifier. */
@@ -1045,6 +1549,8 @@ export enum KnownId {
   ReportTemplateAdvancedVehiclesId = "ReportTemplateAdvancedVehiclesId",
   /** Gets the report template advanced zones identifier. */
   ReportTemplateAdvancedZonesId = "ReportTemplateAdvancedZonesId",
+  /** Gets the report template asset monitoring. */
+  ReportTemplateAssetMonitoringId = "ReportTemplateAssetMonitoringId",
   /** Gets the report template audit log identifier. */
   ReportTemplateAuditLogId = "ReportTemplateAuditLogId",
   /** Gets the report template auxiliary detail identifier. */
@@ -1083,6 +1589,8 @@ export enum KnownId {
   ReportTemplateExceptionsSummaryId = "ReportTemplateExceptionsSummaryId",
   /** Gets the report template EV battery health identifier. */
   ReportTemplateEVBatteryHealthId = "ReportTemplateEVBatteryHealthId",
+  /** Gets the report template BEV range capability identifier. */
+  ReportTemplateBEVRangeCapabilityId = "ReportTemplateBEVRangeCapabilityId",
   /** Gets the report template failure mode identifier. */
   ReportTemplateFailureModeId = "ReportTemplateFailureModeId",
   /** Gets the report template fuel tax identifier. */
@@ -1175,10 +1683,16 @@ export enum KnownId {
   ReportTemplateTripCategorizationId = "ReportTemplateTripCategorizationId",
   /** Gets the report template progress report identifier. */
   ReportTemplateProgressReportId = "ReportTemplateProgressReportId",
+  /** Gets the report template collision risk identifier. */
+  ReportTemplateRiskAnalyticsId = "ReportTemplateRiskAnalyticsId",
   /** Gets the report template zones identifier. */
   ReportTemplateZonesId = "ReportTemplateZonesId",
   /** Gets the rule accident identifier. */
   RuleAccidentId = "RuleAccidentId",
+  /** Gets the rule ai detection identifier. */
+  RuleEnhancedMajorCollisionId = "RuleEnhancedMajorCollisionId",
+  /** Gets the enhanced minor collision rule */
+  RuleEnhancedMinorCollisionId = "RuleEnhancedMinorCollisionId",
   /** Gets the rule after hours usage identifier. */
   RuleAfterHoursUsageId = "RuleAfterHoursUsageId",
   /** Gets the rule alternator failed identifier. */
@@ -1193,10 +1707,15 @@ export enum KnownId {
   RuleEngineAbuseId = "RuleEngineAbuseId",
   /** Gets the rule engine light on identifier. */
   RuleEngineLightOnId = "RuleEngineLightOnId",
-  /** Gets the rule fleet idling identifier. */
+  /**
+   * Gets the rule Idling within Zones identifier.
+   *  NOTE: This rule was formally called "Fleet Idling"
+   */
   RuleFleetIdlingId = "RuleFleetIdlingId",
   /** Gets the rule harsh braking identifier. */
   RuleHarshBrakingId = "RuleHarshBrakingId",
+  /** Gets the DataShareAutoAccept user ID */
+  DataShareAutoAcceptUserId = "DataShareAutoAcceptUserId",
   /** Gets the rule dvir defect identifier. */
   RuleDvirDefectId = "RuleDvirDefectId",
   /** Gets the rule harsh braking identifier. */
@@ -1251,12 +1770,20 @@ export enum KnownId {
   RuleMaterialManagementLiquidApplicationId = "RuleMaterialManagementLiquidApplicationId",
   /** Gets the rule Material management plow. */
   RuleMaterialManagementPlowActiveId = "RuleMaterialManagementPlowActiveId",
+  /** Gets the rule Material management tow plow. */
+  RuleMaterialManagementTowPlowActiveId = "RuleMaterialManagementTowPlowActiveId",
   /** Gets the rule Material management deadhead. */
   RuleMaterialManagementDeadheadId = "RuleMaterialManagementDeadheadId",
   /** Gets the rule Material management unload. */
   RuleMaterialManagementUnloadId = "RuleMaterialManagementUnloadId",
   /** Gets the rule for route based material management zone. */
   RuleMaterialManagementRouteBasedZoneOnlyId = "RuleMaterialManagementRouteBasedZoneOnlyId",
+  /** Gets the rule Material management tow plow solid application. */
+  RuleMaterialManagementTowPlowSolidApplicationId = "RuleMaterialManagementTowPlowSolidApplicationId",
+  /** Gets the rule Material management tow plow liquid application. */
+  RuleMaterialManagementTowPlowLiquidApplicationId = "RuleMaterialManagementTowPlowLiquidApplicationId",
+  /** Gets the rule Material management tow plow pre wet application. */
+  RuleMaterialManagementTowPlowPreWetApplicationId = "RuleMaterialManagementTowPlowPreWetApplicationId",
   /** Gets the rule for route based material management zone. */
   RuleEVStoppedInChargingLocationAndNotChargingId = "RuleEVStoppedInChargingLocationAndNotChargingId",
   /** Gets the rule for Vehicle ESR Health. */
@@ -1265,6 +1792,14 @@ export enum KnownId {
   RuleWiFiTierUsageId = "RuleWiFiTierUsageId",
   /** Gets the rule for WiFi Max Tier Limit. */
   RuleWiFiMaxTierUsageId = "RuleWiFiMaxTierUsageId",
+  /** Gets the rule for tachograph weekly status overview. */
+  RuleTachographWeeklyStatusOverviewId = "RuleTachographWeeklyStatusOverviewId",
+  /** Gets the rule for tachograph company card availability. */
+  RuleTachographCompanyCardAvailabilityId = "RuleTachographCompanyCardAvailabilityId",
+  /** Gets the rule for critical low tire pressure. */
+  RuleCriticalLowTirePressureId = "RuleCriticalLowTirePressureId",
+  /** Gets the rule for preventable idling. */
+  RulePreventableIdlingId = "RulePreventableIdlingId",
   /** Gets the source Geotab GO identifier. */
   SourceGeotabGoId = "SourceGeotabGoId",
   /** Gets the source J1708 identifier. */
@@ -1317,14 +1852,20 @@ export enum KnownId {
   SystemUserId = "SystemUserId",
   /** Gets the text template default exception rule identifier. */
   TextTemplateDefaultExceptionRuleId = "TextTemplateDefaultExceptionRuleId",
+  /** Gets the sms template default exception rule identifier. */
+  SmsTemplateDefaultExceptionRuleId = "SmsTemplateDefaultExceptionRuleId",
   /** Gets the text template default exception rule popup identifier. */
   TextTemplateDefaultExceptionRulePopupId = "TextTemplateDefaultExceptionRulePopupId",
+  /** Gets the push notification template default exception rule popup identifier. */
+  PushNotificationTemplateDefaultExceptionRuleId = "PushNotificationTemplateDefaultExceptionRuleId",
   /** Gets the distribution list news identifier. */
   DistributionListNewsId = "DistributionListNewsId",
   /** Gets the distribution list import/export identifier. */
   DistributionListImportExportId = "DistributionListImportExportId",
   /** Gets the unit of measure amps identifier. */
   UnitOfMeasureAmpsId = "UnitOfMeasureAmpsId",
+  /** Gets the unit of measure amps identifier. */
+  UnitOfMeasureAmpsPerHourId = "UnitOfMeasureAmpsPerHourId",
   /** Gets the unit of measure bytes identifier. */
   UnitOfMeasureBytesId = "UnitOfMeasureBytesId",
   /** Gets the unit of measure cubic meters identifier. */
@@ -1359,10 +1900,16 @@ export enum KnownId {
   UnitOfMeasureLitersPerLaneKilometerId = "UnitOfMeasureLitersPerLaneKilometerId",
   /** Gets the unit of measure liters per tonne identifier. */
   UnitOfMeasureLitersPerTonneId = "UnitOfMeasureLitersPerTonneId",
+  /** Gets the unit of measure for power levels in decibels (dB). */
+  UnitOfMeasureDecibelId = "UnitOfMeasureDecibelId",
+  /** Gets the unit of measure for power levels in decibels relative to one milliwatt (dBm). */
+  UnitOfMeasureDecibelMilliwattId = "UnitOfMeasureDecibelMilliwattId",
   /** Gets the unit of measure meters identifier. */
   UnitOfMeasureMetersId = "UnitOfMeasureMetersId",
   /** Gets the unit of measure meters per second squared identifier. */
   UnitOfMeasureMetersPerSecondSquaredId = "UnitOfMeasureMetersPerSecondSquaredId",
+  /** Gets the unit of measure micrograms per cubic meter. */
+  UnitOfMeasureMicrogramsPerCubicMeterId = "UnitOfMeasureMicrogramsPerCubicMeterId",
   /** Gets the unit of measure Newton meters identifier. */
   UnitOfMeasureNewtonMetersId = "UnitOfMeasureNewtonMetersId",
   /** Gets the unit of measure Newtons identifier. */
@@ -1411,14 +1958,16 @@ export enum KnownId {
   WorkTimeLunchHoursId = "WorkTimeLunchHoursId",
   /** Gets the work time standard hours identifier. */
   WorkTimeStandardHoursId = "WorkTimeStandardHoursId",
-  /** Gets the zone type address lookup identifier. */
-  ZoneTypeAddressLookupId = "ZoneTypeAddressLookupId",
   /** Gets the zone type customer identifier. */
   ZoneTypeCustomerId = "ZoneTypeCustomerId",
   /** Gets the zone type home identifier. */
   ZoneTypeHomeId = "ZoneTypeHomeId",
   /** Gets the zone type office identifier. */
   ZoneTypeOfficeId = "ZoneTypeOfficeId",
+  /** Gets the zone type vendor service center identifier. */
+  ZoneTypeVendorServiceCenterId = "ZoneTypeVendorServiceCenterId",
+  /** Gets the zone type In-house service center identifier. */
+  ZoneTypeInHouseServiceCenterId = "ZoneTypeInHouseServiceCenterId",
   /** Gets hos Ruleset Id None. */
   HosRuleSetNone = "HosRuleSetNone",
   /** Gets hos Ruleset Id NoneCanada (South of 60). */
@@ -1427,6 +1976,10 @@ export enum KnownId {
   HosRuleSetNone8Day = "HosRuleSetNone8Day",
   /** Gets hos Ruleset Id NoneCanada (North of 60). */
   HosRuleSetNoneCanadaNorthOf60 = "HosRuleSetNoneCanadaNorthOf60",
+  /** Gets MalaysiaDrivingHours ruleset */
+  HosRuleSetMalaysiaDrivingHours = "HosRuleSetMalaysiaDrivingHours",
+  /** Gets Alberta ruleset */
+  HosRuleSetAlberta = "HosRuleSetAlberta",
   /** Gets Australia Standard Hours Solo with Exemption Hours */
   HosRuleSetAustraliaStandardHoursSoloExemptionHours = "HosRuleSetAustraliaStandardHoursSoloExemptionHours",
   /** Gets hos Ruleset Id America7Day. */
@@ -1465,6 +2018,10 @@ export enum KnownId {
   MimeTaskTypeUnknownId = "MimeTaskTypeUnknownId",
   /** Gets the MimeTaskType application/mdf4 identifier. */
   MimeTaskTypeApplicationMdf4Id = "MimeTaskTypeApplicationMdf4Id",
+  /** Gets the MimeTaskType automotive identifier. */
+  MimeTaskTypeAutomotiveId = "MimeTaskTypeAutomotiveId",
+  /** Gets the MimeTaskType video/safeway identifier. */
+  MimeTaskTypeVideoSafewayId = "MimeTaskTypeVideoSafewayId",
   /** Gets the DatPrivacyType Unknown identifier. */
   UnknownRestrictedDataModeId = "UnknownRestrictedDataModeId",
   /** Gets the DataModeType Public identifier. */
@@ -1479,6 +2036,34 @@ export enum KnownId {
   ExceptionEventStateInvalidId = "ExceptionEventStateInvalidId",
   /** Gets the ExceptionEventState Dismissed identifier. */
   ExceptionEventStateDismissedId = "ExceptionEventStateDismissedId",
+  /** Gets the CoachingSessionState New identifier. */
+  CoachingSessionStateNewId = "CoachingSessionStateNewId",
+  /** Gets the CoachingSessionState Active identifier. */
+  CoachingSessionStateActiveId = "CoachingSessionStateActiveId",
+  /** Gets the CoachingSessionState Completed identifier. */
+  CoachingSessionStateCompletedId = "CoachingSessionStateCompletedId",
+  /** Gets the ExceptionRuleState identifier for Active. */
+  ExceptionRuleStateActiveId = "ExceptionRuleStateActiveId",
+  /** Gets the ExceptionRuleState identifier for Archived. */
+  ExceptionRuleStateArchivedId = "ExceptionRuleStateArchivedId",
+  /** Gets the ExceptionRuleState identifier for Suspended. */
+  ExceptionRuleStateSuspendedId = "ExceptionRuleStateSuspendedId",
+  /** Gets the ExceptionRuleState identifier for Warning / At Risk. */
+  ExceptionRuleStateWarningId = "ExceptionRuleStateWarningId",
+  /** Gets the ExceptionRuleReason identifier for None. */
+  ExceptionRuleReasonNoneId = "ExceptionRuleReasonNoneId",
+  /** Gets the ExceptionRuleReason identifier for Too Many Exception Events. */
+  ExceptionRuleReasonTooManyExceptionEventsId = "ExceptionRuleReasonTooManyExceptionEventsId",
+  /** Gets the ExceptionRuleReason identifier for Long Processing Time. */
+  ExceptionRuleReasonLongProcessingTimeId = "ExceptionRuleReasonLongProcessingTimeId",
+  /** Gets the ExceptionRuleReason identifier for Too Long of Exception Events. */
+  ExceptionRuleReasonTooLongOfExceptionEventsId = "ExceptionRuleReasonTooLongOfExceptionEventsId",
+  /** Gets the ExceptionRuleReason identifier for Manual Archiving */
+  ExceptionRuleReasonManualArchivedId = "ExceptionRuleReasonManualArchivedId",
+  /** Gets the ShareableLinkState InProgress identifier. */
+  ShareableLinkStateInProgressId = "ShareableLinkStateInProgressId",
+  /** Gets the ShareableLinkState Succeed identifier. */
+  ShareableLinkStateSucceedId = "ShareableLinkStateSucceedId",
   /** Gets hos Ruleset Id CanadaCycleOne. */
   HosRuleSetCanadaCycleOne = "HosRuleSetCanadaCycleOne",
   /** Gets hos Ruleset Id CanadaCycleTwo. */
@@ -1697,6 +2282,8 @@ export enum KnownId {
   HosRuleSetCanadaNorthOf60Oil = "HosRuleSetCanadaNorthOf60Oil",
   /** Gets hos Ruleset Id CanadaOilTeam */
   HosRuleSetCanadaOilTeam = "HosRuleSetCanadaOilTeam",
+  /** Gets hos Ruleset Id CanadaBCLoggingTruck */
+  HosRuleSetCanadaBCLoggingTruck = "HosRuleSetCanadaBCLoggingTruck",
   /** Gets hos Ruleset Id CanadaNorthOf60OilTeam */
   HosRuleSetCanadaNorthOf60OilTeam = "HosRuleSetCanadaNorthOf60OilTeam",
   /** Gets America 7-day Railroad */
@@ -1867,6 +2454,8 @@ export enum KnownId {
   SecurityIdSendGpsTextMessageId = "SecurityIdSendGpsTextMessageId",
   /** Gets the securityId, Allow deleting GPS Text Message. */
   SecurityIdDeleteGpsTextMessageId = "SecurityIdDeleteGpsTextMessageId",
+  /** Gets the securityId, Allow impersonating GPS Text Message. */
+  SecurityIdImpersonateGpsTextMessageId = "SecurityIdImpersonateGpsTextMessageId",
   /** Gets the securityId, Requests the current GPS location from a GO device. Typical implementation is for Iridium network. */
   SecurityIdRequestDeviceLocationId = "SecurityIdRequestDeviceLocationId",
   /** Gets the securityId, Display devices on a map. */
@@ -1903,6 +2492,10 @@ export enum KnownId {
   SecurityIdManageHOSLogsId = "SecurityIdManageHOSLogsId",
   /** Gets the securityId, Allow user to view HOS driver logs. */
   SecurityIdViewHOSLogsId = "SecurityIdViewHOSLogsId",
+  /** Gets the securityId, Allow user to view their HOS ruleset. */
+  SecurityIdViewHosRuleSetId = "SecurityIdViewHosRuleSetId",
+  /** Gets the securityId, Allow user to manage their HOS ruleset. */
+  SecurityIdManageHosRuleSetId = "SecurityIdManageHosRuleSetId",
   /** Gets the securityId, Allow user to view DVIR logs. */
   SecurityIdViewDVIRLogsId = "SecurityIdViewDVIRLogsId",
   /** Gets the securityId, Allow user to edit DVIR logs. */
@@ -2011,8 +2604,6 @@ export enum KnownId {
   SecurityIdEditUserDeviceLinkId = "SecurityIdEditUserDeviceLinkId",
   /** Gets the securityId, Access to Route Completion. */
   SecurityIdRouteCompletionId = "SecurityIdRouteCompletionReportId",
-  /** Gets the securityId, Access to Active Insights. */
-  SecurityIdViewActiveInsightsId = "SecurityIdViewActiveInsightsId",
   /** Gets the securityId, Access to Route Completion. */
   SecurityIdViewAnalyticsLabId = "SecurityIdViewAnalyticsLabId",
   /** Gets the securityId, Access to Route Completion. */
@@ -2033,12 +2624,18 @@ export enum KnownId {
   SecurityIdAdministerPropertyId = "SecurityIdAdministerPropertyId",
   /** Gets the securityId, Access to view properties. */
   SecurityIdViewPropertyId = "SecurityIdViewPropertyId",
+  /** Gets the securityId for View Public Works Administration. */
+  SecurityIdViewPublicWorksAdministrationId = "SecurityIdViewPublicWorksAdministrationId",
+  /** Gets the securityId for View Spreader Configurations. */
+  SecurityIdViewSpreaderConfigurationsId = "SecurityIdViewSpreaderConfigurationsId",
+  /** Gets the securityId for Manage Spreader Configurations. */
+  SecurityIdManageSpreaderConfigurationsId = "SecurityIdManageSpreaderConfigurationsId",
   /** Gets the Levc Source KnownId. */
-  SourceLevcId = "SourceLevcId",
+  SourceLevcId = "Source14Id",
   /** Gets the Obsolete Levc Source KnownId. */
-  SourceLevcObsoleteId = "SourceLevcObsoleteId",
+  SourceLevcObsoleteId = "Source114Id",
   /** Gets the Levc Any Controller KnownId. */
-  ControllerLevcAnyId = "ControllerLevcAnyId",
+  ControllerLevcAnyId = "ControllerSource14AnyId",
   /** Gets the security ID that allows a user to add comments or attachments to any ExceptionEvent in their scope. */
   SecurityIdExceptionEventReviewerId = "SecurityIdExceptionEventReviewerId",
   /** Gets the security ID that allows a user to add comments or attachments to ExceptionEvents that they are a driver of. */
@@ -2083,6 +2680,18 @@ export enum KnownId {
   RemoteProbe3TemperatureId = "RemoteProbe3TemperatureId",
   /** Gets Remote probe 4 temperature diagnostic Id. */
   RemoteProbe4TemperatureId = "RemoteProbe4TemperatureId",
+  /**
+   * Gets the Refrigeration unit controller protocol (
+   *  6 = TK ThermoGuard and TK Smart Reefer /
+   *  7 = Carrier Advanced Vector /
+   *  8 = Carrier Standard Supra/Ultra/Maxima /
+   *  12 = HWASUNG /
+   *  16 = Carrier Vector HE 19/ Pulsor /
+   *  17 = GAH /
+   *  18 = TK DSR
+   *  )
+   */
+  RefrigerationUnitControllerProtocolId = "RefrigerationUnitControllerProtocolId",
   /** Gets the Refrigeration unit status (1 = present). */
   RefrigerationUnitStatusId = "RefrigerationUnitStatusId",
   /** Gets the Refrigeration unit - return temperature zone 1 Id. */
@@ -2157,6 +2766,8 @@ export enum KnownId {
   SecurityIdViewGroupFilterId = "SecurityIdViewGroupFilterId",
   /** Gets the securityId, Access to EV Battery Health Report. */
   SecurityIdEVBatteryHealthReportId = "SecurityIdEVBatteryHealthReportId",
+  /** Gets the securityId, Access to BEV Range Capability Report. */
+  SecurityIdBEVRangeCapabilityReportId = "SecurityIdBEVRangeCapabilityReportId",
   /** Gets the MediaFile SolutionId associated with display pictures. */
   DisplayPictureSolutionId = "DisplayPictureSolutionId",
   /** Gets the securityId, administer Live Map */
@@ -2185,6 +2796,202 @@ export enum KnownId {
   SecurityIdEditStockRulesId = "SecurityIdEditStockRulesId",
   /** Gets the securityId, Reset password. */
   SecurityIdResetPasswordId = "SecurityIdResetPasswordId",
+  /** Gets the securityId, Reprocess Route Based Material Management Rules. */
+  SecurityIdReprocessRouteBasedMaterialManagementRulesId = "SecurityIdReprocessRouteBasedMaterialManagementRulesId",
+  /** Gets the securityId, View Route. */
+  SecurityIdViewRouteId = "SecurityIdViewRouteId",
+  /** Gets the securityId, View Advanced Route. */
+  SecurityIdViewAdvancedRouteId = "SecurityIdViewAdvancedRouteId",
+  /** Gets the securityId, Manage User Display Profiles. */
+  SecurityIdManageUserDisplayProfilesId = "SecurityIdManageUserDisplayProfilesId",
+  /** Gets the securityId, Ability to Dismiss Faults. */
+  SecurityIdDismissFaultsId = "SecurityIdDismissFaultsId",
+  /** Gets the securityId, Ability to access safety overview page. */
+  SecurityIdViewSafetyOverviewId = "SecurityIdViewSafetyOverviewId",
+  /** Gets the securityId, Ability to Skip a Maintenance Reminder. */
+  SecurityIdSkipReminderId = "SecurityIdSkipReminderId",
+  /** Gets the securityId, Ability to Snooze a Maintenance Reminder. */
+  SecurityIdSnoozeReminderId = "SecurityIdSnoozeReminderId",
+  /** Gets the securityId, Manage Asset Utilization Criteria. */
+  SecurityIdManageAssetUtilizationCriteriaId = "SecurityIdManageAssetUtilizationCriteriaId",
+  /** Gets the securityId for Direct Customer. */
+  SecurityIdDirectCustomerId = "SecurityIdDirectCustomerId",
+  /** Gets the securityId, View charge station dashboard. */
+  SecurityIdChargeStationDashboardId = "SecurityIdChargeStationDashboardId",
+  /** Gets the securityId, Access Real Time Range API. */
+  SecurityIdRealTimeRangeId = "SecurityIdRealTimeRangeId",
+  /** Gets the diagnosticId for Oil Change Lower Bound Time Prediction. */
+  DiagnosticOilChangeLowerBoundTimePredictionId = "DiagnosticOilChangeLowerBoundTimePredictionId",
+  /** Gets the diagnosticId for Oil Change Lower Bound Distance Prediction. */
+  DiagnosticOilChangeLowerBoundDistancePredictionId = "DiagnosticOilChangeLowerBoundDistancePredictionId",
+  /** Gets the diagnostic enhanced minor collision identifier. */
+  DiagnosticEnhancedMinorCollisionId = "DiagnosticEnhancedMinorCollisionId",
+  /** Gets the securityId, View Ace AI. */
+  SecurityIdViewAceAIId = "SecurityIdViewAceAIId",
+  /** Gets the diagnosticId for Iox Works spreader firmware version. */
+  IoxWrksFirmwareVersion = "IoxWrksFirmwareVersion",
+  /** Gets the diagnosticId for Iox Works spreader config file. */
+  IoxWrksSpreaderControllerConfigFile = "IoxWrksSpreaderControllerConfigFile",
+  /** Gets the securityId, Access Add-in Management. */
+  SecurityIdAccessAddInManagementId = "SecurityIdAccessAddInManagementId",
+  /** Gets the securityId for Access Clean Truck Check Compliance. */
+  SecurityIdAccessCleanTruckCheckComplianceId = "SecurityIdAccessCleanTruckCheckComplianceId",
+  /** Gets the securityId for Time-To-Charge Complete. */
+  SecurityIdTimeToChargeCompleteId = "SecurityIdTimeToChargeCompleteId",
+  /** Gets the securityId for Administer Public Works service routes. */
+  SecurityIdAdministerPublicWorksServiceRoutesId = "SecurityIdAdministerPublicWorksServiceRoutesId",
+  /** Gets the securityId for View Risk Management Report Option. */
+  SecurityIdViewRiskManagementReportOptionId = "SecurityIdViewRiskManagementReportOptionId",
+  /** Gets the diagnosticId for Iox Works MAC automatic volume substance 1 (liquid). */
+  IoxWrksMacAutomaticVolumeSubstance1 = "IoxWrksMacAutomaticVolumeSubstance1",
+  /** Gets the diagnosticId for Iox Works MAC automatic volume substance 2 (liquid). */
+  IoxWrksMacAutomaticVolumeSubstance2 = "IoxWrksMacAutomaticVolumeSubstance2",
+  /** Gets the diagnosticId for Iox Works MAC automatic volume substance 3 (liquid). */
+  IoxWrksMacAutomaticVolumeSubstance3 = "IoxWrksMacAutomaticVolumeSubstance3",
+  /** Gets the diagnosticId for Iox Works MAC main plow. */
+  IoxWrksMacMainPlow = "IoxWrksMacMainPlow",
+  /** Gets the diagnosticId for Iox Works MAC dosage setting (solid 1). */
+  IoxWrksMacDosageSettingSolid1 = "IoxWrksMacDosageSettingSolid1",
+  /** Gets the diagnosticId for Iox Works MAC dosage setting (liquid 1). */
+  IoxWrksMacDosageSettingLiquid1 = "IoxWrksMacDosageSettingLiquid1",
+  /** Gets the diagnosticId for Iox Works frost point temperature. */
+  IoxWrksFrostPointTemperature = "IoxWrksFrostPointTemperature",
+  /** Gets the diagnosticId for Iox Works ice layer thickness. */
+  IoxWrksIceLayerThickness = "IoxWrksIceLayerThickness",
+  /** Gets the diagnosticId for Iox Works snow layer thickness. */
+  IoxWrksSnowLayerThickness = "IoxWrksSnowLayerThickness",
+  /** Gets the diagnosticId for Iox Works road condition - VAISALA. */
+  IoxWrksRoadConditionVaisala = "IoxWrksRoadConditionVaisala",
+  /** Gets the diagnosticId for Iox Works substance spreader - joystick left. */
+  IoxWrksSubstanceSpreaderJoystickLeft = "IoxWrksSubstanceSpreaderJoystickLeft",
+  /** Gets the diagnosticId for Iox Works substance spreader - joystick right. */
+  IoxWrksSubstanceSpreaderJoystickRight = "IoxWrksSubstanceSpreaderJoystickRight",
+  /** Gets the diagnosticId for Iox Works substance spreader - joystick up. */
+  IoxWrksSubstanceSpreaderJoystickUp = "IoxWrksSubstanceSpreaderJoystickUp",
+  /** Gets the diagnosticId for Iox Works substance spreader - joystick down. */
+  IoxWrksSubstanceSpreaderJoystickDown = "IoxWrksSubstanceSpreaderJoystickDown",
+  /** Gets the diagnosticId for Iox Works substance spreader - joystick twist left. */
+  IoxWrksSubstanceSpreaderJoystickTwistLeft = "IoxWrksSubstanceSpreaderJoystickTwistLeft",
+  /** Gets the diagnosticId for Iox Works substance spreader - joystick twist right. */
+  IoxWrksSubstanceSpreaderJoystickTwistRight = "IoxWrksSubstanceSpreaderJoystickTwistRight",
+  /** Gets the diagnosticId for Iox Works substance spreader - joystick mode. */
+  IoxWrksSubstanceSpreaderJoystickMode = "IoxWrksSubstanceSpreaderJoystickMode",
+  /** Gets the diagnosticId for Iox Works substance spreader - joystick emergency button. */
+  IoxWrksSubstanceSpreaderJoystickEmergencyButton = "IoxWrksSubstanceSpreaderJoystickEmergencyButton",
+  /** Gets the diagnosticId for Iox Works substance spreader - joystick power float 1. */
+  IoxWrksSubstanceSpreaderJoystickPowerFloat1 = "IoxWrksSubstanceSpreaderJoystickPowerFloat1",
+  /** Gets the diagnosticId for Iox Works substance spreader - joystick power float 2. */
+  IoxWrksSubstanceSpreaderJoystickPowerFloat2 = "IoxWrksSubstanceSpreaderJoystickPowerFloat2",
+  /** Gets the diagnosticId for Iox Works substance spreader - prewet material percentage. */
+  IoxWrksSubstanceSpreaderPrewetMaterialPercentage = "IoxWrksSubstanceSpreaderPrewetMaterialPercentage",
+  /** Gets the diagnosticId for Iox Works substance spreader - liquid material percentage. */
+  IoxWrksSubstanceSpreaderLiquidMaterialPercentage = "IoxWrksSubstanceSpreaderLiquidMaterialPercentage",
+  /** Gets the diagnosticId for Iox Works substance spreader - solid material percentage. */
+  IoxWrksSubstanceSpreaderSolidMaterialPercentage = "IoxWrksSubstanceSpreaderSolidMaterialPercentage",
+  /** Gets the diagnosticId for Iox Works substance spreader - spinner percentage. */
+  IoxWrksSubstanceSpreaderSpinnerPercentage = "IoxWrksSubstanceSpreaderSpinnerPercentage",
+  /** Gets the diagnosticId for Iox Works substance spreader - dew point temperature. */
+  IoxWrksSubstanceSpreaderDewPointTemperature = "IoxWrksSubstanceSpreaderDewPointTemperature",
+  /** Gets the diagnosticId for Iox Works substance spreader - relative humidity at road temp. */
+  IoxWrksSubstanceSpreaderRelativeHumidityAtRoadTemp = "IoxWrksSubstanceSpreaderRelativeHumidityAtRoadTemp",
+  /** Gets the diagnosticId for Iox Works substance spreader - water film height. */
+  IoxWrksSubstanceSpreaderWaterFilmHeight = "IoxWrksSubstanceSpreaderWaterFilmHeight",
+  /** Gets the diagnosticId for Iox Works substance spreader - water film height on surface. */
+  IoxWrksSubstanceSpreaderWaterFilmHeightOnSurface = "IoxWrksSubstanceSpreaderWaterFilmHeightOnSurface",
+  /** Gets the diagnosticId for Iox Works substance spreader - ice percentage. */
+  IoxWrksSubstanceSpreaderIcePercentage = "IoxWrksSubstanceSpreaderIcePercentage",
+  /** Gets the diagnosticId for Iox Works substance spreader - friction. */
+  IoxWrksSubstanceSpreaderFriction = "IoxWrksSubstanceSpreaderFriction",
+  /** Gets the diagnosticId for Iox Works substance spreader - freezing temperature. */
+  IoxWrksSubstanceSpreaderFreezingTemperature = "IoxWrksSubstanceSpreaderFreezingTemperature",
+  /** Gets the diagnosticId for Iox Works substance spreader - deicer density value. */
+  IoxWrksSubstanceSpreaderDeicerDensityValue = "IoxWrksSubstanceSpreaderDeicerDensityValue",
+  /** Gets the diagnosticId for Iox Works substance spreader - deicer density meaning. */
+  IoxWrksSubstanceSpreaderDeicerDensityMeaning = "IoxWrksSubstanceSpreaderDeicerDensityMeaning",
+  /** Gets the diagnosticId for Iox Works substance spreader - road condition MARWIS. */
+  IoxWrksSubstanceSpreaderRoadConditionMarwis = "IoxWrksSubstanceSpreaderRoadConditionMarwis",
+  /** Gets the diagnosticId for Iox Works substance spreader - boom 1. */
+  IoxWrksSubstanceSpreaderBoom1 = "IoxWrksSubstanceSpreaderBoom1",
+  /** Gets the diagnosticId for Iox Works substance spreader - boom 2. */
+  IoxWrksSubstanceSpreaderBoom2 = "IoxWrksSubstanceSpreaderBoom2",
+  /** Gets the diagnosticId for Iox Works substance spreader - boom 3. */
+  IoxWrksSubstanceSpreaderBoom3 = "IoxWrksSubstanceSpreaderBoom3",
+  /** Gets the diagnosticId for Iox Works substance spreader - boom 4. */
+  IoxWrksSubstanceSpreaderBoom4 = "IoxWrksSubstanceSpreaderBoom4",
+  /** Gets the diagnosticId for Iox Works substance spreader - boom 5. */
+  IoxWrksSubstanceSpreaderBoom5 = "IoxWrksSubstanceSpreaderBoom5",
+  /** Gets the diagnosticId for Iox Works substance spreader - boom 6. */
+  IoxWrksSubstanceSpreaderBoom6 = "IoxWrksSubstanceSpreaderBoom6",
+  /** Gets the diagnosticId for Iox Works substance spreader - boom 7. */
+  IoxWrksSubstanceSpreaderBoom7 = "IoxWrksSubstanceSpreaderBoom7",
+  /** Gets the diagnosticId for Iox Works substance spreader - boom 8. */
+  IoxWrksSubstanceSpreaderBoom8 = "IoxWrksSubstanceSpreaderBoom8",
+  /** Gets the diagnosticId for Iox Works tow controller status. */
+  IoxWrksTowControllerStatus = "IoxWrksTowControllerStatus",
+  /** Gets the diagnosticId for Iox Works tow controller mode. */
+  IoxWrksTowControllerMode = "IoxWrksTowControllerMode",
+  /** Gets the diagnosticId for Iox Works tow solid material percentage. */
+  IoxWrksTowSolidMaterialPercentage = "IoxWrksTowSolidMaterialPercentage",
+  /** Gets the diagnosticId for Iox Works tow prewet material percentage. */
+  IoxWrksTowPrewetMaterialPercentage = "IoxWrksTowPrewetMaterialPercentage",
+  /** Gets the diagnosticId for Iox Works tow liquid material percentage. */
+  IoxWrksTowLiquidMaterialPercentage = "IoxWrksTowLiquidMaterialPercentage",
+  /** Gets the diagnosticId for Iox Works tow spinner status. */
+  IoxWrksTowSpinnerStatus = "IoxWrksTowSpinnerStatus",
+  /** Gets the diagnosticId for Iox Works air temperature. */
+  IoxWrksAirTemperature = "IoxWrksAirTemperature",
+  /** Gets the diagnosticId for Iox Works road temperature. */
+  IoxWrksRoadTemperature = "IoxWrksRoadTemperature",
+  /** Gets the diagnosticId for Iox Works truck prewet spread distance. */
+  IoxWrksTruckPrewetSpreadDistance = "IoxWrksTruckPrewetSpreadDistance",
+  /** Gets the diagnosticId for Iox Works truck liquid spread distance. */
+  IoxWrksTruckLiquidSpreadDistance = "IoxWrksTruckLiquidSpreadDistance",
+  /** Gets the diagnosticId for Iox Works truck solid spread distance. */
+  IoxWrksTruckSolidSpreadDistance = "IoxWrksTruckSolidSpreadDistance",
+  /** Gets the diagnosticId for Iox Works tow prewet spread distance. */
+  IoxWrksTowPrewetSpreadDistance = "IoxWrksTowPrewetSpreadDistance",
+  /** Gets the diagnosticId for Iox Works tow liquid spread distance. */
+  IoxWrksTowLiquidSpreadDistance = "IoxWrksTowLiquidSpreadDistance",
+  /** Gets the diagnosticId for Iox Works tow solid spread distance. */
+  IoxWrksTowSolidSpreadDistance = "IoxWrksTowSolidSpreadDistance",
+  /** Gets the diagnosticId for Iox Works controller mode. */
+  IoxWrksControllerMode = "IoxWrksControllerMode",
+  /** Gets the diagnosticId for Iox Works spinner state. */
+  IoxWrksSpinnerState = "IoxWrksSpinnerState",
+  /** Gets the diagnosticId for Iox Works spinner rate. */
+  IoxWrksSpinnerRate = "IoxWrksSpinnerRate",
+  /** Gets the diagnosticId for Iox Works controller model. */
+  IoxWrksControllerModel = "IoxWrksControllerModel",
+  /** Gets the diagnosticId for Iox Works controller type. */
+  IoxWrksControllerType = "IoxWrksControllerType",
+  /** Gets the diagnosticId for Iox Works relative humidity. */
+  IoxWrksRelativeHumidity = "IoxWrksRelativeHumidity",
+  /** Gets the diagnosticId for Iox Works spread width. */
+  IoxWrksSpreadWidth = "IoxWrksSpreadWidth",
+  /** Gets the diagnosticId for Iox Works prewet material active. */
+  IoxWrksPrewetMaterialActive = "IoxWrksPrewetMaterialActive",
+  /** Gets the diagnosticId for Iox Works liquid material active. */
+  IoxWrksLiquidMaterialActive = "IoxWrksLiquidMaterialActive",
+  /** Gets the diagnosticId for Iox Works generic external device serial number. */
+  IoxWrksExternalDeviceSerialNumber = "IoxWrksExternalDeviceSerialNumber",
+  /** Gets the diagnosticId for Iox Works secondary spreader configuration file. */
+  IoxWrksSecondarySpreaderConfigFile = "IoxWrksSecondarySpreaderConfigFile",
+  /** Gets the rule for cargo tempearture out of safe range zone 1. */
+  RuleCargoTemperatureOutOfSafeRangeZone1Id = "RuleCargoTemperatureOutOfSafeRangeZone1Id",
+  /** Gets the rule for cargo tempearture out of safe range zone 2. */
+  RuleCargoTemperatureOutOfSafeRangeZone2Id = "RuleCargoTemperatureOutOfSafeRangeZone2Id",
+  /** Gets the rule for cargo tempearture out of safe range zone 3. */
+  RuleCargoTemperatureOutOfSafeRangeZone3Id = "RuleCargoTemperatureOutOfSafeRangeZone3Id",
+  /** Gets the cargo tempearture zone 1 diagnostic. */
+  DiagnosticCargoTemperatureZone1Id = "DiagnosticCargoTemperatureZone1Id",
+  /** Gets the cargo tempearture zone 2 diagnostic. */
+  DiagnosticCargoTemperatureZone2Id = "DiagnosticCargoTemperatureZone2Id",
+  /** Gets the cargo tempearture zone 3 diagnostic. */
+  DiagnosticCargoTemperatureZone3Id = "DiagnosticCargoTemperatureZone3Id",
+  /** Gets the door 1 status diagnostic. */
+  DiagnosticDoor1StatusId = "DiagnosticDoor1StatusId",
+  /** Gets the door 2 status diagnostic. */
+  DiagnosticDoor2StatusId = "DiagnosticDoor2StatusId",
   /** Gets the controller aerodynamic control identifier. */
   ControllerAerodynamicControlId = "ControllerAerodynamicControlId",
   /** Gets the controller aerodynamic control unit identifier. */
@@ -2379,4 +3186,8 @@ export enum KnownId {
   ControllerOilSensorId = "ControllerOilSensorId",
   /** Gets the controller on board diagnostic unit identifier. */
   ControllerOnBoardDiagnosticUnitId = "ControllerOnBoardDiagnosticUnitId",
+  /** Gets the "All Active Devices" option for Reprocess Requests. */
+  AllDevicesReprocessRequest = "AllDevicesReprocessRequest",
+  /** Gets the "All Devices" (including archived devices) option for Reprocess Requests. */
+  AllDevicesIncludeArchivedReprocessRequest = "AllDevicesIncludeArchivedReprocessRequest",
 }

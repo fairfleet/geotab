@@ -8,4 +8,9 @@ import { Search } from "../Search";
  *  The object used to specify the
  *  arguments when searching for a {@link FailureMode}.
  */
-export interface FailureModeSearch extends Search {}
+export interface FailureModeSearch extends Search {
+  /** Gets or sets search for a FailureMode by the code number. */
+  code: number;
+  /** Gets or sets search for FailureMode with these unique {@link Id}(s). */
+  ids: string[];
+}

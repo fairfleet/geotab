@@ -6,6 +6,6 @@ import { Entity } from "./Entity";
 
 /** An {@link Entity} that has a name field. */
 export interface NameEntity extends Entity {
-  /** Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity. */
+  /** Gets or sets the name of this entity which identifies it and is used when displaying this entity. */
   name: string;
 }

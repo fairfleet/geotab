@@ -14,6 +14,7 @@ Represents a request to reprocess data for a specific device.
 
 ### Properties
 
+- [createdDate](DeviceReprocessRequest.md#createddate)
 - [dateTime](DeviceReprocessRequest.md#datetime)
 - [device](DeviceReprocessRequest.md#device)
 - [fromDate](DeviceReprocessRequest.md#fromdate)
@@ -24,8 +25,21 @@ Represents a request to reprocess data for a specific device.
 - [ruleIds](DeviceReprocessRequest.md#ruleids)
 - [status](DeviceReprocessRequest.md#status)
 - [statusText](DeviceReprocessRequest.md#statustext)
+- [updatedDate](DeviceReprocessRequest.md#updateddate)
 
 ## Properties
+
+### createdDate
+
+• **createdDate**: `Date`
+
+Gets or sets a value indicating the date the reprocssing request was created.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L12)
+
+___
 
 ### dateTime
 
@@ -35,7 +49,7 @@ Gets the FromDate. Required by IDateTimeProvider. See DeviceReprocessRequest.Fro
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L12)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L14)
 
 ___
 
@@ -47,7 +61,7 @@ Gets or sets the device for which data will be reprocessed.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L14)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L16)
 
 ___
 
@@ -59,7 +73,7 @@ Gets or sets a value indicating the cutoff date for reprocssing.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L16)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L18)
 
 ___
 
@@ -75,7 +89,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -87,7 +101,7 @@ Gets a value indicating whether this request is in a terminal state.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L18)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L20)
 
 ___
 
@@ -100,7 +114,7 @@ Gets a value indicating whether all data will be reprocessed. If   then all data
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L23)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L25)
 
 ___
 
@@ -108,11 +122,11 @@ ___
 
 • **reprocessRequestId**: `string`
 
-Gets or sets the Id that uniquely identifies the parent ReprocessRequest.
+Gets or sets the Id that uniquely identifies the parent [ReprocessRequest](ReprocessRequest.md).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L25)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L27)
 
 ___
 
@@ -125,7 +139,7 @@ Gets or sets the list of Rule Ids to re-evaluate. If left blank, rules will not 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L30)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L32)
 
 ___
 
@@ -137,7 +151,7 @@ Gets or sets a value representing the current status of the [DeviceReprocessRequ
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L32)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:34](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L34)
 
 ___
 
@@ -150,4 +164,16 @@ Gets or sets additional information regarding the current status of the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L37)
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L39)
+
+___
+
+### updatedDate
+
+• **updatedDate**: `Date`
+
+Gets or sets a value indicating the date the reprocssing request was updated.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts:41](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Reprocessing/DeviceReprocessRequest.ts#L41)

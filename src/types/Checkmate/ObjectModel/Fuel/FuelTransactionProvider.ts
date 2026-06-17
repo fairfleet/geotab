@@ -18,4 +18,9 @@ export type FuelTransactionProvider =
   | "WexCanada"
   | "Allstar"
   | "Keyfuels"
-  | "TFC";
+  | "TFC"
+  | "CarIQ"
+  | "EFS"
+  | "CoastPay"
+  | "CorpayAustralia"
+  | "TChek";

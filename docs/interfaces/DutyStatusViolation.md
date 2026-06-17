@@ -4,20 +4,29 @@
 
 A [DutyStatusLog](DutyStatusLog.md) violation for a [User](User.md).
 
+## Hierarchy
+
+- [`EntityWithVersion`](EntityWithVersion.md)
+
+  ↳ **`DutyStatusViolation`**
+
 ## Table of contents
 
 ### Properties
 
 - [daysLimit](DutyStatusViolation.md#dayslimit)
+- [deletedDateTime](DutyStatusViolation.md#deleteddatetime)
 - [driver](DutyStatusViolation.md#driver)
 - [drivingDuration](DutyStatusViolation.md#drivingduration)
 - [fromDate](DutyStatusViolation.md#fromdate)
 - [hoursLimit](DutyStatusViolation.md#hourslimit)
 - [id](DutyStatusViolation.md#id)
 - [logId](DutyStatusViolation.md#logid)
+- [periodsLimit](DutyStatusViolation.md#periodslimit)
 - [reason](DutyStatusViolation.md#reason)
 - [toDate](DutyStatusViolation.md#todate)
 - [type](DutyStatusViolation.md#type)
+- [version](DutyStatusViolation.md#version)
 
 ## Properties
 
@@ -29,7 +38,19 @@ Gets or sets the maximum or minimum days limit of the duty status violation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L13)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L12)
+
+___
+
+### deletedDateTime
+
+• **deletedDateTime**: `Date`
+
+**`Inherit Doc`**
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L16)
 
 ___
 
@@ -41,7 +62,7 @@ Gets or sets the [User](User.md) associated with the duty status violation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L15)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L18)
 
 ___
 
@@ -53,7 +74,7 @@ Gets or sets the driving duration of the duty status violation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L17)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L20)
 
 ___
 
@@ -65,7 +86,7 @@ Gets or sets the date and time that the duty status violation started.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L19)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L22)
 
 ___
 
@@ -77,7 +98,7 @@ Gets or sets the maximum or minimum hours limit of the duty status violation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L21)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L24)
 
 ___
 
@@ -87,9 +108,13 @@ ___
 
 Gets or sets the unique identifier for the specific [Entity](Entity.md) object in the Geotab system. See Id.
 
+#### Inherited from
+
+[EntityWithVersion](EntityWithVersion.md).[id](EntityWithVersion.md#id)
+
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L23)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -101,7 +126,19 @@ Gets or sets the log Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L25)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L26)
+
+___
+
+### periodsLimit
+
+• **periodsLimit**: `number`
+
+Gets or sets the maximum or minimum hours limit of the duty status Cycle Rest violation.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L28)
 
 ___
 
@@ -113,7 +150,7 @@ Gets or sets the stated reason why the duty status violation occurred.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L27)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L30)
 
 ___
 
@@ -125,7 +162,7 @@ Gets or sets the date and time that the duty status violation ended.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L29)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L32)
 
 ___
 
@@ -137,4 +174,20 @@ Gets or sets the [DutyStatusViolationType](../README.md#dutystatusviolationtype)
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L31)
+[src/types/Checkmate/ObjectModel/DutyStatusViolation.ts:34](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusViolation.ts#L34)
+
+___
+
+### version
+
+• **version**: `number`
+
+Gets or sets the version of the entity.
+
+#### Inherited from
+
+[EntityWithVersion](EntityWithVersion.md).[version](EntityWithVersion.md#version)
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

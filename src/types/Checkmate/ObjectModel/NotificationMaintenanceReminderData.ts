@@ -3,7 +3,7 @@
 //     the code is regenerated.
 
 import { NotificationData } from "./NotificationData";
-import { EventRule } from "./EventRule";
+import { MaintenanceSchedule } from "./MaintenanceSchedule";
 import { NotificationType } from "./NotificationType";
 import { Device } from "./Device";
 
@@ -12,7 +12,7 @@ export interface NotificationMaintenanceReminderData extends NotificationData {
   /** Gets or sets the device serial nubmer for this notification. */
   device: Device;
   /** Gets or sets the maintenance reminder that holds the data for this notification. */
-  eventRule: EventRule;
+  eventRule: MaintenanceSchedule;
   /** Gets or sets the information for the notification maintenance reminder data. */
   info: string;
   /** Gets or sets the event rule that holds the data for this notification. */

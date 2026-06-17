@@ -2,7 +2,7 @@
 
 # Interface: FillUpExtrema
 
-Represents the extrema (minima/maxima) from a set of [StatusData](StatusData.md) values.
+Represents the low and high values of fuel level for a fill-up.
 
 ## Table of contents
 
@@ -23,7 +23,7 @@ Gets or sets the maxima value.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L10)
+[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L10)
 
 ___
 
@@ -31,11 +31,11 @@ ___
 
 • **maximaPoint**: `unknown`
 
-Gets or sets the maxima fuel data point for the fill up event
+Gets or sets the maxima FillUpExtremum for the fill-up.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L12)
+[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L12)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets the minima value.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L14)
+[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L14)
 
 ___
 
@@ -55,8 +55,8 @@ ___
 
 • **minimaPoint**: `unknown`
 
-Gets or sets the minima fuel data point for the fill up event.
+Gets or sets the minima FillUpExtremum for the fill-up.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L16)
+[src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FillUpExtrema.ts#L16)

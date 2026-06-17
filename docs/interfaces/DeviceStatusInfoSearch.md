@@ -19,12 +19,15 @@ The object used to specify the arguments when searching for [DeviceStatusInfo](D
 - [deviceStatusFilterCondition](DeviceStatusInfoSearch.md#devicestatusfiltercondition)
 - [diagnostics](DeviceStatusInfoSearch.md#diagnostics)
 - [excludeExceptionEvents](DeviceStatusInfoSearch.md#excludeexceptionevents)
+- [fromDate](DeviceStatusInfoSearch.md#fromdate)
 - [id](DeviceStatusInfoSearch.md#id)
+- [includeUntrackedDevices](DeviceStatusInfoSearch.md#includeuntrackeddevices)
 - [isDeviceCommunicating](DeviceStatusInfoSearch.md#isdevicecommunicating)
 - [isDriving](DeviceStatusInfoSearch.md#isdriving)
 - [maxId](DeviceStatusInfoSearch.md#maxid)
 - [maxSearchRadius](DeviceStatusInfoSearch.md#maxsearchradius)
 - [position](DeviceStatusInfoSearch.md#position)
+- [statusDataSearch](DeviceStatusInfoSearch.md#statusdatasearch)
 - [userSearch](DeviceStatusInfoSearch.md#usersearch)
 - [version](DeviceStatusInfoSearch.md#version)
 
@@ -38,7 +41,7 @@ Gets or sets the maximum number of Devices to search for when specifying a "Posi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L15)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L16)
 
 ___
 
@@ -53,7 +56,7 @@ Gets or sets search for [DeviceStatusInfo](DeviceStatusInfo.md)(s) from a device
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L23)
 
 ___
 
@@ -66,7 +69,7 @@ Gets or sets devices based on current status, IsDriving and IsDeviceCommunicatin
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L27)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L28)
 
 ___
 
@@ -74,13 +77,13 @@ ___
 
 • **diagnostics**: [`Diagnostic`](Diagnostic.md)[]
 
-Gets or sets a list of diagnostics when looking for the latest values for those diagnostics.
+Gets or sets a list of DeviceStatusInfoSearch.Diagnostics to look for the latest values for those diagnostics. Maximum amount [200]
  Available Diagnostics options are:.
  <list><item><description>Id</description></item></list>
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L33)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:34](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L34)
 
 ___
 
@@ -92,7 +95,19 @@ Gets or sets a value indicating whether to exclude exception events. Default [fa
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L35)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:36](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L36)
+
+___
+
+### fromDate
+
+• **fromDate**: `Date`
+
+Gets or sets the date and time from which to search for DeviceStatusInfo.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:38](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L38)
 
 ___
 
@@ -108,7 +123,19 @@ Gets or sets [DeviceStatusInfo](DeviceStatusInfo.md)Id search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L37)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:40](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L40)
+
+___
+
+### includeUntrackedDevices
+
+• **includeUntrackedDevices**: `boolean`
+
+Gets or sets a value indicating whether to include untracked and archived vehicles in the search results. Defaults to <see langword="false" />.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:42](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L42)
 
 ___
 
@@ -123,7 +150,7 @@ Gets or sets search for devices based on their current communicating status.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:44](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L44)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:49](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L49)
 
 ___
 
@@ -136,7 +163,7 @@ Gets or sets a 'single' search filter for devices that are 'driving'.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:49](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L49)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:54](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L54)
 
 ___
 
@@ -148,7 +175,7 @@ Gets or sets the maximum Id of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:51](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L51)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:56](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L56)
 
 ___
 
@@ -160,7 +187,7 @@ Gets or sets the maximum search radius centre at Position when looking for neare
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:53](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L53)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:58](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L58)
 
 ___
 
@@ -175,7 +202,20 @@ Gets or sets search for Status Info for Devices in the vicinity of the provided
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:60](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L60)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:65](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L65)
+
+___
+
+### statusDataSearch
+
+• **statusDataSearch**: [`StatusDataValueFilter`](StatusDataValueFilter.md)
+
+Gets or sets a filter for the [StatusDataValueFilter](StatusDataValueFilter.md). This is used to filter
+ the [DeviceStatusInfo](DeviceStatusInfo.md) based on the value of a specific diagnostic.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:70](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L70)
 
 ___
 
@@ -189,7 +229,7 @@ Gets or sets search for Device Status Info associated with this [UserSearch](Use
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:66](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L66)
+[src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts:76](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceStatusInfoSearch.ts#L76)
 
 ___
 
@@ -205,4 +245,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

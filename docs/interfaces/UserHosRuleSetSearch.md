@@ -16,7 +16,9 @@ The object used to specify the arguments when searching for
 ### Properties
 
 - [fromDate](UserHosRuleSetSearch.md#fromdate)
+- [hosRulesetConfigSearch](UserHosRuleSetSearch.md#hosrulesetconfigsearch)
 - [id](UserHosRuleSetSearch.md#id)
+- [includeDeleted](UserHosRuleSetSearch.md#includedeleted)
 - [maxVersion](UserHosRuleSetSearch.md#maxversion)
 - [minVersion](UserHosRuleSetSearch.md#minversion)
 - [toDate](UserHosRuleSetSearch.md#todate)
@@ -33,7 +35,21 @@ Gets or sets search for hos ruleset objects that were recorded at this date or a
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts#L15)
+
+___
+
+### hosRulesetConfigSearch
+
+• **hosRulesetConfigSearch**: [`HosRulesetConfigSearch`](HosRulesetConfigSearch.md)
+
+Gets or sets search for ruleset configs
+ Available HosRulesetConfigSearch options are:
+ <list><item><description>RuleSetIds</description></item></list>
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts#L21)
 
 ___
 
@@ -49,7 +65,19 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
+
+___
+
+### includeDeleted
+
+• **includeDeleted**: `boolean`
+
+Gets or sets a value indicating whether search includes records that have the dtDeleted column set
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts#L23)
 
 ___
 
@@ -64,7 +92,7 @@ Gets or sets
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts#L30)
 
 ___
 
@@ -79,7 +107,7 @@ Gets or sets
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts#L28)
+[src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts#L37)
 
 ___
 
@@ -91,7 +119,7 @@ Gets or sets search for hos ruleset objects that were recorded at this date or b
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts#L30)
+[src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts#L39)
 
 ___
 
@@ -105,7 +133,7 @@ Gets or sets search for hos ruleset objects with this [UserSearch](UserSearch.md
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts:36](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts#L36)
+[src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts:45](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/UserHosRuleSetSearch.ts#L45)
 
 ___
 
@@ -121,4 +149,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

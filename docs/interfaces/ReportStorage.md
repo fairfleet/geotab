@@ -20,12 +20,14 @@ Stores the binary data for a generate excel report.
 - [expiry](ReportStorage.md#expiry)
 - [id](ReportStorage.md#id)
 - [lastUpdated](ReportStorage.md#lastupdated)
+- [processingStartDate](ReportStorage.md#processingstartdate)
 - [reportDateRange](ReportStorage.md#reportdaterange)
 - [reportName](ReportStorage.md#reportname)
 - [reportSource](ReportStorage.md#reportsource)
 - [reportType](ReportStorage.md#reporttype)
 - [size](ReportStorage.md#size)
 - [status](ReportStorage.md#status)
+- [traceId](ReportStorage.md#traceid)
 - [version](ReportStorage.md#version)
 
 ## Properties
@@ -38,7 +40,7 @@ Gets or sets the excel binary data.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorage.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorage.ts#L13)
+[src/types/Checkmate/ObjectModel/ReportStorage.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorage.ts#L13)
 
 ___
 
@@ -50,7 +52,7 @@ Gets or sets a DateTime of when the report was generated.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorage.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorage.ts#L15)
+[src/types/Checkmate/ObjectModel/ReportStorage.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorage.ts#L15)
 
 ___
 
@@ -62,7 +64,7 @@ Gets or sets the dashboard instance of the drop down report request.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorage.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorage.ts#L17)
+[src/types/Checkmate/ObjectModel/ReportStorage.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorage.ts#L17)
 
 ___
 
@@ -74,7 +76,7 @@ Gets or sets the expiry date of the report in the storage.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorage.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorage.ts#L19)
+[src/types/Checkmate/ObjectModel/ReportStorage.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorage.ts#L19)
 
 ___
 
@@ -90,7 +92,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -103,7 +105,19 @@ Gets or sets the datetime when the report was known to be processing or finished
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorage.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorage.ts#L24)
+[src/types/Checkmate/ObjectModel/ReportStorage.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorage.ts#L24)
+
+___
+
+### processingStartDate
+
+• **processingStartDate**: `Date`
+
+Gets or sets a DateTime of when the report started processing.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/ReportStorage.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorage.ts#L26)
 
 ___
 
@@ -115,7 +129,7 @@ Gets or sets the reports date range.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorage.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorage.ts#L26)
+[src/types/Checkmate/ObjectModel/ReportStorage.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorage.ts#L28)
 
 ___
 
@@ -127,7 +141,7 @@ Gets or sets the name of the report.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorage.ts:28](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorage.ts#L28)
+[src/types/Checkmate/ObjectModel/ReportStorage.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorage.ts#L30)
 
 ___
 
@@ -139,7 +153,7 @@ Gets or sets the source of the report whether it's dropdown or email [ReportDest
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorage.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorage.ts#L30)
+[src/types/Checkmate/ObjectModel/ReportStorage.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorage.ts#L32)
 
 ___
 
@@ -151,7 +165,7 @@ Gets or sets the type of the report whether it's pdf or excel.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorage.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorage.ts#L32)
+[src/types/Checkmate/ObjectModel/ReportStorage.ts:34](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorage.ts#L34)
 
 ___
 
@@ -163,7 +177,7 @@ Gets or sets the size (bytes) of the report.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorage.ts:34](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorage.ts#L34)
+[src/types/Checkmate/ObjectModel/ReportStorage.ts:36](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorage.ts#L36)
 
 ___
 
@@ -175,7 +189,19 @@ Gets or sets the current status of the report which is being prepared, completed
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ReportStorage.ts:36](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ReportStorage.ts#L36)
+[src/types/Checkmate/ObjectModel/ReportStorage.ts:38](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorage.ts#L38)
+
+___
+
+### traceId
+
+• **traceId**: `string`
+
+Gets or sets a Trace ID of the request to generate this report.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/ReportStorage.ts:40](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ReportStorage.ts#L40)
 
 ___
 
@@ -191,4 +217,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

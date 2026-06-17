@@ -10,8 +10,6 @@ The object used to specify the arguments when searching for a [FuelUpEvent](Fuel
 
   ↳ **`FuelUpEventSearch`**
 
-  ↳↳ [`FillUpSearch`](FillUpSearch.md)
-
 ## Table of contents
 
 ### Properties
@@ -33,7 +31,7 @@ Gets or sets the device search criteria for the FuelUpEvent with this [DeviceSea
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelUpEventSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelUpEventSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/Fuel/FuelUpEventSearch.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelUpEventSearch.ts#L14)
 
 ___
 
@@ -45,7 +43,7 @@ Gets or sets the from date, which is used to search for FuelUpEvent(s) recorded 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelUpEventSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelUpEventSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/Fuel/FuelUpEventSearch.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelUpEventSearch.ts#L16)
 
 ___
 
@@ -61,7 +59,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -73,7 +71,7 @@ Gets or sets the to date, which is used to search for FuelUpEvent(s) recorded on
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Fuel/FuelUpEventSearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Fuel/FuelUpEventSearch.ts#L18)
+[src/types/Checkmate/ObjectModel/Fuel/FuelUpEventSearch.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Fuel/FuelUpEventSearch.ts#L18)
 
 ___
 
@@ -89,4 +87,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

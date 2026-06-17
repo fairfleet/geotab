@@ -8,6 +8,7 @@ import { User } from "./User";
 import { DutyStatusViolation } from "./DutyStatusViolation";
 import { UserHosRuleSet } from "./UserHosRuleSet";
 import { DutyStatusLogType } from "./DutyStatusLogType";
+import { DiscreteAvailabilitySnapshot } from "./DiscreteAvailabilitySnapshot";
 
 /** Detailed information for Hours of Service regulation for a driver. */
 export interface DriverRegulation extends Entity {
@@ -19,6 +20,12 @@ export interface DriverRegulation extends Entity {
   cycleSummaries: unknown[];
   /** Gets or sets the day summaries. */
   daySummaries: unknown[];
+  /**
+   * Gets or sets the discrete availability values for each violation type.
+   *  Unlike {@link DriverRegulation.Availability} which contains aggregated values, this contains raw individual availability values.
+   *  Only populated when getDiscreteAvailability is requested from HosEngine.
+   */
+  discreteAvailability: DiscreteAvailabilitySnapshot;
   /** Gets or sets the {@link DriverRegulation.Driver}. */
   driver: User;
   /**
@@ -28,6 +35,8 @@ export interface DriverRegulation extends Entity {
    * @deprecated
    */
   ewdAvailability: unknown[];
+  /** Gets or sets the next Hos event date. */
+  nextHosEventDate: Date;
   /** Gets or sets when off duty is needed. */
   offDutyNeeded: string;
   /** Gets or sets when rest break is needed. */

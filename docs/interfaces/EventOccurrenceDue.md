@@ -16,22 +16,38 @@ An upcoming event related to ab [EventOccurrence](EventOccurrence.md).
 
 ### Properties
 
+- [createdDate](EventOccurrenceDue.md#createddate)
 - [dueInDays](EventOccurrenceDue.md#dueindays)
 - [dueInEngineHours](EventOccurrenceDue.md#dueinenginehours)
 - [dueInOdometer](EventOccurrenceDue.md#dueinodometer)
 - [dueOnDate](EventOccurrenceDue.md#dueondate)
 - [eventDue](EventOccurrenceDue.md#eventdue)
+- [guid](EventOccurrenceDue.md#guid)
 - [id](EventOccurrenceDue.md#id)
 - [isActiveSnooze](EventOccurrenceDue.md#isactivesnooze)
 - [isSnoozed](EventOccurrenceDue.md#issnoozed)
 - [overdueByDays](EventOccurrenceDue.md#overduebydays)
 - [overdueByEngineHours](EventOccurrenceDue.md#overduebyenginehours)
 - [overdueByOdometer](EventOccurrenceDue.md#overduebyodometer)
+- [severity](EventOccurrenceDue.md#severity)
 - [snoozeDuration](EventOccurrenceDue.md#snoozeduration)
 - [snoozedDate](EventOccurrenceDue.md#snoozeddate)
 - [snoozedDueOn](EventOccurrenceDue.md#snoozeddueon)
+- [status](EventOccurrenceDue.md#status)
 
 ## Properties
+
+### createdDate
+
+• **createdDate**: `Date`
+
+Gets or sets the created date of the maintenanceupcomingevents record.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L16)
+
+___
 
 ### dueInDays
 
@@ -41,7 +57,7 @@ Gets or sets the number of days the event is due in.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L15)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L18)
 
 ___
 
@@ -53,7 +69,7 @@ Gets or sets the engine hours the event is due.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L17)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L20)
 
 ___
 
@@ -65,7 +81,7 @@ Gets or sets the odometer the event is due.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L19)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L22)
 
 ___
 
@@ -77,7 +93,7 @@ Gets or sets the date the event is due.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L21)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L24)
 
 ___
 
@@ -89,7 +105,19 @@ Gets or sets the event that is due or overdue.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L23)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L26)
+
+___
+
+### guid
+
+• **guid**: `string`
+
+Gets the records GUID.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L28)
 
 ___
 
@@ -105,7 +133,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:27](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L27)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L32)
 
 ___
 
@@ -117,7 +145,7 @@ Gets or sets if snoozed is currently active
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:29](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L29)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:34](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L34)
 
 ___
 
@@ -129,7 +157,7 @@ Gets or sets if snoozed has not been deactivated
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L31)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:36](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L36)
 
 ___
 
@@ -141,7 +169,7 @@ Gets or sets the number of days the event is overdue by.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L33)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:38](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L38)
 
 ___
 
@@ -153,7 +181,7 @@ Gets or sets the engine hours the event is overdue by.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L35)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:40](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L40)
 
 ___
 
@@ -165,7 +193,19 @@ Gets or sets the odometer the event is overdue by.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L37)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:42](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L42)
+
+___
+
+### severity
+
+• **severity**: [`MaintenanceSeverity`](../README.md#maintenanceseverity)
+
+Gets or sets the severity of the event.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:44](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L44)
 
 ___
 
@@ -177,7 +217,7 @@ Gets or sets the snoozed duration
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:43](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L43)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:50](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L50)
 
 ___
 
@@ -189,7 +229,7 @@ Gets or sets the date snoozed
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:39](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L39)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:46](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L46)
 
 ___
 
@@ -201,4 +241,16 @@ Gets or sets the date the snoozed is due
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:41](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L41)
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:48](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L48)
+
+___
+
+### status
+
+• **status**: `string`
+
+Gets or sets the status of the event.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts:52](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventOccurrenceDue.ts#L52)

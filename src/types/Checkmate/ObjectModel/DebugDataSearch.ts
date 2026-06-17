@@ -4,12 +4,18 @@
 
 import { Search } from "./Search";
 import { DeviceSearch } from "./DeviceSearch";
+import { DebugReason } from "./DebugReason";
 
 /**
  *  The object used to specify the arguments when searching
  *  {@link DebugData}.
  */
 export interface DebugDataSearch extends Search {
+  /**
+   * Gets or sets the search for DebugData records with {@link DebugDataSearch.DebugReason}.
+   *  Note that it's ignored by the GetFeed Search function.
+   */
+  debugReason: DebugReason;
   /**
    * Gets or sets the search for DebugData recorded for this {@link DeviceSearch} Id.
    *  Available DeviceSearch options are:.

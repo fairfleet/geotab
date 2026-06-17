@@ -19,9 +19,10 @@ The object used to specify the arguments when searching for
 - [deviceSearch](TripSearch.md#devicesearch)
 - [fromDate](TripSearch.md#fromdate)
 - [id](TripSearch.md#id)
+- [includeDeleted](TripSearch.md#includedeleted)
 - [includeOverlappedTrips](TripSearch.md#includeoverlappedtrips)
-- [maxId](TripSearch.md#maxid)
-- [minId](TripSearch.md#minid)
+- [maxVersion](TripSearch.md#maxversion)
+- [minVersion](TripSearch.md#minversion)
 - [searchArea](TripSearch.md#searcharea)
 - [toDate](TripSearch.md#todate)
 - [userSearch](TripSearch.md#usersearch)
@@ -39,7 +40,7 @@ Gets or sets search for Trips with this [DeviceSearch](DeviceSearch.md) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripSearch.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TripSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/TripSearch.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TripSearch.ts#L21)
 
 ___
 
@@ -52,7 +53,7 @@ Gets or sets search for Trips recorded at this date or after. When "IncludeOverl
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripSearch.ts:26](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TripSearch.ts#L26)
+[src/types/Checkmate/ObjectModel/TripSearch.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TripSearch.ts#L26)
 
 ___
 
@@ -68,7 +69,19 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
+
+___
+
+### includeDeleted
+
+• **includeDeleted**: `boolean`
+
+Gets or sets a value indicating whether trip search allows including deleted records
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/TripSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TripSearch.ts#L28)
 
 ___
 
@@ -81,31 +94,31 @@ Gets or sets a value indicating whether when OverlappedTrips is set to True; any
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripSearch.ts:31](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TripSearch.ts#L31)
+[src/types/Checkmate/ObjectModel/TripSearch.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TripSearch.ts#L33)
 
 ___
 
-### maxId
+### maxVersion
 
-• **maxId**: `string`
+• **maxVersion**: `number`
 
-Gets or sets maximum Id of the search criteria.
+Gets or sets maximum Version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripSearch.ts:33](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TripSearch.ts#L33)
+[src/types/Checkmate/ObjectModel/TripSearch.ts:35](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TripSearch.ts#L35)
 
 ___
 
-### minId
+### minVersion
 
-• **minId**: `string`
+• **minVersion**: `number`
 
-Gets or sets minimum Id of the search criteria.
+Gets or sets minimum Version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripSearch.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TripSearch.ts#L35)
+[src/types/Checkmate/ObjectModel/TripSearch.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TripSearch.ts#L37)
 
 ___
 
@@ -118,7 +131,7 @@ Gets or sets search rectangular area for Trips; the trips being retrieved must b
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripSearch.ts:40](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TripSearch.ts#L40)
+[src/types/Checkmate/ObjectModel/TripSearch.ts:42](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TripSearch.ts#L42)
 
 ___
 
@@ -131,7 +144,7 @@ Gets or sets search for Trips recorded at this date or before. When "IncludeOver
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripSearch.ts:45](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TripSearch.ts#L45)
+[src/types/Checkmate/ObjectModel/TripSearch.ts:47](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TripSearch.ts#L47)
 
 ___
 
@@ -145,7 +158,7 @@ Gets or sets search for Trips with this [UserSearch](UserSearch.md) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/TripSearch.ts:51](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/TripSearch.ts#L51)
+[src/types/Checkmate/ObjectModel/TripSearch.ts:53](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/TripSearch.ts#L53)
 
 ___
 
@@ -161,4 +174,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

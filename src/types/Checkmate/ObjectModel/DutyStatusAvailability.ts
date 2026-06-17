@@ -2,30 +2,31 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
+import { Entity } from "./Entity";
 import { User } from "./User";
 
-/**
- *  Driver Availability for Hours of Service regulations.
- */
-export interface DutyStatusAvailability {
+/** Driver Availability for Hours of Service regulations. */
+export interface DutyStatusAvailability extends Entity {
   /** Gets a list of {@link DutyStatusAvailabilityDuration}(s) for a driver. */
   availabilities: unknown[];
-  /** Gets or sets the duration of cycle hours left. */
+  /** Gets or sets the duration of cycle duty hours left. */
   cycle: string;
   /** Gets or sets cycle available to the driver in the future. */
   cycleAvailabilities: unknown[];
+  /** Gets or sets the duration of cycle driving hours left. */
+  cycleDriving: string;
   /** Gets or sets the duration left before cycle rest must be taken. */
   cycleRest: string;
   /** Gets or sets the {@link User} associated with the duty status availability. */
   driver: User;
   /** Gets or sets the duration left for driving. */
   driving: string;
+  /** Gets or sets the duration of the driving break (USA only) */
+  drivingBreakDuration: string;
   /** Gets or sets the duration of total on-duty time left in a day. */
   duty: string;
   /** Gets or sets the duty hours left since Cycle Rest. */
   dutySinceCycleRest: string;
-  /** Gets or sets the unique identifier for the specific {@link Entity} object in the Geotab system. See {@link Id}. */
-  id: string;
   /** Gets or sets if 16 hour exemption is available. */
   is16HourExemptionAvailable: boolean;
   /** Gets or sets if adverse driving exemption is applied. */

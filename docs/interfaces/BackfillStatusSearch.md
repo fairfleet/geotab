@@ -33,7 +33,7 @@ Gets or sets to the backfill type, which is used to search for Snapshot Processi
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts:11
+[src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts#L11)
 
 ___
 
@@ -46,7 +46,7 @@ Gets or sets the device search criteria for the BackfillStatus entry with this [
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts:16
+[src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts#L16)
 
 ___
 
@@ -58,7 +58,7 @@ Gets or sets the from date, which is used to search for Snapshot Processing reco
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts:18
+[src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts#L18)
 
 ___
 
@@ -74,7 +74,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -86,7 +86,7 @@ Gets or sets the IsProcessingComplete flag, which is used to search for Snapshot
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts:20
+[src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts#L20)
 
 ___
 
@@ -98,7 +98,7 @@ Gets or sets the IsProcessingRequired flag, which is used to search for records 
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts:22
+[src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts#L22)
 
 ___
 
@@ -110,7 +110,7 @@ Gets or sets the to date, which is used to search for Snapshot Processing record
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts:24
+[src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Processing/BackfillStatusSearch.ts#L24)
 
 ___
 
@@ -126,4 +126,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

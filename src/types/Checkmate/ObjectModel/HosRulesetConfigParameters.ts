@@ -23,8 +23,8 @@ export interface HosRulesetConfigParameters {
   daily: unknown;
   /** Gets or sets a value indicating whether exempt or not. */
   exempt: boolean;
-  /** Gets or sets a value indicating whether labs are enabled or not. */
-  labsEnabled: boolean;
+  /** Gets or sets a value indicating whether the ruleset is governed by Canadian federal or provincial regulations. */
+  isCanada: boolean;
   /** Gets or sets the days of log retention. */
   logRetentionDays: number;
   /** Gets or sets a value indicating whether there is an oil well exemption or not. */
@@ -35,6 +35,8 @@ export interface HosRulesetConfigParameters {
   resetPreviousCycle: boolean;
   /** Gets or sets the {@link HosRulesetRestConfig}. */
   rest: unknown;
+  /** Gets or sets the split configuration that determines the rules for calculating sleeper berth splits. */
+  splitConfig: unknown;
   /** Gets or sets the split type. */
   splitType: string;
   /** Gets or sets the {@link HosRulesetWorkdayConfig}. */

@@ -7,7 +7,7 @@ import { Device } from "./Device";
 
 /** Generic Custom Data from a GO unit that was sent through from a third-party device that is attached to the serial port. */
 export interface CustomData extends Entity {
-  /** Gets or sets the custom data in binary format. Default [empty]. */
+  /** Gets or sets the custom data in base64 encoded string format. Default [empty]. */
   data: number[];
   /** Gets or sets the date and time the log was created. */
   dateTime: Date;

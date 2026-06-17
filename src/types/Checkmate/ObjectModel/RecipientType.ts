@@ -8,7 +8,6 @@ export type RecipientType =
   | "Email"
   | "LogPopup"
   | "LogUrgentPopup"
-  | "Alarm"
   | "WebService"
   | "TextMessage"
   | "ChangeStatus"
@@ -30,4 +29,10 @@ export type RecipientType =
   | "HosDisabled"
   | "RestrictedDataMode"
   | "ExpireShareableLink"
-  | "DeviceShareFailure";
+  | "DeviceShareFailure"
+  | "MediaServiceTrigger"
+  | "SmsToUser"
+  | "EmailToHierarchy"
+  | "PushNotification"
+  | "CreateWorkRequest"
+  | "WhatsAppToUser";

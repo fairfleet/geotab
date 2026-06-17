@@ -11,6 +11,8 @@ import { ExceptionEventSearch } from "./ExceptionEventSearch";
  *  See comments on each nested {@link Search} for what parameters are supported.
  */
 export interface ExceptionEventCommentSearch extends Search {
+  /** Gets or sets a collection of {@link ExceptionEvent}s to filter comments by specific events. */
+  exceptionEvents: string[];
   /**
    * Gets or sets the {@link ExceptionEventCommentSearch.ExceptionEventSearch} used to find comments related to particular {@link ExceptionEvent}s.
    *

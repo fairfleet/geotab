@@ -9,6 +9,8 @@ import { NotificationBinaryFile } from "./NotificationBinaryFile";
 
 /** The rule describing an event. */
 export interface EventRule extends NameEntity {
+  /** Gets or sets a value indicating whether gets or sets if the event rule is active. */
+  active: boolean;
   /** Gets or sets the number of assets associated with this event rule. */
   assetCount: number;
   /** Gets or sets free text field where any user information can be stored and referenced for this entity. */
@@ -31,16 +33,18 @@ export interface EventRule extends NameEntity {
   eventType: EventType;
   /** Gets or sets a list of {@link Group}(s) assigned to the event rule. */
   groups: Group[];
-  /** Gets or sets gets the unique identifier for this entity. See {@link Id}. */
+  /** Gets or sets Gets or sets the unique identifier for this entity. See {@link Id}. */
   id: string;
   /** Gets or sets the kilometers. */
   kilometers: number;
   /** Gets or sets the months. */
   months: number;
-  /** Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity. */
+  /** Gets or sets the name of this entity which identifies it and is used when displaying this entity. */
   name: string;
   /** Gets or sets the notification template {@link NotificationBinaryFile} for the event. */
   notificationTemplate: NotificationBinaryFile;
+  /** Gets or sets the source of this entity which identifies from where this rule was generated. */
+  source: string;
   /** Gets or sets the weeks. */
   weeks: number;
 }

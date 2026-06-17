@@ -12,4 +12,6 @@ export type InvalidUserType =
   | "UserSuspended"
   | "RefreshTokenExpired"
   | "RefreshTokenUsed"
-  | "RefreshTokenDoesNotExist";
+  | "RefreshTokenDoesNotExist"
+  | "DatabaseRequired"
+  | "PendingActivation";

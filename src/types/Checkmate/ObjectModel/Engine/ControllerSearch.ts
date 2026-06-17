@@ -7,6 +7,10 @@ import { SourceSearch } from "./SourceSearch";
 
 /** The object used to specify the arguments when searching for {@link Controller}(s). */
 export interface ControllerSearch extends Search {
+  /** Gets or sets search for a Controller by the code number. */
+  code: number;
+  /** Gets or sets search for Controllers with these unique {@link Id}(s). */
+  ids: string[];
   /** Gets or sets search for Controllers with this Name. Wildcard can be used by prepending/appending "%" to string. Example "%name%". */
   name: string;
   /**

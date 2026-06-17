@@ -20,6 +20,7 @@ Install Records updates to be sent to UI which were received from MyAdmin.
 - [myAdminJsonResponse](InstallRecord.md#myadminjsonresponse)
 - [otherParams](InstallRecord.md#otherparams)
 - [serialNumber](InstallRecord.md#serialnumber)
+- [sourceId](InstallRecord.md#sourceid)
 - [version](InstallRecord.md#version)
 
 ## Properties
@@ -32,7 +33,7 @@ Gets or sets value for date of installation.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts#L12)
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts#L12)
 
 ___
 
@@ -48,7 +49,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -60,7 +61,7 @@ Gets or sets installation status for the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts#L14)
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts#L14)
 
 ___
 
@@ -72,7 +73,7 @@ Gets or sets the value for MyAdminJsonResponse.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts#L16)
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts#L16)
 
 ___
 
@@ -84,7 +85,7 @@ Gets or sets other properties of the device.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts#L18)
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts#L18)
 
 ___
 
@@ -96,7 +97,19 @@ Gets or sets value for SerialNumber.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts#L20)
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts#L20)
+
+___
+
+### sourceId
+
+• **sourceId**: `string`
+
+Gets or sets value for MYA InstallRecord Id
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/InstallRecords/InstallRecord.ts#L22)
 
 ___
 
@@ -112,4 +125,4 @@ Gets or sets the version of the entity.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)
+[src/types/Checkmate/ObjectModel/EntityWithVersion.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EntityWithVersion.ts#L10)

@@ -33,7 +33,7 @@ Gets or sets the unique identifier for this entity. See Id.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/DataModeType.ts:14
+[src/types/Checkmate/ObjectModel/DataModeType.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DataModeType.ts#L14)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 • **name**: `string`
 
-Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity.
+Gets or sets the name of this entity which identifies it and is used when displaying this entity.
 
 #### Overrides
 
@@ -49,4 +49,4 @@ Gets or sets the name of this entity that uniquely identifies it and is used whe
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/DataModeType.ts:16
+[src/types/Checkmate/ObjectModel/DataModeType.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DataModeType.ts#L16)

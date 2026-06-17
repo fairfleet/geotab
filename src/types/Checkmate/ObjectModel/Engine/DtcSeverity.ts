@@ -6,4 +6,5 @@
 export type DtcSeverity =
   | "MaintenanceOnly"
   | "CheckAtNextHalt"
-  | "CheckImmediately";
+  | "CheckImmediately"
+  | "NoRepairNeeded";

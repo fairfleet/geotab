@@ -8,8 +8,12 @@ export interface VersionInformation {
   application: unknown;
   /** Gets or sets the current version of the MyGeotab databases on the server. */
   database: string;
+  /** Gets or sets the current deployment type of the server. */
+  deploymentType: number;
   /** Gets or sets the Text to Speech firmware version provided by the server. */
   goTalk: string;
+  /** Gets or sets a value indicating whether this server ID is unique in this federation. */
+  isUniqueServerId: boolean;
   /** Gets or sets the current version of MyGeotab, branch, and commit hash running on the server. */
   server: string;
   /** Gets or sets the server flags. */

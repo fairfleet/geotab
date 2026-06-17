@@ -46,7 +46,7 @@ Only [RouteType](../README.md#routetype) "Plan" have a Device assigned.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/RouteSearch.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteSearch.ts#L22)
 
 ___
 
@@ -58,7 +58,7 @@ Gets or sets search for Routes that were active at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/RouteSearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteSearch.ts#L24)
 
 ___
 
@@ -72,7 +72,7 @@ Gets or sets search for ONLY Route Completion (RouteSearch.RouteType.Service) ro
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteSearch.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteSearch.ts#L30)
+[src/types/Checkmate/ObjectModel/RouteSearch.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteSearch.ts#L30)
 
 ___
 
@@ -88,7 +88,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -101,7 +101,7 @@ Gets or sets status for the routes.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteSearch.ts:35](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteSearch.ts#L35)
+[src/types/Checkmate/ObjectModel/RouteSearch.ts:35](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteSearch.ts#L35)
 
 ___
 
@@ -113,7 +113,7 @@ Gets or sets maximum version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteSearch.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteSearch.ts#L37)
+[src/types/Checkmate/ObjectModel/RouteSearch.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteSearch.ts#L37)
 
 ___
 
@@ -125,7 +125,7 @@ Gets or sets minimum version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteSearch.ts:39](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteSearch.ts#L39)
+[src/types/Checkmate/ObjectModel/RouteSearch.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteSearch.ts#L39)
 
 ___
 
@@ -138,7 +138,7 @@ Gets or sets search for Routes with this Name. Wildcard can be used by prependin
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteSearch.ts:44](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteSearch.ts#L44)
+[src/types/Checkmate/ObjectModel/RouteSearch.ts:44](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteSearch.ts#L44)
 
 ___
 
@@ -150,7 +150,7 @@ Gets or sets search for Routes with this [RouteType](../README.md#routetype).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteSearch.ts:46](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteSearch.ts#L46)
+[src/types/Checkmate/ObjectModel/RouteSearch.ts:46](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteSearch.ts#L46)
 
 ___
 
@@ -164,7 +164,7 @@ Gets or sets search for ONLY Route Completion (RouteSearch.RouteType.Service) ro
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteSearch.ts:52](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteSearch.ts#L52)
+[src/types/Checkmate/ObjectModel/RouteSearch.ts:52](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteSearch.ts#L52)
 
 ___
 
@@ -176,7 +176,7 @@ Gets or sets search for Routes that were active at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteSearch.ts:54](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteSearch.ts#L54)
+[src/types/Checkmate/ObjectModel/RouteSearch.ts:54](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteSearch.ts#L54)
 
 ___
 
@@ -192,7 +192,7 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -200,12 +200,10 @@ ___
 
 • **zoneSearch**: [`ZoneSearch`](ZoneSearch.md)
 
-Gets or sets filter by the [ZoneSearch](ZoneSearch.md) options. Providing a zone ID will
- search for any Routes that are assigned to that Device.
- Providing the Groups will search for Routes for that have Devices in that group.
- Available DeviceSearch options are:
+Gets or sets filter by the [ZoneSearch](ZoneSearch.md) options. Providing a zone ID will search for any Routes that contain that Zone.
+ Providing Groups will search for Routes that have Zones in that group. Available ZoneSearch options are:
  <list><item><description>Id</description></item><item><description>Groups</description></item></list>
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/RouteSearch.ts:62](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/RouteSearch.ts#L62)
+[src/types/Checkmate/ObjectModel/RouteSearch.ts:60](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/RouteSearch.ts#L60)

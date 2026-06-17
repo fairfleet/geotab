@@ -6,6 +6,8 @@ import { NameEntityWithVersion } from "./NameEntityWithVersion";
 import { Color } from "../../Drawing/Color";
 import { ZoneType } from "./ZoneType";
 import { Group } from "./Group";
+import { ZoneMetadataType } from "./ZoneMetadataType";
+import { GeometryType } from "./GeometryType";
 
 /** Sometimes referred to as a "Geofence", a zone is a virtual geographic boundary, defined by its points representing a real-world geographic area. */
 export interface Zone extends NameEntityWithVersion {
@@ -27,13 +29,19 @@ export interface Zone extends NameEntityWithVersion {
   externalReference: string;
   /** Gets or sets the {@link Color} of the fill for this zone when showing on a map. Default [based on zone type; Customer: Orange, Office: Light Orange, Home: Green, Other: Blue]. */
   fillColor: Color;
+  /** Gets or sets the geometry type of the zone. */
+  geometryType: GeometryType;
   /** Gets or sets the group(s) this zone belongs to. */
   groups: Group[];
   /** Gets or sets the unique identifier for this entity. See {@link Id}. */
   id: string;
+  /** Gets or sets the zone's Length in km */
+  length: number;
+  /** Gets or sets the zone metadata. */
+  metadata: { [key in ZoneMetadataType]: string };
   /** Gets or sets whether this zone name must be shown when devices stop in this zone. If [true] a "zone stop rule" (Rule with BaseType: ZoneStop) will automatically be created for this zone. This is to facilitate reporting on zone stops. The rule is not visible via the UI. Default [true]. */
   mustIdentifyStops: boolean;
-  /** Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity. */
+  /** Gets or sets the name of this entity which identifies it and is used when displaying this entity. */
   name: string;
   /**
    * Gets or sets the list of points (see {@link Coordinate}) that make up this zone. A zone should be closed, the first point is the same coordinate as the last point.

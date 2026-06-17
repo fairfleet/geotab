@@ -25,6 +25,8 @@ export interface DeviceShareSearch extends Search {
   devicePlanBillingInfo: DevicePlanBillingInfo;
   /** Gets or sets the ExclusiveDateSearch flag. Set to true to search for dates exclusively (meaning greater/less than is used instead greater/less or equal to when filtering results). */
   exclusiveDates: boolean;
+  /** Gets or sets search for DeviceShares expired from this date onwards. */
+  expirationDateTime: Date;
   /**
    * Gets or sets the FindFirstAfterDate flag. Set to true to find the first device share after the only
    *  non-null date field. Setting more than one date field will cause an exception. Also, this option cannot

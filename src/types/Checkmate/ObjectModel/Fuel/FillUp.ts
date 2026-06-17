@@ -2,22 +2,56 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
+import { EntityWithVersion } from "../EntityWithVersion";
+import { Device } from "../Device";
+import { Driver } from "../Driver";
 import { FillUpExtrema } from "./FillUpExtrema";
 import { FuelTankCapacity } from "./FuelTankCapacity";
 import { FuelTransaction } from "./FuelTransaction";
+import { FuelTransactionProductType } from "./FuelTransactionProductType";
+import { FuelUpEventConfidences } from "./FuelUpEventConfidences";
 
-/** An event representing adding fuel to a vehicle. */
-export interface FillUp {
-  /** Gets or sets the volume derived from fuel tank capacity. */
+/**
+ * An event representing adding fuel to an asset. Many sources of data are evaluated to determine a fill-up.
+ *  {@link FuelTransaction}s, {@link StatusData} (fuel level percent, fuel level volume, fuel used, tank capacity, odometer), {@link LogRecord}s, {@link Trip}s are all used to calculate fill-up events.
+ */
+export interface FillUp extends EntityWithVersion {
+  /** Gets or sets the {@link FuelUpEventConfidences} associated with the Fuel record. Default [None]. */
+  confidence: FuelUpEventConfidences;
+  /** Gets or sets the cost of the fuel transaction. Default [0]. */
+  cost: number;
+  /** Gets or sets the three digit ISO 427 currency code (http://www.xe.com/iso4217.php). Default ["USD"]. */
+  currencyCode: string;
+  /** Gets or sets the UTC date and time of the fuel event. */
+  dateTime: Date;
+  /**
+   * @inheritdoc
+   */
+  deletedDateTime: Date;
+  /** Gets or sets the volume in Liters derived from fuel tank capacity. Default [-1]. */
   derivedVolume: number;
   /** Gets or sets the difference in fuel out vs fuel in. */
   deviationFactor: number;
-  /** Gets or sets the raw fuel transaction. */
+  /** Gets or sets the {@link Device} associated with the fuel used event. */
+  device: Device;
+  /** Gets or sets the distance in meters traveled since the last fill-up. */
+  distance: number;
+  /** Gets or sets the {@link FillUp.Driver} associated with the transaction. */
+  driver: Driver;
+  /** Gets or sets the {@link FuelTransaction}s matched to this fill-up. */
   fuelTransactions: FuelTransaction[];
-  /** Gets or sets the fuel tank capacity. */
+  /** Gets or sets the {@link Coordinate} of the transaction retailer. Default [0,0]. */
+  location: unknown;
+  /** Gets or sets the odometer reading in meters. Default [0]. */
+  odometer: number;
+  /** Gets or sets the {@link FuelTransactionProductType} of this transaction. Default [Unknown]. */
+  productType: FuelTransactionProductType;
+  /** Gets or sets the {@link FuelTankCapacity} and how it was derived. */
   tankCapacity: FuelTankCapacity;
-  /** Gets or sets the fuel tank level change. */
+  /** Gets or sets the {@link FillUpExtrema} representing the fuel tank level change at the time of the fill-up. */
   tankLevelExtrema: FillUpExtrema;
-  /** Gets or sets the total fuel used up to this point in time. */
+  /** Gets or sets the total fuel used in Liters up to this point in time. Default [-1]. */
   totalFuelUsed: number;
+  /** Gets or sets the volume of fuel added in Liters. Default [0]. */
+  volume: number;
 }

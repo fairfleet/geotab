@@ -16,10 +16,19 @@ export interface FuelTransaction extends FuelEvent {
   cardNumber: string;
   /** Gets or sets the free text field where any user information can be stored and referenced for this entity. This can be used to associate the transaction with a {@link FuelTransaction.Device}. Maximum length [1024] Default [""]. */
   comments: string;
+  /**
+   * @inheritdoc
+   */
+  deletedDateTime: Date;
   /** Gets or sets the vehicle description of the vehicle. This can be used to associate the transaction with a {@link FuelTransaction.Device}. Maximum length [255] Default [""]. */
   description: string;
   /** Gets or sets the {@link Device} the transaction belongs to. Default [null]. */
   device: Device;
+  /**
+   * Gets or sets the {@link Driver}- and {@link Trip}-matched
+   *  {@link Device} the transaction belongs to.
+   */
+  deviceByDriver: Device;
   /** Gets or sets the {@link Driver} the transaction belongs to. */
   driver: Driver;
   /** Gets or sets the fuel card holder name. This can be used to associate the transaction with a {@link FuelTransaction.Driver}. Maximum length [255] Default [""]. */

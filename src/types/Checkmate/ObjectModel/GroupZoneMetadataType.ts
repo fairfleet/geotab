@@ -3,4 +3,4 @@
 //     the code is regenerated.
 
 /** Defines the different types of {@link GroupZoneMetadata}(s). */
-export type GroupZoneMetadataType = "None" | "ExpectedPassCount";
+export type GroupZoneMetadataType = "None" | "ExpectedPassCount" | "ZoomLevel";

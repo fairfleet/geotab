@@ -2,15 +2,18 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 
+import { EntityWithVersion } from "./EntityWithVersion";
 import { User } from "./User";
 import { DutyStatusViolationType } from "./DutyStatusViolationType";
 
-/**
- *  A {@link DutyStatusLog} violation for a {@link User}.
- */
-export interface DutyStatusViolation {
+/** A {@link DutyStatusLog} violation for a {@link User}. */
+export interface DutyStatusViolation extends EntityWithVersion {
   /** Gets or sets the maximum or minimum days limit of the duty status violation. */
   daysLimit: number;
+  /**
+   * @inheritdoc
+   */
+  deletedDateTime: Date;
   /** Gets or sets the {@link User} associated with the duty status violation. */
   driver: User;
   /** Gets or sets the driving duration of the duty status violation. */
@@ -19,10 +22,10 @@ export interface DutyStatusViolation {
   fromDate: Date;
   /** Gets or sets the maximum or minimum hours limit of the duty status violation. */
   hoursLimit: number;
-  /** Gets or sets the unique identifier for the specific {@link Entity} object in the Geotab system. See {@link Id}. */
-  id: string;
   /** Gets or sets the log Id. */
   logId: string;
+  /** Gets or sets the maximum or minimum hours limit of the duty status Cycle Rest violation. */
+  periodsLimit: number;
   /** Gets or sets the stated reason why the duty status violation occurred. */
   reason: string;
   /** Gets or sets the date and time that the duty status violation ended. */

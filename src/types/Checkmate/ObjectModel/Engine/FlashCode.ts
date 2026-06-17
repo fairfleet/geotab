@@ -7,7 +7,7 @@ import { Diagnostic } from "./Diagnostic";
 import { FailureMode } from "./FailureMode";
 
 /**
- *  The optional summary code references for specific
+ * The optional summary code references for specific
  *  {@link Diagnostic} items referencing
  *  {@link FaultData} records.
  */
@@ -24,7 +24,7 @@ export interface FlashCode extends NameEntity {
   helpUrl: string;
   /** Gets or sets the unique identifier for this entity. See {@link Id}. */
   id: string;
-  /** Gets or sets the name of this entity that both uniquely identifies it and is used for display. */
+  /** Gets or sets the name of this entity which identifies it and is used when displaying this entity. */
   name: string;
   /** Gets or sets the page reference, if applicable. */
   pageReference: string;

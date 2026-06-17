@@ -18,6 +18,7 @@ The object used to specify the arguments when searching for [DeviceLink](DeviceL
 - [activeTo](DeviceLinkSearch.md#activeto)
 - [destinationDeviceSearch](DeviceLinkSearch.md#destinationdevicesearch)
 - [id](DeviceLinkSearch.md#id)
+- [linkType](DeviceLinkSearch.md#linktype)
 - [maxVersion](DeviceLinkSearch.md#maxversion)
 - [sourceDeviceSearch](DeviceLinkSearch.md#sourcedevicesearch)
 - [version](DeviceLinkSearch.md#version)
@@ -33,7 +34,7 @@ Gets or sets search for DeviceLink that was active at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts#L14)
+[src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts#L15)
 
 ___
 
@@ -45,7 +46,7 @@ Gets or sets search for DeviceLink that was active at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts#L16)
+[src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts#L17)
 
 ___
 
@@ -59,7 +60,7 @@ Gets or sets destination device search for DeviceLink attached to this [DeviceSe
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts:22](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts#L22)
+[src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts#L23)
 
 ___
 
@@ -75,7 +76,19 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
+
+___
+
+### linkType
+
+• **linkType**: [`DeviceLinkType`](../README.md#devicelinktype)
+
+Gets or sets link type for the DeviceLink search
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts#L25)
 
 ___
 
@@ -87,7 +100,7 @@ Gets or sets the maximum row version of the DeviceLink search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts#L24)
+[src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts#L27)
 
 ___
 
@@ -101,7 +114,7 @@ Gets or sets source device search for DeviceLink attached to this [DeviceSearch]
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts#L30)
+[src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts:33](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts#L33)
 
 ___
 
@@ -117,4 +130,4 @@ Gets or sets the row version of the DeviceLink search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts#L32)
+[src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts:35](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DeviceLinkSearch.ts#L35)

@@ -34,7 +34,7 @@ Gets or sets a value indicating whether this [EventDeviation](EventDeviation.md)
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EventDeviation.ts:16
+[src/types/Checkmate/ObjectModel/EventDeviation.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventDeviation.ts#L16)
 
 ___
 
@@ -46,7 +46,7 @@ Gets or sets the EventDeviation.DateTime of the event exception.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EventDeviation.ts:18
+[src/types/Checkmate/ObjectModel/EventDeviation.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventDeviation.ts#L18)
 
 ___
 
@@ -58,7 +58,7 @@ Gets or sets gets the [Device](Device.md).
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EventDeviation.ts:20
+[src/types/Checkmate/ObjectModel/EventDeviation.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventDeviation.ts#L20)
 
 ___
 
@@ -70,19 +70,19 @@ Gets or sets the event date.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EventDeviation.ts:22
+[src/types/Checkmate/ObjectModel/EventDeviation.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventDeviation.ts#L22)
 
 ___
 
 ### eventRule
 
-• **eventRule**: [`EventRule`](EventRule.md)
+• **eventRule**: [`MaintenanceSchedule`](MaintenanceSchedule.md)
 
 Gets or sets the event rule.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EventDeviation.ts:24
+[src/types/Checkmate/ObjectModel/EventDeviation.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventDeviation.ts#L24)
 
 ___
 
@@ -98,7 +98,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -110,4 +110,4 @@ Gets or sets the snooze duration.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EventDeviation.ts:26
+[src/types/Checkmate/ObjectModel/EventDeviation.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventDeviation.ts#L26)

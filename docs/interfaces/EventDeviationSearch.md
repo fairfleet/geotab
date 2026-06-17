@@ -35,7 +35,7 @@ Gets or sets a value indicating whether gets or sets search for active [EventDev
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EventDeviationSearch.ts:17
+[src/types/Checkmate/ObjectModel/EventDeviationSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventDeviationSearch.ts#L17)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets a list of Device Ids to search by. [Device](Device.md)
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EventDeviationSearch.ts:19
+[src/types/Checkmate/ObjectModel/EventDeviationSearch.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventDeviationSearch.ts#L19)
 
 ___
 
@@ -64,7 +64,7 @@ Gets or sets search for [EventDeviation](EventDeviation.md)s matching this
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EventDeviationSearch.ts:28
+[src/types/Checkmate/ObjectModel/EventDeviationSearch.ts:28](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventDeviationSearch.ts#L28)
 
 ___
 
@@ -72,20 +72,20 @@ ___
 
 • **eventRuleIds**: `string`[]
 
-Gets or sets a list of EventRule Ids to search by. [EventRule](EventRule.md)
+Gets or sets a list of EventRule Ids to search by. [MaintenanceSchedule](MaintenanceSchedule.md)
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EventDeviationSearch.ts:30
+[src/types/Checkmate/ObjectModel/EventDeviationSearch.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventDeviationSearch.ts#L30)
 
 ___
 
 ### eventRuleSearch
 
-• **eventRuleSearch**: [`EventRuleSearch`](EventRuleSearch.md)
+• **eventRuleSearch**: [`MaintenanceScheduleSearch`](MaintenanceScheduleSearch.md)
 
 Gets or sets search for [EventDeviation](EventDeviation.md)s matching this
- [EventRuleSearch](EventRuleSearch.md). Providing a event rule id will
+ [MaintenanceScheduleSearch](MaintenanceScheduleSearch.md). Providing a event rule id will
  search for any EventDeviations that are assigned to that Event Rule.
  Providing the Groups will search for EventDeviations for that have Event Rules in that group.
  Available EventRuleSearch options are:.
@@ -93,7 +93,7 @@ Gets or sets search for [EventDeviation](EventDeviation.md)s matching this
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/EventDeviationSearch.ts:39
+[src/types/Checkmate/ObjectModel/EventDeviationSearch.ts:39](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/EventDeviationSearch.ts#L39)
 
 ___
 
@@ -109,7 +109,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -125,4 +125,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

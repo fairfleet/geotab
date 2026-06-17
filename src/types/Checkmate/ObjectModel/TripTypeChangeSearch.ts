@@ -19,7 +19,7 @@ export interface TripTypeChangeSearch extends Search {
   deviceSearch: DeviceSearch;
   /** Gets or sets search for {@link TripTypeChange}s recorded at this date or after. */
   fromDate: Date;
-  /** Gets or sets a value indicating whether gets or sets a value to include the first {@link TripTypeChange} before the {@link TripTypeChangeSearch.FromDate}. If {@link TripTypeChangeSearch.FromDate} is <c>null</c> this has no effect. */
+  /** Gets or sets a value indicating whether gets or sets a value to include the first {@link TripTypeChange} before the {@link TripTypeChangeSearch.FromDate}. If {@link TripTypeChangeSearch.FromDate" /> is <see langword="null} this has no effect. */
   includeFromDateOverlap: boolean;
   /** Gets or sets search for {@link TripTypeChange}s recorded at this date or before. */
   toDate: Date;

@@ -7,11 +7,7 @@ import { Color } from "../../Drawing/Color";
 import { DefectSeverity } from "./DefectSeverity";
 import { DefectAssetType } from "./DefectAssetType";
 
-/**
- *  Represents a Defect entity. This defines the one
- *  to one relationship between a {@link DefectSeverity} and
- *  {@link Group}.
- */
+/** Represents a Defect entity. This defines the one to one relationship between a {@link DefectSeverity} and {@link Group}. */
 export interface Defect extends Group {
   /** Gets or sets the {@link DefectAssetType} of the defect. */
   assetType: DefectAssetType;

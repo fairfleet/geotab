@@ -14,22 +14,37 @@ The object used to specify the arguments when searching for [Zone](Zone.md)(s).
 
 ### Properties
 
+- [displayed](ZoneSearch.md#displayed)
 - [externalReference](ZoneSearch.md#externalreference)
 - [fromDate](ZoneSearch.md#fromdate)
+- [geometryType](ZoneSearch.md#geometrytype)
 - [groupFilterCondition](ZoneSearch.md#groupfiltercondition)
 - [groups](ZoneSearch.md#groups)
 - [id](ZoneSearch.md#id)
 - [includeGroups](ZoneSearch.md#includegroups)
+- [includeMetadata](ZoneSearch.md#includemetadata)
 - [keywords](ZoneSearch.md#keywords)
 - [minimumRadiusInMeters](ZoneSearch.md#minimumradiusinmeters)
 - [name](ZoneSearch.md#name)
+- [names](ZoneSearch.md#names)
 - [searchArea](ZoneSearch.md#searcharea)
 - [toDate](ZoneSearch.md#todate)
 - [version](ZoneSearch.md#version)
-- [viewport](ZoneSearch.md#viewport)
 - [zoneTypes](ZoneSearch.md#zonetypes)
 
 ## Properties
+
+### displayed
+
+• **displayed**: `boolean`
+
+Gets or sets search for Zones that are displayed or not.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L18)
+
+___
 
 ### externalReference
 
@@ -40,7 +55,7 @@ Gets or sets search for Zones with this External Reference. Wildcard can be used
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:21](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L21)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L23)
 
 ___
 
@@ -52,7 +67,19 @@ Gets or sets search for Zones that were active at this date or after. Set to UTC
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L23)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L25)
+
+___
+
+### geometryType
+
+• **geometryType**: [`GeometryTypeSearch`](../README.md#geometrytypesearch)
+
+Gets or sets search for Zones that have geometry type of [GeometryTypeSearch](../README.md#geometrytypesearch).
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:27](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L27)
 
 ___
 
@@ -64,7 +91,7 @@ Gets or sets the zones that belong to groups that are combined with the and/or r
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L25)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:29](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L29)
 
 ___
 
@@ -73,13 +100,12 @@ ___
 • **groups**: [`GroupSearch`](GroupSearch.md)[]
 
 Gets or sets search for Zones that are members of these [GroupSearch](GroupSearch.md)(s) one of
- it's children or
- one of it's parents. Available GroupSearch options are:.
+ it's children or one of it's parents. Available GroupSearch options are:
  <list><item><description>Id</description></item></list>
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:32](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L32)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:35](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L35)
 
 ___
 
@@ -95,7 +121,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -111,7 +137,19 @@ Gets or sets include zones that are in the in this hierarchy of the
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:40](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L40)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:43](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L43)
+
+___
+
+### includeMetadata
+
+• **includeMetadata**: `boolean`
+
+Gets or sets search for zones including metadata or not
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:45](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L45)
 
 ___
 
@@ -123,7 +161,7 @@ Gets or sets search for entities that contain specific keywords in all wildcard 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:42](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L42)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:47](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L47)
 
 ___
 
@@ -135,7 +173,7 @@ Gets or sets exclude Zones whose radius is smaller than this size (meters).
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:44](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L44)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:49](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L49)
 
 ___
 
@@ -148,7 +186,19 @@ Gets or sets search for Zones with this Name. Wildcard can be used by prepending
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:49](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L49)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:54](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L54)
+
+___
+
+### names
+
+• **names**: `string`[]
+
+Gets or sets search for Zones with these Names.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:56](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L56)
 
 ___
 
@@ -162,7 +212,7 @@ Gets or sets the [BoundingBox](BoundingBox.md) search for Zones in this area ext
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:55](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L55)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:62](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L62)
 
 ___
 
@@ -174,7 +224,7 @@ Gets or sets search for Zones that were active at this date or before.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:57](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L57)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:64](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L64)
 
 ___
 
@@ -190,23 +240,7 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
-
-___
-
-### viewport
-
-• **viewport**: [`RectangleF`](RectangleF.md)
-
-Gets or sets search for Zones in this area extent, the zones being retrieved must be located in this area.
- Typically used for retrieving Zones in the extents of a Map Viewport.
- The viewport object should contain the top left coordinate of the viewport (x,y) and the width, height.
- An example of the JSON structure of this object is: { "x":-106.72608947754628, "y":55.862873349922104,
- "width":41.04492187500384, "height":-28.66703166908511 }.
-
-#### Defined in
-
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:65](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L65)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -214,9 +248,9 @@ ___
 
 • **zoneTypes**: [`ZoneTypeSearch`](ZoneTypeSearch.md)[]
 
-Gets or sets search for Zones that are of type [ZoneTypeSearch](ZoneTypeSearch.md)(s). Available ZoneTypeSearch options are:.
+Gets or sets search for Zones that are of type [ZoneTypeSearch](ZoneTypeSearch.md)(s). Available ZoneTypeSearch options are:
  <list><item><description>Id</description></item></list>
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/ZoneSearch.ts:70](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L70)
+[src/types/Checkmate/ObjectModel/ZoneSearch.ts:69](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/ZoneSearch.ts#L69)

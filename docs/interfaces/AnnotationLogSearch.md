@@ -32,7 +32,7 @@ Gets or sets search for AnnotationLogs which have a comment that contains this S
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts#L11)
+[src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts#L11)
 
 ___
 
@@ -44,7 +44,7 @@ Gets or sets search for AnnotationLogs that were recorded at this date or after.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts#L13)
+[src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts#L13)
 
 ___
 
@@ -60,7 +60,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -72,7 +72,7 @@ Gets or sets search for [AnnotationLog](AnnotationLog.md)s with a maximum of thi
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts#L15)
+[src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts#L15)
 
 ___
 
@@ -84,7 +84,7 @@ Gets or sets search for AnnotationLogs that were recorded at this date or before
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts#L17)
+[src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts#L17)
 
 ___
 
@@ -98,7 +98,7 @@ Gets or sets search for AnnotationLogs with this [UserSearch](UserSearch.md) Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts:23](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts#L23)
+[src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts:23](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts#L23)
 
 ___
 
@@ -114,4 +114,4 @@ Gets or sets the row version of the AnnotationLog search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts#L25)
+[src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/AnnotationLogSearch.ts#L25)

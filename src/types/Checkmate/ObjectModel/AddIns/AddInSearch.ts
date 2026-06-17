@@ -3,6 +3,19 @@
 //     the code is regenerated.
 
 import { Search } from "../Search";
+import { AddInConfigurationSearch } from "./AddInConfigurationSearch";
+import { GroupSearch } from "../GroupSearch";
 
 /** The object used to specify the arguments when searching for {@link AddIn}. */
-export interface AddInSearch extends Search {}
+export interface AddInSearch extends Search {
+  /**
+   * Gets or sets search for Addins that are members of these {@link GroupSearch}(s) one of
+   *  its parents or itself. Available GroupSearch options are:.
+   *  <list><item><description>Id</description></item></list>
+   */
+  autoEnrollmentGroups: GroupSearch[];
+  /** Gets or sets the {@link AddInConfigurationSearch}. */
+  configuration: AddInConfigurationSearch;
+  /** Gets or sets whether the add-in has auto enroll enabled. */
+  isAutoEnrollEnabled: boolean;
+}

@@ -9,6 +9,8 @@ import { EntityType } from "./EntityType";
 export interface EntitySettingSearch extends Search {
   /** Gets or sets the entity {@link Id}. */
   entityId: string;
+  /** Gets or sets entity {@link Id}s. */
+  entityIds: string[];
   /** Gets or sets the {@link EntitySettingSearch.EntityType}. */
   entityType: EntityType;
   /** Gets or sets the settings key. */

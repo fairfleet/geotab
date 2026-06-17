@@ -3,9 +3,16 @@
 //     the code is regenerated.
 
 import { NameEntity } from "./NameEntity";
+import { Color } from "../../Drawing/Color";
 
 /** The type of the zone. */
 export interface ZoneType extends NameEntity {
   /** Gets or sets a free text field where any user information can be stored and referenced for this entity. Default [""]. */
   comment: string;
+  /** Gets the default fill color for a new ZoneType. */
+  defaultFillColorForNewZoneType: Color;
+  /** Gets or sets the fill color of the zone type. */
+  fillColor: Color;
+  /** Gets or sets a value indicating whether the zone type is built-in. */
+  isBuiltIn: boolean;
 }

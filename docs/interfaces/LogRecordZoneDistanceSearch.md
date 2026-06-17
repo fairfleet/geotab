@@ -35,7 +35,7 @@ Gets or sets search for [LogRecordZoneDistance](LogRecordZoneDistance.md)s that 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts:20](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts#L20)
+[src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts#L20)
 
 ___
 
@@ -48,7 +48,7 @@ Gets or sets search for [LogRecordZoneDistance](LogRecordZoneDistance.md)s that 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts:25](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts#L25)
+[src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts:25](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts#L25)
 
 ___
 
@@ -64,7 +64,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L10)
+[src/types/Checkmate/ObjectModel/Search.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L10)
 
 ___
 
@@ -77,7 +77,7 @@ Gets or sets search for [LogRecordZoneDistance](LogRecordZoneDistance.md)s that 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts:30](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts#L30)
+[src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts:30](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts#L30)
 
 ___
 
@@ -93,7 +93,7 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)
 
 ___
 
@@ -108,4 +108,4 @@ Gets or sets search for [LogRecordZoneDistance](LogRecordZoneDistance.md)s that 
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts:37](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts#L37)
+[src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts:37](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/LogRecordZoneDistanceSearch.ts#L37)

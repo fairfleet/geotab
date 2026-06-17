@@ -17,10 +17,15 @@ export interface DeviceStatusFilterCondition extends Search {
    */
   isDeviceCommunicating: boolean;
   /**
-   * Gets or sets the filter indicating if device is deriving
+   * Gets or sets the filter indicating if device is driving
    *  Can only be driving if IsCommunicating is true
    */
   isDriving: boolean;
+  /**
+   * Gets or sets search for devices communicating over satellite.
+   *  Note: This is currently only supported in "GetLastKnownPositionsAsync"
+   */
+  isSatelliteCommunication: boolean;
   /** Gets or sets And/Or for device status filter */
   relation: SearchRelation;
 }

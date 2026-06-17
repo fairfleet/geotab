@@ -6,6 +6,11 @@ import { Search } from "./Search";
 
 /** The object used to specify the arguments when searching for a {@link Group}. */
 export interface GroupSearch extends Search {
+  /**
+   * Gets or sets search for Groups that are descendants of the group with this Id.
+   *  The group with this Id would also be included in the result.
+   */
+  ancestors: GroupSearch[];
   /** Gets or sets include Groups from all trees, for example "Security Groups" and "Private User Groups". The"Company Group" tree is included by default. */
   includeAllTrees: boolean;
   /** Gets or sets gets maximum Id of the search criteria. */

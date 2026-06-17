@@ -6,36 +6,55 @@ import { EntityWithVersion } from "../EntityWithVersion";
 import { ChargeType } from "./ChargeType";
 import { Device } from "../Device";
 
-/** Record of a charge event */
+/** A ChargeEvent summarizes important details about EV charging: where vehicles have been charging, when vehicles have been charging, and how much energy they have consumed. */
 export interface ChargeEvent extends EntityWithVersion {
-  /** Gets or sets a value indicating whether the charge values were estimated. */
+  /**
+   * Gets or sets a value indicating whether EnergyConsumedKwh and PeakPowerKw have been measured directly, or estimated based on other available data.
+   *  <para />
+   *  Geotab aims to provide high accuracy data on all EV makes and models. However, when a primary (preferred) raw data signal is not available, we may have to estimate EnergyConsumedKwh based on secondary (non-preferred) raw data signals. For these vehicles, chargeIsEstimated will be true.
+   */
   chargeIsEstimated: boolean;
-  /** Gets or sets the charging type provided by the external power source. */
+  /**
+   * Gets or sets the {@link ChargeEvent.ChargeType} provided by the external power source. Possible types are AC (Alternating Current), DC (Direct Current),
+   *  or Unknown if the signal received from the charger does not match AC or DC.
+   */
   chargeType: ChargeType;
-  /** Gets or sets the odometer in km at charge start event. */
+  /** Gets or sets the odometer reading at {@link ChargeEvent} start, measured in kilometers. */
   chargingStartedOdometerKm: number;
-  /** Gets or sets the device which created the charge event. */
+  /**
+   * @inheritdoc
+   */
+  deletedDateTime: Date;
+  /** Gets or sets the {@link Device} associated with the {@link ChargeEvent}. */
   device: Device;
-  /** Gets or sets the length of time the vehicle was charging in seconds. */
+  /** Gets or sets the length of time the vehicle was charging, formatted as follows: “d.hh:mm:ss.fffffff”, where "d" represents days and “fffffff” represents fractional seconds. */
   duration: string;
-  /** Gets or sets the distance traveled since the previous charge event. */
+  /** Gets or sets the distance traveled since the previous {@link ChargeEvent} in Kilometers. */
   electricDistanceSinceLastChargeKm: number;
-  /** Gets or sets the ending state of charge for this charge event. */
+  /** Gets or sets the battery charge % (state of charge) at the end of the associated {@link ChargeEvent}. [0-100] */
   endStateOfCharge: number;
-  /** Gets or sets the energy consumed during the charge event. */
+  /** Gets or sets the total energy going into the vehicle (at the charge station interface) during the {@link ChargeEvent}, in kWh. This may be different from the energy added to the vehicle battery due to losses incurred by other internal vehicle components, such as on-board chargers. */
   energyConsumedKwh: number;
-  /** Gets or sets the amount of energy drawn from the battery since the last charge event. */
+  /** Gets or sets the amount of energy drawn from the battery since the last {@link ChargeEvent} in Kilowatt-hours. */
   energyUsedSinceLastChargeKwh: number;
-  /** Gets or sets the location where the charge event occurred. */
+  /** Gets or sets the {@link Coordinate} where the {@link ChargeEvent} occurred. */
   location: unknown;
-  /** Gets or sets the maximum AC Voltage over the charge event. */
+  /** Gets or sets the maximum AC Voltage reported during the {@link ChargeEvent}, measured in Volts. */
   maxACVoltage: number;
-  /** Gets or sets the peak power used during the charge event. */
+  /** Gets or sets the amount of energy added to the vehicle battery during charging in Kilowatt-hours. */
+  measuredBatteryEnergyInKwh: number;
+  /** Gets or sets the amount of energy that left the vehicle battery during charging in Kilowatt-hours. */
+  measuredBatteryEnergyOutKwh: number;
+  /** Gets or sets the amount of energy that passed into the on-board charger in Kilowatt-hours. */
+  measuredOnBoardChargerEnergyInKwh: number;
+  /** Gets or sets the amount of energy that passed out of the on-board charger in Kilowatt-hours. */
+  measuredOnBoardChargerEnergyOutKwh: number;
+  /** Gets or sets the peak power used during the {@link ChargeEvent}, measured in Kilowatts. */
   peakPowerKw: number;
-  /** Gets or sets the starting state of charge for this charge event. */
+  /** Gets or sets the battery charge % (state of charge) at the start of the associated {@link ChargeEvent}. [0-100] */
   startStateOfCharge: number;
-  /** Gets or sets the time the charge event started. */
+  /** Gets or sets the UTC date and time when the {@link ChargeEvent} started, following the ISO 8601 standard. */
   startTime: Date;
-  /** Gets or sets the time of the {@link Trip.Stop} from the trip this charge event occurred in. */
+  /** Gets or sets the UTC date and time of the EV’s trip stop where the {@link ChargeEvent} took place, following the ISO 8601 standard. Charging happens during a trip stop. */
   tripStop: Date;
 }

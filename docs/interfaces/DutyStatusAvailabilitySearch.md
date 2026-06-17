@@ -31,7 +31,7 @@ Gets or sets the date from which the availability is calculated.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts#L14)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts#L14)
 
 ___
 
@@ -47,7 +47,7 @@ Gets or sets search for an entry based on the specific Id.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts:16](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts#L16)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts#L16)
 
 ___
 
@@ -59,7 +59,7 @@ Gets or sets the date to which the availability is calculated.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts:18](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts#L18)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts#L18)
 
 ___
 
@@ -73,7 +73,7 @@ Gets or sets search for duty status availability objects with this [UserSearch](
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts:24](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts#L24)
+[src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/DutyStatusAvailabilitySearch.ts#L24)
 
 ___
 
@@ -89,4 +89,4 @@ Gets or sets the row version of the search criteria.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Search.ts#L12)
+[src/types/Checkmate/ObjectModel/Search.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Search.ts#L12)

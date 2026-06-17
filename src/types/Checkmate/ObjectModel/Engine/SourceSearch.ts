@@ -10,6 +10,11 @@ import { Search } from "../Search";
  */
 export interface SourceSearch extends Search {
   /**
+   * Gets or sets search for Source with these unique {@link Id}(s).
+   *  Only supported for {@link FaultData}.
+   */
+  ids: string[];
+  /**
    * Gets or sets the name of the
    *  {@link Source} search
    *  criteria.

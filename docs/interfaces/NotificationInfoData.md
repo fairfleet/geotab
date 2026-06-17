@@ -14,6 +14,7 @@ The information data associated with a notification.
 
 ### Properties
 
+- [databaseName](NotificationInfoData.md#databasename)
 - [id](NotificationInfoData.md#id)
 - [info](NotificationInfoData.md#info)
 - [instance](NotificationInfoData.md#instance)
@@ -22,6 +23,18 @@ The information data associated with a notification.
 - [state](NotificationInfoData.md#state)
 
 ## Properties
+
+### databaseName
+
+• **databaseName**: `string`
+
+Gets or sets database name pertaining to the relevant information.
+
+#### Defined in
+
+[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:11](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L11)
+
+___
 
 ### id
 
@@ -35,7 +48,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -47,7 +60,7 @@ Gets or sets the information for the specific machine.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:11](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L11)
+[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:13](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L13)
 
 ___
 
@@ -59,7 +72,7 @@ Gets or sets the instance of this particular notification eg. the particular dow
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:13](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L13)
+[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:15](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L15)
 
 ___
 
@@ -71,7 +84,7 @@ Gets or sets the machine name pertaining to the relevant information.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:15](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L15)
+[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:17](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L17)
 
 ___
 
@@ -83,7 +96,7 @@ Gets or sets what is the source of the application exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:17](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L17)
+[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:19](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L19)
 
 ___
 
@@ -95,4 +108,4 @@ Gets or sets what is the current state for the application exception.
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:19](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L19)
+[src/types/Checkmate/ObjectModel/NotificationInfoData.ts:21](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/NotificationInfoData.ts#L21)

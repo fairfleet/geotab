@@ -18,4 +18,6 @@ export interface InstallRecord extends EntityWithVersion {
   otherParams: InstallRecordOtherDetails;
   /** Gets or sets value for SerialNumber. */
   serialNumber: string;
+  /** Gets or sets value for MYA InstallRecord Id */
+  sourceId: string;
 }

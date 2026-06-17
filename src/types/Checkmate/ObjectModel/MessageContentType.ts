@@ -17,9 +17,11 @@ export type MessageContentType =
   | "DriverAuthList"
   | "MimeContent"
   | "CAN"
-  | "PassthroughEnabledMessage"
   | "VehicleCommand"
   | "OtauContent"
   | "WorkshopMode"
   | "FlashMemory"
-  | "MimeReferenceContent";
+  | "MimeReferenceContent"
+  | "ColdChainFaultClearContent"
+  | "ColdChainSetpointSetContent"
+  | "DriverWhiteList";

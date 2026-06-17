@@ -3,4 +3,4 @@
 //     the code is regenerated.
 
 /** An enum representing invalid group filter exception types. */
-export type InvalidGroupFilterType = "ToManyEvaluations";
+export type InvalidGroupFilterType = "TooManyEvaluations";

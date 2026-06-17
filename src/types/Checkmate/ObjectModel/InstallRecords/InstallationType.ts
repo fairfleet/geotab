@@ -6,6 +6,7 @@
 export type InstallationType =
   | "Unknown"
   | "NewInstallation"
-  | "SwapDevices"
-  | "ServiceDevice"
-  | "RemoveDevice";
+  | "Swap"
+  | "Service"
+  | "Removal"
+  | "Installation";

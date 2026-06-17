@@ -24,7 +24,7 @@ Gets or sets the raw Data of the Vehicle Configuration.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/WifiHotspotData.ts:10
+[src/types/Checkmate/ObjectModel/WifiHotspotData.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/WifiHotspotData.ts#L10)
 
 ___
 
@@ -36,7 +36,7 @@ Gets or sets the WiFi password.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/WifiHotspotData.ts:12
+[src/types/Checkmate/ObjectModel/WifiHotspotData.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/WifiHotspotData.ts#L12)
 
 ___
 
@@ -48,7 +48,7 @@ Gets or sets the Rate Limit in Kbs.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/WifiHotspotData.ts:14
+[src/types/Checkmate/ObjectModel/WifiHotspotData.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/WifiHotspotData.ts#L14)
 
 ___
 
@@ -60,7 +60,7 @@ Gets or sets the WiFi SSID.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/WifiHotspotData.ts:16
+[src/types/Checkmate/ObjectModel/WifiHotspotData.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/WifiHotspotData.ts#L16)
 
 ___
 
@@ -72,4 +72,4 @@ ___
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/WifiHotspotData.ts:20
+[src/types/Checkmate/ObjectModel/WifiHotspotData.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/WifiHotspotData.ts#L20)

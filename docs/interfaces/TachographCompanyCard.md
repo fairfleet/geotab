@@ -37,7 +37,7 @@ Gets or sets the company's address.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:11
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:10](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts#L10)
 
 ___
 
@@ -49,7 +49,7 @@ Gets or sets the card authority.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:13
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:12](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts#L12)
 
 ___
 
@@ -61,7 +61,7 @@ Gets or sets the card number.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:15
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts#L14)
 
 ___
 
@@ -73,7 +73,7 @@ Gets or sets the company name of the card.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:17
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:16](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts#L16)
 
 ___
 
@@ -85,7 +85,7 @@ Gets or sets the expiry of the card.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:19
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:18](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts#L18)
 
 ___
 
@@ -97,7 +97,7 @@ Gets or sets the ICC number of the card.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:21
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:20](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts#L20)
 
 ___
 
@@ -113,7 +113,7 @@ Gets or sets the unique identifier for the specific [Entity](Entity.md) object i
 
 #### Defined in
 
-[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/ff38bfc/src/types/Checkmate/ObjectModel/Entity.ts#L14)
+[src/types/Checkmate/ObjectModel/Entity.ts:14](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Entity.ts#L14)
 
 ___
 
@@ -125,7 +125,7 @@ Gets or sets the last time this card was updated.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:23
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:22](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts#L22)
 
 ___
 
@@ -137,7 +137,7 @@ Gets or sets the time this card was registered on the system.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:25
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:24](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts#L24)
 
 ___
 
@@ -149,19 +149,21 @@ Gets or sets the source of the card.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:27
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:26](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts#L26)
 
 ___
 
 ### status
 
-• **status**: [`TachographCompanyCardStatus`](../README.md#tachographcompanycardstatus)
+• **status**: `string`
 
-Gets or sets the [TachographCompanyCardStatus](../README.md#tachographcompanycardstatus) of the card.
+Gets or sets the status of the card.
+ The available values are:
+ <list><item><description>"Available": Company card available.</description></item><item><description>"Busy": Company card authenticating.</description></item><item><description>"Offline": Company card disconnected.</description></item></list>
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:29
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:32](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts#L32)
 
 ___
 
@@ -173,4 +175,4 @@ Gets or sets the validity of the card.
 
 #### Defined in
 
-src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:31
+[src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts:34](https://github.com/fairfleet/geotab/blob/1ee4732/src/types/Checkmate/ObjectModel/Tachograph/CompanyCards/TachographCompanyCard.ts#L34)

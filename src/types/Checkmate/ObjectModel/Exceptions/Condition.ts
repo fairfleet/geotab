@@ -39,7 +39,7 @@ export interface Condition extends Entity {
   diagnostic: Diagnostic;
   /** Gets or sets specified {@link Driver} associated with the condition. */
   driver: Driver;
-  /** Gets or sets specified {@link Group}. */
+  /** Gets or sets specified {@link Group} associated with the condition. */
   group: Group;
   /** Gets or sets the Condition that this Condition is a link of. */
   linkTarget: Condition;
@@ -57,6 +57,6 @@ export interface Condition extends Entity {
   workTime: WorkTime;
   /** Gets or sets specified {@link Zone} associated with the condition. */
   zone: Zone;
-  /** Gets or sets specified {@link ZoneType}. */
+  /** Gets or sets specified {@link ZoneType} associated with the condition. */
   zoneType: ZoneType;
 }

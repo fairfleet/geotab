@@ -6,10 +6,10 @@ import { NameEntity } from "../NameEntity";
 
 /** Specify the current state of the {@link ExceptionEvent}. */
 export interface ExceptionEventState extends NameEntity {
-  /** Gets or sets the unique identifier for this entity. See {@link Id}. */
+  /** Gets or sets the unique identifier for this entity. */
   id: string;
   /** Gets or sets the key of this entity that uniquely identifies it and is used when getting this entity from the database. */
   key: number;
-  /** Gets or sets the name of this entity that uniquely identifies it and is used when displaying this entity. */
+  /** Gets or sets the name of this entity which identifies it and is used when displaying this entity. */
   name: string;
 }

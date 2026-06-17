@@ -10,6 +10,8 @@ export interface DeviceShareOptions {
   enableGps: boolean;
   /** Gets or sets a value indicating enable location data switch. */
   enableLocation: boolean;
+  /** Gets or sets a value indicating if the share will be paid by the source database. */
+  paidBySource: boolean;
   /** Gets or sets a value indicating transfer control switch. */
   transferControl: boolean;
 }

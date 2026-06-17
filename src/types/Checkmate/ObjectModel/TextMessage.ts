@@ -25,7 +25,11 @@ import { Device } from "./Device";
 export interface TextMessage extends EntityWithVersion {
   /** Gets or sets the date and time the text message is active from. */
   activeFrom: Date;
-  /** Gets or sets the date and time the text message is active to. */
+  /**
+   * Gets or sets the date and time the text message is active to.
+   *  For IOX-bound messages directed to a vehicle, if no explicit value is provided, the system
+   *  automatically sets this to 30 days from creation.
+   */
   activeTo: Date;
   /** Gets or sets the date and time the message was delivered. Default [MaxDate]. */
   delivered: Date;

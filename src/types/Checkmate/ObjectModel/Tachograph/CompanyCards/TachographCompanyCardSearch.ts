@@ -3,9 +3,8 @@
 //     the code is regenerated.
 
 import { Search } from "../../Search";
-import { TachographCompanyCardStatus } from "./TachographCompanyCardStatus";
 
-/** The object used to specify the arguments when searching for {@link TachographCompanyCardSearch}. */
+/** The object used to specify the arguments when searching for {@link TachographCompanyCard}. */
 export interface TachographCompanyCardSearch extends Search {
   /** Gets or sets search for tachograph company cards that match the card number. */
   cardNumber: string;
@@ -16,6 +15,10 @@ export interface TachographCompanyCardSearch extends Search {
    *  where the company card is valid at this time, and it is not expired.
    */
   isValidAt: Date;
-  /** Gets or sets search for tachograph company cards that match this status. */
-  status: TachographCompanyCardStatus;
+  /**
+   * Gets or sets search for tachograph company cards that match this status.
+   *  The available values are:
+   *  <list><item><description>"Available": Company card available.</description></item><item><description>"Busy": Company card authenticating.</description></item><item><description>"Offline": Company card disconnected.</description></item></list>
+   */
+  status: string;
 }
