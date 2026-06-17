@@ -70,6 +70,7 @@ The following changes require consumer code updates.
 
 | Interface | Change |
 |---|---|
+| `AddInConfiguration` | `items: any[]` → `items: unknown[]` (callers reading `items` must now cast; technically breaking) |
 | `ChargeEventSearch` | `id: string` removed |
 | `DutyStatusViolation` | `id: string` removed (does not extend `Entity`) |
 | `EventDeviation` | `eventRule: EventRule` → `eventRule: MaintenanceSchedule` |
