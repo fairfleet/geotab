@@ -1,3 +1,5 @@
+import { abortError } from "./abortError";
+
 /**
  * Geotab enforces a rolling "maximum admitted 1000 per 1m" limit on API calls, and every call
  * inside an `ExecuteMultiCall` counts individually. A {@link CallBudget} is the meter for that
@@ -52,14 +54,6 @@ const WAIT_MARGIN_MS = 25;
 interface CallGroup {
   at: number;
   count: number;
-}
-
-function abortError(signal: AbortSignal): Error {
-  const { reason } = signal;
-  if (reason instanceof Error) {
-    return reason;
-  }
-  return new Error(typeof reason === "string" && reason.length > 0 ? reason : "Call aborted");
 }
 
 export function defaultSleep(ms: number, signal?: AbortSignal): Promise<void> {

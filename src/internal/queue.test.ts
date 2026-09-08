@@ -201,6 +201,59 @@ test("Should serialize only method+params into ExecuteMultiCall (no signal/resol
   });
 });
 
+test("Should reject an entry aborted while its flush is in flight instead of resolving it", async () => {
+  let resolveResults: (value: unknown) => void = noop;
+  getResult.mockReturnValueOnce(new Promise((resolve) => (resolveResults = resolve)));
+  const controller = new AbortController();
+
+  const aborted = callQueued({ method: "Test", signal: controller.signal });
+  const kept = callQueued({ method: "Test" });
+  vi.advanceTimersToNextTimer();
+
+  controller.abort();
+  resolveResults(["a", "b"]);
+
+  await expect(aborted).rejects.toThrow();
+  await expect(kept).resolves.toBe("b");
+});
+
+test("Should give the multicall a signal that aborts once every entry has aborted", async () => {
+  let resolveResults: (value: unknown) => void = noop;
+  getResult.mockReturnValueOnce(new Promise((resolve) => (resolveResults = resolve)));
+  const controller1 = new AbortController();
+  const controller2 = new AbortController();
+
+  const call1 = callQueued({ method: "Test", signal: controller1.signal });
+  const call2 = callQueued({ method: "Test", signal: controller2.signal });
+  vi.advanceTimersToNextTimer();
+
+  const flushSignal = getResult.mock.calls[0][0].signal as AbortSignal;
+  expect(flushSignal).toBeInstanceOf(AbortSignal);
+  expect(flushSignal.aborted).toBe(false);
+
+  controller1.abort();
+  expect(flushSignal.aborted).toBe(false);
+
+  controller2.abort();
+  expect(flushSignal.aborted).toBe(true);
+
+  resolveResults(["a", "b"]);
+  await expect(call1).rejects.toThrow();
+  await expect(call2).rejects.toThrow();
+});
+
+test("Should give the multicall no signal when an entry cannot be aborted", async () => {
+  getResult.mockResolvedValueOnce(["a", "b"]);
+  const controller = new AbortController();
+
+  const call1 = callQueued({ method: "Test", signal: controller.signal });
+  const call2 = callQueued({ method: "Test" });
+  vi.advanceTimersToNextTimer();
+  await Promise.all([call1, call2]);
+
+  expect(getResult.mock.calls[0][0].signal).toBeUndefined();
+});
+
 function noop() {
   // ignore
 }
