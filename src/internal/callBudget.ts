@@ -58,6 +58,14 @@ interface CallGroup {
   count: number;
 }
 
+/**
+ * A monotonic clock, so a wall-clock adjustment cannot stretch or shrink the window; falls back
+ * to `Date.now` where `performance` is unavailable.
+ */
+export function defaultNow(): number {
+  return typeof performance !== "undefined" ? performance.now() : Date.now();
+}
+
 export function defaultSleep(ms: number, signal?: AbortSignal): Promise<void> {
   return new Promise((resolve, reject) => {
     if (signal?.aborted) {
@@ -88,7 +96,7 @@ export function defaultSleep(ms: number, signal?: AbortSignal): Promise<void> {
 export function createCallBudget(options: CallBudgetOptions = {}): CallBudget {
   const windowMs = options.windowMs ?? DEFAULT_WINDOW_MS;
   const maxCalls = options.maxCalls ?? DEFAULT_MAX_CALLS;
-  const now = options.now ?? Date.now;
+  const now = options.now ?? defaultNow;
   const sleep = options.sleep ?? defaultSleep;
   const onWait = options.onWait;
 
