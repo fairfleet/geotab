@@ -1,4 +1,7 @@
-import { createGeotab } from ".";
+import fetch from "cross-fetch";
+import { createGeotab, GeotabError } from ".";
+
+vi.mock("cross-fetch");
 
 const fn = vi.fn();
 const geotab = createGeotab({
@@ -148,4 +151,62 @@ test("Utilizes middleware", async () => {
   });
 
   await expect(geotab.call("Test")).resolves.toBe(3);
+});
+
+describe("rate limiting", () => {
+  function mockResponses(...results: unknown[]) {
+    for (const result of results) {
+      vi.mocked(fetch).mockResolvedValueOnce({
+        ok: true,
+        text: async () => JSON.stringify(result),
+      } as never);
+    }
+  }
+
+  const overLimit = {
+    error: {
+      code: -32000,
+      message: "API calls quota exceeded. Maximum admitted 1000 per 1m.",
+      data: { type: "OverLimitException" },
+    },
+  };
+
+  beforeEach(() => {
+    vi.mocked(fetch).mockReset();
+  });
+
+  test("Charges every entry of a flushed multicall and holds the next call", async () => {
+    mockResponses({ result: ["a", "b"] });
+    const geotab = createGeotab({ queueMaxSize: 2, rateLimit: { maxCalls: 2 } });
+    const controller = new AbortController();
+
+    await expect(Promise.all([geotab.getVersion(), geotab.getVersion()])).resolves.toEqual([
+      "a",
+      "b",
+    ]);
+
+    const held = geotab.call("Test", undefined, controller.signal);
+    controller.abort();
+
+    await expect(held).rejects.toThrow();
+    expect(fetch).toHaveBeenCalledTimes(1);
+  });
+
+  test("Sends everything when rateLimit is false", async () => {
+    mockResponses({ result: ["a", "b"] }, { result: "c" });
+    const geotab = createGeotab({ queueMaxSize: 2, rateLimit: false });
+
+    await Promise.all([geotab.getVersion(), geotab.getVersion()]);
+    await expect(geotab.call("Test")).resolves.toBe("c");
+
+    expect(fetch).toHaveBeenCalledTimes(2);
+  });
+
+  test("Surfaces the OverLimitException as a GeotabError when retries are disabled", async () => {
+    mockResponses(overLimit);
+    const geotab = createGeotab({ retryOnOverLimit: 0 });
+
+    await expect(geotab.call("Test")).rejects.toBeInstanceOf(GeotabError);
+    expect(fetch).toHaveBeenCalledTimes(1);
+  });
 });

@@ -1,4 +1,4 @@
-import { getCall, queue } from "./internal";
+import { getCall, queue, rateLimit } from "./internal";
 import { Geotab, GeotabOptions } from "./types";
 
 export * from "./GeotabError";
@@ -14,6 +14,9 @@ export function createGeotab(options: GeotabOptions = {}) {
   const middleware = options.middleware ?? [];
 
   let call = getCall(options);
+  // The rate limiter sits below the queue so it sees every request that actually leaves the
+  // client, including the ExecuteMultiCall a flush produces, and can weigh it by its entries.
+  call = rateLimit(options)(call);
   call = queue(options)(call);
 
   for (const setup of middleware) {
