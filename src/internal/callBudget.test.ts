@@ -86,14 +86,20 @@ test("Should throw when the signal is already aborted", async () => {
 });
 
 test("Should stop waiting when the signal aborts mid-wait", async () => {
-  const clock = makeClock();
-  const budget = createCallBudget({ windowMs: 1000, maxCalls: 1, ...clock });
   const controller = new AbortController();
+  const sleeps: number[] = [];
+  // The abort happens while the budget is asleep, so it must be noticed on wake-up.
+  const sleep = (ms: number) => {
+    sleeps.push(ms);
+    controller.abort();
+    return Promise.resolve();
+  };
+  const budget = createCallBudget({ windowMs: 1000, maxCalls: 1, now: () => 0, sleep });
 
   await budget.acquire(1);
-  controller.abort();
 
   await expect(budget.acquire(1, controller.signal)).rejects.toThrow();
+  expect(sleeps).toHaveLength(1);
 });
 
 test("Should wait exactly once for the window instead of waking up repeatedly", async () => {
@@ -148,17 +154,20 @@ test("Should make the next acquire wait for a full window after exhaust", async 
   expect(clock.now()).toBeGreaterThanOrEqual(1500);
 });
 
-test("Should not count more than the limit when exhausted twice", async () => {
+test("Should wait for the latest exhaust to age out when exhausted twice", async () => {
   const clock = makeClock();
   const budget = createCallBudget({ windowMs: 1000, maxCalls: 10, ...clock });
 
   budget.exhaust();
+  clock.advance(500);
   budget.exhaust();
-  clock.advance(1000);
 
-  await budget.acquire(10);
+  await budget.acquire(1);
 
-  expect(clock.sleeps).toEqual([]);
+  // The first exhaust ages out at 1000, the second at 1500; only then does anything fit.
+  expect(clock.sleeps).toHaveLength(2);
+  expect(clock.now()).toBeGreaterThanOrEqual(1500);
+  expect(clock.now()).toBeLessThan(1600);
 });
 
 test("Should report each wait with its length and the weight that waited", async () => {
