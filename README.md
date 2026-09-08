@@ -163,10 +163,7 @@ client using the following fields.
 
 - [queueBufferTime](docs/interfaces/GeotabOptions.md#queueBufferTime) The time in milliseconds to
   wait for requests before flushing the queue.
-  - Defaults to `0` (flush on the next macrotask). Calls issued synchronously in the same tick —
-    e.g. one React commit or one TanStack Query batch — still coalesce into a single
-    `ExecuteMultiCall`. Pass e.g. `1500` to restore the pre-3.1 behaviour of waiting longer for more
-    calls to join the buffer.
+  - Defaults to `1500`.
 - [queueMaxSize](docs/interfaces/GeotabOptions.md#queueMaxSize) The maximum number of entries that
   can be queued before a flush is triggered.
   - Defaults to `100`.
