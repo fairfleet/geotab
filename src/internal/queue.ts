@@ -113,48 +113,6 @@ export function queue(options: GeotabOptions) {
       }
     }
 
-    /**
-     * Combines the entries' signals into one that aborts once every entry has aborted, so a
-     * held or waiting multicall can be cancelled when nobody is waiting for it anymore.
-     *
-     * @param signals - The entries' signals.
-     * @returns - The combined signal and its cleanup, or `undefined` when an entry has no signal
-     * and the multicall can therefore never be abandoned.
-     */
-    function combineSignals(signals: (AbortSignal | undefined)[]) {
-      const unique = new Set<AbortSignal>();
-
-      for (const signal of signals) {
-        if (signal === undefined) {
-          return undefined;
-        }
-
-        unique.add(signal);
-      }
-
-      const controller = new AbortController();
-      let remaining = unique.size;
-
-      function onAbort(this: AbortSignal) {
-        if (--remaining === 0) {
-          controller.abort(this.reason);
-        }
-      }
-
-      for (const signal of unique) {
-        signal.addEventListener("abort", onAbort, { once: true });
-      }
-
-      return {
-        signal: controller.signal,
-        dispose() {
-          for (const signal of unique) {
-            signal.removeEventListener("abort", onAbort);
-          }
-        },
-      };
-    }
-
     return async function middleware(call: Call) {
       if (!queueMethods.includes(call.method)) {
         return await next(call);
@@ -174,5 +132,56 @@ export function queue(options: GeotabOptions) {
         }
       });
     };
+  };
+}
+
+/**
+ * Combines the entries' signals into one that aborts once every entry has aborted, so a held or
+ * waiting multicall can be cancelled when nobody is waiting for it anymore.
+ *
+ * @param signals - The entries' signals.
+ * @returns - The combined signal and its cleanup, or `undefined` when an entry has no signal and
+ * the multicall can therefore never be abandoned.
+ */
+export function combineSignals(signals: (AbortSignal | undefined)[]) {
+  const unique = new Set<AbortSignal>();
+
+  for (const signal of signals) {
+    if (signal === undefined) {
+      return undefined;
+    }
+
+    unique.add(signal);
+  }
+
+  const controller = new AbortController();
+  let remaining = unique.size;
+
+  function settle(signal: AbortSignal) {
+    if (--remaining === 0) {
+      controller.abort(signal.reason);
+    }
+  }
+
+  function onAbort(this: AbortSignal) {
+    settle(this);
+  }
+
+  for (const signal of unique) {
+    // An already aborted signal never fires again, so it has to be counted right away.
+    if (signal.aborted) {
+      settle(signal);
+    } else {
+      signal.addEventListener("abort", onAbort, { once: true });
+    }
+  }
+
+  return {
+    signal: controller.signal,
+    dispose() {
+      for (const signal of unique) {
+        signal.removeEventListener("abort", onAbort);
+      }
+    },
   };
 }

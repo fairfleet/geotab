@@ -1,4 +1,4 @@
-import { queue } from "./queue";
+import { combineSignals, queue } from "./queue";
 
 const getResult = vi.fn();
 const queueMaxSize = 5;
@@ -252,6 +252,34 @@ test("Should give the multicall no signal when an entry cannot be aborted", asyn
   await Promise.all([call1, call2]);
 
   expect(getResult.mock.calls[0][0].signal).toBeUndefined();
+});
+
+describe("combineSignals", () => {
+  test("Should count an entry that was already aborted so the rest can still abort the whole", () => {
+    const aborted = new AbortController();
+    const live = new AbortController();
+    aborted.abort();
+
+    const combined = combineSignals([aborted.signal, live.signal]);
+
+    expect(combined?.signal.aborted).toBe(false);
+    live.abort();
+    expect(combined?.signal.aborted).toBe(true);
+  });
+
+  test("Should abort immediately when every entry was already aborted", () => {
+    const controller = new AbortController();
+    controller.abort("gone");
+
+    const combined = combineSignals([controller.signal, controller.signal]);
+
+    expect(combined?.signal.aborted).toBe(true);
+    expect(combined?.signal.reason).toBe("gone");
+  });
+
+  test("Should return undefined when an entry has no signal", () => {
+    expect(combineSignals([new AbortController().signal, undefined])).toBeUndefined();
+  });
 });
 
 function noop() {
