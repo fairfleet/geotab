@@ -29,8 +29,9 @@ export class GeotabError extends Error {
  * exceeded its API call quota.
  *
  * @remarks
- * The JSON-RPC error `data.type` is checked first; the message text is a fallback because the
- * wording has changed between API versions while the type has not.
+ * When the JSON-RPC error carries a `data.type`, that type decides. The message text is only
+ * consulted when the type is absent, because the wording has changed between API versions while
+ * the type has not.
  *
  * @param error - The error to inspect.
  */
@@ -41,9 +42,9 @@ export function isOverLimitError(error: unknown): error is GeotabError {
 
   const data = error.data as { type?: unknown } | undefined;
 
-  if (typeof data === "object" && data !== null && data.type === "OverLimitException") {
-    return true;
+  if (typeof data === "object" && data !== null && typeof data.type === "string") {
+    return data.type === "OverLimitException";
   }
 
-  return /OverLimitException|quota exceeded/i.test(error.message);
+  return /\bOverLimitException\b|API calls? quota exceeded/i.test(error.message);
 }

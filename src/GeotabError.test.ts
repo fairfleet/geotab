@@ -72,6 +72,16 @@ describe("isOverLimitError", () => {
     expect(isOverLimitError(error)).toBe(false);
   });
 
+  test("Given another type whose message mentions a quota, it should be false", () => {
+    const error = new GeotabError({
+      code: -32000,
+      message: "storage quota exceeded",
+      data: { type: "InvalidDataException" },
+    });
+
+    expect(isOverLimitError(error)).toBe(false);
+  });
+
   test("Given a plain error mentioning the quota, it should be false", () => {
     expect(isOverLimitError(new Error("quota exceeded"))).toBe(false);
   });
