@@ -1,5 +1,6 @@
 import { GeotabOptions } from "../types/GeotabOptions";
 import { Call, Next } from "../types";
+import { abortError } from "./abortError";
 
 interface CallQueueEntry<TResult = unknown> extends Call<TResult> {
   /** The resolve callback for the call {@link Promise}. */
@@ -40,11 +41,23 @@ export function queue(options: GeotabOptions) {
         const results = await getCallsResults(calls);
 
         if (!Array.isArray(results) || results.length < calls.length) {
-          throw new Error(`Unexpected JSON-RPC response, expected an array #${calls.length}`);
+          // `calls` no longer holds the entries `filterAborted` removed, so the count is
+          // what was actually sent.
+          throw new Error(
+            `Unexpected JSON-RPC response, expected an array of ${calls.length} results ` +
+              "(aborted entries excluded)"
+          );
         }
 
         for (let i = 0; i < calls.length; i++) {
-          calls[i].resolve(results[i]);
+          const signal = calls[i].signal;
+
+          // The caller may have given up while the multicall was held or in flight.
+          if (signal?.aborted) {
+            calls[i].reject(abortError(signal));
+          } else {
+            calls[i].resolve(results[i]);
+          }
         }
       } catch (err) {
         for (const call of calls) {
@@ -92,10 +105,17 @@ export function queue(options: GeotabOptions) {
         return [await next(calls[0])];
       }
 
-      return await next({
-        method: "ExecuteMultiCall",
-        params: { calls: calls.map(({ method, params }) => ({ method, params })) },
-      });
+      const combined = combineSignals(calls.map((call) => call.signal));
+
+      try {
+        return await next({
+          method: "ExecuteMultiCall",
+          params: { calls: calls.map(({ method, params }) => ({ method, params })) },
+          ...(combined && { signal: combined.signal }),
+        });
+      } finally {
+        combined?.dispose();
+      }
     }
 
     return async function middleware(call: Call) {
@@ -117,5 +137,56 @@ export function queue(options: GeotabOptions) {
         }
       });
     };
+  };
+}
+
+/**
+ * Combines the entries' signals into one that aborts once every entry has aborted, so a held or
+ * waiting multicall can be cancelled when nobody is waiting for it anymore.
+ *
+ * @param signals - The entries' signals.
+ * @returns - The combined signal and its cleanup, or `undefined` when an entry has no signal and
+ * the multicall can therefore never be abandoned.
+ */
+export function combineSignals(signals: (AbortSignal | undefined)[]) {
+  const unique = new Set<AbortSignal>();
+
+  for (const signal of signals) {
+    if (signal === undefined) {
+      return undefined;
+    }
+
+    unique.add(signal);
+  }
+
+  const controller = new AbortController();
+  let remaining = unique.size;
+
+  function settle(signal: AbortSignal) {
+    if (--remaining === 0) {
+      controller.abort(signal.reason);
+    }
+  }
+
+  function onAbort(this: AbortSignal) {
+    settle(this);
+  }
+
+  for (const signal of unique) {
+    // An already aborted signal never fires again, so it has to be counted right away.
+    if (signal.aborted) {
+      settle(signal);
+    } else {
+      signal.addEventListener("abort", onAbort, { once: true });
+    }
+  }
+
+  return {
+    signal: controller.signal,
+    dispose() {
+      for (const signal of unique) {
+        signal.removeEventListener("abort", onAbort);
+      }
+    },
   };
 }

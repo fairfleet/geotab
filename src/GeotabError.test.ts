@@ -1,4 +1,4 @@
-import { GeotabError } from "./GeotabError";
+import { GeotabError, isOverLimitError } from "./GeotabError";
 
 describe("GeotabError", () => {
   describe("constructor", () => {
@@ -43,5 +43,46 @@ describe("GeotabError", () => {
       expect(error.message).toBe("hello");
       expect(error.data).toBe("world");
     });
+  });
+});
+
+describe("isOverLimitError", () => {
+  test("Given a JSON-RPC error typed OverLimitException, it should be true", () => {
+    const error = new GeotabError({
+      code: -32000,
+      message: "Something the API did not spell out",
+      data: { type: "OverLimitException" },
+    });
+
+    expect(isOverLimitError(error)).toBe(true);
+  });
+
+  test("Given a quota message without a type, it should be true", () => {
+    const error = new GeotabError({
+      code: -32000,
+      message: "API calls quota exceeded. Maximum admitted 1000 per 1m.",
+    });
+
+    expect(isOverLimitError(error)).toBe(true);
+  });
+
+  test("Given another Geotab error, it should be false", () => {
+    const error = new GeotabError({ code: -32000, message: "Invalid Id", data: {} });
+
+    expect(isOverLimitError(error)).toBe(false);
+  });
+
+  test("Given another type whose message mentions a quota, it should be false", () => {
+    const error = new GeotabError({
+      code: -32000,
+      message: "storage quota exceeded",
+      data: { type: "InvalidDataException" },
+    });
+
+    expect(isOverLimitError(error)).toBe(false);
+  });
+
+  test("Given a plain error mentioning the quota, it should be false", () => {
+    expect(isOverLimitError(new Error("quota exceeded"))).toBe(false);
   });
 });

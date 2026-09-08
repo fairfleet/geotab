@@ -1,4 +1,4 @@
-import { queue } from "./queue";
+import { combineSignals, queue } from "./queue";
 
 const getResult = vi.fn();
 const queueMaxSize = 5;
@@ -41,8 +41,12 @@ test("Should throw on non-array result", async () => {
 
   vi.advanceTimersToNextTimer();
 
-  await expect(call1).rejects.toThrow("Unexpected JSON-RPC response, expected an array #2");
-  await expect(call2).rejects.toThrow("Unexpected JSON-RPC response, expected an array #2");
+  await expect(call1).rejects.toThrow(
+    "Unexpected JSON-RPC response, expected an array of 2 results (aborted entries excluded)"
+  );
+  await expect(call2).rejects.toThrow(
+    "Unexpected JSON-RPC response, expected an array of 2 results (aborted entries excluded)"
+  );
 });
 
 test("Should throw on abort", async () => {
@@ -198,6 +202,87 @@ test("Should serialize only method+params into ExecuteMultiCall (no signal/resol
         { method: "Test", params: { y: 2 } },
       ],
     },
+  });
+});
+
+test("Should reject an entry aborted while its flush is in flight instead of resolving it", async () => {
+  let resolveResults: (value: unknown) => void = noop;
+  getResult.mockReturnValueOnce(new Promise((resolve) => (resolveResults = resolve)));
+  const controller = new AbortController();
+
+  const aborted = callQueued({ method: "Test", signal: controller.signal });
+  const kept = callQueued({ method: "Test" });
+  vi.advanceTimersToNextTimer();
+
+  controller.abort();
+  resolveResults(["a", "b"]);
+
+  await expect(aborted).rejects.toThrow();
+  await expect(kept).resolves.toBe("b");
+});
+
+test("Should give the multicall a signal that aborts once every entry has aborted", async () => {
+  let resolveResults: (value: unknown) => void = noop;
+  getResult.mockReturnValueOnce(new Promise((resolve) => (resolveResults = resolve)));
+  const controller1 = new AbortController();
+  const controller2 = new AbortController();
+
+  const call1 = callQueued({ method: "Test", signal: controller1.signal });
+  const call2 = callQueued({ method: "Test", signal: controller2.signal });
+  vi.advanceTimersToNextTimer();
+
+  const flushSignal = getResult.mock.calls[0][0].signal as AbortSignal;
+  expect(flushSignal).toBeInstanceOf(AbortSignal);
+  expect(flushSignal.aborted).toBe(false);
+
+  controller1.abort();
+  expect(flushSignal.aborted).toBe(false);
+
+  controller2.abort();
+  expect(flushSignal.aborted).toBe(true);
+
+  resolveResults(["a", "b"]);
+  await expect(call1).rejects.toThrow();
+  await expect(call2).rejects.toThrow();
+});
+
+test("Should give the multicall no signal when an entry cannot be aborted", async () => {
+  getResult.mockResolvedValueOnce(["a", "b"]);
+  const controller = new AbortController();
+
+  const call1 = callQueued({ method: "Test", signal: controller.signal });
+  const call2 = callQueued({ method: "Test" });
+  vi.advanceTimersToNextTimer();
+  await Promise.all([call1, call2]);
+
+  expect(getResult.mock.calls[0][0].signal).toBeUndefined();
+});
+
+describe("combineSignals", () => {
+  test("Should count an entry that was already aborted so the rest can still abort the whole", () => {
+    const aborted = new AbortController();
+    const live = new AbortController();
+    aborted.abort();
+
+    const combined = combineSignals([aborted.signal, live.signal]);
+
+    expect(combined?.signal.aborted).toBe(false);
+    live.abort();
+    expect(combined?.signal.aborted).toBe(true);
+  });
+
+  test("Should abort immediately when every entry was already aborted", () => {
+    const controller = new AbortController();
+    controller.abort("gone");
+
+    const combined = combineSignals([controller.signal, controller.signal]);
+
+    expect(combined?.signal.aborted).toBe(true);
+    expect(combined?.signal.reason).toBe("gone");
+  });
+
+  test("Should return undefined when an entry has no signal", () => {
+    expect(combineSignals([new AbortController().signal, undefined])).toBeUndefined();
   });
 });
 
