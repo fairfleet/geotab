@@ -19,6 +19,21 @@ export interface RateLimitOptions {
 }
 
 /**
+ * A rate limiting event, see {@link GeotabOptions.onRateLimit}.
+ */
+export interface RateLimitEvent {
+  /**
+   * `"wait"` when a request is held until the budget window rolls, `"retry"` when a request
+   * failed with an `OverLimitException` and is about to be retried.
+   */
+  kind: "wait" | "retry";
+  /** The wait in milliseconds before the request is sent. */
+  ms: number;
+  /** The number of JSON-RPC calls the request carries. */
+  weight: number;
+}
+
+/**
  * The {@link Geotab} options.
  */
 
@@ -95,6 +110,13 @@ export interface GeotabOptions {
    * @remarks Defaults to unlimited. Direct calls are not capped.
    */
   maxConcurrentFlushes?: number;
+
+  /**
+   * Called whenever rate limiting delays a request, see {@link RateLimitEvent}.
+   *
+   * @remarks Useful for logging or surfacing a "waiting for API quota" state to the user.
+   */
+  onRateLimit?: (event: RateLimitEvent) => void;
 
   /**
    * The function that parses JSON-RPC responses.

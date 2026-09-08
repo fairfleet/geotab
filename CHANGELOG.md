@@ -2,24 +2,39 @@
 
 ## 3.1.0 — 2026-09-08
 
+### Changed
+
+- **Rate limiting is on by default.** Every request leaving the client is charged against a
+  sliding-window budget of `{ maxCalls: 900, windowMs: 60000 }` (one call per `ExecuteMultiCall`
+  entry) and waits for the window to roll when the budget is spent. After a server-side
+  `OverLimitException` the whole window is marked as spent, so every call on the instance waits a
+  full window. Pass `rateLimit: false` to restore the 3.0.0 behaviour.
+- A call that fails with an `OverLimitException` is retried once by default (`retryOnOverLimit`).
+  With `rateLimit: false` the default is `0` and calls fail fast as before.
+- `createGeotab` throws a `RangeError` for out-of-range option values, including a `queueMaxSize`
+  larger than `rateLimit.maxCalls` (such a flush could never fit the budget).
+- Queue entries whose `AbortSignal` aborts while their flush is held or in flight are rejected
+  with the abort reason instead of resolving with data. The flushed `ExecuteMultiCall` carries a
+  combined signal that aborts once every entry has aborted.
+
 ### Added
 
-- Built-in rate limiting against Geotab's quota of 1000 calls per rolling minute. Every request
-  leaving the client is charged against a sliding-window budget (one call per `ExecuteMultiCall`
-  entry) and waits for the window to roll when the budget is spent. On by default with
-  `{ maxCalls: 900, windowMs: 60000 }`; configurable via the new `rateLimit` option, `false`
-  disables it.
-- `retryOnOverLimit` option (default `1`): retries a call that failed with an `OverLimitException`
-  after waiting out a full window. The retry is charged against the budget again; the original
-  `GeotabError` surfaces once the retries are spent.
+- `rateLimit` option (`{ maxCalls?, windowMs? }` or `false`) and `RateLimitOptions` type.
+- `retryOnOverLimit` option: extra attempts after an `OverLimitException`, each waiting out a full
+  window and charged against the budget again; the original `GeotabError` surfaces once the
+  retries are spent.
 - `maxConcurrentFlushes` option: caps the number of `ExecuteMultiCall` requests in flight.
-- `isOverLimitError()` export to recognise the quota error by its JSON-RPC `data.type` or message.
-- `RateLimitOptions` type.
+- `onRateLimit` callback and `RateLimitEvent` type: reports every budget wait and retry with the
+  wait length and the request's call count.
+- `isOverLimitError()` export to recognise the quota error by its JSON-RPC `data.type`, falling
+  back to the message when no type is present.
 
 ### Notes
 
 - The budget is per client instance. Other clients or browser tabs sharing one session are not
-  visible to it.
+  visible to it, which is why the default `maxCalls` leaves a margin below the real limit.
+- A user-built `ExecuteMultiCall` with more entries than `maxCalls` is rejected with a
+  `RangeError` rather than sent.
 
 ## 3.0.0 — 2026-06-17
 

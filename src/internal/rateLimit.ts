@@ -27,10 +27,16 @@ export function rateLimit(options: GeotabOptions, dependencies: RateLimitDepende
   const retries = options.retryOnOverLimit ?? (limit === false ? 0 : 1);
   const windowMs = (limit ? limit.windowMs : undefined) ?? DEFAULT_WINDOW_MS;
   const sleep = dependencies.sleep ?? defaultSleep;
+  const onRateLimit = options.onRateLimit;
   const budget =
     limit === false
       ? undefined
-      : createCallBudget({ maxCalls: limit?.maxCalls, windowMs, ...dependencies });
+      : createCallBudget({
+          maxCalls: limit?.maxCalls,
+          windowMs,
+          ...dependencies,
+          onWait: (ms, weight) => onRateLimit?.({ kind: "wait", ms, weight }),
+        });
   const flushGate =
     options.maxConcurrentFlushes != null ? createGate(options.maxConcurrentFlushes) : undefined;
 
@@ -65,6 +71,8 @@ export function rateLimit(options: GeotabOptions, dependencies: RateLimitDepende
           if (attempt >= retries) {
             throw err;
           }
+
+          onRateLimit?.({ kind: "retry", ms: windowMs, weight });
 
           if (!budget) {
             await sleep(windowMs, call.signal);

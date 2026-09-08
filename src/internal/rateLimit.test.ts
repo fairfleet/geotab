@@ -195,6 +195,47 @@ test("Should retry after a window when rate limiting is disabled but retries are
   expect(clock.sleeps).toEqual([60_000]);
 });
 
+test("Should report budget waits through onRateLimit", async () => {
+  next.mockResolvedValue([]);
+  const clock = makeClock();
+  const onRateLimit = vi.fn();
+  const options = { queueMaxSize: 1, rateLimit: { maxCalls: 3, windowMs: 1000 }, onRateLimit };
+  const call = rateLimit(options, clock)(next);
+
+  await call(multiCall(3));
+  expect(onRateLimit).not.toHaveBeenCalled();
+
+  await call(multiCall(2));
+
+  expect(onRateLimit).toHaveBeenCalledTimes(1);
+  expect(onRateLimit).toHaveBeenCalledWith({ kind: "wait", ms: clock.sleeps[0], weight: 2 });
+});
+
+test("Should report retries through onRateLimit", async () => {
+  next.mockRejectedValueOnce(overLimitError()).mockResolvedValue([]);
+  const clock = makeClock();
+  const onRateLimit = vi.fn();
+  const options = { queueMaxSize: 1, rateLimit: { maxCalls: 3, windowMs: 1000 }, onRateLimit };
+  const call = rateLimit(options, clock)(next);
+
+  await call(multiCall(2));
+
+  expect(onRateLimit).toHaveBeenCalledWith({ kind: "retry", ms: 1000, weight: 2 });
+  expect(onRateLimit.mock.calls.map(([event]) => event.kind)).toEqual(["retry", "wait"]);
+});
+
+test("Should report a retry without a budget through onRateLimit", async () => {
+  next.mockRejectedValueOnce(overLimitError()).mockResolvedValue("test");
+  const clock = makeClock();
+  const onRateLimit = vi.fn();
+  const call = rateLimit({ rateLimit: false, retryOnOverLimit: 1, onRateLimit }, clock)(next);
+
+  await call({ method: "Test" });
+
+  expect(onRateLimit).toHaveBeenCalledTimes(1);
+  expect(onRateLimit).toHaveBeenCalledWith({ kind: "retry", ms: 60_000, weight: 1 });
+});
+
 test("Should reject instead of waiting when the signal is aborted", async () => {
   next.mockResolvedValue("test");
   const clock = makeClock();

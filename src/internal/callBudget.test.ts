@@ -160,3 +160,17 @@ test("Should not count more than the limit when exhausted twice", async () => {
 
   expect(clock.sleeps).toEqual([]);
 });
+
+test("Should report each wait with its length and the weight that waited", async () => {
+  const clock = makeClock();
+  const onWait = vi.fn();
+  const budget = createCallBudget({ windowMs: 1000, maxCalls: 3, onWait, ...clock });
+
+  await budget.acquire(3);
+  expect(onWait).not.toHaveBeenCalled();
+
+  await budget.acquire(2);
+
+  expect(onWait).toHaveBeenCalledTimes(1);
+  expect(onWait).toHaveBeenCalledWith(clock.sleeps[0], 2);
+});

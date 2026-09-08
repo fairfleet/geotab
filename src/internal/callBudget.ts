@@ -37,6 +37,8 @@ export interface CallBudgetOptions {
   now?: () => number;
   /** Wait implementation, injectable for tests. */
   sleep?: Sleep;
+  /** Called before each wait with its length and the weight that is waiting. */
+  onWait?: (ms: number, weight: number) => void;
 }
 
 export const DEFAULT_WINDOW_MS = 60_000;
@@ -88,6 +90,7 @@ export function createCallBudget(options: CallBudgetOptions = {}): CallBudget {
   const maxCalls = options.maxCalls ?? DEFAULT_MAX_CALLS;
   const now = options.now ?? Date.now;
   const sleep = options.sleep ?? defaultSleep;
+  const onWait = options.onWait;
 
   /** Calls counted against the current window, oldest first. */
   const groups: CallGroup[] = [];
@@ -157,7 +160,10 @@ export function createCallBudget(options: CallBudgetOptions = {}): CallBudget {
       // Only time passing can free capacity, and the oldest entry's expiry is exactly when
       // the next capacity appears, so wait for it instead of waking up repeatedly to look.
       const untilOldestExpires = windowMs - (current - groups[oldest].at) + WAIT_MARGIN_MS;
-      await sleep(Math.max(WAIT_MARGIN_MS, untilOldestExpires), signal);
+      const ms = Math.max(WAIT_MARGIN_MS, untilOldestExpires);
+
+      onWait?.(ms, effectiveWeight);
+      await sleep(ms, signal);
     }
   }
 }
