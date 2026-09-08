@@ -149,6 +149,20 @@ test("Should not retry when retryOnOverLimit is 0", async () => {
   expect(clock.sleeps).toEqual([]);
 });
 
+test("Should exhaust the budget even when the OverLimitException is not retried", async () => {
+  next.mockRejectedValueOnce(overLimitError()).mockResolvedValue("test");
+  const clock = makeClock();
+  const options = { retryOnOverLimit: 0, rateLimit: { maxCalls: 10, windowMs: 1000 } };
+  const call = rateLimit(options, clock)(next);
+
+  await expect(call({ method: "Test" })).rejects.toThrow(/quota exceeded/);
+  expect(clock.sleeps).toEqual([]);
+
+  // The server said the session is over its quota, so the next call has to wait out a window.
+  await expect(call({ method: "Test" })).resolves.toBe("test");
+  expect(clock.now()).toBeGreaterThanOrEqual(1000);
+});
+
 test("Should not retry other errors", async () => {
   next.mockRejectedValue(new GeotabError({ code: -32000, message: "Invalid Id" }));
   const clock = makeClock();

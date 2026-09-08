@@ -37,14 +37,19 @@ export function rateLimit(options: GeotabOptions, dependencies: RateLimitDepende
 
           return await next(call);
         } catch (err) {
-          if (!isOverLimitError(err) || attempt >= retries) {
+          if (!isOverLimitError(err)) {
             throw err;
           }
 
-          // The server's window is not visible here, so wait out a whole one before retrying.
-          if (budget) {
-            budget.exhaust();
-          } else {
+          // The server says the session is over its quota, whatever the local count thinks, so
+          // every further call on this instance has to wait out a whole window.
+          budget?.exhaust();
+
+          if (attempt >= retries) {
+            throw err;
+          }
+
+          if (!budget) {
             await sleep(windowMs, call.signal);
           }
         }
