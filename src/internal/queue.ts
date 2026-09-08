@@ -41,7 +41,12 @@ export function queue(options: GeotabOptions) {
         const results = await getCallsResults(calls);
 
         if (!Array.isArray(results) || results.length < calls.length) {
-          throw new Error(`Unexpected JSON-RPC response, expected an array #${calls.length}`);
+          // `calls` no longer holds the entries `filterAborted` removed, so the count is
+          // what was actually sent.
+          throw new Error(
+            `Unexpected JSON-RPC response, expected an array of ${calls.length} results ` +
+              "(aborted entries excluded)"
+          );
         }
 
         for (let i = 0; i < calls.length; i++) {

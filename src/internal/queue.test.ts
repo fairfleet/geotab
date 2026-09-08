@@ -41,8 +41,12 @@ test("Should throw on non-array result", async () => {
 
   vi.advanceTimersToNextTimer();
 
-  await expect(call1).rejects.toThrow("Unexpected JSON-RPC response, expected an array #2");
-  await expect(call2).rejects.toThrow("Unexpected JSON-RPC response, expected an array #2");
+  await expect(call1).rejects.toThrow(
+    "Unexpected JSON-RPC response, expected an array of 2 results (aborted entries excluded)"
+  );
+  await expect(call2).rejects.toThrow(
+    "Unexpected JSON-RPC response, expected an array of 2 results (aborted entries excluded)"
+  );
 });
 
 test("Should throw on abort", async () => {
