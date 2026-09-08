@@ -1,6 +1,7 @@
 import { GeotabOptions } from "../types/GeotabOptions";
 import { Call, Next } from "../types";
 import { isOverLimitError } from "../GeotabError";
+import { abortError } from "./abortError";
 import {
   createCallBudget,
   defaultSleep,
@@ -37,16 +38,21 @@ export function rateLimit(options: GeotabOptions, dependencies: RateLimitDepende
     return async function middleware(call: Call) {
       const weight = getWeight(call);
 
-      for (let attempt = 0; ; attempt++) {
-        // Charging sits inside the loop so a retry spends budget again.
+      // The budget is charged right before the send, so a flush parked at the gate does not
+      // hold a charge that ages while it waits. Charging sits inside the loop so a retry spends
+      // budget again.
+      async function send() {
         await budget?.acquire(weight, call.signal);
+        return await next(call);
+      }
 
+      for (let attempt = 0; ; attempt++) {
         try {
           if (flushGate && isMultiCall(call)) {
-            return await flushGate(() => next(call));
+            return await flushGate(send, call.signal);
           }
 
-          return await next(call);
+          return await send();
         } catch (err) {
           if (!isOverLimitError(err)) {
             throw err;
@@ -152,12 +158,12 @@ function createGate(max: number) {
   let active = 0;
   const waiters: (() => void)[] = [];
 
-  return async function run<T>(task: () => Promise<T>): Promise<T> {
+  return async function run<T>(task: () => Promise<T>, signal?: AbortSignal): Promise<T> {
     if (active < max) {
       active++;
     } else {
       // The finishing task hands its slot over directly, so `active` is not touched here.
-      await new Promise<void>((resolve) => waiters.push(resolve));
+      await park(signal);
     }
 
     try {
@@ -172,4 +178,29 @@ function createGate(max: number) {
       }
     }
   };
+
+  function park(signal?: AbortSignal) {
+    return new Promise<void>((resolve, reject) => {
+      if (signal?.aborted) {
+        reject(abortError(signal));
+        return;
+      }
+
+      const onAbort = () => {
+        const index = waiters.indexOf(admit);
+        if (index >= 0) {
+          waiters.splice(index, 1);
+        }
+        reject(abortError(signal as AbortSignal));
+      };
+
+      const admit = () => {
+        signal?.removeEventListener("abort", onAbort);
+        resolve();
+      };
+
+      signal?.addEventListener("abort", onAbort, { once: true });
+      waiters.push(admit);
+    });
+  }
 }

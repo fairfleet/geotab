@@ -20,6 +20,9 @@ function makeClock() {
       current += ms;
       return Promise.resolve();
     },
+    advance: (ms: number) => {
+      current += ms;
+    },
   };
 }
 
@@ -243,6 +246,62 @@ test("Should cap in-flight multicalls at maxConcurrentFlushes", async () => {
   resolvers[1]([]);
   resolvers[2]([]);
   await Promise.all(calls);
+});
+
+test("Should reject a parked multicall when its signal aborts and keep the slot count right", async () => {
+  const resolvers: ((value: unknown) => void)[] = [];
+  next.mockImplementation(() => new Promise((resolve) => resolvers.push(resolve)));
+  const call = rateLimit({ maxConcurrentFlushes: 1 }, makeClock())(next);
+  const controller = new AbortController();
+
+  const first = call(multiCall(1));
+  const parked = call({ ...multiCall(1), signal: controller.signal });
+  await Promise.resolve();
+  expect(next).toHaveBeenCalledTimes(1);
+
+  controller.abort();
+  await expect(parked).rejects.toThrow();
+  expect(next).toHaveBeenCalledTimes(1);
+
+  // The slot is still held by the first flush; releasing it must admit exactly one more.
+  const third = call(multiCall(1));
+  await Promise.resolve();
+  expect(next).toHaveBeenCalledTimes(1);
+
+  resolvers[0]([]);
+  await first;
+  expect(next).toHaveBeenCalledTimes(2);
+
+  resolvers[1]([]);
+  await third;
+});
+
+test("Should charge the budget when the multicall is sent, not when it is parked", async () => {
+  const resolvers: ((value: unknown) => void)[] = [];
+  next.mockImplementation(() => new Promise((resolve) => resolvers.push(resolve)));
+  const clock = makeClock();
+  const options = { queueMaxSize: 1, maxConcurrentFlushes: 1, rateLimit: { maxCalls: 1, windowMs: 1000 } };
+  const call = rateLimit(options, clock)(next);
+
+  const first = call(multiCall(1));
+  const parked = call(multiCall(1));
+  await Promise.resolve();
+  expect(next).toHaveBeenCalledTimes(1);
+
+  // Had the parked flush been charged on arrival it would have shared the first one's moment
+  // and the window would have to roll before it could be sent. Charged on send, it fits
+  // once the first flush's charge has aged out.
+  clock.advance(1000);
+  resolvers[0]([]);
+  await first;
+  await Promise.resolve();
+  await Promise.resolve();
+
+  expect(next).toHaveBeenCalledTimes(2);
+  expect(clock.sleeps).toEqual([]);
+
+  resolvers[1]([]);
+  await parked;
 });
 
 test("Should not cap direct calls with maxConcurrentFlushes", async () => {
