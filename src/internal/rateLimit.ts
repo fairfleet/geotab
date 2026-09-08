@@ -65,7 +65,8 @@ export function rateLimit(options: GeotabOptions, dependencies: RateLimitDepende
           }
 
           // The server says the session is over its quota, whatever the local count thinks, so
-          // every further call on this instance has to wait out a whole window.
+          // every further call on this instance has to wait out a whole window. This runs on
+          // every OverLimitException, regardless of whether a retry follows.
           budget?.exhaust();
 
           if (attempt >= retries) {
