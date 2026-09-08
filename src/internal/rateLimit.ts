@@ -10,8 +10,9 @@ export interface RateLimitDependencies {
 }
 
 export function rateLimit(options: GeotabOptions, dependencies: RateLimitDependencies = {}) {
-  const retries = options.retryOnOverLimit ?? 1;
   const limit = options.rateLimit;
+  // Without a budget there is nothing to pace a retry, so fail fast unless retries are asked for.
+  const retries = options.retryOnOverLimit ?? (limit === false ? 0 : 1);
   const windowMs = (limit ? limit.windowMs : undefined) ?? DEFAULT_WINDOW_MS;
   const sleep = dependencies.sleep ?? defaultSleep;
   const budget =

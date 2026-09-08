@@ -173,10 +173,20 @@ test("Should not retry other errors", async () => {
   expect(clock.sleeps).toEqual([]);
 });
 
-test("Should still retry after a window when rate limiting is disabled", async () => {
+test("Should not retry when rate limiting is disabled", async () => {
   next.mockRejectedValueOnce(overLimitError()).mockResolvedValue("test");
   const clock = makeClock();
   const call = rateLimit({ rateLimit: false }, clock)(next);
+
+  await expect(call({ method: "Test" })).rejects.toThrow(/quota exceeded/);
+  expect(next).toHaveBeenCalledTimes(1);
+  expect(clock.sleeps).toEqual([]);
+});
+
+test("Should retry after a window when rate limiting is disabled but retries are asked for", async () => {
+  next.mockRejectedValueOnce(overLimitError()).mockResolvedValue("test");
+  const clock = makeClock();
+  const call = rateLimit({ rateLimit: false, retryOnOverLimit: 1 }, clock)(next);
 
   await expect(call({ method: "Test" })).resolves.toBe("test");
   expect(clock.sleeps).toEqual([60_000]);
