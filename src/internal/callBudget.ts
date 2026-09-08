@@ -10,6 +10,7 @@ export interface CallBudget {
    *
    * @param weight - How many API calls the caller is about to make.
    * @param signal - Aborts the wait.
+   * @throws {RangeError} Synchronously, when `weight` exceeds the whole budget and could never fit.
    */
   acquire(weight: number, signal?: AbortSignal): Promise<void>;
   /**
@@ -124,29 +125,16 @@ export function createCallBudget(options: CallBudgetOptions = {}): CallBudget {
   }
 
   return {
-    async acquire(weight, signal) {
-      // A caller asking for more than the whole allowance can never fit; charge it the full
-      // budget instead of waiting forever.
-      const effectiveWeight = Math.min(Math.max(weight, 1), maxCalls);
-
-      for (;;) {
-        if (signal?.aborted) {
-          throw abortError(signal);
-        }
-
-        const current = now();
-        dropExpired(current);
-
-        if (live + effectiveWeight <= maxCalls) {
-          charge(current, effectiveWeight);
-          return;
-        }
-
-        // Only time passing can free capacity, and the oldest entry's expiry is exactly when
-        // the next capacity appears, so wait for it instead of waking up repeatedly to look.
-        const untilOldestExpires = windowMs - (current - groups[oldest].at) + WAIT_MARGIN_MS;
-        await sleep(Math.max(WAIT_MARGIN_MS, untilOldestExpires), signal);
+    acquire(weight, signal) {
+      // A caller asking for more than the whole allowance can never fit, and clamping would let
+      // an oversized request through; refuse it up front so the caller can split it.
+      if (weight > maxCalls) {
+        throw new RangeError(
+          `Cannot acquire ${weight} calls: the budget admits at most ${maxCalls} per window`
+        );
       }
+
+      return admit(Math.max(weight, 1), signal);
     },
 
     exhaust() {
@@ -157,4 +145,25 @@ export function createCallBudget(options: CallBudgetOptions = {}): CallBudget {
       charge(current, maxCalls);
     },
   };
+
+  async function admit(effectiveWeight: number, signal?: AbortSignal): Promise<void> {
+    for (;;) {
+      if (signal?.aborted) {
+        throw abortError(signal);
+      }
+
+      const current = now();
+      dropExpired(current);
+
+      if (live + effectiveWeight <= maxCalls) {
+        charge(current, effectiveWeight);
+        return;
+      }
+
+      // Only time passing can free capacity, and the oldest entry's expiry is exactly when
+      // the next capacity appears, so wait for it instead of waking up repeatedly to look.
+      const untilOldestExpires = windowMs - (current - groups[oldest].at) + WAIT_MARGIN_MS;
+      await sleep(Math.max(WAIT_MARGIN_MS, untilOldestExpires), signal);
+    }
+  }
 }

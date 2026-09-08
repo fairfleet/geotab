@@ -58,14 +58,21 @@ test("Should admit immediately once the window has rolled on its own", async () 
   expect(clock.sleeps).toEqual([]);
 });
 
-test("Should not deadlock when a single acquire is larger than the whole budget", async () => {
+test("Should throw synchronously when a single acquire is larger than the whole budget", () => {
   const clock = makeClock();
   const budget = createCallBudget({ windowMs: 1000, maxCalls: 3, ...clock });
 
-  await budget.acquire(1);
-  await budget.acquire(10);
+  expect(() => budget.acquire(4)).toThrow(RangeError);
+  expect(clock.sleeps).toEqual([]);
+});
 
-  expect(clock.now()).toBeGreaterThanOrEqual(1000);
+test("Should admit an acquire of exactly the whole budget", async () => {
+  const clock = makeClock();
+  const budget = createCallBudget({ windowMs: 1000, maxCalls: 3, ...clock });
+
+  await budget.acquire(3);
+
+  expect(clock.sleeps).toEqual([]);
 });
 
 test("Should throw when the signal is already aborted", async () => {
