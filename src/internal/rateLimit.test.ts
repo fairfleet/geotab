@@ -56,7 +56,7 @@ test("Should pass the call through and return its result", async () => {
 test("Should charge one call for a direct call", async () => {
   next.mockResolvedValue("test");
   const clock = makeClock();
-  const call = rateLimit({ rateLimit: { maxCalls: 2, windowMs: 1000 } }, clock)(next);
+  const call = rateLimit({ queueMaxSize: 1, rateLimit: { maxCalls: 2, windowMs: 1000 } }, clock)(next);
 
   await call({ method: "Test" });
   await call({ method: "Test" });
@@ -70,7 +70,7 @@ test("Should charge one call for a direct call", async () => {
 test("Should charge one call per ExecuteMultiCall entry", async () => {
   next.mockResolvedValue([]);
   const clock = makeClock();
-  const call = rateLimit({ rateLimit: { maxCalls: 5, windowMs: 1000 } }, clock)(next);
+  const call = rateLimit({ queueMaxSize: 1, rateLimit: { maxCalls: 5, windowMs: 1000 } }, clock)(next);
 
   await call(multiCall(3));
   expect(clock.sleeps).toEqual([]);
@@ -108,7 +108,7 @@ test("Should use the default budget when no options are given", async () => {
 test("Should retry once after an OverLimitException and wait a full window first", async () => {
   next.mockRejectedValueOnce(overLimitError()).mockResolvedValue("test");
   const clock = makeClock();
-  const call = rateLimit({ rateLimit: { maxCalls: 10, windowMs: 1000 } }, clock)(next);
+  const call = rateLimit({ queueMaxSize: 1, rateLimit: { maxCalls: 10, windowMs: 1000 } }, clock)(next);
 
   await expect(call({ method: "Test" })).resolves.toBe("test");
 
@@ -119,7 +119,7 @@ test("Should retry once after an OverLimitException and wait a full window first
 test("Should charge the budget again on retry", async () => {
   next.mockRejectedValueOnce(overLimitError()).mockResolvedValue([]);
   const clock = makeClock();
-  const call = rateLimit({ rateLimit: { maxCalls: 3, windowMs: 1000 } }, clock)(next);
+  const call = rateLimit({ queueMaxSize: 1, rateLimit: { maxCalls: 3, windowMs: 1000 } }, clock)(next);
 
   await call(multiCall(3));
   const retriedAt = clock.now();
@@ -152,7 +152,7 @@ test("Should not retry when retryOnOverLimit is 0", async () => {
 test("Should exhaust the budget even when the OverLimitException is not retried", async () => {
   next.mockRejectedValueOnce(overLimitError()).mockResolvedValue("test");
   const clock = makeClock();
-  const options = { retryOnOverLimit: 0, rateLimit: { maxCalls: 10, windowMs: 1000 } };
+  const options = { queueMaxSize: 1, retryOnOverLimit: 0, rateLimit: { maxCalls: 10, windowMs: 1000 } };
   const call = rateLimit(options, clock)(next);
 
   await expect(call({ method: "Test" })).rejects.toThrow(/quota exceeded/);
@@ -195,7 +195,7 @@ test("Should retry after a window when rate limiting is disabled but retries are
 test("Should reject instead of waiting when the signal is aborted", async () => {
   next.mockResolvedValue("test");
   const clock = makeClock();
-  const call = rateLimit({ rateLimit: { maxCalls: 1, windowMs: 1000 } }, clock)(next);
+  const call = rateLimit({ queueMaxSize: 1, rateLimit: { maxCalls: 1, windowMs: 1000 } }, clock)(next);
   const controller = new AbortController();
 
   await call({ method: "Test" });
@@ -254,4 +254,43 @@ test("Should not cap direct calls with maxConcurrentFlushes", async () => {
   await Promise.resolve();
 
   expect(next).toHaveBeenCalledTimes(2);
+});
+
+describe("option validation", () => {
+  test.each([
+    ["maxCalls 0", { rateLimit: { maxCalls: 0 } }],
+    ["maxCalls fractional", { rateLimit: { maxCalls: 1.5 } }],
+    ["maxCalls NaN", { rateLimit: { maxCalls: NaN } }],
+    ["windowMs 0", { rateLimit: { windowMs: 0 } }],
+    ["windowMs Infinity", { rateLimit: { windowMs: Infinity } }],
+    ["windowMs NaN", { rateLimit: { windowMs: NaN } }],
+    ["retryOnOverLimit negative", { retryOnOverLimit: -1 }],
+    ["retryOnOverLimit fractional", { retryOnOverLimit: 0.5 }],
+    ["retryOnOverLimit NaN", { retryOnOverLimit: NaN }],
+    ["maxConcurrentFlushes 0", { maxConcurrentFlushes: 0 }],
+    ["maxConcurrentFlushes negative", { maxConcurrentFlushes: -1 }],
+    ["maxConcurrentFlushes NaN", { maxConcurrentFlushes: NaN }],
+  ])("Should throw a RangeError for %s", (_, options) => {
+    expect(() => rateLimit(options)).toThrow(RangeError);
+  });
+
+  test("Should reject a queueMaxSize wider than the budget and say why", () => {
+    expect(() => rateLimit({ queueMaxSize: 200, rateLimit: { maxCalls: 100 } })).toThrow(
+      /queueMaxSize.*200.*maxCalls.*100.*flush/
+    );
+  });
+
+  test("Should accept a queueMaxSize equal to the budget", () => {
+    expect(() => rateLimit({ queueMaxSize: 100, rateLimit: { maxCalls: 100 } })).not.toThrow();
+  });
+
+  test("Should not compare queueMaxSize against a disabled budget", () => {
+    expect(() => rateLimit({ queueMaxSize: 5000, rateLimit: false })).not.toThrow();
+  });
+
+  test("Should accept Infinity retries and an unlimited gate", () => {
+    expect(() =>
+      rateLimit({ retryOnOverLimit: Infinity, maxConcurrentFlushes: undefined })
+    ).not.toThrow();
+  });
 });

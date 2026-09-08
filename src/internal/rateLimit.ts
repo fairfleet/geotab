@@ -1,7 +1,16 @@
 import { GeotabOptions } from "../types/GeotabOptions";
 import { Call, Next } from "../types";
 import { isOverLimitError } from "../GeotabError";
-import { createCallBudget, defaultSleep, DEFAULT_WINDOW_MS, Sleep } from "./callBudget";
+import {
+  createCallBudget,
+  defaultSleep,
+  DEFAULT_MAX_CALLS,
+  DEFAULT_WINDOW_MS,
+  Sleep,
+} from "./callBudget";
+
+/** Mirrors the default in `queue.ts`; needed here to check a flush fits the budget. */
+const DEFAULT_QUEUE_MAX_SIZE = 100;
 
 /** Clock and wait implementations, injectable for tests. */
 export interface RateLimitDependencies {
@@ -10,6 +19,8 @@ export interface RateLimitDependencies {
 }
 
 export function rateLimit(options: GeotabOptions, dependencies: RateLimitDependencies = {}) {
+  validateOptions(options);
+
   const limit = options.rateLimit;
   // Without a budget there is nothing to pace a retry, so fail fast unless retries are asked for.
   const retries = options.retryOnOverLimit ?? (limit === false ? 0 : 1);
@@ -19,9 +30,8 @@ export function rateLimit(options: GeotabOptions, dependencies: RateLimitDepende
     limit === false
       ? undefined
       : createCallBudget({ maxCalls: limit?.maxCalls, windowMs, ...dependencies });
-  const flushGate = options.maxConcurrentFlushes
-    ? createGate(options.maxConcurrentFlushes)
-    : undefined;
+  const flushGate =
+    options.maxConcurrentFlushes != null ? createGate(options.maxConcurrentFlushes) : undefined;
 
   return function setup(next: Next) {
     return async function middleware(call: Call) {
@@ -57,6 +67,58 @@ export function rateLimit(options: GeotabOptions, dependencies: RateLimitDepende
       }
     };
   };
+}
+
+/**
+ * Rejects option values the limiter cannot honour.
+ *
+ * @param options - The options to check.
+ * @throws {RangeError} When a value is out of range.
+ */
+function validateOptions(options: GeotabOptions) {
+  const { rateLimit: limit, retryOnOverLimit, maxConcurrentFlushes } = options;
+
+  if (limit !== false && limit !== undefined) {
+    if (limit.maxCalls !== undefined && !isPositiveInteger(limit.maxCalls)) {
+      throw new RangeError(`rateLimit.maxCalls must be an integer >= 1, got ${limit.maxCalls}`);
+    }
+
+    if (limit.windowMs !== undefined && !(Number.isFinite(limit.windowMs) && limit.windowMs > 0)) {
+      throw new RangeError(`rateLimit.windowMs must be a finite number > 0, got ${limit.windowMs}`);
+    }
+  }
+
+  if (
+    retryOnOverLimit !== undefined &&
+    retryOnOverLimit !== Infinity &&
+    !(Number.isInteger(retryOnOverLimit) && retryOnOverLimit >= 0)
+  ) {
+    throw new RangeError(
+      `retryOnOverLimit must be a non-negative integer or Infinity, got ${retryOnOverLimit}`
+    );
+  }
+
+  if (maxConcurrentFlushes != null && !isPositiveInteger(maxConcurrentFlushes)) {
+    throw new RangeError(
+      `maxConcurrentFlushes must be an integer >= 1, got ${maxConcurrentFlushes}`
+    );
+  }
+
+  if (limit !== false) {
+    const maxCalls = limit?.maxCalls ?? DEFAULT_MAX_CALLS;
+    const queueMaxSize = options.queueMaxSize ?? DEFAULT_QUEUE_MAX_SIZE;
+
+    if (queueMaxSize > maxCalls) {
+      throw new RangeError(
+        `queueMaxSize (${queueMaxSize}) must not exceed rateLimit.maxCalls (${maxCalls}): ` +
+          "a flush would produce an ExecuteMultiCall wider than the budget"
+      );
+    }
+  }
+}
+
+function isPositiveInteger(value: number) {
+  return Number.isInteger(value) && value >= 1;
 }
 
 function isMultiCall(call: Call) {

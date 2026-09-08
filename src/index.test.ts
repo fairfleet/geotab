@@ -192,6 +192,11 @@ describe("rate limiting", () => {
     expect(fetch).toHaveBeenCalledTimes(1);
   });
 
+  test("Rejects invalid rate limit options at construction", () => {
+    expect(() => createGeotab({ rateLimit: { maxCalls: 0 } })).toThrow(RangeError);
+    expect(() => createGeotab({ queueMaxSize: 1000 })).toThrow(RangeError);
+  });
+
   test("Sends everything when rateLimit is false", async () => {
     mockResponses({ result: ["a", "b"] }, { result: "c" });
     const geotab = createGeotab({ queueMaxSize: 2, rateLimit: false });
