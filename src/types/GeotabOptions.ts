@@ -7,13 +7,15 @@ export interface RateLimitOptions {
   /**
    * The number of calls admitted per window.
    *
-   * @remarks Defaults to 900, a margin below Geotab's limit of 1000 calls per minute.
+   * @remarks
+   * Defaults to 900, a margin below Geotab's limit of 1000 calls per minute. Must be an integer
+   * of at least 1 and no smaller than `queueMaxSize`, otherwise a flush could never fit.
    */
   maxCalls?: number;
   /**
    * The length of the rolling window in milliseconds.
    *
-   * @remarks Defaults to 60000.
+   * @remarks Defaults to 60000. Must be a finite number greater than 0.
    */
   windowMs?: number;
 }
@@ -87,7 +89,11 @@ export interface GeotabOptions {
    * Geotab admits roughly 1000 calls per rolling minute per session, and every entry inside an
    * `ExecuteMultiCall` counts individually. Before a request is sent, the client charges the
    * number of JSON-RPC calls it carries against the budget and waits for the window to roll if
-   * the budget is exhausted.
+   * the budget is exhausted. A request carrying more calls than `maxCalls` is rejected with a
+   * `RangeError` rather than sent.
+   *
+   * When the server reports an `OverLimitException` anyway, the whole window is marked as spent
+   * and every call on this instance waits a full window, because the quota is session-wide.
    *
    * The budget is per client instance. Other clients or browser tabs sharing the same session
    * are not visible to it, so keep a margin below the real limit.
@@ -98,16 +104,20 @@ export interface GeotabOptions {
    * The number of extra attempts after a call fails with an `OverLimitException`.
    *
    * @remarks
-   * Defaults to 1. Each retry first waits for a full window and is charged against the budget
-   * again. A successful retry is transparent to the caller; once the retries are spent, the
-   * original {@link GeotabError} is thrown. Set to `0` to disable.
+   * Defaults to 1, or to 0 when `rateLimit` is `false` so calls fail fast. Each retry first
+   * waits for a full window and is charged against the budget again. A successful retry is
+   * transparent to the caller; once the retries are spent, the original {@link GeotabError} is
+   * thrown. Must be a non-negative integer or `Infinity`.
    */
   retryOnOverLimit?: number;
 
   /**
    * The maximum number of `ExecuteMultiCall` requests in flight at once.
    *
-   * @remarks Defaults to unlimited. Direct calls are not capped.
+   * @remarks
+   * Defaults to unlimited. Must be an integer of at least 1. Direct calls are not capped. A
+   * request that never completes keeps its slot, as the client applies no fetch timeout, and
+   * waiting requests are not guaranteed to be admitted in arrival order.
    */
   maxConcurrentFlushes?: number;
 
