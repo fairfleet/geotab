@@ -201,6 +201,48 @@ test("Should serialize only method+params into ExecuteMultiCall (no signal/resol
   });
 });
 
+test("Should default queueBufferTime to 0 and flush on the next macrotask", async () => {
+  const defaultGetResult = vi.fn().mockResolvedValueOnce(["a", "b"]);
+  const callDefault = queue({ queueMethods: ["Test"] })(defaultGetResult);
+
+  const call1 = callDefault({ method: "Test", params: { x: 1 } });
+  const call2 = callDefault({ method: "Test", params: { y: 2 } });
+
+  expect(defaultGetResult).toHaveBeenCalledTimes(0);
+
+  vi.advanceTimersByTime(0);
+
+  await expect(call1).resolves.toBe("a");
+  await expect(call2).resolves.toBe("b");
+  expect(defaultGetResult).toHaveBeenCalledTimes(1);
+  expect(defaultGetResult).toHaveBeenCalledWith({
+    method: "ExecuteMultiCall",
+    params: {
+      calls: [
+        { method: "Test", params: { x: 1 } },
+        { method: "Test", params: { y: 2 } },
+      ],
+    },
+  });
+});
+
+test("Should still respect an explicit queueBufferTime override", async () => {
+  const explicitGetResult = vi.fn().mockResolvedValueOnce(["a", "b"]);
+  const callExplicit = queue({ queueMethods: ["Test"], queueBufferTime: 1500 })(explicitGetResult);
+
+  const call1 = callExplicit({ method: "Test" });
+  const call2 = callExplicit({ method: "Test" });
+
+  vi.advanceTimersByTime(0);
+  expect(explicitGetResult).toHaveBeenCalledTimes(0);
+
+  vi.advanceTimersByTime(1500);
+
+  await expect(call1).resolves.toBe("a");
+  await expect(call2).resolves.toBe("b");
+  expect(explicitGetResult).toHaveBeenCalledTimes(1);
+});
+
 function noop() {
   // ignore
 }

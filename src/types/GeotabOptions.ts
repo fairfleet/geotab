@@ -59,7 +59,9 @@ export interface GeotabOptions {
   /**
    * The number of milliseconds to wait before flushing the call queue.
    *
-   * @remarks Defaults to 1500ms
+   * @remarks
+   * Defaults to 0 ms (flush on the next macrotask; calls issued in the same tick still coalesce
+   * into one ExecuteMultiCall). Pass e.g. 1500 to restore the pre-3.1 behaviour.
    */
   queueBufferTime?: number;
 

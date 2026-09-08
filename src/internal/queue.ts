@@ -10,7 +10,7 @@ interface CallQueueEntry<TResult = unknown> extends Call<TResult> {
 
 export function queue(options: GeotabOptions) {
   const queueMaxSize = options.queueMaxSize ?? 100;
-  const queueBufferTime = options.queueBufferTime ?? 1500;
+  const queueBufferTime = options.queueBufferTime ?? 0;
   const queueMethods = options.queueMethods ?? [
     "Get",
     "GetAddresses",

@@ -16,6 +16,14 @@
 - `isOverLimitError()` export to recognise the quota error by its JSON-RPC `data.type` or message.
 - `RateLimitOptions` type.
 
+### Changed
+
+- Default `queueBufferTime` lowered from `1500` to `0`. The queue still flushes only after the
+  buffer time or 100 calls, but 0 ms means the flush happens on the next macrotask instead of
+  after a fixed delay — calls issued synchronously in the same tick (one React commit, one
+  TanStack Query batch) still coalesce into a single `ExecuteMultiCall`. Pass an explicit
+  `queueBufferTime` (e.g. `1500`) to restore the previous behaviour.
+
 ### Notes
 
 - The budget is per client instance. Other clients or browser tabs sharing one session are not
