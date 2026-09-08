@@ -194,6 +194,47 @@ function getTwoUsersInParallel(geotab: Geotab, user1Id: string, user2Id: string)
 }
 ```
 
+# Rate limiting
+
+Geotab admits roughly 1000 API calls per rolling minute per session, and every entry inside an
+`ExecuteMultiCall` counts individually. Exceeding the quota fails the request with an
+`OverLimitException`, and every other caller sharing the session fails with it. To stay under the
+quota the [Geotab](docs/interfaces/Geotab.md) client meters every request it sends against a
+sliding-window budget: a flushed [buffer](#buffering) is charged the number of calls it carries, a
+direct call is charged one, and when the budget is spent the request waits until enough of the
+window has rolled.
+
+Rate limiting is on by default and configurable during initialization of the
+[Geotab](docs/interfaces/Geotab.md) client using the following fields.
+
+- [rateLimit](docs/interfaces/GeotabOptions.md#rateLimit) The budget, or `false` to disable it.
+  - `maxCalls` The number of calls admitted per window. Defaults to `900`, a margin below the
+    real limit.
+  - `windowMs` The length of the rolling window in milliseconds. Defaults to `60000`.
+- [retryOnOverLimit](docs/interfaces/GeotabOptions.md#retryOnOverLimit) The number of extra
+  attempts after a call fails with an `OverLimitException`.
+  - Defaults to `1`. Each retry waits for a full window first and is charged against the budget
+    again. A successful retry is transparent to the caller; once the retries are spent, the
+    original [GeotabError](docs/classes/GeotabError.md) is thrown.
+  - Setting this value to `0` disables retries.
+- [maxConcurrentFlushes](docs/interfaces/GeotabOptions.md#maxConcurrentFlushes) The maximum number
+  of `ExecuteMultiCall` requests in flight at once.
+  - Defaults to unlimited.
+
+```typescript
+import { createGeotab } from "@fairfleet/geotab";
+
+const geotab = createGeotab({
+  credentials,
+  rateLimit: { maxCalls: 900, windowMs: 60_000 },
+  retryOnOverLimit: 1,
+});
+```
+
+The budget is kept per client instance. Other clients or browser tabs sharing the same session
+spend from the same server-side quota without being visible to it, which is why the default
+`maxCalls` leaves a margin. Use `isOverLimitError` to recognise the quota error in your own code.
+
 # Tidbits
 
 ## KnownIds

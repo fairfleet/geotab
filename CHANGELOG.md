@@ -1,5 +1,26 @@
 # Changelog
 
+## 3.1.0 — 2026-09-08
+
+### Added
+
+- Built-in rate limiting against Geotab's quota of 1000 calls per rolling minute. Every request
+  leaving the client is charged against a sliding-window budget (one call per `ExecuteMultiCall`
+  entry) and waits for the window to roll when the budget is spent. On by default with
+  `{ maxCalls: 900, windowMs: 60000 }`; configurable via the new `rateLimit` option, `false`
+  disables it.
+- `retryOnOverLimit` option (default `1`): retries a call that failed with an `OverLimitException`
+  after waiting out a full window. The retry is charged against the budget again; the original
+  `GeotabError` surfaces once the retries are spent.
+- `maxConcurrentFlushes` option: caps the number of `ExecuteMultiCall` requests in flight.
+- `isOverLimitError()` export to recognise the quota error by its JSON-RPC `data.type` or message.
+- `RateLimitOptions` type.
+
+### Notes
+
+- The budget is per client instance. Other clients or browser tabs sharing one session are not
+  visible to it.
+
 ## 3.0.0 — 2026-06-17
 
 ### Changed
