@@ -188,8 +188,16 @@ function createGate(max: number) {
   };
 
   function park(signal?: AbortSignal) {
+    if (signal === undefined) {
+      return new Promise<void>((resolve) => waiters.push(resolve));
+    }
+
+    return parkAbortable(signal);
+  }
+
+  function parkAbortable(signal: AbortSignal) {
     return new Promise<void>((resolve, reject) => {
-      if (signal?.aborted) {
+      if (signal.aborted) {
         reject(abortError(signal));
         return;
       }
@@ -199,15 +207,15 @@ function createGate(max: number) {
         if (index >= 0) {
           waiters.splice(index, 1);
         }
-        reject(abortError(signal as AbortSignal));
+        reject(abortError(signal));
       };
 
       const admit = () => {
-        signal?.removeEventListener("abort", onAbort);
+        signal.removeEventListener("abort", onAbort);
         resolve();
       };
 
-      signal?.addEventListener("abort", onAbort, { once: true });
+      signal.addEventListener("abort", onAbort, { once: true });
       waiters.push(admit);
     });
   }
