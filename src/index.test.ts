@@ -82,6 +82,61 @@ test("Calls GetCountOf", async () => {
   );
 });
 
+test("Calls GetCountOf with the signal as the second argument", async () => {
+  const controller = new AbortController();
+  await geotab.getCountOf("Device", controller.signal);
+
+  const call = fn.mock.calls[0][0];
+  expect(call.method).toBe("GetCountOf");
+  expect(call.params).toStrictEqual({ typeName: "Device" });
+  expect(call.signal).toBe(controller.signal);
+});
+
+test("Calls GetCountOf with a search", async () => {
+  await geotab.getCountOf("Device", { groups: [{ id: "b7D11" }] });
+
+  const call = fn.mock.calls[0][0];
+  expect(call.method).toBe("GetCountOf");
+  expect(call.params).toStrictEqual({
+    typeName: "Device",
+    search: { groups: [{ id: "b7D11" }] },
+  });
+});
+
+test("Calls GetCountOf with a search and a signal", async () => {
+  const controller = new AbortController();
+  await geotab.getCountOf("Device", { groups: [{ id: "b7D11" }] }, controller.signal);
+
+  const call = fn.mock.calls[0][0];
+  expect(call.params).toStrictEqual({
+    typeName: "Device",
+    search: { groups: [{ id: "b7D11" }] },
+  });
+  expect(call.signal).toBe(controller.signal);
+});
+
+test("Calls GetCountOf without a search key when the search is undefined", async () => {
+  const controller = new AbortController();
+  await geotab.getCountOf("Device", undefined, controller.signal);
+
+  const call = fn.mock.calls[0][0];
+  expect(call.params).toStrictEqual({ typeName: "Device" });
+  expect(call.signal).toBe(controller.signal);
+});
+
+test("Types GetCountOf search by the entity's search type", () => {
+  // Compile-time only: vitest strips types, so these assertions are enforced by
+    // `pnpm typecheck` (tsc --noEmit), not by the test run. The calls never run.
+  const typeOnly = () => {
+    geotab.getCountOf("Device", { groups: [{ id: "b7D11" }] });
+    // @ts-expect-error -- `nope` is not a DeviceSearch property
+    geotab.getCountOf("Device", { nope: true });
+    // @ts-expect-error -- a signal cannot be passed twice
+    geotab.getCountOf("Device", new AbortController().signal, new AbortController().signal);
+  };
+  expect(typeOnly).toBeTypeOf("function");
+});
+
 test("Calls GetFeed", async () => {
   await geotab.getFeed("Device", { name: "Test" }, "0xdead", 10);
 

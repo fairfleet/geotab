@@ -44,8 +44,15 @@ export function createGeotab(options: GeotabOptions = {}) {
       return this.call("GetAddresses", { coordinates, hosAddresses, movingAddresses }, signal);
     },
 
-    getCountOf(typeName, signal?) {
-      return this.call("GetCountOf", { typeName }, signal);
+    getCountOf(typeName: string, searchOrSignal?: object, signal?: AbortSignal) {
+      // Backwards compatible with getCountOf(typeName, signal): a signal in the second slot is
+      // not a search.
+      if (isAbortSignal(searchOrSignal)) {
+        return this.call("GetCountOf", { typeName }, searchOrSignal);
+      }
+      const params =
+        searchOrSignal === undefined ? { typeName } : { typeName, search: searchOrSignal };
+      return this.call("GetCountOf", params, signal);
     },
 
     getFeed(typeName, search, fromVersion, resultsLimit, signal) {
@@ -68,4 +75,17 @@ export function createGeotab(options: GeotabOptions = {}) {
       return this.call("Set", { typeName, entity });
     },
   } as Geotab;
+}
+
+/**
+ * Duck-typed so signals from another realm (iframe, polyfill) are still recognised; no search
+ * type has both an `aborted` flag and `addEventListener`.
+ */
+function isAbortSignal(value: unknown): value is AbortSignal {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    typeof (value as AbortSignal).aborted === "boolean" &&
+    typeof (value as AbortSignal).addEventListener === "function"
+  );
 }
