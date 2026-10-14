@@ -105,7 +105,7 @@ export interface Geotab {
   ): Promise<ReverseGeocodeAddress[]>;
 
   /**
-   * Gets the number of of entities in the database.
+   * Gets the number of entities in the database.
    *
    * @param typeName The name of the entity type.
    * @param signal - The optional abort signal.
@@ -113,6 +113,34 @@ export interface Geotab {
    */
   getCountOf<TType extends keyof EntityTypes>(
     typeName: TType,
+    signal?: AbortSignal
+  ): Promise<number>;
+
+  /**
+   * Gets the number of entities in the database that match the supplied search criteria.
+   *
+   * @remarks
+   *
+   * The `search` parameter is not part of the documented `GetCountOf` signature
+   * (https://developers.geotab.com/myGeotab/apiReference/methods/GetCountOf lists only
+   * `typeName`), but the server honours it. Verified live on 2026-10-14 in the MyGeotab API
+   * Runner: `GetCountOf` for `Device` returned 9078 without a search, 33 with a
+   * `DeviceSearch.groups` filter (matching the length of a `Get` with the same search), and 7341
+   * with `DeviceSearch.fromDate` set to now. Only those two `DeviceSearch` properties have been
+   * verified; other search types and properties may be ignored by the server, so check the count
+   * against a `Get` before relying on them.
+   *
+   * When `search` is `undefined` the request is sent without it, identical to
+   * `getCountOf(typeName, signal)`.
+   *
+   * @param typeName The name of the entity type.
+   * @param search The search criteria to use.
+   * @param signal - The optional abort signal.
+   * @returns The number of entities in the database matching the search criteria.
+   */
+  getCountOf<TType extends keyof EntityTypes & keyof SearchTypes>(
+    typeName: TType,
+    search: O.Partial<SearchTypes[TType], "deep"> | undefined,
     signal?: AbortSignal
   ): Promise<number>;
 

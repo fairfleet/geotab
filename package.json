@@ -25,6 +25,7 @@
     "test": "vitest --dir \"src\"",
     "bench": "vitest bench --dir \"src\"",
     "lint": "eslint --ext .ts,.tsx .",
+    "typecheck": "tsc --noEmit",
     "test:examples": "vitest \"examples/src/\"",
     "build": "pnpm build:types && pnpm build:vite && pnpm build:copy-files && pnpm build:docs",
     "build:docs": "typedoc --plugin typedoc-plugin-markdown",
